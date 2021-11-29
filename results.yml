@@ -191,19 +191,19 @@ translations:
     ###########################################################################
 
     # heatmaps
-    - key: blocks.tools_company_size_heatmap.title
+    - key: blocks.tools_company_size_heatmap
       t: Використання за розміром компанії
     - key: blocks.tools_company_size_heatmap.description
       t: |
         Рівень розподілу використання кожної технології в залежності від розмірів компанії.
 
-    - key: blocks.tools_yearly_salary_heatmap.title
+    - key: blocks.tools_yearly_salary_heatmap
       t: Використання за розміром зарплати
     - key: blocks.tools_yearly_salary_heatmap.description
       t: |
         Рівень розподілу використання кожної технології в залежності від розмірів зарплати.
 
-    - key: blocks.tools_years_of_experience_heatmap.title
+    - key: blocks.tools_years_of_experience_heatmap
       t: Використання за кількістю досвіду
     - key: blocks.tools_years_of_experience_heatmap.description
       t: |
@@ -217,7 +217,7 @@ translations:
       t: GitHub
 
     # tools quadrant
-    - key: blocks.tools_quadrant.title
+    - key: blocks.tools_quadrant
       t: Порівняння задоволеності і використання
     - key: blocks.tools_quadrant.description
       t: |
@@ -240,19 +240,19 @@ translations:
         (Майте на увазі, низька кількість користувачів може бути через те, що технологія або не дуже добре відома, або її вже багато хто використовує.)
 
     # category other tools
-    - key: blocks.category_other_tools.title
+    - key: blocks.category_other_tools
       t: Інші інструменти
     - key: blocks.category_other_tools.description
       t: Інші інструменти в цій категорії (відповіді у вільній формі).
 
     # tool experience
-    - key: blocks.tool_experience.title
+    - key: blocks.tool_experience
       t: '{name} Досвід роботи'
     - key: blocks.tool_experience.description
       t: Досвід учасника опитування з {name}.
 
     # tool positive/negative split ("marimekko" chart)
-    - key: blocks.tools_experience_marimekko.title
+    - key: blocks.tools_experience_marimekko
       t: Сравнение положительных и негативных ответов
     - key: blocks.tools_experience_marimekko.description
       t: |
@@ -261,7 +261,7 @@ translations:
           Ширина стовпця являє собою кількість респондентів, знайомих з розглянутою технологією.
 
     # tools section streams
-    - key: blocks.tools_section_streams.title
+    - key: blocks.tools_section_streams
       t: Досвід роботи
     - key: blocks.tools_section_streams.description
       t: |
@@ -271,14 +271,14 @@ translations:
         Не враховуються технології, дані по яких є тільки за один рік.
 
     # tools section overview
-    - key: blocks.tools_section_overview.title
+    - key: blocks.tools_section_overview
       t: Загальний огляд
     - key: blocks.tools_section_overview.description
       t: |
         Аналіз відповідей по досліджуваним технологіям. Темні сегменти відповідають позитивним оцінкам, тоді як світлі - негативним.
 
     # tools experience ranking
-    - key: blocks.tools_experience_ranking.title
+    - key: blocks.tools_experience_ranking
       t: Загальні показники
     - key: blocks.tools_experience_ranking.description
       t: Відсоток задоволеності, зацікавленості, використання, впізнаваності.
@@ -291,7 +291,7 @@ translations:
           - Впізнаваність: різниця між кількістю відповідей за впізнаваністю та кількістю відповідей за варіант відповіді **Вперше чую**.
 
     # happiness
-    - key: blocks.happiness.title
+    - key: blocks.happiness
       t: Загальний показник задоволеності
     - key: blocks.happiness.description
       t: |
@@ -299,7 +299,7 @@ translations:
         наскільки задоволені розробники поточним станом цієї категорії?
 
     # newsletter
-    - key: blocks.newsletter.title
+    - key: blocks.newsletter
       t: Будьте на зв'язку
     - key: blocks.newsletter.description
       t: |
@@ -310,7 +310,7 @@ translations:
       t: Повідомити мені
 
     # features_overview
-    - key: blocks.features_overview.title
+    - key: blocks.features_overview
       t: Аналіз використання
     - key: blocks.features_overview.description
       t: |
@@ -334,7 +334,7 @@ translations:
         Ви можете скопіювати цей запит, щоб виконати його в <a target="_blank" rel="nofollow" href="http://graphiql.stateofjs.com/">публічному API-сервері GraphQL</a>.
 
     # Tools usage variations
-    - key: blocks.tools_usage_variations.title
+    - key: blocks.tools_usage_variations
       t: Відмінності використання
     - key: blocks.tools_usage_variations.description
       t: |
@@ -349,7 +349,7 @@ translations:
         Майте на увазі, що інструменти, які в цілому найменше використовуються, як правило, найсильніше розрізняються.
 
     # Recommended Resources
-    - key: blocks.recommended_resources.title
+    - key: blocks.recommended_resources
       t: Рекомендовані ресурси
 
     ###########################################################################
