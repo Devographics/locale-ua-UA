@@ -299,7 +299,7 @@ translations:
         наскільки задоволені розробники поточним станом цієї категорії?
 
     # newsletter
-    - key: blocks.newsletter
+    - key: blocks.newsletter.title
       t: Будьте на зв'язку
     - key: blocks.newsletter.description
       t: |
