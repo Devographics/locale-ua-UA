@@ -97,31 +97,16 @@ translations:
     # syntax
     - key: features.destructuring
       t: Деструктуризація
-    - key: features.destructuring.description
-      t: 'Приклад: `const { foo } = bar`'
     - key: features.spread_operator
       t: Оператор розширення
-    - key: features.spread_operator.description
-      t: 'Приклад: `[...array1, ...array2]`'
     - key: features.arrow_functions
       t: Стрілочні функції
-    - key: features.arrow_functions.description
-      t: 'Приклад: `const foo = () => {}`'
     - key: features.nullish_coalescing
       t: Оператор об'єднання з null
-    - key: features.nullish_coalescing.description
-      t: >
-        Приклад: `const foo = 0 ?? 42`
     - key: features.optional_chaining
       t: Опціональий ланцюг
-    - key: features.optional_chaining.description
-      t: >
-        Приклад: `const dogName = adventurer.dog?.name`
     - key: features.private_fields
       t: Приватні поля
-    - key: features.private_fields.description
-      t: >
-        Приклад: `class ClassWithPrivateField { #privateField }`
 
     # language
     - key: features.proxies
@@ -138,9 +123,6 @@ translations:
           один фрагмент коду іншим, буквально "декоруючи" його.
     - key: features.dynamic_import
       t: Динамічний імпорт
-    - key: features.dynamic_import.description
-      t: >
-        Приклад: <code>await import('/modules/my-module.js')</code>
 
     # data structures
     - key: features.maps
