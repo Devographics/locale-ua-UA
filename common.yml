@@ -46,7 +46,7 @@ translations:
     - key: general.preview_survey
       t: Попередній перегляд опитування »
     - key: general.finish_survey
-      t: Завершити опитування »
+      t: Завершити опитування
     - key: general.survey_closed
       t: Опитування вже закрите.
     - key: general.survey_results
