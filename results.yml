@@ -331,7 +331,7 @@ translations:
       t: На жаль, експорт в CSV недоступний для цього набору даних.
     - key: export.graphql
       t: >
-        Ви можете скопіювати цей запит, щоб виконати його в <a target="_blank" rel="nofollow" href="http://graphiql.stateofjs.com/">публічному API-сервері GraphQL</a>.
+        Ви можете скопіювати цей запит, щоб виконати його в <a target="_blank" rel="nofollow" href="https://graphiql.devographics.com/">публічному API-сервері GraphQL</a>.
 
     # Tools usage variations
     - key: blocks.tools_usage_variations
