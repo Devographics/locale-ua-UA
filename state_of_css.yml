@@ -25,7 +25,7 @@ translations:
   ###########################################################################
 
   - key: sections.layout.title
-    t: Ррозкладка
+    t: Розкладка
   - key: sections.layout.description
     t: Як ви маєте в своєму розпорядженні елементи на сторінці?
 
@@ -40,7 +40,7 @@ translations:
     t: Контроль взаємодії користувача зі сторінкою.
 
   - key: sections.typography.title
-    t: Типографіка
+    t: Типографія
   - key: sections.typography.description
     t: Параметри і форматування тексту.
 
@@ -48,6 +48,11 @@ translations:
     t: Анімації та трансформації
   - key: sections.animations_transforms.description
     t: Анімація і трансформація елементів.
+
+  - key: sections.accessibility.title
+    t: Доступність
+  - key: sections.accessibility.description
+    t: Можливості та техніки доступності.
 
   - key: sections.media_queries.title
     t: Медіавирази
@@ -63,6 +68,11 @@ translations:
     t: Одиниці виміру та селектори
   - key: sections.units_selectors.description
     t: Перевірте свої знання одиниць виміру і селекторів CSS.
+
+  - key: sections.colors.title
+    t: Кольори
+  - key: sections.colors.description
+    t: Можливості, що пов'язані з кольорами.
 
   - key: sections.pre_post_processors.title
     t: Пре/Постпроцесори
@@ -164,9 +174,9 @@ translations:
   # layout
 
   - key: features.grid
-    t: Грид CSS
+    t: Ґрід CSS (СSS Grid)
   - key: features.subgrid
-    t: Сабгрид
+    t: Сабґрід (Subgrid)
   - key: features.regions
     t: CSS-області (CSS Regions)
   - key: features.flexbox
@@ -182,7 +192,7 @@ translations:
   - key: features.logical_properties
     t: Логічні властивості
   - key: features.logical_properties.description
-    t: <code>margin-block-start</code>, <code>padding-inline-end</code> и т.д.
+    t: <code>margin-block-start</code>, <code>padding-inline-end</code> і т.д.
   - key: features.aspect_ratio
     t: <code>aspect-ratio</code>
   - key: features.content_visibility
