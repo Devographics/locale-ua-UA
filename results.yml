@@ -90,9 +90,18 @@ translations:
 
     - key: sections.technologies.title
       t: Технології
+      
+    - key: sections.libraries.title
+      t: Бібліотеки
 
     - key: sections.conclusion.title
       t: Висновок
+
+    - key: sections.about.title
+      t: Про нас
+
+    - key: sections.how_to_help.title
+      t: Як допомогти
 
     - key: sections.support.title
       t: Підтримайте нас
@@ -102,6 +111,12 @@ translations:
         Це волонтерський проект, але для того, щоб зробити його стійким,
         ми завжди шукаємо партнерів, які можуть надати нам фінансову підтримку або допомогти поширити інформацію.
         Якщо ви хочете допомогти нам, то, будь ласка, не соромтеся [зв'язатися з нами] (mailto: hello@stateofjs.com)!
+
+    - key: sections.awards.title
+      t: Нагороди
+
+    - key: sections.awards.description
+      t: Речі, які виділяються цього року.
 
     ###########################################################################
     # User Info
