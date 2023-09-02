@@ -453,7 +453,7 @@ translations:
     - key: options.gender.male
       t: Чоловік
     - key: options.gender.non_binary
-      t: Небінарний/Третого полу
+      t: Небінарний/Третьої статі
     - key: options.gender.prefer_not_to_say
       t: Неважливо
 
@@ -701,10 +701,10 @@ translations:
 
     # podcasts
     - key: resources.podcasts
-      t: Підкасти
+      t: Подкасти
     - key: resources.podcasts.description
-      t: Які підкасти з програмування ви слухаєте?
+      t: Які подкасти з програмування ви слухаєте?
     - key: resources.podcasts.others
-      t: Інші підкасти
+      t: Інші подкасти
     - key: resources.podcasts.others.description
       t: Інші відповіді (поле з вільною формою відповіді).
