@@ -273,7 +273,9 @@ translations:
   - key: readinglist.email_sent
     t: Дякуємо! Ваш список для читання невдовзі буден на вашій електронній пошті.
 
-###########################################################################
+  ###########################################################################
+  # Score & Knowledge Ranks
+  ###########################################################################
 
   - key: knowledge_rank.your_rank
     t: "Ваш ранг:"
@@ -314,16 +316,17 @@ translations:
       Тому знову прийшов час дослідити екосистему CSS та з'ясувати,
       куди це все йде. І можливо дізнатися про декілька нових речей поки ви тут!
 
- - key: general.js2021.survey_intro
+  - key: general.js2021.survey_intro
     t: |
-      Спочатку Олімпіаду 2020 перенесли на 2021, а зараз опитування "Стан JavaScript 2021" відбувається в 2022 році!
+      First the 2020 Olympics got pushed back to 2021,
+      and now the 2021 State of JavaScript survey is happening now, in 2022!
 
-      Це правда: між роботою, сім'єю і всіми подіями у світі,
-      деякі речі були трохи порушені.
+      It's true: between work, family, and and all the turmoil in the world,
+      some things got disrupted a little.
 
-      Але, незважаючи на рік відсутності, ми сподіваємося, що дані з
-      опитування будуть такими ж корисними і глибокими, як завжди.
-      І не хвилюйтеся, в кінці цього року буде ще одне опитування, щоб все виправити!
+      But while the year may be off-by-one, we hope the data provided by the
+      survey itself will be just as informative and insightful as ever.
+      And don't worry, there will be another survey towards the end of this year to set things straight again!
 
   - key: general.graphql2022.survey_intro
     t: |
