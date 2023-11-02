@@ -610,9 +610,11 @@ translations:
   - key: options.new_features_offscreen_rendering.description
     t: Рендеринг екранів у фоновому режимі без додаткових витрат на продуктивність.
   - key: options.new_features.use_hook
-    t: Хук `use`
+    t: > 
+      Хук `use`
   - key: options.new_features.use_hook.description
-    t: `use` розпаковує значення promise, але його можна використовувати у звичайних компонентах та хуках, включаючи клієнта.
+    t: > 
+     `use` розпаковує значення promise, але його можна використовувати у звичайних компонентах та хуках, включаючи клієнта.
 
   - key: options.new_features.transition_tracing
     t: Відслідковування переходів
