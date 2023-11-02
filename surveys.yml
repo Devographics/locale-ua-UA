@@ -196,7 +196,7 @@ translations:
   - key: bracket.start_over
     t: Почати спочатку
   - key: bracket.winner
-    t: Переможець:
+    t: Переможець
   - key: bracket.round
     t: Раунд
   - key: bracket.empty_bracket

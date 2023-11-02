@@ -465,7 +465,7 @@ translations:
   - key: options.react_pain_points.css_styling
     t: CSS та стилізація
   - key: options.react_pain_points.attribute_names
-    t: "Неправильні" назви атрибутів, такі як `className`, `htmlFor` тощо.
+    t: Неправильні назви атрибутів, такі як className, htmlFor тощо
   - key: options.react_pain_points.synthetic_events
     t: Синтетичні події
   - key: options.react_pain_points.ref_management
