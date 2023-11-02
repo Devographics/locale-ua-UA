@@ -82,9 +82,9 @@ translations:
     t: Менше ніж рік
 
   - key: years.years
-    t: years
+    t: роки
 
-   - key: likert.option.0
+  - key: likert.option.0
     t: Дуже незадоволений
   - key: likert.option.1
     t: Незадоволений
