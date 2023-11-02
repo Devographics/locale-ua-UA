@@ -1,8 +1,582 @@
 locale: ua-UA
 translations:
-    ###########################################################################
-    # General
-    ###########################################################################
+  ###########################################################################
+  # General
+  ###########################################################################
 
-    - key: general.no_preview_surveys
-      t: Немає опитувань для попереднього перегляду.
+  - key: general.title
+    t: Опитування Devographics
+  - key: general.description
+    t: Стан JavaScript, Стан CSS, Стан HTML та інші опитування розробників.
+  - key: general.no_preview_surveys
+    t: Немає опитувань для попереднього перегляду
+  - key: general.global_nav
+    t: Глобальне
+  - key: general.survey_status_preview
+    t: Передогляд
+  - key: general.survey_status_open
+    t: Відкрите
+  - key: general.survey_status_closed
+    t: Закрите
+  - key: general.survey_status_hidden
+    t: Приховане
+  - key: general.pick_up_to
+    t: Оберіть до {limit} предметів.
+  - key: general.privacy_policy
+    t: Політика конфіденційності
+  - key: general.privacy_policy.description
+    t: >
+      ### 1. Збір даних
+
+      Додатково до даних, зібраних за допомогою питань опитування, ми збираємо інформацію про ваш пристрій, браузер, ОС, версію браузера та джерело переходу.
+
+      Зверніть увагу, що всі питання є повністю необов'язковими, і ми ніколи не пов'язуємо жодної ідентифікаційної інформації (такої як електронні адреси) з вашими відповідями на опитування.
+
+      ### 2. Збір електронних адрес
+
+      Ми можемо необов'язково збирати вашу електронну адресу для:
+
+      1. Генерації магічного посилання для входу, після чого ми видаляємо вашу електронну адресу і зберігаємо лише хеш в нашій базі даних користувачів.
+
+      2. Зв'язку з вами, коли результати опитування стануть доступними, а також коли ми запускаємо нові версії опитування та рідкісні анонси. Ви можете відписатися від нашого списку розсилки в будь-який час, і ваша електронна адреса видаляється з наших записів після її відправлення нашому постачальнику послуг розсилки.
+
+      3. Відправлення вам списку функцій або інструментів, про які ви хочете дізнатися більше. Ми видалимо вашу адресу після відправки листа через нашого постачальника транзакційної електронної пошти.
+
+      Коли ми збираємо вашу електронну адресу, вона ніколи не пов'язана з вашими відповідями на опитування або з вашим обліковим записом користувача.
+
+      ### 3. Кукі (Cookies)
+
+      Ми встановлюємо кукі для входу, і наш постачальник хостингу (Vercel) також може встановлювати свої кукі. Ми не встановлюємо жодних інших кукі або не використовуємо клієнтську аналітику або рекламу.
+
+      ### 4. Використання даних
+
+      Ми обробляємо дані, а потім використовуємо їх для публікації звітів. Ми також робимо весь набір даних відкритим для загального доступу.
+
+      ### 5. Видалення даних/облікового запису
+
+      Ви можете надіслати нам електронний лист на [hello@stateofjs.com](mailto:hello@stateofjs.com), якщо хочете, щоб ми видалили всі або частину ваших даних.
+
+  ###########################################################################
+  # Other UI Strings
+  ###########################################################################
+
+  - key: textlist.placeholder
+    t: Елемент {index}…
+
+  - key: feature.unimplemented
+    t: Імплементація у браузері відсутня
+
+  - key: general.skip_question
+    t: Пропустити
+
+  - key: general.unskip_question
+    t: Відповісти на питання
+
+  - key: general.skip_question.description
+    t: Пропустити питання та позначити його як завершене
+
+  - key: general.unskip_question.description
+    t: Скасувати пропуск питання та відповісти на нього
+
+  - key: years.less_than_one_year
+    t: Менше ніж рік
+
+  - key: years.years
+    t: years
+
+   - key: likert.option.0
+    t: Дуже незадоволений
+  - key: likert.option.1
+    t: Незадоволений
+  - key: likert.option.2
+    t: Нейтральний
+  - key: likert.option.3
+    t: Задоволений
+  - key: likert.option.4
+    t: Дуже задоволений
+
+  - key: general.numeric_input.invalid_input
+    t: Будь ласка, переконайтеся, що ви ввели дійсне число.
+
+  ###########################################################################
+  # Errors & Messages
+  ###########################################################################
+
+  - key: error.duplicate_response
+    t: Вибачте, у вас вже є активна сесія для цього опитування.
+
+  - key: error.report_issue
+    t: Повідомити про проблему
+
+  - key: success.data_saved
+    t: Дані збережено
+  - key: success.data_saved.description
+    t: Ваші дані було збережено.
+
+  ###########################################################################
+  # Accounts
+  ###########################################################################
+
+  - key: accounts.create_account
+    t: Продовжити з обліковим записом
+  - key: accounts.create_account.description
+    t: Наявність облікового запис дозволяє вам **отримати доступ до ваших даних у майбутньому** та отримувати сповіщення, коли результати опитування будуть опубліковані.
+  - key: accounts.create_account.note
+    t: Якщо у вас **вже є обліковий запис**, ми надішлемо вам магічне посилання для входу на електронну пошту.
+  - key: accounts.create_account.action
+    t: Продовжити з обліковим записом
+  - key: accounts.your_email
+    t: Ваша електронна пошта
+
+  - key: accounts.upgrade_account.action
+    t: Оновіть свій обліковий запис
+  - key: accounts.upgrade_account.description
+    t: Оновлення вашого облікового запису з адресою електронної пошти дозволить вам отримувати доступ до вашої відповіді в опитуванні після завершення сеансу.
+
+  - key: accounts.continue_as_guest
+    t: Продовжити як гість
+  - key: accounts.continue_as_guest.description
+    t: Проведення опитування анонімно означає, що ви **не зможете знову отримати доступ до своїх даних** після завершення вашого сеансу.
+  - key: accounts.continue_as_guest.action
+    t: Продовжити як гість
+
+  - key: accounts.magic_link.no_email
+    t: Будь ласка, введіть свою електронну адресу
+  - key: accounts.magic_link.success
+    t: Перевірте свою поштову скриньку! Ми надіслали вам магічне посилання, просто натисніть на нього, щоб підтвердити свій обліковий запис та увійти.
+  - key: accounts.magic_link.browser
+    t: <a href="{link}">Натисніть, щоб відкрити свою поштову скриньку.</a>
+
+  ###########################################################################
+  # FAQ
+  ###########################################################################
+
+  - key: general.faq
+    t: Питання та Відповіді
+  - key: faq.create_account
+    t: Навіщо мені створювати обліковий запис?
+  - key: faq.create_account.description
+    t: Ми просимо вас створити обліковий запис, щоб уникнути дублювання відповідей, зберегти ваші дані та повідомити вас, коли результати будуть опубліковані.
+  - key: faq.anonymous_survey
+    t: Чи можу я проходити опитування анонімно?
+  - key: faq.anonymous_survey.description
+    t: Так, ви можете використовувати фальшиву (something@example.com) або невказуючу електронну адресу для проходження опитування, якщо збережете її для майбутнього доступу.
+  - key: faq.questions_required
+    t: Чи обов'язково відповідати на кожне питання?
+  - key: faq.questions_required.description
+    t: Ні, кожне питання опитування є необов'язковим і може бути вільно пропущено.
+  - key: faq.data_published
+    t: Чи будуть мої дані оприлюднені?
+  - key: faq.data_published.description
+    t: Так, всі дані будуть оприлюднені після видалення будь-якої ідентифікаційної інформації (електронні адреси, імена користувачів, ID тощо).
+  - key: faq.survey_design
+    t: Як розробляються опитування?
+  - key: faq.survey_design.description
+    t: Опитування розробляються на основі відгуків спільноти, а також перевіряються експертами. Ви можете [дізнатися більше тут](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb).
+  - key: faq.results_released
+    t: Коли будуть опубліковані результати?
+  - key: faq.results_released.description
+    t: Результати, як правило, публікуються за кілька тижнів після закриття опитування.
+  - key: faq.survey_deadline
+    t: Коли опитування закривається?
+  - key: faq.survey_deadline.description
+    t: Це опитування заплановане до {date}
+  - key: faq.team
+    t: Хто проводить це опитування?
+  - key: faq.team.description
+    t: Це опитування проводить [Devographics](http://devographics.com) разом з колективом учасників, перекладачів та волонтерів.
+
+
+  ###########################################################################
+  # Form Controls
+  ###########################################################################
+
+  - key: bracket.vs
+    t: ПРОТИ
+  - key: bracket.start_over
+    t: Почати спочатку
+  - key: bracket.winner
+    t: Переможець:
+  - key: bracket.round
+    t: Раунд
+  - key: bracket.empty_bracket
+    t: Очікуваний результат (спочатку завершіть попередній раунд)
+  - key: bracket.result
+    t: Результат
+  - key: bracket.cancel
+    t: Скасувати
+
+  - key: experience.leave_comment
+    t: Залиште коментар (необов'язково)
+  - key: experience.leave_comment_short
+    t: Залиште коментар
+  - key: experience.tell_us_more
+    t: "Ви відповіли “{response}”. Розкажіть нам більше про ваш вибір:"
+  - key: experience.tell_us_more_generic
+    t: "Розкажіть нам більше про вашу відповідь:"
+  - key: experience.tell_us_more_no_value
+    t: "Ви не обрали жодну відповідь. Розкажіть нам, чому:"
+
+
+  ###########################################################################
+  # Response
+  ###########################################################################
+
+  - key: response.completion
+    t: "{completion}% завершено"
+
+  - key: response.details
+    t: Розпочато {startedAt}, {completion}% завершено.
+
+  ###########################################################################
+  # Reading List
+  ###########################################################################
+
+  - key: readinglist.prompt
+    t: "Ви вибрали “{option}”. Якщо бажаєте дізнатися більше про цю функцію наприкінці опитування, натисніть на значок "+" вище, щоб додати його до вашого **списку для читання**."
+
+  - key: readinglist.add_to_list
+    t: Додати до вашого списку для читання
+
+  - key: readinglist.remove_from_list
+    t: Видалити зі списку для читання
+
+  - key: readinglist.added_to_list
+    t: “{label}” додано до вашого списку для читання.
+
+  - key: readinglist.title
+    t: Список для читання
+
+  - key: readinglist.description
+    t: "Зберігайте елементи тут за допомогою кнопки "+", і в кінці опитування ви отримаєте список посилань, щоб дізнатися більше про них."
+
+  - key: readinglist.empty
+    t: "У вашому списку для читання немає елементів. Спробуйте повернутися до опитування та додати функції або бібліотеки, про які ви хочете дізнатися більше, за допомогою кнопки "+"."
+
+  - key: readinglist.results
+    t: "Ось деякі ресурси, щоб дізнатися більше про елементи у вашому списку для читання:"
+
+  - key: readinglist.homepage_link
+    t: Головна сторінка
+
+  - key: readinglist.receive_copy
+    t: "Введіть свою електронну адресу, щоб отримати копію вашого списку для читання прямо у вашій електронній пошті:"
+
+  - key: readinglist.send_by_email
+    t: Надіслати
+
+  - key: readinglist.email_sent
+    t: Дякуємо! Ваш список для читання невдовзі буден на вашій електронній пошті.
+
+###########################################################################
+
+  - key: knowledge_rank.your_rank
+    t: "Ваш ранг:"
+
+  - key: knowledge_rank.rank1
+    t: Початківець
+
+  - key: knowledge_rank.rank2
+    t: Учень
+
+  - key: knowledge_rank.rank3
+    t: Середній рівень
+
+  - key: knowledge_rank.rank4
+    t: Експерт
+
+  - key: knowledge_rank.rank5
+    t: Учений
+
+  - key: knowledge_rank.rank6
+    t: Еліта
+
+
+  ###########################################################################
+  # Survey-Specific Intros
+  ###########################################################################
+
+  - key: general.js2020.survey_intro
+    t: |
+      2020 рік був важким для всіх, що робить турботи про
+      найновіші фреймворки JavaScript досить марними в порівнянні.
+
+      Та все одно, світ має рухатися далі, і так само JavaScript. І знову, з вашою допомогою
+      ми спробуємо створити повне уявлення про екосистему, щоб з'ясувати трохи більше
+      куди вона рухається.
+
+  - key: general.css2021.survey_intro
+    t: |
+      Якщо звернутися до CSS: що ти останнім часом робив? Справді, `@container`? А що
+      щодо внутрішнього розміру? І `@property` також?! Вау, ти був зайнятий!
+
+      Незважаючи на те, що пандемія продовжувала ускладнювати життя всіх у 2021 році, якимось чином
+      прихильники з усього світу продовжували рухати CSS вперед.
+      Тому знову прийшов час дослідити екосистему CSS та з'ясувати,
+      куди це все йде. І можливо дізнатися про декілька нових речей поки ви тут!
+
+ - key: general.js2021.survey_intro
+    t: |
+      Спочатку Олімпіаду 2020 перенесли на 2021,
+      а зараз опитування "Стан JavaScript 2021" відбувається в 2022 році!
+
+      Це правда: між роботою, сім'єю і всіми подіями у світі,
+      деякі речі були трохи порушені.
+
+      Але, незважаючи на рік відсутності, ми сподіваємося, що дані з
+      опитування будуть такими ж корисними і глибокими, як завжди.
+      І не хвилюйтеся, в кінці цього року буде ще одне опитування, щоб все виправити!
+
+  - key: general.graphql2022.survey_intro
+    t: |
+      Коли вперше було представлено GraphQL, він пропонував радикально новий спосіб побудови API, з більшим контролем, деталізацією та гнучкістю.
+
+      Але ця гнучкість мала свою ціну у вигляді додаткової складності, і швидко з'явилися фреймворки, бібліотеки та служби, щоб допомогти визначити кращі шаблони та робочі процеси.
+
+      Тепер, вперше, ми проводимо опитування спільноти GraphQL, щоб з'ясувати, які з цих інструментів є найпопулярнішими, і які функції насправді використовуються. З вашою допомогою давайте подивимося, що робив GraphQL у 2022 році!
+ 
+  - key: general.css2022.survey_intro
+    t: |
+      CSS продовжує розвиватися неймовірними темпами. На щастя, цього року нам допомогла людина, що стоїть на передовій всіх цих змін: [Lea Verou](https://lea.verou.me/) взяла на себе провід у виборі питань цього року, з особливим акцентом на висвітлення нових та майбутніх функцій CSS.
+
+      Більше того, результати опитування також допоможуть розробникам браузерів визначити пріоритети своїх планів розвитку та працювати над кращою сумісністю між браузерами.
+
+      З усім цим на увазі давайте подивимося, як розвивався CSS у 2022 році!
+
+  - key: general.js2022.survey_intro
+    t: |
+      Вперше за довгий час здається, що статус-кво в екосистемі JavaScript стає під питання.
+
+      Швидше пакування з Vite, архітектура островів з Astro, відновленість з Qwik... Нові учасники кидають виклик старій гвардії, і результатом є набагато більше захоплення, але й
+      набагато більше невизначеності.
+
+      Отже, ще раз давайте спробуємо разом з'ясувати, куди напрямує JavaScript, у 2022 році та пізніше.
+
+  - key: general.css2023.survey_intro
+    t: |
+      Щоб допомогти вам слідкувати за `:has()`, `@container` та всіма іншими новими функціями CSS, цього року ми представляємо нову функцію: **Reading List**.
+
+      Проходячи опитування, ви зможете додати до закладок будь-яку функцію, яку захочете, і дізнатися про неї більше після надсилання ваших відповідей.
+
+      Цього року [Chen Hui Jing](https://chenhuijing.com/) взяла на себе провід у процесі розробки опитування, опираючись на роботу, зроблену [Lea Verou](https://lea.verou.me/) минулого року. І як завжди, ваша зворотній зв'язок тут відіграє ключову роль у допомозі розробникам браузерів визначити пріоритети своїх планів розвитку та працювати над кращою сумісністю між браузерами.
+
+      З усім цим на увазі давайте подивимося, як розвивався CSS на початку 2023 року!
+
+
+  # Intro for actual survey page
+  - key: general.html2023.survey_intro
+    t: |
+      Поки веб-розробники зосереджуються на JavaScript та CSS, нічого з того, що ми робимо, не було б можливим без HTML, який виступає основою.
+
+      Довго здавалося, що HTML не розвивається, але можливо, речі змінюються.
+      На горизонті з'являються нові елементи, такі як `<selectlist>`, цікаві нові функції, такі як спливаючі вікна, та ряд суміжних API браузера (Web Components, PWAs тощо).
+
+      Цього року [Lea Verou](https://lea.verou.me/) взяла на себе величезне завдання з проведення цього абсолютно нового опитування, від змісту до UX та далі.
+
+      На основі успіху [State of JS](http://stateofjs.com/) та [State of CSS](https://stateofcss.com/), ми представляємо **State of HTML**;
+      останній відсутній елемент, що доповнює трилогію, тому ми можемо відстежувати еволюцію веб-платформи в цілому.
+
+      Переваги для вас:
+      - Результати опитування **використовуються браузерами** та групами стандартів **для визначення пріоритетів розробки**.
+      Ваші відповіді можуть допомогти здійснити реалізацію функцій, які вам цікаві, визначити пріоритети несумісності між браузерами та вирішити прогалини в платформі.
+      - Дізнайтеся про нові та майбутні функції; додайте функції до вашого списку для читання та отримайте список ресурсів в кінці!
+      - Отримайте особистий бал знань та подивіться, як ви порівнюєтеся з іншими респондентами
+
+      Опитування буде відкрите протягом 3 тижнів, але відповіді, внесені **протягом перших 9 днів (до 1 жовтня)**, матимуть набагато більший вплив на Веб,
+      оскільки попередні дані будуть використовуватися для певних зусиль з визначення пріоритетів, які мають дедлайни до того часу.
+
+  - key: general.react2023.survey_intro
+    t: |
+      Як тільки React був вперше представлений, стало зрозуміло, що він стане великою подією для вебу. 
+
+      Адже його використовували для створення Facebook, і, незважаючи на цю дивну річ "JSX", розробники швидко його прийняли. І що навіть більш вражаюче, спільнота дотримувалася концепції компонентів, вводячи такі інструменти, як Redux та GraphQL, які насправді поширювали її далі.
+
+      Але тепер, через 10 років, нещодавно презентовані React Server Components обіцяють стати найбільшою зміною з тих пір... ну, з моменту створення самого React!
+
+      Чи дотримається спільнота цього ще раз? Чи розробники змінять курс на Svelte, Solid, або щось інше?
+
+      Дізнаймося разом із першим опитуванням State of React!
+
+
+  ###########################################################################
+  # Survey-Specific FAQs
+  ###########################################################################
+
+  # CSS
+
+  - key: faq.data_used_css
+    t: How will this data be used?
+  - key: faq.data_used_css.description
+    t: >
+      All data collected will be released openly for any developer or company to consult.
+      Browser vendors also [use this data](https://web.dev/interop-2023/) to prioritize focus areas and inform their roadmaps.
+
+  - key: faq.who_should_take_survey_css
+    t: Who should take this survey?
+  - key: faq.who_should_take_survey_css.description
+    t: >
+      This is an open survey for anybody who writes CSS, whether regularly
+      or occasionally, as part of their job, as a student, or just for fun!
+
+  - key: faq.survey_goals_css
+    t: What is the survey's goal?
+  - key: faq.survey_goals_css.description
+    t: >
+      The survey's goal is to track the evolution of upcoming features and libraries,
+      and help developers decide which new technologies to focus on.
+
+  # CSS 2022
+
+  - key: faq.learn_more_css2022
+    t: Where can I learn more?
+  - key: faq.learn_more_css2022.description
+    t: You can learn more about [last year's survey here](https://2021.stateofcss.com/en-US/about/).
+
+  - key: faq.survey_design_css2022
+    t: How was this survey designed?
+  - key: faq.survey_design_css2022.description
+    t: This year, thanks to a grant from Google's [UI Fund](https://web.dev/ui-fund/), [Lea Verou](https://lea.verou.me/) was able to take the lead and managed the [open survey design process](https://github.com/orgs/Devographics/projects/1/views/1) on GitHub.
+
+  - key: faq.results_released_css2022
+    t: When will the results be released?
+  - key: faq.results_released_css2022.description
+    t: The survey will run until the end of October 2022, and the survey results will be released in early November.
+
+  - key: faq.data_used_css2022
+    t: How will this data be used?
+  - key: faq.data_used_css2022.description
+    t: All data collected will be released publicly. It will then become a resources both for developers, who consult it to inform their technological choices, and browser vendors, who use it to prioritize focus areas and inform their roadmaps.
+
+  # CSS 2023
+
+  - key: faq.how_long_will_survey_take_css2023
+    t: How long will answering the survey take?
+  - key: faq.how_long_will_survey_take_css2023.description
+    t: >
+      Depending on how many questions you answer (all questions can be skipped),
+      filling out the survey should take around 10-15 minutes.
+
+  - key: faq.learn_more_css2023
+    t: Where can I learn more?
+  - key: faq.learn_more_css2023.description
+    t: You can learn more about this survey in [our announcement post](https://dev.to/sachagreif/the-2023-state-of-css-survey-is-now-open-18bk).
+
+  - key: faq.survey_design_css2023
+    t: How was this survey designed?
+  - key: faq.survey_design_css2023.description
+    t: >
+      This year, thanks to a grant from Google's [UI Fund](https://web.dev/ui-fund/),
+      [Chen Hui Jing](https://chenhuijing.com/) was able to help manage the survey's [open design process](https://github.com/Devographics/surveys/issues/84).
+
+  - key: faq.results_released_css2023
+    t: When will the results be released?
+  - key: faq.results_released_css2023.description
+    t: The survey will run until July 15, 2023, and the survey results will be released in the following weeks.
+
+  # JS 2022
+
+  - key: faq.learn_more_js2022
+    t: Where can I learn more?
+  - key: faq.learn_more_js2022.description
+    t: You can learn more about [last year's survey here](https://2021.stateofjs.com/en-US/about/).
+
+  # - key: faq.survey_design_js2022
+  #   t: How was this survey designed?
+  # - key: faq.survey_design_css2022.description
+  #   t: This year, thanks to a grant from Google's [UI Fund](https://web.dev/ui-fund/), [Lea Verou](https://lea.verou.me/) was able to take the lead and managed the [open survey design process](https://github.com/orgs/Devographics/projects/1/views/1) on GitHub.
+
+  - key: faq.results_released_js2022
+    t: When will the results be released?
+  - key: faq.results_released_js2022.description
+    t: The survey will run until December 15, 2022, and the survey results will be released shortly afterwards.
+
+  - key: faq.data_used_js2022
+    t: How will this data be used?
+  - key: faq.data_used_js2022.description
+    t: All data collected will be released publicly. It will then become a resources both for developers, who consult it to inform their technological choices, and browser vendors, who use it to prioritize focus areas and inform their roadmaps.
+
+  # HTML 2023
+
+  - key: faq.data_used_html2023
+    t: How will this data be used?
+  - key: faq.data_used_html2023.description
+    t: >
+      All data collected will be released openly for any developer or company to consult.
+      Browser vendors also [use this data](https://web.dev/interop-2023/) to prioritize focus areas and inform their roadmaps.
+
+  - key: faq.survey_goals_html2023
+    t: What are the survey's goals?
+  - key: faq.survey_goals_html2023.description
+    t: >
+      The survey's goals are to measure awareness of new HTML features and browser APIs, and help developers keep track of how their usage is evolving.
+
+  - key: faq.who_should_take_survey_html2023
+    t: Who should take this survey?
+  - key: faq.who_should_take_survey_html2023.description
+    t: >
+      This is an open survey for anybody who makes websites or web apps, whether regularly or occasionally, as part of their job, as a student, or just for fun!
+
+  - key: faq.how_long_will_survey_take_html2023
+    t: How long will answering the survey take?
+  - key: faq.how_long_will_survey_take_html2023.description
+    t: >
+      Depending on how many questions you answer (all questions are optional),
+      filling out the survey should take around 15-20 minutes.
+
+  - key: faq.learn_more_html2023
+    t: Where can I learn more?
+  - key: faq.learn_more_html2023.description
+    t: You can learn more about this survey in [our announcement post](https://lea.verou.me/blog/2023/design-state-of-html/).
+
+  - key: faq.survey_design_html2023
+    t: How was this survey designed?
+  - key: faq.survey_design_html2023.description
+    t: >
+      The survey was designed by [Lea Verou](https://lea.verou.me), with input from browser vendors as well as groups such as the [WebDX Community Group](https://www.w3.org/community/webdx/).
+
+  - key: faq.results_released_html2023
+    t: When will the results be released?
+  - key: faq.results_released_html2023.description
+    t: The survey will run from September 19 to October 16, and the survey results will be released shortly after that.
+
+# React 2023
+
+  - key: faq.data_used_react2023
+    t: Як ці дані будуть використані?
+  - key: faq.data_used_react2023.description
+    t: >
+      Усі зібрані дані будуть відкрито опубліковані для консультації ким завгодно. Розробники або компанії можуть використовувати їх для визначення основних напрямків та планування своїх дорожніх карт.
+
+  - key: faq.survey_goals_react2023
+    t: Які цілі цього опитування?
+  - key: faq.survey_goals_react2023.description
+    t: >
+      Метою опитування є вимірювання відомості та популярності API React, а також бібліотек в екосистемі React.
+
+  - key: faq.who_should_take_survey_react2023
+    t: Хто повинен брати участь у цьому опитуванні?
+  - key: faq.who_should_take_survey_react2023.description
+    t: >
+      Це відкрите опитування для всіх, хто користується React, незалежно від того, регулярно ви це робите чи іноді, в рамках своєї роботи, як студент, або просто для задоволення!
+
+  - key: faq.how_long_will_survey_take_react2023
+    t: Скільки часу займе відповідь на опитування?
+  - key: faq.how_long_will_survey_take_react2023.description
+    t: >
+      Залежно від того, на скільки питань ви відповісте (усі питання є необов'язковими), заповнення опитування повинно зайняти близько 15-20 хвилин.
+
+  - key: faq.learn_more_react2023
+    t: Де я можу дізнатися більше?
+  - key: faq.learn_more_react2023.description
+    t: Ви можете дізнатися більше про це опитування у [нашому анонсі](https://dev.to/sachagreif/announcing-the-first-ever-state-of-react-survey-3k6b).
+
+  - key: faq.survey_design_react2023
+    t: Як було розроблено це опитування?
+  - key: faq.survey_design_react2023.description
+    t: >
+      Опитування було розроблено за входом від спільноти через [відкрите обговорення](https://github.com/Devographics/surveys/issues/85).
+
+  - key: faq.results_released_react2023
+    t: Коли будуть опубліковані результати?
+  - key: faq.results_released_react2023.description
+    t: Опитування триватиме з 27 жовтня по 15 листопада, і результати опитування будуть опубліковані коротко після цього.

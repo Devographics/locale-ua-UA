@@ -1,7 +1,7 @@
 locale: ua-UA
 translations:
   - key: accounts.error_incorrect_password
-    t: Некорректный пароль
+    t: Некоректний пароль
   - key: accounts.error_email_required
     t: Введіть електронну пошту
   - key: accounts.error_email_already_exists
