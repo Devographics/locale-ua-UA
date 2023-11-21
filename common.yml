@@ -681,7 +681,7 @@ translations:
   # blogs & magazines
   - key: resources.blogs_news_magazines
     t: Блоги та журнали
-  - key: resources.blogs_news_magazines.description
+  - key: resources.blogs_news_magazines.question
     t: Які блоги, журнали (і т.п.) ви читаєте?
   - key: resources.blogs_news_magazines.others
     t: Інші блоги і журнали
@@ -691,7 +691,7 @@ translations:
   # sites & courses
   - key: resources.sites_courses
     t: Сайти та курси
-  - key: resources.sites_courses.description
+  - key: resources.sites_courses.question
     t: До яких сайтів та курсів (і т.д.) ви звертаєтеся?
   - key: resources.sites_courses.others
     t: Інші сайти і курси
@@ -701,7 +701,7 @@ translations:
   # podcasts
   - key: resources.podcasts
     t: Подкасти
-  - key: resources.podcasts.description
+  - key: resources.podcasts.question
     t: Які подкасти з програмування ви слухаєте?
   - key: resources.podcasts.others
     t: Інші подкасти
