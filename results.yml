@@ -1,494 +1,1581 @@
 locale: ua-UA
 translations:
-    ###########################################################################
-    # General
-    ###########################################################################
+  ###########################################################################
+  # General
+  ###########################################################################
 
-    - key: results.start
-      t: Поїхали
+  - key: results.start
+    t: Поїхали
 
-    - key: page.previous
-      t: 'Назад:'
-    - key: page.next
-      t: 'Вперед:'
+  - key: page.previous
+    t: 'Назад:'
+  - key: page.next
+    t: 'Вперед:'
 
-    - key: general.state_of_css_link
-      t: State of CSS
+  - key: general.state_of_css_link
+    t: Стан CSS
 
-    - key: general.netlify_link
-      t: Сайт розміщено на <a href="{link}">Netlify</a>.
+  - key: general.netlify_link
+    t: Розміщено на платформі <a href="{link}">Netlify</a>.
 
-    - key: general.completion_percentage
-      t: 'Відсоток заповнення:'
+  - key: general.completion_percentage
+    t: 'Відсоток заповнення:'
 
-    - key: sponsors.thanks
-      t: Спасибі нашим партнерам за підтримку!
+  - key: sponsors.thanks
+    t: Дякуємо нашим партнерам за підтримку!
 
-    - key: sponsors.learn_more
-      t: Детальніше.
+  - key: sponsors.learn_more
+    t: Детальніше.
 
-    ###########################################################################
-    # Options
-    ###########################################################################
+  - key: tabs.all_respondents
+    t: Усі респонденти
+  - key: tabs.main_answers
+    t: Основні відповіді
+  - key: tabs.other_answers
+    t: Інші відповіді
+  - key: tabs.bracket_wins
+    t: Перемоги
+  - key: tabs.bracket_matchups
+    t: Матчі
+  - key: tabs.chart
+    t: Діаграми
+  - key: tabs.data
+    t: Дані
+  - key: tabs.share
+    t: Поділитись
+  - key: tabs.debug
+    t: Налагодити
+  - key: tabs.by_country
+    t: За країною
+  - key: tabs.by_experience
+    t: За досвідом
+  - key: tabs.by_degree
+    t: За ступенем
+  - key: tabs.by_salary
+    t: За доходом
+  - key: tabs.by_gender
+    t: За гендером
+  - key: tabs.by_race_ethnicity
+    t: За расою/етнічністю
+  - key: tabs.low_vs_high_income
+    t: Низький та високий дохід
+  - key: tabs.usa_vs_the_world
+    t: США та світ
 
-    - key: options.experience_ranking.satisfaction
-      t: Задоволеність
-    - key: options.experience_ranking.interest
-      t: Зацікавленість
-    - key: options.experience_ranking.usage
-      t: Використання
-    - key: options.experience_ranking.awareness
-      t: Впізнаваність
+  ###########################################################################
+  # Options
+  ###########################################################################
 
-    - key: options.features_simplified.know_it
-      t: Знаю
-    - key: options.features_simplified.used_it
-      t: Використовував
-    - key: options.features_simplified.usage_ratio
-      t: Відсоток використання
+  - key: options.experience_ranking.satisfaction
+    t: Утримання
+  - key: options.experience_ranking.interest
+    t: Зацікавленість
+  - key: options.experience_ranking.usage
+    t: Використання
+  - key: options.experience_ranking.awareness
+    t: Впізнаваність
 
-    - key: options.quadrant.assess
-      t: ПРОБУЮТЬ
-    - key: options.quadrant.assess.long
-      t: |
-        ПРОБУЮТЬ: Низький рівень використання, високий рівень задоволеності. Технології, на які варто звернути увагу.
-    - key: options.quadrant.adopt
-      t: ЗАСТОСОВУЮТЬ
-    - key: options.quadrant.adopt.long
-      t: |
-        ЗАСТОСОВУЮТЬ: Високий рівень використання, високий рівень задоволеності. Технології, які можна спокійно застосовувати.
-    - key: options.quadrant.avoid
-      t: УНИКАЮТЬ
-    - key: options.quadrant.avoid.long
-      t: |
-        УНИКАЮТЬ: Низький рівень використання, високий рівень задоволеності. Технології, які краще уникати зараз.
-    - key: options.quadrant.analyze
-      t: ОЦІНЮЮТЬ
-    - key: options.quadrant.analyze.long
-      t: |
-        ОЦІНЮЮТЬ: Високий рівень використання, низький рівень задоволеності. Технології, над припиненням використання яких варто задуматися.
+  - key: options.features_mode.grouped
+    t: Згруповане
+  - key: options.features_mode.awareness_rank
+    t: За впізнаваністю
+  - key: options.features_mode.usage_rank
+    t: За використанням
+  - key: options.features_mode.usage_ratio_rank
+    t: За відсотком використання
 
-    - key: ranges.selector.years_of_experience
-      t: Досвід
-    - key: ranges.selector.yearly_salary
-      t: Зарплата
-    - key: ranges.selector.company_size
-      t: Розмір компанії
+  - key: options.features_simplified.know_it
+    t: Знаю
+  - key: options.features_simplified.used_it
+    t: Використовував(-ла)
+  - key: options.features_simplified.usage_ratio
+    t: Відсоток використання
 
-    ###########################################################################
-    # Sections
-    ###########################################################################
+  - key: options.quadrant.assess
+    t: ПРОБУЮТЬ
+  - key: options.quadrant.assess.long
+    t: |
+      ПРОБУЮТЬ: Низький рівень використання, високий рівень утримання. Технології, на які варто звернути увагу.
+  - key: options.quadrant.adopt
+    t: ЗАСТОСОВУЮТЬ
+  - key: options.quadrant.adopt.long
+    t: |
+      ЗАСТОСОВУЮТЬ: Високий рівень використання, високий рівень утримання. Технології, які можна спокійно впроваджувати.
+  - key: options.quadrant.avoid
+    t: УНИКАЮТЬ
+  - key: options.quadrant.avoid.long
+    t: |
+      УНИКАЮТЬ: Низький рівень використання, низький рівень утримання. Технології, які поки що краще уникати.
+  - key: options.quadrant.analyze
+    t: ОЦІНЮЮТЬ
+  - key: options.quadrant.analyze.long
+    t: |
+      ОЦІНЮЮТЬ: Високий рівень використання, низький рівень утримання. Технології, використання яких варто припинити.
 
-    - key: sections.introduction.title
-      t: Вступ
+  - key: options.quadrant.1
+    t: "1"
+  - key: options.quadrant.1.long
+    t: |
+      1: Низький рівень використання, високий рівень утримання. Технології, на які варто звернути увагу.
+  - key: options.quadrant.2
+    t: "2"
+  - key: options.quadrant.2.long
+    t: |
+      2: Високий рівень використання, високий рівень утримання. Технології, які можна спокійно впроваджувати.
+  - key: options.quadrant.3
+    t: "3"
+  - key: options.quadrant.3.long
+    t: |
+      3: Низький рівень використання, низький рівень утримання. Технології, які поки що краще уникати.
+  - key: options.quadrant.4
+    t: "4"
+  - key: options.quadrant.4.long
+    t: |
+      4: Високий рівень використання, низький рівень утримання. Технології, використання яких варто припинити.
 
-    - key: sections.demographics.title
-      t: Демографія
+  - key: ranges.selector.years_of_experience
+    t: Досвід
+  - key: ranges.selector.yearly_salary
+    t: Зарплата
+  - key: ranges.selector.company_size
+    t: Розмір компанії
 
-    - key: sections.tshirt.title
-      t: Футболка
+  # other learning methods
+  - key: options.first_steps.blogs
+    t: Блоги, статті
+  - key: options.first_steps.forums
+    t: Форуми, чати
+  - key: options.first_steps.view_source
+    t: Перегляд вихідного коду/першоджерела
+  - key: options.first_steps.copy_paste
+    t: Копіювання та вставлення (Copy/paste)
+  - key: options.first_steps.trial_and_error
+    t: Метод спроб і помилок
+  - key: options.first_steps.documentation
+    t: Документація
 
-    - key: sections.technologies.title
-      t: Технології
-      
-    - key: sections.libraries.title
-      t: Бібліотеки
+  # other disablities
+  - key: options.disability_status_others.adhd
+    t: СДУГ (ADHD)
+  - key: options.disability_status_others.autism
+    t: Аутизм
+  - key: options.disability_status_others.glasses
+    t: Носіння окулярів
+  - key: options.disability_status_others.old
+    t: Похилий вік
+  - key: options.disability_status_others.back_pain
+    t: Біль у спині
+  - key: options.disability_status_others.epilepsy
+    t: Епілепсія
+  - key: options.disability_status_others.aspergers
+    t: Синдром Аспергера
+  - key: options.disability_status_others.color_blindness
+    t: Колірна сліпота
+  - key: options.disability_status_others.anxiety
+    t: Тривога
+  - key: options.disability_status_others.dyslexia
+    t: Дислексія
+  - key: options.disability_status_others.diabetes
+    t: Діабет
+  - key: options.disability_status_others.carpal_tunnel
+    t: Зап'ястковий тунельний синдром
+  - key: options.disability_status_others.migraine
+    t: Мігрень
+  - key: options.disability_status_others.speech_impairment
+    t: Порушення мови
+  - key: options.disability_status_others.ocd
+    t: Обсесивно-компульсивний розлад
+  - key: options.disability_status_others.chronic_pain
+    t: Хронічний біль
+  - key: options.disability_status_others.chronic_fatigue
+    t: Синдром хронічної втоми
+  - key: options.disability_status_others.crohn
+    t: Хвороба Крона
+  - key: options.disability_status_others.depression
+    t: Депресія
 
-    - key: sections.conclusion.title
-      t: Висновок
+  ###########################################################################
+  # Sections
+  ###########################################################################
 
-    - key: sections.about.title
-      t: Про нас
+  - key: sections.introduction.title
+    t: Вступ
 
-    - key: sections.how_to_help.title
-      t: Як допомогти
+  - key: sections.demographics.title
+    t: Демографія
 
-    - key: sections.support.title
-      t: Підтримайте нас
+  - key: sections.tshirt.title
+    t: Футболка
 
-    - key: sections.support.description
-      t: >
-        Це волонтерський проект, але для того, щоб зробити його стійким,
-        ми завжди шукаємо партнерів, які можуть надати нам фінансову підтримку або допомогти поширити інформацію.
-        Якщо ви хочете допомогти нам, то, будь ласка, не соромтеся [зв'язатися з нами] (mailto: hello@stateofjs.com)!
+  - key: sections.technologies.title
+    t: Технології
+    
+  - key: sections.libraries.title
+    t: Бібліотеки
 
-    - key: sections.awards.title
-      t: Нагороди
+  - key: sections.conclusion.title
+    t: Висновок
 
-    - key: sections.awards.description
-      t: Речі, які виділяються цього року.
+  - key: sections.about.title
+    t: Про нас
 
-    ###########################################################################
-    # User Info
-    ###########################################################################
+  - key: sections.how_to_help.title
+    t: Як допомогти
 
-    - key: user_info.locale
-      t: Мова
-    - key: user_info.locale.description
-      t: Яку мову вибрали учасники для проходження опитування?
+  - key: sections.support.title
+    t: Підтримайте нас
+  - key: sections.support.description
+    t: >
+      Це волонтерський проект, але для того, щоб зробити його стійким,
+      ми завжди шукаємо партнерів, які можуть надати нам
+      фінансову підтримку або допомогти поширити інформацію.
+      Якщо ви хочете допомогти нам, то, будь ласка, не соромтеся [зв'язатися з нами] (mailto: hello@stateofjs.com)!
 
-    - key: user_info.source
-      t: Джерело
-    - key: user_info.source.description
-      t: Звідки учасники дізналися про опитування?
+  - key: sections.awards.title
+    t: Нагороди
+  - key: sections.awards.description
+    t: Те, що запам'яталось цього року.
 
+  ###########################################################################
+  # User Info
+  ###########################################################################
 
-    ###########################################################################
-    # Locales
-    ###########################################################################
+  - key: user_info.locale
+    t: Мова
+  - key: user_info.locale.description
+    t: Яку мову вибрали респонденти для проходження опитування?
+  - key: user_info.locale.note
+    t: >
+      Ці дані збираються автоматично на основі налаштувань респондента під час проходження опитування;
+      Мови з менш ніж 20 респондентами не відображаються.
 
-    - key: options.locale.en-US
-      t: Англійська
-    - key: options.locale.ca-ES
-      t: Каталонська
-    - key: options.locale.es-ES
-      t: Іспанська
-    - key: options.locale.ru-RU
-      t: Російська
-    - key: options.locale.ua-UA
-      t: Українська
-    - key: options.locale.fr-FR
-      t: Французька
-    - key: options.locale.zh-Hant
-      t: Китайська (традиційна)
-    - key: options.locale.de-DE
-      t: Німецька
-    - key: options.locale.cs-CZ
-      t: Чеська
-    - key: options.locale.pt-PT
-      t: Португальська
-    - key: options.locale.it-IT
-      t: Італійська
-    - key: options.locale.sv-SE
-      t: Шедська
-    - key: options.locale.tr-TR
-      t: Турецька
-    - key: options.locale.id-ID
-      t: Індонезійська
-    - key: options.locale.hi-IN
-      t: Хінді
-    - key: options.locale.pl-PL
-      t: польська
-    - key: options.locale.nl-NL
-      t: Голландська
+  - key: user_info.source
+    t: Джерело
+  - key: user_info.source.description
+    t: Звідки респонденти дізналися про опитування?
+  - key: user_info.source.note
+    t: Джерело, що направило респондентів, визначається на основі даних джерела переходу (referrer), даних відстеження URL-адрес і власне прямих відповідей.
 
-    ###########################################################################
-    # Features
-    ###########################################################################
+  - key: options.source.other_answers
+    t: Інші джерела
 
-    - key: features.learn_more
-      t: Детальніше (MDN)
-    - key: features.mdn_link
-      t: MDN
-    - key: features.caniuse_link
-      t: CanIUse
-    - key: features.specification_link
-      t: Спецификация на W3C
+  - key: user_info.source_by_gender
+    t: Джерело за гендером
 
-    ###########################################################################
-    # Tools & Methodologies
-    ###########################################################################
+  - key: user_info.source_by_race_ethnicity
+    t: Джерело за расою/етнічністю
 
-    # general
-    - key: tools.links
-      t: Посилання
-    - key: tools.github_link
-      t: GitHub
-    - key: tools.github_stars
-      t: stars
-    - key: tools.homepage_link
-      t: Головна сторінка
-    - key: tools.npm_link
-      t: NPM
+  - key: user_info.gender_by_country
+    t: Гендер за країною
+  - key: user_info.gender_by_country.description
+    t: Гендерний розподіл за країнами з принаймні 100 респондентами, відсортованими за "середньою статтю" (кожному гендерному ключу присвоюється ціле число в порядку зростання) за спаданням.
 
-    ###########################################################################
-    # Blocks
-    ###########################################################################
+  - key: user_info.years_of_experience_by_salary
+    t: Досвід відносно доходу
+  - key: user_info.years_of_experience_by_salary.description
+    t: Роки досвіду відносно інтервалу доходу.
 
-    # heatmaps
-    - key: blocks.tools_company_size_heatmap
-      t: Використання за розміром компанії
-    - key: blocks.tools_company_size_heatmap.description
-      t: |
-        Рівень розподілу використання кожної технології в залежності від розмірів компанії.
+  - key: user_info.average_income_by_years_of_experience
+    t: Дохід відносно досвіду
+  - key: user_info.average_income_by_years_of_experience.description
+    t: Середній дохід відносно років досвіду.
 
-    - key: blocks.tools_yearly_salary_heatmap
-      t: Використання за розміром зарплати
-    - key: blocks.tools_yearly_salary_heatmap.description
-      t: |
-        Рівень розподілу використання кожної технології в залежності від розмірів зарплати.
+  - key: user_info.average_income_by_company_size
+    t: Дохід відносно розмірів компанії
+  - key: user_info.average_income_by_company_size.description
+    t: Середній дохід відносно розмірів компанії.
 
-    - key: blocks.tools_years_of_experience_heatmap
-      t: Використання за кількістю досвіду
-    - key: blocks.tools_years_of_experience_heatmap.description
-      t: |
-        Рівень розподілу використання кожної технології в залежності від рівня професійної підготовки.
-        Зверніть увагу, що враховується загальний досвід роботи, а не з конкретною технологією.
+  - key: user_info.yearly_salary_by_country
+    t: Дохід за країною
+  - key: user_info.yearly_salary_by_country.description
+    t: Розподіл річного доходу за країнами з принаймні 100 респондентами, відсортованими за зменшенням середнього доходу.
 
-    # tool
-    - key: blocks.entity.homepage_link
-      t: Главная страница
-    - key: blocks.entity.github_link
-      t: GitHub
+  - key: user_info.yearly_salary_by_degree
+    t: Дохід відносно вищої освіти
+  - key: user_info.yearly_salary_by_degree.description
+    t: Розподіл річного доходу за ступенем вищої освіти, відсортований за зменшенням середнього доходу.
 
-    # tools quadrant
-    - key: blocks.tools_quadrant
-      t: Порівняння задоволеності і використання
-    - key: blocks.tools_quadrant.description
-      t: |
-        Ця діаграма показує **відсоток задоволеності** кожної технологією щодо її загальної **кількості користувачів**.
+  - key: user_info.yearly_salary_by_experience
+    t: Дохід відносно досвіду
+  - key: user_info.yearly_salary_by_experience.description
+    t: Розподіл річного доходу за досвідом, відсортований за зменшенням середнього доходу.
 
-          Ділиться на на чотири квадранта:
+  - key: user_info.yearly_salary_usa_vs_the_world
+    t: >
+      Річний дохід: США та світ
 
-            - **ПРОБУЮТЬ**: Низький рівень використання, високий рівень задоволеності. Технології, на які варто звернути увагу.
+  - key: user_info.race_ethnicity_by_years_of_experience
+    t: Раса/етнічність відносно досвіду
+  - key: user_info.race_ethnicity_by_years_of_experience.description
+    t: Розподіл расової та етнічної приналежності за роками досвіду, відсортований за зростанням середнього стажу.
 
-            - **ЗАСТОСОВУЮТЬ**: Високий рівень використання, високий рівень задоволеності. Технології, які можна спокійно застосовувати.
+  - key: user_info.higher_education_degree_by_gender
+    t: Вища освіта відносно гендеру
+  - key: user_info.higher_education_degree_by_gender.description
+    t: Розподіл ступенів вищої освіти за гендером.
 
-            - **УНІКАЮТЬ**: Низький рівень використання, високий рівень задоволеності. Технології, які краще уникати зараз.
+  ###########################################################################
+  # Locales
+  ###########################################################################
 
-            - **ОЦІНЮЮТЬ**: Високий рівень використання, низький рівень задоволеності. Технології, над припиненням використання яких варто задуматися.
+  - key: options.locale.en-US
+    t: Англійська
+  - key: options.locale.ca-ES
+    t: Каталонська
+  - key: options.locale.es-ES
+    t: Іспанська
+  - key: options.locale.ru-RU
+    t: Російська
+  - key: options.locale.fr-FR
+    t: Французька
+  - key: options.locale.zh-Hant
+    t: Китайська (традиційна)
+  - key: options.locale.de-DE
+    t: Німецька
+  - key: options.locale.cs-CZ
+    t: Чеська
+  - key: options.locale.pt-PT
+    t: Португальська
+  - key: options.locale.pt-BR
+    t: Бразильська португальська
+  - key: options.locale.it-IT
+    t: Італійська
+  - key: options.locale.sv-SE
+    t: Шведська
+  - key: options.locale.tr-TR
+    t: Турецька
+  - key: options.locale.id-ID
+    t: Індонезійська
+  - key: options.locale.hi-IN
+    t: Хінді
+  - key: options.locale.zh-Hans
+    t: Китайська (спрощена)
+  - key: options.locale.ja-JP
+    t: Японська
+  - key: options.locale.ua-UA
+    t: Українська
+  - key: options.locale.pl-PL
+    t: Польська
+  - key: options.locale.fa-IR
+    t: Фарсі
+  - key: options.locale.nl-NL
+    t: Голландська
+  - key: options.locale.ko-KR
+    t: Корейська
+  - key: options.locale.ro-RO
+    t: Румунська
+  - key: options.locale.am-ET
+    t: Амхарська
+  - key: options.locale.ar-EG
+    t: Арабська
+  - key: options.locale.el-GR
+    t: Грецька
+  - key: options.locale.gl-ES
+    t: Галісійська
+  - key: options.locale.hr-HR
+    t: Хорватська
+  - key: options.locale.hu-HU
+    t: Угорська
+  - key: options.locale.sk-SK
+    t: Словацька
+  - key: options.locale.vi-VN
+    t: В'єтнамська
 
-    - key: blocks.tools_quadrant.interest.description
-      t: |
-        Ця діаграма показує **відсоток зацікавленості** кожної технології щодо її загальної **кількості користувачів** (визначається по учасниках, які знають про технології, але ще **НЕ** використовували її).
+  ###########################################################################
+  # Features
+  ###########################################################################
 
-        (Майте на увазі, низька кількість користувачів може бути через те, що технологія або не дуже добре відома, або її вже багато хто використовує.)
+  - key: features.learn_more
+    t: Детальніше (MDN)
+  - key: features.mdn_link
+    t: MDN
+  - key: features.caniuse_link
+    t: Can I Use
+  - key: features.specification_link
+    t: Специфікація W3C
 
-    # category other tools
-    - key: blocks.category_other_tools
-      t: Інші інструменти
-    - key: blocks.category_other_tools.description
-      t: Інші інструменти в цій категорії (відповіді у вільній формі).
+  # knowledge score
+  - key: features.knowledge_score
+    t: Рівень знань
+  - key: features.knowledge_score.description
+    t: З усіх функцій, згаданих в опитуванні, скільки знав респондент?
 
-    # tool experience
-    - key: blocks.tool_experience
-      t: '{name} Досвід роботи'
-    - key: blocks.tool_experience.description
-      t: Досвід учасника опитування з {name}.
+  ###########################################################################
+  # Tools & Methodologies
+  ###########################################################################
 
-    # tool positive/negative split ("marimekko" chart)
-    - key: blocks.tools_experience_marimekko
-      t: Сравнение положительных и негативных ответов
-    - key: blocks.tools_experience_marimekko.description
-      t: |
-          На наступній діаграмі розділені позитивні ("Хочу вивчити", "Буду використовувати знову") і негативні ("Не цікаво", "Більше не буду використовувати") відповіді справа і зліва, відповідно, щодо центральної осі.
+  # general
+  - key: tools.links
+    t: Посилання
+  - key: tools.github_link
+    t: GitHub
+  - key: tools.github_stars
+    t: зірки
+  - key: tools.homepage_link
+    t: Головна сторінка
+  - key: tools.npm_link
+    t: NPM
+  - key: tools.technology
+    t: Технології
 
-          Ширина стовпця являє собою кількість респондентів, знайомих з розглянутою технологією.
+  ###########################################################################
+  # Blocks
+  ###########################################################################
 
-    # tools section streams
-    - key: blocks.tools_section_streams
-      t: Досвід роботи
-    - key: blocks.tools_section_streams.description
-      t: |
-        Аналіз відповідей по досліджуваним технологіям в порівнянні з попереднім роком.
-    - key: blocks.tools_section_streams.note
-      t: |
-        Не враховуються технології, дані по яких є тільки за один рік.
+  # heatmaps
+  - key: blocks.tools_company_size_heatmap
+    t: Використання відносно розміру компанії
+  - key: blocks.tools_company_size_heatmap.description
+    t: |
+      Рівень розподілу використання кожної технології
+      в залежності від розмірів компанії.
 
-    # tools section overview
-    - key: blocks.tools_section_overview
-      t: Загальний огляд
-    - key: blocks.tools_section_overview.description
-      t: |
-        Аналіз відповідей по досліджуваним технологіям. Темні сегменти відповідають позитивним оцінкам, тоді як світлі - негативним.
+  - key: blocks.tools_yearly_salary_heatmap
+    t: Використання відносно доходу
+  - key: blocks.tools_yearly_salary_heatmap.description
+    t: |
+      Рівень розподілу використання кожної технології
+      в залежності від діапазону доходу.
 
-    # tools experience ranking
-    - key: blocks.tools_experience_ranking
-      t: Загальні показники
-    - key: blocks.tools_experience_ranking.description
-      t: Відсоток задоволеності, зацікавленості, використання, впізнаваності.
-    - key: blocks.tools_experience_ranking.note
-      t: |
-        Не враховуються технології з відомістю менше 10%. Кожне співвідношення визначається наступним чином:
-          - Задоволеність: порівняння відповідей **Буду використовувати знову** і **Більше не буду використовуват**.
-          - Зацікавленість: порівняння відповідей **Хочу вивчити** і **Не цікаво**.
-          - Використання: порівняння відповідей **Буду використовувати знову** / **Більше не буду використовувати** з загальною кількістю.
-          - Впізнаваність: різниця між кількістю відповідей за впізнаваністю та кількістю відповідей за варіант відповіді **Вперше чую**.
+  - key: blocks.tools_years_of_experience_heatmap
+    t: Використання відносно досвіду
+  - key: blocks.tools_years_of_experience_heatmap.description
+    t: |
+      Рівень розподілу використання кожної технології в залежності від рівня професійної підготовки.
+      Зверніть увагу, що враховується загальний досвід роботи, а не з конкретною технологією.
 
-    # happiness
-    - key: blocks.happiness
-      t: Загальний показник задоволеності
-    - key: blocks.happiness.description
-      t: |
-        За шкалою від одного (дуже незадоволений) до п'яти (дуже задоволений),
-        наскільки задоволені розробники поточним станом цієї категорії?
+  # tool
+  - key: blocks.entity.homepage_link
+    t: Головна сторінка
+  - key: blocks.entity.github_link
+    t: GitHub
+  - key: blocks.entity.twitter_link
+    t: Twitter
+  - key: blocks.entity.mastodon_link
+    t: Mastodon
+  - key: blocks.entity.blog_link
+    t: Блог
+  - key: blocks.entity.rss_link
+    t: RSS
+  - key: blocks.entity.twitch_link
+    t: Twitch
+  - key: blocks.entity.npm_link
+    t: npm
+  - key: blocks.entity.youtube_link
+    t: YouTube
 
-    # newsletter
-    - key: blocks.newsletter.title
-      t: Будьте на зв'язку
-    - key: blocks.newsletter.description
-      t: |
-        Якщо ви хочете дізнатися, коли ми опублікуємо додаткові результати або оголосимо про початок опитування в наступному році, напишіть свою адресу електронної пошти:
-    - key: blocks.newsletter.email
-      t: Ваша електронна пошта
-    - key: blocks.newsletter.submit
-      t: Повідомити мені
+  # people
+  - key: blocks.people.name
+    t: Ім'я
+  - key: blocks.people.social_links
+    t: Посилання
+  - key: blocks.people.responses
+    t: Відповіді
 
-    # features_overview
-    - key: blocks.features_overview
-      t: Аналіз використання
-    - key: blocks.features_overview.description
-      t: |
-        На цій діаграмі представлені ступені застосування різних можливостей, об'єднаних за категоріями.
+  # cardinality
+  - key: blocks.all_sections_tools_cardinality_by_user
+    t: Кількість респондентів, що використовують технологію
+  - key: blocks.all_sections_tools_cardinality_by_user.description
+    t: >
+      Для кожного розділу, який відсоток респондентів **використовує** 
+      (ті, що відповіли "буду ще використовували") одну, дві, три тощо технології.
+      Найнижчий стовпчик показує суму всіх інших стовпчиків.
 
-        Розмір <span class="text-teal-darker text-bold">зовнішнього кола</span>
-        відповідає загальному числу користувачів, які знають про можливості, тоді як
-        <span class="text-teal text-bold">внутрішнє коло</span> представляє тих, хто дійсно використовував її.
+  - key: blocks.cardinality.max
+    t: Найпоширеніша відповідь
 
-        Наведіть на будь-яке коло, щоб побачити <span class="text-blackpink text-bold"> підказку </span> з детальними даними про загальну кількість опитаних.
+  # tools arrows
+  - key: blocks.tools_arrows
+    t: Зміни з часом
+  - key: blocks.tools_arrows.description
+    t: |
+      Графіки — від найпершого до останнього наявного року даних. Чим вище точка, тим більше людей використовує цю технологію;
+      чим правіше точка, тим більше користувачі хочуть цю технологію вивчити або користувались і використали б її знову.
+  - key: blocks.tools_arrows.note
+    t: |
+      - Деякі графіки пропускають роки.
+      - Технології з даними лише за один рік не відображаються.
+      - Формула швидкості = (найновіша думка - найдавніша думка) + (найновіше використання) - (найдавніше використання)
+      - Позитивна швидкість означає збільшення використання та/або позитивних думок з часом.
+
+  # tools quadrant
+  - key: blocks.tools_quadrant
+    t: Порівняння утримання і використання
+  - key: blocks.tools_quadrant.description
+    t: |
+      Ця діаграма показує **співвідношення утримання** відносно загальної **кількості користувачів** для кожної технології.
+      Ділиться на чотири квадранти:
+
+        - **ПРОБУЮТЬ**: Низький рівень використання, високий рівень утримання. Технології, на які варто звернути увагу.
+
+        - **ЗАСТОСОВУЮТЬ**: Високий рівень використання, високий рівень утримання. Технології, які можна спокійно впроваджувати.
+
+        - **УНИКАЮТЬ**: Низький рівень використання, низький рівень утримання. Технології, які поки що краще уникати.
+
+        - **ОЦІНЮЮТЬ**: Високий рівень використання, низький рівень утримання. Технології, використання яких варто припинити.
+
+  # category other tools
+  - key: blocks.category_other_tools
+    t: Інші інструменти
+  - key: blocks.category_other_tools.description
+    t: Інші інструменти у цій категорії (відповіді довільної форми).
+
+  # tool experience
+  - key: blocks.tool_experience
+    t: "Досвід використання {name}"
+  - key: blocks.tool_experience.description
+    t: Досвід респондента з {name}.
+
+  # tool positive/negative split ("marimekko" chart)
+  - key: blocks.tools_experience_marimekko
+    t: Розділення позитивних і негативних відповідей
+  - key: blocks.tools_experience_marimekko.description
+    t: |
+        На цій діаграмі розділені позитивні ("Хочу вивчити", "Буду ще використовувати")
+        і негативні ("Не цікаво", "Не буду більше використовувати") відповіді
+        відносно центральної осі, справа і зліва відповідно.
+
+        Ширина стовпця показує кількість респондентів, знайомих з цією технологією.
+
+  # tool tier list
+  - key: blocks.tools_tier_list
+    t: Бібліотеки за рівнями
+  - key: blocks.tools_tier_list.description
+    t: |
+      Ця діаграма ранжирує бібліотеки за коефіцієнтом утримання
+      (відсоток респондентів, що відповіли "Буду ще використовувати").
+      Зверніть увагу, що не враховуються бібліотеки, якими користуються менше 10% респондентів.
+  - key: blocks.tools_tier_list.bounds
+    t: >
+      {lowerBound}% - {upperBound}%
+
+  # tools section streams
+  - key: blocks.tools_section_streams
+    t: Досвід користування з часом
+  - key: blocks.tools_section_streams.description
+    t: |
+      Аналіз відповідей щодо досліджуваних технологій з плином часу.
+  - key: blocks.tools_section_streams.note
+    t: |
+      Технології з даними лише за один рік не відображаються.
+
+  # tools section overview
+  - key: blocks.tools_section_overview
+    t: Загальний огляд
+  - key: blocks.tools_section_overview.description
+    t: |
+      Аналіз відповідей щодо досліджуваних технологій.
+      Темніші сегменти відповідають позитивним оцінкам, а світліші — негативним.
+
+  # tools experience ranking
+  - key: blocks.tools_experience_ranking
+    t: Ранжування з часом
+  - key: blocks.tools_experience_ranking.percentages
+    t: Відсотки
+  - key: blocks.tools_experience_ranking.rankings
+    t: Ранжування
+  - key: blocks.tools_experience_ranking.description
+    t: Ранжування співвідношення утримання, зацікавленості, використання і впізнаваності.
+  - key: blocks.tools_experience_ranking.note
+    t: |
+      Не враховуються технології з впізнаваністю менше 10%. Кожне співвідношення визначається таким чином:
+
+      - Утримання: **Буду ще використовувати** / (**Буду ще використовувати** + **Не буду більше використовувати**)
+      - Зацікавленість: **Хочу вивчити** / (**Хочу вивчити** + **Не цікаво**)
+      - Використання: (**Буду ще використовувати** + **Не буду більше використовувати**) / **Загальна кількість відповідей**
+      - Впізнаваність: (*Загальна кількість відповідей** - **Вперше чую**) / *Загальна кількість відповідей**
+
+  # tools experience linechart
+  - key: blocks.tools_experience_linechart
+    t: Співвідношення з часом
+  - key: blocks.tools_experience_linechart.description
+    t: Співвідношення утримання, зацікавленості, використання і впізнаваності за певний час.
+  - key: blocks.tools_experience_linechart.note
+    aliasFor: blocks.tools_experience_ranking.note
+
+  # happiness
+  - key: blocks.happiness
+    t: Загальний показник задоволеності
+  - key: blocks.happiness.description
+    t: |
+      За шкалою від одного (дуже незадоволений) до п'яти (дуже задоволений)
+      наскільки задоволені розробники поточним станом цієї категорії?
+
+  # newsletter
+  - key: blocks.newsletter.title
+    t: Будьте на зв'язку
+  - key: blocks.newsletter.description
+    t: |
+      Якщо ви хочете дізнатися, коли ми опублікуємо додаткові результати або оголосимо про початок опитування в наступному році,
+      залиште свою електронну адресу:
+  - key: blocks.newsletter.email
+    t: Ваша електронна адреса
+  - key: blocks.newsletter.submit
+    t: Повідомити мені
+
+  # features_overview
+  - key: blocks.features_overview
+    t: Аналіз функцій
+  - key: blocks.features_overview.description
+    t: |
+      Розмір **зовнішнього кола** відповідає числу користувачів, які знають про функцію (**Чув(-ла) про це** + **Використовував(-ла)**),
+      тоді як **внутрішнє коло** — тим, хто вже використовував її (**Використовував(-ла)**).
+
+      Наведіть на будь-яке коло, щоб побачити детальні дані включно зі співвідношенням обох значень.
+
+  # features_experience_linechart
+  - key: blocks.features_experience_linechart
+    t: Співвідношення з часом
+  - key: blocks.features_experience_linechart.description
+    t: Співвідношення використання і впізнаваності за певний час для функцій з найвищим рейтингом.
+  - key: blocks.features_experience_linechart.note
+    t: |
+      Кожне співвідношення визначається як:
+
+      - Використання: (**Використовував(-ла)**) / **Загальна кількість відповідей**
+      - Впізнаваність: (**Використовував(-ла)** + **Чув(-ла) про це**) / **Загальна кількість відповідей**
+
+  - key: blocks.features_experience_ranking
+    t: Ранжування з часом
+  - key: blocks.features_experience_ranking.description
+    t: Ранжування використання і впізнаваності за певний час.
+  - key: blocks.features_experience_ranking.note
+    aliasFor: blocks.features_experience_linechart.note
 
   # export
-    - key: export.export
-      t: Експорт
-    - key: export.title
-      t: "Експорт даних: {title}"
-    - key: export.nocsv
-      t: На жаль, експорт в CSV недоступний для цього набору даних.
-    - key: export.graphql
-      t: >
-        Ви можете скопіювати цей запит, щоб виконати його в <a target="_blank" rel="nofollow" href="https://graphiql.devographics.com/">публічному API-сервері GraphQL</a>.
+  - key: export.export
+    t: Експорт
+  - key: export.title
+    t: "Експорт даних: {title}"
+  - key: export.nocsv
+    t: На жаль, експорт у форматі CSV недоступний для цього набору даних.
+  - key: export.graphql
+    t: >
+      Ви можете скопіювати цей запит, щоб виконати його в <a target="_blank" rel="nofollow" href="https://graphiql.devographics.com/">публічному API-сервері GraphQL</a>.
+  - key: export.export_json
+    t: Отримати дані у форматі JSON
+  - key: export.export_graphql
+    t: Отримати GraphQL-запит
 
-    # Tools usage variations
-    - key: blocks.tools_usage_variations
-      t: Відмінності використання
-    - key: blocks.tools_usage_variations.description
-      t: |
-        Вплив різних факторів (наприклад, шкала заробітної плати, досвід або розмір компанії) на використання
-        (учасники, які відповіли або "Буду використовувати знову", або "Більше не буду використовувати").
-        Початковий рівень - звичайне використання кожного інструмента, а відхилення - дельта від цього рівня в кожному діапазоні.
-        Припустимо, інструмент X використовують 10% опитаних (початковий рівень), а відсоток користувачів,
-        які використовують даний інструмент від 1 до 2 років, становить 13% (у порівнянні з усіма користувачами з таким же досвідом),
-        то позитивна дельта буде +3%.
-    - key: blocks.tools_usage_variations.note
-      t: |
-        Майте на увазі, що інструменти, які в цілому найменше використовуються, як правило, найсильніше розрізняються.
+  - key: custom_data.heading
+    t: Власна діаграма
+  - key: custom_data.custom_data
+    t: Власний набір даних
+  - key: custom_data.graphql_query
+    t: GraphQL-запит
+  - key: custom_data.chart_title
+    t: Власна діаграма
+  - key: custom_data.submit
+    t: Підтвердити
+  - key: custom_data.empty_contents
+    t: Будь ласка, введіть дані в поле "Власний набір даних".
+  - key: custom_data.edit_title
+    t: Редагувати назву діаграми
+  - key: custom_data.customize
+    t: Налаштувати дані
+  - key: custom_data.details
+    t: >
 
-    # Recommended Resources
-    - key: blocks.recommended_resources
-      t: Рекомендовані ресурси
+      1. Скопіюйте вміст поля "GraphQL-запит" і вставте його в середню панель [API-оглядача GraphQL](https://graphiql.stateofjs.com/).
 
-    ###########################################################################
-    # Charts
-    ###########################################################################
+      2. Змініть запит, додавши один або кілька **фільтрів** за допомогою лівої панелі оглядача. Переконайтеся, що загальна структура даних залишається такою ж.
+ 
+      3. У вікні оглядача натисніть на кнопку з іконкою "Відтворити" ("Execute Query").
 
-    - key: chart_units.percentage
-      t: Відсотки
-    - key: chart_units.count
-      t: Кількість
+      4. Скопіюйте результати зміненого запиту (`{ data: … }` ) у поле "Власний набір даних" вище та підтвердьте.
 
-    - key: charts.axis_legends.years_of_experience
-      t: Досвід роботи
-    - key: charts.axis_legends.yearly_salary
-      t: Розмір зарплати (в доларах)
-    - key: charts.axis_legends.company_size
-      t: Число співробітників
-    - key: charts.axis_legends.backend_proficiency
-      t: Знання бекенд
-    - key: charts.axis_legends.css_proficiency
-      t: Знання CSS
-    - key: charts.axis_legends.javascript_proficiency
-      t: Знання JavaScript
-    - key: charts.axis_legends.users_percentage
-      t: Відсоток користувачів
-    - key: charts.axis_legends.users_count
-      t: Кількість користувачів
-    - key: charts.axis_legends.interest_percentage
-      t: Відсоток зацікавленості
-    - key: charts.axis_legends.satisfaction_percentage
-      t: Відсоток задоволеності
-    - key: charts.axis_legends.happiness
-      t: Задоволеність
-    - key: charts.axis_legends.knowledge_score
-      t: Впізнаваність можливості
-    - key: charts.axis_legends.frequency
-      t: Періодичність
+  # Tools usage variations
+  - key: blocks.tools_usage_variations
+    t: Відмінності у використанні
+  - key: blocks.tools_usage_variations.description
+    t: |
+      Вплив різних чинників (як-от діапазону доходу, років досвіду
+      або розміру компанії) на використання (респондентами, які відповіли
+      "Буду ще використовувати" або "Не буду більше використовувати").
 
-    - key: charts.ranges_multiple_diverging_lines.baseline
-      t: початковий рівень
-    - key: charts.ranges_multiple_diverging_lines.positive_offset
-      t: позитивне відхилення
-    - key: charts.ranges_multiple_diverging_lines.negative_offset
-      t: негативне відхилення
+      Початковий рівень — це звичайне використання кожного інструмента,
+      а відхилення — дельта від цього рівня у кожному діапазоні.
+      Припустимо, інструмент X використовують 10% респондентів (початковий рівень),
+      а відсоток тих, хто використовує даний інструмент від 1 до 2 років,
+      становить 13% (у порівнянні з усіма користувачами з таким же досвідом),
+      тоді позитивна дельта буде +3%.
+  - key: blocks.tools_usage_variations.note
+    t: |
+      Майте на увазі, що, як правило, чим менше інструменти використовуються, тим сильніше вони розрізняються.
 
-    ###########################################################################
-    # Sharing
-    ###########################################################################
+  # Recommended Resources
+  - key: blocks.recommended_resources
+    t: Рекомендовані джерела
+  - key: blocks.recommended_events
+    t: Рекомендовані події
 
-    - key: share.share
-      t: Поділитись
-    - key: share.site.title
-      t: Дізнайтеся результати опитування {siteTitle}
-    - key: share.site.twitter_text
-      t: 'Дізнайтеся результати опитування {siteTitle} {link} {hashtag}'
-    - key: share.site.subject
-      t: Результати опитування {siteTitle}
-    - key: share.site.body
-      t: 'Лише деякі цікаві результати опитування: $ {link}'
-    - key: share.block.twitter_text
-      t: '{hashtag} {year}: {title} {link}'
-    - key: share.block.subject
-      t: Результати опитування {siteTitle}
-    - key: share.block.body
-      t: 'Лише деякі цікаві результати опитування ({title}): {link}'
-    - key: share.twitter
-      t: Поділитись в Twitter
-    - key: share.facebook
-      t: Поділитись в Facebook
-    - key: share.linkedin
-      t: Поділитись в LinkedIn
-    - key: share.email
-      t: Поділитись по електронній пошті
-    - key: share.image
-      t: Завантажити зображення
+  # Brackets
+  - key: tool_evaluation.tool_evaluation_wins
+    t: Ранжування оцінки бібліотек
+  - key: tool_evaluation.tool_evaluation_wins.description
+    t: Якими факторам ви керуєтеся, щоб оцінити нову бібліотеку? Результати ранжуються за кількістю виграних раундів турніру.
 
-    ###########################################################################
-    # Awards
-    ###########################################################################
+  - key: tool_evaluation.tool_evaluation_matchups
+    t: Ранжування оцінки бібліотек (Матчі)
+  - key: tool_evaluation.tool_evaluation_matchups.description
+    t: Якими факторам ви керуєтеся, щоб оцінити нову бібліотеку? Відсоток раундів, що виграні елементом ліворуч проти елемента зверху.
 
-    - key: awards.runner_ups
-      t: Призовые места
+  # other
+  - key: blocks.freeform
+    t: (питання довільної форми)
 
-    - key: award.feature_adoption_award.title
-      t: Найбільш вживана можливість
-    - key: award.feature_adoption_award.description
-      t: Нагороджується, як найбільш вживана можливість.
+  # Reading List
+  - key: features.reading_list
+    t: Список читання
+  - key: features.reading_list.description
+    t: Скільки респондентів додали кожен з елементів до свого списку читання?
+  - key: features.reading_list.note
+    t: >
+      Функція "Список для читання" дозволяє респондентам зберігати елементи,
+      про які вони хочуть дізнатися більше під час опитування;
+      і отримати конспект із відповідними корисними джерелами наприкінці опитування.
 
-    - key: award.feature_adoption_delta_award.title
-      t: Найбільш вживана можливість
-    - key: award.feature_adoption_delta_award.description
-      t: Нагороджується, як найбільш успішна можливість в порівнянні з попереднім роком (відповідно до підрахунку відповідей за "Використовував").
+  ###########################################################################
+  # Charts
+  ###########################################################################
 
-    - key: award.tool_usage_award.title
-      t: Найбільш використовувана технологія
-    - key: award.tool_usage_award.description
-      t: Нагороджується, як технологія з найбільшою кількістю користувачів.
+  - key: chart_units.respondents
+    t: "{count} відповіли на питання (відсоток виконання: {percentage}%)"
+  - key: chart_units.percentage
+    t: Відсотки
+  - key: chart_units.count
+    t: Кількість
+  - key: chart_units.percentage_question
+    t: "% від тих, хто відповів на питання"
+  - key: chart_units.percentageQuestion
+    aliasFor: chart_units.percentage_question
+  - key: chart_units.percentage_survey
+    t: "% від усіх опитаних"
+  - key: chart_units.percentageSurvey
+    aliasFor: chart_units.percentage_survey
+  - key: chart_units.percentage_bucket
+    t: "% від стовпця"
+  - key: chart_units.percentageBucket
+    aliasFor: chart_units.percentage_bucket
+  - key: chart_units.average
+    t: "Середнє: {axis}"
+  - key: chart_units.averageByFacet
+    aliasFor: chart_units.average
 
-    - key: award.tool_usage_delta_award.title
-      t: Найбільш використовувана технологія
-    - key: award.tool_usage_delta_award.description
-      t: Нагороджується, як найбільш успішна технологія в порівнянні з попереднім роком (відповідно до підрахунку відповідей за "Буду використовувати знову").
+  - key: chart_units.percentilesByFacet
+    t: "Процентилі (вісь: {axis})"
 
-    - key: award.tool_satisfaction_award.title
-      t: Найвищий рівень задоволеності
-    - key: award.tool_satisfaction_award.description
-      t: Нагороджується, як технологія з найбільшим відсотком задоволених користувачів.
+  - key: charts.average
+    t: "Середнє: {axis}"
+  - key: charts.mean
+    t: Середнє
+  - key: charts.overall
+    t: Загалом
+  - key: charts.all_respondents
+    t: Усі респонденти
+  - key: charts.facet_responses
+    t: "{count} відповідей"
+  - key: charts.facet_respondents
+    t: "({count} респондентів)"
 
-    - key: award.tool_interest_award.title
-      t: Найвищий рівень зацікавленості
-    - key: award.tool_interest_award.description
-      t: Нагороджується, як технологія, в вивченні якої були зацікавлені найбільше розробників.
+  - key: charts.nth_percentile
+    t: "{percentile}-й процентиль"
+  - key: charts.nth_percentile_value
+    t: "{percentile}-й процентиль: {value}"
 
-    - key: award.resource_usage_award.title
-      t: Найпопулярніший ресурс
-    - key: award.resource_usage_award.description
-      t: Нагороджується, як ресурс з найбільшою відвідуваністю серед користувачів.
+  - key: charts.freeform_data
+    t: (відповіді вільної форми)
+  - key: charts.insufficient_data
+    t: Недостатньо даних
+  - key: charts.insufficient_data.description
+    t: Сегменти, у яких менше ніж {value} респондентів, не включені до результатів.
 
-    - key: award.prediction_award.title
-      t: Найперспективніша технологія
-    - key: award.prediction_award.description
-      t: Нагороджується, як технологія, яка може стати лідером... чи ні?
+  - key: charts.axis_legends.years_of_experience
+    t: Досвід роботи
+  - key: charts.axis_legends.yearly_salary
+    t: Розмір доходу (у доларах США)
+  - key: charts.axis_legends.company_size
+    t: Кількість співробітників
+  - key: charts.axis_legends.backend_proficiency
+    t: Рівень навичок серверної розробки
+  - key: charts.axis_legends.css_proficiency
+    t: Рівень володіння CSS
+  - key: charts.axis_legends.javascript_proficiency
+    t: Рівень володіння JavaScript
+  - key: charts.axis_legends.users_percentage
+    t: Відсоток користувачів
+  - key: charts.axis_legends.users_count
+    t: Кількість користувачів
+  - key: charts.axis_legends.users_average
+    t: "Середнє: {axis}"
+  - key: charts.axis_legends.interest_percentage
+    t: Зацікавленість, %
+  - key: charts.axis_legends.satisfaction_percentage
+    t: Утримання, %
+  - key: charts.axis_legends.usage_percentage
+    t: Використання, %
+  - key: charts.axis_legends.awareness_percentage
+    t: Впізнаваність, %
 
-    - key: award.most_write_ins_award.title
-      t: Найпопулярніша відповідь
-    - key: award.most_write_ins_award.description
-      t: Нагороджується, як найбільш популярний варіант відповіді, зазначений самими учасниками опитування.
+  - key: chart_units.interest_percentage
+    aliasFor: charts.axis_legends.interest_percentage
+  - key: chart_units.satisfaction_percentage
+    aliasFor: charts.axis_legends.satisfaction_percentage
+  - key: chart_units.usage_percentage
+    aliasFor: charts.axis_legends.usage_percentage
+  - key: chart_units.awareness_percentage
+    aliasFor: charts.axis_legends.awareness_percentage
+
+  - key: charts.axis_legends.happiness
+    t: Задоволеність
+  - key: charts.axis_legends.knowledge_score
+    t: Впізнаваність функції
+  - key: charts.axis_legends.frequency
+    t: Частота
+  - key: charts.axis_legends.age
+    t: Вік
+  - key: charts.axis_legends.users_percentage_survey
+    t: "% від усіх опитаних"
+  - key: charts.axis_legends.users_percentageSurvey
+    aliasFor: charts.axis_legends.users_percentage_survey
+  - key: charts.axis_legends.users_percentage_question
+    t: "% від тих, хто відповів на питання"
+  - key: charts.axis_legends.users_percentageQuestion
+    aliasFor: charts.axis_legends.users_percentage_question
+  - key: charts.axis_legends.users_percentage_bucket
+    t: "% від стовпця за групами респондентів"
+  - key: charts.axis_legends.users_percentageBucket
+    aliasFor: charts.axis_legends.users_percentage_bucket
+
+  - key: charts.axis_legends.users_averageByFacet
+    aliasFor: chart_units.average
+  - key: charts.axis_legends.users_percentilesByFacet
+    aliasFor: chart_units.percentilesByFacet
+
+  - key: charts.ranges_multiple_diverging_lines.baseline
+    t: початковий рівень
+  - key: charts.ranges_multiple_diverging_lines.positive_offset
+    t: позитивне відхилення
+  - key: charts.ranges_multiple_diverging_lines.negative_offset
+    t: негативне відхилення
+
+  - key: charts.tools_arrows.negative_opinion
+    t: Негативні думки
+  - key: charts.tools_arrows.positive_opinion
+    t: Позитивні думки
+  - key: charts.tools_arrows.have_not_used
+    t: Не використовували
+  - key: charts.tools_arrows.have_used
+    t: Використовували
+  - key: charts.tools_arrows.x_axis
+    t: Діапазон осі X
+  - key: charts.tools_arrows.y_axis
+    t: Діапазон осі Y
+  - key: charts.tools_arrows.legend
+    t: Легенда
+  - key: charts.tools_arrows.velocity
+    t: Швидкість
+  - key: charts.tools_arrows.velocity_positive
+    t: Більше позитивних думок та/або збільшення використання з часом
+  - key: charts.tools_arrows.velocity_negative
+    t: Більше негативних думок та/або зменшення використання з часом
+  - key: charts.tools_arrows.opinions_positive
+    t: Переважно позитивні думки
+  - key: charts.tools_arrows.opinions_negative
+    t: Переважно негативні думки
+  - key: charts.tools_arrows.low_usage
+    t: Низький рівень використання
+  - key: charts.tools_arrows.high_usage
+    t: Високий рівень використання
+  - key: charts.tools_arrows.popularity_positive
+    t: Зростання популярності
+  - key: charts.tools_arrows.popularity_negative
+    t: Падіння популярності
+
+  - key: charts.no_answer
+    t: Без відповіді
+  - key: charts.no_answer.short
+    t: Без відповіді
+
+  - key: charts.no_match
+    t: Інші відповіді
+  - key: charts.no_match.short
+    t: Інші відповіді
+
+  - key: charts.cutoff_answers
+    t: Інші відповіді
+  - key: charts.cutoff_answers.short
+    t: Інші відповіді
+
+  - key: charts.other_answers
+    t: Інші відповіді
+  - key: charts.other_answers.short
+    t: Інші відповіді
+
+  - key: charts.tick.links
+    t: Посилання
+
+  - key: charts.resources
+    t: Корисні посилання
+
+  - key: charts.facets_clarification
+    t: >
+      Зауважте, що відсотки, наведені вище, залежать від загальної кількості респондентів,
+      які належать до кожної групи.
+
+  - key: charts.average_clarification
+    t: >
+      Зауважте, що для обчислення середнього використовуються середні значення кожного діапазону, які є приблизними репрезентативними значеннями.
+
+  ###########################################################################
+  # Comments
+  ###########################################################################
+
+  - key: comments.comments
+    t: Коментарі
+  - key: comments.comments_for
+    t: 'Коментарі для "{name}"'
+  - key: comments.description
+    t: |
+      Ці коментарі були додані як частина опитування
+      через необов'язкове поле довільної форми поруч із основним питанням.
+  - key: comments.report_abuse
+    t: Поскаржитися на цей коментар
+  - key: comments.share
+    t: Поділитися коментарем
+
+  ###########################################################################
+  # Sharing
+  ###########################################################################
+
+  - key: share.share
+    t: Поділитись
+  - key: share.options
+    t: Параметри публікації
+  - key: share.preview
+    t: Попередній перегляд для соціальної мережі
+  - key: share.site.title
+    t: 'Дізнайтеся результати опитування "{siteTitle}"'
+  - key: share.site.twitter_text
+    t: 'Дізнайтеся результати опитування "{siteTitle}" {link} {hashtag}'
+  - key: share.site.subject
+    t: 'Результати опитування "{siteTitle}"'
+  - key: share.site.body
+    t: 'Ось деякі цікаві результати опитування: {link}'
+  - key: share.block.twitter_text
+    t: '{hashtag} {year}: {title} {link}'
+  - key: share.block.subject
+    t: 'Результати опитування "{siteTitle}"'
+  - key: share.block.body
+    t: 'Ось деякі цікаві результати опитування ({title}): {link}'
+  - key: share.twitter
+    t: Поділитись у Twitter
+  - key: share.facebook
+    t: Поділитись у Facebook
+  - key: share.linkedin
+    t: Поділитись у LinkedIn
+  - key: share.email
+    t: Поділитись на електронну адресу
+  - key: share.image
+    t: Завантажити зображення
+  - key: share.link
+    t: Посилання на секцію
+  - key: share.url
+    t: Скопіювати посилання
+  - key: share.close
+    t: Закрити
+
+  ###########################################################################
+  # Views
+  ###########################################################################
+  - key: views.viz
+    t: Графік
+  - key: views.table
+    t: Таблиця
+
+  ###########################################################################
+  # Tables
+  ###########################################################################
+  - key: table.label
+    t: Назва
+  - key: table.item
+    t: Елемент
+  - key: table.percentage_survey
+    t: "% від усіх опитаних"
+  - key: table.percentageSurvey
+    aliasFor: table.percentage_survey
+  - key: table.percentage_question
+    t: "% від тих, хто відповів на питання"
+  - key: table.percentageQuestion
+    aliasFor: table.percentage_question
+  - key: table.percentage_facet
+    t: "% від стовпця за групами респондентів"
+  - key: table.percentageFacet
+    aliasFor: table.percentage_facet
+  - key: table.count
+    t: Кількість
+  - key: table.year
+    t: Рік
+  - key: table.mean
+    t: Середнє
+  - key: table.usage
+    aliasFor: options.features_simplified.used_it
+  - key: table.awareness
+    aliasFor: options.features_simplified.know_it
+  - key: table.usage_ratio
+    aliasFor: options.features_simplified.usage_ratio
+
+  - key: table.usage_count
+    aliasFor: charts.axis_legends.users_count
+  - key: table.satisfaction_percentage
+    aliasFor: charts.axis_legends.satisfaction_percentage
+  - key: table.interest_percentage
+    aliasFor: charts.axis_legends.interest_percentage
+  - key: table.usage_percentage
+    aliasFor: charts.axis_legends.usage_percentage
+  - key: table.awareness_percentage
+    aliasFor: charts.axis_legends.awareness_percentage
+
+  - key: table.percentages_table
+    t: У відсотках
+  - key: table.rankings_table
+    t: Ранжування
+
+  - key: table.satisfaction_rank
+    t: Рівень утримання
+  - key: table.interest_rank
+    t: Рівень зацікавленості
+  - key: table.usage_rank
+    t: Рівень використання
+  - key: table.awareness_rank
+    t: Рівень впізнаваності
+
+  - key: table.would_not_use_percentage
+    t: Буде ще використовувати, %
+  - key: table.not_interested_percentage
+    t: Не цікаво, %
+  - key: table.would_use_percentage
+    t: Не буду більше використовувати, %
+  - key: table.interested_percentage
+    t: Цікаво, %
+
+  - key: table.not_available
+    t: Таблиця даних недоступна.
+
+  ###########################################################################
+  # Awards
+  ###########################################################################
+
+  - key: awards.runner_ups
+    t: Фіналісти
+
+  - key: award.feature_adoption_award.title
+    t: Найбільш використовувана функція
+  - key: award.feature_adoption_award.description
+    t: Нагороджується функція, що використовується найбільше.
+
+  - key: award.feature_adoption_delta_award.title
+    t: Найбільш впроваджена функція
+  - key: award.feature_adoption_delta_award.description
+    t: Нагороджується функція з найбільшим зростанням кількості відповідей "Використовував(-ла)" за рік.
+
+  - key: award.tool_usage_award.title
+    t: Найбільш використовувана технологія
+  - key: award.tool_usage_award.description
+    t: Нагороджується технологія з найбільшою кількістю користувачів.
+
+  - key: award.tool_usage_delta_award.title
+    t: Найбільш впроваджена технологія
+  - key: award.tool_usage_delta_award.description
+    t: Нагороджується технологія з найбільшим зростанням кількості відповідей "Буду ще використовувати" за рік.
+
+  - key: award.tool_satisfaction_award.title
+    t: Найвищий рівень утримання
+  - key: award.tool_satisfaction_award.description
+    t: Нагороджується технологія з найбільшим відсотком утримань/повернень користувачів.
+
+  - key: award.tool_interest_award.title
+    t: Найвищий рівень зацікавленості
+  - key: award.tool_interest_award.description
+    t: Нагороджується технологія, у вивченні якої були зацікавлені найбільше розробників (серед тих, хто чув про неї).
+
+  - key: award.resource_usage_award.title
+    t: Найпопулярніше джерело
+  - key: award.resource_usage_award.description
+    t: Нагороджується джерело з найбільшою кількістю користувачів.
+
+  - key: award.prediction_award.title
+    t: Найперспективніша технологія
+  - key: award.prediction_award.description
+    t: Нагороджується перспективна технологія, яка може стати лідером... чи ні?
+
+  - key: award.most_write_ins_award.title
+    t: Найбільш "дописаний" пункт
+  - key: award.most_write_ins_award.description
+    t: Нагороджується пункт з найбільшою кількістю "дописаних" респондентами відповідей.
+
+  - key: award.most_commented_feature_award.title
+    t: Найбільш коментована функція
+  - key: award.most_commented_feature_award.description
+    t: Нагороджується функція з найбільшою кількістю коментарів.
+
+  - key: award.most_commented_tool_award.title
+    t: Найбільш коментована бібліотека
+  - key: award.most_commented_tool_award.description
+    t: Нагороджується бібліотека з найбільшою кількістю коментарів.
+
+  ###########################################################################
+  # Hints
+  ###########################################################################
+
+  - key: hints.hint_hint
+    t: >
+      У результатах опитування ви знайдете маленькі підказки, подібні до цієї,
+      які вкажуть на додаткові функції та деталі.
+
+  - key: hints.units_switcher_hint
+    t: >
+      Ви можете використовувати перемикач сегментів у нижній частині кожного блоку,
+      щоб отримати альтернативний варіант тих самих даних для різних одиниць.
+
+  - key: hints.export_hint
+    t: >
+      Вкладка <span class="hint-icon hint-export-button">"Дані"</span> дозволяє переглянути
+      початкові дані для будь-якої діаграми, отримати їх у форматі JSON або як
+      GraphQL-запит, який можна виконати за допомогою нашого публічного API.
+
+  - key: hints.completion_hint
+    t: >
+      Оскільки всі запитання необов'язкові, деякі з них отримали менше відповідей, ніж інші.
+      Індикатор завершення (<span class="hint-completion-indicator">◕</span>) вказує на те, скільки людей відповіли на певне запитання.
+
+  - key: hints.tool_modal_hint
+    t: >
+      Ви можете натиснути на назву будь-якої технології, щоб отримати більше деталей та
+      "глибший" погляд на відповідні дані.
+
+  - key: hints.rankings_modes_hint
+    t: >
+      На діаграмі "Досвід користування з часом" можна перемикатися між утриманням, зацікавленістю,
+      використанням і впізнаваністю, щоб отримати більш повне уявлення про категорію.
+
+  - key: hints.sharing_hint
+    t: >
+      Науково доведено, що публікація цього опитування у Twitter, Facebook або відправлення на електронну адресу
+      покращує ефективність вашого програмування на 15%.
+
+  - key: hints.tshirt_hint
+    t: >
+      Ще одна наукова знахідка: купівля нашої футболки підвищить
+      ваші навички програмування більш ніж на 9000!
+
+  - key: hints.variants_hint
+    t: >
+      Деякі діаграми містять додаткові вкладки, які пропонують додаткові розподіли
+      тих самих або пов'язаних даних. Перегляньте їх!
+
+  - key: hints.share_hint
+    t: >
+      Вкладка <span class="hint-icon hint-share-button">"Поділитися"</span> дозволяє
+      зручно опублікувати будь-яку діаграму або навіть завантажити її як зображення.
+
+  - key: hints.bracket_hint
+    t: >
+      <span class="hint-bracket"><span class="hint-text">На цій діаграмі наведено результати турнірної групи з 8 гравців,
+      у якій респондентам було запропоновано вибрати переможця кожного матчу, щоб залишився один переможець.</span><span class="hint-diagram"/></span>
+
+  - key: hints.comments_hint
+    t: >
+      Вкладка <span class="hint-icon hint-comment-button">"Коментарі"</span> дозволяє переглянути коментарі респондентів, додані під час заповнення анкети.
+
+  ###########################################################################
+  # Sponsor Chart
+  ###########################################################################
+
+  - key: sections.sponsor_finish.title
+    t: Дякую
+
+  - key: sponsor.sponsor_finish
+    t: >
+      Дякуємо за підтримку опитування. Ваш аватар має з'явитися поруч із вибраною вами діаграмою
+      протягом наступної години. Якщо цього не сталось, будь ласка, [повідомте нам](mailto:chartsponsor@stateofjs.com).
+
+  - key: sponsor.sponsored_by
+    t: >
+      **${amount}** отримано від **{name}** — спонсора цієї діаграми
+
+  - key: sponsor.sponsor_button
+    t: Стати спонсором цієї діаграми
+
+  - key: sponsor.sponsor_chart.title
+    t: 'Діаграма від спонсора "{title}"'
+
+  - key: sponsor.sponsor_chart.description
+    t: >
+      Підтримайте це опитування фінансово, пожертвувавши 10 доларів або більше,
+      і розмістіть свій аватар із Twitter поруч із діаграмою!
+
+  - key: sponsor.chart_id
+    t: "ID діаграми: "
+
+  - key: sponsor.sponsor_this_chart
+    t: Стати спонсором цієї діаграми (${baseAmount}+)
+
+  - key: sponsor.how_it_works.title
+    t: Як це працює
+
+  - key: sponsor.how_it_works.description
+    t: >
+      1. Коли ви **натиснете на кнопку "Стати спонсором цієї діаграми**, вас перенаправить до сторінки оплати нашого партнера [SendOwl](https://www.sendowl.com/). 
+
+
+      2. Ви можете **змінити суму**, яку ви бажаєте пожертвувати, починаючи з 10 доларів США.  
+
+
+      3. Після оформлення замовлення ви зможете **вказати ваш нікнейм із Twitter**. 
+
+
+      4. Ви побачите сторінку **Завантаження файлу**, але можете сміливо її ігнорувати. 
+
+
+      5. Сайт зміниться "у фоновому режимі", а ваш нікнейм та пожертва **з'являться поруч із діаграмою протягом наступної години**.
+
+  - key: sponsor.faq.title
+    t: Питання та відповіді
+
+  - key: sponsor.faq.usage.title
+    t: Як буде використана моя пожертва?
+
+  - key: sponsor.faq.usage.description
+    t: Ваша пожертва допоможе підтримати організаторів опитування, а також допоможе найняти більше співавторів (ілюстраторів, експертів із доступності та різноманітності тощо).
+
+  - key: sponsor.faq.public.title
+    t: Чи буде моя пожертва публічною?
+
+  - key: sponsor.faq.public.description
+    t: Так. Ваш **нікнейм із Twitter**, а також **сума, яку ви пожертвували**, відображатимуться публічно поруч із діаграмою.
+
+  # - key: sponsor.faq.donation_public.title
+  #   t: Can I donate on somebody else's behalf?
+
+  # - key: sponsor.faq.donation_public.description
+  #   t: You can enter a Twitter username other than your own, but that person will have the right to remove the donation if they request it.
+
+  - key: sponsor.faq.refund.title
+    t: Яка ваша політика повернення коштів?
+
+  - key: sponsor.faq.refund.description
+    t: Усі пожертви підлягають поверненню протягом 1-го тижня за вирахуванням комісії за транзакцію.
+
+  - key: sponsor.faq.influence.title
+    t: Чи впливають пожертви на вміст опитування?
+
+  - key: sponsor.faq.influence.description
+    t: Пожертви відбуваються після того, як опитування уже опубліковано, і донори не мають жодного впливу на вміст опитування.
+
+  - key: sponsor.faq.feedback.title
+    t: Де я можу залишити відгук або поставити запитання?
+
+  - key: sponsor.faq.feedback.description
+    t: Ви можете створити запит [на платформі GitHub](https://github.com/StateOfJS/Monorepo/issues/69) or завітати у [наш Discord-чат](https://discord.gg/tuWRUWVyJs).
+
+  ###########################################################################
+  # Data Explorer
+  ###########################################################################
+
+  - key: sections.data_explorer.title
+    t: Оглядач даних
+  - key: sections.data_explorer.description
+    t: |
+      Дослідіть аудиторію опитування динамічно: виберіть дві категорії та перегляньте
+      розподіл респондентів.
+
+  - key: hints.data_explorer
+    t: |
+      Це попередній перегляд нашого нового оглядача даних. Якщо ви виявите будь-які проблеми чи невідповідності у даних, [повідомте нам]({issueLink}).
+
+  # heading
+
+  - key: explorer.main_heading
+    t: '"{xAxisLabel}" та "{yAxisLabel}"'
+
+  - key: explorer.total_respondents
+    t: |
+      (**{totalCount}** респондентів усього)
+
+  - key: explorer.count_per_dot
+    t: |
+      {respondentsPerDot} респондентів
+  - key: explorer.percentage_per_dot
+    t: |
+      {percentsPerDot}%
+  - key: explorer.extra_respondents
+    t: Надлишкові респонденти
+  - key: explorer.missing_respondents
+    t: Відсутні респонденти
+
+  - key: explorer.count_per_dot.tooltip
+    t: |
+      1 крапка відповідає {respondentsPerDot} респондентам
+  - key: explorer.percentage_per_dot.tooltip
+    t: |
+      1 крапка відповідає {percentsPerDot}% респондентів
+  - key: explorer.extra_respondents.tooltip
+    t: Виділені кольором крапки вказують на результати, що вищі за очікування.
+  - key: explorer.missing_respondents.tooltip
+    t: Порожні крапки вказують на результати, що нижчі за очікування.
+
+  - key: explorer.units_count
+    t: Кількість
+  - key: explorer.units_percentage
+    t: "% від рядка"
+
+  - key: explorer.edit
+    t: Редагувати параметри…
+
+  - key: explorer.get_data
+    t: Отримати дані…
+
+  # loading
+
+  - key: explorer.loading.1
+    t: Виконуємо запит до API…
+  - key: explorer.loading.2
+    t: Очікуємо на відповідь…
+  - key: explorer.loading.3
+    t: Ще працює…
+  - key: explorer.loading.4
+    t: Почекайте ще трохи…
+  - key: explorer.loading.5
+    t: Вибачте, це займе деякий час. Ви можете спробувати почекати ще трохи або [повідомити про проблему]({issueLink}).
+  - key: explorer.timeout
+    t: Час очікування закінчився
+  - key: explorer.timeout.description
+    t: API не відповів вчасно. Спробуйте пізніше або [повідомте про проблему]({issueLink}).
+
+  # share
+
+  - key: explorer.share
+    t: Поділитись…
+  - key: explorer.share.title
+    t: 'Поділитись діаграмою "{xAxisLabel}" та "{yAxisLabel}"'
+  - key: explorer.share.tweet
+    t: '"{xAxisLabel}" та "{yAxisLabel}" з опитування "{surveyName}" {year} року'
+
+  # axis
+
+  - key: explorer.axis_total
+    t: "{totalCount} респондентів"
+  - key: explorer.axis_percent
+    t: "{percentCount}% респондентів"
+
+  - key: explorer.x_axis_details
+    t: |
+      З усіх респондентів, хто відповів на питання "{yAxisLabel}", **{totalCount}** обрали "{xQuestionLabel}" для питання "{xAxisLabel}"
+  - key: explorer.y_axis_details
+    t: |
+      **{totalCount}** респондентів опитування обрали "{yQuestionLabel}"
+  - key: explorer.main_legend_count
+    t: |
+      **{totalCount}** респондентів, **1** крапка = **{respondentsPerDot}** респондентів, **{dotsPerLine}** крапок у рядку
+
+  # controls
+  - key: explorer.dots_per_line
+    t: крапок у рядку
+  - key: explorer.respondents_per_dot
+    t: респондентів у крапці
+  - key: explorer.show_cell_counts
+    t: Показати кількість у клітинці
+  - key: explorer.show_no_answer
+    t: Показати клітинки "Без відповіді"
+
+  - key: explorer.all_fields
+    t: Усі поля
+  - key: explorer.select_item
+    t: Вибрати
+
+  # details views
+
+  - key: explorer.count_details.1
+    t: |
+      **{xAxisTotal}** респондентів на питання "{xAxisLabel}" обрали "{xAnswerLabel}".
+
+  - key: explorer.count_details.2
+    t: |
+      **{yAxisPercentage}%** респондентів на питання "{yAxisLabel}" обрали "{yAnswerLabel}".
+
+  - key: explorer.count_details.3
+    t: |
+      Застосувавши цей відсоток до попереднього числа респондентів — **{xAxisTotal}**,
+      отримуємо очікуваний початковий рівень у цьому перетині — **{normalizedCount}** респондентів.
+
+  - key: explorer.count_details.4_extra
+    t: |
+      Фактична кількість — **{cellCount}**; **{normalizedCountDelta}** надлишкових респондентів *виділено кольором*.
+
+  - key: explorer.count_details.4_missing
+    t: |
+      Фактична кількість — **{cellCount}**; **{normalizedCountDelta}** відсутніх респондентів позначено порожніми крапками.
+
+  - key: explorer.percentage_details.1_extra
+    t: |
+      Загалом **{xAxisPercentage}%** респондентів на питання "{xAxisLabel}" відповіли "{xAnswerLabel}", але
+      серед тих, хто **на питання "{yAxisLabel}" відповів "{yAnswerLabel}"**, цей відсоток зростає до **{bucketPercentage}%**.
+
+  - key: explorer.percentage_details.1_missing
+    t: |
+      Загалом **{xAxisPercentage}%** респондентів на питання "{xAxisLabel}" відповіли "{xAnswerLabel}", але
+      серед тих, хто **на питання "{yAxisLabel}" відповів "{yAnswerLabel}"**, цей відсоток падає до **{bucketPercentage}%**.
+
+  - key: explorer.percentage_details.2_extra
+    t: |
+      **{normalizedPercentageDelta}%** надлишкових респондентів *виділено кольором*.
+
+  - key: explorer.percentage_details.2_missing
+    t: |
+      **{normalizedPercentageDelta}%** відсутніх респондентів позначено порожніми крапками.
+
+  # - key: explorer.percentage_details.1
+  #   t: |
+  #     **{xAxisPercentage}%** of **{xAxisTotal}** "{xAxisLabel}" respondents selected "{xAnswerLabel}".
+
+  # - key: explorer.percentage_details.2
+  #   t: |
+  #       **{yAxisPercentage}%** of "{yAxisLabel}" respondents selected "{yAnswerLabel}".
+
+  # - key: explorer.percentage_details.3
+  #   t: |
+  #       Applying that percentage to the previous **{xAxisTotal}** respondents figure
+  #       gives us an expected baseline of **{normalizedPercentage}%** of respondents in this intersection.
+
+  # - key: explorer.percentage_details.4_extra
+  #   t: |
+  #       The actual percentage is **{bucketPercentage}%**, and those extra **{normalizedPercentageDelta}%** respondents are *highlighted*.
+
+  # - key: explorer.percentage_details.4_missing
+  #   t: |
+  #       The actual count is **{bucketPercentage}%**, and those missing **{normalizedPercentageDelta}%** respondents appear as empty dots.
+
+  - key: explorer.extra_missing_respondents
+    t: |
+      ### Надлишкові та відсутні респонденти
+
+      Діаграма вище спрямована на виявлення областей, які демонструють вищі
+      або нижчі за очікування значення порівняно з розрахованим початковим рівнем.
+
+      Наприклад, якщо припустити, що є 1000 користувачів CSS Grid, і що 50% респондентів опитування працюють у великій компанії,
+      можна очікувати, що 500 користувачів CSS Grid працюють у великих компаніях.
+
+      Будь-яке відхилення вище або нижче цієї очікуваної суми потенційно може вказувати на цікаву
+      кореляцію між обома величинами, і воно виділено на діаграмі кольоровими крапками
+      (для надлишку респондентів вище базового рівня) або порожніми крапками (для відсутніх респондентів).
+
+  ###########################################################################
+  # Filters
+  ###########################################################################
+
+  - key: filters.compare_data
+    t: Порівняти дані
+  - key: filters.customize_chart
+    t: Налаштувати діаграму
+  - key: filters.docs
+    t: Документація
+  - key: filters.compare_chart
+    t: 'Налаштувати "{chartName}"'
+  - key: filters.filters.description
+    t: |
+      Використовуючи комбінацію демографічних фільтрів, ви можете визначити до чотирьох **власних рядів даних**,
+      щоб динамічно завантажити та порівняти їх з типовими даними для цього питання.
+  - key: filters.facets.description
+    t: |
+      Виберіть категорію, за якою треба розбити кожен стовпчик на "групи".
+  - key: filters.grid_mode
+    t: Порівняльна
+  - key: filters.combined_mode
+    t: Зведена
+  - key: filters.facet_mode
+    t: За групами
+  - key: filters.facet
+    t: "Група:"
+
+  - key: filters.series.heading
+    t: Ряд {index}
+  - key: filters.series.add
+    t: Додати ряд…
+  - key: filters.series.delete
+    t: Видалити ряд
+  - key: filters.series.year
+    t: |
+      Дані за {year}
+  - key: filters.series.show_default
+    t: |
+      Показати початковий ряд
+  - key: filters.series.no_data
+    t: Немає даних
+
+  - key: filters.condition.add
+    t: Додати фільтр
+  - key: filters.condition.delete
+    t: Видалити фільтр
+  - key: filters.condition.and
+    t: і
+  - key: filters.operators.eq
+    t: є
+  - key: filters.operators.in
+    t: є одним(-ою) із
+  - key: filters.operators.nin
+    t: не є одним(-ою) із
+  - key: filters.value.add
+    t: Додати значення
+  - key: filters.value.delete
+    t: Видалити значення
+
+  - key: filters.legend.default
+    t: Типово
+
+  - key: filters.cancel
+    t: Скасувати
+  - key: filters.submit
+    t: Оновити діаграму
+  - key: filters.copy_link
+    t: Скопіювати посилання на ці фільтри
+  - key: filters.get_code
+    t: Отримати ці фільтри у вигляді коду
+
+  - key: filters.presets.title
+    t: "Налаштування:"
+  - key: filters.presets.save
+    t: Зберегти ці фільтри як налаштування…
+  - key: filters.presets.delete
+    t: Видалити задане налаштування
+  - key: filters.presets.enter_name
+    t: |
+      Введіть ім'я свого нового налаштування:
+  - key: filters.presets.previous_years
+    t: Попередні роки
+  - key: filters.presets.gender
+    t: Гендер
+  - key: filters.presets.top_countries
+    t: Країни проживання
+  - key: filters.presets.salary_low_high
+    t: |
+      Низький та високий дохід
+  - key: filters.presets.experience_low_high
+    t: |
+      Малий та великий досвід роботи
+  - key: filters.presets.company_size_low_high
+    t: |
+      Мала та велика компанія
+
+  - key: filters.facet.select
+    t: Вибрати групу…
+
+  - key: dataloader.failed_request
+    t: >
+      О ні! Невдалий запит до API з таким повідомленням:
+  - key: dataloader.submit_report_prompt
+    t: >
+      Повідомте наc про цю проблему, і ми зробимо усе можливе,
+      щоб вирішити її:
+  - key: dataloader.submit_issue
+    t: Повідомити про проблему
