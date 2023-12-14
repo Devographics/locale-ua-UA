@@ -20,7 +20,7 @@ Here is a sample query:
 
 ```graphql
 query GetLocaleData {
-  locale(localeId: ru_RU) {
+  locale(localeId: ua_UA) {
     completion
     totalCount
     translatedCount
