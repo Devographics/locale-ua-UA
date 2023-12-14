@@ -76,6 +76,8 @@ These strings appear in both.
 
 It's recommended you join the [translation team](https://github.com/orgs/Devographics/teams/translators/teams) for the language you want to translate.
 
+The translation team for the current repository is listed [here](https://github.com/orgs/Devographics/teams/ua-ua).
+
 ## Local Development
 
 There is currently no easy way to see your strings in context while developing locally. We are working on it.
