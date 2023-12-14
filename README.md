@@ -20,7 +20,7 @@ Here is a sample query:
 
 ```graphql
 query GetLocaleData {
-  locale(localeId: ru_RU) {
+  locale(localeId: ua_UA) {
     completion
     totalCount
     translatedCount
@@ -75,6 +75,8 @@ These strings appear in both.
 ## Joining Translation Teams
 
 It's recommended you join the [translation team](https://github.com/orgs/Devographics/teams/translators/teams) for the language you want to translate.
+
+The translation team for the current repository is listed [here](https://github.com/orgs/Devographics/teams/ua-ua).
 
 ## Local Development
 
