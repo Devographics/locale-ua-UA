@@ -7,46 +7,76 @@ translations:
   - key: homepage.hand_coded
     t: Зроблено в Японії.
   - key: homepage.leave_issue
-    t: Cтворіть ішью
+    t: Створити запит
   - key: homepage.get_in_touch
     t: Зв'яжіться з нами
 
-  - key: homepage.made_by
-    t: "Творці State of CSS:"
-
   - key: homepage.previous_years
     t: "Попередні роки:"
-
-  - key: homepage.intro
-    t: >
-      ## CSS розвивається швидше, ніж будь-коли.
-
-      Флексбокси, гріди, мультиколонки... Не кажучи вже про абсолютно нових парадигмах, таких як CSS-in-JS.
-
-      Після успішного проведення щорічного опитування "State of JavaScript"
-      ми вирішили увійти в світ стилів і селекторів, щоб
-      визначити останні тенденції... і спробувати подолати постійно зростаючий "величезний розкол фронтендерів"!
 
   - key: homepage.take_survey
     t: Пройти опитування
 
   - key: homepage.view_results
-    t: Подивитися результати за 2019 рік
+    t: Переглянути результати
+
+  - key: homepage.results_coming_soon
+    t: Результати незабаром…
 
   - key: share.help_spread
     t: Розкажіть про опитування іншим!
 
+  - key: homepage.other_surveys
+    t: "Інші опитування:"
+
+  - key: homepage.survey_open_now
+    t: Відкрито зараз
+
+  - key: homepage.survey_preview
+    t: Попередній перегляд опитування
+
+  - key: homepage.most_recent_survey
+    t: Найновіше
+
+  - key: homepage.current_survey
+    t: Поточне опитування
+
+  - key: homepage.past_surveys
+    t: Попередні опитування
+
+  - key: homepage.view_questions
+    t: Переглянути відповіді
+
+  - key: homepage.preview_questions
+    t: Попередній перегляд відповідей
+
+  # newsletter
   - key: newsletter.stay_tuned
     t: Будьте на зв'язку
   - key: newsletter.leave_your_email
-    t: Напишіть свою адресу електронної пошти, щоб дізнатися про наступні опитуваннях.
+    t: Залиште свою електронну адресу, щоб дізнатися про наступні опитуваннях.
+  - key: newsletter.email
+    t: Ваша електронна адреса
+  - key: newsletter.submit
+    t: Нагадати
 
-  - key: author.sacha.bio
-    t: >
-      Творець JavaScript-бібліотеки для візуалізації даних [Nivo](http://nivo.rocks/) і
-      інструменту для створення красивих дашбордів [Mozaik](http://mozaik.rocks/).
+  # languages
+  - key: languages.available_languages
+    t: "Підтримувані мови:"
+  - key: languages.help_us_translate
+    t: Допоможіть нам перекласти опитування вашою мовою →
 
-  - key: author.raphael.bio
-    t: >
-      Автор щоденної електронної розсилки [Sidebar](http://sidebar.io) і творець опенсорс-фреймворка
-      на стеку React + GraphQL [VulcanJS](http://vulcanjs.org).
+  # partners
+  - key: homepage.with_support_from
+    aliasFor: sponsors.with_support_from
+
+  # footer
+  - key: homepage.made_by_devographics
+    aliasFor: general.made_by_devographics
+  - key: homepage.netlify_link
+    aliasFor: general.netlify_link
+
+  - key: homepage.join_discord
+    aliasFor: general.join_discord
+  - key: homepage.astro_link
+    t: Створено за допомогою [Astro](https://astro.build/)
