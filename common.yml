@@ -1363,7 +1363,7 @@ translations:
   - key: resources.first_steps.others
     t: Інші перші методи навчання
   - key: resources.first_steps.others.description
-    t: Інші відповіді (поле відповіді довільної форми).
+    t: Інше (поле відповіді довільної форми).
 
   # blogs & magazines
   - key: resources.blogs_news_magazines
@@ -1373,7 +1373,7 @@ translations:
   - key: resources.blogs_news_magazines.others
     t: Інші блоги і журнали
   - key: resources.blogs_news_magazines.others.description
-    t: Інші відповіді (поле відповіді довільної форми).
+    t: Інше (поле відповіді довільної форми).
   - key: options.blogs_news_magazines.na
     t: 🚫 Нічого
   - key: resources.blogs_news_magazines.placeholder
@@ -1388,7 +1388,7 @@ translations:
   - key: resources.sites_courses.others
     t: Інші сайти і курси
   - key: resources.sites_courses.others.description
-    t: Інші відповіді (поле відповіді довільної форми).
+    t: Інше (поле відповіді довільної форми).
   - key: options.sites_courses.na
     t: 🚫 Нічого
   - key: resources.sites_courses.placeholder
@@ -1414,7 +1414,7 @@ translations:
   - key: resources.podcasts.others
     t: Інші подкасти
   - key: resources.podcasts.others.description
-    t: Інші відповіді (поле відповіді довільної форми).
+    t: Інше (поле відповіді довільної форми).
   - key: options.podcasts.na
     t: 🚫 Нічого
   - key: resources.podcasts.placeholder
