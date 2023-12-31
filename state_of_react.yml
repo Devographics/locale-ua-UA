@@ -6,32 +6,32 @@ translations:
 
   - key: general.state_of_react.intro
     t: |
-      React існує вже досить довго, і це очевидно, що він став одним з домінуючих фронтенд-фреймворків.
+      React існує вже досить довго, і це очевидно, що він став одним з домінантних фреймворків для клієнтської частини.
 
-      Однак, незважаючи на це, React продовжує швидко розвиватися, і спільнота робить все можливе, щоб не відставати.
+      Однак, незважаючи на це, React продовжує швидко розвиватися, і спільнота робить все можливе, щоб встигати за цим.
 
-      З допомогою опитування розробників State of React ми сподіваємось зрозуміти цю еволюцію та допомогти розробникам зорієнтуватися у величезному екосистемі React.
+      За допомогою опитування розробників "Стан React" ми сподіваємось осягнути цю еволюцію та допомогти розробникам зорієнтуватися у величезній екосистемі React.
 
   - key: general.state_of_react.description
-    t: Щорічне опитування розробників про екосистему React
+    t: Щорічне опитування розробників щодо екосистеми React
 
   - key: features.features_intro_react
     t: |
       Ласкаво просимо до опитування! Ця перша частина присвячена тому, 
       щоб з'ясувати, які з офіційних API React ви знаєте та використовуєте.
 
-      До речі, якщо ви хочете розповісти нам більше про будь-який з ваших виборів, просто натисніть на маленьку іконку "коментар"!
+      До речі, якщо ви бажаєте розповісти нам більше про будь-який із ваших виборів, просто натисніть на маленьку іконку "коментар"!
 
   - key: tools.tools_intro_react
     t: |
-      Наступні кілька розділів зосереджуються на **бібліотеках** та **фреймворках**, 
-      що складають екосистему React. Розкажіть нам, що вас цікавить!
+      Наступні кілька розділів присвячені **бібліотекам** та **фреймворкам**, 
+      які складають екосистему React. Розкажіть, від чого ви в захваті!
 
   # sections
   - key: sections.main_apis.title
     t: Основні API
   - key: sections.main_apis.description
-    t: Стабільні, встановлені функції React
+    t: Стабільні, широковідомі функції React
 
   - key: sections.hooks.title
     t: Хуки
@@ -41,13 +41,12 @@ translations:
   - key: sections.new_apis.title
     t: Нові API
   - key: sections.new_apis.description
-    t: Нещодавно введені або експериментальні функції
+    t: Нещодавно додані або експериментальні функції
 
   - key: sections.component_libraries.title
     t: Бібліотеки компонентів
   - key: sections.component_libraries.description
-    t: Основні блоки вашого фронтенду
-
+    t: Елементи для побудови вашого застосунку
 
   # - key: sections.data_management.title
   #   t: Data Management
@@ -57,17 +56,17 @@ translations:
   - key: sections.state_management.title
     t: Управління станом
   - key: sections.state_management.description
-    t: Бібліотеки для управління станом додатку
+    t: Бібліотеки для управління станом застосунку
 
   - key: sections.data_loading.title
     t: Завантаження даних
   - key: sections.data_loading.description
-    t: Утиліти для завантаження та управління даними
+    t: Інструменти для завантаження та управління даними
 
   - key: sections.back_end_infrastructure.title
-    t: Бек-енд та інфраструктура
+    t: Серверна частина та інфраструктура
   - key: sections.back_end_infrastructure.description
-    t: Пакування та обслуговування вашого додатку
+    t: Пакування та обслуговування вашого застосунку
 
   # - key: sections.usage.title
   #   t: Back-End & Infrastructure
@@ -94,7 +93,7 @@ translations:
   - key: sections.other_tools.title
     t: Інші інструменти
   - key: sections.other_tools.description
-    t: Інші утиліти та бібліотеки для React
+    t: Інші інструменти та бібліотеки для React
 
   - key: sections.usage_react.title
     t: Використання
@@ -112,125 +111,124 @@ translations:
   - key: features.main_apis_pain_points
     t: Проблеми з основними API
   - key: features.main_apis_pain_points.question
-    t: З якими проблемами ви зіткнулися, пов'язаними з вищезазначеними API?
+    t: З якими проблемами ви стикалися у роботі з вищезазначеними API?
 
   - key: features.hooks_pain_points
     t: Проблеми з хуками
   - key: features.hooks_pain_points.question
-    t: З якими проблемами ви зіткнулися із хуками?
+    t: З якими проблемами ви стикалися у роботі з хуками?
 
   - key: features.new_apis_pain_points
     t: Проблеми з новими API
   - key: features.new_apis_pain_points.question
-    t: З якими проблемами ви зіткнулися, пов'язаними з новими API?
-
+    t: З якими проблемами ви стикалися у роботі з новими API?
 
   # main features
   - key: features.fragment.description
     t: >
-      `<Fragment>`, часто використовується через синтаксис `<>...</>`, дозволяє групувати елементи без використання обгортуючого вузла.
+      `<Fragment>`, що часто використовується через синтаксис `<>...</>`, дає змогу групувати елементи без використання вузла-обгортки.
   - key: features.profiler.description
     t: >
-      `<Profiler>` дозволяє вам вимірювати продуктивність рендеринга React-дерева програмно.
+      `<Profiler>` дає вам змогу програмно вимірювати продуктивність рендерингу дерева React.
   - key: features.strictmode.description
     t: >
-      `<StrictMode>` дозволяє вам виявляти поширені помилки у ваших компонентах на ранніх етапах розробки.
+      `<StrictMode>` дає вам змогу виявляти поширені дефекти у ваших компонентах на ранніх етапах розробки.
 
   - key: features.createportal.description
     t: >
-      `createPortal` дозволяє вам рендерити деякі дочірні елементи в іншій частині DOM.
+      `createPortal` дає вам змогу рендерити деякі дочірні елементи в іншій частині DOM.
 
   - key: features.createcontext.description
     t: >
-      `createContext` дозволяє створювати контекст, який компоненти можуть надавати або читати.
+      `createContext` дає змогу створювати контекст, який компоненти можуть надавати або читати.
 
   - key: features.forwardref.description
     t: >
-      `forwardRef` дозволяє вашому компоненту виводити DOM-вузол батьківському компоненту з допомогою ref.
+      `forwardRef` дає змогу вашому компоненту надати доступ до DOM-вузла батьківському компоненту за допомогою ref.
 
   - key: features.lazy.description
     t: >
-      `lazy` дозволяє вам відкладати завантаження коду компонента до моменту його першого рендерингу.
+      `lazy` дає вам змогу відкладати завантаження коду компонента до моменту його першого рендеру.
 
   - key: features.memo.description
     t: >
-      `memo` дозволяє уникнути повторного рендерингу компонента, коли його пропси не змінюються.
+      `memo` дає змогу уникнути повторного рендеру компонента, коли його пропси (властивості) не змінюються.
 
   - key: features.createroot.description
     t: >
-      `createRoot` дозволяє створити корінь для відображення React компонентів всередині вузла браузерного DOM.
+      `createRoot` дає змогу створити кореневий компонент для відображення React-компонентів всередині DOM-вузла у браузері.
 
   - key: features.hydrateroot.description
     t: >
-      `hydrateRoot` дозволяє відображати React компоненти всередині вузла браузерного DOM, HTML-вміст якого було раніше згенеровано за допомогою `react-dom/server`.
+      `hydrateRoot` дає змогу відображати React-компоненти всередині DOM-вузла у браузері, HTML-вміст якого було раніше згенеровано за допомогою `react-dom/server`.
 
   # hooks
 
   - key: features.usecallback.description
     t: >
-      `useCallback` - це React Hook, який дозволяє вам кешувати визначення функції між повторними рендерингами.
+      `useCallback` — це хук React, який дає вам змогу кешувати визначення функції між повторними рендерами.
 
   - key: features.usecontext.description
     t: >
-      `useContext` - це React Hook, який дозволяє вам читати та підписуватися на контекст із вашого компонента.
+      `useContext` — це хук React, який дає вам змогу читати та підписуватися на контекст із вашого компонента.
 
   - key: features.usedebugvalue.description
     t: >
-      `useDebugValue` - це React Hook, який дозволяє додавати мітку до користувацького Hook у React DevTools.
+      `useDebugValue` — це хук React, який дає змогу додавати мітку до вашого власного хуку в інструментах розробника React.
 
   - key: features.usedeferredvalue.description
     t: >
-      `useDeferredValue` - це React Hook, який дозволяє відкладати оновлення частини UI.
+      `useDeferredValue` — це хук React, який дає змогу відкладати оновлення частини UI.
 
   - key: features.useeffect.description
     t: >
-      `useEffect` - це React Hook, який дозволяє синхронізувати компонент з зовнішньою системою.
+      `useEffect` — це хук React, який дає змогу синхронізувати компонент із зовнішньою системою.
 
   - key: features.useid.description
     t: >
-      `useId` - це React Hook для генерації унікальних ідентифікаторів, які можна передавати до атрибутів доступності.
+      `useId` — це хук React для генерації унікальних ідентифікаторів, які можна передавати до атрибутів доступності.
 
   - key: features.usememo.description
     t: >
-      `useMemo` - це React Hook, який дозволяє кешувати результат розрахунку між повторними рендерингами.
+      `useMemo` — це хук React, який дає змогу кешувати результат розрахунку між повторними рендерами.
 
   - key: features.usereducer.description
     t: >
-      `useReducer` - це React Hook, який дозволяє додавати редуктор до вашого компонента.
+      `useReducer` — це хук React, який дає змогу додавати редуктор до вашого компонента.
 
   - key: features.useref.description
     t: >
-      `useRef` - це React Hook, який дозволяє посилатися на значення, яке не потрібно для рендерингу.
+      `useRef` — це хук React, який дає змогу посилатися на значення, яке не потрібно для рендерингу.
 
   - key: features.usestate.description
     t: >
-      `useState` - це React Hook, який дозволяє додавати змінну стану до вашого компонента.
+      `useState` — це хук React, який дає змогу додавати змінну стану до вашого компонента.
 
   - key: features.usesyncexternalstore.description
     t: >
-      `useSyncExternalStore` - це React Hook, який дозволяє вам підписуватися на зовнішнє сховище.
+      `useSyncExternalStore` — це хук React, який дає вам змогу підписуватися на зовнішнє сховище.
 
   - key: features.usetransition.description
     t: >
-      `useTransition` - це React Hook, який дозволяє оновлювати стан без блокування UI.
+      `useTransition` — це хук React, який дає змогу оновлювати стан без блокування UI.
 
   # new features
 
   - key: features.suspense.description
     t: >
-      `<Suspense>` дозволяє відображати резервний контент, поки його дочірні елементи не завантажені.
+      `<Suspense>` дає змогу відображати початковий вміст, поки його дочірні елементи не завантажені.
 
   - key: features.use_hook.description
     t: >
-      `use` - це React Hook, який дозволяє вам читати значення ресурсу, такого як Promise або контекст.
+      `use` — це хук React, який дає вам змогу читати значення певного ресурсу, як-от Promise або контекст.
 
   - key: features.usetransition.description
     t: >
-      `useTransition` - це React Hook, який дозволяє оновлювати стан без блокування UI.
+      `useTransition` — це хук React, який дає змогу оновлювати стан без блокування UI.
 
   - key: features.starttransition.description
     t: >
-      `startTransition` дозволяє вам оновлювати стан без блокування UI.
+      `startTransition` дає вам змогу оновити стан без блокування UI.
 
   - key: features.react_server_components.description
     t: >
@@ -238,44 +236,43 @@ translations:
 
   - key: features.use_client.description
     t: >
-      `'use client'` позначає вихідні файли, компоненти яких виконуються на клієнті.
+      `'use client'` позначає вихідні файли, компоненти яких виконуються з боку клієнта.
 
   - key: features.use_server.description
     t: >
-      `'use server'` позначає функції на стороні сервера, які можна викликати з коду на стороні клієнта.
+      `'use server'` позначає серверні функції, які можна викликати з коду клієнта.
 
   - key: features.server_actions.description
     t: >
-      Вбудоване рішення React для мутацій на сервері.
+      Вбудоване рішення React для мутацій з боку сервера.
 
   - key: features.taint_api.description
     t: >
-      Забороняє передачу конкретного об'єкта або значення до Клієнтського Компонента.
+      Забороняє передачу певного об'єкта або значення до клієнтського компонента.
 
   - key: features.cache.description
     t: >
-      `cache` дозволяє вам кешувати результат отримання даних або обчислення.
+      `cache` дає вам змогу кешувати результат отримання даних або обчислення.
 
   - key: features.useformstatus.description
     t: >
-      `useFormStatus` - це Hook, який надає вам інформацію про статус останнього надсилання форми.
+      `useFormStatus` — це хук, який надає вам інформацію про статус останнього надсилання форми.
 
   - key: features.useformstate.description
     t: >
-      `useFormState` - це Hook, який дозволяє вам оновлювати стан на основі результату дії форми.
+      `useFormState` — це хук, який дає вам змогу оновлювати стан на основі результату дії форми.
 
   # tools
 
   - key: tools.component_libraries_others
     t: Інші бібліотеки
   - key: tools.component_libraries_others.question
-    t: Які інші бібліотеки компонентів ви використовували?
+    t: Які ще бібліотеки компонентів ви використовували?
 
   - key: tools.component_libraries_pain_points
-    t: Проблемні моменти роботи з компонентами
+    t: Проблеми у роботі з компонентами
   - key: tools.component_libraries_pain_points.question
-    t: З якими проблемами ви стикалися при роботі з компонентами?
-
+    t: З якими проблемами ви стикалися під час роботи з компонентами?
 
   # - key: tools.ui_libraries_happiness
   #   t: Happiness
@@ -285,12 +282,12 @@ translations:
   - key: tools.state_management_others
     t: Інші бібліотеки для управління станом
   - key: tools.state_management_others.question
-    t: Які інші бібліотеки ви використовували для управління станом у ваших додатках?
+    t: Які ще бібліотеки ви використовували для управління станом у ваших застосунках?
 
   - key: tools.state_management_pain_points
-    t: Проблемні моменти управління станом
+    t: Проблеми управління станом
   - key: tools.state_management_pain_points.question
-    t: З якими проблемами ви стикалися у зв'язку з управлінням станом?
+    t: З якими проблемами ви стикалися під час управління станом?
 
   # - key: tools.state_management_happiness
   #   t: Happiness
@@ -300,13 +297,12 @@ translations:
   - key: tools.data_loading_others
     t: Інші бібліотеки для завантаження даних
   - key: tools.data_loading_others.question
-    t: Які інші бібліотеки ви використовували для завантаження даних?
+    t: Які ще бібліотеки ви використовували для завантаження даних?
 
   - key: tools.data_loading_pain_points
-    t: Проблемні моменти при завантаженні даних
+    t: Проблеми під час завантаження даних
   - key: tools.data_loading_pain_points.question
-    t: З якими проблемами ви стикалися у зв'язку з завантаженням даних?
-
+    t: З якими проблемами ви стикалися під час завантаження даних?
 
   # - key: tools.data_loading_happiness
   #   t: Happiness
@@ -314,27 +310,27 @@ translations:
   #   t: How happy are you with the state of data loading libraries?
 
   - key: tools.meta_frameworks_others
-    t: Інші мета-фреймворки
+    t: Інші метафреймворки
   # - key: tools.meta_frameworks_happiness
   #   t: Happiness
   # - key: tools.meta_frameworks_happiness.description
   #   t: How happy are you with the current state of meta-frameworks?
 
   - key: tools.meta_frameworks_heading
-    t: Мета-фреймворки
+    t: Метафреймворки
 
   - key: tools.other_back_end_tools_heading
-    t: Інші інструменти та сервіси для Back-End
+    t: Інші інструменти та сервіси для серверної частини
 
   - key: tools.back_end_infrastructure_pain_points
-    t: Проблемні моменти у Back-End
+    t: Проблеми серверної частини
   - key: tools.back_end_infrastructure_pain_points.question
-    t: З якими проблемами, пов'язаними з back-end та інфраструктурою, ви стикалися?
+    t: З якими проблемами ви стикалися під час роботи із серверною частиною та інфраструктурою?
 
   - key: other_tools.testing
     t: Бібліотеки для тестування
   - key: other_tools.testing.question
-    t: Які бібліотеки ви використовуєте для тестування ваших React-додатків?
+    t: Які бібліотеки ви використовуєте для тестування ваших React-застосунків?
 
   # - key: tools.testing_happiness
   #   t: Happiness
@@ -342,9 +338,9 @@ translations:
   #   t: How happy are you with the current state of testing libraries?
 
   - key: other_tools.mobile_development
-    t: Розробка мобільних додатків
+    t: Розробка мобільних застосунків
   - key: other_tools.mobile_development.question
-    t: Які бібліотеки ви використовували для розробки мобільних додатків?
+    t: Які бібліотеки ви використовували для розробки мобільних застосунків?
 
   # - key: tools.mobile_development_others
   #   t: Other Mobile Development Tools
@@ -357,101 +353,101 @@ translations:
   - key: other_tools.form_libraries
     t: Бібліотеки для форм
   # - key: other_tools.form_libraries.description
-  #   t: Бібліотеки для створення та перевірки форм.
+  #   t: Libraries for generating and validating forms.
   - key: other_tools.form_libraries.question
     t: Які бібліотеки ви використовували для роботи з формами?
   - key: options.form_libraries.na
     t: Жодна
 
   - key: other_tools.build_tools
-    t: Інструменти для збірки
+    t: Інструменти для збирання коду
   # - key: other_tools.build_tools.description
-  #   t: Інструменти для збірки та пакетування.
+  #   t: Build tools and bundlers.
   - key: other_tools.build_tools.question
-    t: Які інструменти для збірки та пакетування ви використовували?
+    t: Які інструменти для збирання та пакетування ви використовували?
 
   - key: other_tools.animation_libraries
-    t: Анімація
+    t: Анімації
   # - key: other_tools.animation.description
-  #   t: Бібліотеки для управління анімаціями та переходами.
+  #   t: Libraries to help manage animations and transitions.
   - key: other_tools.animation_libraries.question
-    t: Які бібліотеки анімації ви використовували?
+    t: Які бібліотеки ви використовували для роботи з анімаціями?
 
   - key: other_tools.auth
     t: Автентифікація
   # - key: other_tools.auth.description
-  #   t: Бібліотеки та служби для управління автентифікацією та обліковими записами.
+  #   t: Libraries and services for managing authentication and accounts.
   - key: other_tools.auth.question
-    t: Які бібліотеки та служби ви використовували для автентифікації?
+    t: Які бібліотеки та сервіси ви використовували для автентифікації?
 
   - key: other_tools.data_visualization_libraries
     t: Візуалізація даних
   # - key: other_tools.data_visualization.description
-  #   t: Бібліотеки для візуалізації даних та графіки.
+  #   t: Data visualization and graphics libraries.
   - key: other_tools.data_visualization_libraries.question
-    t: Які бібліотеки для візуалізації даних та графіки ви використовували?
+    t: Які бібліотеки ви використовували для візуалізації даних та роботи з графікою?
 
   - key: other_tools.css_tools
     t: CSS Інструменти та Бібліотеки
   # - key: other_tools.css_tools.description
-  #   t: CSS бібліотеки, фреймворки та утиліти, які ви використовуєте для стилізації вашого React додатку.
+  #   t: CSS libraries, frameworks, and utilities you use to style your React app.
   - key: other_tools.css_tools.question
-    t: Які бібліотеки або фреймворки ви використовували для стилізації ваших React додатків?
+    t: Які бібліотеки або фреймворки ви використовували для стилізації ваших React-застосунків?
 
   - key: other_tools.other_frontend_frameworks
-    t: Інші фреймворки для фронтенду
+    t: Інші фреймворки для клієнтської частини
   # - key: other_tools.other_frontend_frameworks.description
   #   t: >
-  #     Інші фреймворки для фронтенду
+  #     Other front-end frameworks
   - key: other_tools.other_frontend_frameworks.question
     t: >
-      Які інші фреймворки для фронтенду ви використовували?
+      Які ще фреймворки для клієнтської частини ви використовували?
 
   - key: other_tools.hosting
-    t: Послуги хостингу
+    t: Сервіси хостингу
   # - key: other_tools.hosting.description
-  #   t: Послуги, які ви використовуєте для розміщення ваших React додатків.
+  #   t: Services you use to host your React apps.
   - key: other_tools.hosting.question
-    t: Які послуги ви використовували для розміщення ваших React додатків?
+    t: Які сервіси ви використовували для хостингу ваших React застосунків?
 
   - key: other_tools.backend_language
-    t: Мови для back-end
+    t: Мови для серверної частини
   - key: other_tools.backend_language.question
-    t: На якій мові(ах) написані ваші back-end додатки?
+    t: Якою мовою чи мовами написані ваші серверні застосунки?
 
   - key: other_tools.other_services
-    t: Інші послуги
+    t: Інші сервіси
   - key: other_tools.other_services.question
-    t: Які інші послуги ви використовували разом із вашими React додатками?
+    t: Які ще сервіси ви використовували разом із вашими React-застосунками?
 
   - key: other_tools.validation
-    t: Бібліотеки схеми та валідації
+    t: Бібліотеки для створення схем даних та їхньої валідації
   - key: other_tools.validation.question
-    t: Які бібліотеки ви використовували для перевірки даних за схемою?
+    t: Які бібліотеки ви використовували для валідації даних за певною схемою?
 
   - key: other_tools.ai_tools
-    t: Інструменти ШІ
+    t: ШІ-інструменти
   - key: other_tools.ai_tools.question
-    t: Які інструменти або послуги ШІ ви використовували, щоб допомогти вам писати код React?
+    t: Які ШІ-інструменти або ШІ-сервіси ви використовували для допомоги у написанні React-коду?
 
   - key: other_tools.renderers
-    t: Візуалізатори React
+    t: Бібліотеки рендерингу React
   - key: other_tools.renderers.question
-    t: Які бібліотеки ви використовували для відображення React на різних платформах або середовищах?
+    t: Які бібліотеки ви використовували, щоб рендерити React-застосунок для різних платформ або середовищ?
 
   - key: other_tools.other_tools
     t: Інші інструменти
   - key: other_tools.other_tools.question
-    t: Які інші інструменти ви використовували для розробки React додатків?
+    t: Які ще інструменти ви використовували для розробки React-застосунків?
 
   # CSS
   - key: options.css_tools.plain_css
-    t: CSS (звичайний, "vanila" CSS)
+    t: CSS (звичайний, нативний CSS)
 
   # react pain points
 
   - key: options.react_pain_points.rerenders
-    t: Керування повторними рендерингами компонентів
+    t: Керування повторними рендерами компонентів
   - key: options.react_pain_points.testing
     t: Тестування
   - key: options.react_pain_points.data_loading
@@ -459,17 +455,17 @@ translations:
   - key: options.react_pain_points.state_management
     t: Керування станом (`useState`, Redux, Context тощо)
   - key: options.react_pain_points.bundle_sizes
-    t: Збереження малих розмірів клієнтських пакетів
+    t: Збереження малих розмірів бандлу для клієнту
   - key: options.react_pain_points.server_rendering
-    t: Рендеринг на сервері та серверні компоненти
+    t: Рендеринг з боку сервера та серверні компоненти
   - key: options.react_pain_points.css_styling
     t: CSS та стилізація
   - key: options.react_pain_points.attribute_names
-    t: Неправильні назви атрибутів, такі як className, htmlFor тощо
+    t: '"Неправильні" назви атрибутів, такі як className, htmlFor тощо'
   - key: options.react_pain_points.synthetic_events
     t: Синтетичні події
   - key: options.react_pain_points.ref_management
-    t: Керування референціями (refs)
+    t: Керування рефами (refs)
   - key: options.react_pain_points.memoization
     t: Мемоізація
   - key: options.react_pain_points.animations
@@ -483,14 +479,14 @@ translations:
   - key: usage.react_usage_type
     t: Використання React
   - key: usage.react_usage_type.question
-    t: У якому контексті ви переважно використовуєте React?
+    t: Для чого ви переважно використовуєте React?
 
   # react version
 
   - key: usage.react_version
     t: Версія React
   - key: usage.react_version.question
-    t: Якою версією React ви найчастіше користуєтеся в повсякденній роботі?
+    t: Якою версією React ви найчастіше користуєтеся у повсякденній роботі?
 
   - key: options.react_version.react_v16x
     t: 16.x
@@ -501,73 +497,72 @@ translations:
   - key: options.react_version.react_canary
     t: Canary
   - key: options.react_version.not_sure
-    t: Не впевнений/не впевнена
+    t: Не впевнений(-а)
 
   # JS App Patterns
 
   - key: usage.js_app_patterns
-    t: Паттерни Додатків
+    t: Патерни застосунків
   - key: usage.js_app_patterns.question
-    t: Які з наведених архітектурних та рендеринг паттернів ви використовували **протягом останнього року**?
+    t: Які з наведених патернів архітектури та рендерингу застосунків ви використовували **за останній рік**?
 
   - key: options.js_app_patterns.single_page_app
-    t: Односторінковий додаток (SPA)
+    t: Односторінковий застосунок (SPA)
   - key: options.js_app_patterns.single_page_app.description
-    t: Додатки, які працюють повністю у браузері
+    t: Застосунки, які працюють виключно у браузері
   - key: options.js_app_patterns.multiple_page_app
-    t: Багатосторінковий додаток (MPA)
+    t: Багатосторінковий застосунок (MPA)
   - key: options.js_app_patterns.multiple_page_app.description
-    t: Додатки, які працюють повністю на сервері з мінімальною клієнтською динамікою
+    t: Застосунки, які відпрацьовують з боку сервера і мають мінімальну "динаміку" з боку клієнта
   - key: options.js_app_patterns.static_site_generation
     t: Генерація статичних сайтів (SSG)
   - key: options.js_app_patterns.static_site_generation.description
-    t: Передрендерний статичний контент з динамічним елементом на клієнті чи без нього
+    t: Попередньо відрендерений під час збирання статичний вміст — з динамічним елементом з боку клієнта чи без нього
   - key: options.js_app_patterns.server_side_rendering
-    t: Рендеринг на сервері (SSR)
+    t: Рендеринг з боку сервера (SSR)
   - key: options.js_app_patterns.server_side_rendering.description
-    t: Динамічне формування HTML контенту на сервері перед його відтворенням на клієнті
+    t: Динамічний рендеринг вмісту HTML з боку сервера за запитом — перед його регідрацією з боку клієнта
   - key: options.js_app_patterns.partial_hydration
-    t: Часткова гідратація
+    t: Часткова гідрація
   - key: options.js_app_patterns.partial_hydration.description
-    t: Гідратація лише деяких ваших компонентів на клієнті (наприклад, React Server Components)
+    t: Гідрація лише деяких ваших компонентів з боку клієнта (наприклад, React Server Components)
   - key: options.js_app_patterns.progressive_rehydration
-    t: Прогресивна гідратація
+    t: Поступова гідрація
   - key: options.js_app_patterns.progressive_rehydration.description
-    t: Керування порядком гідратації компонентів на клієнті
+    t: Керування порядком гідрації компонентів з боку клієнта
   - key: options.js_app_patterns.islands_architecture
     t: Архітектура островів
   - key: options.js_app_patterns.islands_architecture.description
-    t: Ізольовані острови динамічної поведінки з кількома точками входу в інакше статичний сайт (Astro, Eleventy)
+    t: Ізольовані острови з "динамікою", що мають кілька точок входу, у цілком статичному сайті (Astro, Eleventy)
   - key: options.js_app_patterns.progressive_enhancement
-    t: Прогресивне покращення
+    t: Поступове покращення (Progressive Enhancement)
   - key: options.js_app_patterns.progressive_enhancement.description
-    t: Забезпечення функціональності додатка навіть без JavaScript
+    t: Надання функціональності застосунку навіть без JavaScript
   - key: options.js_app_patterns.incremental_static_generation
-    t: Інкрементна генерація статичних сайтів
+    t: Статична генерація з доповненням (incremental)
   - key: options.js_app_patterns.incremental_static_generation.description
-    t: Здатність динамічно доповнювати або змінювати статичний сайт навіть після початкової збірки (Next.js ISR, Gatsby DSG)
+    t: Здатність динамічно доповнювати або змінювати статичний сайт навіть після початкового збирання (Next.js ISR, Gatsby DSG)
   - key: options.js_app_patterns.streaming_ssr
     t: Потоковий SSR
   - key: options.js_app_patterns.streaming_ssr.description
-    t: Розбиття контенту, створеного на сервері, на менші потокові частини
+    t: Розбиття вмісту, що рендерить сервер, на менші потокові частини
   - key: options.js_app_patterns.resumability
-    t: Здатність до відновлення
+    t: Відновлення стану (Resumability)
   - key: options.js_app_patterns.resumability.description
-    t: Серіалізація стану фреймворку на сервері, щоб клієнт міг продовжити виконання без дублювання коду.
+    t: Серіалізація стану фреймворку з боку сервера, щоб клієнт міг продовжити виконання без дублювання коду.
   - key: options.js_app_patterns.edge_rendering
-    t: Рендеринг на краю (Edge Rendering)
+    t: Периферійний рендеринг (Edge Rendering)
   - key: options.js_app_patterns.edge_rendering.description
-    t: Зміна відтвореного HTML на краю перед його відправкою клієнту
-
+    t: Зміна відрендереного HTML на периферії перед його відправленням клієнту
 
   - key: options.js_app_patterns.micro_frontend
-    t: Мікро-Фронтенд
+    t: Мікрофронтенди
   - key: options.js_app_patterns.domain_driven_design
-    t: Доменно-Орієнтоване Проектування
+    t: Предметно-орієнтоване проєктування
   - key: options.js_app_patterns.serverless
-    t: Безсерверний (Serverless)
+    t: Безсерверні обчислення (Serverless)
   - key: options.js_app_patterns.pespa
-    t: PESPA
+    t: PESPA (SPA з поступовим покращенням)
 
   - key: usage.what_do_you_use_react_for
     t: Використання React
@@ -575,7 +570,7 @@ translations:
     t: Для чого ви використовуєте React?
 
   - key: usage.react_pain_points
-    t: Проблемні моменти React
+    t: Проблеми React
 
   - key: usage.state_of_react
     t: Задоволення
@@ -583,15 +578,15 @@ translations:
     t: Наскільки ви задоволені поточним станом React?
 
   - key: usage.usage_pain_points
-    t: Інші проблемні моменти
+    t: Інші проблеми
   - key: usage.usage_pain_points.question
-    t: Чи є ще які-небудь проблемні моменти в React, які ви хотіли б згадати?
+    t: Чи є ще які-небудь проблеми щодо React, які ви хотіли б згадати?
 
   # new features
   - key: usage.new_features
     t: Нові функції
   - key: usage.new_features.question
-    t: Які з цих недавніх та майбутніх нових функцій вас найбільше захоплюють?
+    t: Які серед цих останніх та майбутніх нових функцій цікавлять вас найбільше?
 
   - key: options.new_features.asset_loading
     t: Завантаження ресурсів
@@ -606,20 +601,20 @@ translations:
   - key: options.new_features.new_docs.description
     t: Оновлений сайт документації React.
   - key: options.new_features.offscreen_rendering
-    t: Офскрін-рендеринг
+    t: Позаекранний рендеринг
   - key: options.new_features_offscreen_rendering.description
     t: Рендеринг екранів у фоновому режимі без додаткових витрат на продуктивність.
   - key: options.new_features.use_hook
-    t: > 
+    t: >
       Хук `use`
   - key: options.new_features.use_hook.description
-    t: > 
-     `use` розпаковує значення promise, але його можна використовувати у звичайних компонентах та хуках, включаючи клієнта.
+    t: >
+      `use` розпаковує значення Promise-об'єкта, але його можна використовувати всередині звичайних компонентів та хуків, включно з боку клієнта.
 
   - key: options.new_features.transition_tracing
-    t: Відслідковування переходів
+    t: Відстежування переходів (transitions)
   - key: options.new_features.transition_tracing.description
-    t: Виявляєте, коли переходи React стають повільнішими, та досліджуйте, чому вони можуть бути повільними.
+    t: Виявляйте, коли React-переходи стають повільнішими, та досліджуйте, чому вони можуть бути повільними.
 
   # what do you use React for?
   - key: options.what_do_you_use_react_for.static_sites
@@ -627,12 +622,11 @@ translations:
   - key: options.what_do_you_use_react_for.design_systems
     t: Системи дизайну
   - key: options.what_do_you_use_react_for.web_apps
-    t: Веб-застосунки
+    t: Вебзастосунки
   - key: options.what_do_you_use_react_for.mobile_apps
     t: Мобільні застосунки
   - key: options.what_do_you_use_react_for.desktop_apps
-    t: Десктопні застосунки
-
+    t: Застосунки для настільних комп'ютерів
 
   # resources
   - key: resources.learning_methods_react
@@ -643,7 +637,7 @@ translations:
   - key: resources.blogs_news_magazines_react
     t: Блоги
   - key: resources.blogs_news_magazines_react.question
-    t: Які блоги чи журнали ви читаєте, щоб слідкувати за новинами React?
+    t: Які блоги, журнали або розсилки ви читаєте, щоб слідкувати за новинами щодо React?
 
   - key: resources.sites_courses_react
     t: Сайти та курси
@@ -653,14 +647,14 @@ translations:
   - key: resources.podcasts_react
     t: Подкасти
   - key: resources.podcasts_react.question
-    t: Які подкасти з React або веб-розробки ви слухаєте?
+    t: Які подкасти щодо React або веброзробки ви слухаєте?
 
   - key: resources.video_creators_react
     t: Відеоблогери
   - key: resources.video_creators_react.question
-    t: Яких відеоблогерів з React або веб-розробки ви дивитеся на YouTube, Twitch тощо?
+    t: За якими відеоблогерами у сфері React- або веброзробки ви стежите (на YouTube, Twitch тощо)?
 
   - key: resources.people_react
-    t: Люди
+    t: Особистості
   - key: resources.people_react.question
-    t: Кого ви читаєте, відслідковуєте або просто хочете виділити у спільноті React?
+    t: Серед особистостей у спільноті React — кого ви читаєте, за ким слідкуєте чи просто хочете виокремити?
