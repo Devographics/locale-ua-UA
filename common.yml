@@ -1175,55 +1175,55 @@ translations:
   # age
   - key: user_info.age
     t: Вік
-  - key: user_info.age.description
+  - key: user_info.age.question
     t: Скільки вам років?
 
   # years of experience
   - key: user_info.years_of_experience
     t: Досвід
-  - key: user_info.years_of_experience.description
+  - key: user_info.years_of_experience.question
     t: Як довго ви працюєте або вчитеся у цій сфері (у роках)?
 
   # company size
   - key: user_info.company_size
     t: Кількість співробітників
-  - key: user_info.company_size.description
+  - key: user_info.company_size.question
     t: Скільки людей працює у вашій організації включно з вами?
 
   # salary ranges
   - key: user_info.yearly_salary
     t: Річний дохід
-  - key: user_info.yearly_salary.description
+  - key: user_info.yearly_salary.question
     t: Ваш річний валовий дохід (до оподаткування) у доларах США.
 
   # job title
   - key: user_info.job_title
     t: Посада/професія
-  - key: user_info.job_title.description
+  - key: user_info.job_title.question
     t: Ким ви представляєтеся на публічних заходах?
 
   # javascript proficiency
   - key: user_info.javascript_proficiency
     t: Рівень володіння JavaScript
-  - key: user_info.javascript_proficiency.description
+  - key: user_info.javascript_proficiency.question
     t: Ваш досвід роботи з JavaScript?
 
   # css proficiency
   - key: user_info.css_proficiency
     t: Рівень володіння CSS
-  - key: user_info.css_proficiency.description
+  - key: user_info.css_proficiency.question
     t: Ваш досвід роботи з CSS?
 
   # backend proficiency
   - key: user_info.backend_proficiency
     t: Рівень навичок серверної розробки
-  - key: user_info.backend_proficiency.description
+  - key: user_info.backend_proficiency.question
     t: Ваш досвід роботи з серверною частиною?
 
   # gender
   - key: user_info.gender
     t: Гендер
-  - key: user_info.gender.description
+  - key: user_info.gender.question
     t: >
       Який із наведених нижче варіантів описує вас? Виберіть один.
   - key: user_info.gender.note
@@ -1235,7 +1235,7 @@ translations:
   # race & ethnicity
   - key: user_info.race_ethnicity
     t: Раса та етнічність
-  - key: user_info.race_ethnicity.description
+  - key: user_info.race_ethnicity.question
     t: >
       Який із наведених варіантів описує вас? Позначте всі відповідності.
   - key: user_info.race_ethnicity.note
@@ -1255,7 +1255,7 @@ translations:
   # disability status
   - key: user_info.disability_status
     t: Порушення працездатності
-  - key: user_info.disability_status.description
+  - key: user_info.disability_status.question
     t: >
       Чи маєте ви порушення працездатності? Позначте всі відповідності. 
       Зверніть увагу, що це включно з тимчасовою втратою працездатності або травмою.
@@ -1299,7 +1299,7 @@ translations:
 
   - key: user_info.industry_sector
     t: Сфера діяльності
-  - key: user_info.industry_sector.description
+  - key: user_info.industry_sector.question
     t: В яких галузях ви працюєте?
   - key: user_info.industry_sector.others
     t: Інші сфери діяльності
@@ -1309,18 +1309,18 @@ translations:
   - key: usage.industry_sector
     aliasFor: user_info.industry_sector
   - key: usage.industry_sector.description
-    aliasFor: user_info.industry_sector.description
+    aliasFor: user_info.industry_sector.question
   - key: usage.industry_sector.others
     aliasFor: user_info.industry_sector.others
   - key: usage.industry_sector_freeform
     aliasFor: user_info.industry_sector.others
   - key: usage.industry_sector.others.description
-    aliasFor: user_info.industry_sector.description
+    aliasFor: user_info.industry_sector.question
 
   # degree
   - key: user_info.higher_education_degree
     t: Вища освіта
-  - key: user_info.higher_education_degree.description
+  - key: user_info.higher_education_degree.question
     t: Ви маєте вищу освіту?
 
   # employment status
