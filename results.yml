@@ -463,6 +463,10 @@ translations:
     t: npm
   - key: blocks.entity.youtube_link
     t: YouTube
+  - key: blocks.entity.mdn_link
+    t: MDN
+  - key: blocks.entity.caniuse_link
+    t: CanIUse
 
   # people
   - key: blocks.people.name
@@ -740,7 +744,7 @@ translations:
   ###########################################################################
 
   - key: chart_units.respondents
-    t: "{count} відповіли на питання (відсоток виконання: {percentage}%)"
+    t: "**{count}** відповіли на питання із **{total}** учасників опитування (відсоток виконання: *{percentage}%**)"
   - key: chart_units.percentage
     t: Відсотки
   - key: chart_units.count
@@ -754,25 +758,28 @@ translations:
   - key: chart_units.percentageSurvey
     aliasFor: chart_units.percentage_survey
   - key: chart_units.percentage_bucket
-    t: "% від стовпця"
+    t: Відсотки
   - key: chart_units.percentageBucket
     aliasFor: chart_units.percentage_bucket
   - key: chart_units.average
-    t: "Середнє: {axis}"
+    t: Середнє
   - key: chart_units.averageByFacet
     aliasFor: chart_units.average
 
+  - key: chart_units.facetCounts
+    t: Кількість
+
   - key: chart_units.percentilesByFacet
-    t: "Процентилі (вісь: {axis})"
+    t: Процентилі
 
   - key: charts.average
     t: "Середнє: {axis}"
   - key: charts.mean
     t: Середнє
-  - key: charts.overall
-    t: Загалом
   - key: charts.all_respondents
     t: Усі респонденти
+  - key: charts.overall
+    aliasFor: charts.all_respondents
   - key: charts.facet_responses
     t: "{count} відповідей"
   - key: charts.facet_respondents
@@ -903,14 +910,24 @@ translations:
     t: Інші відповіді
 
   - key: charts.cutoff_answers
-    t: Інші відповіді
+    t: Відкинуті відповіді
   - key: charts.cutoff_answers.short
-    t: Інші відповіді
+    t: Відкинуті відповіді
 
   - key: charts.other_answers
     t: Інші відповіді
   - key: charts.other_answers.short
     t: Інші відповіді
+
+  - key: charts.overlimit_answers
+    t: Перевищення ліміту
+  - key: charts.overlimit_answers.short
+    t: Перевищення ліміту
+
+  - key: charts.freeform_data
+    t: Дані відповідей вільної форми
+  - key: charts.freeform_data.description
+    t: Дані, зібрані з відповідей, надісланих через текстове поле довільної форми
 
   - key: charts.tick.links
     t: Посилання
@@ -1579,3 +1596,63 @@ translations:
       щоб вирішити її:
   - key: dataloader.submit_issue
     t: Повідомити про проблему
+
+  ###########################################################################
+  # Chart Controls
+  ###########################################################################
+
+  - key: charts.group_by
+    t: >
+      Групувати за:
+  - key: charts.group.experience
+    t: Досвід
+  - key: charts.group.sentiment
+    t: Ставлення
+
+  - key: charts.display_mode
+    t: >
+      Режим відображення:
+  - key: charts.display_mode.split
+    t: Розділений вигляд
+  - key: charts.display_mode.stacked
+    t: Стековий вигляд
+
+  - key: charts.order
+    t: >
+      Порядок сортування:
+
+  - key: charts.sort_by
+    t: >
+      Сортувати за:
+  - key: charts.sort_by_sort
+    t: >
+      Сортувати за: "**{sort}**""
+  - key: charts.sorted_by_sort_order
+    t: >
+      Сортувати за: "**{sort}**"", **{order}**
+  - key: charts.order.asc
+    t: Зростання
+  - key: charts.order.desc
+    t: Спадання
+
+  - key: charts.actions.customize
+    aliasFor: filters.customize_chart
+  - key: charts.actions.data
+    t: Отримати дані діаграми
+  - key: charts.actions.share
+    t: Поділитися діаграмою
+
+  - key: charts.vs
+    t: і
+
+  ###########################################################################
+  # Multi Items Experience Chart
+  ###########################################################################
+
+  - key: charts.multiexp.cell_tooltip
+    t: >
+      **{value}%** респондентів відповіли "**{experience}**" і ставляться **{sentiment}**
+
+  - key: charts.multiexp.cell_tooltip_neutral
+    t: >
+      **{value}%** респондентів відповіли "**{experience}**" і не висловили жодного ставлення
