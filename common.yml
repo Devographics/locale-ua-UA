@@ -317,6 +317,9 @@ translations:
   # Options
   ###########################################################################
 
+  - key: options.experience.title
+    t: Досвід
+
   # other answer
   - key: options.other
     t: Інше…
@@ -349,11 +352,25 @@ translations:
 
   # features (short)
   - key: options.features.never_heard.short
-    t: <span aria-hidden="true">🤷</span> Вперше чую
+    t: Вперше чую
   - key: options.features.heard.short
-    t: <span aria-hidden="true">👀</span> Чув(-ла) про це
+    t: Чув(-ла) про це
   - key: options.features.used.short
-    t: <span aria-hidden="true">🤓</span> Використовував(-ла)
+    t: Використовував(-ла)
+
+  - key: options.experience.never_heard
+    aliasFor: options.features.never_heard.short
+  - key: options.experience.heard
+    aliasFor: options.features.heard.short
+  - key: options.experience.used
+    aliasFor: options.features.used.short
+
+  - key: options.experience.never_heard.short
+    aliasFor: options.features.never_heard.short
+  - key: options.experience.heard.short
+    aliasFor: options.features.heard.short
+  - key: options.experience.used.short
+    aliasFor: options.features.used.short
 
   # features (no emoji)
   - key: options.features.never_heard.label
@@ -370,6 +387,53 @@ translations:
     t: Чув(-ла) про це
   - key: options.features.used.label.short
     t: Використовував(-ла)
+
+  # aliases
+  - key: options.experience.never_heard.label.short
+    aliasFor: options.features.never_heard.label.short
+  - key: options.experience.heard.label.short
+    aliasFor: options.features.heard.label.short
+  - key: options.experience.used.label.short
+    aliasFor: options.features.used.label.short
+
+  - key: options.experience.never_heard.description
+    t: Респонденти, які не чули про це.
+  - key: options.experience.heard.description
+    t: Респонденти, які чули про це, але не використовували.
+  - key: options.experience.used.description
+    t: Респонденти, які це використовували.
+
+  # sentiments
+
+  - key: options.sentiment.title
+    t: Ставлення
+
+  - key: options.sentiment.positive.label
+    t: Позитивне ставлення
+  - key: options.sentiment.neutral.label
+    t: Нейтральне ставлення
+  - key: options.sentiment.negative.label
+    t: Негативне ставлення
+
+  - key: options.sentiment.positive.label.short
+    t: Позитивно
+  - key: options.sentiment.neutral.label.short
+    t: Нейтрально
+  - key: options.sentiment.negative.label.short
+    t: Негативно
+  - key: options.sentiment.positive.short
+    aliasFor: options.sentiment.positive.label.short
+  - key: options.sentiment.neutral.short
+    aliasFor: options.sentiment.neutral.label.short
+  - key: options.sentiment.negative.short
+    aliasFor: options.sentiment.negative.label.short
+
+  - key: options.sentiment.positive.description
+    t: Респонденти, які зацікавлені у вивченні технології або хочуть використовувати її ще.
+  - key: options.sentiment.neutral.description
+    t: Респонденти, які не висловили жодного ставлення до технології.
+  - key: options.sentiment.negative.description
+    t: Респонденти, які не зацікавлені у вивченні технології або використовували її і мали негативний досвід.
 
   # patterns
   - key: options.patterns.use_never
@@ -475,7 +539,7 @@ translations:
 
   # age (short versions)
   - key: options.age.range_less_than_10.short
-    t: "<=10"
+    t: "<10"
   - key: options.age.range_10_18.short
     t: 11-18
   - key: options.age.range_18_24.short
@@ -490,6 +554,33 @@ translations:
     t: 55-64
   - key: options.age.range_more_than_65.short
     t: ">65"
+
+  # age 2
+  - key: options.age.range_under_20
+    t: 20 років і молодше
+  - key: options.age.range_20_29
+    t: 20-29 років
+  - key: options.age.range_30_39
+    t: 30-39 років
+  - key: options.age.range_40_49
+    t: 40-49 років
+  - key: options.age.range_50_59
+    t: 50-59 років
+  - key: options.age.range_over_60
+    t: 60 років і старше
+
+  - key: options.age.range_under_20.short
+    t: "<20"
+  - key: options.age.range_20_29.short
+    t: 20-29
+  - key: options.age.range_30_39.short
+    t: 30-39
+  - key: options.age.range_40_49.short
+    t: 40-49
+  - key: options.age.range_50_59.short
+    t: 50-59
+  - key: options.age.range_over_60.short
+    t: ">60"
 
   # years of experience
   - key: options.years_of_experience.range_less_than_1
@@ -1091,6 +1182,27 @@ translations:
   - key: options.percentage_segments.range_91_100
     t: 91-100%
 
+  - key: options.percentage_segments.range_0_10
+    t: 0-10%
+  - key: options.percentage_segments.range_10_20
+    t: 10-20%
+  - key: options.percentage_segments.range_20_30
+    t: 20-30%
+  - key: options.percentage_segments.range_30_40
+    t: 30-40%
+  - key: options.percentage_segments.range_40_50
+    t: 40-50%
+  - key: options.percentage_segments.range_50_60
+    t: 50-60%
+  - key: options.percentage_segments.range_60_70
+    t: 60-70%
+  - key: options.percentage_segments.range_70_80
+    t: 70-80%
+  - key: options.percentage_segments.range_80_90
+    t: 80-90%
+  - key: options.percentage_segments.range_90_100
+    t: 90-100%
+
   - key: options.completion_stats.range_0_10
     aliasFor: options.percentage_segments.range_0_10
   - key: options.completion_stats.range_11_20
@@ -1111,6 +1223,27 @@ translations:
     aliasFor: options.percentage_segments.range_81_90
   - key: options.completion_stats.range_91_100
     aliasFor: options.percentage_segments.range_91_100
+
+  - key: options.completion_stats.range_0_10
+    aliasFor: options.percentage_segments.range_0_10
+  - key: options.completion_stats.range_10_20
+    aliasFor: options.percentage_segments.range_10_20
+  - key: options.completion_stats.range_20_30
+    aliasFor: options.percentage_segments.range_20_30
+  - key: options.completion_stats.range_30_40
+    aliasFor: options.percentage_segments.range_30_40
+  - key: options.completion_stats.range_40_50
+    aliasFor: options.percentage_segments.range_40_50
+  - key: options.completion_stats.range_50_60
+    aliasFor: options.percentage_segments.range_50_60
+  - key: options.completion_stats.range_60_70
+    aliasFor: options.percentage_segments.range_60_70
+  - key: options.completion_stats.range_70_80
+    aliasFor: options.percentage_segments.range_70_80
+  - key: options.completion_stats.range_80_90
+    aliasFor: options.percentage_segments.range_80_90
+  - key: options.completion_stats.range_90_100
+    aliasFor: options.percentage_segments.range_90_100
 
   - key: options.knowledge_score.range_0_10
     aliasFor: options.percentage_segments.range_0_10
@@ -1200,32 +1333,32 @@ translations:
   - key: user_info.job_title
     t: Посада/професія
   - key: user_info.job_title.question
-    t: Ким ви представляєтеся на публічних заходах?
+    t: Ким ви представляєтеся публічно?
 
   # javascript proficiency
   - key: user_info.javascript_proficiency
     t: Рівень володіння JavaScript
   - key: user_info.javascript_proficiency.question
-    t: Ваш досвід роботи з JavaScript?
+    t: Ваш досвід роботи із JavaScript?
 
   # css proficiency
   - key: user_info.css_proficiency
     t: Рівень володіння CSS
   - key: user_info.css_proficiency.question
-    t: Ваш досвід роботи з CSS?
+    t: Ваш досвід роботи із CSS?
 
   # backend proficiency
   - key: user_info.backend_proficiency
     t: Рівень навичок серверної розробки
   - key: user_info.backend_proficiency.question
-    t: Ваш досвід роботи з серверною частиною?
+    t: Ваш досвід роботи із серверною частиною?
 
   # gender
   - key: user_info.gender
     t: Гендер
   - key: user_info.gender.question
     t: >
-      Який із наведених нижче варіантів описує вас? Виберіть один.
+      Який із наведених варіантів описує вас?
   - key: user_info.gender.note
     t: >
       Хоча ми знаємо, що збір і публікація даних про різноманітність (diversity) є делікатною справою, 
@@ -1237,7 +1370,7 @@ translations:
     t: Раса та етнічність
   - key: user_info.race_ethnicity.question
     t: >
-      Який із наведених варіантів описує вас? Позначте всі відповідності.
+      Який із наведених варіантів описує вас?
   - key: user_info.race_ethnicity.note
     t: >
       Хоча ми знаємо, що збір і публікація даних про різноманітність (diversity) є делікатною справою, 
@@ -1257,8 +1390,10 @@ translations:
     t: Порушення працездатності
   - key: user_info.disability_status.question
     t: >
-      Чи маєте ви порушення працездатності? Позначте всі відповідності. 
-      Зверніть увагу, що це включно з тимчасовою втратою працездатності або травмою.
+      Яке з наведених порушень ви маєте?
+  - key: user_info.disability_status.description
+    t: >
+      Позначте всі відповідності. Зверніть увагу, що це включно з тимчасовою втратою працездатності або травмою.
 
   # disability status (other)
   - key: user_info.disability_status.others
@@ -1268,6 +1403,8 @@ translations:
 
   # other info
   - key: user_info.how_did_user_find_out_about_the_survey
+    t: Джерело
+  - key: user_info.how_did_user_find_out_about_the_survey.question
     t: Як ви дізналися про це опитуванні?
   - key: user_info.email
     t: Ваша електронна адреса
@@ -1300,7 +1437,7 @@ translations:
   - key: user_info.industry_sector
     t: Сфера діяльності
   - key: user_info.industry_sector.question
-    t: В яких галузях ви працюєте?
+    t: У яких галузях економіки ви працюєте?
   - key: user_info.industry_sector.others
     t: Інші сфери діяльності
   - key: user_info.industry_sector.others.description
@@ -1345,6 +1482,8 @@ translations:
 
   # how can we improve the survey?
   - key: user_info.how_can_we_improve
+    t: Покращення опитування
+  - key: user_info.how_can_we_improve.question
     t: Як ми можемо покращити це опитування?
 
   ###########################################################################
