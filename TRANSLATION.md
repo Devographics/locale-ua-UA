@@ -45,6 +45,7 @@
 |salary|дохід|
 |to sign in|увійти|
 |to sign up|зареєструватися|
+|the sentiment (_категорія для респондентів_)|ставлення|
 |a session|сесія|
 |a token|токен(-у)|
 |an username|нікнейм|
