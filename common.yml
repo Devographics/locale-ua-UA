@@ -415,6 +415,21 @@ translations:
   - key: options.sentiment.negative.label
     t: Негативне ставлення
 
+  - key: options.sentiment.never_heard.positive.label
+    aliasFor: followups.sentiment_interested
+  - key: options.sentiment.never_heard.negative.label
+    aliasFor: followups.sentiment_not_interested
+
+  - key: options.sentiment.heard.positive.label
+    aliasFor: followups.sentiment_interested
+  - key: options.sentiment.heard.negative.label
+    aliasFor: followups.sentiment_not_interested
+
+  - key: options.sentiment.used.positive.label
+    aliasFor: followups.sentiment_positive_experience
+  - key: options.sentiment.used.negative.label
+    aliasFor: followups.sentiment_negative_experience
+
   - key: options.sentiment.positive.label.short
     t: Позитивно
   - key: options.sentiment.neutral.label.short
@@ -427,6 +442,21 @@ translations:
     aliasFor: options.sentiment.neutral.label.short
   - key: options.sentiment.negative.short
     aliasFor: options.sentiment.negative.label.short
+
+  - key: options.sentiment.never_heard.positive.label.short
+    aliasFor: followups.sentiment_interested
+  - key: options.sentiment.never_heard.negative.label.short
+    aliasFor: followups.sentiment_not_interested
+
+  - key: options.sentiment.heard.positive.label.short
+    aliasFor: followups.sentiment_interested
+  - key: options.sentiment.heard.negative.label.short
+    aliasFor: followups.sentiment_not_interested
+
+  - key: options.sentiment.used.positive.label.short
+    aliasFor: followups.sentiment_positive_experience
+  - key: options.sentiment.used.negative.label.short
+    aliasFor: followups.sentiment_negative_experience
 
   - key: options.sentiment.positive.description
     t: Респонденти, які зацікавлені у вивченні технології або хочуть використовувати її ще.
@@ -1358,7 +1388,7 @@ translations:
     t: Гендер
   - key: user_info.gender.question
     t: >
-      Який із наведених варіантів описує вас?
+      Який один із наведених варіантів описує вас?
   - key: user_info.gender.note
     t: >
       Хоча ми знаємо, що збір і публікація даних про різноманітність (diversity) є делікатною справою, 
