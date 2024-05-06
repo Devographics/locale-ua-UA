@@ -657,9 +657,11 @@ translations:
     t: >
       Ви можете скопіювати цей запит, щоб виконати його в <a target="_blank" rel="nofollow" href="https://graphiql.devographics.com/">публічному API-сервері GraphQL</a>.
   - key: export.export_json
-    t: Отримати дані у форматі JSON
+    t: Дані у форматі JSON
   - key: export.export_graphql
-    t: Отримати GraphQL-запит
+    t: GraphQL-запит
+  - key: export.export_filters
+    t: Фільтри у вигляді коду
 
   - key: custom_data.heading
     t: Власна діаграма
@@ -726,7 +728,7 @@ translations:
 
   # other
   - key: blocks.freeform
-    t: (питання довільної форми)
+    t: Довільна форма
 
   # Reading List
   - key: features.reading_list
@@ -905,29 +907,37 @@ translations:
     t: Без відповіді
 
   - key: charts.no_match
-    t: Інші відповіді
+    t: Відповіді без відповідника
   - key: charts.no_match.short
-    t: Інші відповіді
+    t: Відповіді без відповідника
+  - key: charts.no_match.description
+    t: Відповіді довільної форми, які неможливо зіставити з певними варіантами даних
 
   - key: charts.cutoff_answers
     t: Відкинуті відповіді
   - key: charts.cutoff_answers.short
     t: Відкинуті відповіді
+  - key: charts.cutoff_answers.description
+    t: Відповіді, що не подолали визначений поріг входження
 
   - key: charts.other_answers
     t: Інші відповіді
   - key: charts.other_answers.short
     t: Інші відповіді
+  - key: charts.other_answers.description
+    t: Інші відповіді, не включені вище
 
   - key: charts.overlimit_answers
-    t: Перевищення ліміту
+    t: Поза лімітом
   - key: charts.overlimit_answers.short
-    t: Перевищення ліміту
+    t: Поза лімітом
+  - key: charts.overlimit_answers.description
+    t: Відповіді, що перевищили визначений ліміт кількості елементів у запиті
 
   - key: charts.freeform_data
     t: Дані відповідей вільної форми
   - key: charts.freeform_data.description
-    t: Дані, зібрані з відповідей, надісланих через текстове поле довільної форми
+    t: Дані, зібрані з відповідей довільної форми
 
   - key: charts.tick.links
     t: Посилання
@@ -960,6 +970,13 @@ translations:
     t: Поскаржитися на цей коментар
   - key: comments.share
     t: Поділитися коментарем
+
+  - key: comments.filter.experience
+    t: "Досвід: "
+  - key: comments.filter.sentiment
+    t: "Ставлення: "
+  - key: comments.filter.all
+    t: Усі
 
   ###########################################################################
   # Sharing
@@ -1494,26 +1511,44 @@ translations:
   - key: filters.compare_data
     t: Порівняти дані
   - key: filters.customize_chart
-    t: Налаштувати діаграму
+    t: Додати фільтри...
   - key: filters.docs
     t: Документація
   - key: filters.compare_chart
     t: Налаштувати "{chartName}"
+  - key: filters.edit_variant_with_name
+    t: Редагувати "{name}"
+  - key: filters.edit_name
+    t: "Редагувати назву"
+  - key: filters.edit_name.description
+    t: "Редагувати назву цієї варіації діаграми:"
+  - key: filters.create_variant
+    t: Створити нову варіацію
+  - key: filters.delete_variant
+    t: Видалити діаграму
+  - key: filters.delete_variant_confirm
+    t: Видалити варіацію діаграми "{name}"?
+  - key: filters.edit_variant
+    t: Змінити налаштування…
   - key: filters.filters.description
     t: |
-      Використовуючи комбінацію демографічних фільтрів, ви можете визначити до чотирьох **власних рядів даних**,
-      щоб динамічно завантажити та порівняти їх з типовими даними для цього питання.
+      Задайте комбінацію фільтрів, щоб порівняти різні варіанти діаграми пліч-о-пліч.
   - key: filters.facets.description
     t: |
-      Виберіть категорію, за якою треба розбити кожен стовпчик на "групи".
+      Виберіть категорію і далі розбийте за нею кожен рядок діаграми на сегменти.
   - key: filters.grid_mode
-    t: Порівняльна
+    t: За фільтрами
   - key: filters.combined_mode
-    t: Зведена
+    t: Зведено
   - key: filters.facet_mode
     t: За групами
   - key: filters.facet
     t: "Група:"
+
+  - key: filters.facet_view
+    t: Сегментовані стовпці
+  - key: filters.grid_view
+    t: Порівняльна таблиця
 
   - key: filters.series.heading
     t: Ряд {index}
@@ -1587,6 +1622,12 @@ translations:
   - key: filters.facet.select
     t: Вибрати групу…
 
+  - key: filters.by_x
+    t: За {name}
+
+  - key: filters.vs_x
+    t: Та {name}
+
   - key: dataloader.failed_request
     t: >
       О ні! Невдалий запит до API з таким повідомленням:
@@ -1596,6 +1637,26 @@ translations:
       щоб вирішити її:
   - key: dataloader.submit_issue
     t: Повідомити про проблему
+
+  # advanced options
+
+  - key: filters.advanced_options
+    t: Додаткові налаштування
+
+  - key: filters.options.cutoff
+    t: Поріг входження
+  - key: filters.options.cutoff.description
+    t: Прибрати з даних будь-які значення, нижчі за цей поріг
+
+  - key: filters.options.limit
+    t: Ліміт
+  - key: filters.options.limit.description
+    t: Обмежити результати першими n елементами
+
+  - key: filters.options.showDefaultSeries
+    aliasFor: filters.series.show_default
+  - key: filters.options.showDefaultSeries.description
+    t: Показати початкові (без фільтрів) ряди даних для режиму "За фільтрами"
 
   ###########################################################################
   # Chart Controls
@@ -1645,9 +1706,27 @@ translations:
   - key: charts.vs
     t: і
 
+  - key: charts.custom_variant
+    t: Варіація {index}
+  - key: charts.new_variant_name_prompt
+    t: Введіть коротку зрозумілу назву своєї нової діаграми (наприклад, "порівняно з доходом", "за гендером" тощо)
+
+  - key: charts.show_all_rows
+    t: Показати усі
+  - key: charts.show_all_rows.x_hidden
+    t: Показати усі (приховано {count})
+
   ###########################################################################
   # Multi Items Experience Chart
   ###########################################################################
+
+  - key: charts.multiexp.cell_group_tooltip.experience
+    t: >
+      **{value}%** респондентів відповіли "**{answer}**"
+
+  - key: charts.multiexp.cell_group_tooltip.sentiment
+    t: >
+      **{value}%** респондентів ставляться **{answer}**
 
   - key: charts.multiexp.cell_tooltip
     t: >
