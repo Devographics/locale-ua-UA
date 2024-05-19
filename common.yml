@@ -1446,7 +1446,7 @@ translations:
       Ми не зберігаємо жодних персональних даних, тому після того, як ви додасте свою електронну адресу, ми використаємо її для створення унікального анонімного ідентифікатора і одразу видалимо.
   - key: user_info.country
     t: Країна чи регіон
-  - key: user_info.country.description
+  - key: user_info.country.question
     t: Де ви наразі проживаєте?
 
   - key: user_info.github_username
