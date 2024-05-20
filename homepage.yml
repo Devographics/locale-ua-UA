@@ -54,7 +54,7 @@ translations:
   - key: newsletter.stay_tuned
     t: Будьте на зв'язку
   - key: newsletter.leave_your_email
-    t: Залиште свою електронну адресу, щоб дізнатися про наступні опитуваннях.
+    t: Залиште свою електронну адресу, щоб дізнатися про наступні опитування.
   - key: newsletter.email
     t: Ваша електронна адреса
   - key: newsletter.submit
