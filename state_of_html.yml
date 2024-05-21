@@ -8,82 +8,82 @@ translations:
   - key: general.state_of_html.intro
     # aliasFor: general.html2023.survey_intro # Can we do that?
     t: |
-      While web developers tend to focus on JavaScript and CSS, none of what we do would be possible without HTML acting as the foundation.
+      Поки веброзробники зосереджуються на JavaScript та CSS, нічого з того, що ми робимо, не було б можливим без HTML в основі.
 
-      It has long seemed like HTML wasn't evolving, but things may be changing.
-      New elements like `<selectlist>` are on the horizon, cool new features like popovers,
-      and a swath of related browser APIs (Web Components, PWAs, etc.).
+      Довго здавалося, що HTML не розвивається, але все змінюється.
+      На горизонті з'являються нові елементи, як-от `<selectlist>`, приголомшливі нові функції, наприклад, спливаючі вікна,
+      та ряд суміжних API браузера (вебкомпоненти, PWA тощо).
 
-      This year, [Lea Verou](https://lea.verou.me/) took on the formidable task of leading the design of this brand new survey, from content to UX and beyond.
+      Цього року [Lea Verou](https://lea.verou.me/) взяла на себе величезне завдання з проведення цього абсолютно нового опитування — від змісту до UX і більше.
 
-      Building on the success of [State of JS](http://stateofjs.com/) and [State of CSS](https://stateofcss.com/), we introduce **State of HTML**;
-      the last missing piece that completes the trilogy, so we can track the evolution of the web platform as a whole.
+      Спираючись на успіх опитувань ["Стан JS"](http://stateofjs.com/) та ["Стан CSS"](https://stateofcss.com/), ми запускаємо **Стан HTML**;
+      останній відсутній елемент, що доповнює трилогію, щоб ми могли відстежувати еволюцію вебплатформи загалом.
 
-      Benefits to you:
-      - Survey results are **used by browsers** and standards groups **for roadmap prioritization**.
-      Your responses can help get features you care about implemented, browser incompatibilities being prioritized, and gaps in the platform being addressed.
-      - Learn about new and upcoming features; add features to your reading list and get a list of resources at the end!
-      - Get a personalized knowledge score and see how you compare to other respondents
+      Переваги для вас:
+      - Результати опитування **використовуються браузерами** та групами стандартів **для визначення пріоритетів розробки**.
+      Ваші відповіді можуть допомогти реалізувати цікаві вам функції, визначити пріоритети для усунення несумісностей між браузерами та вказати на прогалини у платформі.
+      - Дізнайтеся про нові та майбутні функції; додайте функції до вашого списку читання та отримайте список джерел у кінці!
+      - Отримайте індивідуальну оцінку знань та порівняйте з іншими респондентами.
 
-      The survey will be open for 3 weeks, but responses entered **within the first 9 days (until October 1st)** will have a much higher impact on the Web,
-      as preliminary data will be used for certain prioritization efforts that have deadlines before then.
+      Опитування буде відкрите протягом 3 тижнів, але відповіді, внесені **протягом перших 9-ти днів (до 1 жовтня)**, матимуть набагато більший вплив на вебплатформу,
+      оскільки попередні дані будуть використовуватися для визначення певних пріоритетних напрямків, що мають граничний строк до того часу.
 
   - key: general.state_of_html.description
-    t: The annual developer survey about the web platform
+    t: Щорічне опитування розробників щодо вебплатформи
 
   ###########################################################################
   # Sections
   ###########################################################################
 
   - key: sections.forms.title
-    t: Forms
+    t: Форми
   - key: sections.forms.description
-    t: Form-related elements and attributes
+    t: Елементи й атрибути, що відносяться до форм.
 
   - key: sections.interactivity.title
-    t: Interactivity
+    t: Інтерактивність
   - key: sections.interactivity.description
-    t: APIs that enable richer user interactions.
+    t: API, які забезпечують розширену взаємодію з користувачем.
 
   - key: sections.web_components.title
-    t: Web Components
+    t: Вебкомпоненти
   - key: sections.web_components.description
-    t: Making & using web components.
+    t: Створення та використання вебкомпонентів.
 
   - key: sections.content.title
-    t: Content
+    t: Наповнення сайту
   - key: sections.content.description
-    t: Embedding, multimedia, data, and other content-related features.
+    t: Вбудовування елементів, мультимедіа, розмітка даних та інші пов'язані із наповненням функції.
 
   - key: sections.external_content.title
-    t: External Content
+    t: Наповнення сайту ззовні
   - key: sections.external_content.description
-    t: Embedding external resources, and other multimedia APIs.
+    t: Вбудовування зовнішніх ресурсів та інших мультимедійних API.
 
   - key: sections.accessibility.title
-    t: Accessibility
+    t: Доступність
   - key: sections.accessibility.description
-    t: Making sites and apps accessible by all.
+    t: Як зробити сайти та застосунки доступними для всіх.
 
   - key: sections.mobile_web_apps.title
-    t: Native-like Web Apps
+    t: Вебзастосунки, які схожі на нативні
   - key: sections.mobile_web_apps.description
-    t: Authoring mobile and desktop-optimized web apps.
+    t: Створення вебзастосунків, оптимізованих для мобільних пристроїв і настільних комп'ютерів.
 
   - key: sections.other_features.title
-    t: Other Features
+    t: Інші функції
   - key: sections.other_features.description
-    t: Other HTML elements & browser APIs.
+    t: Інші HTML-елементи та API браузера.
 
   - key: sections.other_tools.title
-    t: Other Tools & Features
+    t: Інші інструменти чи функції
   - key: sections.other_tools.description
-    t: Other tools or features you use as part of your work.
+    t: Інші інструменти чи функції, якими ви користуєтеся в роботі.
 
   - key: sections.usage.title
-    t: Usage
+    t: Використання
   - key: sections.usage.description
-    t: How you use HTML.
+    t: Як ви використовуєте HTML.
 
   ###########################################################################
   # Features
@@ -92,56 +92,56 @@ translations:
   # forms
 
   - key: features.form_controls
-    t: Form Controls
+    t: Елементи керування формою
   - key: features.form_controls.question
-    t: Which form controls have you used?
+    t: Які елементи керування формою ви використовували?
 
   - key: features.form_input_types
-    t: Input Types
+    t: Типи input-елементів
   - key: features.form_input_types.question
-    t: Which input types have you used?
+    t: Які типи input-елементів ви використовували?
   - key: options.form_input_types.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> Нічого з вищевказаного 
 
   - key: features.form_validation_features
-    t: Form Validation
+    t: Валідація форми
   - key: features.form_validation_features.question
-    t: Which of the following form validation features have you used?
+    t: Які з наведених функцій валідації ви використовували?
   - key: options.form_validation_features.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> Нічого з вищевказаного 
 
   - key: features.forms_pain_points
-    t: Form Pain Points
+    t: Проблеми форм
   - key: features.forms_pain_points.question
-    t: What are your pain points around HTML forms?
+    t: Які проблеми HTML-форм найбільше вас розчаровують?
   - key: features.forms_pain_points.prompt
     t: |
-      Think of the various form controls (e.g. `<input>`, `<textarea>`, `<select>`, `<button>` etc.),
-      behaviors (e.g. validation, autocomplete), handling forms via JS, editing APIs (e.g. `contentEditable`) etc.
-      Anything that bothers you is fair game — browser support, missing features, styling, etc.
+      Подумайте про різні елементи керування формами (наприклад, `<input>`, `<textarea>`, `<select>`, `<button>` тощо),
+      поведінку (наприклад, валідація, автозаповнення), обробку форм за допомогою JS, API для редагування (наприклад, `contentEditable`) тощо.
+      Пишіть усе, що вас турбує у формах: підтримка браузерами, відсутні функції, додавання стилів тощо.
   - key: features.forms_pain_points.placeholder
     t: |
-      Pain point #{index}…
+      Проблема #{index}…
 
   # interactivity
 
   - key: features.dom_attribute_features
-    t: DOM Attribute-related methods
+    t: Методи DOM для атрибутів
   - key: features.dom_attribute_features.question
-    t: Which of the following DOM attribute-related methods have you used?
+    t: Які з наведених методів DOM для атрибутів ви використовували?
 
   - key: features.dom_html_features
-    t: HTML String-handling Features
+    t: Функції обробки тексту в HTML
   - key: features.dom_html_features.question
-    t: Which of the following DOM HTML string-handling features have you used?
+    t: Які з наведених функцій обробки HTML-тексту всередині DOM ви використовували?
 
   - key: features.dom_methods
-    t: Element reparenting DOM Methods
+    t: Методи DOM для зміни батьківського елемента
 
   - key: features.dom_moving_element_features
-    t: Element-moving DOM Methods
+    t: Методи DOM для переміщення елементів
   - key: features.dom_moving_element_features.question
-    t: Which of the following element-moving DOM methods have you used?
+    t: Які з наведених методів DOM для переміщення елементів ви використовували?
   # - key: options.dom_methods.element_innerhtml.description
   #   t: |
   #     `element.innerHTML = rawHTML`
@@ -179,37 +179,37 @@ translations:
   #   t: |
   #     `let fragment = document.createDocumentFragment()`
   - key: options.dom_methods.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> Нічого з вищевказаного 
 
   - key: features.interactivity_pain_points
-    t: Interactivity Pain Points
+    t: Проблеми інтерактивності
   - key: features.interactivity_pain_points.question
-    t: What are your pain points around dynamic HTML changes?
+    t: Які проблеми динамічної зміни HTML найбільше вас розчаровують?
   - key: features.interactivity_pain_points.prompt
     t: |
-      Browser incompatibilities or lack of support, missing features, and other problems you face
-      around interactive elements and behaviors (except forms), DOM manipulation, events, and related APIs.
+      Несумісність між браузерами або відсутність підтримки, відсутні функції та інші проблеми, з якими ви стикаєтеся,
+      що пов'язані з інтерактивними елементами та поведінкою (крім форм), маніпулюванням DOM, подіями та суміжними API.
 
   - key: features.interactivity_pain_points.placeholder
     t: |
-      Pain point #{index}…
+      Проблема #{index}…
 
   - key: features.interactivity_techniques
-    t: Interactivity Methods
+    t: Методи для додавання інтерактивності
   - key: features.interactivity_techniques.question
-    t: Which of these methods have you used to add interactivity or dynamically modify HTML?
+    t: Які з наведених методів ви використовували для додавання інтерактивності або динамічної зміни HTML-коду?
   - key: options.interactivity_techniques.css_for_interactivity
-    t: CSS for interactivity (toggles, tabs, etc.)
+    t: CSS для інтерактивності (toggles, tabs, etc.)
   - key: options.interactivity_techniques.js_dom_libraries
-    t: JavaScript DOM libraries (jQuery, etc.)
+    t: JavaScript-бібліотеки для DOM (jQuery, etc.)
   - key: options.interactivity_techniques.js_framework
-    t: JavaScript frameworks (React, Vue, etc.)
+    t: JavaScript-фреймворки (React, Vue, etc.)
   - key: options.interactivity_techniques.vanilla_js
-    t: Plain JavaScript (no frameworks or libraries)
+    t: Лише JavaScript (без фреймворків чи бібліотек)
   - key: options.interactivity_techniques.web_components
-    t: Web Components
+    t: Вебкомпоненти
   - key: options.interactivity_techniques.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> Нічого з вищевказаного 
 
   # content
 
@@ -245,7 +245,7 @@ translations:
   - key: features.i18n_features.question
     t: Which of the following internationalization features have you used?
   - key: options.i18n_features.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> Нічого з вищевказаного 
 
   # - key: options.i18n_features.intl_datetimeformat.description
   #   t:
@@ -267,16 +267,16 @@ translations:
   #   t:
 
   - key: features.content_pain_points
-    t: Content Pain Points
+    t: Проблеми наповнення сайту
   - key: features.content_pain_points.question
-    t: What are your pain points around managing content in HTML?
+    t: Які проблеми керуванням наповненням у HTML найбільше вас розчаровують?
   - key: features.content_pain_points.prompt
     t: |
       Think of embedding (multimedia, iframes, SVG, etc), machine-readable data, internationalization & localization, security & privacy, performance etc.
       Missing features, browser incompatibilities, and other problems you face are all fair game.
   - key: features.content_pain_points.placeholder
     t: |
-      Pain point #{index}…
+      Проблема #{index}…
 
   # Content
 
@@ -285,7 +285,7 @@ translations:
   - key: features.external_content_elements.question
     t: Which of the following elements have you used?
   - key: options.external_content_elements.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> Нічого з вищевказаного 
 
   - key: features.privacy_security_features
     t: |
@@ -294,7 +294,7 @@ translations:
     t: |
       Which of the following security & privacy features have you used?
   - key: options.privacy_security_features.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> Нічого з вищевказаного 
 
   - key: features.rel_attribute
     t: Resource Hints
@@ -316,7 +316,7 @@ translations:
   # Web Components
 
   - key: features.web_components_libraries
-    t: Web Components Libraries
+    t: Бібліотеки вебкомпонентів
   - key: features.web_components_libraries.question
     t: Have you used any Web Components libraries?
 
@@ -331,28 +331,28 @@ translations:
     t: |
       `<button is="fancy-button">`
   - key: options.web_components_features.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> Нічого з вищевказаного 
 
   - key: features.using_web_components_pain_points
-    t: Using Web Components Pain Points
+    t: Проблеми використання вебкомпонентів
   - key: features.using_web_components_pain_points.question
-    t: What are your biggest pain points around *consuming* web components?
+    t: Які проблеми *використання* вебкомпонентів найбільше вас розчаровують?
   - key: features.using_web_components_pain_points.prompt
     t: Using Web Components that you or others have made. Missing features, browser incompatibilities, etc.
   - key: features.using_web_components_pain_points.placeholder
     t: |
-      Pain point #{index}…
+      Проблема #{index}…
 
   - key: features.making_web_components_pain_points
-    t: Making Web Components Pain Points
+    t: Проблеми створення вебкомпонентів
   - key: features.making_web_components_pain_points.question
-    t: What are your biggest pain points around *making* web components?
+    t: Які проблеми *створення* вебкомпонентів найбільше вас розчаровують?
   - key: features.making_web_components_pain_points.prompt
     t: |
       What prevents you from creating the amazing components you envision? Missing features, browser incompatibilities, etc.
   - key: features.making_web_components_pain_points.placeholder
     t: |
-      Pain point #{index}…
+      Проблема #{index}…
 
   # Accessibility
 
@@ -367,12 +367,12 @@ translations:
     t: What tools do you use for accessibility testing?
 
   - key: features.accessibility_pain_points
-    t: Accessibility Pain Points
+    t: Проблеми доступності
   - key: features.accessibility_pain_points.question
-    t: What are your biggest pain points around web accessibility?
+    t: Які проблеми доступності вебплатформи найбільше вас розчаровують?
   - key: features.accessibility_pain_points.placeholder
     t: |
-      Pain point #{index}…
+      Проблема #{index}…
 
   - key: features.accessibility_disabilities
     t: User Disabilities
@@ -504,14 +504,14 @@ translations:
   - key: features.pwa_features.question
     t: Have you used any of the following PWA technologies/APIs?
   - key: options.pwa_features.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> Нічого з вищевказаного 
 
   - key: features.local_storage_features
     t: Local storage features
   - key: features.local_storage_features.question
     t: Have you used any of the following to store data client-side?
   - key: options.local_storage_features.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> Нічого з вищевказаного 
 
   - key: features.pwa_app_manifest_fields
     t: App Manifest Fields
@@ -543,14 +543,14 @@ translations:
     t: Tauri, Flutter, etc.
 
   - key: features.mobile_web_apps_pain_points
-    t: Native-like Web Apps Pain Points
+    t: Проблеми вебзастосунків, що схожі на нативні
   - key: features.mobile_web_apps_pain_points.question
-    t: What are your biggest pain points around making web apps that feel native?
+    t: Які проблеми створення вебзастосунків, що мають відчуватися нативно, найбільше вас розчаровують?
   - key: features.mobile_web_apps_pain_points.description
     t: Capabilities the Web Platform doesn't yet have, browser differences in related APIs, etc.
   - key: features.mobile_web_apps_pain_points.placeholder
     t: |
-      Pain point #{index}
+      Проблема #{index}
 
   # Other Tools
 
@@ -570,7 +570,7 @@ translations:
     aliasFor: features.machine_readable_features.question
 
   - key: options.machine_readable_features.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> Нічого з вищевказаного 
 
   - key: other_tools.blast_from_the_past
     t: Blast from the Past!
@@ -579,7 +579,7 @@ translations:
   - key: other_tools.blast_from_the_past.description
     t: Blast from the past!
   - key: options.blast_from_the_past.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> Нічого з вищевказаного 
 
   # Usage
 
@@ -671,9 +671,9 @@ translations:
     t: Millions of developers
 
   - key: usage.html_missing_elements
-    t: Missing Elements
+    t: Відсутні елементи
   - key: usage.html_missing_elements.question
-    t: If you could add 3 elements to HTML, what would they be?
+    t: Якби ви могли додати 3 елементи до HTML, якими б вони були?
   # - key: usage.html_missing_elements.description
   #   t: |
   #     If you use any component technologies, the components you find yourself reusing across multiple projects could be good candidates.
@@ -685,55 +685,57 @@ translations:
   - key: options.html_missing_elements.alert
     t: Alert
   - key: options.html_missing_elements.calendar
-    t: Calendar
+    t: Календар
   - key: options.html_missing_elements.carousel
-    t: Carousel
+    t: Карусель
   - key: options.html_missing_elements.combobox_autocomplete
     t: Combobox / Autocomplete
   - key: options.html_missing_elements.command_palette
     t: Command Palette
   - key: options.html_missing_elements.context_menu
-    t: Context Menu / Right-Click Menu
+    t: Контекстне меню / Меню, що викликається правою кнопкою
   - key: options.html_missing_elements.datatable
-    t: Data table (with sorting, filtering, etc.)
+    t: Таблиця для даних
+  - key: options.html_missing_elements.datatable.description
+    t: Таблиця для даних із сортуванням, фільтруванням тощо.
   - key: options.html_missing_elements.dropdown_menu
     t: Dropdown Menu
   - key: options.html_missing_elements.image_zoom
-    t: Image Zoom
+    t: Масштабування зображення (Image Zoom)
   - key: options.html_missing_elements.progress_bar
-    t: Progress Bar
+    t: Індикатор прогресу виконання (Progress Bar)
   - key: options.html_missing_elements.skeleton_loading_placeholder
     t: Skeleton UI / Loading Placeholder
   - key: options.html_missing_elements.switch
-    t: Switch / Toggle
+    t: Перемикач (Switch / Toggle)
   - key: options.html_missing_elements.tabs
-    t: Tabs
+    t: Вкладки
   # - key: options.html_missing_elements.toast_message
   #   t: Toast Message
   - key: options.html_missing_elements.tooltip
-    t: Tooltip
+    t: Підказка (Tooltip)
   - key: options.html_missing_elements.offcanvas
     t: Off-Canvas Area
   - key: options.html_missing_elements.spinner
-    t: Loading Spinner
+    t: Покажчик завантаження (Loading Spinner)
   - key: options.html_missing_elements.segmented_button
-    t: Segmented Button
+    t: Кнопка із сегментами
   - key: options.html_missing_elements.scroll_area
-    t: Infinite Scroll
+    t: Елемент безкінечного прогортування
   - key: options.html_missing_elements.icon
-    t: Icon
+    t: Іконка
   - key: options.html_missing_elements.star_rating
     t: Star Rating
 
   - key: usage.html_pain_points_freeform
-    t: Other Pain Points
+    t: Інші проблеми
   - key: usage.html_pain_points_freeform.question
-    t: Any other pain points around using HTML and related technologies?
+    t: Які ще проблеми HTML та суміжних технологій найбільше вас розчаровують?
 
   - key: usage.html_css_js_balance
-    t: HTML/CSS vs JavaScript/TypeScript Balance
+    t: Співвідношення HTML/CSS і JavaScript/TypeScript
   - key: usage.html_css_js_balance.question
-    t: How do you divide your time between writing HTML/CSS and JavaScript (or TypeScript) code?
+    t: Як поділяється ваш час між написанням коду HTML/CSS і JavaScript (або TypeScript)?
   - key: options.html_css_js_balance.0
     t: 100% HTML/CSS
   - key: options.html_css_js_balance.4
@@ -744,73 +746,73 @@ translations:
   # other features
 
   - key: features.foo_attribute
-    t: "`{id}` attribute"
+    t: "атрибут `{id}`"
 
   - key: features.slot_assignment
-    t: Explicit slot assignment (`slot="foo"`)
+    t: Явне присвоєння slot-елемента (`slot="foo"`)
 
   - key: features.tabindex
-    t: "`tabindex` attribute"
+    t: "Атрибут `tabindex`"
 
   - key: features.respimg
-    t: "`srcset` and `sizes` attributes"
+    t: "Атрибути `srcset` і `sizes`"
 
   - key: features.model_element
-    t: "`<model>` for AR/VR/3D content"
+    t: "`<model>` для додавання AR/VR/3D"
 
   - key: features.slot_def
-    t: Defining slots (`<slot>` and `::slotted()`)
+    t: Визначення slot-елемента (`<slot>` і `::slotted()`)
 
   - key: features.controlslist
-    t: "`controlslist` attribute"
+    t: "Атрибут `controlslist`"
 
   - key: features.popover_api
     t: Popover API
 
   - key: features.lazy_loading
-    t: Lazy loading
+    t: Ліниве завантажування
 
   - key: features.sandbox_attr
-    t: "`sandbox` attribute for iframes"
+    t: "Атрибут `sandbox` для елементів iframe"
 
   - key: features.details_element
-    t: "`<details>` and `<summary>`"
+    t: "`<details>` і `<summary>`"
 
   - key: features.crossorigin
-    t: "`crossorigin` attribute"
+    t: "Атрибут `crossorigin`"
 
   - key: features.host_css
-    t: Styling component host (`:host`, `:host()`, `:host-context()`)
+    t: Додавання стилів до host-елемента компонента (`:host`, `:host()`, `:host-context()`)
 
   - key: features.element_internals
-    t: "`ElementInternals` API"
+    t: "API `ElementInternals`"
 
   - key: features.cors
     t: CORS
 
   - key: features.csp
-    t: Content-Security Policy (CSP)
+    t: Політика безпеки вмісту (CSP)
 
   - key: features.structured_data
-    t: Structured data (RDFa, Microdata, Microformats)
+    t: Структуровані дaні (RDFa, Microdata, Microformats)
 
   - key: features.extended_builtins
     t: Extended built-ins
 
   - key: features.html_modules
-    t: HTML Modules
+    t: HTML-модулі
 
   - key: features.accordion
     t: Exclusive accordion
 
   - key: features.imperative_slot
-    t: Imperative slot assignment
+    t: Імперативне присвоєння slot-елемента
 
   # - key: features.focusgroup
   #   t: "`focusgroup` attribute"
 
   - key: features.form_validation
-    t: Form validation
+    t: Валідація форми
 
   - key: features.aria
     t: ARIA
@@ -831,43 +833,43 @@ translations:
     t: "Resource Hints: prefetch (`<link rel=prefetch>`)"
 
   - key: features.declarative_shadow
-    t: Declarative Shadow DOM (`<template shadowrootmode="open">`)
+    t: Декларативний Shadow DOM (`<template shadowrootmode="open">`)
 
   - key: features.referrerpolicy
-    t: "`referrerpolicy` attribute"
+    t: "Атрибут `referrerpolicy`"
 
   - key: features.integrity
-    t: Subresource Integrity (`integrity` attribute)
+    t: Перевірка цілісності ресурсу (SRI) (атрибут `integrity`)
 
   - key: features.pwa_manifest
-    t: PWA manifest
+    t: Маніфест PWA
 
   - key: features.part_attr
-    t: Exposing component parts (`part` attribute)
+    t: Додавання доступу до частини компонента (атрибут `part`)
 
   - key: features.part_selector
-    t: Styling component parts (`::part()`)
+    t: Додавання стилів до частини компонента (`::part()`)
 
   - key: features.svg_element
-    t: Inline SVG (`<svg>`)
+    t: Вбудовані елементи SVG (`<svg>`)
 
   - key: features.math_element
-    t: Inline MathML (`<math>`)
+    t: Вбудовані елементи MathML (`<math>`)
 
   - key: features.scoped_element_registries
     t: Scoped Custom Element Registries
 
   - key: features.navigation_api
-    t: Navigation API
+    t: API навігації
 
   - key: features.custom_elements_defining
-    t: Defining Custom Elements
+    t: Визначення власних елементів
 
   - key: features.decoding
-    t: "`decoding` attribute"
+    t: "Атрибут `decoding`"
 
   - key: features.custom_elements_using
-    t: Using Custom Elements
+    t: Використання власних елементів
 
   - key: features.fencedframe
     t: Fenced frames
@@ -879,19 +881,19 @@ translations:
     t: HTML Media Capture
 
   - key: features.contenteditable_plaintext
-    t: "`plaintext-only` value for `contenteditable`"
+    t: "Значення `plaintext-only` для `contenteditable`"
 
   - key: features.dom_parts
     t: DOM Parts
 
   - key: features.fetchpriority
-    t: Fetch Priority API (`fetchpriority` attribute)
+    t: API визначення пріоритетності запиту (атрибут `fetchpriority`)
 
   - key: features.autocomplete
     t: '`autocomplete="hint"`'
 
   - key: features.inert_attribute
-    t: "`inert` attribute"
+    t: "Атрибут `inert`"
 
   - key: features.client_hints
     t: HTTP client hints
@@ -902,7 +904,7 @@ translations:
 
   - key: features.features_intro_html
     t: |
-      Welcome to the survey! These first couple sections are all about figuring out
-      which **features** of HTML (and related APIs) you know about.
+      Ласкаво просимо до опитування! Ці перші кілька розділів присвячені тому, щоб з’ясувати,
+      які **функції** (features) мови HTML і суміжні API ви знаєте.
 
-      By the way, if you want to learn more about any item in the survey, you can add it to your reading list by clicking its little "+" icon!
+      До речі, якщо ви хочете дізнатися більше про будь-яку тему в опитуванні, ви можете додати її до свого списку читання, натиснувши на маленький значок "+" біля відповідного пункту!

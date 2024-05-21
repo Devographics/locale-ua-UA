@@ -5,7 +5,7 @@ translations:
   ###########################################################################
 
   - key: general.results.description
-    t: The 2023 edition of the annual survey about the latest trends in the HTML ecosystem.
+    t: Щорічне опитування про останні тенденції в екосистемі HTML за 2023 рік.
 
   - key: introduction.html2023
     t: >
@@ -39,38 +39,38 @@ translations:
   ###########################################################################
 
   - key: sections.tshirt.title
-    t: T-shirt
+    t: Футболка
 
   - key: sections.tshirt.description
     t: |
-      ## Support the Survey With the State of HTML T-Shirt
+      ## Підтримайте опитування за допомогою футболки "Стан HTML"
 
-      Do you miss the the good old days of the mid-90s, when HTML was king and VHS tape covers featured futuristic, colorful artwork? 
+      Чи ви сумуєте за старими добрими часами середини 90-х, коли HTML був королем, а обкладинки VHS-касет містили футуристичні барвисті ілюстрації?
 
-      The bad news is that even with 2024's technology, you can't yet go back in time to relive those glory days. But what you *can* do is wear this awesome original retro t-shirt, designed by none other than the talented Christopher Kirk-Nielsen.
+      Прикра новина в тому, що навіть із технологіями 2024 року ви все ще не можете повернутися в минуле, щоб знову пережити ті славетні дні. Але що ви *можете* зробити, так це одягнути цю дивовижну оригінальну ретро-футболку, яку розробив не хто інший, як талановитий Christopher Kirk-Nielsen.
 
   - key: tshirt.about
-    t: About the T-shirt
+    t: Про футболку
 
   - key: tshirt.description
     t: |
-      We use a high-quality, super-soft tri-blend shirt with a slim fit printed by our partners at Cotton Bureau.
+      Ми використовуємо високоякісну, надм'яку футболку приталеного крою із тканини з трьох типів волокна (tri-blend), надруковану нашими партнерами з Cotton Bureau.
 
   - key: tshirt.getit
-    t: Get It
+    t: Отримати
 
   - key: tshirt.price
-    t: USD $32 + shipping
+    t: USD $32 + доставляння
 
   - key: tshirt.designer.heading
-    t: About the Designer
+    t: Про дизайнера
 
   - key: tshirt.designer.name
     t: Christopher Kirk-Nielsen
 
   - key: tshirt.designer.bio
     t: |
-      Originally from France but now based in the United States, Chris is not just an amazing front-end developer, but also a talented illustrator who specializes in retro visuals. In fact, we encourage you to also check out his [other t-shirt designs](https://chriskirknielsen.com/designs)!
+      Christopher родом із Франції, але тепер проживає у Сполучених Штатах; він не лише чудовий розробник клієнтської частини, а й талановитий ілюстратор, який спеціалізується на зображеннях у стилі ретро. Насправді ми радимо вам також переглянути [інші дизайни його футболок](https://chriskirknielsen.com/designs)!
 
   ###########################################################################
   # Sections Introductions
@@ -78,11 +78,11 @@ translations:
 
   - key: sections.user_info.description.html2023
     t: |
-      Welcome to the State of HTML survey results. This first-ever edition reached **20,904** participants from all around the world.
+      Ласкаво просимо до результатів опитування "Стан HTML". У першій в історії хвилі опитування взяли участь **20 904** учасників з усього світу.
 
   - key: sections.features.description.html2023
     t: |
-      HTML features and other browser APIs
+      Функції HTML та інші API браузера
 
   ###########################################################################
   # Other Content
