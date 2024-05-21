@@ -355,7 +355,7 @@ translations:
   - key: options.locale.fa-IR
     t: Фарсі
   - key: options.locale.nl-NL
-    t: Голландська
+    t: Нідерландська
   - key: options.locale.ko-KR
     t: Корейська
   - key: options.locale.ro-RO
