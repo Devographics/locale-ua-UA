@@ -9,30 +9,30 @@ translations:
 
   - key: introduction.html2023
     t: >
-      While JavaScript was taking over the web, and CSS was gaining new superpowers year over year, 
-      it could seem like HTML was content to stay dormant, happy to cede center stage to its younger siblings. 
-      After all once you've learned about `<div>`s and `<h>`s 1 through 6, what else is there to know?
+      Поки JavaScript заполоняв інтернет, а CSS рік за роком набував нових суперсил, 
+      здавалося, що HTML утішно дрімав, радо віддаючи центр уваги своїм молодшим братам і сестрам. 
+      Адже, крім `<div>`-ів та заголовків від 1 до 6, що ще треба знати?
 
 
-      Quite a lot, as it turns out! Once again we drafted [Lea Verou](https://lea.verou.me/) to put her in-depth
-      knowledge of the web platform to work, and help us craft a survey that ended up reaching far
-      beyond pure HTML to cover accessibility, web components, and much more.
+      Виявляється, чимало чого! Вкотре ми залучили [Lea Verou](https://lea.verou.me/), щоби з її 
+      допомогою та глибоким розумінням вебплатформи створити опитування, яке зрештою сягнуло далеко 
+      за межі звичного HTML та охопило доступність, вебкомпоненти і багато іншого.
 
 
-      This partly explains why this report has taken so long to come out – there was 
-      just a *lot* of new data to process! Hopefully you'll find that the result was worth the wait.
+      Зокрема ось чому для цього звіту знадобилося стільки часу: необхідно було 
+      опрацювати *величезну* кількість нових даних! Сподіваємося, що результат вартує вашого очікування.
 
 
-      Beyond the data included here, we've also improved our **chart customization** feature to let you tailor 
-      each data visualization to an even greater degree. If you find any interesting
-      insights in the process, be sure to let us know!
+      Окрім наведених відомостей, ми також покращили функцію **налаштування діаграм**, щоб ви могли 
+      ще точніше адаптувати для себе кожну візуалізацію. Якщо ви заодно дійдете до будь-яких неочевидних оригінальних 
+      висновків, обов'язково повідомте нас!
 
 
-      You can learn more about all this in [this post](https://dev.to/sachagreif/discover-the-state-of-html-2023-survey-results-n10), or by watching a [quick YouTube video](https://www.youtube.com/watch?v=G-rFwp2zUT4)
+      Докладніше про все це у [цій статті](https://dev.to/sachagreif/discover-the-state-of-html-2023-survey-results-n10) або [короткому YouTube-відео.](https://www.youtube.com/watch?v=G-rFwp2zUT4)
 
 
-      With all this out of the day, welcome to the results for the first ever State of HTML survey. 
-      After this, I'm willing to bet you won't look at good old HTML quite the same way ever again!
+      А тепер ласкаво просимо до результатів першої хвилі опитування "Cтан HTML". 
+      Б'юся об заклад, що опісля ви більше ніколи не будете дивитися на старий добрий HTML так само!
 
   ###########################################################################
   # Tshirt
@@ -90,33 +90,33 @@ translations:
 
   - key: features.all_features.description
     t: |
-      This chart recaps all of the survey's feature questions. The main bars represent a respondent's experience; and they are then further subdivided according to that respondent's sentiment. You can change the grouping to alternate between both. 
+      Ця діаграма підсумовує всі основні запитання опитування. Основні стовпці або рядки відповідають певному досвіду респондента; всередині вони поділені відповідно до ставлення респодента. Ви можете змінити групування, щоб чергувати ці дві категорії.
 
 
-      Note that you can also find a more specific breakdown of the same data in each feature sub-section.
+      Зауважте, що ви також можете знайти більш деталізоване розбиття цих даних у розділі відповідної функції.
 
   ###########################################################################
   # Sponsors
   ###########################################################################
 
   - key: sponsors.frontendmasters.description
-    t: Advance your skills with in-depth, modern front-end engineering courses.
+    t: Вдосконалюйте свої навички за допомогою поглиблених сучасних інженерних курсів.
   - key: sponsors.google_chrome.description
-    t: Thanks to the Google Chrome team for supporting our work.
+    t: Дякуємо команді Google Chrome за підтримку нашої роботи.
   - key: sponsors.tokyodev.description
-    t: Find your dream developer job in Japan today.
+    t: Знайдіть роботу розробника своєї мрії в Японії вже сьогодні.
   - key: sponsors.renderatl.description
-    t: The tech conference focused on Front-End Engineering.
+    t: Технічна конференція, присвячена інженерії клієнтського коду.
 
   ###########################################################################
   # Conclusion
   ###########################################################################
 
   - key: conclusion.html2023.bio
-    t: W3C Technical Architecture Group Member & MIT CSAIL Researcher
+    t: Учасниця робочої групи з питань технічної архітектури (TAG) при W3C і дослідниця в лабораторії комп'ютерних наук і штучного інтелекту (CSAIL) при MIT
   - key: conclusion.html2023
     t: >
-      *Phew!* This survey has taken a monumental effort by dozens of people across six continents. Not only did it set a new record for the most responses in a “State of…” survey debut, its data collection UI pioneered innovations that gave us unparalleled insight into developer attitudes, and will ripple far beyond its scope. 
+      *Хху!* Це опитування потребувало колосальних зусиль десятків людей із шести континентів.  Not only did it set a new record for the most responses in a “State of…” survey debut, its data collection UI pioneered innovations that gave us unparalleled insight into developer attitudes, and will ripple far beyond its scope.
 
 
       Some argue that improving HTML is futile, but the survey resoundingly demonstrates the contrary. **Developers crave more interactive HTML elements**: not only were interactive elements like `<datalist>` or the Popover API among those accumulating the most positive sentiment across all categories, but in addition all top [missing elements](https://2023.stateofhtml.com/en-US/usage/#html_missing_elements) were interactive widgets. 
