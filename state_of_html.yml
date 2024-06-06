@@ -318,12 +318,12 @@ translations:
   - key: features.web_components_libraries
     t: Бібліотеки вебкомпонентів
   - key: features.web_components_libraries.question
-    t: Have you used any Web Components libraries?
+    t: Чи ви використовували бібліотеки вебкомпонентів?
 
   - key: features.web_components_features
-    t: Other Web Component Features
+    t: Інші функції вебкомпонентів
   - key: features.web_components_features.question
-    t: Which of the following web component features have you used?
+    t: Які з наведених функцій вебкомпонентів ви використовували?
   - key: options.web_components_features.host_pseudos.description
     t: |
       `:host` , `:host()` , `:host-context()`
@@ -338,7 +338,7 @@ translations:
   - key: features.using_web_components_pain_points.question
     t: Які проблеми *використання* вебкомпонентів найбільше вас розчаровують?
   - key: features.using_web_components_pain_points.prompt
-    t: Using Web Components that you or others have made. Missing features, browser incompatibilities, etc.
+    t: Використання власних або чужих вебкомпонентів. Відсутні функції, несумісність між браузерами тощо.
   - key: features.using_web_components_pain_points.placeholder
     t: |
       Проблема #{index}…
@@ -349,7 +349,7 @@ translations:
     t: Які проблеми *створення* вебкомпонентів найбільше вас розчаровують?
   - key: features.making_web_components_pain_points.prompt
     t: |
-      What prevents you from creating the amazing components you envision? Missing features, browser incompatibilities, etc.
+      Що заважає вам створити дивовижні компоненти зі своєї уяви? Відсутні функції, несумісність між браузерами тощо.
   - key: features.making_web_components_pain_points.placeholder
     t: |
       Проблема #{index}…
@@ -357,14 +357,14 @@ translations:
   # Accessibility
 
   - key: features.accessibility_features
-    t: Accessibility Features
+    t: Функції доступності
   - key: features.accessibility_features.question
-    t: Which of these accessibility features have you used?
+    t: Які з наведених функцій доступності ви використовували?
 
   - key: features.accessibility_tools
-    t: Accessibility Tools
+    t: Інструменти доступності
   - key: features.accessibility_tools.question
-    t: What tools do you use for accessibility testing?
+    t: Які інструменти ви використовуєте для тестування доступності?
 
   - key: features.accessibility_pain_points
     t: Проблеми доступності
@@ -375,56 +375,56 @@ translations:
       Проблема #{index}…
 
   - key: features.accessibility_disabilities
-    t: User Disabilities
+    t: Порушення здоров'я користувача
   - key: features.accessibility_disabilities.question
-    t: What kind of user disabilities do you account for when making websites?
+    t: Які порушення здоров'я користувачів ви враховуєте під час створення вебсайтів?
 
   - key: options.accessibility_disabilities.hearing_impairments
-    t: Hearing impairments
+    t: Порушення слуху
   - key: options.accessibility_disabilities.hearing_impairments.description
-    t: Deafness, tinnitus, etc.
+    t: Глухота, шум у вухах тощо.
 
   - key: options.accessibility_disabilities.mobility_impairments
-    t: Mobility impairments
+    t: Порушення рухових функцій
   - key: options.accessibility_disabilities.mobility_impairments.description
-    t: Arthritis, carpal tunnel, etc.
+    t: Артрит, зап'ястковий тунельний синдром тощо.
 
   - key: options.accessibility_disabilities.learning_disabilities
-    t: Learning disabilities
+    t: Розлади навчання
   - key: options.accessibility_disabilities.learning_disabilities.description
-    t: Dyslexia, dyscalculia, etc.
+    t: Дислексія, дискалькулія тощо.
 
   - key: options.accessibility_disabilities.cognitive_impairments
     t: |
-      Other cognitive impairments
+      Інші когнітивні порушення
   - key: options.accessibility_disabilities.cognitive_impairments.description
     t: |
-      Anxiety, Autism, OCD, ADHD, etc.
+      Тривожний розлад, аутизм, ОКР, СДУГ тощо.
 
   - key: options.accessibility_disabilities.vestibular_disorders
-    t: Vestibular disorders
+    t: Вестибулярні розлади
   - key: options.accessibility_disabilities.vestibular_disorders.description
-    t: Epilepsy, vertigo, etc.
+    t: Епілепсія, запаморочення тощо.
 
   - key: options.accessibility_disabilities.low_vision
-    t: Low vision
+    t: Слабкий зір
   - key: options.accessibility_disabilities.low_vision.description
-    t: Blindness, high myopia, etc.
+    t: Сліпота, міопія високого ступеня тощо.
 
   - key: options.accessibility_disabilities.atypical_vision
-    t: Atypical color vision
+    t: Атиповий колірний зір
   - key: options.accessibility_disabilities.atypical_vision.description
-    t: Color blindness
+    t: Колірна сліпота
 
   - key: features.accessibility_screenreaders
-    t: Screen Readers
+    t: Екранні зчитувальні пристрої
   - key: features.accessibility_screenreaders.question
-    t: Which screen readers do you use for accessibility testing?
+    t: Які екранні зчитувальні пристрої ви використовуєте для тестування доступності?
 
   - key: features.accessibility_techniques
-    t: Other Accessibility Techniques
+    t: Інші методи забезпечення доступності
   - key: features.accessibility_techniques.question
-    t: What other techniques are part of your regular accessibility strategy?
+    t: Які ще методи складають вашу звичну стратегію забезпечення доступності?
 
   - key: options.accessibility_techniques.tabindex
     t: |
