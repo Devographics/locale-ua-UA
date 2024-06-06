@@ -850,7 +850,7 @@ translations:
       Порушення рухових функцій (як-от: артрит, зап'ястковий тунельний синдром тощо)
   - key: options.disability_status.cognitive_impairments
     t: >
-      Когнітивні порушення (як-от: тривога, дислексія, СДУГ тощо)
+      Когнітивні порушення (як-от: тривожний розлад, дислексія, СДУГ тощо)
   - key: options.disability_status.not_listed
     t: >
       Нічого з перерахованого
@@ -1417,7 +1417,7 @@ translations:
 
   # disability status
   - key: user_info.disability_status
-    t: Порушення працездатності
+    t: Порушення здоров'я
   - key: user_info.disability_status.question
     t: >
       Яке з наведених порушень ви маєте?
@@ -1427,7 +1427,7 @@ translations:
 
   # disability status (other)
   - key: user_info.disability_status.others
-    t: Інші порушення працездатності
+    t: Інші порушення здоров'я
   - key: user_info.disability_status_freeform
     aliasFor: user_info.disability_status.others
 
