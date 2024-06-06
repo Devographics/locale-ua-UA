@@ -285,7 +285,7 @@ translations:
   - key: sections.resources.title
     t: Джерела
   - key: sections.resources.description
-    t: До яких джерел щодо "{topic}" ви звертаєтеся?
+    t: До яких джерел ви звертаєтеся?
 
   - key: sections.opinions.title
     t: Погляди
