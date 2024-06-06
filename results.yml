@@ -1780,11 +1780,11 @@ translations:
 
   - key: charts.multiexp.cell_group_tooltip.sentiment
     t: >
-      **{value}%** респондентів ставляться **{answer}**
+      **{value}%** респондентів мають ставлення "**{answer}**"
 
   - key: charts.multiexp.cell_tooltip
     t: >
-      **{value}%** респондентів відповіли "**{experience}**" і ставляться **{sentiment}**
+      **{value}%** респондентів відповіли "**{experience}**" і мають ставлення "**{answer}**"
 
   - key: charts.multiexp.cell_tooltip_neutral
     t: >
