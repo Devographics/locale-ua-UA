@@ -75,6 +75,42 @@ translations:
   - key: options.experience_ranking.awareness
     t: Впізнаваність
 
+  - key: ratios.interest
+    aliasFor: options.experience_ranking.interest
+  - key: ratios.usage
+    aliasFor: options.experience_ranking.usage
+  - key: ratios.awareness
+    aliasFor: options.experience_ranking.awareness
+  - key: ratios.retention
+    t: Утримання
+  - key: ratios.positivity
+    t: Позитивне ставлення
+
+  - key: ratios.interest.description
+    t: >
+      Частка респондентів із **позитивним ставленням** серед тих, хто **чув** про це
+  - key: ratios.usage.description
+    t: >
+      Частка респондентів, які **використовували** це
+  - key: ratios.awareness.description
+    t: >
+      Частка респондентів, які **чули або використовували** це
+  - key: ratios.retention.description
+    t: >
+      Частка респондентів із **позитивним ставленням** серед тих, хто **використовував** це
+  - key: ratios.positivity.description
+    t: >
+      Частка респондентів із **позитивним ставленням** серед усіх
+
+  - key: modes.rank
+    t: Ранг
+  - key: modes.value
+    t: Значення
+  - key: modes.rank.description
+    t: Місце за рангом
+  - key: modes.value.description
+    t: Місце за значенням
+
   - key: options.features_mode.grouped
     t: Згруповане
   - key: options.features_mode.awareness_rank
@@ -814,6 +850,8 @@ translations:
     t: Зацікавленість, %
   - key: charts.axis_legends.satisfaction_percentage
     t: Утримання, %
+  - key: charts.axis_legends.retention_percentage
+    t: Утримання, %
   - key: charts.axis_legends.usage_percentage
     t: Використання, %
   - key: charts.axis_legends.awareness_percentage
@@ -947,6 +985,18 @@ translations:
     t: >
       Зауважте, що для обчислення середнього використовуються середні значення кожного діапазону, які є приблизними репрезентативними значеннями.
 
+  - key: charts.share
+    t: Поділитися діаграмою…
+  - key: charts.export
+    t: Експорт даних…
+
+  - key: charts.mode
+    t: >
+      Режим:
+  - key: charts.view
+    t: >
+      Вигляд:
+
   ###########################################################################
   # Comments
   ###########################################################################
@@ -990,7 +1040,7 @@ translations:
   - key: share.site.body
     t: "Ось деякі цікаві результати опитування: {link}"
   - key: share.block.twitter_text
-    t: "{hashtag} {year}: {title} {link}"
+    t: "{siteTitle}: {title}"
   - key: share.block.subject
     t: "Результати опитування \"{siteTitle}\""
   - key: share.block.body
@@ -1711,7 +1761,7 @@ translations:
 
   - key: charts.metadata.completion
     t: >
-      відсоток заповнення: **{value}%** (із {total} учасників опитування)
+      відсоток заповнення: **{value}** (із {total} учасників опитування)
   - key: charts.metadata.respondents
     t: >
       **{value}** відповіли на питання
@@ -1732,11 +1782,11 @@ translations:
 
   - key: charts.multiexp.cell_group_tooltip.sentiment
     t: >
-      **{value}%** респондентів ставляться **{answer}**
+      **{value}%** респондентів мають ставлення "**{answer}**"
 
   - key: charts.multiexp.cell_tooltip
     t: >
-      **{value}%** респондентів відповіли "**{experience}**" і ставляться **{sentiment}**
+      **{value}%** респондентів відповіли "**{experience}**" і мають ставлення "**{answer}**"
 
   - key: charts.multiexp.cell_tooltip_neutral
     t: >
