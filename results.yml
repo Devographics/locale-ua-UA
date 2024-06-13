@@ -850,6 +850,8 @@ translations:
     t: Зацікавленість, %
   - key: charts.axis_legends.satisfaction_percentage
     t: Утримання, %
+  - key: charts.axis_legends.retention_percentage
+    t: Утримання, %
   - key: charts.axis_legends.usage_percentage
     t: Використання, %
   - key: charts.axis_legends.awareness_percentage
@@ -1759,7 +1761,7 @@ translations:
 
   - key: charts.metadata.completion
     t: >
-      відсоток заповнення: **{value}%** (із {total} учасників опитування)
+      відсоток заповнення: **{value}** (із {total} учасників опитування)
   - key: charts.metadata.respondents
     t: >
       **{value}** відповіли на питання
