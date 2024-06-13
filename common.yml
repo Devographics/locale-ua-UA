@@ -350,6 +350,9 @@ translations:
     t: |
       <span class="option-chip option-main option-main-used">Використовував(-ла)</span> » <span class="option-chip option-negative">Негативний досвід</span>
 
+  - key: options.features.na
+    t: Нічого
+
   # features (short)
   - key: options.features.never_heard.short
     t: Вперше чую
@@ -639,6 +642,42 @@ translations:
     t: 10-20
   - key: options.years_of_experience.range_more_than_20.short
     t: ">20"
+
+  # years of experience v2
+  - key: options.years_of_experience.range_under_1
+    t: Менше одного року
+  - key: options.years_of_experience.range_1_3
+    t: Від 1 до 3 років
+  - key: options.years_of_experience.range_4_6
+    t: Від 4 до 6 років
+  - key: options.years_of_experience.range_7_9
+    t: Від 7 до 9 років
+  - key: options.years_of_experience.range_10_12
+    t: Від 10 до 12 років
+  - key: options.years_of_experience.range_13_15
+    t: Від 13 до 15 років
+  - key: options.years_of_experience.range_16_20
+    t: Від 16 до 20 років
+  - key: options.years_of_experience.range_over_20
+    t: Більше 20 років
+
+  # years of experience v2 (short versions)
+  - key: options.years_of_experience.range_under_1.short
+    t: "<1 року"
+  - key: options.years_of_experience.range_1_3.short
+    t: 1-3 роки
+  - key: options.years_of_experience.range_4_6.short
+    t: 4-6 років
+  - key: options.years_of_experience.range_7_9.short
+    t: 7-9 років
+  - key: options.years_of_experience.range_10_12.short
+    t: 10-12 років
+  - key: options.years_of_experience.range_13_15.short
+    t: 13-15 років
+  - key: options.years_of_experience.range_16_20.short
+    t: 16-20 років
+  - key: options.years_of_experience.range_over_20.short
+    t: ">20 років"
 
   # company size
   - key: options.company_size.na

@@ -22,6 +22,8 @@ translations:
     t: Бразилія
   - key: options.country.CAN
     t: Канада
+  - key: options.country.CRI
+    t: Коста-Рика
   - key: options.country.CHE
     t: Швейцарія
   - key: options.country.CHL
@@ -76,6 +78,8 @@ translations:
     t: Японія
   - key: options.country.KEN
     t: Кенія
+  - key: options.country.LUX
+    t: Люксембург
   - key: options.country.KOR
     t: Південна Корея
   - key: options.country.MDA
@@ -120,6 +124,8 @@ translations:
     t: Уганда
   - key: options.country.UKR
     t: Україна
+  - key: options.country.ARE
+    t: Об'єднані Арабські Емірати
   - key: options.country.USA
     t: Сполучені Штати Америки
   - key: options.country.VNM
