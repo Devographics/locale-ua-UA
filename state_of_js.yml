@@ -618,74 +618,198 @@ translations:
       Бібліотеки отримані із сайту ["Найкраще у JS"](https://bestofjs.org/). 
       Якщо певний проєкт відсутній, ви можете [додати його тут](https://github.com/michaelrambeau/bestofjs/issues/new?template=add-a-project-to-best-of-javascript.md).
 
+  - key: tools.pain_points
+    t: Проблеми
+  - key: tools.ratios
+    t: Співвідношення з часом
+  - key: tools.experience
+    t: Досвід використання і ставлення
+  - key: tools.others
+    t: Інші інструменти
+
   # front-end frameworks
+
+  - key: tools.front_end_frameworks_ratios
+    t: Співвідношення фреймворків для клієнтської частини з часом
+  - key: tools.front_end_frameworks_ratios.short
+    aliasFor: tools.ratios
+
+  - key: tools.front_end_frameworks_experience
+    t: Досвід використання і ставлення до фреймворків для клієнтської частини
+  - key: tools.front_end_frameworks_experience.short
+    aliasFor: tools.experience
+
+  - key: tools.front_end_frameworks.others
+    t: Інші фреймворки для клієнтської частини
+  - key: tools.front_end_frameworks.others.short
+    aliasFor: tools.others
+
   - key: tools.front_end_frameworks_happiness
     t: Задоволення фреймворками для клієнтської частини
+  - key: tools.front_end_frameworks_happiness.short
+    aliasFor: charts.axis_legends.happiness
   - key: tools.front_end_frameworks_happiness.question
     t: За шкалою від 0 (дуже незадоволений(-а)) до 4 (дуже задоволений(-а)) наскільки ви задоволені поточним станом фреймворків для клієнтської частини?
 
   - key: tools.front_end_frameworks_pain_points
     t: Проблеми фреймворків для клієнтської частини
+  - key: tools.front_end_frameworks_pain_points.short
+    aliasFor: tools.pain_points
   - key: tools.front_end_frameworks_pain_points.question
     t: З якими проблемами ви стикалися під час використання фреймворків для клієнтської частини?
 
   # meta-frameworks
 
+  - key: tools.meta_frameworks_ratios
+    t: Співвідношення метафреймворків з часом
+  - key: tools.meta_frameworks_ratios.short
+    aliasFor: tools.ratios
+
+  - key: tools.meta_frameworks_experience
+    t: Досвід використання і ставлення до метафреймворків
+  - key: tools.meta_frameworks_experience.short
+    aliasFor: tools.experience
+
+  - key: tools.meta_frameworks.others
+    t: Інші метафреймворки
+  - key: tools.meta_frameworks.others.short
+    aliasFor: tools.others
+
   - key: tools.meta_frameworks_happiness
     t: Задоволення метафреймворками
+  - key: tools.meta_frameworks_happiness.short
+    aliasFor: charts.axis_legends.happiness
   - key: tools.meta_frameworks_happiness.question
     t: За шкалою від 0 (дуже незадоволений(-а)) до 4 (дуже задоволений(-а)) наскільки ви задоволені поточним станом метафреймворків?
 
   - key: tools.meta_frameworks_pain_points
     t: Проблеми метафреймворків
+  - key: tools.meta_frameworks_pain_points.short
+    aliasFor: tools.pain_points
   - key: tools.meta_frameworks_pain_points.question
     t: З якими проблемами ви стикалися під час використання метафреймворків?
 
   # testing
 
+  - key: tools.testing_ratios
+    t: Співвідношення інструментів тестування з часом
+  - key: tools.testing_ratios.short
+    aliasFor: tools.ratios
+
+  - key: tools.testing_experience
+    t: Досвід використання і ставлення до інструментів тестування
+  - key: tools.testing_experience.short
+    aliasFor: tools.experience
+
+  - key: tools.testing.others
+    t: Інші інструменти тестування
+  - key: tools.testing.others.short
+    aliasFor: tools.others
+
   - key: tools.testing_happiness
     t: Задоволення інструментами тестування
+  - key: tools.testing_happiness.short
+    aliasFor: charts.axis_legends.happiness
   - key: tools.testing_happiness.question
     t: За шкалою від 0 (дуже незадоволений(-а)) до 4 (дуже задоволений(-а)) наскільки ви задоволені поточним станом інструментів для тестування коду?
 
   - key: tools.testing_pain_points
     t: Проблеми інструментів тестування
+  - key: tools.testing_pain_points.short
+    aliasFor: tools.pain_points
   - key: tools.testing_pain_points.question
     t: З якими проблемами ви стикалися під час використання інструментів для тестування коду?
 
   # mobile & desktop
 
+  - key: tools.mobile_desktop_ratios
+    t: Співвідношення інструментів для мобільних пристроїв і настільних комп'ютерів з часом
+  - key: tools.mobile_desktop_ratios.short
+    aliasFor: tools.ratios
+
+  - key: tools.mobile_desktop_experience
+    t: Досвід використання і ставлення до інструментів для мобільних пристроїв і настільних комп'ютерів
+  - key: tools.mobile_desktop_experience.short
+    aliasFor: tools.experience
+
+  - key: tools.mobile_desktop.others
+    t: Інші інструменти для мобільних пристроїв і настільних комп'ютерів
+  - key: tools.mobile_desktop.others.short
+    aliasFor: tools.others
+
   - key: tools.mobile_desktop_happiness
-    t: Задоволення фреймворками для мобільних пристроїв і настільних комп'ютерів
+    t: Задоволення інструментами для мобільних пристроїв і настільних комп'ютерів
+  - key: tools.mobile_desktop_happiness.short
+    aliasFor: charts.axis_legends.happiness
   - key: tools.mobile_desktop_happiness.question
-    t: За шкалою від 0 (дуже незадоволений(-а)) до 4 (дуже задоволений(-а)) наскільки ви задоволені поточним станом фреймворків для мобільних пристроїв і настільних комп'ютерів?
+    t: За шкалою від 0 (дуже незадоволений(-а)) до 4 (дуже задоволений(-а)) наскільки ви задоволені поточним станом інструментів для мобільних пристроїв і настільних комп'ютерів?
 
   - key: tools.mobile_desktop_pain_points
-    t: Проблеми фреймворків для мобільних пристроїв і настільних комп'ютерів
+    t: Проблеми інструментів для мобільних пристроїв і настільних комп'ютерів
+  - key: tools.mobile_desktop_pain_points.short
+    aliasFor: tools.pain_points
   - key: tools.mobile_desktop_pain_points.question
     t: З якими проблемами ви стикалися, коли використовували JavaScript, щоб побудувати застосунки для мобільних пристроїв і настільних комп'ютерів?
 
   # build tools
 
+  - key: tools.build_tools_ratios
+    t: Співвідношення інструментів для збирання з часом
+  - key: tools.build_tools_ratios.short
+    aliasFor: tools.ratios
+
+  - key: tools.build_tools_experience
+    t: Досвід використання і ставлення до інструментів для збирання
+  - key: tools.build_tools_experience.short
+    aliasFor: tools.experience
+
+  - key: tools.build_tools.others
+    t: Інші інструменти для збирання
+  - key: tools.build_tools.others.short
+    aliasFor: tools.others
+
   - key: tools.build_tools_happiness
     t: Задоволення інструментами для збирання
+  - key: tools.build_tools_happiness.short
+    aliasFor: charts.axis_legends.happiness
   - key: tools.build_tools_happiness.question
     t: За шкалою від 0 (дуже незадоволений(-а)) до 4 (дуже задоволений(-а)) наскільки ви задоволені поточним станом інструментів для збирання коду?
 
   - key: tools.build_tools_pain_points
     t: Проблеми інструментів для збирання
+  - key: tools.build_tools_pain_points.short
+    aliasFor: tools.pain_points
   - key: tools.build_tools_pain_points.question
     t: З якими проблемами ви стикалися під час використання інструментів для збирання коду?
 
   # monorepo tools
 
+  - key: tools.monorepo_tools_ratios
+    t: Співвідношення інструментів для монорепозиторіїв з часом
+  - key: tools.monorepo_tools_ratios.short
+    aliasFor: tools.ratios
+
+  - key: tools.monorepo_tools_experience
+    t: Досвід використання і ставлення до інструментів для монорепозиторіїв
+  - key: tools.monorepo_tools_experience.short
+    aliasFor: tools.experience
+
+  - key: tools.monorepo_tools.others
+    t: Інші інструменти для монорепозиторіїв
+  - key: tools.monorepo_tools.others.short
+    aliasFor: tools.others
+
   - key: tools.monorepo_tools_happiness
     t: Задоволення інструментами для монорепозиторіїв
+  - key: tools.monorepo_tools_happiness.short
+    aliasFor: charts.axis_legends.happiness
   - key: tools.monorepo_tools_happiness.question
     t: За шкалою від 0 (дуже незадоволений(-а)) до 4 (дуже задоволений(-а)) наскільки ви задоволені поточним станом інструментів для монорепозиторіїв?
 
   - key: tools.monorepo_tools_pain_points
     t: Проблеми інструментів для монорепозиторіїв
+  - key: tools.monorepo_tools_pain_points.short
+    aliasFor: tools.pain_points
   - key: tools.monorepo_tools_pain_points.question
     t: З якими проблемами ви стикалися під час використання інструментів для монорепозиторіїв?
 
