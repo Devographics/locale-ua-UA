@@ -582,7 +582,7 @@ translations:
   # tool tier list
   - key: blocks.tools_tier_list
     t: Бібліотеки за рівнями
-  - key: blocks.tools_tier_list.description
+  - key: blocks.tools_tier_list.note
     t: |
       Ця діаграма ранжирує бібліотеки за коефіцієнтом утримання
       (відсоток респондентів, що відповіли "Буду ще використовувати").
@@ -719,7 +719,7 @@ translations:
     t: Налаштувати дані
   - key: custom_data.details
     t: >
-      
+
       1. Скопіюйте вміст поля "GraphQL-запит" і вставте його в середню панель [API-оглядача GraphQL](https://graphiql.stateofjs.com/).
 
       2. Змініть запит, додавши один або кілька **фільтрів** за допомогою лівої панелі оглядача. Переконайтеся, що загальна структура даних залишається такою ж.
@@ -1040,15 +1040,15 @@ translations:
   - key: share.site.title
     t: Дізнайтеся результати опитування "{siteTitle}"
   - key: share.site.twitter_text
-    t: "Дізнайтеся результати опитування \"{siteTitle}\" {link} {hashtag}"
+    t: 'Дізнайтеся результати опитування "{siteTitle}" {link} {hashtag}'
   - key: share.site.subject
-    t: "Результати опитування \"{siteTitle}\""
+    t: 'Результати опитування "{siteTitle}"'
   - key: share.site.body
     t: "Ось деякі цікаві результати опитування: {link}"
   - key: share.block.twitter_text
     t: "{siteTitle}: {title}"
   - key: share.block.subject
-    t: "Результати опитування \"{siteTitle}\""
+    t: 'Результати опитування "{siteTitle}"'
   - key: share.block.body
     t: "Ось деякі цікаві результати опитування ({title}): {link}"
   - key: share.twitter
