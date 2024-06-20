@@ -771,7 +771,7 @@ translations:
   # Reading List
   - key: features.reading_list
     t: Список читання
-  - key: features.reading_list.description
+  - key: features.reading_list.note
     t: >
       Скільки разів кожен з елементів був доданий до списку читання респондента — функції, що дає змогу користувачам 
       дізнатися більше про відповідні теми під час опитування.
@@ -1170,12 +1170,17 @@ translations:
   - key: award.tool_usage_delta_award.title
     t: Найбільш впроваджена технологія
   - key: award.tool_usage_delta_award.description
-    t: Нагороджується технологія з найбільшим зростанням кількості відповідей "Буду ще використовувати" за рік.
+    t: Нагороджується технологія з найбільшим прогресом використання за рік.
+
+  - key: award.tool_retention_award.title
+    t: Найвищий рівень утримання
+  - key: award.tool_retention_award.description
+    t: Нагороджується технологія з найбільшим відсотком утримань/повернень користувачів.
 
   - key: award.tool_satisfaction_award.title
-    t: Найвищий рівень утримання
+    aliasFor: award.tool_retention_award.title
   - key: award.tool_satisfaction_award.description
-    t: Нагороджується технологія з найбільшим відсотком утримань/повернень користувачів.
+    aliasFor: award.tool_retention_award.description
 
   - key: award.tool_interest_award.title
     t: Найвищий рівень зацікавленості
@@ -1206,6 +1211,11 @@ translations:
     t: Найбільш коментована бібліотека
   - key: award.most_commented_tool_award.description
     t: Нагороджується бібліотека з найбільшою кількістю коментарів.
+
+  - key: award.most_loved_tool_award.title
+    t: Найбільш улюблена бібліотека
+  - key: award.most_loved_tool_award.description
+    t: Нагороджується технологія з найбільшою часткою позитивного ставлення.
 
   ###########################################################################
   # Hints
