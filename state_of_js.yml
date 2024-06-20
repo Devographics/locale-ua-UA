@@ -28,7 +28,7 @@ translations:
   ###########################################################################
 
   - key: sections.features.title
-    t: Функції (features)
+    t: Функції
   - key: sections.features.description
     t: Синтаксис, API браузера та інші функції.
 
@@ -70,7 +70,7 @@ translations:
   - key: sections.front_end_frameworks.title
     t: Фреймворки для клієнтської частини
   - key: sections.front_end_frameworks.description
-    t: Фреймворки і бібліотеки для клієнтської частини
+    t: Фреймворки та бібліотеки для клієнтської частини
 
   - key: sections.datalayer.title
     t: Шар даних
@@ -863,7 +863,7 @@ translations:
     t: Інше (поле відповіді довільної форми).
 
   - key: tools_others.non_js_languages
-    t: Мови, крім JavaScript
+    t: Мови, окрім JavaScript
   - key: tools_others.non_js_languages.question
     t: Які ще мови програмування ви використовуєте?
   - key: tools_others.non_js_languages.others
