@@ -1685,7 +1685,7 @@ translations:
     t: За {name}
 
   - key: filters.vs_x
-    t: Та {name}
+    t: та {name}
 
   - key: dataloader.failed_request
     t: >
@@ -1763,7 +1763,7 @@ translations:
     t: Поділитися діаграмою
 
   - key: charts.vs
-    t: і
+    t: та
 
   - key: charts.custom_variant
     t: Варіація {index}

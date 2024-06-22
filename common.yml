@@ -1396,7 +1396,7 @@ translations:
   - key: user_info.yearly_salary
     t: Річний дохід
   - key: user_info.yearly_salary.question
-    t: Ваш річний валовий дохід (до оподаткування) у доларах США.
+    t: Ваш річний дохід (до оподаткування) у доларах США.
 
   # job title
   - key: user_info.job_title
