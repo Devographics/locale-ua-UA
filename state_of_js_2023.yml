@@ -296,14 +296,14 @@ translations:
     t: |
       Rspack — це інструмент збирання для вебу на основі Rust із надзвичайно високою продуктивністю. Використовуючи Rust, він вирішив велику кількість вузьких місць продуктивності інших інструментів на основі JS. І він сумісний з екосистемою webpack.
 
-  # https://nuxt.com/
+  # https://unjs.io/
   - key: picks.quarkstuff.name
-    t: Nuxt 4
+    t: UnJS
   - key: picks.quarkstuff.bio
     t: Розумник із розробки вебу та ігор
   - key: picks.quarkstuff.description
     t: |
-      Nuxt 4 — один із ключових релізів усіх часів. Щось зламано, щось покращено, а також достатньо легко мігрувати. Спробуйте, якщо ви ще цього не зробили!
+      Екосистема UnJS схожа на коробку з іграшками для розробника. Від ofetch і consola до citty і nitro — там, ймовірно, є щось і для вашого наступного великого проєкту.
 
   # https://www.npmjs.com/package/tess2
   - key: picks.martin_heidegger.name
@@ -359,13 +359,21 @@ translations:
     t: |
       Оскільки повсякденні програми, як-от VS Code, Figma, Discord, Slack і 1Password, працюють на Electron, він залишається невід'ємною частиною екосистеми JS і розробників. Багато інструментів, якими ми всі користуємося, не існували б без нього, і за умови правильного використання це справді потужна платформа.
 
+  # https://x.com/dawntraoz
+  - key: picks.arisa_fukuzaki.name
+    t: Alba Silvente Fuentes
+  - key: picks.arisa_fukuzaki.bio
+    t: Senior DevRel Engineer & Docs at Storyblok
+  - key: picks.arisa_fukuzaki.description
+    t: |
+      Alba пише про розробку клієнтської частини, архітектуру і продуктивність у вебі, виступала на багатьох конференціях і має подкаст "No me da la vida". Вона надихає багатьох розробників, і я один із них!
+
   # - key: picks.xxxx.name
   #   t:
   # - key: picks.xxxx.bio
   #   t:
   # - key: picks.xxxx.description
   #   t: |
-
   ###########################################################################
   # Sponsors
   ###########################################################################
@@ -383,7 +391,7 @@ translations:
 
   - key: about.content
     t: |
-      Опитування "Cтан JavaScript 2023" тривало з 22 листопада до 12 грудня 2023 року та зібрало 23540 відповідей. Опитування проводив [Devographics](https://devographics.com/), колектив, до складу якого входять я ([Sacha Greif](https://sachagreif.com/)) і [Eric Burel](https://www.lbke.fr/), а також запрошені експерти та учасники проєктів із відкритим програмним кодом.
+      Опитування "Cтан JavaScript 2023" тривало з 22 листопада до 12 грудня 2023 року та зібрало 23540 відповідей. Результати були опубліковані 20 червня 2024 року. Опитування проводив [Devographics](https://devographics.com/), колектив, до складу якого входять я ([Sacha Greif](https://sachagreif.com/)) і [Eric Burel](https://www.lbke.fr/), а також запрошені експерти та учасники проєктів із відкритим програмним кодом.
 
       Логотип і футболку "Стан JavaScript" розробив [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
 
