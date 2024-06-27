@@ -20,6 +20,8 @@ translations:
     t: Білорусь
   - key: options.country.BRA
     t: Бразилія
+  - key: options.country.BGR
+    t: Болгарія
   - key: options.country.CAN
     t: Канада
   - key: options.country.CRI
@@ -58,6 +60,8 @@ translations:
     t: Велика Британія
   - key: options.country.HKG
     t: Гонконг
+  - key: options.country.HUN
+    t: Угорщина
   - key: options.country.IND
     t: Індія
   - key: options.country.IDN
