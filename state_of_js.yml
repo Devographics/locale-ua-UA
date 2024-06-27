@@ -573,12 +573,12 @@ translations:
   - key: features.language_pain_points
     t: Проблеми мови
   - key: features.language_pain_points.question
-    t: Які проблеми найбільше розчаровують вас у мові JavaScript?
+    t: Які проблеми мови JavaScript найбільше вас розчаровують?
 
   - key: features.browser_apis_pain_points
     t: Проблеми API браузера
   - key: features.browser_apis_pain_points.question
-    t: Які проблеми найбільше розчаровують вас в API браузера?
+    t: Які проблеми API браузера найбільше вас розчаровують?
 
   # patterns
   - key: patterns.object_oriented_programming
