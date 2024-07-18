@@ -261,18 +261,12 @@ translations:
   - key: options.top_js_pain_points.typing.description
     t: Управління та підтримка типів
 
-  - key: options.top_js_pain_points.build_tools
-    t: Інструменти для збирання коду
-  - key: options.top_js_pain_points.typing
-    t: Типізація
   - key: options.top_js_pain_points.typescript
     t: TypeScript
   - key: options.top_js_pain_points.esm_cjs
     t: ESM і CJS
   - key: options.top_js_pain_points.testing
     t: Тестування
-  - key: options.top_js_pain_points.performance
-    t: Продуктивність
   - key: options.top_js_pain_points.too_many_choices
     t: Завеликий вибір
   - key: options.top_js_pain_points.react
