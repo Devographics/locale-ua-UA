@@ -404,7 +404,7 @@ translations:
 
   # JS 2023
 
-  - key: general.js2023.survey_intro
+  - key: general.js2023.survey_intro_not_used
     t: |
       Між Astro, Vite та Remix у 2022 році почалася хвиля змін у JavaScript, що продовжувала зростати у 2023 році разом з Bun, Svelte 5, Tauri та багатьма іншими. 
 

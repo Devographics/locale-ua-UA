@@ -118,6 +118,8 @@ translations:
     t: Іспанія
   - key: options.country.SWE
     t: Швеція
+  - key: options.country.TWN
+    t: Тайвань
   - key: options.country.TZA
     t: Танзанія
   - key: options.country.THA

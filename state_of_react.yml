@@ -90,9 +90,9 @@ translations:
   # - key: sections.testing.description
   #   t: Testing utilities and libraries
 
-  - key: sections.other_tools.title
+  - key: sections.tools.title
     t: Інші інструменти
-  - key: sections.other_tools.description
+  - key: sections.tools.description
     t: Інші інструменти та бібліотеки для React
 
   - key: sections.usage_react.title
@@ -222,10 +222,6 @@ translations:
     t: >
       `use` — це хук React, який дає вам змогу читати значення певного ресурсу, як-от Promise або контекст.
 
-  - key: features.usetransition.description
-    t: >
-      `useTransition` — це хук React, який дає змогу оновлювати стан без блокування UI.
-
   - key: features.starttransition.description
     t: >
       `startTransition` дає вам змогу оновити стан без блокування UI.
@@ -265,7 +261,7 @@ translations:
   # tools
 
   - key: tools.component_libraries_others
-    t: Інші бібліотеки
+    t: Інші бібліотеки компонентів
   - key: tools.component_libraries_others.question
     t: Які ще бібліотеки компонентів ви використовували?
 
@@ -327,9 +323,9 @@ translations:
   - key: tools.back_end_infrastructure_pain_points.question
     t: З якими проблемами ви стикалися під час роботи із серверною частиною та інфраструктурою?
 
-  - key: other_tools.testing
+  - key: tools.testing
     t: Бібліотеки для тестування
-  - key: other_tools.testing.question
+  - key: tools.testing.question
     t: Які бібліотеки ви використовуєте для тестування ваших React-застосунків?
 
   # - key: tools.testing_happiness
@@ -337,9 +333,9 @@ translations:
   # - key: tools.testing_happiness.description
   #   t: How happy are you with the current state of testing libraries?
 
-  - key: other_tools.mobile_development
+  - key: tools.mobile_development
     t: Розробка мобільних застосунків
-  - key: other_tools.mobile_development.question
+  - key: tools.mobile_development.question
     t: Які бібліотеки ви використовували для розробки мобільних застосунків?
 
   # - key: tools.mobile_development_others
@@ -350,94 +346,94 @@ translations:
   #   t: How happy are you with the current state of mobile development?
 
   # other tools
-  - key: other_tools.form_libraries
+  - key: tools.form_libraries
     t: Бібліотеки для форм
-  # - key: other_tools.form_libraries.description
+  # - key: tools.form_libraries.description
   #   t: Libraries for generating and validating forms.
-  - key: other_tools.form_libraries.question
+  - key: tools.form_libraries.question
     t: Які бібліотеки ви використовували для роботи з формами?
   - key: options.form_libraries.na
     t: Жодна
 
-  - key: other_tools.build_tools
+  - key: tools.build_tools
     t: Інструменти для збирання коду
-  # - key: other_tools.build_tools.description
+  # - key: tools.build_tools.description
   #   t: Build tools and bundlers.
-  - key: other_tools.build_tools.question
+  - key: tools.build_tools.question
     t: Які інструменти для збирання та пакетування ви використовували?
 
-  - key: other_tools.animation_libraries
+  - key: tools.animation_libraries
     t: Анімації
-  # - key: other_tools.animation.description
+  # - key: tools.animation.description
   #   t: Libraries to help manage animations and transitions.
-  - key: other_tools.animation_libraries.question
+  - key: tools.animation_libraries.question
     t: Які бібліотеки ви використовували для роботи з анімаціями?
 
-  - key: other_tools.auth
+  - key: tools.auth
     t: Автентифікація
-  # - key: other_tools.auth.description
+  # - key: tools.auth.description
   #   t: Libraries and services for managing authentication and accounts.
-  - key: other_tools.auth.question
+  - key: tools.auth.question
     t: Які бібліотеки та сервіси ви використовували для автентифікації?
 
-  - key: other_tools.data_visualization_libraries
+  - key: tools.data_visualization_libraries
     t: Візуалізація даних
-  # - key: other_tools.data_visualization.description
+  # - key: tools.data_visualization.description
   #   t: Data visualization and graphics libraries.
-  - key: other_tools.data_visualization_libraries.question
+  - key: tools.data_visualization_libraries.question
     t: Які бібліотеки ви використовували для візуалізації даних та роботи з графікою?
 
-  - key: other_tools.css_tools
+  - key: tools.css_tools
     t: CSS Інструменти та Бібліотеки
-  # - key: other_tools.css_tools.description
+  # - key: tools.css_tools.description
   #   t: CSS libraries, frameworks, and utilities you use to style your React app.
-  - key: other_tools.css_tools.question
+  - key: tools.css_tools.question
     t: Які бібліотеки або фреймворки ви використовували для стилізації ваших React-застосунків?
 
-  - key: other_tools.other_frontend_frameworks
+  - key: tools.other_frontend_frameworks
     t: Інші фреймворки для клієнтської частини
-  # - key: other_tools.other_frontend_frameworks.description
+  # - key: tools.other_frontend_frameworks.description
   #   t: >
   #     Other front-end frameworks
-  - key: other_tools.other_frontend_frameworks.question
+  - key: tools.other_frontend_frameworks.question
     t: >
       Які ще фреймворки для клієнтської частини ви використовували?
 
-  - key: other_tools.hosting
+  - key: tools.hosting
     t: Сервіси хостингу
-  # - key: other_tools.hosting.description
+  # - key: tools.hosting.description
   #   t: Services you use to host your React apps.
-  - key: other_tools.hosting.question
+  - key: tools.hosting.question
     t: Які сервіси ви використовували для хостингу ваших React застосунків?
 
-  - key: other_tools.backend_language
+  - key: tools.backend_language
     t: Мови для серверної частини
-  - key: other_tools.backend_language.question
+  - key: tools.backend_language.question
     t: Якою мовою чи мовами написані ваші серверні застосунки?
 
-  - key: other_tools.other_services
+  - key: tools.other_services
     t: Інші сервіси
-  - key: other_tools.other_services.question
+  - key: tools.other_services.question
     t: Які ще сервіси ви використовували разом із вашими React-застосунками?
 
-  - key: other_tools.validation
+  - key: tools.validation
     t: Бібліотеки для створення схем даних та їхньої валідації
-  - key: other_tools.validation.question
+  - key: tools.validation.question
     t: Які бібліотеки ви використовували для валідації даних за певною схемою?
 
-  - key: other_tools.ai_tools
+  - key: tools.ai_tools
     t: ШІ-інструменти
-  - key: other_tools.ai_tools.question
+  - key: tools.ai_tools.question
     t: Які ШІ-інструменти або ШІ-сервіси ви використовували для допомоги у написанні React-коду?
 
-  - key: other_tools.renderers
+  - key: tools.renderers
     t: Бібліотеки рендерингу React
-  - key: other_tools.renderers.question
+  - key: tools.renderers.question
     t: Які бібліотеки ви використовували, щоб рендерити React-застосунок для різних платформ або середовищ?
 
-  - key: other_tools.other_tools
+  - key: tools.other_tools
     t: Інші інструменти
-  - key: other_tools.other_tools.question
+  - key: tools.tools.question
     t: Які ще інструменти ви використовували для розробки React-застосунків?
 
   # CSS

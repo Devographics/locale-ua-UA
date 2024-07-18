@@ -827,7 +827,7 @@ translations:
   - key: charts.nth_percentile_value
     t: "{percentile}-й процентиль: {value}"
 
-  - key: charts.freeform_data
+  - key: charts.freeform_data_indicator
     t: (відповіді вільної форми)
   - key: charts.insufficient_data
     t: Недостатньо даних
