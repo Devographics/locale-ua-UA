@@ -1035,6 +1035,25 @@ translations:
   - key: options.industry_sector.security
     t: Охорона, безпека
 
+  - key: options.industry_sector.ai
+    t: Штучний інтелект (ШІ)
+  - key: options.industry_sector.advertising
+    t: Реклама
+  - key: options.industry_sector.cloud_computing
+    t: Хмарні обчислення
+  - key: options.industry_sector.consumer_electronics
+    t: Побутова електроніка
+  - key: options.industry_sector.food
+    t: Харчова промисловість
+  - key: options.industry_sector.hospitality_tourism
+    t: Індустрія гостинності / Туризм
+  - key: options.industry_sector.fashion
+    t: Мода
+  - key: options.industry_sector.robotics
+    t: Робототехніка
+  - key: options.industry_sector.saas
+    t: SaaS (Програмне забезпечення як послуга)
+
   # tool evaluation
   - key: options.tool_evaluation.learning_curve_documentation
     t: Документація
