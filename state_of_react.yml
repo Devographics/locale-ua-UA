@@ -6,7 +6,7 @@ translations:
 
   - key: general.state_of_react.intro
     t: |
-      React існує вже досить довго, і це очевидно, що він став одним з домінантних фреймворків для клієнтської частини.
+      React існує вже досить довго, і це очевидно, що він став одним із домінантних фреймворків для клієнтської частини.
 
       Однак, незважаючи на це, React продовжує швидко розвиватися, і спільнота робить все можливе, щоб встигати за цим.
 
@@ -31,7 +31,7 @@ translations:
   - key: sections.main_apis.title
     t: Основні API
   - key: sections.main_apis.description
-    t: Стабільні, широковідомі функції React
+    t: Стабільні, загальновідомі функції React
 
   - key: sections.hooks.title
     t: Хуки
@@ -109,34 +109,34 @@ translations:
   # features
 
   - key: features.main_apis_pain_points
-    t: Проблеми з основними API
+    t: Проблеми основних API
   - key: features.main_apis_pain_points.question
-    t: З якими проблемами ви стикалися у роботі з вищезазначеними API?
+    t: З якими проблемами ви стикалися під час використання вищезазначених API?
 
   - key: features.hooks_pain_points
-    t: Проблеми з хуками
+    t: Проблеми хуків
   - key: features.hooks_pain_points.question
-    t: З якими проблемами ви стикалися у роботі з хуками?
+    t: З якими проблемами ви стикалися під час використання хуків?
 
   - key: features.new_apis_pain_points
-    t: Проблеми з новими API
+    t: Проблеми нових API
   - key: features.new_apis_pain_points.question
-    t: З якими проблемами ви стикалися у роботі з новими API?
+    t: З якими проблемами ви стикалися під час використання нових API?
 
   # main features
   - key: features.fragment.description
     t: >
-      `<Fragment>`, що часто використовується через синтаксис `<>...</>`, дає змогу групувати елементи без використання вузла-обгортки.
+      `<Fragment>`, що часто використовується за допомогою синтаксису `<>...</>`, дає змогу групувати елементи без використання вузла-обгортки.
   - key: features.profiler.description
     t: >
-      `<Profiler>` дає вам змогу програмно вимірювати продуктивність рендерингу дерева React.
+      `<Profiler>` дає змогу програмно вимірювати продуктивність рендерингу дерева React.
   - key: features.strictmode.description
     t: >
-      `<StrictMode>` дає вам змогу виявляти поширені дефекти у ваших компонентах на ранніх етапах розробки.
+      `<StrictMode>` дає змогу виявляти поширені дефекти у ваших компонентах на ранніх стадіях розробки.
 
   - key: features.createportal.description
     t: >
-      `createPortal` дає вам змогу рендерити деякі дочірні елементи в іншій частині DOM.
+      `createPortal` дає змогу рендерити деякі дочірні елементи в іншій частині DOM.
 
   - key: features.createcontext.description
     t: >
@@ -148,37 +148,37 @@ translations:
 
   - key: features.lazy.description
     t: >
-      `lazy` дає вам змогу відкладати завантаження коду компонента до моменту його першого рендеру.
+      `lazy` дає змогу відстрочувати завантаження коду компонента до моменту його першого рендеру.
 
   - key: features.memo.description
     t: >
-      `memo` дає змогу уникнути повторного рендеру компонента, коли його пропси (властивості) не змінюються.
+      `memo` дає змогу уникнути повторного рендеру компонента, коли його властивості (props) не змінюються.
 
   - key: features.createroot.description
     t: >
-      `createRoot` дає змогу створити кореневий компонент для відображення React-компонентів всередині DOM-вузла у браузері.
+      `createRoot` дає змогу створити кореневий компонент для відображення React-компонентів всередині браузерного DOM-вузла.
 
   - key: features.hydrateroot.description
     t: >
-      `hydrateRoot` дає змогу відображати React-компоненти всередині DOM-вузла у браузері, HTML-вміст якого було раніше згенеровано за допомогою `react-dom/server`.
+      `hydrateRoot` дає змогу відображати React-компоненти всередині браузерного DOM-вузла, HTML-вміст якого було раніше згенеровано за допомогою `react-dom/server`.
 
   # hooks
 
   - key: features.usecallback.description
     t: >
-      `useCallback` — це хук React, який дає вам змогу кешувати визначення функції між повторними рендерами.
+      `useCallback` — це хук React, який дає змогу кешувати визначення функції між повторними рендерами.
 
   - key: features.usecontext.description
     t: >
-      `useContext` — це хук React, який дає вам змогу читати та підписуватися на контекст із вашого компонента.
+      `useContext` — це хук React, який дає змогу читати та підписуватися на контекст із вашого компонента.
 
   - key: features.usedebugvalue.description
     t: >
-      `useDebugValue` — це хук React, який дає змогу додавати мітку до вашого власного хуку в інструментах розробника React.
+      `useDebugValue` — це хук React, який дає змогу додавати мітку до вашого власного хука в інструментах розробника React.
 
   - key: features.usedeferredvalue.description
     t: >
-      `useDeferredValue` — це хук React, який дає змогу відкладати оновлення частини UI.
+      `useDeferredValue` — це хук React, який дає змогу відстрочувати оновлення частини UI.
 
   - key: features.useeffect.description
     t: >
@@ -206,7 +206,7 @@ translations:
 
   - key: features.usesyncexternalstore.description
     t: >
-      `useSyncExternalStore` — це хук React, який дає вам змогу підписуватися на зовнішнє сховище.
+      `useSyncExternalStore` — це хук React, який дає змогу підписуватися на зовнішнє сховище.
 
   - key: features.usetransition.description
     t: >
@@ -220,11 +220,11 @@ translations:
 
   - key: features.use_hook.description
     t: >
-      `use` — це хук React, який дає вам змогу читати значення певного ресурсу, як-от Promise або контекст.
+      `use` — це хук React, який дає змогу читати значення певного ресурсу, як-от Promise або контекст.
 
   - key: features.starttransition.description
     t: >
-      `startTransition` дає вам змогу оновити стан без блокування UI.
+      `startTransition` дає змогу оновити стан без блокування UI.
 
   - key: features.react_server_components.description
     t: >
@@ -240,23 +240,23 @@ translations:
 
   - key: features.server_actions.description
     t: >
-      Вбудоване рішення React для мутацій з боку сервера.
+      Вбудоване рішення React для мутацій із боку сервера.
 
   - key: features.taint_api.description
     t: >
-      Забороняє передачу певного об'єкта або значення до клієнтського компонента.
+      Запобігає передаванню певного об'єкта або значення до клієнтського компонента.
 
   - key: features.cache.description
     t: >
-      `cache` дає вам змогу кешувати результат отримання даних або обчислення.
+      `cache` дає змогу кешувати результат отримання даних або обчислення.
 
   - key: features.useformstatus.description
     t: >
-      `useFormStatus` — це хук, який надає вам інформацію про статус останнього надсилання форми.
+      `useFormStatus` — це хук, який надає інформацію про статус останнього надсилання форми.
 
   - key: features.useformstate.description
     t: >
-      `useFormState` — це хук, який дає вам змогу оновлювати стан на основі результату дії форми.
+      `useFormState` — це хук, який дає змогу оновлювати стан залежно від результату дії форми.
 
   # tools
 
@@ -384,7 +384,7 @@ translations:
     t: Які бібліотеки ви використовували для візуалізації даних та роботи з графікою?
 
   - key: tools.css_tools
-    t: CSS Інструменти та Бібліотеки
+    t: Інструменти та бібліотеки CSS 
   # - key: tools.css_tools.description
   #   t: CSS libraries, frameworks, and utilities you use to style your React app.
   - key: tools.css_tools.question
@@ -404,7 +404,7 @@ translations:
   # - key: tools.hosting.description
   #   t: Services you use to host your React apps.
   - key: tools.hosting.question
-    t: Які сервіси ви використовували для хостингу ваших React застосунків?
+    t: Які сервіси ви використовували для хостингу ваших React-застосунків?
 
   - key: tools.backend_language
     t: Мови для серверної частини
@@ -429,7 +429,7 @@ translations:
   - key: tools.renderers
     t: Бібліотеки рендерингу React
   - key: tools.renderers.question
-    t: Які бібліотеки ви використовували, щоб рендерити React-застосунок для різних платформ або середовищ?
+    t: Які бібліотеки ви використовували, щоб рендерити React-застосунок для різних платформ і середовищ?
 
   - key: tools.other_tools
     t: Інші інструменти
@@ -438,7 +438,7 @@ translations:
 
   # CSS
   - key: options.css_tools.plain_css
-    t: CSS (звичайний, нативний CSS)
+    t: CSS (звичайний, стандартний CSS)
 
   # react pain points
 
@@ -451,19 +451,19 @@ translations:
   - key: options.react_pain_points.state_management
     t: Керування станом (`useState`, Redux, Context тощо)
   - key: options.react_pain_points.bundle_sizes
-    t: Збереження малих розмірів бандлу для клієнту
+    t: Збереження малих розмірів пакету застосунку для клієнта
   - key: options.react_pain_points.server_rendering
-    t: Рендеринг з боку сервера та серверні компоненти
+    t: Рендеринг із боку сервера та серверні компоненти
   - key: options.react_pain_points.css_styling
     t: CSS та стилізація
   - key: options.react_pain_points.attribute_names
-    t: '"Неправильні" назви атрибутів, такі як className, htmlFor тощо'
+    t: '"Неправильні" назви атрибутів, як-от className, htmlFor тощо'
   - key: options.react_pain_points.synthetic_events
     t: Синтетичні події
   - key: options.react_pain_points.ref_management
-    t: Керування рефами (refs)
+    t: Керування посиланнями на DOM-вузли (refs)
   - key: options.react_pain_points.memoization
-    t: Мемоізація
+    t: Мемоїзація
   - key: options.react_pain_points.animations
     t: Анімації та переходи
   - key: options.react_pain_points.forms
@@ -515,7 +515,7 @@ translations:
   - key: options.js_app_patterns.static_site_generation.description
     t: Попередньо відрендерений під час збирання статичний вміст — з динамічним елементом з боку клієнта чи без нього
   - key: options.js_app_patterns.server_side_rendering
-    t: Рендеринг з боку сервера (SSR)
+    t: Рендеринг із боку сервера (SSR)
   - key: options.js_app_patterns.server_side_rendering.description
     t: Динамічний рендеринг вмісту HTML з боку сервера за запитом — перед його регідрацією з боку клієнта
   - key: options.js_app_patterns.partial_hydration
@@ -541,7 +541,7 @@ translations:
   - key: options.js_app_patterns.streaming_ssr
     t: Потоковий SSR
   - key: options.js_app_patterns.streaming_ssr.description
-    t: Розбиття вмісту, що рендерить сервер, на менші потокові частини
+    t: Розбиття вмісту, який рендериться сервером, на менші потокові частини
   - key: options.js_app_patterns.resumability
     t: Відновлення стану (Resumability)
   - key: options.js_app_patterns.resumability.description
@@ -587,7 +587,7 @@ translations:
   - key: options.new_features.asset_loading
     t: Завантаження ресурсів
   - key: options.new_features.asset_loading.description
-    t: Повна інтеграція Suspense з циклом завантаження стилів, шрифтів та зображень
+    t: Повна інтеграція Suspense із життєвим циклом завантаження стилів, шрифтів та зображень
   - key: options.new_features.cache.description
     t: API для допомоги з кешуванням даних.
   - key: options.new_features_react_forget.description
@@ -610,7 +610,7 @@ translations:
   - key: options.new_features.transition_tracing
     t: Відстежування переходів (transitions)
   - key: options.new_features.transition_tracing.description
-    t: Виявляйте, коли React-переходи стають повільнішими, та досліджуйте, чому вони можуть бути повільними.
+    t: Для виявлення і дослідження моментів, коли і чому React-переходи стають повільнішими.
 
   # what do you use React for?
   - key: options.what_do_you_use_react_for.static_sites
@@ -628,7 +628,7 @@ translations:
   - key: resources.learning_methods_react
     t: Методи навчання
   - key: resources.learning_methods_react.question
-    t: Які ресурси ви використовували для вивчення React?
+    t: Які джерела ви використовували для вивчення React?
 
   - key: resources.blogs_news_magazines_react
     t: Блоги
