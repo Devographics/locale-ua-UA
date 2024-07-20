@@ -103,6 +103,11 @@ translations:
   - key: general.numeric_input.invalid_input
     t: Будь ласка, переконайтеся, що ви ввели правильне число.
 
+  - key: general.numeric_input.unit.years
+    t: роки(-ів)
+  - key: general.numeric_input.unit.years_old
+    t: роки(-ів)
+
   ###########################################################################
   # Errors & Messages
   ###########################################################################
