@@ -604,7 +604,7 @@ translations:
 
   - key: tools.angular.description
     t: >
-      Зверніть увагу, що це питання відноситься до досвіду роботи з [Angular](https://angular.io/), 
+      Зауважте, що це питання відноситься до досвіду роботи з [Angular](https://angular.io/), 
       а *не* із застарілим [AngularJS](https://angularjs.org/).
 
   - key: tools.best_of_js_projects.note
