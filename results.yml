@@ -1806,7 +1806,7 @@ translations:
 
   - key: charts.multiexp.cell_tooltip
     t: >
-      **{value}%** респондентів відповіли "**{experience}**" і мають ставлення "**{answer}**"
+      **{value}%** респондентів відповіли "**{experience}**" і мають ставлення "**{sentiment}**"
 
   - key: charts.multiexp.cell_tooltip_neutral
     t: >
