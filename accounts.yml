@@ -57,7 +57,7 @@ translations:
   - key: accounts.switch_to_sign_up
     t: Немає акаунту? Зареєструватися
   - key: accounts.switch_to_sign_in
-    t: Вже є акаунт? Увійти
+    t: Вже маєте акаунт? Увійти
   - key: accounts.sign_out
     t: Вийти
   - key: accounts.cancel
@@ -76,7 +76,7 @@ translations:
     t: Ви увійшли як гість
   - key: accounts.questions
     t: >
-      Якщо у вас є питання щодо використання ваших відповідей, або ви хочете 
+      Якщо маєте питання щодо використання ваших відповідей, або ви хочете 
       видалити їх із нашої бази даних, 
       будь ласка, <a href="mailto:hello@stateofjs.com">напишіть нам</a>.
 
