@@ -68,7 +68,7 @@
 |All data collected will be released publicly. It will then become a resources both for developers, who consult it to inform their technological choices, and browser vendors, who use it to prioritize focus areas and inform their roadmaps.|Усі зібрані дані будуть оприлюднені. Вони будуть джерелом як для розробників, які звертаються до нього, щоб донести свій технологічний вибір, так і для постачальників браузерів, які використовують його для визначення пріоритетних напрямків розробки та формування своїх "дорожніх карт".|
 |The survey was designed with input from the community through an open feedback thread.|Опитування було розроблено з урахуванням думки спільноти через відкрите обговорення.|
 |The survey will run from {startDate} to {endDate}, and the survey results will be released shortly after that.|Опитування триватиме з {startDate} до {endDate}, і його результати будуть опубліковані незабаром після завершення.|
-|The survey's goals are to measure awareness and popularity of ...|Метою опитування є вимірювання впізнаваності та популярності серед ...|
+|The survey's goals are to measure awareness and popularity of ...|Мета опитування — вимірювання впізнаваності та популярності серед ...|
 |You can learn more about this survey in our announcement post.|Ви можете дізнатися більше про це опитування у нашому анонсі.|
 
 ## Дискусійне/проблемне

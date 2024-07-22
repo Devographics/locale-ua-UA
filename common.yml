@@ -131,7 +131,7 @@ translations:
   - key: general.privacy_policy
     t: Політика конфіденційності
   - key: general.leave_issue
-    t: Є питання? Знайшли помилку? <a href="{link}" target="_blank">Створіть запит</a>.
+    t: Маєте питання? Знайшли помилку? <a href="{link}" target="_blank">Створіть запит</a>.
   - key: general.leave_issue2
     t: Створити запит
   - key: general.emoji_icons
@@ -1058,7 +1058,7 @@ translations:
   - key: options.tool_evaluation.learning_curve_documentation
     t: Документація
   - key: options.tool_evaluation.learning_curve_documentation.description
-    t: Чи легко вивчається та/або чи є вичерпно описаною?
+    t: Чи легко вивчається та/або вичерпно описана?
   - key: options.tool_evaluation.momentum_popularity
     t: Ажіотаж
   - key: options.tool_evaluation.momentum_popularity.description
@@ -1086,7 +1086,7 @@ translations:
   - key: options.tool_evaluation.community_inclusivity
     t: Спільнота та залученість
   - key: options.tool_evaluation.community_inclusivity.description
-    t: Чи є навколо цього гостинна та енергійна спільнота?
+    t: Чи має навколо себе гостинну й енергійну спільноту?
 
   # accessibility features
   - key: options.accessibility_features.keyboard_navigation
@@ -1449,7 +1449,7 @@ translations:
       Який один із наведених варіантів описує вас?
   - key: user_info.gender.note
     t: >
-      Хоч ми знаємо, що збір і публікація даних про різноманітність (diversity) є делікатною справою, 
+      Хоч ми знаємо, що збір і публікація даних про різноманітність (diversity) — це делікатна справа, 
       ми вважаємо, що важливо отримати ці дані, щоб допомогти виміряти та покращити 
       роботу над опитуванням у питаннях інклюзивності та репрезентативності.
 
@@ -1461,7 +1461,7 @@ translations:
       Який із наведених варіантів описує вас?
   - key: user_info.race_ethnicity.note
     t: >
-      Хоч ми знаємо, що збір і публікація даних про різноманітність (diversity) є делікатною справою, 
+      Хоч ми знаємо, що збір і публікація даних про різноманітність (diversity) — це делікатна справа, 
       ми вважаємо, що важливо отримати ці дані, щоб допомогти виміряти та покращити 
       роботу над опитуванням у питаннях інклюзивності та репрезентативності.
   - key: user_info.race_ethnicity.not_allowed
