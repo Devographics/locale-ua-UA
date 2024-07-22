@@ -789,13 +789,13 @@ translations:
   - key: options.gender.male
     t: Чоловік
   - key: options.gender.non_binary
-    t: Небінарний(-а) чи гендерно-неконформний(-а)
+    t: Небінарні чи гендерно-неконформні
   - key: options.gender.questioning
-    t: Не визначився(-лась)
+    t: Не визначилися
   - key: options.gender.prefer_not_to_say
     t: Не хочу вказувати
   - key: options.gender.not_listed
-    t: Нічого з перерахованого
+    t: Нічого з переліченого
 
   # Gender (short)
 
@@ -806,11 +806,11 @@ translations:
   - key: options.gender.non_binary.short
     t: NB/GNC
   - key: options.gender.questioning.short
-    t: Не визначився(-лась)
+    t: Не визначилися
   - key: options.gender.prefer_not_to_say.short
     t: Не хочу вказувати
   - key: options.gender.not_listed.short
-    t: Нічого з перерахованого
+    t: Нічого з переліченого
 
   # Race & Ethnicity
 
@@ -835,7 +835,7 @@ translations:
   - key: options.race_ethnicity.native_american_islander_australian
     t: Корінні американці або австралійці, уродженці островів Тихого океану
   - key: options.race_ethnicity.not_listed
-    t: Нічого з перерахованого
+    t: Нічого з переліченого
 
   - key: options.race_ethnicity.european
     t: Європейці
@@ -873,7 +873,7 @@ translations:
   - key: options.race_ethnicity.native_american_islander_australian.short
     t: Корінні американ. або австрал., уродженці о. Тихого океану
   - key: options.race_ethnicity.not_listed.short
-    t: Нічого з перерахованого
+    t: Нічого з переліченого
 
   # Disability Status
   - key: options.disability_status.na
@@ -892,7 +892,7 @@ translations:
       Когнітивні порушення (як-от: тривожний розлад, дислексія, СДУГ тощо)
   - key: options.disability_status.not_listed
     t: >
-      Нічого з перерахованого
+      Нічого з переліченого
 
   # Disability Status (short)
   - key: options.disability_status.visual_impairments.short
@@ -909,7 +909,7 @@ translations:
       Когнітивні порушення
   - key: options.disability_status.not_listed.short
     t: >
-      Нічого з перерахованого
+      Нічого з переліченого
 
   # Form Factors
   - key: options.form_factors.desktop
