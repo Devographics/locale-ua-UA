@@ -88,6 +88,8 @@ translations:
   # Other Content
   ###########################################################################
 
+  - key: features.all_features
+    t: Усі функції
   - key: features.all_features.description
     t: |
       Ця діаграма підсумовує всі основні запитання опитування. Основні стовпці або рядки відповідають певному досвіду респондента; всередині вони поділені відповідно до ставлення респодента. Ви можете змінити групування, щоб чергувати ці дві категорії.
@@ -133,9 +135,9 @@ translations:
   # Conclusion
   ###########################################################################
 
-  - key: conclusion.html2023.bio
+  - key: conclusion.html2023.lea_verou.bio
     t: Учасниця робочої групи з питань технічної архітектури (TAG) при W3C і дослідниця в лабораторії комп'ютерних наук і штучного інтелекту (CSAIL) при MIT
-  - key: conclusion.html2023
+  - key: conclusion.html2023.lea_verou
     t: >
       *Хху!* Це опитування потребувало колосальних зусиль десятків людей із шести континентів.  Not only did it set a new record for the most responses in a “State of…” survey debut, its data collection UI pioneered innovations that gave us unparalleled insight into developer attitudes, and will ripple far beyond its scope.
 
