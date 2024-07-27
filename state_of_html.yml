@@ -356,10 +356,10 @@ translations:
 
   # Accessibility
 
-  - key: features.accessibility_features
-    t: Функції доступності
-  - key: features.accessibility_features.question
-    t: Які з наведених функцій доступності ви використовували?
+  # - key: features.accessibility_features
+  #   t: Функції доступності
+  # - key: features.accessibility_features.question
+  #   t: Які з наведених функцій доступності ви використовували?
 
   - key: features.accessibility_tools
     t: Інструменти доступності
