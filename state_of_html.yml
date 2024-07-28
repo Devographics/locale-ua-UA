@@ -101,14 +101,14 @@ translations:
   - key: features.form_input_types.question
     t: Які типи input-елементів ви використовували?
   - key: options.form_input_types.na
-    t: <span aria-hidden="true">🚫</span> Нічого з вищевказаного 
+    t: <span aria-hidden="true">🚫</span> Нічого з вищевказаного
 
   - key: features.form_validation_features
     t: Валідація форми
   - key: features.form_validation_features.question
     t: Які з наведених функцій валідації ви використовували?
   - key: options.form_validation_features.na
-    t: <span aria-hidden="true">🚫</span> Нічого з вищевказаного 
+    t: <span aria-hidden="true">🚫</span> Нічого з вищевказаного
 
   - key: features.forms_pain_points
     t: Проблеми форм
@@ -179,7 +179,7 @@ translations:
   #   t: |
   #     `let fragment = document.createDocumentFragment()`
   - key: options.dom_methods.na
-    t: <span aria-hidden="true">🚫</span> Нічого з вищевказаного 
+    t: <span aria-hidden="true">🚫</span> Нічого з вищевказаного
 
   - key: features.interactivity_pain_points
     t: Проблеми інтерактивності
@@ -209,7 +209,7 @@ translations:
   - key: options.interactivity_techniques.web_components
     t: Вебкомпоненти
   - key: options.interactivity_techniques.na
-    t: <span aria-hidden="true">🚫</span> Нічого з вищевказаного 
+    t: <span aria-hidden="true">🚫</span> Нічого з вищевказаного
 
   # content
 
@@ -245,7 +245,7 @@ translations:
   - key: features.i18n_features.question
     t: Which of the following internationalization features have you used?
   - key: options.i18n_features.na
-    t: <span aria-hidden="true">🚫</span> Нічого з вищевказаного 
+    t: <span aria-hidden="true">🚫</span> Нічого з вищевказаного
 
   # - key: options.i18n_features.intl_datetimeformat.description
   #   t:
@@ -285,7 +285,7 @@ translations:
   - key: features.external_content_elements.question
     t: Which of the following elements have you used?
   - key: options.external_content_elements.na
-    t: <span aria-hidden="true">🚫</span> Нічого з вищевказаного 
+    t: <span aria-hidden="true">🚫</span> Нічого з вищевказаного
 
   - key: features.privacy_security_features
     t: |
@@ -294,7 +294,7 @@ translations:
     t: |
       Which of the following security & privacy features have you used?
   - key: options.privacy_security_features.na
-    t: <span aria-hidden="true">🚫</span> Нічого з вищевказаного 
+    t: <span aria-hidden="true">🚫</span> Нічого з вищевказаного
 
   - key: features.rel_attribute
     t: Resource Hints
@@ -331,7 +331,7 @@ translations:
     t: |
       `<button is="fancy-button">`
   - key: options.web_components_features.na
-    t: <span aria-hidden="true">🚫</span> Нічого з вищевказаного 
+    t: <span aria-hidden="true">🚫</span> Нічого з вищевказаного
 
   - key: features.using_web_components_pain_points
     t: Проблеми використання вебкомпонентів
@@ -356,10 +356,10 @@ translations:
 
   # Accessibility
 
-  - key: features.accessibility_features
-    t: Функції доступності
-  - key: features.accessibility_features.question
-    t: Які з наведених функцій доступності ви використовували?
+  # - key: features.accessibility_features
+  #   t: Функції доступності
+  # - key: features.accessibility_features.question
+  #   t: Які з наведених функцій доступності ви використовували?
 
   - key: features.accessibility_tools
     t: Інструменти доступності
@@ -504,14 +504,14 @@ translations:
   - key: features.pwa_features.question
     t: Have you used any of the following PWA technologies/APIs?
   - key: options.pwa_features.na
-    t: <span aria-hidden="true">🚫</span> Нічого з вищевказаного 
+    t: <span aria-hidden="true">🚫</span> Нічого з вищевказаного
 
   - key: features.local_storage_features
     t: Local storage features
   - key: features.local_storage_features.question
     t: Have you used any of the following to store data client-side?
   - key: options.local_storage_features.na
-    t: <span aria-hidden="true">🚫</span> Нічого з вищевказаного 
+    t: <span aria-hidden="true">🚫</span> Нічого з вищевказаного
 
   - key: features.pwa_app_manifest_fields
     t: App Manifest Fields
@@ -570,7 +570,7 @@ translations:
     aliasFor: features.machine_readable_features.question
 
   - key: options.machine_readable_features.na
-    t: <span aria-hidden="true">🚫</span> Нічого з вищевказаного 
+    t: <span aria-hidden="true">🚫</span> Нічого з вищевказаного
 
   - key: other_tools.blast_from_the_past
     t: Blast from the Past!
@@ -579,7 +579,7 @@ translations:
   - key: other_tools.blast_from_the_past.description
     t: Blast from the past!
   - key: options.blast_from_the_past.na
-    t: <span aria-hidden="true">🚫</span> Нічого з вищевказаного 
+    t: <span aria-hidden="true">🚫</span> Нічого з вищевказаного
 
   # Usage
 

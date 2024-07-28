@@ -543,6 +543,8 @@ translations:
   # tools quadrant
   - key: blocks.tools_quadrant
     t: Порівняння утримання і використання
+  - key: tools.scatterplot_overview
+    aliasFor: blocks.tools_quadrant
   - key: blocks.tools_quadrant.description
     t: |
       Ця діаграма показує **співвідношення утримання** відносно загальної **кількості користувачів** для кожної технології.
