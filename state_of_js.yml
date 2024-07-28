@@ -895,7 +895,7 @@ translations:
   - key: tools_others.form_factors
     aliasFor: environments.form_factors
   - key: tools_others.form_factors.description
-    aliasFor: environments.form_factors.description
+    aliasFor: environments.form_factors.question
 
   - key: tools_others.backend_as_a_service
     t: Постачальники серверних сервісів як послуг (BaaS)
