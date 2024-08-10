@@ -1626,12 +1626,23 @@ translations:
   - key: resources.paid_courses
     t: Платні курси
   - key: resources.paid_courses.question
-    t: До яких *платних джерел* (курси, відео, книжки тощо) ви звертаєтеся, щоб вивчати JavaScript?
+    t: До яких *платних джерел* (курси, відео, книжки тощо) ви звертаєтеся?
   - key: options.paid_courses.na
     t: 🚫 Нічого
   - key: resources.paid_courses.placeholder
     t: |
       Курс/книжка #{index}…
+
+  # courses
+  - key: resources.courses
+    t: Курси та навчальні матеріали
+  - key: resources.courses.question
+    t: Які курси ви проходили або якими навчальними матеріалами (відео, книги тощо) користувалися?
+  - key: options.courses.na
+    t: 🚫 Нічого
+  - key: resources.courses.placeholder
+    t: |
+      Курс/книжка/інше #{index}…
 
   # podcasts
   - key: resources.podcasts
@@ -1652,7 +1663,7 @@ translations:
   - key: resources.people
     t: Особистості
   - key: resources.people.question
-    t: Серед особистостей у спільноті JavaScript — кого ви читаєте, за ким слідкуєте чи просто хочете виокремити?
+    t: Кого ви читаєте, за ким слідкуєте чи просто хочете виокремити?
   # - key: resources.people.others
   #   t: Other People
   # - key: resources.people.others.description
