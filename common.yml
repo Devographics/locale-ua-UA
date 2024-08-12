@@ -1734,7 +1734,7 @@ translations:
   - key: followups.not_interested
     t: Не цікаво
   - key: followups.insufficient_browser_support
-    t: Недостатня підтримка браузерами
+    t: Недостатнє підтримання браузерами
   - key: followups.not_needed
     t: Не було потрібно
   - key: followups.hard_to_use

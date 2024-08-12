@@ -118,7 +118,7 @@ translations:
     t: |
       Подумайте про різні елементи керування формами (наприклад, `<input>`, `<textarea>`, `<select>`, `<button>` тощо),
       поведінку (наприклад, валідація, автозаповнення), обробку форм за допомогою JS, API для редагування (наприклад, `contentEditable`) тощо.
-      Пишіть усе, що вас турбує у формах: підтримка браузерами, відсутні функції, додавання стилів тощо.
+      Пишіть усе, що вас турбує у формах: підтримання браузерами, відсутні функції, додавання стилів тощо.
   - key: features.forms_pain_points.placeholder
     t: |
       Проблема #{index}…
@@ -187,7 +187,7 @@ translations:
     t: Які проблеми динамічної зміни HTML найбільше вас розчаровують?
   - key: features.interactivity_pain_points.prompt
     t: |
-      Несумісність між браузерами або відсутність підтримки, відсутні функції та інші проблеми, з якими ви стикаєтеся,
+      Несумісність між браузерами або відсутність підтримування, відсутні функції та інші проблеми, з якими ви стикаєтеся,
       що пов'язані з інтерактивними елементами та поведінкою (крім форм), маніпулюванням DOM, подіями та суміжними API.
 
   - key: features.interactivity_pain_points.placeholder
@@ -488,12 +488,12 @@ translations:
     t: Ensuring that no information is conveyed by color alone.
   - key: options.accessibility_techniques.prefers_reduced_motion
     t: |
-      `prefers-reduced-motion` media query
+      Медіазапит `prefers-reduced-motion`
   - key: options.accessibility_techniques.prefers_reduced_motion.description
     t: Providing alternative CSS for users who prefer reduced motion.
   - key: options.accessibility_techniques.prefers_contrast
     t: |
-      `prefers-contrast` media query
+      Медіазапит `prefers-contrast`
   - key: options.accessibility_techniques.prefers_contrast.description
     t: Providing alternative CSS for users who prefer increased contrast.
 
@@ -721,7 +721,7 @@ translations:
   - key: options.html_missing_elements.segmented_button
     t: Кнопка із сегментами
   - key: options.html_missing_elements.scroll_area
-    t: Елемент безкінечного прогортування
+    t: Елемент нескінченного гортання
   - key: options.html_missing_elements.icon
     t: Іконка
   - key: options.html_missing_elements.star_rating

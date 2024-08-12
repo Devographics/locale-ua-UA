@@ -469,7 +469,7 @@ translations:
   - key: options.react_pain_points.forms
     t: Форми
   - key: options.react_pain_points.typescript
-    t: Відсутність офіційної підтримки TypeScript
+    t: Відсутність офіційного підтримання TypeScript
 
   # usage type
   - key: usage.react_usage_type
@@ -620,7 +620,7 @@ translations:
   - key: options.what_do_you_use_react_for.web_apps
     t: Вебзастосунки
   - key: options.what_do_you_use_react_for.mobile_apps
-    t: Мобільні застосунки
+    t: Застосунки для мобільних пристроїв
   - key: options.what_do_you_use_react_for.desktop_apps
     t: Застосунки для настільних комп'ютерів
 
