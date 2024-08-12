@@ -267,7 +267,7 @@ translations:
   - key: options.css_missing_features.parent_selector
     t: Селектор батьківського елемента
   - key: options.css_missing_features.parent_selector.description
-    t: Можливість вибрання батьківського елемента за його дочірніми елементами.
+    t: Змога вибирати батьківський елемент за його безпосереднім нащадком.
   - key: options.css_missing_features.browser_support
     t: Підтримання браузерами
   - key: options.css_missing_features.browser_support.description
@@ -283,11 +283,11 @@ translations:
   - key: options.css_missing_features.container_queries
     t: Контейнерні запити
   - key: options.css_missing_features.container_queries.description
-    t: Можливість написання стилів, зважаючи на розміри батьківського контейнера.
+    t: Змога писати стилі, зважаючи на розміри батьківського контейнера.
   - key: options.css_missing_features.scoping
     t: Область видимості
   - key: options.css_missing_features.scoping.description
-    t: Можливість уточнення місця застосування ваших стилів.
+    t: Змога уточнювати місце застосування ваших стилів.
   - key: options.css_missing_features.subgrid
     t: Вкладена сітка (Subgrid)
   - key: options.css_missing_features.subgrid.description
@@ -432,7 +432,7 @@ translations:
     t: Утримання CSS (CSS Containment)
 
   - key: features.css_nesting.description
-    t: Вбудоване вкладення CSS без пре-/постпроцесорів.
+    t: Вбудована вкладеність CSS без пре-/постпроцесорів.
 
   - key: features.trigonometric_functions
     t: Тригонометричні функції
@@ -445,7 +445,7 @@ translations:
   - key: features.stepped_value_functions
     t: Кусково-задані функції
   - key: features.css_nesting
-    t: Вкладення CSS
+    t: Вкладеність CSS
   - key: features.shadow_dom_css
     t: Функції Shadow DOM
   - key: features.individual_transform_properties
@@ -467,13 +467,13 @@ translations:
 
   # missing features (see also options)
   - key: features.nesting
-    t: Вкладення
+    t: Вкладеність
   - key: features.nesting.description
-    t: Можливість вкладення стилів у нативному CSS-коді.
+    t: Змога вкладати стилі один в одного в нативному CSS-коді.
   - key: features.parent_selector
     t: Селектор батьківського елемента
   - key: features.parent_selector.description
-    t: Можливість вибрання батьківського елемента за його дочірніми елементами.
+    t: Змога вибирати батьківський елемент за його безпосереднім нащадком.
   - key: features.browser_support
     t: Підтримання браузерами
   - key: features.browser_support.description
@@ -489,11 +489,11 @@ translations:
   - key: features.container_queries
     t: Контейнерні запити
   - key: features.container_queries.description
-    t: Можливість написання стилів, зважаючи на розміри батьківського контейнера.
+    t: Змога писати стилі, зважаючи на розміри батьківського контейнера.
   - key: features.scoping
     t: Область видимості
   - key: features.scoping.description
-    t: Можливість уточнення місця застосування ваших стилів.
+    t: Змога уточнювати місце застосування ваших стилів.
 
   ###########################################################################
   # Units & Selectors
@@ -889,9 +889,9 @@ translations:
     t: Несемантичні класи
 
   - key: opinions.selector_nesting_to_be_avoided
-    t: Потрібно уникати вкладення селекторів (.foo .bar ul li {...})
+    t: Потрібно уникати вкладеності селекторів (.foo .bar ul li {...})
   - key: opinions.selector_nesting_to_be_avoided.title
-    t: Вкладення селекторів
+    t: Вкладеність селекторів
 
   - key: opinions.css_is_programming_language
     t: CSS — це мова програмування

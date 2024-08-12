@@ -488,12 +488,12 @@ translations:
     t: Ensuring that no information is conveyed by color alone.
   - key: options.accessibility_techniques.prefers_reduced_motion
     t: |
-      `prefers-reduced-motion` media query
+      Медіазапит `prefers-reduced-motion`
   - key: options.accessibility_techniques.prefers_reduced_motion.description
     t: Providing alternative CSS for users who prefer reduced motion.
   - key: options.accessibility_techniques.prefers_contrast
     t: |
-      `prefers-contrast` media query
+      Медіазапит `prefers-contrast`
   - key: options.accessibility_techniques.prefers_contrast.description
     t: Providing alternative CSS for users who prefer increased contrast.
 
