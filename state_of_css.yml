@@ -38,7 +38,7 @@ translations:
   - key: sections.typography.title
     t: Типографія
   - key: sections.typography.description
-    t: Параметри та формат текстів.
+    t: Параметри та компонування тексту.
 
   - key: sections.animations_transforms.title
     t: Анімація та перетворення
@@ -51,7 +51,7 @@ translations:
     t: Функції і техніки доступності.
 
   - key: sections.media_queries.title
-    t: Media-директиви
+    t: Медіазапити
   - key: sections.media_queries.description
     t: Способи адаптації сайту до пристрою користувача або його налаштувань.
 
@@ -187,7 +187,7 @@ translations:
   - key: options.what_do_you_use_css_for.marketing_sites
     t: Сайти для продажу та сторінки-вітрини
   - key: options.what_do_you_use_css_for.design_systems
-    t: Системи дизайну
+    t: Дизайн-системи
   - key: options.what_do_you_use_css_for.blogs
     t: Блоги чи інші сайти з великою кількістю тексту
   - key: options.what_do_you_use_css_for.web_apps
@@ -238,7 +238,7 @@ translations:
   - key: options.css_pain_points.scoping_specificity.description
     t: Робота з каскадом, перевизначенням стилів тощо.
   - key: options.css_pain_points.responsive_design
-    t: Респонсивний дизайн (RWD)
+    t: Чуйний (responsive) дизайн
   - key: options.css_pain_points.responsive_design.description
     t: Зміна компонування елементів і дизайнів відповідно до формфактору пристрою.
   - key: options.css_pain_points.form_elements_styling
@@ -261,9 +261,9 @@ translations:
 
   # CSS missing features (same as features section)
   - key: options.css_missing_features.nesting
-    t: Вкладення
+    t: Вкладеність
   - key: options.css_missing_features.nesting.description
-    t: Можливість вкладення стилів у нативному CSS-коді.
+    t: Змога вкладати стилі один в одного в нативному CSS-коді.
   - key: options.css_missing_features.parent_selector
     t: Селектор батьківського елемента
   - key: options.css_missing_features.parent_selector.description
@@ -281,7 +281,7 @@ translations:
   - key: options.css_missing_features.color_functions.description
     aliasFor: features.color_functions.description
   - key: options.css_missing_features.container_queries
-    t: Container-директиви
+    t: Контейнерні запити
   - key: options.css_missing_features.container_queries.description
     t: Можливість написання стилів, зважаючи на розміри батьківського контейнера.
   - key: options.css_missing_features.scoping
@@ -316,7 +316,7 @@ translations:
   - key: options.css_missing_features.wrapping_detection
     t: Виявлення перенесення елемента
   - key: options.css_missing_features.wrapping_detection.description
-    t: Виявлення моменту, коли гнучкий або сітковий елемент був перенесений (wrapped) на наступну лінію.
+    t: Виявлення того, що гнучкий або сітковий елемент був перенесений (wrapped) на наступну лінію.
 
   - key: options.css_missing_features.more_pseudo_elements
     t: Більше псевдоелементів
@@ -334,9 +334,9 @@ translations:
     t: Можливість додавання стилів для невидимих ліній, які розділяють сітку.
 
   - key: options.css_missing_features.media_queries_variables
-    t: Змінні в media-директивах
+    t: Змінні в медіазапитах
   - key: options.css_missing_features.media_queries_variables.description
-    t: Можливість використання змінних всередині media-директив.
+    t: Можливість використання змінних всередині медіазапитів.
 
   - key: options.css_missing_features.masonry_layout
     t: Компонування masonry
@@ -359,19 +359,19 @@ translations:
   - key: features.multi_column
     t: Багатоколонковість у CSS
   - key: features.writing_modes
-    t: Режими письма в CSS
+    t: Напрямки письма в CSS
   - key: features.exclusions
     t: Області обтікання в CSS (CSS Exclusions)
 
   - key: features.flexbox_gap
-    t: "Властивість `gap` для гнучкого компонування"
+    t: "Властивість `gap` для флексбоксу"
 
   - key: features.viewport_percentage_length_units
-    t: Малі, великі та динамічні одиниці області перегляду
+    t: Одиниці вимірювання на основі малої, великої та динамічної області перегляду
   - key: features.viewport_percentage_length_units.question
     aliasFor: features.viewport_percentage_length_units
   - key: features.at_container
-    t: "Директива `@container`"
+    t: "Запити `@container`"
   - key: features.at_container.description
     t: Включно з вибором за розмірами та стилями
 
@@ -379,9 +379,9 @@ translations:
   - key: features.shapes
     t: Фігури та форми в CSS
   - key: features.masks
-    t: Маскування в CSS
+    t: Маскування CSS
   - key: features.filter_effects
-    t: Ефекти фільтрів у CSS
+    t: Ефекти фільтрів CSS
 
   - key: features.linear_easing_function
     t: "Функція плавності `linear()`"
@@ -394,7 +394,7 @@ translations:
   - key: features.intrinsic_sizing
     t: Ключові слова для природного розміру (intrinsic sizing)
   - key: features.gradient_color_spaces
-    t: Інтерполювання колірних просторів
+    t: Простори колірної інтерполяції
   - key: features.gradient_color_spaces.question
     aliasFor: features.gradient_color_spaces
 
@@ -404,17 +404,17 @@ translations:
   - key: features.variable_fonts
     t: Варіативні шрифти
   - key: features.line_breaking
-    t: Властивості перенесення рядків
+    t: Властивості перенесення тексту
   - key: features.direction.description
     t: Включно з HTML-атрибутом `dir`.
 
   # animations & transforms
   - key: features.transitions
-    t: Переходи в CSS
+    t: Переходи CSS
   - key: features.transforms
-    t: Перетворення в CSS
+    t: Перетворення CSS
   - key: features.animations
-    t: Анімації в CSS
+    t: Анімації CSS
 
   # media queries/accessibility
   - key: features.tabindex
@@ -429,7 +429,7 @@ translations:
   - key: features.variables
     t: Змінні CSS (Власні властивості)
   - key: features.containment
-    t: Ізоляція в CSS (CSS Containment)
+    t: Утримання CSS (CSS Containment)
 
   - key: features.css_nesting.description
     t: Вбудоване вкладення CSS без пре-/постпроцесорів.
@@ -457,9 +457,9 @@ translations:
   - key: features.comparison_functions.question
     aliasFor: features.comparison_functions
   - key: features.math_functions
-    t: Математичні функції CSS
+    t: Математичні функції в CSS
   - key: features.viewport_units
-    t: Одиниці області перегляду (`vh`, `vw`)
+    t: Одиниці на основі області перегляду (`vh`, `vw`)
   - key: features.cascade_layers
     t: Каскадні шари
   - key: features.cascade_layers.question
@@ -487,7 +487,7 @@ translations:
   - key: features.color_functions.description
     t: Функції для маніпулювання значеннями кольорів (`color()`, `color-mix()`, `contrast-color()` тощо).
   - key: features.container_queries
-    t: Container-директиви
+    t: Контейнерні запити
   - key: features.container_queries.description
     t: Можливість написання стилів, зважаючи на розміри батьківського контейнера.
   - key: features.scoping
@@ -554,12 +554,12 @@ translations:
   - key: features_others.combinators
     t: Комбінатори
   - key: features_others.combinators.description
-    t: Які серед цих CSS-селекторів для комбінацій ви використовували?
+    t: Які серед цих комбінаторів селекторів CSS ви використовували?
 
   - key: options.combinators.descendant
-    t: div span (елемент-нащадок)
+    t: div span (нащадок)
   - key: options.combinators.child
-    t: div > span (дочірній елемент)
+    t: div > span (безпосередній нащадок)
   - key: options.combinators.next_sibling
     t: div + div (наступний сестринський елемент)
   - key: options.combinators.subsequent_sibling
@@ -867,7 +867,7 @@ translations:
   - key: tools_others.tool_evaluation
     t: Оцінка бібліотек
   - key: tools_others.tool_evaluation.description
-    t: У кожній парі виберіть пріоритетніший для вас фактор під час оцінювання нової бібліотеки?
+    t: У кожній парі виберіть пріоритетніший для вас фактор під час оцінювання нової бібліотеки.
 
   ###########################################################################
   # Opinions
@@ -942,7 +942,7 @@ translations:
   - key: options.css_interoperability_features.cascade_layers
     aliasFor: features.cascade_layers
   - key: options.css_interoperability_features.scrollbar
-    t: Стилі для елементам гортання
+    t: Стилі для смуги гортання
 
   - key: options.css_interoperability_features.na
     t: Нічого
@@ -1058,7 +1058,7 @@ translations:
   - key: usage.css_js_balance
     t: Співвідношення CSS і JavaScript
   - key: usage.css_js_balance.question
-    t: Скільки часу ви пишете CSS (включно з HTML-версткою) і скільки — JavaScript-код?
+    t: Скільки часу ви пишете CSS (включно з верстанням HTML) і скільки — JavaScript-код?
 
   - key: usage.css_usage_type
     t: Використання CSS
@@ -1106,7 +1106,7 @@ translations:
   - key: resources.podcasts_css
     aliasFor: resources.podcasts
   - key: resources.podcasts_css.description
-    t: Які подкасти щодо CSS ви слухаєте?
+    t: Які подкасти про CSS ви слухаєте?
 
   # people
   - key: resources.people_css.others
