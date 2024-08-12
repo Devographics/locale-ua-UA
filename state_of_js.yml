@@ -179,7 +179,7 @@ translations:
   - key: options.js_pain_points.architecture
     t: Архітектура коду
   - key: options.js_pain_points.architecture.description
-    t: Організація та підтримка вашої кодової бази.
+    t: Організація та підтримування вашої кодової бази.
   - key: options.js_pain_points.finding_packages
     t: Пошук пакетів
   - key: options.js_pain_points.finding_packages.description
@@ -259,7 +259,7 @@ translations:
   - key: options.top_js_pain_points.typing
     t: Типізація
   - key: options.top_js_pain_points.typing.description
-    t: Управління та підтримка типів
+    t: Управління та підтримування типів
 
   - key: options.top_js_pain_points.typescript
     t: TypeScript
@@ -818,7 +818,7 @@ translations:
   - key: tools_others.libraries
     t: Бібліотеки
   - key: tools_others.libraries.question
-    t: Які бібліотеки ви постійно використовуєте?
+    t: Які бібліотеки ви регулярно використовуєте?
   - key: tools_others.libraries.others
     t: Інші бібліотеки
   - key: tools_others.libraries.others.description
@@ -827,7 +827,7 @@ translations:
   - key: tools_others.text_editors
     t: Редактори коду
   - key: tools_others.text_editors.question
-    t: Які редактори коду ви постійно використовуєте?
+    t: Які редактори коду ви регулярно використовуєте?
   - key: tools_others.text_editors.others
     t: Інші редактори коду
   - key: tools_others.text_editors.others.description
@@ -836,7 +836,7 @@ translations:
   - key: tools_others.utilities
     t: Інструменти
   - key: tools_others.utilities.question
-    t: Які допоміжні програми чи інструменти ви часто використовуєте?
+    t: Які допоміжні програми чи інструменти ви регулярно використовуєте?
   - key: tools_others.utilities.others
     t: Інші інструменти
   - key: tools_others.utilities.others.description
@@ -845,7 +845,7 @@ translations:
   - key: tools_others.browsers
     t: Браузери
   - key: tools_others.browsers.question
-    t: У якому браузері ви переважно працюєте під час розробки?
+    t: У якому браузері ви переважно працюєте під час початку розробки?
   - key: tools_others.browsers.others
     t: Інші браузери
   - key: tools_others.browsers.others.description
@@ -1074,7 +1074,7 @@ translations:
   - key: other_tools.ai_tools
     t: ШІ-інструменти
   - key: other_tools.ai_tools.question
-    t: Які з цих ШІ-інструментів ви постійно використовуєте для допомоги у написанні коду?
+    t: Які з цих ШІ-інструментів ви регулярно використовуєте для допомоги у написанні коду?
 
   - key: other_tools.hosting
     t: Сервіси для хостингу
@@ -1107,7 +1107,7 @@ translations:
   - key: tools_others.edge_runtimes
     t: Периферійне/безсерверне середовище виконання JavaScript
   - key: tools_others.edge_runtimes.question
-    t: Які середовища виконання ви постійно використовуєте для периферійних або безсерверних обчислень?
+    t: Які середовища виконання ви регулярно використовуєте для периферійних або безсерверних обчислень?
   - key: tools_others.edge_runtimes.others
     t: Інші периферійні середовища виконання
   - key: other_tools.edge_runtimes
