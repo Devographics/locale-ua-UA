@@ -5,32 +5,32 @@ translations:
   ###########################################################################
 
   - key: general.results.description
-    t: The 2024 edition of the annual survey about the latest trends in the CSS ecosystem.
+    t: Щорічне опитування про останні тенденції в екосистемі CSS за 2024 рік.
 
   - key: general.css2024.survey_intro
     t: |
 
-      It's amazing to witness the speed at which CSS keeps evolving. While the past decade has been all about building a solid foundation for layout (Flexbox, Grid) and syntax (variables) the future promises to be about going much further than most of us ever dreamed of. 
+      Дивовижно спостерігати за швидкістю, з якою CSS продовжує розвиватися. Незважаючи на те, що останнє десятиліття було присвячене створенню міцного фундаменту для компонування (флексбокс, сітка) і синтаксису (змінні), майбутнє обіцяє піти набагато далі, ніж більшість із нас коли-небудь мріяла.
 
-      Want to calculate a square root or cosine in your CSS? Use that to build scroll-triggered animations? And maybe scope all of it down so it doesn't have any unwanted effects? Now you can do all that, and much more!
+      Хочете обчислити квадратний корінь або косинус у своєму CSS? Використовувати це для створення анімації, що запускається гортанням? І, можливо, помістити все це в окрему область видимості, щоб не було небажаних ефектів? Тепер ви можете все це та більше!
 
-      Which is why this survey is more important than ever, not just as a way to keep track of your own progress; but also as a tool to let browser vendors know what we all think about this new direction.
+      Ось чому це опитування важливіше, ніж будь-коли — не лише як спосіб стежити за власним прогресом, а й як інструмент, щоб розповісти постачальникам браузерів, що ми всі думаємо про цей новий напрям.
 
-      So once again, please join me for this year's State of CSS!
+      Тож ще раз, будь ласка, приєднуйтеся до цьогорічного "Стану CSS"!
 
   - key: features.features_intro_css2024
     t: |
-      Welcome to the survey! This first part is all about sharing your experience with various CSS features:
+      Ласкаво просимо до опитування! Ця перша частина присвячена тому, щоб поділитися своїм досвідом використання різноманітних функцій CSS:
 
 
-      - **Never heard of it**: it's your first time seeing this – or you've heard of it but have no idea what it does. 
+      - **Вперше чую**: ви це бачите вперше — або чули, але не знаєте, як це працює. 
 
-      - **Heard of it**: you've read or learned about this, but haven't actually used it yet. 
+      - **Чув(-ла) про це**: ви читали або знаєте про це, але насправді ще не користувалися. 
 
-      - **Used it**: you've used this at least once, even if it was just to play around. 
+      - **Використовував(-ла)**: ви використовували це принаймні один раз, навіть якщо лише гралися. 
 
 
-      By the way, if you want to tell us more about any of your choices, just click that little "comment" icon!
+      До речі, якщо ви бажаєте розповісти нам більше про будь-який із ваших виборів, просто натисніть на маленьку іконку "коментар"!
 
   ###########################################################################
   # Introduction
@@ -53,38 +53,38 @@ translations:
   ###########################################################################
 
   - key: sections.tshirt.title
-    t: T-shirt
+    t: Футболка
 
   - key: sections.tshirt.description
     t: |
-      ## Support the Survey With the State of CSS T-Shirt
+      ## Підтримайте опитування за допомогою футболки "Стан JS"
 
-      Between the bad video quality, the bulky cassettes, and having to rewind, there's not much to miss about the VHS era. But one thing we *do* miss are the amazing 90s visuals that used to adorn blank VHS tapes. 
+      Погана якість відео, громіздкі касети та необхідність перемотування назад — здається, ніхто не сумує за чимось з епохи VHS. Але нам *все-таки* не вистачає одного — дивовижних зображень 90-х, які раніше прикрашали порожні VHS-касети.
 
-      But now, thanks to the talented Christopher Kirk-Nielsen you can enjoy all this retro radness while also celebrating your love for CSS at the same time!
+      І тепер завдяки талановитому Christopher Kirk-Nielsen ви можете насолоджуватися добірним ретро, водночас відзначаючи свою любов до CSS!
 
   - key: tshirt.about
-    t: About the T-shirt
+    t: Про футболку
 
   - key: tshirt.description
     t: |
-      We use a high-quality, super-soft tri-blend shirt with a slim fit printed by our partners at Cotton Bureau.
+      Ми використовуємо високоякісну, надм'яку футболку приталеного крою із тканини з трьох типів волокна (tri-blend), надруковану нашими партнерами з Cotton Bureau.
 
   - key: tshirt.getit
-    t: Get It
+    t: Отримати
 
   - key: tshirt.price
-    t: USD $29 + shipping
+    t: USD $32 + доставляння
 
   - key: tshirt.designer.heading
-    t: About the Designer
+    t: Про дизайнера
 
   - key: tshirt.designer.name
     t: Christopher Kirk-Nielsen
 
   - key: tshirt.designer.bio
     t: |
-      Originally from France but now based in the United States, Chris is not just an amazing front-end developer, but also a talented illustrator who specializes in retro visuals. In fact, we encourage you to also check out his [other t-shirt designs](https://chriskirknielsen.com/designs)!
+      Chris родом із Франції, але тепер проживає у Сполучених Штатах; він не лише чудовий розробник клієнтської частини, а й талановитий ілюстратор, який спеціалізується на зображеннях у стилі ретро. Ми радимо вам переглянути [інші дизайни його футболок](https://chriskirknielsen.com/designs)!
 
   ###########################################################################
   # Sections Introductions
@@ -227,9 +227,9 @@ translations:
   ###########################################################################
 
   - key: picks.my_pick
-    t: "My 2023 Pick: "
+    t: "Мій вибір 2024: "
   - key: picks.intro
-    t: We asked members of the CSS community to share their “pick of the year”
+    t: Ми покликали спільноту CSS поділитися своїм "вибором року"
 
   # - key: picks.david_east.name
   #   t: CSS Subgrid
@@ -447,7 +447,7 @@ translations:
   ###########################################################################
 
   - key: quiz.quiz_dave_shea
-    t: "Question 01"
+    t: "Питання 01"
   - key: quiz.quiz_dave_shea.question
     t: >
       In May 2003, Dave Shea launched a site that showcased CSS's flexibility and adaptability. What was that site's name?
@@ -464,7 +464,7 @@ translations:
     aliasFor: quiz.quiz_dave_shea.question
 
   - key: quiz.quiz_css_spec
-    t: "Question 02"
+    t: "Питання 02"
   - key: quiz.quiz_css_spec.question
     t: >
       Which of these organizations maintains the CSS specification?
@@ -485,7 +485,7 @@ translations:
   ###########################################################################
 
   - key: sponsors.frontendmasters.description
-    t: Advance your skills with in-depth, modern front-end engineering courses.
+    t: Вдосконалюйте свої навички за допомогою поглиблених сучасних курсів про інженерію клієнтської частини.
   - key: sponsors.polypane.description
     t: The browser for ambitious devs. Build responsive, accessible and fast websites with ease.
   - key: sponsors.nijibox.description
@@ -493,34 +493,34 @@ translations:
   - key: sponsors.renderatl.description
     t: The largest tech conference with a dedicated Design & CSS track.
   - key: sponsors.google_chrome.description
-    t: Thanks to the Google Chrome team for supporting our work.
+    t: Дякуємо команді Google Chrome за підтримку нашої роботи.
 
   ###########################################################################
   # FAQ/About
   ###########################################################################
 
   - key: faq.how_long_will_survey_take_css2024
-    t: How long will answering the survey take?
+    t: Скільки часу займе опитування?
   - key: faq.how_long_will_survey_take_css2024.description
     t: >
-      Depending on how many questions you answer (all questions can be skipped),
-      filling out the survey should take around 15-20 minutes.
+      Залежно від того, на скільки питань ви відповісте (всі питання не обов'язкові), 
+      заповнення анкети займе орієнтовно 15-20 хвилин.
 
   - key: faq.learn_more_css2024
-    t: Where can I learn more?
+    t: Де я можу дізнатися більше?
   - key: faq.learn_more_css2024.description
-    t: You can learn more about this survey in [our announcement post](https://dev.to/sachagreif/the-2024-state-of-css-survey-is-now-open-1bjj).
+    t: Ви можете дізнатися більше про це опитування у [нашому анонсі](https://dev.to/sachagreif/the-2024-state-of-css-survey-is-now-open-4o5h).
 
   - key: faq.survey_design_css2024
-    t: How was this survey designed?
+    t: Як було розроблено це опитування?
   - key: faq.survey_design_css2024.description
     t: >
-      This survey was designed as the results of an [open design process](https://github.com/Devographics/surveys/issues/245) involving browser vendors and the web development community.
+      Опитування було розроблено унаслідок [відкритого процесу розробки](https://github.com/Devographics/surveys/issues/245) із залученням постачальників браузерів і спільноти веброзробки.
 
   - key: faq.results_released_css2024
-    t: When will the results be released?
+    t: Коли будуть опубліковані результати?
   - key: faq.results_released_css2024.description
-    t: The survey will run from August 17 to September 7, 2024, and the survey results will be released shortly after.
+    t: Опитування триватиме із 17 серпня до 7 вересня 2024 року, і його результати будуть опубліковані незабаром після завершення.
 
   - key: about.content
     t: >
