@@ -1076,21 +1076,21 @@ translations:
 
   # design_methodology
   - key: usage.design_methodology
-    t: Design Methodology
+    t: Дизайн-методологія
   - key: usage.design_methodology
-    t: Which of these best describes how you primarily design with CSS?
+    t: Що з цього найкраще описує, як ви здебільшого проєктуєте за допомогою CSS?
   - key: options.design_methodology.implement_other_peoples_designs
-    t: I implement other people's designs
+    t: Реалізую дизайни інших
   - key: options.design_methodology.design_in_design_apps
-    t: I create my own designs in design apps, and then implement them in CSS
+    t: Створюю власні дизайни у відповідних програмах, а потім реалізую їх у CSS
   - key: options.design_methodology.design_in_css
-    t: I implement my own designs directly in CSS
+    t: Реалізую власні дизайни безпосередньо в CSS
 
   # favorite_new_feature
   - key: usage.favorite_new_features
-    t: Favorite New Feature
+    t: Улюблена нова функція
   - key: usage.favorite_new_features.question
-    t: What are your favorite new CSS features that you started using this year?
+    t: Які ваші улюблені нові функції CSS ви почали використовувати цього року?
 
   ###########################################################################
   # Resources
