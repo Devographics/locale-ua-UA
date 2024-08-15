@@ -1074,6 +1074,24 @@ translations:
   - key: usage.css_usage_type.others
     t: Інші варіанти використання CSS
 
+  # design_methodology
+  - key: usage.design_methodology
+    t: Дизайн-методологія
+  - key: usage.design_methodology
+    t: Що з цього найкраще описує, як ви здебільшого проєктуєте за допомогою CSS?
+  - key: options.design_methodology.implement_other_peoples_designs
+    t: Реалізую дизайни інших
+  - key: options.design_methodology.design_in_design_apps
+    t: Створюю власні дизайни у відповідних програмах, а потім реалізую їх у CSS
+  - key: options.design_methodology.design_in_css
+    t: Реалізую власні дизайни безпосередньо в CSS
+
+  # favorite_new_feature
+  - key: usage.favorite_new_features
+    t: Улюблена нова функція
+  - key: usage.favorite_new_features.question
+    t: Які ваші улюблені нові функції CSS ви почали використовувати цього року?
+
   ###########################################################################
   # Resources
   ###########################################################################
