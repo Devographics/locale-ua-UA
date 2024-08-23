@@ -62,6 +62,7 @@
 |How was this survey designed?|Як було розроблено це опитування?|
 |How will this data be used?|Як ці дані будуть використані?|
 |What are the survey's goals?|Яка мета цього опитування?|
+|When will the results be released?|Коли будуть опубліковані результати?|
 |Where can I learn more?|Де я можу дізнатися більше?|
 |Who should take this survey?|Хто може взяти участь у цьому опитуванні?|
 
