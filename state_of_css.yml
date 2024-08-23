@@ -711,7 +711,7 @@ translations:
     t: Фреймворки або бібліотеки з заготованими компонентами чи стилями.
 
   - key: tools.css_in_js
-    aliasFor: sections.css_in_js.title
+    t: CSS-in-JS
   - key: tools.css_in_js.question
     t: Які бібліотеки CSS-in-JS ви використовуєте?
 
@@ -1077,7 +1077,7 @@ translations:
   # design_methodology
   - key: usage.design_methodology
     t: Дизайн-методологія
-  - key: usage.design_methodology
+  - key: usage.design_methodology.question
     t: Що з цього найкраще описує, як ви здебільшого проєктуєте за допомогою CSS?
   - key: options.design_methodology.implement_other_peoples_designs
     t: Реалізую дизайни інших

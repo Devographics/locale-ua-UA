@@ -1008,7 +1008,7 @@ translations:
   - key: options.industry_sector.art
     t: Мистецтво
   - key: options.industry_sector.crypto
-    t: Криптоіндустрія
+    t: Блокчейн/Криптовалютна індустрія
   - key: options.industry_sector.aerospace
     t: Аерокосмічна діяльність
   - key: options.industry_sector.web3
@@ -1749,7 +1749,7 @@ translations:
   - key: followups.sentiment_not_interested
     t: Не цікаво
   - key: followups.sentiment_positive_experience
-    t: Буду ще використовувати
+    t: Позитивний досвід
   - key: followups.sentiment_negative_experience
     t: Негативний досвід
 
