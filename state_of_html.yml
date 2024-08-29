@@ -199,11 +199,11 @@ translations:
   - key: features.interactivity_techniques.question
     t: Які з наведених методів ви використовували для додавання інтерактивності або динамічної зміни HTML-коду?
   - key: options.interactivity_techniques.css_for_interactivity
-    t: CSS для інтерактивності (toggles, tabs, etc.)
+    t: CSS для інтерактивності (перемикачі, вкладки тощо)
   - key: options.interactivity_techniques.js_dom_libraries
-    t: JavaScript-бібліотеки для DOM (jQuery, etc.)
+    t: JavaScript-бібліотеки для DOM (jQuery тощо)
   - key: options.interactivity_techniques.js_framework
-    t: JavaScript-фреймворки (React, Vue, etc.)
+    t: JavaScript-фреймворки (React, Vue тощо)
   - key: options.interactivity_techniques.vanilla_js
     t: Лише JavaScript (без фреймворків чи бібліотек)
   - key: options.interactivity_techniques.web_components
@@ -214,36 +214,36 @@ translations:
   # content
 
   - key: features.machine_readable_features
-    t: Machine-Readable Data
+    t: Машиночитні дані
   - key: features.machine_readable_features.question
-    t: Which of the following have you used to include machine-readable data in HTML?
+    t: Що з наведеного ви використовували для включення машиночитних даних у HTML?
   - key: options.machine_readable_features.rdfa.description
     t: |
-      `property`, `typeof`, etc.
+      `property`, `typeof` тощо
   - key: options.machine_readable_features.json_ld.description
     t: |
       `<script type="application/ld+json">`
   - key: options.machine_readable_features.microdata.description
     t: |
-      `itemprop`, `itemscope`, etc.
+      `itemprop`, `itemscope` тощо
 
   - key: features.multiple_languages_support
-    t: Multiple-Language Support
+    t: Підтримування багатьох мов
   - key: features.multiple_languages_support.question
-    t: How often do you work on projects that require supporting more than one language?
+    t: Як часто ви працюєте над проєктами, які потребують підтримування кількох мов?
   - key: options.multiple_languages_support.never
-    t: Never
+    t: Ніколи
   - key: options.multiple_languages_support.infrequently
-    t: Infrequently (less than once a year)
+    t: Рідко (рідше одного разу на рік)
   - key: options.multiple_languages_support.frequently
-    t: Frequently (more than once a year)
+    t: Часто (частіше одного разу на рік)
   - key: options.multiple_languages_support.all_the_time
-    t: All the time
+    t: Постійно
 
   - key: features.i18n_features
-    t: Internationalization Features
+    t: Функції інтернаціоналізації
   - key: features.i18n_features.question
-    t: Which of the following internationalization features have you used?
+    t: Які з наведених функцій інтернаціоналізації ви використовували?
   - key: options.i18n_features.na
     t: <span aria-hidden="true">🚫</span> Нічого з вищевказаного
 
@@ -272,8 +272,8 @@ translations:
     t: Які проблеми керуванням наповненням у HTML найбільше вас розчаровують?
   - key: features.content_pain_points.prompt
     t: |
-      Think of embedding (multimedia, iframes, SVG, etc), machine-readable data, internationalization & localization, security & privacy, performance etc.
-      Missing features, browser incompatibilities, and other problems you face are all fair game.
+      Подумайте про вбудовувані елементи (мультимедіа, елементи iframe, SVG тощо), машиночитні дані, інтернаціоналізацію та локалізацію, безпеку та приватність, продуктивність тощо.
+      Пишіть усе, що вас турбує: відсутні функції, несумісність між браузерами та інші проблеми.
   - key: features.content_pain_points.placeholder
     t: |
       Проблема #{index}…
@@ -281,26 +281,26 @@ translations:
   # Content
 
   - key: features.external_content_elements
-    t: External Content Elements
+    t: Елементи наповнення сайту ззовні
   - key: features.external_content_elements.question
-    t: Which of the following elements have you used?
+    t: Які з наведених елементів ви використовували?
   - key: options.external_content_elements.na
     t: <span aria-hidden="true">🚫</span> Нічого з вищевказаного
 
   - key: features.privacy_security_features
     t: |
-      Security & Privacy Features
+      Функції безпеки та приватності
   - key: features.privacy_security_features.question
     t: |
-      Which of the following security & privacy features have you used?
+      Які з наведених функції безпеки та приватності ви використовували?
   - key: options.privacy_security_features.na
     t: <span aria-hidden="true">🚫</span> Нічого з вищевказаного
 
   - key: features.rel_attribute
-    t: Resource Hints
+    t: Підказки зв'язку ресурсу
   - key: features.rel_attribute.question
     t: |
-      Which of these values have you used for the `rel` attribute of `<link>` ?
+      Яке з цих значень ви використовували для атрибута rel елемента <link>?
 
   # - key: features.external_content_pain_points
   #   t: External Content Pain Points
@@ -428,126 +428,126 @@ translations:
 
   - key: options.accessibility_techniques.tabindex
     t: |
-      Improving focus order with `tabindex`
+      Покращення порядку фокусування за допомогою `tabindex`
   - key: options.accessibility_techniques.tabindex.description
     t: |
-      Roving `tabindex`, `tabindex="0"` to enable focus, etc.
+      Переміщення `tabindex`, `tabindex="0"` для задання фокуса елементу тощо.
   - key: options.accessibility_techniques.keyboard_navigation
-    t: Intuitive keyboard navigation
+    t: Інтуїтивна навігація за допомогою клавіатури
   - key: options.accessibility_techniques.keyboard_navigation.description
-    t: Other than tab order.
+    t: Окрім порядку за допомогою клавіші tab.
   - key: options.accessibility_techniques.aria_attributes
-    t: ARIA attributes
+    t: Атрибути ARIA
   - key: options.accessibility_techniques.aria_attributes.description
     t: |
-      `role` and `aria-*` attributes
+      Атрибути `role` та `aria-*`
   - key: options.accessibility_techniques.descriptive_alt_text
     t: |
-      Descriptive `alt` text
+      Описовий `alt`-текст
   - key: options.accessibility_techniques.descriptive_alt_text.description
-    t: Providing alt text that describes the purpose or content of an image.
+    t: Надання альтернативного тексту, який описує мету або зміст зображення.
   - key: options.accessibility_techniques.skip_to_content
-    t: Skip-to-content link
+    t: Посилання для переходу до вмісту
   - key: options.accessibility_techniques.skip_to_content.description
-    t: Letting users skip straight to the main content of a page.
+    t: Можливість переходити безпосередньо до основного вмісту сторінки.
   - key: options.accessibility_techniques.fieldset_and_legend
     t: |
-      `<fieldset>` and `<legend>`
+      `<fieldset>` та `<legend>`
   - key: options.accessibility_techniques.fieldset_and_legend.description
     t: |
-      Using `<fieldset>` and `<legend>`  to group related form elements.
+      Використання `<fieldset>` і `<legend>` для групування пов'язаних елементів форми.
   - key: options.accessibility_techniques.headings_hierarchy
-    t: Information Hierarchy
+    t: Ієрархія інформації
   - key: options.accessibility_techniques.headings_hierarchy.description
     t: |
-      Using headings (`<h1>` - `<h6>`) that correctly represent a page's information hierarchy.
+      Використання заголовків (`<h1>` - `<h6>`), які правильно відображають ієрархію інформації на сторінці.
   - key: options.accessibility_techniques.meaningful_link_text
-    t: Meaningful Link Text
+    t: Змістовний текст посилання
   - key: options.accessibility_techniques.meaningful_link_text.description
-    t: Ensuring that link text makes sense out of context
+    t: Забезпечення того, що текст посилання є зрозумілим поза контекстом.
   - key: options.accessibility_techniques.form_control_label
-    t: Form Control Labels
+    t: Мітки для елементів керування формою
   - key: options.accessibility_techniques.form_control_label.description
     t: |
-      Ensuring every form control has a `<label>` (or `aria-label`, etc.).
+      Забезпечення того, що кожен елемент керування формою має відповідну мітку `<label>` (або `aria-label` тощо).
   - key: options.accessibility_techniques.visible_focus
-    t: Visible Focus Ring
+    t: Видиме кільце фокусування
   - key: options.accessibility_techniques.visible_focus.description
-    t: Ensuring focus ring outline is clearly visible when needed.
+    t: Забезпечення за необхідності чіткої видимості для контуру кільця фокусування.
   - key: options.accessibility_techniques.pointer_alternative
-    t: Not Relying on Pointer Only
+    t: Непокладання лише на вказівний пристрій
   - key: options.accessibility_techniques.pointer_alternative.description
-    t: Ensuring pointer interactions (e.g. hover) have a keyboard alternative.
+    t: Забезпечення того, що вказівні взаємодії (наприклад, наведення) мають альтернативу, доступну за допомогою клавіатури.
   - key: options.accessibility_techniques.good_color_contrast
-    t: Sufficient Contrast
+    t: Достатній контраст
   - key: options.accessibility_techniques.good_color_contrast.description
-    t: Using contrast checkers to ensure sufficient color contrast.
+    t: Використання програм перевірки контрасту для забезпечення достатнього контрасту кольорів.
   - key: options.accessibility_techniques.color_alternative
-    t: Not Relying on Color Only
+    t: Непокладання лише на колір
   - key: options.accessibility_techniques.color_alternative.description
-    t: Ensuring that no information is conveyed by color alone.
+    t: Забезпечення того, що жодна інформація не передається лише кольором.
   - key: options.accessibility_techniques.prefers_reduced_motion
     t: |
       Медіазапит `prefers-reduced-motion`
   - key: options.accessibility_techniques.prefers_reduced_motion.description
-    t: Providing alternative CSS for users who prefer reduced motion.
+    t: Надання альтернативного CSS для користувачів, які віддають перевагу зниженому руху на екрані.
   - key: options.accessibility_techniques.prefers_contrast
     t: |
       Медіазапит `prefers-contrast`
   - key: options.accessibility_techniques.prefers_contrast.description
-    t: Providing alternative CSS for users who prefer increased contrast.
+    t: Надання альтернативного CSS для користувачів, які віддають перевагу підвищеному контрасту.
 
   # PWAs
 
   - key: features.pwa_features
-    t: PWA Features
+    t: Функції PWA
   - key: features.pwa_features.question
-    t: Have you used any of the following PWA technologies/APIs?
+    t: Чи ви використовували будь-які з наведених технологій чи API для PWA?
   - key: options.pwa_features.na
     t: <span aria-hidden="true">🚫</span> Нічого з вищевказаного
 
   - key: features.local_storage_features
-    t: Local storage features
+    t: Функції локального сховища
   - key: features.local_storage_features.question
-    t: Have you used any of the following to store data client-side?
+    t: Чи ви використовували щось з наведеного для зберігання даних у клієнтській частині?
   - key: options.local_storage_features.na
     t: <span aria-hidden="true">🚫</span> Нічого з вищевказаного
 
   - key: features.pwa_app_manifest_fields
-    t: App Manifest Fields
+    t: Поля в маніфесті застосунку
   - key: features.pwa_app_manifest_fields.question
     t: |
-      Which of these app manifest fields (`<link rel="manifest">`) have you used, if any?
+      Яке з цих полів маніфесту застосунку (`<link rel="manifest">`) ви використовували?
 
   - key: features.native_apps_tools
-    t: Native Apps Tools
+    t: Інструменти для нативних застосунків
   - key: features.native_apps_tools.question
-    t: Have you used any of these tools to build native apps?
+    t: Чи ви використовували будь-який із цих інструментів для створення нативних застосунків?
   - key: features.native_apps_tools.description
-    t: Excluding scripts, command-line apps, server-side code, etc.
+    t: За винятком сценаріїв, програм для командного рядка, серверного коду тощо.
   - key: options.native_apps_tools.na
-    t: <span aria-hidden="true">🚫</span> I haven't developed native apps
+    t: <span aria-hidden="true">🚫</span> Я не розробляв(-ла) нативні застосунки
   - key: options.native_apps_tools.native_languages
-    t: Native technologies
+    t: Нативні технології
   - key: options.native_apps_tools.native_languages.description
-    t: Objective-C, Swift, Kotlin, .NET, etc.
+    t: Objective-C, Swift, Kotlin, .NET тощо
   - key: options.native_apps_tools.webviews
-    t: Web app loaded via Webviews
+    t: Вебзастосунки, завантажені через Webview
   - key: options.native_apps_tools.js_frameworks
-    t: JavaScript-based frameworks
+    t: Фреймворки на основі JavaScript
   - key: options.native_apps_tools.js_frameworks.description
-    t: React Native, Ionic, Electron, etc.
+    t: React Native, Ionic, Electron тощо
   - key: options.native_apps_tools.other_frameworks
-    t: Non-JavaScript frameworks
+    t: Фреймворки НЕ на основі JavaScript
   - key: options.native_apps_tools.other_frameworks.description
-    t: Tauri, Flutter, etc.
+    t: Tauri, Flutter тощо
 
   - key: features.mobile_web_apps_pain_points
     t: Проблеми вебзастосунків, що схожі на нативні
   - key: features.mobile_web_apps_pain_points.question
     t: Які проблеми створення вебзастосунків, що мають відчуватися нативно, найбільше вас розчаровують?
   - key: features.mobile_web_apps_pain_points.description
-    t: Capabilities the Web Platform doesn't yet have, browser differences in related APIs, etc.
+    t: Можливості, яких ще немає у вебплатформи, відмінності між браузерами у пов'язаних API тощо.
   - key: features.mobile_web_apps_pain_points.placeholder
     t: |
       Проблема #{index}
@@ -555,14 +555,14 @@ translations:
   # Other Tools
 
   - key: other_tools.site_generators
-    t: Site Generators
+    t: Генератори сайтів
   - key: other_tools.site_generators.question
-    t: Which of these static or dynamic site generators do you regularly use?
+    t: Які з цих генераторів статичних або динамічних сайтів ви регулярно використовуєте?
 
   - key: other_tools.ai_tools
-    t: AI Tools
+    t: ШІ-інструменти
   - key: other_tools.ai_tools.question
-    t: Which of these AI tools do you regularly use to help you write code?
+    t: Які з цих ШІ-інструментів ви регулярно використовуєте для допомоги у написанні коду?
 
   - key: other_tools.machine_readable_features
     aliasFor: features.machine_readable_features
@@ -573,11 +573,11 @@ translations:
     t: <span aria-hidden="true">🚫</span> Нічого з вищевказаного
 
   - key: other_tools.blast_from_the_past
-    t: Blast from the Past!
+    t: Приліт із минулого!
   - key: other_tools.blast_from_the_past.question
-    t: Have you ever used any of the following old-school elements?
+    t: Ви коли-небудь використовували будь-який із наведених елементів "старої школи"?
   - key: other_tools.blast_from_the_past.description
-    t: Blast from the past!
+    t: Приліт із минулого!
   - key: options.blast_from_the_past.na
     t: <span aria-hidden="true">🚫</span> Нічого з вищевказаного
 
@@ -595,23 +595,23 @@ translations:
   #     ﹤foo type="bar"﹥ (browser incompatibilities, styling limitations, doesn't do X)
 
   - key: usage.html_interoperability_features
-    t: Browser Interoperability
+    t: Сумісність між браузерами
   - key: usage.html_interoperability_features.question
-    t: Which existing HTML features or browser APIs are you unable to use because of browser differences or lack of support?
+    t: Якими наявними функціями HTML або API браузера ви не можете користуватися через відмінності між браузерами або відсутність підтримування?
   # - key: usage.html_interoperability_features.description
   #   t: |
   #     Any type of API the survey has asked about is within scope.
   - key: usage.html_interoperability_features.placeholder
     t: |
-      Feature #{index}
+      Функція #{index}
 
   - key: usage.html_functionality_features
-    t: Limited Functionality
+    t: Обмежена функціональність
   - key: usage.html_functionality_features.question
-    t: Which existing HTML features or browser APIs are you unable to use for other reasons (and why)?
+    t: Якими наявними функціями HTML або API браузера ви не можете користуватися з інших причин (і чому)?
   - key: usage.html_functionality_features.description
     t: |
-      Existing HTML features that you often have to recreate or augment using JS.
+      Наявні функції HTML, які вам часто доводиться відтворювати або доповнювати за допомогою JS.
   # - key: usage.html_functionality_features.description
   #   t: |
   #     Existing HTML features that you often have to recreate or augment using JS.
@@ -620,10 +620,10 @@ translations:
 
   - key: usage.html_functionality_features.placeholder.1
     t: |
-      Feature #1 (hard to style)
+      Функція #1 (важко стилізувати)
   - key: usage.html_functionality_features.placeholder.2
     t: |
-      Feature #2 (limited functionality, poor accessibility)
+      Функція #2 (обмежена функціональність, погана доступність)
 
   - key: usage.what_do_you_use_html_for
     t: HTML Usage
@@ -647,33 +647,33 @@ translations:
     aliasFor: options.what_do_you_use_css_for.web_apps
 
   - key: usage.tools_for_other_developers
-    t: Ecosystem Impact
+    t: Вплив на екосистему
   - key: usage.tools_for_other_developers.question
-    t: Other than yourself, how many developers use the libraries, packages, components, APIs etc. that you create or maintain?
+    t: Скільки розробників, окрім вас, використовують бібліотеки, пакети, компоненти, API тощо, які ви створюєте чи підтримуєте?
   - key: usage.tools_for_other_developers.description
     t: |
-      Total, if you work on multiple projects that are used by other developers.
-      If you’re not sure, pick the closest to your best estimate.
-      For open source code, npm downloads might offer a useful data point.
+      Загалом, якщо ви працюєте над кількома проєктами, які використовують інші розробники.
+      Якщо ви не впевнені, виберіть найближчий варіант до вашої найкращої оцінки.
+      Завантаження в npm можуть стати в пригоді для проєктів із відкритим вихідним кодом.
   - key: options.tools_for_other_developers.na
-    t: 🚫 None (Just me)
+    t: 🚫 Ніхто (Тільки я)
   - key: options.tools_for_other_developers.a_few
-    t: A few other developers (e.g. developers within a small team)
+    t: Кілька інших розробників (наприклад, розробники в невеликій команді)
   - key: options.tools_for_other_developers.less_than_100
-    t: Less than a hundred developers
+    t: Менше сотні розробників
   - key: options.tools_for_other_developers.less_than_1000
-    t: Less than a thousand developers
+    t: Менше тисячі розробників
   - key: options.tools_for_other_developers.more_than_100
-    t: Hundreds of developers
+    t: Сотні розробників
   - key: options.tools_for_other_developers.more_than_1000
-    t: Thousands of developers
+    t: Тисячі розробників
   - key: options.tools_for_other_developers.more_than_1000000
-    t: Millions of developers
+    t: Мільйони розробників
 
   - key: usage.html_missing_elements
     t: Відсутні елементи
   - key: usage.html_missing_elements.question
-    t: Якби ви могли додати 3 елементи до HTML, якими б вони були?
+    t: Якби ви могли додати 3 елементи до HTML, що б це було?
   # - key: usage.html_missing_elements.description
   #   t: |
   #     If you use any component technologies, the components you find yourself reusing across multiple projects could be good candidates.
@@ -683,7 +683,7 @@ translations:
   - key: options.html_missing_elements.accordion
     t: Accordion
   - key: options.html_missing_elements.alert
-    t: Alert
+    t: Оповіщення
   - key: options.html_missing_elements.calendar
     t: Календар
   - key: options.html_missing_elements.carousel
@@ -699,7 +699,7 @@ translations:
   - key: options.html_missing_elements.datatable.description
     t: Таблиця для даних із сортуванням, фільтруванням тощо.
   - key: options.html_missing_elements.dropdown_menu
-    t: Dropdown Menu
+    t: Випадне меню
   - key: options.html_missing_elements.image_zoom
     t: Масштабування зображення (Image Zoom)
   - key: options.html_missing_elements.progress_bar
@@ -725,7 +725,7 @@ translations:
   - key: options.html_missing_elements.icon
     t: Іконка
   - key: options.html_missing_elements.star_rating
-    t: Star Rating
+    t: Оцінювання зірочками
 
   - key: usage.html_pain_points_freeform
     t: Інші проблеми
@@ -818,19 +818,19 @@ translations:
     t: ARIA
 
   - key: features.rh_preconnect
-    t: "Resource Hints: preconnect (`<link rel=preconnect>`)"
+    t: "Підказки зв'язку ресурсу: preconnect (`<link rel=preconnect>`)"
 
   - key: features.rh_prerender
-    t: "Resource Hints: prerender (`<link rel=prerender>`)"
+    t: "Підказки зв'язку ресурсу: prerender (`<link rel=prerender>`)"
 
   - key: features.rh_preload
-    t: "Resource Hints: preload (`<link rel=preload>`)"
+    t: "Підказки зв'язку ресурсу: preload (`<link rel=preload>`)"
 
   - key: features.resource_hints
-    t: Resource Hints (all)
+    t: Підказки зв'язку ресурсу (усі)
 
   - key: features.rh_prefetch
-    t: "Resource Hints: prefetch (`<link rel=prefetch>`)"
+    t: "Підказки зв'язку ресурсу: prefetch (`<link rel=prefetch>`)"
 
   - key: features.declarative_shadow
     t: Декларативний Shadow DOM (`<template shadowrootmode="open">`)
