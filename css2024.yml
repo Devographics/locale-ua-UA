@@ -4,6 +4,12 @@ translations:
   # General
   ###########################################################################
 
+  - key: features.discrete_properties_animations
+    t: foobar
+
+  - key: features.discrete_properties_animations.description
+    t: baz123
+
   - key: general.results.description
     t: Щорічне опитування про останні тенденції в екосистемі CSS за 2024 рік.
 
