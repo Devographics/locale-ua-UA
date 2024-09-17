@@ -76,9 +76,9 @@ translations:
     t: Інші HTML-елементи та API браузера.
 
   - key: sections.other_tools.title
-    t: Інші інструменти чи функції
+    t: Інші інструменти
   - key: sections.other_tools.description
-    t: Інші інструменти чи функції, якими ви користуєтеся в роботі.
+    t: Інші інструменти, якими ви користуєтеся в роботі.
 
   - key: sections.usage.title
     t: Використання
@@ -552,197 +552,6 @@ translations:
     t: |
       Проблема #{index}
 
-  # Other Tools
-
-  - key: other_tools.site_generators
-    t: Генератори сайтів
-  - key: other_tools.site_generators.question
-    t: Які з цих генераторів статичних або динамічних сайтів ви регулярно використовуєте?
-
-  - key: other_tools.ai_tools
-    t: ШІ-інструменти
-  - key: other_tools.ai_tools.question
-    t: Які з цих ШІ-інструментів ви регулярно використовуєте для допомоги у написанні коду?
-
-  - key: other_tools.machine_readable_features
-    aliasFor: features.machine_readable_features
-  - key: other_tools.machine_readable_features.question
-    aliasFor: features.machine_readable_features.question
-
-  - key: options.machine_readable_features.na
-    t: <span aria-hidden="true">🚫</span> Нічого з вищевказаного
-
-  - key: other_tools.blast_from_the_past
-    t: Приліт із минулого!
-  - key: other_tools.blast_from_the_past.question
-    t: Ви коли-небудь використовували будь-який із наведених елементів "старої школи"?
-  - key: other_tools.blast_from_the_past.description
-    t: Приліт із минулого!
-  - key: options.blast_from_the_past.na
-    t: <span aria-hidden="true">🚫</span> Нічого з вищевказаного
-
-  # Usage
-
-  # - key: usage.html_existing_features
-  #   t: Unusable HTML Features
-  # - key: usage.html_existing_features.question
-  #   t: Which existing HTML features are you unable to use?
-  # - key: usage.html_existing_features.description
-  #   t: |
-  #     Existing HTML features that you find yourself recreating using custom components.
-  # - key: usage.html_existing_features.placeholder
-  #   t: |
-  #     ﹤foo type="bar"﹥ (browser incompatibilities, styling limitations, doesn't do X)
-
-  - key: usage.html_interoperability_features
-    t: Сумісність між браузерами
-  - key: usage.html_interoperability_features.question
-    t: Якими наявними функціями HTML або API браузера ви не можете користуватися через відмінності між браузерами або відсутність підтримування?
-  # - key: usage.html_interoperability_features.description
-  #   t: |
-  #     Any type of API the survey has asked about is within scope.
-  - key: usage.html_interoperability_features.placeholder
-    t: |
-      Функція #{index}
-
-  - key: usage.html_functionality_features
-    t: Обмежена функціональність
-  - key: usage.html_functionality_features.question
-    t: Якими наявними функціями HTML або API браузера ви не можете користуватися з інших причин (і чому)?
-  - key: usage.html_functionality_features.description
-    t: |
-      Наявні функції HTML, які вам часто доводиться відтворювати або доповнювати за допомогою JS.
-  # - key: usage.html_functionality_features.description
-  #   t: |
-  #     Existing HTML features that you often have to recreate or augment using JS.
-
-  #     Please also specify the reason, such as lack of functionality, difficult styling, poor accessibility, etc.
-
-  - key: usage.html_functionality_features.placeholder.1
-    t: |
-      Функція #1 (важко стилізувати)
-  - key: usage.html_functionality_features.placeholder.2
-    t: |
-      Функція #2 (обмежена функціональність, погана доступність)
-
-  - key: usage.what_do_you_use_html_for
-    t: HTML Usage
-  - key: usage.what_do_you_use_html_for.question
-    t: What do you use HTML for?
-  - key: options.what_do_you_use_html_for.blogs
-    aliasFor: options.what_do_you_use_css_for.blogs
-  - key: options.what_do_you_use_html_for.design_systems
-    aliasFor: options.what_do_you_use_css_for.design_systems
-  - key: options.what_do_you_use_html_for.desktop_apps
-    aliasFor: options.what_do_you_use_css_for.desktop_apps
-  - key: options.what_do_you_use_html_for.emails
-    aliasFor: options.what_do_you_use_css_for.emails
-  - key: options.what_do_you_use_html_for.marketing_sites
-    aliasFor: options.what_do_you_use_css_for.marketing_sites
-  - key: options.what_do_you_use_html_for.mobile_apps
-    aliasFor: options.what_do_you_use_css_for.mobile_apps
-  - key: options.what_do_you_use_html_for.printed_documents
-    aliasFor: options.what_do_you_use_css_for.printed_documents
-  - key: options.what_do_you_use_html_for.web_apps
-    aliasFor: options.what_do_you_use_css_for.web_apps
-
-  - key: usage.tools_for_other_developers
-    t: Вплив на екосистему
-  - key: usage.tools_for_other_developers.question
-    t: Скільки розробників, окрім вас, використовують бібліотеки, пакети, компоненти, API тощо, які ви створюєте чи підтримуєте?
-  - key: usage.tools_for_other_developers.description
-    t: |
-      Загалом, якщо ви працюєте над кількома проєктами, які використовують інші розробники.
-      Якщо ви не впевнені, виберіть найближчий варіант до вашої найкращої оцінки.
-      Завантаження в npm можуть стати в пригоді для проєктів із відкритим вихідним кодом.
-  - key: options.tools_for_other_developers.na
-    t: 🚫 Ніхто (Тільки я)
-  - key: options.tools_for_other_developers.a_few
-    t: Кілька інших розробників (наприклад, розробники в невеликій команді)
-  - key: options.tools_for_other_developers.less_than_100
-    t: Менше сотні розробників
-  - key: options.tools_for_other_developers.less_than_1000
-    t: Менше тисячі розробників
-  - key: options.tools_for_other_developers.more_than_100
-    t: Сотні розробників
-  - key: options.tools_for_other_developers.more_than_1000
-    t: Тисячі розробників
-  - key: options.tools_for_other_developers.more_than_1000000
-    t: Мільйони розробників
-
-  - key: usage.html_missing_elements
-    t: Відсутні елементи
-  - key: usage.html_missing_elements.question
-    t: Якби ви могли додати 3 елементи до HTML, що б це було?
-  # - key: usage.html_missing_elements.description
-  #   t: |
-  #     If you use any component technologies, the components you find yourself reusing across multiple projects could be good candidates.
-
-  #     These could be things like Accordion, Alert, Calendar, Carousel, Combobox/Autocomplete, Context menu, Data Grid, Rating, Tabs, Image Zoom, Switch, Skeleton loading pattern etc.
-
-  - key: options.html_missing_elements.accordion
-    t: Accordion
-  - key: options.html_missing_elements.alert
-    t: Оповіщення
-  - key: options.html_missing_elements.calendar
-    t: Календар
-  - key: options.html_missing_elements.carousel
-    t: Карусель
-  - key: options.html_missing_elements.combobox_autocomplete
-    t: Combobox / Autocomplete
-  - key: options.html_missing_elements.command_palette
-    t: Command Palette
-  - key: options.html_missing_elements.context_menu
-    t: Контекстне меню / Меню, що викликається правою кнопкою
-  - key: options.html_missing_elements.datatable
-    t: Таблиця для даних
-  - key: options.html_missing_elements.datatable.description
-    t: Таблиця для даних із сортуванням, фільтруванням тощо.
-  - key: options.html_missing_elements.dropdown_menu
-    t: Випадне меню
-  - key: options.html_missing_elements.image_zoom
-    t: Масштабування зображення (Image Zoom)
-  - key: options.html_missing_elements.progress_bar
-    t: Індикатор прогресу виконання (Progress Bar)
-  - key: options.html_missing_elements.skeleton_loading_placeholder
-    t: Skeleton UI / Loading Placeholder
-  - key: options.html_missing_elements.switch
-    t: Перемикач (Switch / Toggle)
-  - key: options.html_missing_elements.tabs
-    t: Вкладки
-  # - key: options.html_missing_elements.toast_message
-  #   t: Toast Message
-  - key: options.html_missing_elements.tooltip
-    t: Підказка (Tooltip)
-  - key: options.html_missing_elements.offcanvas
-    t: Off-Canvas Area
-  - key: options.html_missing_elements.spinner
-    t: Покажчик завантаження (Loading Spinner)
-  - key: options.html_missing_elements.segmented_button
-    t: Кнопка із сегментами
-  - key: options.html_missing_elements.scroll_area
-    t: Елемент нескінченного гортання
-  - key: options.html_missing_elements.icon
-    t: Іконка
-  - key: options.html_missing_elements.star_rating
-    t: Оцінювання зірочками
-
-  - key: usage.html_pain_points_freeform
-    t: Інші проблеми
-  - key: usage.html_pain_points_freeform.question
-    t: Які ще проблеми HTML та суміжних технологій найбільше вас розчаровують?
-
-  - key: usage.html_css_js_balance
-    t: Співвідношення HTML/CSS і JavaScript/TypeScript
-  - key: usage.html_css_js_balance.question
-    t: Як поділяється ваш час між написанням коду HTML/CSS і JavaScript (або TypeScript)?
-  - key: options.html_css_js_balance.0
-    t: 100% HTML/CSS
-  - key: options.html_css_js_balance.4
-    t: 50%–50%
-  - key: options.html_css_js_balance.8
-    t: 100% JS
-
   # other features
 
   - key: features.foo_attribute
@@ -897,6 +706,265 @@ translations:
 
   - key: features.client_hints
     t: HTTP client hints
+
+  ###########################################################################
+  # Other Tools
+  ###########################################################################
+
+  - key: other_tools.site_generators
+    t: Генератори сайтів
+  - key: other_tools.site_generators.question
+    t: Які з цих генераторів статичних або динамічних сайтів ви регулярно використовуєте?
+
+  - key: other_tools.browsers
+    aliasFor: tools_others.browsers
+  - key: other_tools.browsers.question
+    aliasFor: tools_others.browsers.question
+
+  - key: other_tools.validation_tools
+    t: Інструменти валідації
+  - key: other_tools.validation_tools.question
+    t: Які з цих інструментів валідації ви регулярно використовуєте?
+
+  - key: other_tools.ai_tools
+    t: ШІ-інструменти
+  - key: other_tools.ai_tools.question
+    t: Які з цих ШІ-інструментів ви регулярно використовуєте для допомоги у написанні коду?
+
+  - key: other_tools.machine_readable_features
+    aliasFor: features.machine_readable_features
+  - key: other_tools.machine_readable_features.question
+    aliasFor: features.machine_readable_features.question
+
+  - key: options.machine_readable_features.na
+    t: <span aria-hidden="true">🚫</span> Нічого з вищевказаного
+
+  - key: other_tools.blast_from_the_past
+    t: Приліт із минулого!
+  - key: other_tools.blast_from_the_past.question
+    t: Ви коли-небудь використовували будь-який із наведених елементів "старої школи"?
+  - key: other_tools.blast_from_the_past.description
+    t: Приліт із минулого!
+  - key: options.blast_from_the_past.na
+    t: <span aria-hidden="true">🚫</span> Нічого з вищевказаного
+
+  - key: other_tools.performance_tools
+    t: Інструменти вимірювання продуктивності
+  - key: other_tools.performance_tools.question
+    t: Які інструменти та сервіси ви використовуєте для відстеження та покращення продуктивності ваших вебсайтів?
+
+  - key: options.performance_tools.browser_devtools
+    t: Інструменти розробника в браузері
+
+  - key: other_tools.analytics_tools
+    t: Інструменти збирання аналітики
+  - key: other_tools.analytics_tools.question
+    t: Які інструменти та сервіси аналітики ви використовуєте для моніторингу ваших вебсайтів?
+
+  ###########################################################################
+  # Usage
+  ###########################################################################
+
+  # - key: usage.html_existing_features
+  #   t: Unusable HTML Features
+  # - key: usage.html_existing_features.question
+  #   t: Which existing HTML features are you unable to use?
+  # - key: usage.html_existing_features.description
+  #   t: |
+  #     Existing HTML features that you find yourself recreating using custom components.
+  # - key: usage.html_existing_features.placeholder
+  #   t: |
+  #     ﹤foo type="bar"﹥ (browser incompatibilities, styling limitations, doesn't do X)
+
+  - key: usage.html_interoperability_features
+    t: Сумісність між браузерами
+  - key: usage.html_interoperability_features.question
+    t: Якими наявними функціями HTML або API браузера ви не можете користуватися через відмінності між браузерами або відсутність підтримування?
+  # - key: usage.html_interoperability_features.description
+  #   t: |
+  #     Any type of API the survey has asked about is within scope.
+  - key: usage.html_interoperability_features.placeholder
+    t: |
+      Функція #{index}
+
+  - key: usage.html_functionality_features
+    t: Обмежена функціональність
+  - key: usage.html_functionality_features.question
+    t: Якими наявними функціями HTML або API браузера ви не можете користуватися з інших причин (і чому)?
+  - key: usage.html_functionality_features.description
+    t: |
+      Наявні функції HTML, які вам часто доводиться відтворювати або доповнювати за допомогою JS.
+  # - key: usage.html_functionality_features.description
+  #   t: |
+  #     Existing HTML features that you often have to recreate or augment using JS.
+
+  #     Please also specify the reason, such as lack of functionality, difficult styling, poor accessibility, etc.
+
+  - key: usage.html_functionality_features.placeholder.1
+    t: |
+      Функція #1 (важко стилізувати)
+  - key: usage.html_functionality_features.placeholder.2
+    t: |
+      Функція #2 (обмежена функціональність, погана доступність)
+
+  - key: usage.html_new_features
+    t: Нові функції
+  - key: usage.html_new_features.question
+    t: Які серед цих останніх та майбутніх нових функцій цікавлять вас найбільше?
+
+  - key: usage.what_do_you_use_html_for
+    t: HTML Usage
+  - key: usage.what_do_you_use_html_for.question
+    t: What do you use HTML for?
+  - key: options.what_do_you_use_html_for.blogs
+    aliasFor: options.what_do_you_use_css_for.blogs
+  - key: options.what_do_you_use_html_for.design_systems
+    aliasFor: options.what_do_you_use_css_for.design_systems
+  - key: options.what_do_you_use_html_for.desktop_apps
+    aliasFor: options.what_do_you_use_css_for.desktop_apps
+  - key: options.what_do_you_use_html_for.emails
+    aliasFor: options.what_do_you_use_css_for.emails
+  - key: options.what_do_you_use_html_for.marketing_sites
+    aliasFor: options.what_do_you_use_css_for.marketing_sites
+  - key: options.what_do_you_use_html_for.mobile_apps
+    aliasFor: options.what_do_you_use_css_for.mobile_apps
+  - key: options.what_do_you_use_html_for.printed_documents
+    aliasFor: options.what_do_you_use_css_for.printed_documents
+  - key: options.what_do_you_use_html_for.web_apps
+    aliasFor: options.what_do_you_use_css_for.web_apps
+
+  - key: usage.tools_for_other_developers
+    t: Вплив на екосистему
+  - key: usage.tools_for_other_developers.question
+    t: Скільки розробників, окрім вас, використовують бібліотеки, пакети, компоненти, API тощо, які ви створюєте чи підтримуєте?
+  - key: usage.tools_for_other_developers.description
+    t: |
+      Загалом, якщо ви працюєте над кількома проєктами, які використовують інші розробники.
+      Якщо ви не впевнені, виберіть найближчий варіант до вашої найкращої оцінки.
+      Завантаження в npm можуть стати в пригоді для проєктів із відкритим вихідним кодом.
+  - key: options.tools_for_other_developers.na
+    t: 🚫 Ніхто (Тільки я)
+  - key: options.tools_for_other_developers.a_few
+    t: Кілька інших розробників (наприклад, розробники в невеликій команді)
+  - key: options.tools_for_other_developers.less_than_100
+    t: Менше сотні розробників
+  - key: options.tools_for_other_developers.less_than_1000
+    t: Менше тисячі розробників
+  - key: options.tools_for_other_developers.more_than_100
+    t: Сотні розробників
+  - key: options.tools_for_other_developers.more_than_1000
+    t: Тисячі розробників
+  - key: options.tools_for_other_developers.more_than_1000000
+    t: Мільйони розробників
+
+  - key: usage.html_missing_elements
+    t: Відсутні елементи
+  - key: usage.html_missing_elements.question
+    t: Якби ви могли додати 3 елементи до HTML, що б це було?
+  # - key: usage.html_missing_elements.description
+  #   t: |
+  #     If you use any component technologies, the components you find yourself reusing across multiple projects could be good candidates.
+
+  #     These could be things like Accordion, Alert, Calendar, Carousel, Combobox/Autocomplete, Context menu, Data Grid, Rating, Tabs, Image Zoom, Switch, Skeleton loading pattern etc.
+
+  - key: options.html_missing_elements.accordion
+    t: Accordion
+  - key: options.html_missing_elements.alert
+    t: Оповіщення
+  - key: options.html_missing_elements.calendar
+    t: Календар
+  - key: options.html_missing_elements.carousel
+    t: Карусель
+  - key: options.html_missing_elements.combobox_autocomplete
+    t: Combobox / Autocomplete
+  - key: options.html_missing_elements.command_palette
+    t: Command Palette
+  - key: options.html_missing_elements.context_menu
+    t: Контекстне меню / Меню, що викликається правою кнопкою
+  - key: options.html_missing_elements.datatable
+    t: Таблиця для даних
+  - key: options.html_missing_elements.datatable.description
+    t: Таблиця для даних із сортуванням, фільтруванням тощо.
+  - key: options.html_missing_elements.dropdown_menu
+    t: Випадне меню
+  - key: options.html_missing_elements.image_zoom
+    t: Масштабування зображення (Image Zoom)
+  - key: options.html_missing_elements.progress_bar
+    t: Індикатор прогресу виконання (Progress Bar)
+  - key: options.html_missing_elements.skeleton_loading_placeholder
+    t: Skeleton UI / Loading Placeholder
+  - key: options.html_missing_elements.switch
+    t: Перемикач (Switch / Toggle)
+  - key: options.html_missing_elements.tabs
+    t: Вкладки
+  # - key: options.html_missing_elements.toast_message
+  #   t: Toast Message
+  - key: options.html_missing_elements.tooltip
+    t: Підказка (Tooltip)
+  - key: options.html_missing_elements.offcanvas
+    t: Off-Canvas Area
+  - key: options.html_missing_elements.spinner
+    t: Покажчик завантаження (Loading Spinner)
+  - key: options.html_missing_elements.segmented_button
+    t: Кнопка із сегментами
+  - key: options.html_missing_elements.scroll_area
+    t: Елемент нескінченного гортання
+  - key: options.html_missing_elements.icon
+    t: Іконка
+  - key: options.html_missing_elements.star_rating
+    t: Оцінювання зірочками
+
+  - key: usage.html_pain_points_freeform
+    t: Інші проблеми
+  - key: usage.html_pain_points_freeform.question
+    t: Які ще проблеми HTML та суміжних технологій найбільше вас розчаровують?
+
+  - key: usage.html_css_js_balance
+    t: Співвідношення HTML/CSS і JavaScript/TypeScript
+  - key: usage.html_css_js_balance.question
+    t: Як поділяється ваш час між написанням коду HTML/CSS і JavaScript (або TypeScript)?
+  - key: options.html_css_js_balance.0
+    t: 100% HTML/CSS
+  - key: options.html_css_js_balance.4
+    t: 50%–50%
+  - key: options.html_css_js_balance.8
+    t: 100% JS
+
+  ###########################################################################
+  # Resources
+  ###########################################################################
+
+  - key: resources.web_platform_resources
+    t: Джерела інформації про вебплатформу
+  - key: resources.web_platform_resources.question
+    t: До яких джерел ви звертаєтеся, щоб залишатися обізнаним про функції вебплатформи?
+
+  ###########################################################################
+  # Opinions
+  ###########################################################################
+
+  - key: opinions.opinions_intro
+    t: Відповідаючи на наступні запитання, дайте нам знати, наскільки ви згодні з кожним твердженням.
+
+  - key: opinions.accessibility_is_valued
+    t: Доступність
+  - key: opinions.accessibility_is_valued.question
+    t: Доступність цінується в моєму робочому або професійному середовищі
+
+  - key: opinions.keeping_informed_is_challenging
+    t: Бути обізнаним
+  - key: opinions.keeping_informed_is_challenging.question
+    t: Залишатися обізнаним про нові функції вебплатформи досить складно
+
+  - key: opinions.browser_interoperability_is_obstacle
+    t: Сумісність між браузерами
+  - key: opinions.browser_interoperability_is_obstacle.question
+    t: Недостатня сумісність між браузерами — це велика перешкода для веброзробки 
+
+  - key: opinions.web_platform_right_direction
+    t: Вебплатформа
+  - key: opinions.web_platform_right_direction.question
+    t: Вебплатформа рухається у правильному напрямку загалом
 
   ###########################################################################
   # Survey Help
