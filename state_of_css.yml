@@ -841,7 +841,7 @@ translations:
     t: Ви пишете CSS для поштових клієнтів?
 
   - key: environments.what_do_you_use_css_for
-    t: Для чого здебільшого ви використовуєте CSS?
+    t: Використання CSS
   - key: environments.what_do_you_use_css_for.question
     t: Для якого виду проєктів ви зазвичай використовуєте CSS?
   - key: environments.what_do_you_use_css_for.others
