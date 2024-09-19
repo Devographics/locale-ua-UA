@@ -290,7 +290,7 @@ translations:
   - key: sections.opinions.title
     t: Погляди
   - key: sections.opinions.description
-    t: Що ви думаєте про загальний стан "{topic}"?
+    t: Що ви думаєте загалом?
 
   - key: sections.other_tools.title
     t: Інші інструменти
