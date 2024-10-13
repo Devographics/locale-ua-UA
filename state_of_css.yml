@@ -416,6 +416,11 @@ translations:
   - key: features.animations
     t: Анімації CSS
 
+  - key: features.discrete_properties_animations
+    t: Анімування дискретних властивостей
+  - key: features.discrete_properties_animations.description
+    t: Просте анімування входу та виходу для елементів, які можна закрити, наприклад, діалогових і спливаючих вікон.
+
   # media queries/accessibility
   - key: features.tabindex
     t: "Атрибут HTML `tabindex`"
@@ -1150,3 +1155,40 @@ translations:
     t: |
       Наступні кілька розділів присвячені **бібліотекам** та **фреймворкам**, 
       які складають екосистему CSS. Розкажіть, від чого ви в захваті!
+
+  - key: options.features_categories.layout
+    aliasFor: sections.layout.title
+  - key: options.features_categories.shapes_graphics
+    aliasFor: sections.shapes_graphics.title
+  - key: options.features_categories.interactions
+    aliasFor: sections.interactions.title
+  - key: options.features_categories.typography
+    aliasFor: sections.typography.title
+  - key: options.features_categories.accessibility
+    aliasFor: sections.accessibility.title
+  - key: options.features_categories.other_features
+    aliasFor: sections.other_features.title
+  - key: options.features_categories.colors
+    aliasFor: sections.colors.title
+  - key: options.features_categories.selectors
+    aliasFor: sections.selectors.title
+  - key: options.features_categories.math_features
+    aliasFor: sections.math_features.title
+  - key: features.layout
+    aliasFor: sections.layout.title
+  - key: features.shapes_graphics
+    aliasFor: sections.shapes_graphics.title
+  - key: features.interactions
+    aliasFor: sections.interactions.title
+  - key: features.typography
+    aliasFor: sections.typography.title
+  - key: features.accessibility
+    aliasFor: sections.accessibility.title
+  - key: features.other_features
+    aliasFor: sections.other_features.title
+  - key: features.colors
+    aliasFor: sections.colors.title
+  - key: features.selectors
+    aliasFor: sections.selectors.title
+  - key: features.math_features
+    aliasFor: sections.math_features.title

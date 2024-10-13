@@ -14,19 +14,8 @@ translations:
       На горизонті з'являються нові елементи, як-от `<selectlist>`, приголомшливі нові функції, наприклад, спливаючі вікна,
       та ряд суміжних API браузера (вебкомпоненти, PWA тощо).
 
-      Цього року [Lea Verou](https://lea.verou.me/) взяла на себе величезне завдання з проведення цього абсолютно нового опитування — від змісту до UX і більше.
-
       Спираючись на успіх опитувань ["Стан JS"](http://stateofjs.com/) та ["Стан CSS"](https://stateofcss.com/), ми запускаємо **Стан HTML**;
       останній відсутній елемент, що доповнює трилогію, щоб ми могли відстежувати еволюцію вебплатформи загалом.
-
-      Переваги для вас:
-      - Результати опитування **використовуються браузерами** та групами стандартів **для визначення пріоритетів розробки**.
-      Ваші відповіді можуть допомогти реалізувати цікаві вам функції, визначити пріоритети для усунення несумісностей між браузерами та вказати на прогалини у платформі.
-      - Дізнайтеся про нові та майбутні функції; додайте функції до вашого списку читання та отримайте список джерел у кінці!
-      - Отримайте індивідуальну оцінку знань та порівняйте з іншими респондентами.
-
-      Опитування буде відкрите протягом 3 тижнів, але відповіді, внесені **протягом перших 9-ти днів (до 1 жовтня)**, матимуть набагато більший вплив на вебплатформу,
-      оскільки попередні дані будуть використовуватися для визначення певних пріоритетних напрямків, що мають граничний строк до того часу.
 
   - key: general.state_of_html.description
     t: Щорічне опитування розробників щодо вебплатформи
@@ -557,13 +546,16 @@ translations:
   - key: features.foo_attribute
     t: "атрибут `{id}`"
 
-  - key: features.slot_assignment
-    t: Явне присвоєння slot-елемента (`slot="foo"`)
+  - key: features.slot_attribute
+    t: Іменоване присвоєння slot-елемента
 
-  - key: features.tabindex
+  - key: features.landmark_elements
+    t: Landmark elements
+
+  - key: features.tabindex_attribute
     t: "Атрибут `tabindex`"
 
-  - key: features.respimg
+  - key: features.respimg_attributes
     t: "Атрибути `srcset` і `sizes`"
 
   - key: features.model_element
@@ -572,7 +564,7 @@ translations:
   - key: features.slot_def
     t: Визначення slot-елемента (`<slot>` і `::slotted()`)
 
-  - key: features.controlslist
+  - key: features.controlslist_attribute
     t: "Атрибут `controlslist`"
 
   - key: features.popover_api
@@ -599,7 +591,7 @@ translations:
   - key: features.cors
     t: CORS
 
-  - key: features.csp
+  - key: features.content_security_policy
     t: Політика безпеки вмісту (CSP)
 
   - key: features.structured_data
@@ -611,14 +603,14 @@ translations:
   - key: features.html_modules
     t: HTML-модулі
 
-  - key: features.accordion
+  - key: features.accordion_element
     t: Елемент "виключний акордеон"
 
   - key: features.imperative_slot
     t: Імперативне присвоєння slot-елемента
 
-  # - key: features.focusgroup
-  #   t: "`focusgroup` attribute"
+  - key: features.focusgroup_attribute
+    t: "Атрибут `focusgroup`"
 
   - key: features.form_validation
     t: Валідація форми
@@ -641,8 +633,11 @@ translations:
   - key: features.rh_prefetch
     t: "Підказки зв'язку ресурсу: prefetch (`<link rel=prefetch>`)"
 
-  - key: features.declarative_shadow
-    t: Декларативний Shadow DOM (`<template shadowrootmode="open">`)
+  - key: features.shadow_dom
+    t: Shadow DOM
+
+  - key: features.declarative_shadow_dom
+    t: Декларативний Shadow DOM
 
   - key: features.referrerpolicy
     t: "Атрибут `referrerpolicy`"
@@ -689,23 +684,59 @@ translations:
   - key: features.media_capture
     t: HTML Media Capture
 
+  - key: features.formdata
+    t: FormData API
+
+  - key: features.customizable_select
+    t: Customizable Select
+
   - key: features.contenteditable_plaintext
     t: "Значення `plaintext-only` для `contenteditable`"
 
   - key: features.dom_parts
     t: DOM Parts
 
-  - key: features.fetchpriority
-    t: API визначення пріоритетності запиту (атрибут `fetchpriority`)
+  - key: features.fetchpriority_attribute
+    t: "Атрибут `fetchpriority`"
 
-  - key: features.autocomplete
-    t: '`autocomplete="hint"`'
+  - key: features.autocomplete_attribute
+    t: "Атрибут `autocomplete`"
 
   - key: features.inert_attribute
     t: "Атрибут `inert`"
 
   - key: features.client_hints
     t: "HTTP-заголовки: підказки клієнта" 
+
+  - key: features.clipboard_api
+    t: Clipboard API
+
+  - key: features.custom_highlight_api
+    t: CSS Custom Highlight API
+
+  - key: features.intl_segmenter
+    t: "API `Intl.Segmenter`"
+
+  - key: features.filesystem_access
+    t: File System Access API
+
+  - key: features.badging_api
+    t: Badging API
+
+  - key: features.web_share_api
+    t: Web Share API
+
+  - key: features.launch_handler_api
+    t: Launch Handler API
+
+  - key: features.file_handling_api
+    t: File Handling API
+
+  - key: features.window_controls_overlay
+    t: Window Controls Overlay API
+
+  - key: features.isolated_webapps
+    t: Isolated Web Apps
 
   ###########################################################################
   # Other Tools

@@ -1219,6 +1219,21 @@ translations:
   - key: award.most_loved_tool_award.description
     t: Нагороджується технологія з найбільшою часткою позитивного ставлення.
 
+  - key: award.most_used_feature_award.title
+    t: Most Used Feature
+  - key: award.most_used_feature_award.description
+    t: Awarded to the feature with the highest proportion of users.
+
+  - key: award.least_used_feature_award.title
+    t: Least Used Feature
+  - key: award.least_used_feature_award.description
+    t: Awarded to the feature with the lowest proportion of users.
+
+  - key: award.most_loved_feature_award.title
+    t: Most Loved Feature
+  - key: award.most_loved_feature_award.description
+    t: Awarded to the feature with the highest proportion of positive opinions.
+
   ###########################################################################
   # Hints
   ###########################################################################
@@ -1734,6 +1749,12 @@ translations:
     t: Досвід
   - key: charts.group.sentiment
     t: Ставлення
+  - key: charts.grouped_by_group
+    t: >
+      Grouped by "**{group}**""
+  - key: charts.group_by_group
+    t: >
+      Group by "**{group}**""
 
   - key: charts.display_mode
     t: >
@@ -1794,6 +1815,20 @@ translations:
     t: >
       медіана: **{value}**
 
+  - key: charts.filter_by
+    t: >
+      Фільтрувати за:
+  - key: charts.all_filters
+    t: Усі
+  - key: charts.all_filters.description
+    t: Показати усі
+  - key: charts.filter_by_value
+    t: >
+      Фільтрувати за: "{value}"
+  - key: charts.filtered_by_value
+    t: >
+      Відфільтровано за: "{value}"
+
   ###########################################################################
   # Multi Items Experience Chart
   ###########################################################################
@@ -1828,3 +1863,10 @@ translations:
       автоматизованої та ручної обробки даних.
   - key: answers.report_abuse
     t: Повідомити про порушення у цій відповіді
+
+  ###########################################################################
+  # Banners
+  ###########################################################################
+
+  - key: banner.html2024
+    t: The State of HTML 2024 survey is currently open! Take the survey now →

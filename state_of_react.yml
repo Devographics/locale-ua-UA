@@ -39,9 +39,9 @@ translations:
     t: Вбудовані хуки React
 
   - key: sections.new_apis.title
-    t: Нові API
+    t: Нові функції
   - key: sections.new_apis.description
-    t: Нещодавно додані або експериментальні функції
+    t: Нещодавно додані або експериментальні API та функції
 
   - key: sections.component_libraries.title
     t: Бібліотеки компонентів
@@ -220,7 +220,7 @@ translations:
 
   - key: features.use_hook.description
     t: >
-      `use` — це хук React, який дає змогу читати значення певного ресурсу, як-от Promise або контекст.
+      `use` — це API React, який дає змогу читати значення певного ресурсу, як-от Promise або контекст.
 
   - key: features.starttransition.description
     t: >
@@ -336,7 +336,7 @@ translations:
   - key: tools.mobile_development
     t: Розробка мобільних застосунків
   - key: tools.mobile_development.question
-    t: Які бібліотеки ви використовували для розробки мобільних застосунків?
+    t: Які фреймворки чи бібліотеки ви використовували для розробки мобільних застосунків?
 
   # - key: tools.mobile_development_others
   #   t: Other Mobile Development Tools
@@ -354,6 +354,17 @@ translations:
     t: Які бібліотеки ви використовували для роботи з формами?
   - key: options.form_libraries.na
     t: Жодна
+
+  - key: tools.react_form_patterns
+    t: Form Patterns
+  - key: tools.react_form_patterns.question
+    t: Which form pattern do you usually prefer using?
+  - key: options.react_form_patterns.form_patterns_controlled
+    t: Controlled form components
+  - key: options.react_form_patterns.form_patterns_uncontrolled
+    t: Uncontrolled form components
+  - key: options.react_form_patterns.form_patterns_both
+    t: Both, depending on the situation
 
   - key: tools.build_tools
     t: Інструменти для збирання коду
@@ -404,7 +415,7 @@ translations:
   # - key: tools.hosting.description
   #   t: Services you use to host your React apps.
   - key: tools.hosting.question
-    t: Які сервіси ви використовували для хостингу ваших React-застосунків?
+    t: Які серед цих сервісів ви використовували для хостингу ваших React-застосунків?
 
   - key: tools.backend_language
     t: Мови для серверної частини
@@ -615,14 +626,33 @@ translations:
   # what do you use React for?
   - key: options.what_do_you_use_react_for.static_sites
     t: Статичні сайти
+  - key: options.what_do_you_use_react_for.static_sites.description
+    t: Pre-generated sites with minimal server interactions
+
   - key: options.what_do_you_use_react_for.design_systems
     t: Системи дизайну
+  - key: options.what_do_you_use_react_for.design_systems.description
+    t: Custom libraries of React components
+
   - key: options.what_do_you_use_react_for.web_apps
     t: Вебзастосунки
+  - key: options.what_do_you_use_react_for.web_apps.description
+    t: Web-based apps with complex interactions, state, routing, etc.
+
   - key: options.what_do_you_use_react_for.mobile_apps
     t: Застосунки для мобільних пристроїв
+  - key: options.what_do_you_use_react_for.mobile_apps.description
+    t: Mobile apps using React or React Native
+
   - key: options.what_do_you_use_react_for.desktop_apps
     t: Застосунки для настільних комп'ютерів
+  - key: options.what_do_you_use_react_for.desktop_apps.description
+    t: Apps that run locally on a desktop
+
+  - key: options.what_do_you_use_react_for.hybrid_sites
+    t: Hybrid sites
+  - key: options.what_do_you_use_react_for.hybrid_sites.description
+    t: Traditional sites with dynamic client components (e.g. e-commerce sites)
 
   # resources
   - key: resources.learning_methods_react
@@ -636,9 +666,9 @@ translations:
     t: Які блоги, журнали або розсилки ви читаєте, щоб слідкувати за новинами щодо React?
 
   - key: resources.sites_courses_react
-    t: Сайти та курси
+    t: Курси та навчальні матеріали
   - key: resources.sites_courses_react.question
-    t: Які сайти або курси ви використовували для вивчення React?
+    t: Які курси або інші матеріали (відео, книги тощо) ви використовували для вивчення React?
 
   - key: resources.podcasts_react
     t: Подкасти
