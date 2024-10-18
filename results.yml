@@ -1220,19 +1220,19 @@ translations:
     t: Нагороджується технологія з найбільшою часткою позитивного ставлення.
 
   - key: award.most_used_feature_award.title
-    t: Most Used Feature
+    t: Найбільш використовувана функція
   - key: award.most_used_feature_award.description
-    t: Awarded to the feature with the highest proportion of users.
+    t: Нагороджується технологія з найбільшою часткою користувачів.
 
   - key: award.least_used_feature_award.title
-    t: Least Used Feature
+    t: Найменш використовувана функція
   - key: award.least_used_feature_award.description
-    t: Awarded to the feature with the lowest proportion of users.
+    t: Нагороджується технологія з найменшою часткою користувачів.
 
   - key: award.most_loved_feature_award.title
-    t: Most Loved Feature
+    t: Найбільш улюблена функція
   - key: award.most_loved_feature_award.description
-    t: Awarded to the feature with the highest proportion of positive opinions.
+    t: Нагороджується функція з найбільшою часткою позитивного ставлення.
 
   ###########################################################################
   # Hints
@@ -1751,10 +1751,10 @@ translations:
     t: Ставлення
   - key: charts.grouped_by_group
     t: >
-      Grouped by "**{group}**""
+      Згруповано за: "**{group}**""
   - key: charts.group_by_group
     t: >
-      Group by "**{group}**""
+      Групувати за: "**{group}**""
 
   - key: charts.display_mode
     t: >
@@ -1869,4 +1869,4 @@ translations:
   ###########################################################################
 
   - key: banner.html2024
-    t: The State of HTML 2024 survey is currently open! Take the survey now →
+    t: Відкрито опитування "Стан HTML 2024"! Взяти участь →

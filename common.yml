@@ -1517,7 +1517,7 @@ translations:
     t: Ваша електронна адреса
   - key: user_info.email.description
     t: >
-      Ви пройшли опитування анонімно. За бажанням ви можете додатково ввести свою електронну адресу, щоб мати доступ до своїх відповідей пізніше та отримати сповіщення, коли результати опитування будуть опубліковані.
+      Ви взяли участь в опитуванні анонімно. За бажанням ви можете додатково ввести свою електронну адресу, щоб мати доступ до своїх відповідей пізніше та отримати сповіщення, коли результати опитування будуть опубліковані.
   - key: user_info.email.note
     t: >
       Ми не зберігаємо жодних персональних даних, тому після того, як ви додасте свою електронну адресу, ми використаємо її для створення унікального анонімного ідентифікатора і одразу видалимо.
@@ -1589,9 +1589,9 @@ translations:
 
   # how can we improve the survey?
   - key: user_info.did_you_run_into_technical_issues
-    t: Technical Issues
+    t: Технічні проблеми
   - key: user_info.did_you_run_into_technical_issues.question
-    t: Did you run into any technical issues while taking this survey?
+    t: Чи виникли у вас якісь технічні проблеми під час проходження цього опитування?
 
   # how can we improve the survey?
   - key: user_info.how_can_we_improve
@@ -1797,12 +1797,12 @@ translations:
   ###########################################################################
 
   - key: baseline.baseline
-    t: "Baseline:"
+    t: "База сумісності:"
   - key: baseline.learn_more
-    t: Learn more
+    t: Дізнатися більше
   - key: baseline.support.false
-    t: Limited Availability
+    t: Обмежено доступно
   - key: baseline.support.low
-    t: Newly Available
+    t: Віднедавна доступно
   - key: baseline.support.high
-    t: Widely Available
+    t: Широко доступно

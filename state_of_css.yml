@@ -419,7 +419,7 @@ translations:
   - key: features.discrete_properties_animations
     t: Анімування дискретних властивостей
   - key: features.discrete_properties_animations.description
-    t: Просте анімування входу та виходу для елементів, які можна закрити, наприклад, діалогових і спливаючих вікон.
+    t: Просте анімування входу та виходу для елементів, які можна закрити, наприклад, діалогових і спливних вікон.
 
   # media queries/accessibility
   - key: features.tabindex

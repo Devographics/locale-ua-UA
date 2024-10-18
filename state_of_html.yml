@@ -11,7 +11,7 @@ translations:
       Поки веброзробники зосереджуються на JavaScript та CSS, нічого з того, що ми робимо, не було б можливим без HTML в основі.
 
       Довго здавалося, що HTML не розвивається, але все змінюється.
-      На горизонті з'являються нові елементи, як-от `<selectlist>`, приголомшливі нові функції, наприклад, спливаючі вікна,
+      На горизонті з'являються нові елементи, як-от `<selectlist>`, приголомшливі нові функції, наприклад, спливні вікна,
       та ряд суміжних API браузера (вебкомпоненти, PWA тощо).
 
       Спираючись на успіх опитувань ["Стан JS"](http://stateofjs.com/) та ["Стан CSS"](https://stateofcss.com/), ми запускаємо **Стан HTML**;
@@ -550,7 +550,7 @@ translations:
     t: Іменоване присвоєння slot-елемента
 
   - key: features.landmark_elements
-    t: Landmark elements
+    t: Елементи-орієнтири (Landmark elements)
 
   - key: features.tabindex_attribute
     t: "Атрибут `tabindex`"
@@ -568,7 +568,7 @@ translations:
     t: "Атрибут `controlslist`"
 
   - key: features.popover_api
-    t: Popover API
+    t: API спливного вікна
 
   - key: features.lazy_loading
     t: Ліниве завантажування
@@ -634,10 +634,10 @@ translations:
     t: "Підказки зв'язку ресурсу: prefetch (`<link rel=prefetch>`)"
 
   - key: features.shadow_dom
-    t: Shadow DOM
+    t: Тіньовий DOM 
 
   - key: features.declarative_shadow_dom
-    t: Декларативний Shadow DOM
+    t: Декларативний тіньовий DOM
 
   - key: features.referrerpolicy
     t: "Атрибут `referrerpolicy`"
@@ -679,22 +679,22 @@ translations:
     t: Елемент `<fencedframe>`
 
   - key: features.credentialless
-    t: Credentialess iframes
+    t: Безобліковий (credentialess) iframe-елемент
 
   - key: features.media_capture
-    t: HTML Media Capture
+    t: Захоплення (capture) медіа в HTML
 
   - key: features.formdata
-    t: FormData API
+    t: "API `FormData`"
 
   - key: features.customizable_select
-    t: Customizable Select
+    t: Налаштовуваний select-елемент
 
   - key: features.contenteditable_plaintext
     t: "Значення `plaintext-only` для `contenteditable`"
 
   - key: features.dom_parts
-    t: DOM Parts
+    t: DOM-частини (DOM Parts)
 
   - key: features.fetchpriority_attribute
     t: "Атрибут `fetchpriority`"
@@ -709,34 +709,34 @@ translations:
     t: "HTTP-заголовки: підказки клієнта" 
 
   - key: features.clipboard_api
-    t: Clipboard API
+    t: API буфера обміну
 
   - key: features.custom_highlight_api
-    t: CSS Custom Highlight API
+    t: API налаштування підсвічування у CSS
 
   - key: features.intl_segmenter
     t: "API `Intl.Segmenter`"
 
   - key: features.filesystem_access
-    t: File System Access API
+    t: API доступу до файлової системи
 
   - key: features.badging_api
-    t: Badging API
+    t: API задання значків (Badging API)
 
   - key: features.web_share_api
-    t: Web Share API
+    t: API поширення у вебі
 
   - key: features.launch_handler_api
-    t: Launch Handler API
+    t: API обробника запуску (Launch Handler API)
 
   - key: features.file_handling_api
-    t: File Handling API
+    t: API обробки файлів
 
   - key: features.window_controls_overlay
-    t: Window Controls Overlay API
+    t: API накладання віконних елементів керування (Window Controls Overlay API)
 
   - key: features.isolated_webapps
-    t: Isolated Web Apps
+    t: Ізольовані вебзастосунки (IWA)
 
   ###########################################################################
   # Other Tools
@@ -907,9 +907,9 @@ translations:
   - key: options.html_missing_elements.carousel
     t: Карусель
   - key: options.html_missing_elements.combobox_autocomplete
-    t: Combobox / Autocomplete
+    t: Комбінований список / Елемент автодоповнення
   - key: options.html_missing_elements.command_palette
-    t: Command Palette
+    t: Палітра команд (Command Palette)
   - key: options.html_missing_elements.context_menu
     t: Контекстне меню / Меню, що викликається правою кнопкою
   - key: options.html_missing_elements.datatable
@@ -923,7 +923,7 @@ translations:
   - key: options.html_missing_elements.progress_bar
     t: Індикатор прогресу виконання (Progress Bar)
   - key: options.html_missing_elements.skeleton_loading_placeholder
-    t: Skeleton UI / Loading Placeholder
+    t: Каркасний UI / Заповнювач під час завантаження
   - key: options.html_missing_elements.switch
     t: Перемикач (Switch / Toggle)
   - key: options.html_missing_elements.tabs
@@ -933,7 +933,7 @@ translations:
   - key: options.html_missing_elements.tooltip
     t: Підказка (Tooltip)
   - key: options.html_missing_elements.offcanvas
-    t: Off-Canvas Area
+    t: Панель поза полотном перегляду (Off-Canvas Area)
   - key: options.html_missing_elements.spinner
     t: Покажчик завантаження (Loading Spinner)
   - key: options.html_missing_elements.segmented_button
@@ -1003,7 +1003,7 @@ translations:
 
   - key: features.features_intro_html
     t: |
-      Ласкаво просимо до опитування! Ці перші кілька розділів присвячені тому, щоб з’ясувати,
+      Ласкаво просимо до опитування! Ці перші кілька розділів присвячені тому, щоб з'ясувати,
       які **функції** (features) мови HTML і суміжні API ви знаєте.
 
       До речі, якщо ви хочете дізнатися більше про будь-яку тему в опитуванні, ви можете додати її до свого списку читання, натиснувши на маленький значок "+" біля відповідного пункту!

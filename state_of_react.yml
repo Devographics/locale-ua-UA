@@ -356,15 +356,15 @@ translations:
     t: Жодна
 
   - key: tools.react_form_patterns
-    t: Form Patterns
+    t: Патерни форм
   - key: tools.react_form_patterns.question
-    t: Which form pattern do you usually prefer using?
+    t: Який патерн форм ви зазвичай волієте використовувати?
   - key: options.react_form_patterns.form_patterns_controlled
-    t: Controlled form components
+    t: Контрольовані компоненти форми
   - key: options.react_form_patterns.form_patterns_uncontrolled
-    t: Uncontrolled form components
+    t: Неконтрольовані компоненти форми
   - key: options.react_form_patterns.form_patterns_both
-    t: Both, depending on the situation
+    t: Обидва залежно від ситуації
 
   - key: tools.build_tools
     t: Інструменти для збирання коду
@@ -627,32 +627,32 @@ translations:
   - key: options.what_do_you_use_react_for.static_sites
     t: Статичні сайти
   - key: options.what_do_you_use_react_for.static_sites.description
-    t: Pre-generated sites with minimal server interactions
+    t: Попередньо відрендерені сайти з мінімальною взаємодією із сервером
 
   - key: options.what_do_you_use_react_for.design_systems
     t: Системи дизайну
   - key: options.what_do_you_use_react_for.design_systems.description
-    t: Custom libraries of React components
+    t: Власні бібліотеки React-компонентів
 
   - key: options.what_do_you_use_react_for.web_apps
     t: Вебзастосунки
   - key: options.what_do_you_use_react_for.web_apps.description
-    t: Web-based apps with complex interactions, state, routing, etc.
+    t: Застосунки для вебу зі складною взаємодією, станом, маршрутизацією тощо
 
   - key: options.what_do_you_use_react_for.mobile_apps
     t: Застосунки для мобільних пристроїв
   - key: options.what_do_you_use_react_for.mobile_apps.description
-    t: Mobile apps using React or React Native
+    t: Мобільні застосунки з допомогою React або React Native
 
   - key: options.what_do_you_use_react_for.desktop_apps
     t: Застосунки для настільних комп'ютерів
   - key: options.what_do_you_use_react_for.desktop_apps.description
-    t: Apps that run locally on a desktop
+    t: Застосунки, що працюють локально на настільному комп'ютері
 
   - key: options.what_do_you_use_react_for.hybrid_sites
-    t: Hybrid sites
+    t: Гібридні сайти
   - key: options.what_do_you_use_react_for.hybrid_sites.description
-    t: Traditional sites with dynamic client components (e.g. e-commerce sites)
+    t: Традиційні сайти з додаванням динамічних клієнтських компонентів (наприклад, сайти електронної комерції)
 
   # resources
   - key: resources.learning_methods_react
