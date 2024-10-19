@@ -547,41 +547,89 @@ translations:
 
   # other features
 
+  - key: feature.datalist_element.description
+    t: Method of providing a list of presets for a user to select in a form control, while still allowing custom options.
+
+  - key: feature.showpicker.description
+    t: Programmatically open the picker of form controls that have one (color pickers, date inputs etc).
+
+  - key: feature.edit_context.description
+    t: The EditContext interface represents the text edit context of an element that was made editable by using the EditContext API.
+  
+  - key: feature.caret_position_from_point.description
+    t: The caretPositionFromPoint() method returns the caret's character offset.
+
+  - key: feature.dialog_element.description
+    t: For dialog boxes or other interactive components, such as a dismissible alerts, or subwindows.
+
+  - key: feature.blocking_render.description
+    t: Specify that resources (scripts, stylesheets etc) should block rendering until loaded.
+
+  - key: feature.set_html_unsafe.description
+    t: |
+      Used to parse a string of HTML into a DocumentFragment, which then replaces the element's subtree in the DOM.
+
+  - key: feature.parse_html_unsafe.description
+    t: Used to parse a string of HTML, which may contain declarative shadow roots, in order to create a new Document instance.
+
+  - key: feature.template_element.description
+    t: A mechanism for holding HTML that is not to be rendered immediately but may be utilized later via JS.
+
+  - key: feature.search_element.description
+    t: Semantic element for wrapping search UI.
+
   - key: features.foo_attribute
     t: "атрибут `{id}`"
 
   - key: features.slot_attribute
     t: Іменоване присвоєння slot-елемента
+  - key: features.slot_attribute.description
+    t: |
+      `slot="slot_name"` attribute
 
   - key: features.landmark_elements
     t: Елементи-орієнтири (Landmark elements)
 
   - key: features.tabindex_attribute
     t: "Атрибут `tabindex`"
+  - key: features.tabindex_attribute.description
+    t: Make HTML elements focusable, allow or prevent them from being sequentially focusable
 
   - key: features.respimg_attributes
     t: "Атрибути `srcset` і `sizes`"
+  - key: features.respimg_attributes.description
+    t: Attributes that allow providing several source images with hints to help the browser pick the right one.
 
   - key: features.model_element
     t: "`<model>` для додавання AR/VR/3D"
+  - key: features.model_element.description
+    t: Attributes that allow providing several source images with hints to help the browser pick the right one.
 
   - key: features.slot_def
     t: Визначення slot-елемента (`<slot>` і `::slotted()`)
 
   - key: features.controlslist_attribute
     t: "Атрибут `controlslist`"
+  - key: features.controlslist_attribute.description
+    t: Prevent certain controls from appearing in the toolbar of a media element.
 
   - key: features.popover_api
     t: API спливного вікна
+  - key: features.popover_api.description
+    t: HTML syntax and JS API facilitating popovers such as overlays, popups, menus etc.
 
   - key: features.lazy_loading
     t: Ліниве завантажування
+  - key: features.lazy_loading.description
+    t: Load certain resources only when needed.
 
   - key: features.sandbox_attr
     t: "Атрибут `sandbox` для елементів iframe"
 
   - key: features.details_element
     t: "`<details>` і `<summary>`"
+  - key: features.details_element.description
+    t: A disclosure widget that can be toggled to hide or show content interactively.
 
   - key: features.crossorigin
     t: "Атрибут `crossorigin`"
@@ -591,12 +639,16 @@ translations:
 
   - key: features.element_internals
     t: "API `ElementInternals`"
+  - key: features.element_internals.description
+    t: Assign hidden semantics to custom elements, facilitating accessibility and allowing them to participate fully in forms.
 
   - key: features.cors
     t: CORS
 
   - key: features.content_security_policy
     t: Політика безпеки вмісту (CSP)
+  - key: features.content_security_policy.description
+    t: An added layer of security that helps to detect and mitigate XSS and other attacks.
 
   - key: features.structured_data
     t: Структуровані дaні (RDFa, Microdata, Microformats)
@@ -606,15 +658,24 @@ translations:
 
   - key: features.html_modules
     t: HTML-модулі
+  - key: features.html_modules.description
+    t: Import HTML files via JS imports and access their elements and JS exports.
 
   - key: features.accordion_element
     t: Елемент "виключний акордеон"
+  - key: features.accordion_element.description
+    t: |
+      Group `<details>` elements so that only up to one in the group can be open at a time.
 
   - key: features.imperative_slot
     t: Імперативне присвоєння slot-елемента
+  - key: features.imperative_slot.description
+    t: A way to assign elements to slots manually via JS, so that slot assignment does not have to be managed by the component consumers.
 
   - key: features.focusgroup_attribute
     t: "Атрибут `focusgroup`"
+  - key: features.focusgroup_attribute.description
+    t: Facilitate keyboard focus navigation using the keyboard arrow keys among a set of focusable elements.
 
   - key: features.form_validation
     t: Валідація форми
@@ -633,15 +694,22 @@ translations:
 
   - key: features.resource_hints
     t: Підказки зв'язку ресурсу (усі)
+  - key: features.resource_hints.description
+    t: |
+      Begin work on certain resources early to improve performance. Syntax: `<link rel="pre* | dns-prefetch | modulepreload">`
 
   - key: features.rh_prefetch
     t: "Підказки зв'язку ресурсу: prefetch (`<link rel=prefetch>`)"
 
   - key: features.shadow_dom
-    t: Тіньовий DOM 
+    t: Тіньовий DOM
+  - key: features.shadow_dom.description
+    t: Encapsulate elements not visible from the outside, and style them with CSS not affecting the rest of the page.
 
   - key: features.declarative_shadow_dom
     t: Декларативний тіньовий DOM
+  - key: features.declarative_shadow_dom.description
+    t: Define shadow trees with HTML.
 
   - key: features.referrerpolicy
     t: "Атрибут `referrerpolicy`"
@@ -666,18 +734,24 @@ translations:
 
   - key: features.scoped_element_registries
     t: Область видимості для `CustomElementRegistry`
+  - key: features.scoped_element_registries.description
+    t: Allow multiple custom element definitions for a single tag name to exist within a page.
 
   - key: features.navigation_api
     t: API навігації
 
   - key: features.custom_elements_defining
     t: Визначення власних елементів
+  - key: features.custom_elements_defining.description
+    t: Defining custom elements for use by others.
 
   - key: features.decoding
     t: "Атрибут `decoding`"
 
   - key: features.custom_elements_using
     t: Використання власних елементів
+  - key: features.custom_elements_using.description
+    t: Using custom elements, that you or someone else defined.
 
   - key: features.fencedframe
     t: Елемент `<fencedframe>`
@@ -687,60 +761,102 @@ translations:
 
   - key: features.media_capture
     t: Захоплення (capture) медіа в HTML
+  - key: features.media_capture.description
+    t: Capture input from the user’s camera.
 
   - key: features.formdata
     t: "API `FormData`"
+  - key: features.formdata.description
+    t: API to more easily extract and manipulate form data values via JS
 
   - key: features.customizable_select
     t: Налаштовуваний select-елемент
+  - key: features.customizable_select.description
+    t: |
+      Stylable, customizable dropdown control. Previously `<selectlist>` and `<selectmenu>`.
 
   - key: features.contenteditable_plaintext
     t: "Значення `plaintext-only` для `contenteditable`"
+  - key: features.contenteditable_plaintext.description
+    t: Permits editing of the element's raw text, but not rich text formatting.
 
   - key: features.dom_parts
     t: DOM-частини (DOM Parts)
+  - key: features.dom_parts.description
+    t: A cacheable representation of a part of the DOM that can be updated performantly.
 
   - key: features.fetchpriority_attribute
     t: "Атрибут `fetchpriority`"
+  - key: features.fetchpriority_attribute.description
+    t: Allows specifying a hint to help the browser prioritize fetching various resources.
 
   - key: features.autocomplete_attribute
     t: "Атрибут `autocomplete`"
+  - key: features.autocomplete_attribute.description
+    t: |
+      Provide hints about what kind of information is expected, e.g. `name`, `honorific-prefix`, `tel`,  `cc-number` etc
 
   - key: features.inert_attribute
     t: "Атрибут `inert`"
+  - key: features.inert_attribute.description
+    t: Attribute to make an element and its descendants non-interactive, and invisible to assistive technology.
 
   - key: features.client_hints
-    t: "HTTP-заголовки: підказки клієнта" 
+    t: "HTTP-заголовки: підказки клієнта"
 
   - key: features.clipboard_api
     t: API буфера обміну
+  - key: features.clipboard_api.description
+    t: |
+      Provides the ability to respond to clipboard commands (cut, copy, and paste), as well as to asynchronously read from and write to the system clipboard.
 
   - key: features.custom_highlight_api
     t: API налаштування підсвічування у CSS
+  - key: features.custom_highlight_api.description
+    t: Provides a mechanism for styling arbitrary text ranges on a document by using JavaScript to create the ranges, and CSS to style them.
 
   - key: features.intl_segmenter
     t: "API `Intl.Segmenter`"
+  - key: features.intl_segmenter.description
+    t: |
+      Language-sensitive segmentation of text into graphemes, words or sentences.
 
   - key: features.filesystem_access
     t: API доступу до файлової системи
+  - key: features.filesystem_access.description
+    t: |
+      Access files and directories on the user's local device.
 
   - key: features.badging_api
     t: API задання значків (Badging API)
+  - key: features.badging_api.description
+    t: |
+      Set a badge on the web application’s icon to notify about updated state in a less intrusive, persistent way.
 
   - key: features.web_share_api
     t: API поширення у вебі
+  - key: features.web_share_api.description
+    t: Exposes a mechanism for sharing content to various user-selected targets.
 
   - key: features.launch_handler_api
     t: API обробника запуску (Launch Handler API)
+  - key: features.launch_handler_api.description
+    t: Allows PWAs to control how they are launched, e.g. in a new window or tab.
 
   - key: features.file_handling_api
     t: API обробки файлів
+  - key: features.file_handling_api.description
+    t: Allows PWAs to register themselves as handlers for certain file types.
 
   - key: features.window_controls_overlay
     t: API накладання віконних елементів керування (Window Controls Overlay API)
+  - key: features.window_controls_overlay.description
+    t: Allows PWAs to display custom content over the title bar area, whose controls become an overlay.
 
   - key: features.isolated_webapps
     t: Ізольовані вебзастосунки (IWA)
+  - key: features.isolated_webapps.description
+    t: Native-like packaging, permissions and signed updates for PWAs.
 
   ###########################################################################
   # Other Tools
