@@ -15,7 +15,7 @@ translations:
     t: "Попередні роки:"
 
   - key: homepage.take_survey
-    t: Пройти опитування
+    t: Взяти участь в опитуванні
 
   - key: homepage.view_results
     t: Переглянути результати

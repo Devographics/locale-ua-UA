@@ -133,7 +133,7 @@ translations:
   - key: options.country.ARE
     t: Об'єднані Арабські Емірати
   - key: options.country.USA
-    t: Сполучені Штати Америки
+    t: США
   - key: options.country.VNM
     t: В'єтнам
 # from https://github.com/lukes/ISO-3166-Countries-with-Regional-Codes/blob/master/slim-3/slim-3.json

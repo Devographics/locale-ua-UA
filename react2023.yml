@@ -70,7 +70,7 @@ translations:
 
   # user_info
 
-  - key: sections.user_info.description
+  - key: sections.user_info.description.react2023
     t: |
       **13 003** респондентів взяли участь у першій в історії хвилі опитування "Стан React". Звісно, це не численна вибірка загальної спільноти, але все ж достатньо велика, щоб надати нам цінні дані!
 
@@ -86,7 +86,7 @@ translations:
 
   # features
 
-  - key: sections.features.description
+  - key: sections.features.description.react2023
     t: |
       Ми запитали в респондентів їхню думку щодо **28** окремих функцій — від найпоширеніших хуків, як `useState`, до більш нішевих API, як `useDeferredValue`. Й обов'язково спробуйте відсортувати дані за "ставленням"!
 
@@ -121,7 +121,7 @@ translations:
 
   # libraries
 
-  - key: sections.libraries.description
+  - key: sections.libraries.description.react2023
     t: |
       Ми переробили наші діаграми, щоб підкреслити не лише досвід розробників, але і *ставлення*. Обов'язково вивчіть ці нові параметри групування та сортування, щоб з'ясувати, які бібліотеки приваблюють найбільше… або найменше!
 
@@ -173,13 +173,13 @@ translations:
 
   #other_tools
 
-  - key: sections.other_tools.description
+  - key: sections.other_tools.description.react2023
     t: |
       React відомий тим, що зосереджується саме на рендерингу UI, водночас майже не впливаючи на інші частини вашого застосунку — це відображено в живій екосистемі, яка виникла, щоб заповнити ці прогалини!
 
   # usage
 
-  - key: sections.usage.description
+  - key: sections.usage.description.react2023
     t: |
       Незалежно від використовуваної версії, впровадженого патерну застосунку або вашої галузі діяльності — немає неправильного способу використання React!
 
@@ -193,7 +193,7 @@ translations:
 
   # resources
 
-  - key: sections.resources.description
+  - key: sections.resources.description.react2023
     t: |
       Одна з головних причин тривалого домінування React — величезна кількість документації, публікацій у блогах, відео та інших джерел, накопичених протягом багатьох років. Ось лише маленький приклад!
 
@@ -222,7 +222,7 @@ translations:
       Коли йдеться про впливову особистість у спільноті React, не дивно, що **Dan Abramov** очолює рейтинг, проте **Kent C. Dodds** і **Theo**, здається, також змагаються за корону.
 
   #awards
-  # - key: sections.awards.description
+  # - key: sections.awards.description.react2023
   #   t: |
   #     This year's awards were dominated by one very specific project… how quickly will you guess what it is?
 
@@ -423,6 +423,49 @@ translations:
   ###########################################################################
   # FAQ/About
   ###########################################################################
+
+  # React 2023
+
+  - key: faq.data_used_react2023
+    t: Як ці дані будуть використані?
+  - key: faq.data_used_react2023.description
+    t: >
+      Усі зібрані дані будуть відкрито опубліковані для консультації всіх охочих. Розробники або компанії можуть використовувати їх для визначення пріоритетних напрямків розробки та формування своїх "дорожніх карт".
+
+  - key: faq.survey_goals_react2023
+    t: Яка мета цього опитування?
+  - key: faq.survey_goals_react2023.description
+    t: >
+      Мета опитування — вимірювання впізнаваності та популярності серед API React-у, а також бібліотек в екосистемі React.
+
+  - key: faq.who_should_take_survey_react2023
+    t: Хто може взяти участь у цьому опитуванні?
+  - key: faq.who_should_take_survey_react2023.description
+    t: >
+      Це відкрите опитування для всіх, хто користується React, незалежно від того, регулярно ви це робите або час від часу, у межах своєї роботи, як студент або задля розваги!
+
+  - key: faq.how_long_will_survey_take_react2023
+    t: Скільки часу займе опитування?
+  - key: faq.how_long_will_survey_take_react2023.description
+    t: >
+      Залежно від того, на скільки питань ви відповісте (всі питання не обов'язкові), 
+      заповнення анкети повинно зайняти орієнтовно 15-20 хвилин.
+
+  - key: faq.learn_more_react2023
+    t: Де я можу дізнатися більше?
+  - key: faq.learn_more_react2023.description
+    t: Ви можете дізнатися більше про це опитування у [нашому анонсі](https://dev.to/sachagreif/announcing-the-first-ever-state-of-react-survey-3k6b).
+
+  - key: faq.survey_design_react2023
+    t: Як було розроблено це опитування?
+  - key: faq.survey_design_react2023.description
+    t: >
+      Опитування було розроблено з урахуванням думки спільноти через [відкрите обговорення](https://github.com/Devographics/surveys/issues/85).
+
+  - key: faq.results_released_react2023
+    t: Коли будуть опубліковані результати?
+  - key: faq.results_released_react2023.description
+    t: Опитування триватиме з 27 жовтня до 15 листопада, і його результати будуть опубліковані незабаром після завершення.
 
   - key: about.content
     t: |
