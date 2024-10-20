@@ -120,7 +120,7 @@ translations:
   - key: sections.other_tools.title
     t: Інші інструменти
   - key: sections.other_tools.description
-    t: Серед наведених інструментів та технологій виберіть ті, які ви регулярно використовуєте.
+    t: З-поміж наведених інструментів та технологій виберіть ті, які ви регулярно використовуєте.
 
   - key: sections.resources_js.title
     t: Джерела
@@ -1102,7 +1102,7 @@ translations:
     aliases:
       - other_tools.ai_tools
   - key: tools.ai_tools.question
-    t: Які з цих ШІ-інструментів ви регулярно використовуєте для допомоги у написанні коду?
+    t: Які з-поміж цих ШІ-інструментів ви регулярно використовуєте для допомоги у написанні коду?
     aliases:
       - other_tools.ai_tools.question
 
@@ -1111,7 +1111,7 @@ translations:
     aliases:
       - other_tools.hosting
   - key: tools.hosting.question
-    t: Які з цих сервісів ви використовували для хостингу JavaScript-застосунків?
+    t: Які з-поміж цих сервісів ви використовували для хостингу JavaScript-застосунків?
     aliases:
       - other_tools.hosting.question
 
@@ -1451,7 +1451,7 @@ translations:
     t: Яка мета цього опитування?
   - key: faq.survey_goals_js.description
     t: >
-      Мета опитування — вимірювання впізнаваності та популярності серед функцій та бібліотек JavaScript, щоб передбачити майбутні тенденції.
+      Мета опитування — вимірювання впізнаваності та популярності з-поміж функцій та бібліотек JavaScript, щоб передбачити майбутні тенденції.
 
   - key: faq.data_used_js
     t: Як ці дані будуть використані?

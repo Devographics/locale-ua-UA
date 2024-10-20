@@ -289,7 +289,7 @@ translations:
     t: Підказки зв'язку ресурсу
   - key: features.rel_attribute.question
     t: |
-      Яке з цих значень ви використовували для атрибута rel елемента <link>?
+      Яке з-поміж цих значень ви використовували для атрибута rel елемента <link>?
 
   # - key: features.external_content_pain_points
   #   t: External Content Pain Points
@@ -510,12 +510,12 @@ translations:
     t: Поля в маніфесті застосунку
   - key: features.pwa_app_manifest_fields.question
     t: |
-      Яке з цих полів маніфесту застосунку (`<link rel="manifest">`) ви використовували?
+      Яке з-поміж цих полів маніфесту застосунку (`<link rel="manifest">`) ви використовували?
 
   - key: features.native_apps_tools
     t: Інструменти для нативних вебзастосунків
   - key: features.native_apps_tools.question
-    t: Чи ви використовували будь-який із цих інструментів для створення нативних застосунків?
+    t: Чи ви використовували будь-який із-поміж цих інструментів для створення нативних застосунків?
   - key: features.native_apps_tools.description
     t: За винятком сценаріїв, програм для командного рядка, серверного коду тощо.
   - key: options.native_apps_tools.na
@@ -749,7 +749,7 @@ translations:
   - key: other_tools.site_generators
     t: Генератори сайтів
   - key: other_tools.site_generators.question
-    t: Які з цих генераторів статичних або динамічних сайтів ви регулярно використовуєте?
+    t: Які з-поміж цих генераторів статичних або динамічних сайтів ви регулярно використовуєте?
 
   - key: other_tools.browsers
     aliasFor: tools_others.browsers
@@ -759,12 +759,12 @@ translations:
   - key: other_tools.validation_tools
     t: Інструменти валідації
   - key: other_tools.validation_tools.question
-    t: Які з цих інструментів валідації ви регулярно використовуєте?
+    t: Які з-поміж цих інструментів валідації ви регулярно використовуєте?
 
   - key: other_tools.ai_tools
     t: ШІ-інструменти
   - key: other_tools.ai_tools.question
-    t: Які з цих ШІ-інструментів ви регулярно використовуєте для допомоги у написанні коду?
+    t: Які з-поміж цих ШІ-інструментів ви регулярно використовуєте для допомоги у написанні коду?
 
   - key: other_tools.machine_readable_features
     aliasFor: features.machine_readable_features
@@ -845,7 +845,7 @@ translations:
   - key: usage.html_new_features
     t: Нові функції
   - key: usage.html_new_features.question
-    t: Які серед цих останніх та майбутніх нових функцій цікавлять вас найбільше?
+    t: Які з-поміж цих останніх та майбутніх нових функцій цікавлять вас найбільше?
 
   - key: usage.what_do_you_use_html_for
     t: Використання HTML

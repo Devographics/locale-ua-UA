@@ -415,7 +415,7 @@ translations:
   # - key: tools.hosting.description
   #   t: Services you use to host your React apps.
   - key: tools.hosting.question
-    t: Які серед цих сервісів ви використовували для хостингу ваших React-застосунків?
+    t: Які з-поміж цих сервісів ви використовували для хостингу ваших React-застосунків?
 
   - key: tools.backend_language
     t: Мови для серверної частини
@@ -593,7 +593,7 @@ translations:
   - key: usage.new_features
     t: Нові функції
   - key: usage.new_features.question
-    t: Які серед цих останніх та майбутніх нових функцій цікавлять вас найбільше?
+    t: Які з-поміж цих останніх та майбутніх нових функцій цікавлять вас найбільше?
 
   - key: options.new_features.asset_loading
     t: Завантаження ресурсів
@@ -683,4 +683,4 @@ translations:
   - key: resources.people_react
     t: Особистості
   - key: resources.people_react.question
-    t: Серед особистостей у спільноті React — кого ви читаєте, за ким слідкуєте чи просто хочете виокремити?
+    t: З-поміж особистостей у спільноті React — кого ви читаєте, за ким слідкуєте чи просто хочете виокремити?

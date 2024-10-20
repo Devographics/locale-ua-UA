@@ -508,7 +508,7 @@ translations:
   - key: features_others.units
     t: Одиниці вимірювання
   - key: features_others.units.description
-    t: Які серед цих одиниць вимірювання в CSS ви використовували?
+    t: Які з-поміж цих одиниць вимірювання в CSS ви використовували?
 
   - key: options.units.px
     t: px
@@ -538,7 +538,7 @@ translations:
   - key: features_others.pseudo_elements
     t: Псевдоелементи
   - key: features_others.pseudo_elements.description
-    t: Які серед цих псевдоелементів CSS ви використовували?
+    t: Які з-поміж цих псевдоелементів CSS ви використовували?
 
   - key: options.pseudo_elements.before
     t: "::before"
@@ -560,7 +560,7 @@ translations:
   - key: features_others.combinators
     t: Комбінатори
   - key: features_others.combinators.description
-    t: Які серед цих комбінаторів селекторів CSS ви використовували?
+    t: Які з-поміж цих комбінаторів селекторів CSS ви використовували?
 
   - key: options.combinators.descendant
     t: div span (нащадок)
@@ -574,7 +574,7 @@ translations:
   - key: features_others.tree_document_structure
     t: Структура дерева / документа
   - key: features_others.tree_document_structure.description
-    t: Які серед цих CSS-селекторів, пов'язаних зі структурою, ви використовували?
+    t: Які з-поміж цих CSS-селекторів, пов'язаних зі структурою, ви використовували?
 
   - key: options.tree_document_structure.root
     t: :root
@@ -614,7 +614,7 @@ translations:
   - key: features_others.attributes
     t: Атрибути
   - key: features_others.attributes.description
-    t: Які серед цих CSS-селекторів атрибутів ви використовували?
+    t: Які з-поміж цих CSS-селекторів атрибутів ви використовували?
 
   - key: options.attributes.presence
     t: div[foo] (Має заданий атрибут)
@@ -632,7 +632,7 @@ translations:
   - key: features_others.links_urls
     t: Посилання/URL
   - key: features_others.links_urls.description
-    t: Які серед цих CSS-селекторів, пов'язаних із посиланнями та URL, ви використовували?
+    t: Які з-поміж цих CSS-селекторів, пов'язаних із посиланнями та URL, ви використовували?
 
   - key: options.links_urls.any_link
     t: :any-link
@@ -646,7 +646,7 @@ translations:
   - key: features_others.interaction
     t: Взаємодія
   - key: features_others.interaction.description
-    t: Які серед цих CSS-селекторів взаємодії ви використовували?
+    t: Які з-поміж цих CSS-селекторів взаємодії ви використовували?
 
   - key: options.interaction.hover
     t: :hover
@@ -662,7 +662,7 @@ translations:
   - key: features_others.form_controls
     t: Елементи керування формою
   - key: features_others.form_controls.description
-    t: Які серед цих CSS-селекторів, пов'язаних із формами, ви використовували?
+    t: Які з-поміж цих CSS-селекторів, пов'язаних із формами, ви використовували?
 
   - key: options.form_controls.enabled_disabled
     t: :enabled та :disabled
@@ -1161,7 +1161,7 @@ translations:
     t: Особистості в екосистемі CSS — кого ви читаєте, за ким слідкуєте чи просто хочете виокремити.
 
   - key: resources.people.question
-    t: Серед особистостей в екосистемі CSS — кого ви читаєте, за ким слідкуєте чи просто хочете виокремити?
+    t: З-поміж особистостей в екосистемі CSS — кого ви читаєте, за ким слідкуєте чи просто хочете виокремити?
 
   ###########################################################################
   # Survey Help

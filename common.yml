@@ -295,7 +295,7 @@ translations:
   - key: sections.other_tools.title
     t: Інші інструменти
   - key: sections.other_tools.description
-    t: Які серед цих інструментів і технологій ви регулярно використовуєте.
+    t: Які з-поміж цих інструментів і технологій ви регулярно використовуєте.
   - key: section.tools_others.title
     aliasFor: sections.other_tools.title
   - key: section.tools_others.description
