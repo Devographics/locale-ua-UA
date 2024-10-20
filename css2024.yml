@@ -453,39 +453,39 @@ translations:
   # Quiz
   ###########################################################################
 
-  # - key: quiz.quiz_dave_shea
-  #   t: "Питання 01"
-  # - key: quiz.quiz_dave_shea.question
-  #   t: >
-  #     In May 2003, Dave Shea launched a site that showcased CSS's flexibility and adaptability. What was that site's name?
-  # - key: options.quiz_dave_shea.css_playground
-  #   t: CSS Playground
-  # - key: options.quiz_dave_shea.style_jungle
-  #   t: Style Jungle
-  # - key: options.quiz_dave_shea.css_zen_garden
-  #   t: CSS Zen Garden
-  # - key: quiz.quiz_dave_shea.answer
-  #   t: >
-  #     [CSS Zen Garden](https://www.csszengarden.com/) made a big impression by demonstrating what was possible when you kept markup and styling separate.
-  # - key: quiz.quiz_dave_shea.description
-  #   aliasFor: quiz.quiz_dave_shea.question
+  - key: quiz.quiz_dave_shea
+    t: "Питання 01"
+  - key: quiz.quiz_dave_shea.question
+    t: >
+      У травні 2003 року Dave Shea запустив сайт, який продемонстрував гнучкість і адаптивність CSS. Як звався сайт?
+  - key: options.quiz_dave_shea.css_playground
+    t: CSS Playground
+  - key: options.quiz_dave_shea.style_jungle
+    t: Style Jungle
+  - key: options.quiz_dave_shea.css_zen_garden
+    t: CSS Zen Garden
+  - key: quiz.quiz_dave_shea.answer
+    t: >
+      [CSS Zen Garden](https://www.csszengarden.com/) вельми вразив демонстрацією того, що стало можливим, якщо відокремити стилі від розмітки.
+  - key: quiz.quiz_dave_shea.description
+    aliasFor: quiz.quiz_dave_shea.question
 
-  # - key: quiz.quiz_css_spec
-  #   t: "Питання 02"
-  # - key: quiz.quiz_css_spec.question
-  #   t: >
-  #     Which of these organizations maintains the CSS specification?
-  # - key: options.quiz_css_spec.w3c
-  #   t: W3C
-  # - key: options.quiz_css_spec.w3schools
-  #   t: W3Schools
-  # - key: options.quiz_css_spec.mdn
-  #   t: MDN
-  # - key: quiz.quiz_css_spec.answer
-  #   t: >
-  #     The W3C's [CSS Working Group](https://www.w3.org/groups/wg/css) maintains the CSS spec, which is then implemented by browser vendors.
-  # - key: quiz.quiz_css_spec.description
-  #   aliasFor: quiz.quiz_css_spec.question
+  - key: quiz.quiz_css_spec
+    t: "Питання 02"
+  - key: quiz.quiz_css_spec.question
+    t: >
+      Which of these organizations maintains the CSS specification?
+  - key: options.quiz_css_spec.w3c
+    t: W3C
+  - key: options.quiz_css_spec.w3schools
+    t: W3Schools
+  - key: options.quiz_css_spec.mdn
+    t: MDN
+  - key: quiz.quiz_css_spec.answer
+    t: >
+      The W3C's [CSS Working Group](https://www.w3.org/groups/wg/css) maintains the CSS spec, which is then implemented by browser vendors.
+  - key: quiz.quiz_css_spec.description
+    aliasFor: quiz.quiz_css_spec.question
 
   ###########################################################################
   # Sponsors
@@ -494,15 +494,15 @@ translations:
   - key: sponsors.frontendmasters.description
     t: Вдосконалюйте свої навички за допомогою поглиблених сучасних курсів про інженерію клієнтської частини.
   - key: sponsors.polypane.description
-    t: The browser for ambitious devs. Build responsive, accessible and fast websites with ease.
+    t: Браузер для амбітних розробників. З легкістю створюйте адаптивні, доступні та швидкі вебсайти.
   - key: sponsors.nijibox.description
-    t: UX and Product Development consulting in the heart of Tokyo.
+    t: Консалтинг щодо UX та продуктової розробки у центрі Токіо.
   - key: sponsors.renderatl.description
-    t: The largest tech conference with a dedicated Design & CSS track.
+    t: Найбільша технічна конференція, присвячена дизайну та CSS.
   - key: sponsors.google_chrome.description
     t: Дякуємо команді Google Chrome за підтримку нашої роботи.
   - key: sponsors.tokyodev.description
-    t: Find your dream developer job in Japan today.
+    t: Знайдіть роботу розробника своєї мрії в Японії вже сьогодні.
 
   ###########################################################################
   # FAQ/About
@@ -533,52 +533,52 @@ translations:
 
   - key: about.content
     t: >
-      The 2023 State of CSS survey ran from August 17 to September 12 2024, and collected 9,704 responses. The survey is run by [Devographics](https://www.devographics.com/), with help from a team of open-source contributors and consultants. 
+      Опитування "Cтан CSS 2023" тривало із 17 серпня to 12 вересня 2024 року та зібрало 9704 відповіді. Опитування проводив [Devographics](https://www.devographics.com/) із допомогою команди консультантів та учасників проєктів із відкритим програмним кодом. 
 
 
-      The State of CSS logo and t-shirt were designed and animated by [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
+      Логотип і футболку "Стан JavaScript" розробив [Christopher Kirk-Nielsen](http://chriskirknielsen.com/). 
 
 
-      ### Survey Goals
+      ### Цілі опитування 
 
-      This survey was created to identify upcoming trends in the web development ecosystem in order to help developers make technological choices. 
-
-
-      As such, this survey is focused on anticipating what's coming over the next few years rather than analyzing what's popular now, which is why the features or technologies that are currently most widespread are not always included. 
+      Це опитування було створено для визначення майбутніх тенденцій в екосистемі веброзробки, щоб допомогти розробникам здійснити вибір серед наявних технологій. 
 
 
-      Additionally, survey data is also used by browser vendors to prioritize features and inform initiatives such as [Interop 2024](https://web.dev/blog/interop-2024).
+      Так опитування зосереджено більше на передбаченні того, що станеться протягом наступних кількох років, ніж на аналізі того, що популярно саме зараз, — ось чому деякі функції чи технології іноді можуть не згадуватися попри широке впровадження. 
 
 
-      ### Survey Design
-
-      This survey was designed collaboratively [on GitHub](https://github.com/Devographics/surveys/issues/245).
-
-      ### Survey Audience
-
-      The survey was openly accessible online and respondents were not filtered or selected in any way. Respondents were primarily a mix of respondents from past surveys (alerted through a dedicated mailing list) and social media traffic. 
-
-      ### Project Funding
-
-      Apart from t-shirt sales, funding from this project comes from a variety of sources:
-
-      - Our partner [Frontend Masters](https://frontendmasters.com/) sponsors the survey in exchange for featuring relevant links to their courses at the bottom of each page.
-
-      - The [Google Chrome](https://www.google.com/chrome/) team set aside a sponsoring budget this year to help design and run the survey.
-
-      - [TokyoDev](https://www.tokyodev.com/) is also sponsoring the survey on an ongoing basis. 
-
-      ### Technical Overview
-
-      You can find a more in-depth technical overview of how the surveys are run [here](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2023-edition-1p6a). Our code is [open-source](https://github.com/Devographics/Monorepo/). 
-
-      ### Feedback
+      Постачальники браузерів також використовують ці дані, щоб визначати пріоритетні напрями діяльності та узасаднювати ініціативи, як-от [Interop 2024](https://web.dev/blog/interop-2024). 
 
 
-      - [Report a technical issue](https://github.com/Devographics/Monorepo/issues)
+      ### Дизайн опитування 
 
-      - [Make a suggestion for next year](https://github.com/Devographics/surveys/issues/249)
+      Опитування було розроблено колегіально [на платформі GitHub](https://github.com/Devographics/surveys/issues/245). 
 
-      - [Other non-technical issues](https://github.com/Devographics/surveys/issues)
+      ### Аудиторія опитування 
 
-      - [Join our Discord](https://discord.gg/tuWRUWVyJs)
+      Опитування було повністю відкрите та доступне онлайн, респонденти жодним чином не відфільтровувалися та не відбиралися. Респонденти складалися здебільшого з учасників минулих опитувань (сповіщених електронною поштою за спеціальним списком розсилання) та тих, хто прийшов через соціальні мережі. 
+
+      ### Фінансування проєкту 
+
+      Окрім як із продажу футболок, цей проєкт фінансується з різних джерел: 
+
+      - Наш партнер [Frontend Masters](https://frontendmasters.com/) спонсорує опитування в обмін на розміщення відповідних посилань на їхні курси у нижній частині кожної сторінки. 
+
+      – Цього року команда [Google Chrome](https://www.google.com/chrome/) виділила спонсорський бюджет, щоб допомогти розробити та провести опитування. 
+
+      - [TokyoDev](https://www.tokyodev.com/) також регулярно спонсорує це опитування. 
+
+      ### Технічний огляд 
+
+      Більш детальний технічний огляд того, як проводяться опитування, [тут](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2023-edition-1p6a). Код проєкту є [відкритим](https://github.com/Devographics/Monorepo/). 
+
+      ### Зворотний зв'язок 
+
+
+      - [Повідомити про технічну проблему](https://github.com/Devographics/Monorepo/issues) 
+
+      - [Додати пропозицію на наступний рік](https://github.com/Devographics/surveys/issues/249) 
+
+      - [Інші нетехнічні проблеми](https://github.com/Devographics/surveys/issues) 
+
+      - [Завітати у наш Discord-чат](https://discord.gg/tuWRUWVyJs) 
