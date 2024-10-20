@@ -642,7 +642,7 @@ translations:
   - key: options.what_do_you_use_react_for.mobile_apps
     t: Застосунки для мобільних пристроїв
   - key: options.what_do_you_use_react_for.mobile_apps.description
-    t: Мобільні застосунки з допомогою React або React Native
+    t: Мобільні застосунки за допомогою React або React Native
 
   - key: options.what_do_you_use_react_for.desktop_apps
     t: Застосунки для настільних комп'ютерів
