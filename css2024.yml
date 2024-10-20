@@ -350,7 +350,10 @@ translations:
     t: Codepen creator & Shoptalk Show host
   - key: picks.chris_coyier.description
     t: |
-      It's tempting to say something about the CSS powerhouse that Google has been recently, certainly in the last year. Rachel Andrew, Adam Argyle, Bramus Van Damme, Una Kravets, Tab Atkins — and they are all doing big cool stuff publicly mostly.
+      It's tempting to say something about the CSS powerhouse that Google has been recently, certainly in the last year. Rachel Andrew, Adam Argyle, Bramus Van Damme, Una Kravets, Tab Atkins, fantasai — and they are all doing big cool stuff publicly mostly. 
+
+
+      *Note: fantasai now works at Apple.*
 
   - key: picks.temani_afif.name
     t: |
@@ -488,16 +491,18 @@ translations:
   # Sponsors
   ###########################################################################
 
-  # - key: sponsors.frontendmasters.description
-  #   t: Вдосконалюйте свої навички за допомогою поглиблених сучасних курсів про інженерію клієнтської частини.
-  # - key: sponsors.polypane.description
-  #   t: The browser for ambitious devs. Build responsive, accessible and fast websites with ease.
-  # - key: sponsors.nijibox.description
-  #   t: UX and Product Development consulting in the heart of Tokyo.
-  # - key: sponsors.renderatl.description
-  #   t: The largest tech conference with a dedicated Design & CSS track.
-  # - key: sponsors.google_chrome.description
-  #   t: Дякуємо команді Google Chrome за підтримку нашої роботи.
+  - key: sponsors.frontendmasters.description
+    t: Вдосконалюйте свої навички за допомогою поглиблених сучасних курсів про інженерію клієнтської частини.
+  - key: sponsors.polypane.description
+    t: The browser for ambitious devs. Build responsive, accessible and fast websites with ease.
+  - key: sponsors.nijibox.description
+    t: UX and Product Development consulting in the heart of Tokyo.
+  - key: sponsors.renderatl.description
+    t: The largest tech conference with a dedicated Design & CSS track.
+  - key: sponsors.google_chrome.description
+    t: Дякуємо команді Google Chrome за підтримку нашої роботи.
+  - key: sponsors.tokyodev.description
+    t: Find your dream developer job in Japan today.
 
   ###########################################################################
   # FAQ/About
