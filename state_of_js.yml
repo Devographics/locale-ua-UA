@@ -1071,14 +1071,14 @@ translations:
   - key: other_tools.backend_frameworks.others
     aliasFor: tools.backend_frameworks.others
 
-  - key: other_tools.ai_tools
+  - key: tools.ai_tools
     t: ШІ-інструменти
-  - key: other_tools.ai_tools.question
+  - key: tools.ai_tools.question
     t: Які з цих ШІ-інструментів ви регулярно використовуєте для допомоги у написанні коду?
 
-  - key: other_tools.hosting
+  - key: tools.hosting
     t: Сервіси для хостингу
-  - key: other_tools.hosting.question
+  - key: tools.hosting.question
     t: Які з цих сервісів ви використовували для хостингу JavaScript-застосунків?
 
   ###########################################################################
