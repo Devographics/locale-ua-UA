@@ -621,6 +621,11 @@ translations:
   - key: tools.others
     t: Інші інструменти
 
+  - key: tools.tools_work
+    t: У контексті роботи
+  - key: tools.tools_work.question
+    t: Які з-поміж цих інструментів ви використовуєте у межах своєї роботи?
+
   # front-end frameworks
 
   - key: tools.front_end_frameworks_ratios
@@ -632,6 +637,11 @@ translations:
     t: Досвід використання і ставлення до фреймворків для клієнтської частини
   - key: tools.front_end_frameworks_experience.short
     aliasFor: tools.experience
+
+  - key: tools.front_end_frameworks_work
+    aliasFor: tools.tools_work
+  - key: tools.front_end_frameworks_work.question
+    aliasFor: tools.tools_work.question
 
   - key: tools.front_end_frameworks.others
     t: Інші фреймворки для клієнтської частини
@@ -666,6 +676,11 @@ translations:
   - key: tools.meta_frameworks_experience.short
     aliasFor: tools.experience
 
+  - key: tools.meta_frameworks_work
+    aliasFor: tools.tools_work
+  - key: tools.meta_frameworks_work.question
+    aliasFor: tools.tools_work.question
+
   - key: tools.meta_frameworks.others
     t: Інші метафреймворки
   - key: tools.meta_frameworks.others.short
@@ -699,9 +714,14 @@ translations:
   - key: tools.testing_experience.short
     aliasFor: tools.experience
 
-  - key: tools.testing.others
+  - key: tools.testing_work
+    aliasFor: tools.tools_work
+  - key: tools.testing_work.question
+    aliasFor: tools.tools_work.question
+
+  - key: tools.testing_others
     t: Інші інструменти тестування
-  - key: tools.testing.others.short
+  - key: tools.testing_others.short
     aliasFor: tools.others
 
   - key: tools.testing_happiness
@@ -730,9 +750,14 @@ translations:
   - key: tools.mobile_desktop_experience.short
     aliasFor: tools.experience
 
-  - key: tools.mobile_desktop.others
+  - key: tools.mobile_desktop_work
+    aliasFor: tools.tools_work
+  - key: tools.mobile_desktop_work.question
+    aliasFor: tools.tools_work.question
+
+  - key: tools.mobile_desktop_others
     t: Інші інструменти для мобільних пристроїв і настільних комп'ютерів
-  - key: tools.mobile_desktop.others.short
+  - key: tools.mobile_desktop_others.short
     aliasFor: tools.others
 
   - key: tools.mobile_desktop_happiness
@@ -761,9 +786,14 @@ translations:
   - key: tools.build_tools_experience.short
     aliasFor: tools.experience
 
-  - key: tools.build_tools.others
+  - key: tools.build_tools_work
+    aliasFor: tools.tools_work
+  - key: tools.build_tools_work.question
+    aliasFor: tools.tools_work.question
+
+  - key: tools.build_tools_others
     t: Інші інструменти для збирання
-  - key: tools.build_tools.others.short
+  - key: tools.build_tools.short
     aliasFor: tools.others
 
   - key: tools.build_tools_happiness
@@ -792,9 +822,14 @@ translations:
   - key: tools.monorepo_tools_experience.short
     aliasFor: tools.experience
 
-  - key: tools.monorepo_tools.others
+  - key: tools.monorepo_tools_work
+    aliasFor: tools.tools_work
+  - key: tools.monorepo_tools_work.question
+    aliasFor: tools.tools_work.question
+
+  - key: tools.monorepo_tools_others
     t: Інші інструменти для монорепозиторіїв
-  - key: tools.monorepo_tools.others.short
+  - key: tools.monorepo_tools.short
     aliasFor: tools.others
 
   - key: tools.monorepo_tools_happiness
@@ -1076,6 +1111,26 @@ translations:
   - key: tools.ai_tools.question
     t: Які з цих ШІ-інструментів ви регулярно використовуєте для допомоги у написанні коду?
 
+  - key: tools.ai_generated_code
+    t: Генерація коду за допомогою ШІ
+  - key: tools.ai_generated_code.question
+    t: Яку частку коду, який ви створюєте, згенеровано за допомогою ШІ?
+
+  - key: options.ai_generated_code.range_0
+    t: Ніскільки (0%)
+  - key: options.ai_generated_code.range_0_25
+    t: Меншість (0-25%)
+  - key: options.ai_generated_code.range_25_50
+    t: Небагато (25-50%)
+  - key: options.ai_generated_code.range_50
+    t: Половину (50%)
+  - key: options.ai_generated_code.range_50_75
+    t: Багато (50-75%)
+  - key: options.ai_generated_code.range_75_100
+    t: Більшість (75-100%)
+  - key: options.ai_generated_code.range_100
+    t: Майже все (100%)
+
   - key: tools.hosting
     t: Сервіси для хостингу
   - key: tools.hosting.question
@@ -1133,6 +1188,48 @@ translations:
     t: У яких галузях ви використовуєте JavaScript?
   - key: usage.industry_sector_js.others
     aliasFor: usage.industry_sector.others
+
+  - key: usage.js_sugar_proposal
+    t: JS0/JSSugar
+  - key: usage.js_sugar_proposal.question
+    t: Як ви ставитеся до нещодавньої пропозиції JS0/JSSugar?
+  - key: usage.js_sugar_proposal.prompt
+    t: Це перенесе підтримання нових функцій до JSSugar — версії JavaScript, інтерпретованої інструментами збирання, а браузери підтримуватимуть лише JS0 — підмножину цієї мови.
+
+  - key: options.js_sugar_proposal.strongly_oppose
+    t: Цілковито НЕ підтримую
+  - key: options.js_sugar_proposal.oppose
+    t: НЕ підтримую
+  - key: options.js_sugar_proposal.neutral
+    t: Нейтрально
+  - key: options.js_sugar_proposal.support
+    t: Підтримую
+  - key: options.js_sugar_proposal.strongly_support
+    t: Цілковито підтримую
+
+  - key: usage.native_types_proposal
+    t: Нативні типи
+  - key: usage.native_types_proposal.question
+    t: Якою ви вбачаєте імплементацію нативних типів у JavaScript?
+
+  - key: options.native_types_proposal.typescript_like_types
+    t: Максимально схоже до TypeScript
+  - key: options.native_types_proposal.jsdoc_like_types
+    t: За допомогою коментарів, схоже до JSDoc
+  - key: options.native_types_proposal.no_types
+    t: НЕ бажаю їхньої імплементації зовсім
+
+  - key: usage.js_new_features
+    t: Нові пропозиції
+  - key: usage.js_new_features.question
+    t: Які з-поміж цих активних пропозицій змін до JavaScript цікавлять вас найбільше?
+  - key: usage.js_new_features.prompt
+    t: Згідно з [пропозиціями до ECMAScript від TC39](https://github.com/tc39/proposals), що наразі на етапах 2.7 та 3 процесу обговорення.
+
+  - key: usage.js_missing_features
+    t: Відсутні функції
+  - key: usage.js_missing_features.question
+    t: На вашу думку, яких з-поміж з цих функцій наразі не вистачає у JavaScript?
 
   ###########################################################################
   # Opinions

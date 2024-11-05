@@ -59,6 +59,8 @@ translations:
     t: Ваша електронна адреса
   - key: newsletter.submit
     t: Нагадати
+  - key: newsletter.thanks
+    t: Дякуємо за реєстрацію!
 
   # languages
   - key: languages.available_languages

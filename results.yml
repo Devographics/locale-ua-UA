@@ -1671,8 +1671,14 @@ translations:
     t: Оновити діаграму
   - key: filters.copy_link
     t: Скопіювати посилання на ці фільтри
+  - key: filters.code
+    t: Фільтри у вигляді коду
   - key: filters.get_code
-    t: Отримати ці фільтри у вигляді коду
+    t: Отримати код
+  - key: filters.import_code
+    t: Імпортувати код
+  - key: filters.paste_filters_code
+    t: Вставити фільтри у вигляді коду сюди
 
   - key: filters.presets.title
     t: "Налаштування:"
@@ -1773,10 +1779,10 @@ translations:
       Сортувати за:
   - key: charts.sort_by_sort
     t: >
-      Сортувати за: "**{sort}**""
+      Сортувати за: "**{sort}**"
   - key: charts.sorted_by_sort_order
     t: >
-      Сортувати за: "**{sort}**"", **{order}**
+      Сортувати за: "**{sort}**", **{order}**
   - key: charts.order.asc
     t: Зростання
   - key: charts.order.desc
