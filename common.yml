@@ -297,9 +297,9 @@ translations:
   - key: sections.other_tools.description
     t: Які серед цих інструментів і технологій ви регулярно використовуєте.
   - key: section.tools_others.title
-    aliasFor: section.other_tools.title
+    aliasFor: sections.other_tools.title
   - key: section.tools_others.description
-    aliasFor: section.other_tools.description
+    aliasFor: sections.other_tools.description
 
   - key: sections.report.title
     t: Звіт про тренди
@@ -694,6 +694,22 @@ translations:
     t: 25-29 років
   - key: options.years_of_experience.range_over_30
     t: Понад 30 років
+
+  # years of experience v3
+  - key: options.years.range_0_4
+    aliasFor: options.years_of_experience.range_0_4
+  - key: options.years.range_5_9
+    aliasFor: options.years_of_experience.range_5_9
+  - key: options.years.range_10_14
+    aliasFor: options.years_of_experience.range_10_14
+  - key: options.years.range_15_19
+    aliasFor: options.years_of_experience.range_15_19
+  - key: options.years.range_20_24
+    aliasFor: options.years_of_experience.range_20_24
+  - key: options.years.range_25_29
+    aliasFor: options.years_of_experience.range_25_29
+  - key: options.years.range_over_30
+    aliasFor: options.years_of_experience.range_over_30
 
   # company size
   - key: options.company_size.na
@@ -1566,12 +1582,6 @@ translations:
     t: Вища освіта
   - key: user_info.higher_education_degree.question
     t: Ви маєте вищу освіту?
-
-  # employment status
-  - key: user_info.employment_status
-    t: Зайнятість
-  - key: user_info.employment_status.description
-    t: Який ваш статус зайнятості?
 
   # completion
   - key: user_info.completion_stats
