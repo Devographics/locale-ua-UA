@@ -38,13 +38,17 @@ translations:
 
   # - key: introduction.html2024
   #   t: |
-  #     <span class="first-letter">C</span>SS is going through a period of unprecedented progress. Between `:has()`, container queries, subgrid, and many more, new features are making their way to browsers seemingly every month. 
+      # <span class="first-letter">D</span>espite its name, this survey is about a lot more than just HTML. 
 
-  #     The consequence of all this growth is that things can get a bit overwhelming. Thankfully this year we had [Chen Hui Jing](https://chenhuijing.com/) to help design the survey and guide us through the CSS jungle. 
+      # Don't get me wrong – HTML itself is more relevant than ever today, which is quite impressive for a 30-year old technology. Even so, we've  tried to broaden the survey's scope even more to the web platform as a whole.  
 
-  #     And speaking of the survey, did you know browser vendors use its data as part of the [Interop](https://web.dev/interop-2023/) initiative to help prioritize which features to work on next?
+      # From browser APIs, to web development pain points, to accessibility strategies, to analytics and performance tools, there's a *lot* to cover. 
 
-  #     Finally, we are introducing a new feature this year: the ability to **customize charts** with your own data filters. We're excited to see what kind of new insights you'll come up with!
+      # To make it easier to find your way through all these new features, we are now integrating a feature's [Baseline status](https://web-platform-dx.github.io/web-features/) whenever possible – look for a little blue or green dot next to its name.
+
+      # And if you find all this raw data a bit lacking in context, you can now also browse through the **comments** left by respondents on each question. 
+
+      # So let's dive right in and see what the web platform has been up to in 2024!
 
   #     <span class="conclusion__byline">– Sacha Greif</span>
 
@@ -92,11 +96,274 @@ translations:
 
   - key: sections.user_info.description.html2024
     t: |
-      Ласкаво просимо до результатів опитування "Стан HTML". У першій в історії хвилі опитування взяли участь **20 904** учасників з усього світу.
+      Ласкаво просимо до результатів опитування "Стан HTML". У цьогорічному опитуванні взяли участь **5402** учасника з усього світу.
 
   - key: sections.features.description.html2024
     t: |
       Функції HTML та інші API браузера
+
+  ###########################################################################
+  # Charts
+  ###########################################################################
+
+  # user_info
+
+  # - key: user_info.country.takeaway.html2024
+  #   t: >
+  #     Germany had a great showing this year, and while it didn't overtake the U.S. for number one it definitely punched above its weight.
+
+  # - key: user_info.locale.takeaway.html2024
+  #   t: >
+  #     Many thanks to our volunteer translators for making the surveys available in so many different languages!
+
+  # - key: user_info.completion_stats.takeaway.html2024
+  #   t: >
+  #     Despite the survey's length, an overwhelming majority of respondents took the time to complete it from start to finish!
+
+  # - key: user_info.age.takeaway.html2024
+  #   t: >
+  #     State of HTML respondents had a median age of 35 – close to State of CSS's 34, and quite a bit older than State of JS's 31.
+
+  # - key: user_info.years_of_experience.takeaway.html2024
+  #   t: >
+  #     The difference between surveys also holds when looking at years of web development experience: an average of 12 years here, compared to 9 years for State of JS respondents.
+
+  # - key: user_info.company_size.takeaway.html2024
+  #   t: >
+  #     The larger the company, the higher the salary. Although if you're good enough, our data shows that you can earn a decent living no matter your company's size.
+
+  # - key: user_info.yearly_salary.takeaway.html2024
+  #   t: >
+  #     While we often hear tales of six-figure salaries out of Silicon Valley, the reality is that most front-end developers throughout the world earn far less, as becomes apparent when directly comparing the U.S. and the rest of the world.
+
+  # - key: user_info.higher_education_degree.takeaway.html2024
+  #   t: >
+  #     While having a degree will ensure you earn more, turns out it doesn't necessarily have to be related to programming – a good sign for the many among us who discovered a passion for web development further along in life.
+
+  # - key: user_info.gender.takeaway.html2024
+  #   t: >
+  #     Unlike past surveys, we didn't observe a significant income difference between genders this time. 
+  #     That being said, this lone datapoint does not mean we should disregard the challenges faced by women in our industry.
+
+  # - key: user_info.race_ethnicity.takeaway.html2024
+  #   t: >
+  #     Non-white respondents were more likely to be younger and have less experience – which hopefully points to a ongoing diversification of the industry.
+
+  # - key: user_info.disability_status.takeaway.html2024
+  #   t: >
+  #     Thanks to the continued efforts of accessibility advocates, we now accept the fact that disabilities (permanent or not) should be taken into account as part of the design & development process.
+
+  # - key: user_info.source.takeaway.html2024
+  #   t: >
+  #     A majority of respondents knew about the survey from previous years, but many also found it through a banner on the [2024 State of CSS survey results](https://2024.stateofcss.com/). 
+
+  #     And for the first time, Mastodon overtook X as a traffic source, possibly due to the later penalizing tweets containing outbounds links.
+
+  # # features
+
+  # - key: features.all_features
+  #   t: Features
+
+  # - key: features.all_features.takeaway.html2024
+  #   t: >
+  #     Landmark elements (`<main>`, `<nav>`, etc.) unsurprinsingly ranked first as the most used feature, while the *least* used was Isolated Web Apps. 
+
+  #     `<datalist>` had the highest proportion positive sentiment (47.%), while `<model>` ranked first for negative sentiment at 9%.
+
+  # - key: features.reading_list.takeaway.html2024
+  #   t: >
+  #     The Reading List lets you save items you want to learn more about after the survey is complete, and the item that was added the most was the new Customizable Select feature.
+
+  # # forms
+
+  # - key: features.forms_features.takeaway.html2024
+  #   t: >
+  #     With forms being one of the main ways users interact with the web, it should come as no surprise that they present their set of challenges. 
+
+  #     One feature to keep an eye on is Customizable Select, which by virtue of being brand new is one of the least used form features, yet ranks second when ranked by positive sentiment.
+
+  # - key: features.forms_pain_points.takeaway.html2024
+  #   t: >
+  #     Styling form inputs continues to be developers' top form-related pain point, especially when it comes to `<select>` elements. 
+
+  #     Speaking of `<select>`, the lack of “combobox” behavior (search, autofill, etc.) was also deeply felt since it often forces apps to rely on JavaScript workarounds
+
+  # # interactivity
+
+  # - key: features.interactivity_features.takeaway.html2024
+  #   t: >
+  #     Despite low usage and a “Limited Availability” baseline status, the new Popover API scored first in terms of positive sentiment, which makes sense for such a useful feature.
+
+  # - key: features.interactivity_pain_points.takeaway.html2024
+  #   t: >
+  #     Styling form inputs continues to be developers' top form-related pain point, especially when it comes to `<select>` elements. 
+
+  #     Speaking of `<select>`, the lack of “combobox” behavior (search, autofill, etc.) was also deeply felt since it often forces apps to rely on JavaScript workarounds.
+
+  # # content
+
+  # - key: features.content_features.takeaway.html2024
+  #   t: >
+  #     The `srcset` and `sizes` attributes collected 81 freeform comments, with 58% of those corresponding to a negative sentiment. As one respondent put it, “you have to look up the syntax every time you use it.”
+
+  # - key: features.content_pain_points.takeaway.html2024
+  #   t: >
+  #     SVG (especially styling them with CSS) and image management are the top two pain points when it comes to dealing with content.
+
+  # # web_components
+
+  # - key: features.web_components_features.takeaway.html2024
+  #   t: >
+  #     While Web Components have their adepts, they remain a contested technology. Web Components features had an average of 7% of negative opinions, versus 4% for all other features combined.
+
+  # - key: features.web_components_libraries.takeaway.html2024
+  #   t: >
+  #     Svelte may not be known as a web components library, but it turns out that it works quite well with them – unlike React, which appears far lower down in the rankings.
+
+  # - key: features.using_web_components_pain_points.takeaway.html2024
+  #   t: >
+  #     The difficulty of styling and customizing web components remains the top obstacle to using them more broadly. Another barrier to entry is how hard it is to integrate them with JavaScript frontend libraries.
+
+  # - key: features.making_web_components_pain_points.takeaway.html2024
+  #   t: >
+  #     Despite its cool name, Shadow DOM continues to frustrate web component makers, with many throwing up their hands at the excessive complexity of the whole process.
+
+  # # accessibility
+
+  # - key: features.accessibility_features.takeaway.html2024
+  #   t: >
+  #     The accessibility features mentioned in this year's survey proved to be straightforward enough to use, which translated into a very low negative sentiment overall.
+
+  # - key: features.accessibility_disabilities.takeaway.html2024
+  #   t: >
+  #     It was comforting to see developers account for a wide range of disabilities while making websites, with visual disabilities taking the top ranks.
+  #   aliases:
+  #     - accessibility.accessibility_disabilities.takeaway.html2024
+
+  # - key: features.accessibility_techniques.takeaway.html2024
+  #   t: >
+  #     It's nice to see that alt text is widely implemented, and if nothing else this chart can serve as a handy shortlist of accessibility patterns to implement in your own projects.
+  #   aliases:
+  #     - accessibility.accessibility_techniques.takeaway.html2024
+
+  # - key: features.accessibility_screenreaders.takeaway.html2024
+  #   t: >
+  #     It should come as no surprise that developers are more likely to use screenreaders if they come bundled with their browser or OS.
+  #   aliases:
+  #     - accessibility.accessibility_screenreaders.takeaway.html2024
+
+  # - key: features.accessibility_tools.takeaway.html2024
+  #   t: >
+  #     Lighthouse and browser devtools in general topped the rankings, overtaking more specialized tools such as Axe or WAVE.
+  #   aliases:
+  #     - accessibility.accessibility_tools.takeaway.html2024
+
+  # - key: features.accessibility_pain_points.takeaway.html2024
+  #   t: >
+  #     Accessibility presents a unique challenge in that developers must not only overcome technical issues such as testing difficulties, but also organizational obstacles such as low prioritization or lack of client demand.
+  #   aliases:
+  #     - accessibility.accessibility_pain_points.takeaway.html2024
+
+  # # mobile_web_apps_features
+
+  # - key: features.mobile_web_apps_features.takeaway.html2024
+  #   t: >
+  #     Usage for mobile and desktop web app features was low overall, with an average of only 6% of respondents having used these features, versus 30% for all other features combined.
+
+  # - key: features.native_apps_tools.takeaway.html2024
+  #   t: >
+  #     While building native apps with web technologies presents its set of challenges and limitations, it was still the most popular method among respondents.
+  #   aliases:
+  #     - mobile_web_apps.native_apps_tools.takeaway.html2024
+
+  # - key: features.mobile_web_apps_pain_points.takeaway.html2024
+  #   t: >
+  #     iOS's dominant marketshare combined with its locked-down nature means there isn't much recourse when web platform issues crop up.
+
+  # # other_tools
+
+  # - key: other_tools.site_generators.takeaway.html2024
+  #   t: >
+  #     While Next.js isn't a traditional static site generator, its support for more dynamic rendering methods in addition to build-time rendering makes it a very polyvalent choice – just like Astro, which boasts a similar feature set.
+
+  # - key: other_tools.validation_tools.takeaway.html2024
+  #   t: >
+  #     Validation tools might not be as popular as they once were, but they're still a useful item to have in your web developer toolbelt.
+
+  # - key: other_tools.performance_tools.takeaway.html2024
+  #   t: >
+  #     Similar to the accessibility tools chart, Lighthouse and browser devtools top the ranking, once again showing that polyvalent tools tend to be more popular than their more specialized counterparts.
+
+  # - key: other_tools.analytics_tools.takeaway.html2024
+  #   t: >
+  #     Google Analytics might still dominate, but more privacy-friendly alternative such as Plausible or Fathom are gaining ground.
+
+  # - key: other_tools.browsers.takeaway.html2024
+  #   t: >
+  #     Once you look beyond the big four browsers, there's actually a surprising amount of variety in this space, with new entrants like Arc, Brave, and Zen; and developer-focused options such as Polypane.
+
+  # - key: other_tools.web_platform_resources.takeaway.html2024
+  #   t: >
+  #     MDN and Can I Use have earned their spot as key resources for the web development community – but keep an eye out for the WebDX group's work around [Web Features](https://web-platform-dx.github.io/web-features-explorer/), a promising new initiative.
+
+  # # usage
+
+  # - key: usage.html_interoperability_features.takeaway.html2024
+  #   t: >
+  #     There are few things more frustrating than knowing a new browser API would solve your problem perfectly, but that you can't use it because of poor support. 
+
+
+  #     Thankfully, with initiatives like [Interop](https://web.dev/blog/interop-2024) one can hope that the Popover API and Anchor Positioning soon join the ranks of the features we all use without giving it a second thought.
+
+  # - key: usage.html_functionality_features.takeaway.html2024
+  #   t: >
+  #     While poor browser support is certainly a problem, even well-supported features can see lower usage if they are hard to customize to developer needs, or just plain hard to master.
+
+  # - key: usage.html_missing_elements.takeaway.html2024
+  #   t: >
+  #     It might seem weird that omnipresent UI controls such as tabs or datatables still don't have a corresponding native HTML element. 
+
+
+  #     But getting these complex behaviors right while accounting for all edge cases takes time, so for now all we can do is wait and hope these elements make their way to the browser one day.
+
+  # - key: usage.html_css_js_balance.takeaway.html2024
+  #   t: >
+  #     We still spend far more time writing JavaScript (or TypeScript) than anything else. While there's nothing wrong with that, the web platform as a whole's ongoing progress will hopefully help balance things out a bit in the near future.
+
+  # - key: usage.what_do_you_use_html_for.takeaway.html2024
+  #   t: >
+  #     While “classic” use cases like blogs or homepages still represent a sizable part of the modern web developer's workload, the largest chunk by far is now web apps – which in turn explains why the web platform has been adapting to this new state of things.
+
+  # - key: usage.industry_sector.takeaway.html2024
+  #   t: >
+  #     Programming & Technical Tools topped the rankings, which makes sense for a developer-focused survey. 
+
+
+  #     It's also interesting to note that E-commerce came in third, as this is a sector that faces the double challenge of building highly performant sites that also need to feature complex user interactions.
+
+  # # opinions
+
+  # - key: opinions.accessibility_is_valued.takeaway.html2024
+  #   t: >
+  #     It's great to see accessibility being properly valued in the workplace – at least among survey respondents. 
+
+
+  #     And while there is surely a self-selection bias in effect, the efforts of accessibility advocates have also contributed a lot in moving the needle.
+
+  # - key: opinions.keeping_informed_is_challenging.takeaway.html2024
+  #   t: >
+  #     New features are great, but only if you can actually know what they are, and how to use them. 
+
+
+  #     A majority of respondents experience this challenge on a daily basis, as reflected in the data.
+
+  # - key: opinions.browser_interoperability_is_obstacle.takeaway.html2024
+  #   t: >
+  #     While browser interoperability has traditionally been a major web development pain point, it does seem like the situation is finally getting better – and it'll be interesting to see how this chart evolves over time.
+
+  # - key: opinions.web_platform_right_direction.takeaway.html2024
+  #   t: >
+  #     There's reason to be hopefuly about the web platform, and this optimism is reflected in this year's data.
 
   ###########################################################################
   # Other Content
@@ -120,14 +387,16 @@ translations:
   - key: features.content_features
     t: Досвід використання і ставлення до методів наповнення сайту
 
-  - key: features.web_components_main_features
+  - key: features.web_components_features
     t: Досвід використання і ставлення до вебкомпонентів
+    aliases:
+      - web_components_main_features
 
   - key: features.accessibility_features
     t: Досвід використання і ставлення до забезпечення доступності
 
   - key: features.mobile_web_apps_features
-    t: Досвід використання і ставлення до вебзастосунків, подібних до нативних
+    t: Досвід використання і ставлення до нативних вебзастосунків
 
   ###########################################################################
   # Sponsors
@@ -146,26 +415,37 @@ translations:
   # Conclusion
   ###########################################################################
 
-  # - key: conclusion.html2024.lea_verou.bio
-  #   t: W3C Technical Architecture Group Member & MIT CSAIL Researcher
-  # - key: conclusion.html2024.lea_verou
+  # - key: conclusion.html2024.patrick_brosset.bio
+  #   t: Product Manager on the Edge team at Microsoft
+  # - key: conclusion.html2024.patrick_brosset
   #   t: >
-  #     *Phew!* This survey has taken a monumental effort by dozens of people across six continents. Not only did it set a new record for the most responses in a “State of…” survey debut, its data collection UI pioneered innovations that gave us unparalleled insight into developer attitudes, and will ripple far beyond its scope. 
+  #     We tend to take HTML for granted, and consider it to be mostly complete. But the elements and browser features it comes with have evolved tremendously over the years, and continue to evolve. As HTML-first architectures are gaining traction, we're getting the capabilities to build them the right way. It's never been a better time to be an HTML developer. 
 
+  #     There's more to do though. New problem areas emerge all the time and the platform needs to keep up with new needs. 
 
-  #     Some argue that improving HTML is futile, but the survey resoundingly demonstrates the contrary. **Developers crave more interactive HTML elements**: not only were interactive elements like `<datalist>` or the Popover API among those accumulating the most positive sentiment across all categories, but in addition all top [missing elements](https://2024.stateofhtml.com/en-US/usage/#html_missing_elements) were interactive widgets. 
+  #     ### Adding New Features… 
 
+  #     New HTML elements, such as datatables, tabs, or switches, are dearly needed, but it's important to strike the right balance between complex components that do it all; and simpler but robust and styleable primitives from which we can build. 
 
-  #     However, **making simple things easy** by providing canned functionality is no longer sufficient. **Making complex things possible** by supporting thorough customization is a necessity: insufficient customizability, especially around **styling**, was by far the top recurring pain point. 
+  #     ### …While Improving Old Ones 
 
+  #     It's also important to keep improving what we already have. Existing features such as `<select>`, date and time `<input>`, or `<details>` don't always have the right level of stylability and customization – while other features like CSP or Shadow DOM are too complex to use. 
 
-  #     As a result, form elements were also the elements [most frequently recreated](https://2024.stateofhtml.com/en-US/usage/#html_functionality_features); a lose-lose outcome that makes both developers and end-users suffer. Thankfully, there are many new initiatives to improve this, so the future looks bright.
+  #     Accessibility, although now better recognized as something developers and organizations need to care about, remains hard to test and complex to improve. 
 
+  #     ### Browser Compatibility 
 
-  #     Another big need is extensibility. It does not scale if only standards bodies have the privilege to extend HTML; and besides, generic elements cannot possibly address the enormous diversity of needs. Unfortunately, **Web Components APIs** (and especially Shadow DOM), while widely used, appear to fall short in terms of meeting developer needs and providing a smooth developer experience, as they topped the charts of worst experiences across the survey. However, the ongoing activity in this area (some of which I have been part of) leaves me hopeful that while it has been a rocky path, they are on track to reach their full potential.
+  #     On top of this, the browser compatibility and interoperability of our HTML features continues to be a major obstacle to web developers. Having to support older versions of browsers is a pain. This year, results show that this is especially true for newer features like Popover, anchor positioning, and multi-page View Transitions, but also for `<dialog>` and for PWAs. These features are getting adopted, and developers need them to work everywhere. 
 
+  #     ### The Challenge of Keeping Up 
 
-  #     Which brings me to my final point: it is important to remember that this survey is only a snapshot of developer perspectives and reflects the state of the web platform at the time. However, a primary goal of these surveys is to improve the status quo by providing better visibility into developer needs. How many of today’s pain points will be addressed tomorrow as a result? Join us later this year for the survey’s second iteration and let’s find out!
+  #     So, yes, there's more to do. But, things _are_ happening. In fact, they're happening so fast that it can be challenging to stay informed. Resources like MDN, Caniuse.com, Web.dev, or the W3C website are a tremendous help, but there is an opportunity for more tools that help us keep up. 
+
+  #     On the other hand, talking about new features too early can be frustrating for developers who can't use them yet. That's why it's important to keep maintaining high-quality platform data such as [browser-compat-data](https://github.com/mdn/browser-compat-data/) and [web-features](https://github.com/web-platform-dx/web-features/), which let us communicate about features in a developer-friendlier way. 
+
+  #     ### A Bright Future for HTML 
+
+  #     To close, it's heartwarming that most respondents agree that, overall, interoperability is now much less of an issue than it used to be, with clear improvements being felt in recent years. And, with the increasing number of capabilities we're getting, building performant, accessible, and interactive HTML-first UIs is becoming easier all the time, making it possible to reduce JavaScript usage to where it truly matters, and letting web servers and browsers communicate how they were meant to: with HTML!
 
   ###########################################################################
   # FAQ/About
@@ -215,9 +495,9 @@ translations:
 
   # - key: about.content
   #   t: |
-  #     The 2024 State of HTML survey ran from September 19 to October 19 2024, and collected 20,904 responses. 
+  #     The 2024 State of HTML survey ran from September 12 to November 5 2024, and collected 5,402 responses.  
 
-  #     The survey design effort was lead by [Lea Verou](https://lea.verou.me/) thanks to a grant from Google. Lea also oversaw the prototyping, testing, and implementation of new UI data collection elements; contributed to data processing; and helped with data visualization. 
+  #     The survey was designed collaboratively through [an open GitHub thread](https://github.com/Devographics/surveys/issues/246) and during [WebDX Community Group](https://www.w3.org/groups/cg/webdx/) meetings. 
 
   #     The survey infrastructure is run by [Sacha Greif](https://sachagreif.com/) and [Eric Burel](https://www.lbke.fr/), with help from a team of open-source contributors and consultants. 
 

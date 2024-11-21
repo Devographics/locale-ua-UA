@@ -92,6 +92,8 @@ translations:
     t: Мексика
   - key: options.country.MMR
     t: М'янма
+  - key: options.country.NPL
+    t: Непал
   - key: options.country.NOR
     t: Норвегія
   - key: options.country.NLD
