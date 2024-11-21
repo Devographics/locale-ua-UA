@@ -89,7 +89,7 @@ translations:
   - key: general.translation_help
     t: Допомогти з перекладом
   - key: general.newly_added
-    t: Додано цього року
+    t: Додано до опитування цього року
   - key: general.new
     t: Нове
   - key: general.devographics_banner
@@ -467,6 +467,12 @@ translations:
     t: Респонденти, які не висловили жодного ставлення до технології.
   - key: options.sentiment.negative.description
     t: Респонденти, які не зацікавлені у вивченні технології або використовували її і мали негативний досвід.
+
+  # comments
+  - key: options.experience.comments
+    t: Коментарі
+    aliases:
+      - options.sentiment.comments
 
   # patterns
   - key: options.patterns.use_never
@@ -1641,6 +1647,12 @@ translations:
   - key: resources.blogs_news_magazines.placeholder
     t: |
       Блог/розсилка #{index}…
+
+  # newsletters
+  - key: resources.newsletters
+    t: Розсилки
+  - key: resources.newsletters.question
+    t: Які розсилки ви читаєте, щоб залишатися обізнаними про новини веброзробки?
 
   # sites & courses
   - key: resources.sites_courses

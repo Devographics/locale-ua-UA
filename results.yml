@@ -27,6 +27,14 @@ translations:
   - key: sponsors.learn_more
     t: Детальніше.
 
+  - key: general.disclaimer.representation
+    t: >
+      Це опитування поширювалося переважно через онлайн-платформи, кожна з яких має свої власні демографічні упередження. Тобто воно представляє певні спільноти і може бути не репрезентативним щодо спільноти розробників загалом.
+
+  ###########################################################################
+  # Tabs
+  ###########################################################################
+
   - key: tabs.all_respondents
     t: Усі респонденти
   - key: tabs.main_answers
@@ -505,6 +513,10 @@ translations:
     t: MDN
   - key: blocks.entity.caniuse_link
     t: CanIUse
+  - key: blocks.entity.threads_link
+    t: Threads
+  - key: blocks.entity.bluesky_link
+    t: Bluesky
 
   # people
   - key: blocks.people.name
@@ -824,6 +836,13 @@ translations:
   - key: charts.facet_respondents
     t: "({count} респондентів)"
 
+  - key: charts.average.used
+    t: 'Середнє: "Використовував(-ла)"'
+  - key: charts.average.positive
+    t: 'Середнє: "Позитивно"'
+  - key: charts.average.negative
+    t: 'Середнє: "Негативно"'
+
   - key: charts.nth_percentile
     t: "{percentile}-й процентиль"
   - key: charts.nth_percentile_value
@@ -957,7 +976,7 @@ translations:
   - key: charts.cutoff_answers.short
     t: Відкинуті відповіді
   - key: charts.cutoff_answers.description
-    t: Відповіді, що не подолали визначений поріг входження
+    t: Елементи, що мають меншу за {cutoff} кількість відповідей 
 
   - key: charts.other_answers
     t: Інші відповіді
@@ -971,7 +990,7 @@ translations:
   - key: charts.overlimit_answers.short
     t: Поза лімітом
   - key: charts.overlimit_answers.description
-    t: Відповіді, що перевищили визначений ліміт кількості елементів у запиті
+    t: Елементи, що нижче визначеної у {limit} межі кількості рядків.
 
   - key: charts.freeform_data
     t: Дані відповідей вільної форми
@@ -1004,6 +1023,9 @@ translations:
   - key: charts.view
     t: >
       Вигляд:
+
+  - key: charts.no_data
+    t: На жаль, жодних даних для цього запиту.
 
   ###########################################################################
   # Comments
@@ -1042,7 +1064,7 @@ translations:
   - key: share.site.title
     t: Дізнайтеся результати опитування "{siteTitle}"
   - key: share.site.twitter_text
-    t: 'Дізнайтеся результати опитування "{siteTitle}" {link} {hashtag}'
+    t: 'Дізнайтеся результати опитування "{siteTitle}" {link}'
   - key: share.site.subject
     t: 'Результати опитування "{siteTitle}"'
   - key: share.site.body

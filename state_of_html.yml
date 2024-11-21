@@ -55,7 +55,7 @@ translations:
     t: Як зробити сайти та застосунки доступними для всіх.
 
   - key: sections.mobile_web_apps.title
-    t: Вебзастосунки як нативні
+    t: Нативні вебзастосунки
   - key: sections.mobile_web_apps.description
     t: Створення вебзастосунків, оптимізованих для мобільних пристроїв і настільних комп'ютерів.
 
@@ -352,6 +352,8 @@ translations:
 
   - key: features.accessibility_tools
     t: Інструменти доступності
+    aliases:
+      - accessibility.accessibility_tools
   - key: features.accessibility_tools.question
     t: Які інструменти ви використовуєте для тестування доступності?
 
@@ -365,6 +367,8 @@ translations:
 
   - key: features.accessibility_disabilities
     t: Порушення здоров'я користувача
+    aliases:
+      - accessibility.accessibility_disabilities
   - key: features.accessibility_disabilities.question
     t: Які порушення здоров'я користувачів ви враховуєте під час створення вебсайтів?
 
@@ -509,7 +513,7 @@ translations:
       Яке з цих полів маніфесту застосунку (`<link rel="manifest">`) ви використовували?
 
   - key: features.native_apps_tools
-    t: Інструменти для нативних застосунків
+    t: Інструменти для нативних вебзастосунків
   - key: features.native_apps_tools.question
     t: Чи ви використовували будь-який із цих інструментів для створення нативних застосунків?
   - key: features.native_apps_tools.description
@@ -532,7 +536,7 @@ translations:
     t: Tauri, Flutter тощо
 
   - key: features.mobile_web_apps_pain_points
-    t: Проблеми вебзастосунків, які подібні до нативних
+    t: Проблеми нативних вебзастосунків
   - key: features.mobile_web_apps_pain_points.question
     t: Які проблеми створення вебзастосунків, що мають відчуватися нативно, найбільше вас розчаровують?
   - key: features.mobile_web_apps_pain_points.description
@@ -951,7 +955,7 @@ translations:
     t: Які ще проблеми HTML та суміжних технологій найбільше вас розчаровують?
 
   - key: usage.html_css_js_balance
-    t: Співвідношення HTML/CSS і JavaScript/TypeScript
+    t: Співвідношення HTML/CSS і JS/TS
   - key: usage.html_css_js_balance.question
     t: Як поділяється ваш час між написанням коду HTML/CSS і JavaScript (або TypeScript)?
   - key: options.html_css_js_balance.0
@@ -967,8 +971,12 @@ translations:
 
   - key: resources.web_platform_resources
     t: Джерела інформації про вебплатформу
+    aliases:
+      - other_tools.web_platform_resources
   - key: resources.web_platform_resources.question
-    t: До яких джерел ви звертаєтеся, щоб залишатися обізнаним про функції вебплатформи?
+    t: До яких джерел ви звертаєтеся, щоб залишатися обізнаними про функції вебплатформи?
+    aliases:
+      - other_tools.web_platform_resources.question
 
   ###########################################################################
   # Opinions
@@ -982,20 +990,64 @@ translations:
   - key: opinions.accessibility_is_valued.question
     t: Доступність цінується в моєму робочому або професійному середовищі
 
+  - key: options.accessibility_is_valued.0
+    aliasFor: options.opinions.0
+  - key: options.accessibility_is_valued.1
+    aliasFor: options.opinions.1
+  - key: options.accessibility_is_valued.2
+    aliasFor: options.opinions.2
+  - key: options.accessibility_is_valued.3
+    aliasFor: options.opinions.3
+  - key: options.accessibility_is_valued.4
+    aliasFor: options.opinions.4
+
   - key: opinions.keeping_informed_is_challenging
     t: Бути обізнаним
   - key: opinions.keeping_informed_is_challenging.question
     t: Залишатися обізнаним про нові функції вебплатформи досить складно
 
+  - key: options.keeping_informed_is_challenging.0
+    aliasFor: options.opinions.0
+  - key: options.keeping_informed_is_challenging.1
+    aliasFor: options.opinions.1
+  - key: options.keeping_informed_is_challenging.2
+    aliasFor: options.opinions.2
+  - key: options.keeping_informed_is_challenging.3
+    aliasFor: options.opinions.3
+  - key: options.keeping_informed_is_challenging.4
+    aliasFor: options.opinions.4
+
   - key: opinions.browser_interoperability_is_obstacle
     t: Сумісність між браузерами
   - key: opinions.browser_interoperability_is_obstacle.question
-    t: Недостатня сумісність між браузерами — це велика перешкода для веброзробки 
+    t: Недостатня сумісність між браузерами — це велика перешкода для веброзробки
+
+  - key: options.browser_interoperability_is_obstacle.0
+    aliasFor: options.opinions.0
+  - key: options.browser_interoperability_is_obstacle.1
+    aliasFor: options.opinions.1
+  - key: options.browser_interoperability_is_obstacle.2
+    aliasFor: options.opinions.2
+  - key: options.browser_interoperability_is_obstacle.3
+    aliasFor: options.opinions.3
+  - key: options.browser_interoperability_is_obstacle.4
+    aliasFor: options.opinions.4
 
   - key: opinions.web_platform_right_direction
     t: Вебплатформа
   - key: opinions.web_platform_right_direction.question
     t: Вебплатформа рухається у правильному напрямку загалом
+
+  - key: options.web_platform_right_direction.0
+    aliasFor: options.opinions.0
+  - key: options.web_platform_right_direction.1
+    aliasFor: options.opinions.1
+  - key: options.web_platform_right_direction.2
+    aliasFor: options.opinions.2
+  - key: options.web_platform_right_direction.3
+    aliasFor: options.opinions.3
+  - key: options.web_platform_right_direction.4
+    aliasFor: options.opinions.4
 
   ###########################################################################
   # Survey Help
@@ -1007,3 +1059,16 @@ translations:
       які **функції** (features) мови HTML і суміжні API ви знаєте.
 
       До речі, якщо ви хочете дізнатися більше про будь-яку тему в опитуванні, ви можете додати її до свого списку читання, натиснувши на маленький значок "+" біля відповідного пункту!
+
+  - key: features.forms
+    aliasFor: sections.forms.title
+  - key: features.interactivity
+    aliasFor: sections.interactivity.title
+  - key: features.content
+    aliasFor: sections.content.title
+  - key: features.web_components
+    aliasFor: sections.web_components.title
+  - key: features.accessibility
+    aliasFor: sections.accessibility.title
+  - key: features.mobile_web_apps
+    aliasFor: sections.mobile_web_apps.title

@@ -139,8 +139,7 @@ translations:
   - key: features.features_intro
     t: >
       Ласкаво просимо до опитування! Ця перша частина присвячена тому, 
-      щоб з'ясувати, які **функції** (features) мови JavaScript ви знаєте. 
-      Навіть ті, якими ви ще не скористалися!
+      щоб з'ясувати, які **функції** (features) мови JavaScript ви вже використовували.
 
   - key: tools.tools_intro
     t: >
@@ -485,26 +484,6 @@ translations:
   - key: options.js_app_patterns.pespa
     t: PESPA (SPA з поступовим покращенням)
 
-  # slider
-  - key: options.js_ts_balance.0
-    t: 100% JS
-  - key: options.js_ts_balance.1
-    t: "|"
-  - key: options.js_ts_balance.2
-    t: "|"
-  - key: options.js_ts_balance.3
-    t: "|"
-  - key: options.js_ts_balance.4
-    t: "50/50"
-  - key: options.js_ts_balance.5
-    t: "|"
-  - key: options.js_ts_balance.6
-    t: "|"
-  - key: options.js_ts_balance.7
-    t: "|"
-  - key: options.js_ts_balance.8
-    t: 100% TS
-
   ###########################################################################
   # Features
   ###########################################################################
@@ -558,6 +537,16 @@ translations:
     t: Асинхронні функції
   - key: features.async_features.question
     t: Які з наведених асинхронних функцій ви використовували?
+
+  - key: features.set_features
+    t: Функції Set
+  - key: features.set_features.question
+    t: Які з наведених функцій Set ви використовували?
+
+  - key: features.object_features
+    t: Функції Object
+  - key: features.object_features.question
+    t: Які з наведених функцій Object ви використовували?
 
   - key: features.browser_api_features
     t: API браузера
@@ -624,7 +613,7 @@ translations:
   - key: tools.tools_work
     t: У контексті роботи
   - key: tools.tools_work.question
-    t: Які з-поміж цих інструментів ви використовуєте у межах своєї роботи?
+    t: Які з-поміж цих інструментів ви використовуєте у професійному контексті?
 
   # front-end frameworks
 
@@ -899,6 +888,8 @@ translations:
     t: Мови, окрім JavaScript
   - key: tools.non_js_languages.question
     t: Які ще мови програмування ви використовуєте?
+  - key: tools.non_js_languages.prompt
+    t: Окрім JavaScript або TypeScript.
   - key: tools.non_js_languages.others
     t: Інші мови
   - key: tools.non_js_languages.others.description
@@ -1108,33 +1099,21 @@ translations:
 
   - key: tools.ai_tools
     t: ШІ-інструменти
+    aliases:
+      - other_tools.ai_tools
   - key: tools.ai_tools.question
     t: Які з цих ШІ-інструментів ви регулярно використовуєте для допомоги у написанні коду?
-
-  - key: tools.ai_generated_code
-    t: Генерація коду за допомогою ШІ
-  - key: tools.ai_generated_code.question
-    t: Яку частку коду, який ви створюєте, згенеровано за допомогою ШІ?
-
-  - key: options.ai_generated_code.range_0
-    t: Ніскільки (0%)
-  - key: options.ai_generated_code.range_0_25
-    t: Меншість (0-25%)
-  - key: options.ai_generated_code.range_25_50
-    t: Небагато (25-50%)
-  - key: options.ai_generated_code.range_50
-    t: Половину (50%)
-  - key: options.ai_generated_code.range_50_75
-    t: Багато (50-75%)
-  - key: options.ai_generated_code.range_75_100
-    t: Більшість (75-100%)
-  - key: options.ai_generated_code.range_100
-    t: Майже все (100%)
+    aliases:
+      - other_tools.ai_tools.question
 
   - key: tools.hosting
     t: Сервіси для хостингу
+    aliases:
+      - other_tools.hosting
   - key: tools.hosting.question
     t: Які з цих сервісів ви використовували для хостингу JavaScript-застосунків?
+    aliases:
+      - other_tools.hosting.question
 
   ###########################################################################
   # Usage
@@ -1148,30 +1127,129 @@ translations:
     t: Інші патерни застосунків
 
   - key: usage.what_do_you_use_js_for
-    t: Використання JavaScript
+    t: Варіанти використання
   - key: usage.what_do_you_use_js_for.question
     t: Для чого ви використовуєте JavaScript?
   - key: usage.what_do_you_use_js_for.others
     t: Інші варіанти використання JavaScript
+
+  # js_ts_balance
 
   - key: usage.js_ts_balance
     t: Співвідношення JavaScript/TypeScript
   - key: usage.js_ts_balance.question
     t: Скільки часу ви пишете JavaScript-код і скільки — TypeScript?
 
+  - key: options.js_ts_balance.0
+    t: 100% JS
+  - key: options.js_ts_balance.1
+    t: "|"
+  - key: options.js_ts_balance.2
+    t: "|"
+  - key: options.js_ts_balance.3
+    t: "|"
+  - key: options.js_ts_balance.4
+    t: "50/50"
+  - key: options.js_ts_balance.5
+    t: "|"
+  - key: options.js_ts_balance.6
+    t: "|"
+  - key: options.js_ts_balance.7
+    t: "|"
+  - key: options.js_ts_balance.8
+    t: 100% TS
+
+  # ai_generated_code_balance
+
+  - key: usage.ai_generated_code_balance
+    t: Генерація коду за допомогою ШІ
+  - key: usage.ai_generated_code_balance.question
+    t: Яку частку коду, який ви створюєте, згенеровано за допомогою ШІ?
+  - key: usage.ai_generated_code_balance.prompt
+    t: Включно з кодом, скопійованим із ChatGPT або інших чат-ботів.
+
+  # slider
+  - key: options.ai_generated_code_balance.0
+    t: 0% ШІ
+  - key: options.ai_generated_code_balance.1
+    t: "|"
+  - key: options.ai_generated_code_balance.2
+    t: "|"
+  - key: options.ai_generated_code_balance.3
+    t: "|"
+  - key: options.ai_generated_code_balance.4
+    t: "50%"
+  - key: options.ai_generated_code_balance.5
+    t: "|"
+  - key: options.ai_generated_code_balance.6
+    t: "|"
+  - key: options.ai_generated_code_balance.7
+    t: "|"
+  - key: options.ai_generated_code_balance.8
+    t: 100% ШІ
+
+  # compiled_code_balance
+
+  - key: usage.compiled_code_balance
+    t: Співвідношення компільованого коду
+  - key: usage.compiled_code_balance.question
+    t: Яка частка JavaScript-коду, який ви пишете для браузера, компілюється під час збирання?
+  - key: usage.compiled_code_balance.prompt
+    t: Будь-який зібраний, мініфікований або по-іншому перетворений код, на відміну від коду, який безпосередньо виконується браузером.
+
+  # slider
+  - key: options.compiled_code_balance.0
+    t: 0% компілюється
+  - key: options.compiled_code_balance.1
+    t: "|"
+  - key: options.compiled_code_balance.2
+    t: "|"
+  - key: options.compiled_code_balance.3
+    t: "|"
+  - key: options.compiled_code_balance.4
+    t: "50%"
+  - key: options.compiled_code_balance.5
+    t: "|"
+  - key: options.compiled_code_balance.6
+    t: "|"
+  - key: options.compiled_code_balance.7
+    t: "|"
+  - key: options.compiled_code_balance.8
+    t: 100% компілюється
+
+  # slider
+  - key: options.js_ts_balance.0
+    t: 100% JS
+  - key: options.js_ts_balance.1
+    t: "|"
+  - key: options.js_ts_balance.2
+    t: "|"
+  - key: options.js_ts_balance.3
+    t: "|"
+  - key: options.js_ts_balance.4
+    t: "50/50"
+  - key: options.js_ts_balance.5
+    t: "|"
+  - key: options.js_ts_balance.6
+    t: "|"
+  - key: options.js_ts_balance.7
+    t: "|"
+  - key: options.js_ts_balance.8
+    t: 100% TS
+
   - key: tools.edge_runtimes
     t: Периферійне/безсерверне середовище виконання JavaScript
+    aliases:
+      - other_tools.edge_runtimes
   - key: tools.edge_runtimes.question
     t: Які середовища виконання ви регулярно використовуєте для периферійних або безсерверних обчислень?
+    aliases:
+      - other_tools.edge_runtimes.question
   - key: tools.edge_runtimes.others
     t: Інші периферійні середовища виконання
-  - key: other_tools.edge_runtimes
-    aliasFor: tools.edge_runtimes
-  - key: other_tools.edge_runtimes.description
-    aliasFor: tools.edge_runtimes.question
 
   - key: usage.usage_type
-    t: Використання JavaScript
+    t: Використання
   - key: usage.usage_type.question
     t: Для чого ви переважно використовуєте JavaScript?
   - key: usage.usage_type.others
@@ -1358,3 +1436,24 @@ translations:
     t: Перші кроки у JavaScript
   - key: resources.first_steps_js.description
     t: Як ви вивчали JavaScript, коли тільки починали?
+
+  ###########################################################################
+  # FAQ
+  ###########################################################################
+
+  - key: faq.who_should_take_survey_js
+    t: Хто може взяти участь у цьому опитуванні?
+  - key: faq.who_should_take_survey_js.description
+    t: >
+      Це відкрите опитування для всіх, хто користується JavaScript (чи TypeScript), незалежно від того, регулярно ви це робите або час від часу, у межах своєї роботи, як студент або задля розваги!
+
+  - key: faq.survey_goals_js
+    t: Яка мета цього опитування?
+  - key: faq.survey_goals_js.description
+    t: >
+      Мета опитування — вимірювання впізнаваності та популярності серед функцій та бібліотек JavaScript, щоб передбачити майбутні тенденції.
+
+  - key: faq.data_used_js
+    t: Як ці дані будуть використані?
+  - key: faq.data_used_js.description
+    t: Усі зібрані дані будуть оприлюднені. Вони будуть джерелом як для розробників, які звертаються до нього, щоб донести свій технологічний вибір, так і для постачальників браузерів, які використовують його для визначення пріоритетних напрямків розробки та формування своїх "дорожніх карт".
