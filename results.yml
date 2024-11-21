@@ -96,7 +96,7 @@ translations:
 
   - key: ratios.interest.description
     t: >
-      Частка респондентів із **позитивним ставленням** серед тих, хто **чув** про це
+      Частка респондентів із **позитивним ставленням** з-поміж тих, хто **чув** про це
   - key: ratios.usage.description
     t: >
       Частка респондентів, які **використовували** це
@@ -105,10 +105,10 @@ translations:
       Частка респондентів, які **чули або використовували** це
   - key: ratios.retention.description
     t: >
-      Частка респондентів із **позитивним ставленням** серед тих, хто **використовував** це
+      Частка респондентів із **позитивним ставленням** з-поміж тих, хто **використовував** це
   - key: ratios.positivity.description
     t: >
-      Частка респондентів із **позитивним ставленням** серед усіх
+      Частка респондентів із **позитивним ставленням** з-поміж усіх
 
   - key: modes.rank
     t: Ранг
@@ -1209,7 +1209,7 @@ translations:
   - key: award.tool_interest_award.title
     t: Найвищий рівень зацікавленості
   - key: award.tool_interest_award.description
-    t: Нагороджується технологія, у вивченні якої були зацікавлені найбільше розробників (серед тих, хто чув про неї).
+    t: Нагороджується технологія, у вивченні якої були зацікавлені найбільше розробників (з-поміж тих, хто чув про неї).
 
   - key: award.resource_usage_award.title
     t: Найпопулярніше джерело
@@ -1552,12 +1552,12 @@ translations:
   - key: explorer.percentage_details.1_extra
     t: |
       Загалом **{xAxisPercentage}%** респондентів на питання "{xAxisLabel}" відповіли "{xAnswerLabel}", але
-      серед тих, хто **на питання "{yAxisLabel}" відповів "{yAnswerLabel}"**, цей відсоток зростає до **{bucketPercentage}%**.
+      з-поміж тих, хто **на питання "{yAxisLabel}" відповів "{yAnswerLabel}"**, цей відсоток зростає до **{bucketPercentage}%**.
 
   - key: explorer.percentage_details.1_missing
     t: |
       Загалом **{xAxisPercentage}%** респондентів на питання "{xAxisLabel}" відповіли "{xAnswerLabel}", але
-      серед тих, хто **на питання "{yAxisLabel}" відповів "{yAnswerLabel}"**, цей відсоток падає до **{bucketPercentage}%**.
+      з-поміж тих, хто **на питання "{yAxisLabel}" відповів "{yAnswerLabel}"**, цей відсоток падає до **{bucketPercentage}%**.
 
   - key: explorer.percentage_details.2_extra
     t: |
