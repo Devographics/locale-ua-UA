@@ -301,7 +301,7 @@ translations:
   - key: options.currently_missing_from_js.pipe_operator
     t: Конвеєрний оператор (Pipe)
   - key: options.currently_missing_from_js.pipe_operator.description
-    t: Новий оператор `|>` для передачі результату однієї функції в іншу.
+    t: Новий оператор `|>` для передавання результату однієї функції в іншу.
   - key: options.currently_missing_from_js.decorators
     t: Декоратори
   - key: options.currently_missing_from_js.decorators.description
@@ -1457,3 +1457,363 @@ translations:
     t: Як ці дані будуть використані?
   - key: faq.data_used_js.description
     t: Усі зібрані дані будуть оприлюднені. Вони будуть джерелом як для розробників, які звертаються до нього, щоб донести свій технологічний вибір, так і для постачальників браузерів, які використовують його для визначення пріоритетних напрямків розробки та формування своїх "дорожніх карт".
+
+
+  ###########################################################################
+  # Entities repo - https://github.com/Devographics/entities
+  ###########################################################################
+
+  # Features
+
+  # entities/features/js_features/js_arrays.yml - 2024/11/22
+
+  - key: feature.array_to_sorted.description
+    t: >
+      Сортує без зміни вихідного масиву.
+
+  - key: features.array_to_reversed.description
+    t: >
+      Розвертає без зміни вихідного масиву.
+
+  - key: features.array_with.description
+    t: >
+      Повертає новий масив із заміною елемента за заданим індексом заданим значенням.
+
+  - key: features.array_to_spliced.description
+    t: >
+      "Splice" без зміни вихідного масиву.
+
+  - key: features.array_from_async.description
+    t: Подібний до `Array.from`, але для асинхронних ітераторів.
+
+  - key: features.array_findlast.description
+    t: >
+      Повертає значення останнього елемента, який задовольняє функцію перевірки.
+
+  # entities/features/js_features/js_async.yml - 2024/11/22
+
+  - key: features.async_await.name
+    t: Синтаксис async/await
+
+  - key: features.promises.name
+    t: Об'єкт Promise
+
+  - key: features.promise_all_settled.description
+    t: >
+      Повертає один об'єкт Promise, який сповнюється, коли сповнюються всі передані Promise-об'єкти.
+
+  - key: features.promise_any.description
+    t: >
+      Повертає один об'єкт Promise, який сповнюється, коли сповнюється будь-який переданий Promise-об'єкт.
+
+  - key: features.top_level_await.name
+    t: Верхньорівневий `await`
+
+  - key: features.promise_try.description
+    t: >
+      Бере функцію зворотного виклику будь-якого типу та загортає її результат у Promise-об'єкт.
+
+  # entities/features/js_features/js_other.yml - 2024/11/22
+
+  # - key: features.destructuring.name
+  #   t: Destructuring
+
+  # - key: features.spread_operator.name
+  #   t: Spread Operator
+
+  # - key: features.arrow_functions.name
+  #   t: Arrow Functions
+
+  # - key: features.proxies.name
+  #   t: Proxies
+
+  # - key: features.decorators.name
+  #   t: Decorators
+
+  # - key: features.maps.name
+  #   t: Maps
+
+  # - key: features.sets.name
+  #   t: Sets
+
+  # - key: features.typed_arrays.name
+  #   t: Typed Arrays
+
+  # - key: features.fetch.name
+  #   t: Fetch
+
+  # - key: features.i18n.name
+  #   t: i18n
+
+  # - key: features.local_storage.name
+  #   t: Local Storage
+
+  # - key: features.session_storage.name
+  #   t: Session Storage
+
+  # - key: features.cache_storage.name
+  #   t: Cache Storage
+
+  # - key: features.service_workers.name
+  #   t: Service Workers
+
+  # - key: features.web_animations.name
+  #   t: Web Animations
+
+  # - key: features.web_audio.name
+  #   t: Web Audio
+
+  # - key: features.web_components.name
+  #   t: Web Components
+
+  # - key: features.web_speech.name
+  #   t: Web Speech API
+
+  # - key: features.page_visibility.name
+  #   t: Page Visibility API
+
+  # - key: features.broadcast_channel.name
+  #   t: Broadcast Channel API
+
+  # - key: features.geolocation.name
+  #   t: Geolocation API
+
+  # - key: features.file_system_access.name
+  #   t: File System Access API
+
+  # - key: features.web_share.name
+  #   t: Web Share API
+
+  # - key: features.webxr.name
+  #   t: WebXR Device API
+
+  # - key: features.pwas.name
+  #   t: Progressive Web Apps
+
+  # - key: features.twa.name
+  #   t: Trusted Web Activity
+
+  # - key: features.wasm.name
+  #   t: WebAssembly (WASM)
+
+  # - key: features.client_side_rendering.name
+  #   t: Client-side rendering
+
+  # - key: features.micro_frontends.name
+  #   t: Micro-frontends
+
+  - key: features.nullish_coalescing.name
+    t: Оператор "Визначений-АБО" ("??")
+  - key: features.nullish_coalescing.description
+    t: >
+      Якщо перше значення НЕ `null` і НЕ `undefined`, то повертає його, інакше повертає друге значення. 
+
+  # - key: features.optional_chaining.name
+  #   t: Optional Chaining
+
+  - key: features.private_fields.name
+    t: Приватні поля
+  - key: features.private_fields.description
+    t: >
+      Властивості, на які не дозволено посилатися поза класом.
+
+  - key: features.dynamic_import.name
+    t: Динамічний імпорт
+  - key: features.dynamic_import.description
+    t: >
+      Завантажує модуль асинхронно та динамічно.
+
+  # - key: features.custom_elements.name
+  #   t: Custom Elements
+
+  # - key: features.numeric_separators.name
+  #   t: Numeric Separators
+
+  - key: features.logical_assignment.name
+    t: Оператор логічного присвоєння
+  - key: features.logical_assignment.description
+    t: >
+      Оператори для присвоєння значення змінній залежно від власного статусу правдивості/хибності.
+
+  - key: features.temporal.description
+    t: Надає стандартні об'єкти та функції для роботи з датами та часом.
+
+  - key: features.error_cause.description
+    t: >
+      Вказує конкретну першопричину помилки.
+
+  - key: features.regexp_match_indices.name
+    t: Індекси збігів Regexp
+  - key: features.regexp_match_indices.description
+    t: >
+      Зберігає початкову та кінцеву позиції кожної з груп захоплення, що має збіг.
+
+  - key: features.hashbang_grammar.name
+    t: "`hashbang`-інструкція"
+  - key: features.hashbang_grammar.description
+    t: >
+      Надає шлях до певного JavaScript-інтерпретатора, який ви хочете використовувати для виконання сценарію.
+
+  - key: features.object_group_by.description
+    t: >
+      Групує елементи заданої ітерованої змінної відповідно до стрічкових значень, які повертає передана функція.
+
+  - key: features.js_structs.name
+    t: JavaScript-структури (JavaScript Structs)
+  - key: features.js_structs.description
+    t: Для високопродуктивних застосунків — розблокування багатопотоковості у спільній пам'яті.
+
+  - key: features.js_iterator_chunking.name
+    t: '"Шматування" ітератора (Iterator Chunking)'
+  - key: features.js_iterator_chunking.description
+    t: Спосіб перетворення ітератора на підпослідовності налаштовуваного розміру.
+
+  - key: features.js_get_or_insert.description
+    t: Перевірка наявності ключа, а потім вставлення або оновлення залежно від результату — за один виклик.
+
+  - key: features.js_decorators.name
+    t: Декоратори
+  - key: features.js_decorators.description
+    t: Функції, що викликаються для класів або інших елементів синтаксису JavaScript у їх визначенні.
+
+  - key: features.js_source_phase_imports.name
+    t: Фаза імпорту сирців (Source Phase Imports)
+  - key: features.js_source_phase_imports.description
+    t: Налаштовує завантаження, компонування (linking) та виконання модулів поза стандартною моделлю виконання у головному середовищі.
+
+  - key: features.js_shadow_realm.name  
+    t: "API `ShadowRealm`"
+  - key: features.js_shadow_realm.description
+    t: Окреме глобальне середовище із власним глобальним об'єктом, що містить власні внутрішні та вбудовані елементи.
+
+  - key: features.js_pipeline_operator.name
+    t: |
+      Конвеєрний оператор (pipe, `|>`)
+  - key: features.js_pipeline_operator.description
+    t: Новий оператор `|>` для передавання результату однієї функції в іншу.
+
+  - key: features.js_async_context.name
+    t: Асинхронний контекст
+  - key: features.js_async_context.description
+    t: API для передавання значення далі через асинхронний код, як-от продовження (continuation) Promise-об'єктів або асинхронні функції зворотного виклику.
+
+  - key: features.js_extractors.name
+    t: Екстрактори
+  - key: features.js_extractors.description
+    t: Механізм для виконання визначеної користувачем логіки під час деструктуризації.
+
+  # - key: features.gamepad_api.name
+  #   t: Gamepad API
+
+  # - key: features.web_authentication_api.name
+  #   t: Web Authentication API
+
+  # - key: features.web_nfc_api.name
+  #   t: Web NFC API
+
+  # - key: features.web_serial_api.name
+  #   t: Web Serial API
+
+  # - key: features.eye_dropper_api.name
+  #   t: EyeDropper API
+
+  # - key: features.background_sync_api.name
+  #   t: Background Synchronization API
+
+  - key: features.js_explicit_resource_management.name
+    t: Явне управління ресурсами
+  - key: features.js_explicit_resource_management.description
+    t: Виділення ресурсів та можливість явного вивільнення критичних ресурсів.
+
+  # - key: features.js_dynamic_code_brand_checks.name
+  #   t: Dynamic Code Brand Checks
+
+  - key: features.regexp_escape.description
+    t: Екранування стрічкової змінної — для використання всередині регулярного виразу.
+
+  - key: features.js_deferring_module_evaluation.name
+    t: Відстрочене оцінювання модулів (Deferring Module Evaluation)
+  - key: features.js_deferring_module_evaluation.description
+    t: Модулі, які не виконуватимуться під час завантаження, але будуть повністю завантажені до стану готовності до виконання.
+
+  - key: features.js_joint_iteration.name
+    t: Спільна ітерація (Joint Iteration)
+  - key: features.js_joint_iteration.description
+    t: Синхронізує просування (advancement) кількох ітераторів.
+
+  - key: features.js_iterator_sequencing.name
+    t: Послідовність ітераторів (Iterator Sequencing)
+  - key: features.js_iterator_sequencing.description
+    t: Створює ітератори як послідовність наявних ітераторів.
+
+  - key: features.js_signals.name
+    t: Сигнали
+  - key: features.js_signals.description
+    t: Використовуються в реактивному програмуванні для усунення необхідності керувати оновленнями в застосунках.
+
+  - key: features.js_record_tuple.name
+    t: |
+      `Record` та `Tuple`
+  - key: features.js_record_tuple.description
+    t: Дві незмінні на всіх рівнях структури даних.
+
+  - key: features.js_pattern_matching.name
+    t: Зіставлення із шаблоном
+  - key: features.js_pattern_matching.description
+    t: Нове ключове слово `match` для пошуку об'єктів через зіставлення із шаблоном.
+
+  - key: features.js_observable.description
+    t: Тип для моделювання джерела даних, що буде надсилати зміни, як-от події DOM, інтервали таймера та сокети.
+
+  - key: features.js_json_parse_source_access.name
+    t: Доступ до вихідного тексту для `JSON.parse`
+  - key: features.js_json_parse_source_access.description
+    t: Надає reviver-функції доступ до вихідного тексту.
+
+  - key: features.js_decorator_metadata.name
+    t: Метадані декоратора
+  - key: features.js_decorator_metadata.description
+    t: Розширює пропозицію щодо декораторів, додаючи можливість для декораторів пов'язувати метадані з декорованим значенням.
+
+  - key: features.js_float16_arrays.description
+    t: Додає формат float16 (або половинної точності чи binary16) до TypedArray у JavaScript.
+
+  # entities/features/js_features/js_sets.yml - 2024/11/22
+
+  - key: features.set_intersection.description
+    t: >
+      Повертає нову множину, що містить однакові елементи обох множин.
+
+  - key: features.set_union.description
+    t: >
+      Повертає нову множину, що містить усі елементи обох множин.
+
+  - key: features.set_difference.description
+    t: >
+      Повертає нову множину, що містить елементи цієї множини, яких немає у переданій множині.
+
+  - key: features.set_symmetric_difference.description
+    t: >
+      Повертає нову множину, що містить усі елементи, крім однакових елементів обох множин.
+
+  - key: features.set_is_subset_of.description
+    t: >
+      Повертає логічне значення, яке вказує, чи всі елементи цієї множини є в переданій множині.
+
+  - key: features.set_is_superset_of.description
+    t: >
+      Повертає логічне значення, яке вказує, чи всі елементи переданої множини є в цій множині.
+
+  - key: features.set_is_disjoint_from.description
+    t: >
+      Повертає логічне значення, яке вказує, чи немає однакових елементів в обох множинах.
+
+  # entities/features/js_features/js_strings.yml - 2024/11/22
+
+  - key: features.string_replace_all.description
+    t: >
+      Замінює всі входження стрічкової змінної.
+
+  - key: features.string_match_all.description
+    t: >
+      Повертає ітератор над усіма збігами під час пошуку у стрічковій змінній за регулярним виразом.
