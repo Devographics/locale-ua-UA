@@ -1236,9 +1236,9 @@ translations:
   - key: options.higher_education_degree.no_degree
     t: Ні
   - key: options.higher_education_degree.yes_related
-    t: Так, у галузі, пов'язаній з моєю нинішньою професією
+    t: Так, у галузі, пов'язаній із моєю нинішньою професією
   - key: options.higher_education_degree.yes_unrelated
-    t: Так, у галузі, НЕ пов'язаній з моєю нинішньою професією
+    t: Так, у галузі, НЕ пов'язаній із моєю нинішньою професією
 
   # degree (short versions)
   - key: options.higher_education_degree.no_degree.short

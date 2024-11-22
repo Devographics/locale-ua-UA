@@ -23,7 +23,7 @@ translations:
     t: Приховане
 
   - key: general.pick_up_to
-    t: Оберіть до {limit} предметів.
+    t: Оберіть до {limit} елементів.
 
   - key: general.privacy_policy
     t: Політика конфіденційності
