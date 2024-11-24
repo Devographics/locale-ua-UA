@@ -1077,6 +1077,7 @@ translations:
     t: "Ось деякі цікаві результати опитування ({title}): {link}"
   - key: share.twitter
     t: Поділитись у Twitter
+  # - key: share.bluesky
   - key: share.facebook
     t: Поділитись у Facebook
   - key: share.linkedin
