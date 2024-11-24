@@ -246,9 +246,9 @@ translations:
     aliasFor: options.js_pain_points.date_management.description
 
   - key: options.top_js_pain_points.performance
-    t: Продуктивність
+    t: Швидкодія
   - key: options.top_js_pain_points.performance.description
-    t: Написання продуктивного та ефективного JavaScript-коду
+    t: Написання швидкодійного та ефективного JavaScript-коду
 
   - key: options.top_js_pain_points.build_tools
     t: Інструменти для збирання коду
@@ -433,7 +433,7 @@ translations:
   - key: options.js_app_patterns.static_site_generation
     t: Генерація статичних сайтів (SSG)
   - key: options.js_app_patterns.static_site_generation.description
-    t: Попередньо відрендерений під час збирання статичний вміст — з динамічним елементом з боку клієнта чи без нього
+    t: Попередньо відрендерений під час збирання статичний вміст — з динамічним елементом із боку клієнта чи без нього
   - key: options.js_app_patterns.server_side_rendering
     t: Рендеринг з боку сервера (SSR)
   - key: options.js_app_patterns.server_side_rendering.description
@@ -441,11 +441,11 @@ translations:
   - key: options.js_app_patterns.partial_hydration
     t: Часткова гідрація
   - key: options.js_app_patterns.partial_hydration.description
-    t: Гідрація лише деяких ваших компонентів з боку клієнта (наприклад, React Server Components)
+    t: Гідрація лише деяких ваших компонентів із боку клієнта (наприклад, React Server Components)
   - key: options.js_app_patterns.progressive_rehydration
     t: Поступова гідрація
   - key: options.js_app_patterns.progressive_rehydration.description
-    t: Керування порядком гідрації компонентів з боку клієнта
+    t: Керування порядком гідрації компонентів із боку клієнта
   - key: options.js_app_patterns.islands_architecture
     t: Архітектура островів
   - key: options.js_app_patterns.islands_architecture.description
@@ -1752,7 +1752,7 @@ translations:
 
   - key: entities.js_record_tuple.name
     t: |
-      `Record` та `Tuple`
+      `Record` і `Tuple`
   - key: entities.js_record_tuple.description
     t: Дві незмінні на всіх рівнях структури даних.
 
