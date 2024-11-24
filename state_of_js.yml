@@ -298,9 +298,9 @@ translations:
     t: Зіставлення із шаблоном
   - key: options.currently_missing_from_js.pattern_matching.description
     t: "`match` для пошуку об'єктів через зіставлення із шаблоном"
-  - key: options.currently_missing_from_js.pipe_operator
+  - key: options.currently_missing_from_js.js_pipeline_operator
     t: Конвеєрний оператор (Pipe)
-  - key: options.currently_missing_from_js.pipe_operator.description
+  - key: options.currently_missing_from_js.js_pipeline_operator.description
     t: Новий оператор `|>` для передавання результату однієї функції в іншу.
   - key: options.currently_missing_from_js.decorators
     t: Декоратори
@@ -335,10 +335,10 @@ translations:
     aliasFor: options.currently_missing_from_js.pattern_matching
   - key: options.top_currently_missing_from_js.pattern_matching.description
     aliasFor: options.currently_missing_from_js.pattern_matching.description
-  - key: options.top_currently_missing_from_js.pipe_operator
-    aliasFor: options.currently_missing_from_js.pipe_operator
-  - key: options.top_currently_missing_from_js.pipe_operator.description
-    aliasFor: options.currently_missing_from_js.pipe_operator.description
+  - key: options.top_currently_missing_from_js.js_pipeline_operator
+    aliasFor: options.currently_missing_from_js.js_pipeline_operator
+  - key: options.top_currently_missing_from_js.js_pipeline_operator.description
+    aliasFor: options.currently_missing_from_js.js_pipeline_operator.description
   - key: options.top_currently_missing_from_js.decorators
     aliasFor: options.currently_missing_from_js.decorators
   - key: options.top_currently_missing_from_js.decorators.description
@@ -372,7 +372,7 @@ translations:
     t: Декоратори
   - key: options.top_currently_missing_from_js.multithreading
     t: Багатопотоковість
-  - key: options.top_currently_missing_from_js.pipe_operator
+  - key: options.top_currently_missing_from_js.js_pipeline_operator
     t: Конвеєрний оператор (Pipe)
   - key: options.top_currently_missing_from_js.native_observables
     t: Нативний тип "Observable"
@@ -581,7 +581,7 @@ translations:
   # - key: features.pattern_matching
   #   t: Pattern Matching
 
-  # - key: features.pipe_operator
+  # - key: features.js_pipeline_operator
   #   t: Pipe Operator
 
   # - key: features.immutable_data_structures
@@ -1458,7 +1458,6 @@ translations:
   - key: faq.data_used_js.description
     t: Усі зібрані дані будуть оприлюднені. Вони будуть джерелом як для розробників, які звертаються до нього, щоб донести свій технологічний вибір, так і для постачальників браузерів, які використовують його для визначення пріоритетних напрямків розробки та формування своїх "дорожніх карт".
 
-
   ###########################################################################
   # Entities repo - https://github.com/Devographics/entities
   ###########################################################################
@@ -1606,7 +1605,7 @@ translations:
     t: Оператор "Визначений-АБО" ("??")
   - key: features.nullish_coalescing.description
     t: >
-      Якщо перше значення НЕ `null` і НЕ `undefined`, то повертає його, інакше повертає друге значення. 
+      Якщо перше значення НЕ `null` і НЕ `undefined`, то повертає його, інакше повертає друге значення.
 
   # - key: features.optional_chaining.name
   #   t: Optional Chaining
@@ -1681,7 +1680,7 @@ translations:
   - key: features.js_source_phase_imports.description
     t: Налаштовує завантаження, компонування (linking) та виконання модулів поза стандартною моделлю виконання у головному середовищі.
 
-  - key: features.js_shadow_realm.name  
+  - key: features.js_shadow_realm.name
     t: "API `ShadowRealm`"
   - key: features.js_shadow_realm.description
     t: Окреме глобальне середовище із власним глобальним об'єктом, що містить власні внутрішні та вбудовані елементи.
