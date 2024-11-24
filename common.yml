@@ -1534,7 +1534,7 @@ translations:
   - key: user_info.how_did_user_find_out_about_the_survey
     t: Джерело
   - key: user_info.how_did_user_find_out_about_the_survey.question
-    t: Як ви дізналися про це опитуванні?
+    t: Як ви дізналися про це опитування?
   - key: user_info.email
     t: Ваша електронна адреса
   - key: user_info.email.description
