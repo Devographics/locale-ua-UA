@@ -1466,49 +1466,49 @@ translations:
 
   # entities/features/js_features/js_arrays.yml - 2024/11/22
 
-  - key: feature.array_to_sorted.description
+  - key: entities.array_to_sorted.description
     t: >
       Сортує без зміни вихідного масиву.
 
-  - key: features.array_to_reversed.description
+  - key: entities.array_to_reversed.description
     t: >
       Розвертає без зміни вихідного масиву.
 
-  - key: features.array_with.description
+  - key: entities.array_with.description
     t: >
       Повертає новий масив із заміною елемента за заданим індексом заданим значенням.
 
-  - key: features.array_to_spliced.description
+  - key: entities.array_to_spliced.description
     t: >
       "Splice" без зміни вихідного масиву.
 
-  - key: features.array_from_async.description
+  - key: entities.array_from_async.description
     t: Подібний до `Array.from`, але для асинхронних ітераторів.
 
-  - key: features.array_findlast.description
+  - key: entities.array_findlast.description
     t: >
       Повертає значення останнього елемента, який задовольняє функцію перевірки.
 
   # entities/features/js_features/js_async.yml - 2024/11/22
 
-  - key: features.async_await.name
+  - key: entities.async_await.name
     t: Синтаксис async/await
 
-  - key: features.promises.name
+  - key: entities.promises.name
     t: Об'єкт Promise
 
   - key: features.promise_all_settled.description
     t: >
       Повертає один об'єкт Promise, який сповнюється, коли сповнюються всі передані Promise-об'єкти.
 
-  - key: features.promise_any.description
+  - key: entities.promise_any.description
     t: >
       Повертає один об'єкт Promise, який сповнюється, коли сповнюється будь-який переданий Promise-об'єкт.
 
-  - key: features.top_level_await.name
+  - key: entities.top_level_await.name
     t: Верхньорівневий `await`
 
-  - key: features.promise_try.description
+  - key: entities.promise_try.description
     t: >
       Бере функцію зворотного виклику будь-якого типу та загортає її результат у Promise-об'єкт.
 
@@ -1601,24 +1601,24 @@ translations:
   # - key: features.micro_frontends.name
   #   t: Micro-frontends
 
-  - key: features.nullish_coalescing.name
+  - key: entities.nullish_coalescing.name
     t: Оператор "Визначений-АБО" ("??")
-  - key: features.nullish_coalescing.description
+  - key: entities.nullish_coalescing.description
     t: >
       Якщо перше значення НЕ `null` і НЕ `undefined`, то повертає його, інакше повертає друге значення.
 
   # - key: features.optional_chaining.name
   #   t: Optional Chaining
 
-  - key: features.private_fields.name
+  - key: entities.private_fields.name
     t: Приватні поля
-  - key: features.private_fields.description
+  - key: entities.private_fields.description
     t: >
       Властивості, на які не дозволено посилатися поза класом.
 
-  - key: features.dynamic_import.name
+  - key: entities.dynamic_import.name
     t: Динамічний імпорт
-  - key: features.dynamic_import.description
+  - key: entities.dynamic_import.description
     t: >
       Завантажує модуль асинхронно та динамічно.
 
@@ -1628,77 +1628,77 @@ translations:
   # - key: features.numeric_separators.name
   #   t: Numeric Separators
 
-  - key: features.logical_assignment.name
+  - key: entities.logical_assignment.name
     t: Оператор логічного присвоєння
-  - key: features.logical_assignment.description
+  - key: entities.logical_assignment.description
     t: >
       Оператори для присвоєння значення змінній залежно від власного статусу правдивості/хибності.
 
-  - key: features.temporal.description
+  - key: entities.temporal.description
     t: Надає стандартні об'єкти та функції для роботи з датами та часом.
 
-  - key: features.error_cause.description
+  - key: entities.error_cause.description
     t: >
       Вказує конкретну першопричину помилки.
 
-  - key: features.regexp_match_indices.name
+  - key: entities.regexp_match_indices.name
     t: Індекси збігів Regexp
-  - key: features.regexp_match_indices.description
+  - key: entities.regexp_match_indices.description
     t: >
       Зберігає початкову та кінцеву позиції кожної з груп захоплення, що має збіг.
 
-  - key: features.hashbang_grammar.name
+  - key: entities.hashbang_grammar.name
     t: "`hashbang`-інструкція"
-  - key: features.hashbang_grammar.description
+  - key: entities.hashbang_grammar.description
     t: >
       Надає шлях до певного JavaScript-інтерпретатора, який ви хочете використовувати для виконання сценарію.
 
-  - key: features.object_group_by.description
+  - key: entities.object_group_by.description
     t: >
       Групує елементи заданої ітерованої змінної відповідно до стрічкових значень, які повертає передана функція.
 
-  - key: features.js_structs.name
+  - key: entities.js_structs.name
     t: JavaScript-структури (JavaScript Structs)
-  - key: features.js_structs.description
+  - key: entities.js_structs.description
     t: Для високопродуктивних застосунків — розблокування багатопотоковості у спільній пам'яті.
 
-  - key: features.js_iterator_chunking.name
+  - key: entities.js_iterator_chunking.name
     t: '"Шматування" ітератора (Iterator Chunking)'
-  - key: features.js_iterator_chunking.description
+  - key: entities.js_iterator_chunking.description
     t: Спосіб перетворення ітератора на підпослідовності налаштовуваного розміру.
 
-  - key: features.js_get_or_insert.description
+  - key: entities.js_get_or_insert.description
     t: Перевірка наявності ключа, а потім вставлення або оновлення залежно від результату — за один виклик.
 
-  - key: features.js_decorators.name
+  - key: entities.js_decorators.name
     t: Декоратори
-  - key: features.js_decorators.description
+  - key: entities.js_decorators.description
     t: Функції, що викликаються для класів або інших елементів синтаксису JavaScript у їх визначенні.
 
-  - key: features.js_source_phase_imports.name
+  - key: entities.js_source_phase_imports.name
     t: Фаза імпорту сирців (Source Phase Imports)
-  - key: features.js_source_phase_imports.description
+  - key: entities.js_source_phase_imports.description
     t: Налаштовує завантаження, компонування (linking) та виконання модулів поза стандартною моделлю виконання у головному середовищі.
 
-  - key: features.js_shadow_realm.name
+  - key: entities.js_shadow_realm.name
     t: "API `ShadowRealm`"
-  - key: features.js_shadow_realm.description
+  - key: entities.js_shadow_realm.description
     t: Окреме глобальне середовище із власним глобальним об'єктом, що містить власні внутрішні та вбудовані елементи.
 
-  - key: features.js_pipeline_operator.name
+  - key: entities.js_pipeline_operator.name
     t: |
       Конвеєрний оператор (pipe, `|>`)
-  - key: features.js_pipeline_operator.description
+  - key: entities.js_pipeline_operator.description
     t: Новий оператор `|>` для передавання результату однієї функції в іншу.
 
-  - key: features.js_async_context.name
+  - key: entities.js_async_context.name
     t: Асинхронний контекст
-  - key: features.js_async_context.description
+  - key: entities.js_async_context.description
     t: API для передавання значення далі через асинхронний код, як-от продовження (continuation) Promise-об'єктів або асинхронні функції зворотного виклику.
 
-  - key: features.js_extractors.name
+  - key: entities.js_extractors.name
     t: Екстрактори
-  - key: features.js_extractors.description
+  - key: entities.js_extractors.description
     t: Механізм для виконання визначеної користувачем логіки під час деструктуризації.
 
   # - key: features.gamepad_api.name
@@ -1719,100 +1719,100 @@ translations:
   # - key: features.background_sync_api.name
   #   t: Background Synchronization API
 
-  - key: features.js_explicit_resource_management.name
+  - key: entities.js_explicit_resource_management.name
     t: Явне управління ресурсами
-  - key: features.js_explicit_resource_management.description
+  - key: entities.js_explicit_resource_management.description
     t: Виділення ресурсів та можливість явного вивільнення критичних ресурсів.
 
   # - key: features.js_dynamic_code_brand_checks.name
   #   t: Dynamic Code Brand Checks
 
-  - key: features.regexp_escape.description
+  - key: entities.regexp_escape.description
     t: Екранування стрічкової змінної — для використання всередині регулярного виразу.
 
-  - key: features.js_deferring_module_evaluation.name
+  - key: entities.js_deferring_module_evaluation.name
     t: Відстрочене оцінювання модулів (Deferring Module Evaluation)
-  - key: features.js_deferring_module_evaluation.description
+  - key: entities.js_deferring_module_evaluation.description
     t: Модулі, які не виконуватимуться під час завантаження, але будуть повністю завантажені до стану готовності до виконання.
 
-  - key: features.js_joint_iteration.name
+  - key: entities.js_joint_iteration.name
     t: Спільна ітерація (Joint Iteration)
-  - key: features.js_joint_iteration.description
+  - key: entities.js_joint_iteration.description
     t: Синхронізує просування (advancement) кількох ітераторів.
 
-  - key: features.js_iterator_sequencing.name
+  - key: entities.js_iterator_sequencing.name
     t: Послідовність ітераторів (Iterator Sequencing)
-  - key: features.js_iterator_sequencing.description
+  - key: entities.js_iterator_sequencing.description
     t: Створює ітератори як послідовність наявних ітераторів.
 
-  - key: features.js_signals.name
+  - key: entities.js_signals.name
     t: Сигнали
-  - key: features.js_signals.description
+  - key: entities.js_signals.description
     t: Використовуються в реактивному програмуванні для усунення необхідності керувати оновленнями в застосунках.
 
-  - key: features.js_record_tuple.name
+  - key: entities.js_record_tuple.name
     t: |
       `Record` та `Tuple`
-  - key: features.js_record_tuple.description
+  - key: entities.js_record_tuple.description
     t: Дві незмінні на всіх рівнях структури даних.
 
-  - key: features.js_pattern_matching.name
+  - key: entities.js_pattern_matching.name
     t: Зіставлення із шаблоном
-  - key: features.js_pattern_matching.description
+  - key: entities.js_pattern_matching.description
     t: Нове ключове слово `match` для пошуку об'єктів через зіставлення із шаблоном.
 
-  - key: features.js_observable.description
+  - key: entities.js_observable.description
     t: Тип для моделювання джерела даних, що буде надсилати зміни, як-от події DOM, інтервали таймера та сокети.
 
-  - key: features.js_json_parse_source_access.name
+  - key: entities.js_json_parse_source_access.name
     t: Доступ до вихідного тексту для `JSON.parse`
-  - key: features.js_json_parse_source_access.description
+  - key: entities.js_json_parse_source_access.description
     t: Надає reviver-функції доступ до вихідного тексту.
 
-  - key: features.js_decorator_metadata.name
+  - key: entities.js_decorator_metadata.name
     t: Метадані декоратора
-  - key: features.js_decorator_metadata.description
+  - key: entities.js_decorator_metadata.description
     t: Розширює пропозицію щодо декораторів, додаючи можливість для декораторів пов'язувати метадані з декорованим значенням.
 
-  - key: features.js_float16_arrays.description
+  - key: entities.js_float16_arrays.description
     t: Додає формат float16 (або половинної точності чи binary16) до TypedArray у JavaScript.
 
   # entities/features/js_features/js_sets.yml - 2024/11/22
 
-  - key: features.set_intersection.description
+  - key: entities.set_intersection.description
     t: >
       Повертає нову множину, що містить однакові елементи обох множин.
 
-  - key: features.set_union.description
+  - key: entities.set_union.description
     t: >
       Повертає нову множину, що містить усі елементи обох множин.
 
-  - key: features.set_difference.description
+  - key: entities.set_difference.description
     t: >
       Повертає нову множину, що містить елементи цієї множини, яких немає у переданій множині.
 
-  - key: features.set_symmetric_difference.description
+  - key: entities.set_symmetric_difference.description
     t: >
       Повертає нову множину, що містить усі елементи, крім однакових елементів обох множин.
 
-  - key: features.set_is_subset_of.description
+  - key: entities.set_is_subset_of.description
     t: >
       Повертає логічне значення, яке вказує, чи всі елементи цієї множини є в переданій множині.
 
-  - key: features.set_is_superset_of.description
+  - key: v.set_is_superset_of.description
     t: >
       Повертає логічне значення, яке вказує, чи всі елементи переданої множини є в цій множині.
 
-  - key: features.set_is_disjoint_from.description
+  - key: entities.set_is_disjoint_from.description
     t: >
       Повертає логічне значення, яке вказує, чи немає однакових елементів в обох множинах.
 
   # entities/features/js_features/js_strings.yml - 2024/11/22
 
-  - key: features.string_replace_all.description
+  - key: entities.string_replace_all.description
     t: >
       Замінює всі входження стрічкової змінної.
 
-  - key: features.string_match_all.description
+  - key: entities.string_match_all.description
     t: >
       Повертає ітератор над усіма збігами під час пошуку у стрічковій змінній за регулярним виразом.
