@@ -68,7 +68,7 @@ translations:
     t: Мови, що компільовані у JavaScript
 
   - key: sections.front_end_frameworks.title
-    t: Фреймворки для клієнтської частини
+    t: Клієнтські фреймворки
   - key: sections.front_end_frameworks.description
     t: Фреймворки та бібліотеки для клієнтської частини
 
@@ -88,7 +88,7 @@ translations:
     t: Фреймворки, що орієнтовані на рендеринг та обслуговування (serving) вашого застосунку
 
   - key: sections.back_end_frameworks.title
-    t: Фреймворки для серверної частини
+    t: Серверні фреймворки
   - key: sections.back_end_frameworks.description
     t: JavaScript на сервері
 
@@ -98,17 +98,17 @@ translations:
     t: Інструменти для тестування коду
 
   - key: sections.mobile_desktop.title
-    t: Мобільні пристрої та настільні комп'ютери
+    t: Мобільні та настільні
   - key: sections.mobile_desktop.description
     t: JavaScript-застосунки для мобільних пристроїв і настільних комп'ютерів
 
   - key: sections.build_tools.title
-    t: Інструменти для збирання коду
+    t: Збирачі коду
   - key: sections.build_tools.description
     t: Компіляція та збирання коду
 
   - key: sections.monorepo_tools.title
-    t: Інструменти для монорепозиторіїв
+    t: Інструменти для monorepo
   - key: sections.monorepo_tools.description
     t: Інструменти, які використовуються для управління монорепозиторіями JavaScript.
 
