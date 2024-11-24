@@ -1602,7 +1602,7 @@ translations:
   #   t: Micro-frontends
 
   - key: entities.nullish_coalescing.name
-    t: Оператор "Визначений-АБО" ("??")
+    t: 'Оператор "Визначений-АБО" (`??`)'
   - key: entities.nullish_coalescing.description
     t: >
       Якщо перше значення НЕ `null` і НЕ `undefined`, то повертає його, інакше повертає друге значення.
