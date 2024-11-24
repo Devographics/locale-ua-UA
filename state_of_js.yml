@@ -1242,7 +1242,7 @@ translations:
     aliases:
       - other_tools.edge_runtimes
   - key: tools.edge_runtimes.question
-    t: Які середовища виконання ви регулярно використовуєте для периферійних або безсерверних обчислень?
+    t: Які середовища виконання ви регулярно використовуєте для периферійних (edge) або безсерверних обчислень?
     aliases:
       - other_tools.edge_runtimes.question
   - key: tools.edge_runtimes.others
