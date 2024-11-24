@@ -298,9 +298,9 @@ translations:
     t: Зіставлення із шаблоном
   - key: options.currently_missing_from_js.pattern_matching.description
     t: "`match` для пошуку об'єктів через зіставлення із шаблоном"
-  - key: options.currently_missing_from_js.js_pipeline_operator
+  - key: options.currently_missing_from_js.pipe_operator
     t: Конвеєрний оператор (Pipe)
-  - key: options.currently_missing_from_js.js_pipeline_operator.description
+  - key: options.currently_missing_from_js.pipe_operator.description
     t: Новий оператор `|>` для передавання результату однієї функції в іншу.
   - key: options.currently_missing_from_js.decorators
     t: Декоратори
@@ -335,10 +335,10 @@ translations:
     aliasFor: options.currently_missing_from_js.pattern_matching
   - key: options.top_currently_missing_from_js.pattern_matching.description
     aliasFor: options.currently_missing_from_js.pattern_matching.description
-  - key: options.top_currently_missing_from_js.js_pipeline_operator
-    aliasFor: options.currently_missing_from_js.js_pipeline_operator
-  - key: options.top_currently_missing_from_js.js_pipeline_operator.description
-    aliasFor: options.currently_missing_from_js.js_pipeline_operator.description
+  - key: options.top_currently_missing_from_js.pipe_operator
+    aliasFor: options.currently_missing_from_js.pipe_operator
+  - key: options.top_currently_missing_from_js.pipe_operator.description
+    aliasFor: options.currently_missing_from_js.pipe_operator.description
   - key: options.top_currently_missing_from_js.decorators
     aliasFor: options.currently_missing_from_js.decorators
   - key: options.top_currently_missing_from_js.decorators.description
@@ -372,7 +372,7 @@ translations:
     t: Декоратори
   - key: options.top_currently_missing_from_js.multithreading
     t: Багатопотоковість
-  - key: options.top_currently_missing_from_js.js_pipeline_operator
+  - key: options.top_currently_missing_from_js.pipe_operator
     t: Конвеєрний оператор (Pipe)
   - key: options.top_currently_missing_from_js.native_observables
     t: Нативний тип "Observable"
@@ -581,7 +581,7 @@ translations:
   # - key: features.pattern_matching
   #   t: Pattern Matching
 
-  # - key: features.js_pipeline_operator
+  # - key: features.pipe_operator
   #   t: Pipe Operator
 
   # - key: features.immutable_data_structures
@@ -1497,7 +1497,7 @@ translations:
   - key: entities.promises.name
     t: Об'єкт Promise
 
-  - key: features.promise_all_settled.description
+  - key: entities.promise_all_settled.description
     t: >
       Повертає один об'єкт Promise, який сповнюється, коли сповнюються всі передані Promise-об'єкти.
 
@@ -1514,91 +1514,91 @@ translations:
 
   # entities/features/js_features/js_other.yml - 2024/11/22
 
-  # - key: features.destructuring.name
+  # - key: entities.destructuring.name
   #   t: Destructuring
 
-  # - key: features.spread_operator.name
+  # - key: entities.spread_operator.name
   #   t: Spread Operator
 
-  # - key: features.arrow_functions.name
+  # - key: entities.arrow_functions.name
   #   t: Arrow Functions
 
-  # - key: features.proxies.name
+  # - key: entities.proxies.name
   #   t: Proxies
 
-  # - key: features.decorators.name
+  # - key: entities.decorators.name
   #   t: Decorators
 
-  # - key: features.maps.name
+  # - key: entities.maps.name
   #   t: Maps
 
-  # - key: features.sets.name
+  # - key: entities.sets.name
   #   t: Sets
 
-  # - key: features.typed_arrays.name
+  # - key: entities.typed_arrays.name
   #   t: Typed Arrays
 
-  # - key: features.fetch.name
+  # - key: entities.fetch.name
   #   t: Fetch
 
-  # - key: features.i18n.name
+  # - key: entities.i18n.name
   #   t: i18n
 
-  # - key: features.local_storage.name
+  # - key: entities.local_storage.name
   #   t: Local Storage
 
-  # - key: features.session_storage.name
+  # - key: entities.session_storage.name
   #   t: Session Storage
 
-  # - key: features.cache_storage.name
+  # - key: entities.cache_storage.name
   #   t: Cache Storage
 
-  # - key: features.service_workers.name
+  # - key: entities.service_workers.name
   #   t: Service Workers
 
-  # - key: features.web_animations.name
+  # - key: entities.web_animations.name
   #   t: Web Animations
 
-  # - key: features.web_audio.name
+  # - key: entities.web_audio.name
   #   t: Web Audio
 
-  # - key: features.web_components.name
+  # - key: entities.web_components.name
   #   t: Web Components
 
-  # - key: features.web_speech.name
+  # - key: entities.web_speech.name
   #   t: Web Speech API
 
-  # - key: features.page_visibility.name
+  # - key: entities.page_visibility.name
   #   t: Page Visibility API
 
-  # - key: features.broadcast_channel.name
+  # - key: entities.broadcast_channel.name
   #   t: Broadcast Channel API
 
-  # - key: features.geolocation.name
+  # - key: entities.geolocation.name
   #   t: Geolocation API
 
-  # - key: features.file_system_access.name
+  # - key: entities.file_system_access.name
   #   t: File System Access API
 
-  # - key: features.web_share.name
+  # - key: entities.web_share.name
   #   t: Web Share API
 
-  # - key: features.webxr.name
+  # - key: entities.webxr.name
   #   t: WebXR Device API
 
-  # - key: features.pwas.name
+  # - key: entities.pwas.name
   #   t: Progressive Web Apps
 
-  # - key: features.twa.name
+  # - key: entities.twa.name
   #   t: Trusted Web Activity
 
-  # - key: features.wasm.name
+  # - key: entities.wasm.name
   #   t: WebAssembly (WASM)
 
-  # - key: features.client_side_rendering.name
+  # - key: entities.client_side_rendering.name
   #   t: Client-side rendering
 
-  # - key: features.micro_frontends.name
+  # - key: entities.micro_frontends.name
   #   t: Micro-frontends
 
   - key: entities.nullish_coalescing.name
@@ -1607,7 +1607,7 @@ translations:
     t: >
       Якщо перше значення НЕ `null` і НЕ `undefined`, то повертає його, інакше повертає друге значення.
 
-  # - key: features.optional_chaining.name
+  # - key: entities.optional_chaining.name
   #   t: Optional Chaining
 
   - key: entities.private_fields.name
@@ -1622,10 +1622,10 @@ translations:
     t: >
       Завантажує модуль асинхронно та динамічно.
 
-  # - key: features.custom_elements.name
+  # - key: entities.custom_elements.name
   #   t: Custom Elements
 
-  # - key: features.numeric_separators.name
+  # - key: entities.numeric_separators.name
   #   t: Numeric Separators
 
   - key: entities.logical_assignment.name
@@ -1701,22 +1701,22 @@ translations:
   - key: entities.js_extractors.description
     t: Механізм для виконання визначеної користувачем логіки під час деструктуризації.
 
-  # - key: features.gamepad_api.name
+  # - key: entities.gamepad_api.name
   #   t: Gamepad API
 
-  # - key: features.web_authentication_api.name
+  # - key: entities.web_authentication_api.name
   #   t: Web Authentication API
 
-  # - key: features.web_nfc_api.name
+  # - key: entities.web_nfc_api.name
   #   t: Web NFC API
 
-  # - key: features.web_serial_api.name
+  # - key: entities.web_serial_api.name
   #   t: Web Serial API
 
-  # - key: features.eye_dropper_api.name
+  # - key: entities.eye_dropper_api.name
   #   t: EyeDropper API
 
-  # - key: features.background_sync_api.name
+  # - key: entities.background_sync_api.name
   #   t: Background Synchronization API
 
   - key: entities.js_explicit_resource_management.name
@@ -1724,7 +1724,7 @@ translations:
   - key: entities.js_explicit_resource_management.description
     t: Виділення ресурсів та можливість явного вивільнення критичних ресурсів.
 
-  # - key: features.js_dynamic_code_brand_checks.name
+  # - key: entities.js_dynamic_code_brand_checks.name
   #   t: Dynamic Code Brand Checks
 
   - key: entities.regexp_escape.description
@@ -1799,7 +1799,7 @@ translations:
     t: >
       Повертає логічне значення, яке вказує, чи всі елементи цієї множини є в переданій множині.
 
-  - key: v.set_is_superset_of.description
+  - key: entities.set_is_superset_of.description
     t: >
       Повертає логічне значення, яке вказує, чи всі елементи переданої множини є в цій множині.
 
