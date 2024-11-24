@@ -1497,7 +1497,7 @@ translations:
   - key: entities.promises.name
     t: Об'єкт Promise
 
-  - key: features.promise_all_settled.description
+  - key: entities.promise_all_settled.description
     t: >
       Повертає один об'єкт Promise, який сповнюється, коли сповнюються всі передані Promise-об'єкти.
 
@@ -1799,7 +1799,7 @@ translations:
     t: >
       Повертає логічне значення, яке вказує, чи всі елементи цієї множини є в переданій множині.
 
-  - key: v.set_is_superset_of.description
+  - key: entities.set_is_superset_of.description
     t: >
       Повертає логічне значення, яке вказує, чи всі елементи переданої множини є в цій множині.
 
