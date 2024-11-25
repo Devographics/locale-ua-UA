@@ -1,7 +1,7 @@
 locale: ua-UA
 translations:
-  - key: test.new_string2
-    t: this is a test2
+  - key: test.new_string4
+    t: this is a test4
   - key: accounts.error_incorrect_password
     t: Неправильний пароль
   - key: accounts.error_email_required
