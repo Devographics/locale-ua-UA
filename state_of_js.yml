@@ -644,7 +644,7 @@ translations:
   - key: tools.front_end_frameworks_happiness.short
     aliasFor: charts.axis_legends.happiness
   - key: tools.front_end_frameworks_happiness.question
-    t: За шкалою від 0 (дуже незадоволений(-а)) до 4 (дуже задоволений(-а)) наскільки ви задоволені поточним станом фреймворків для клієнтської частини?
+    t: Наскільки ви задоволені поточним станом фреймворків для клієнтської частини? За шкалою від 0 (дуже незадоволений(-а)) до 4 (дуже задоволений(-а)).
 
   - key: tools.front_end_frameworks_pain_points
     t: Проблеми фреймворків для клієнтської частини
@@ -682,7 +682,7 @@ translations:
   - key: tools.meta_frameworks_happiness.short
     aliasFor: charts.axis_legends.happiness
   - key: tools.meta_frameworks_happiness.question
-    t: За шкалою від 0 (дуже незадоволений(-а)) до 4 (дуже задоволений(-а)) наскільки ви задоволені поточним станом метафреймворків?
+    t: Наскільки ви задоволені поточним станом метафреймворків? За шкалою від 0 (дуже незадоволений(-а)) до 4 (дуже задоволений(-а)).
 
   - key: tools.meta_frameworks_pain_points
     t: Проблеми метафреймворків
@@ -718,7 +718,7 @@ translations:
   - key: tools.testing_happiness.short
     aliasFor: charts.axis_legends.happiness
   - key: tools.testing_happiness.question
-    t: За шкалою від 0 (дуже незадоволений(-а)) до 4 (дуже задоволений(-а)) наскільки ви задоволені поточним станом інструментів для тестування коду?
+    t: Наскільки ви задоволені поточним станом інструментів для тестування коду? За шкалою від 0 (дуже незадоволений(-а)) до 4 (дуже задоволений(-а)).
 
   - key: tools.testing_pain_points
     t: Проблеми інструментів тестування
@@ -754,7 +754,7 @@ translations:
   - key: tools.mobile_desktop_happiness.short
     aliasFor: charts.axis_legends.happiness
   - key: tools.mobile_desktop_happiness.question
-    t: За шкалою від 0 (дуже незадоволений(-а)) до 4 (дуже задоволений(-а)) наскільки ви задоволені поточним станом інструментів для мобільних пристроїв і настільних комп'ютерів?
+    t: Наскільки ви задоволені поточним станом інструментів для мобільних пристроїв і настільних комп'ютерів? За шкалою від 0 (дуже незадоволений(-а)) до 4 (дуже задоволений(-а)).
 
   - key: tools.mobile_desktop_pain_points
     t: Проблеми інструментів для мобільних пристроїв і настільних комп'ютерів
@@ -790,7 +790,7 @@ translations:
   - key: tools.build_tools_happiness.short
     aliasFor: charts.axis_legends.happiness
   - key: tools.build_tools_happiness.question
-    t: За шкалою від 0 (дуже незадоволений(-а)) до 4 (дуже задоволений(-а)) наскільки ви задоволені поточним станом інструментів для збирання коду?
+    t: Наскільки ви задоволені поточним станом інструментів для збирання коду? За шкалою від 0 (дуже незадоволений(-а)) до 4 (дуже задоволений(-а)).
 
   - key: tools.build_tools_pain_points
     t: Проблеми інструментів для збирання
@@ -826,7 +826,7 @@ translations:
   - key: tools.monorepo_tools_happiness.short
     aliasFor: charts.axis_legends.happiness
   - key: tools.monorepo_tools_happiness.question
-    t: За шкалою від 0 (дуже незадоволений(-а)) до 4 (дуже задоволений(-а)) наскільки ви задоволені поточним станом інструментів для монорепозиторіїв?
+    t: Наскільки ви задоволені поточним станом інструментів для монорепозиторіїв? За шкалою від 0 (дуже незадоволений(-а)) до 4 (дуже задоволений(-а)).
 
   - key: tools.monorepo_tools_pain_points
     t: Проблеми інструментів для монорепозиторіїв
