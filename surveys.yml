@@ -90,15 +90,15 @@ translations:
     t: роки
 
   - key: likert.option.0
-    t: Дуже незадоволений
+    t: Дуже незадоволений(-а)
   - key: likert.option.1
-    t: Незадоволений
+    t: Незадоволений(-а)
   - key: likert.option.2
-    t: Нейтральний
+    t: Нейтральний(-а)
   - key: likert.option.3
-    t: Задоволений
+    t: Задоволений(-а)
   - key: likert.option.4
-    t: Дуже задоволений
+    t: Дуже задоволений(-а)
 
   - key: general.numeric_input.invalid_input
     t: Будь ласка, переконайтеся, що ви ввели правильне число.
