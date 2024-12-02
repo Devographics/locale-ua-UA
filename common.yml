@@ -469,6 +469,7 @@ translations:
     t: Респонденти, які не зацікавлені у вивченні технології або використовували її і мали негативний досвід.
 
   # comments
+
   - key: options.experience.comments
     t: Коментарі
     aliases:
@@ -1592,8 +1593,12 @@ translations:
   # completion
   - key: user_info.completion_stats
     t: Завершення опитування
+    aliases:
+      - user_metadata.completion_stats
   - key: user_info.completion_stats.description
     t: Яку частину опитування заповнили респонденти?
+    aliases:
+      - user_metadata.completion_stats.description
 
   # email_temporary (receive updates?)
   - key: user_info.receive_notifications

@@ -293,15 +293,25 @@ translations:
 
   - key: user_info.locale
     t: Мова
+    aliases:
+      - user_metadata.locale
   - key: user_info.locale.description
     t: Мова, яку вибрали респонденти для проходження опитування.
+    aliases:
+      - user_metadata.locale.description
 
   - key: user_info.source
     t: Джерело
+    aliases:
+      - user_metadata.source
   - key: user_info.source.description
     t: Звідки респонденти дізналися про опитування
+    aliases:
+      - user_metadata.source.description
   - key: user_info.source.note
     t: Джерело, що спрямувало респондентів, визначається на основі даних джерела переходу (referrer), даних відстеження URL-адрес і власне прямих відповідей.
+    aliases:
+      - user_metadata.source.note
 
   - key: options.source.other_answers
     t: Інші джерела
@@ -361,15 +371,40 @@ translations:
   - key: user_info.higher_education_degree_by_gender.description
     t: Розподіл ступенів вищої освіти за гендером.
 
-  - key: user_info.previous_surveys
+  - key: user_metadata.previous_surveys
     t: Попередні опитування
-  - key: user_info.previous_surveys.description
+  - key: user_metadata.previous_surveys.description
     t: Попередні опитування від Devographics, у яких взяли участь респонденти.
 
-  - key: user_info.same_survey_count
+  - key: user_metadata.same_survey_count
     t: Кількість учасників опитування
-  - key: user_info.same_survey_count.description
+  - key: user_metadata.same_survey_count.description
     t: Скільки разів респонденти взяли участь у поточному опитуванні.
+
+  - key: user_metadata.created_at_date
+    t: Відповіді з часом
+  - key: user_metadata.created_at_date.description
+    t: Хронологічне розбиття часу збору відповідей.
+
+  - key: user_metadata.device
+    t: Пристрій
+  - key: user_metadata.device.description
+    t: Який пристрій використовувався під час проходження опитування.
+
+  - key: user_metadata.browser
+    t: Браузер
+  - key: user_metadata.browser.description
+    t: Який браузер використовувався під час проходження опитування.
+
+  - key: user_metadata.version
+    t: Версія браузера
+  - key: user_metadata.version.description
+    t: Яка версія браузера використовувалася під час проходження опитування.
+
+  - key: user_metadata.os
+    t: ОС
+  - key: user_metadata.os.description
+    t: Яка версія ОС використовувалася під час проходження опитування.
 
   ###########################################################################
   # Locales
