@@ -95,7 +95,7 @@ translations:
     t: Утримання
   - key: ratios.positivity
     t: Позитивне ставлення
-  - key: ratios.relativePositivity
+  - key: ratios.positivityRelative
     t: Позитивне ставлення
 
   - key: ratios.interest.description
@@ -113,7 +113,7 @@ translations:
   - key: ratios.positivity.description
     t: >
       Частка респондентів із **позитивним ставленням** з-поміж усіх
-  - key: ratios.relativePositivity.description
+  - key: ratios.positivityRelative.description
     t: >
       Частка респондентів із **позитивним ставленням** з-поміж тих, хто висловив ставлення.
 
@@ -286,6 +286,11 @@ translations:
     t: Нагороди
   - key: sections.awards.description
     t: Те, що запам'яталось цього року.
+
+  - key: sections.user_metadata.title
+    t: Метадані
+  - key: sections.user_metadata.description
+    t: Зібрані додаткові метадані про респондентів.
 
   ###########################################################################
   # User Info
