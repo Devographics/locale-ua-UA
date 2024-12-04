@@ -380,16 +380,30 @@ translations:
     t: Попередні опитування
   - key: user_metadata.previous_surveys.description
     t: Попередні опитування від Devographics, у яких взяли участь респонденти.
+  - key: user_metadata.previous_surveys.note
+    t: Зверніть увагу, що ці дані не включають респондентів, які взяли участь в опитуванні як гості.
 
   - key: user_metadata.same_survey_count
     t: Кількість учасників опитування
   - key: user_metadata.same_survey_count.description
     t: Скільки разів респонденти взяли участь у поточному опитуванні.
+  - key: user_metadata.same_survey_count.note
+    aliasFor: user_metadata.previous_surveys.note
 
   - key: user_metadata.created_at_date
     t: Відповіді з часом
   - key: user_metadata.created_at_date.description
     t: Хронологічне розбиття часу збору відповідей.
+
+  - key: user_metadata.authmode
+    t: Аутентифікація
+  - key: user_metadata.authmode.description
+    t: Як респонденти заповнили опитування — як гості чи аутентифіковані.
+
+  - key: options.authmode.anonymous
+    t: Гість
+  - key: options.authmode.passwordless
+    t: Аутентифікований
 
   - key: user_metadata.device
     t: Пристрій
