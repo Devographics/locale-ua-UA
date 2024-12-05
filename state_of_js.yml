@@ -132,6 +132,19 @@ translations:
   - key: sections.usage_js.description
     t: Як ви використовуєте JavaScript
 
+  - key: tools.front_end_frameworks
+    aliasFor: sections.front_end_frameworks.title
+  - key: tools.meta_frameworks
+    aliasFor: sections.meta_frameworks.title
+  - key: tools.testing
+    aliasFor: sections.testing.title
+  - key: tools.mobile_desktop
+    aliasFor: sections.mobile_desktop.title
+  - key: tools.build_tools
+    aliasFor: sections.build_tools.title
+  - key: tools.monorepo_tools
+    aliasFor: sections.monorepo_tools.title
+
   ###########################################################################
   # Survey Help
   ###########################################################################
@@ -783,7 +796,7 @@ translations:
   - key: tools.build_tools_others
     t: Інші інструменти для збирання
   - key: tools.build_tools.short
-    aliasFor: tools.others
+    t: Збирачі
 
   - key: tools.build_tools_happiness
     t: Задоволення інструментами для збирання
@@ -819,7 +832,7 @@ translations:
   - key: tools.monorepo_tools_others
     t: Інші інструменти для монорепозиторіїв
   - key: tools.monorepo_tools.short
-    aliasFor: tools.others
+    t: Монорепозиторії
 
   - key: tools.monorepo_tools_happiness
     t: Задоволення інструментами для монорепозиторіїв

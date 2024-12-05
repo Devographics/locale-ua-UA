@@ -71,6 +71,8 @@ translations:
     t: США та світ
   - key: tabs.spanish
     t: Іспанськомовні
+  - key: tabs.outreach
+    t: Залучення
 
   ###########################################################################
   # Options
@@ -401,9 +403,9 @@ translations:
     t: Як респонденти заповнили опитування — як гості чи аутентифіковані.
 
   - key: options.authmode.anonymous
-    t: Гість
+    t: Гостьовий акаунт
   - key: options.authmode.passwordless
-    t: Аутентифікований
+    t: Аутентифікований акаунт
 
   - key: user_metadata.device
     t: Пристрій
