@@ -386,7 +386,7 @@ translations:
     t: Зверніть увагу, що ці дані не включають респондентів, які взяли участь в опитуванні як гості.
 
   - key: user_metadata.same_survey_count
-    t: Кількість учасників опитування
+    t: Кількість учасників
   - key: user_metadata.same_survey_count.description
     t: Скільки разів респонденти взяли участь у поточному опитуванні.
   - key: user_metadata.same_survey_count.note
