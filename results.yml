@@ -897,9 +897,11 @@ translations:
     t: Процентилі
 
   - key: charts.average
-    t: "Середнє: {axis}"
+    t: "Середнє за: {axis}"
+  - key: charts.average_value
+    t: "Середнє значення: {value}"
   - key: charts.mean
-    t: Середнє
+    t: Середнє (mean)
   - key: charts.all_respondents
     t: Усі респонденти
   - key: charts.overall
