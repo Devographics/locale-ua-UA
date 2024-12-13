@@ -332,14 +332,17 @@ translations:
   # Sponsors
   ###########################################################################
 
-  # - key: sponsors.frontendmasters.description
-  #   t: Advance your skills with in-depth, modern front-end engineering courses.
-  # - key: sponsors.google_chrome.description
-  #   t: Thanks to the Google Chrome team for supporting our work.
-  # - key: sponsors.tokyodev.description
-  #   t: Find your dream developer job in Japan today.
-  # - key: sponsors.renderatl.description
-  #   t: The tech conference focused on all things web.
+  - key: sponsors.frontendmasters.description
+    t: Advance your skills with in-depth, modern front-end engineering courses.
+  - key: sponsors.google_chrome.description
+    t: Thanks to the Google Chrome team for supporting our work.
+  - key: sponsors.tokyodev.description
+    t: Find your dream developer job in Japan today.
+  - key: sponsors.renderatl.description
+    t: The tech conference focused on all things web.
+  - key: sponsors.gitnation.description
+    t: |
+      Subscribe to the GitNation Multipass: access 11 remote conferences, 300+ hours of content, and hands-on workshops on JavaScript, React, Vue, and Node.
 
   ###########################################################################
   # FAQ/About
