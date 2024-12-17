@@ -74,6 +74,25 @@
 |The survey's goals are to measure awareness and popularity of ...|Мета опитування — вимірювання впізнаваності та популярності з-поміж ...|
 |You can learn more about this survey in our announcement post.|Ви можете дізнатися більше про це опитування у нашому анонсі.|
 
+### Ролі, посади, ранги
+
+|en-US|ua-UA|
+|-----|-----|
+|accessibility engineer|інженер з доступності|
+|coder|програміст|
+|developer|розробник|
+|developer educator|просвітник для розробників|
+|educator|освітній діяч|
+|front-end senior software engineer|старший інженер клієнтського програмного забезпечення|
+|maintainer|мейнтейнер|
+|podcaster|автор подкастів|
+|principal engineer|головний інженер|
+|senior software engineer|старший інженер програмного забезпечення|
+|software developer|розробник програмного забезпечення|
+|software engineer|інженер програмного забезпечення|
+|streamer|стример|
+|YouTuber|YouTube-відеоблогер|
+
 ## Дискусійне/проблемне
 
 |en-US|ua-UA|коментар|
