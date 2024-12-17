@@ -22,7 +22,7 @@ translations:
     t: "Відсоток заповнення:"
 
   - key: sponsors.thanks
-    t: Дякуємо нашим партнерам за підтримку!
+    t: Спонсорований вміст від наших партнерів.
 
   - key: sponsors.learn_more
     t: Детальніше.
@@ -69,6 +69,10 @@ translations:
     t: Низький та високий дохід
   - key: tabs.usa_vs_the_world
     t: США та світ
+  - key: tabs.spanish
+    t: Іспанськомовні
+  - key: tabs.outreach
+    t: Залучення
 
   ###########################################################################
   # Options
@@ -93,6 +97,8 @@ translations:
     t: Утримання
   - key: ratios.positivity
     t: Позитивне ставлення
+  - key: ratios.positivityRelative
+    t: Позитивне ставлення
 
   - key: ratios.interest.description
     t: >
@@ -109,6 +115,9 @@ translations:
   - key: ratios.positivity.description
     t: >
       Частка респондентів із **позитивним ставленням** з-поміж усіх
+  - key: ratios.positivityRelative.description
+    t: >
+      Частка респондентів із **позитивним ставленням** з-поміж тих, хто висловив ставлення.
 
   - key: modes.rank
     t: Ранг
@@ -270,8 +279,7 @@ translations:
     t: Підтримайте нас
   - key: sections.support.description
     t: >
-      Це волонтерський проект, але для того, щоб зробити його стійким, 
-      ми завжди шукаємо партнерів, які можуть надати нам 
+      Для того, щоб зробити опитування стійким, ми завжди шукаємо партнерів, які можуть надати нам 
       фінансову підтримку або допомогти поширити інформацію. 
       Якщо ви хочете допомогти нам, то, будь ласка, не соромтеся [зв'язатися з нами] (mailto: hello@stateofjs.com)!
 
@@ -280,21 +288,36 @@ translations:
   - key: sections.awards.description
     t: Те, що запам'яталось цього року.
 
+  - key: sections.user_metadata.title
+    t: Метадані
+  - key: sections.user_metadata.description
+    t: Зібрані додаткові метадані про респондентів.
+
   ###########################################################################
   # User Info
   ###########################################################################
 
   - key: user_info.locale
     t: Мова
+    aliases:
+      - user_metadata.locale
   - key: user_info.locale.description
-    t: Мова, яку вибрали респонденти для проходження опитування
+    t: Мова, яку вибрали респонденти для проходження опитування.
+    aliases:
+      - user_metadata.locale.description
 
   - key: user_info.source
     t: Джерело
+    aliases:
+      - user_metadata.source
   - key: user_info.source.description
     t: Звідки респонденти дізналися про опитування
+    aliases:
+      - user_metadata.source.description
   - key: user_info.source.note
     t: Джерело, що спрямувало респондентів, визначається на основі даних джерела переходу (referrer), даних відстеження URL-адрес і власне прямих відповідей.
+    aliases:
+      - user_metadata.source.note
 
   - key: options.source.other_answers
     t: Інші джерела
@@ -353,6 +376,55 @@ translations:
     t: Вища освіта відносно гендеру
   - key: user_info.higher_education_degree_by_gender.description
     t: Розподіл ступенів вищої освіти за гендером.
+
+  - key: user_metadata.past_surveys
+    t: Попередні опитування
+  - key: user_metadata.past_surveys.description
+    t: Попередні опитування від Devographics, у яких взяли участь респонденти.
+  # - key: user_metadata.past_surveys.note
+  #   t: Зверніть увагу, що ці дані не включають респондентів, які взяли участь в опитуванні як гості.
+
+  - key: user_metadata.past_same_survey_count
+    t: Кількість учасників
+  - key: user_metadata.past_same_survey_count.description
+    t: Скільки разів респонденти взяли участь у поточному опитуванні.
+  # - key: user_metadata.past_same_survey_count.note
+  #   aliasFor: user_metadata.past_surveys.note
+
+  - key: user_metadata.created_at_date
+    t: Відповіді з часом
+  - key: user_metadata.created_at_date.description
+    t: Хронологічне розбиття часу збору відповідей.
+
+  - key: user_metadata.authmode
+    t: Автентифікація
+  - key: user_metadata.authmode.description
+    t: Як респонденти заповнили опитування — як гості чи автентифіковані.
+
+  - key: options.authmode.anonymous
+    t: Гостьовий акаунт
+  - key: options.authmode.passwordless
+    t: Автентифікований акаунт
+
+  - key: user_metadata.device
+    t: Пристрій
+  - key: user_metadata.device.description
+    t: Який пристрій використовувався під час проходження опитування.
+
+  - key: user_metadata.browser
+    t: Браузер
+  - key: user_metadata.browser.description
+    t: Який браузер використовувався під час проходження опитування.
+
+  - key: user_metadata.version
+    t: Версія браузера
+  - key: user_metadata.version.description
+    t: Яка версія браузера використовувалася під час проходження опитування.
+
+  - key: user_metadata.os
+    t: ОС
+  - key: user_metadata.os.description
+    t: Яка версія ОС використовувалася під час проходження опитування.
 
   ###########################################################################
   # Locales
@@ -733,7 +805,7 @@ translations:
     t: Налаштувати дані
   - key: custom_data.details
     t: >
-
+      
       1. Скопіюйте вміст поля "GraphQL-запит" і вставте його в середню панель [API-оглядача GraphQL](https://graphiql.stateofjs.com/).
 
       2. Змініть запит, додавши один або кілька **фільтрів** за допомогою лівої панелі оглядача. Переконайтеся, що загальна структура даних залишається такою ж.
@@ -824,9 +896,11 @@ translations:
     t: Процентилі
 
   - key: charts.average
-    t: "Середнє: {axis}"
+    t: "Середнє за: {axis}"
+  - key: charts.average_value
+    t: "Середнє значення: {value}"
   - key: charts.mean
-    t: Середнє
+    t: Середнє (mean)
   - key: charts.all_respondents
     t: Усі респонденти
   - key: charts.overall
@@ -976,7 +1050,7 @@ translations:
   - key: charts.cutoff_answers.short
     t: Відкинуті відповіді
   - key: charts.cutoff_answers.description
-    t: Елементи, що мають меншу за {cutoff} кількість відповідей 
+    t: Елементи, що мають меншу за {cutoff} кількість відповідей
 
   - key: charts.other_answers
     t: Інші відповіді
@@ -1026,6 +1100,9 @@ translations:
 
   - key: charts.no_data
     t: На жаль, жодних даних для цього запиту.
+
+  - key: charts.show_neutral_sentiment
+    t: Показати нейтральне
 
   ###########################################################################
   # Comments
@@ -1610,7 +1687,7 @@ translations:
   - key: filters.compare_data
     t: Порівняти дані
   - key: filters.customize_chart
-    t: Додати фільтри...
+    t: Побудувати запит
   - key: filters.docs
     t: Документація
   - key: filters.compare_chart
@@ -1885,7 +1962,8 @@ translations:
   - key: answers.answers
     t: Відповіді довільної форми
   - key: answers.answers_for
-    t: Відповіді, що відповідають ключу “{name}”
+    t: |
+      Відповіді ({count}), що відповідають ключу "{name}"
   - key: answers.description
     t: |
       Ці відповіді довільної форми було зіставлено з ключовим словом **{name}** завдяки поєднанню
@@ -1893,9 +1971,29 @@ translations:
   - key: answers.report_abuse
     t: Повідомити про порушення у цій відповіді
 
+  - key: answers.length
+    t: Довжина відповіді
+
+  - key: answers.keyword
+    t: |
+      Ключове слово:
+
+  - key: answers.keyword_count
+    t: |
+      Результати ({count})
+
   ###########################################################################
   # Banners
   ###########################################################################
 
   - key: banner.html2024
     t: Відкрито опитування "Стан HTML 2024"! Взяти участь →
+
+  ###########################################################################
+  # Cardinalities
+  ###########################################################################
+
+  - key: tools.cardinalities
+    t: Кількість елементів
+  - key: tools.cardinalities.description
+    t: Скільки елементів у цій категорії респонденти використовували (або чули про них).

@@ -1,0 +1,4 @@
+locale: ua-UA
+translations:
+  - key: foo
+    t: bar

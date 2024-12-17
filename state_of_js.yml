@@ -132,6 +132,19 @@ translations:
   - key: sections.usage_js.description
     t: Як ви використовуєте JavaScript
 
+  - key: tools.front_end_frameworks
+    aliasFor: sections.front_end_frameworks.title
+  - key: tools.meta_frameworks
+    aliasFor: sections.meta_frameworks.title
+  - key: tools.testing
+    aliasFor: sections.testing.title
+  - key: tools.mobile_desktop
+    aliasFor: sections.mobile_desktop.title
+  - key: tools.build_tools
+    aliasFor: sections.build_tools.title
+  - key: tools.monorepo_tools
+    aliasFor: sections.monorepo_tools.title
+
   ###########################################################################
   # Survey Help
   ###########################################################################
@@ -611,7 +624,7 @@ translations:
     t: Інші інструменти
 
   - key: tools.tools_work
-    t: У контексті роботи
+    t: Використовується на роботі
   - key: tools.tools_work.question
     t: Які з-поміж цих інструментів ви використовуєте у професійному контексті?
 
@@ -783,7 +796,7 @@ translations:
   - key: tools.build_tools_others
     t: Інші інструменти для збирання
   - key: tools.build_tools.short
-    aliasFor: tools.others
+    t: Збирачі
 
   - key: tools.build_tools_happiness
     t: Задоволення інструментами для збирання
@@ -819,7 +832,7 @@ translations:
   - key: tools.monorepo_tools_others
     t: Інші інструменти для монорепозиторіїв
   - key: tools.monorepo_tools.short
-    aliasFor: tools.others
+    t: Монорепозиторії
 
   - key: tools.monorepo_tools_happiness
     t: Задоволення інструментами для монорепозиторіїв
@@ -1091,9 +1104,9 @@ translations:
     aliasFor: tools.data_fetching.others
 
   - key: other_tools.backend_frameworks
-    aliasFor: tools.backend_frameworks
+    t: Серверні фреймворки
   - key: other_tools.backend_frameworks.description
-    aliasFor: tools.backend_frameworks.description
+    t: Фреймворки для генерації API і керування серверною частиною
   - key: other_tools.backend_frameworks.others
     aliasFor: tools.backend_frameworks.others
 
@@ -1141,7 +1154,7 @@ translations:
     t: Скільки часу ви пишете JavaScript-код і скільки — TypeScript?
 
   - key: options.js_ts_balance.0
-    t: 100% JS
+    t: 0% TS
   - key: options.js_ts_balance.1
     t: "|"
   - key: options.js_ts_balance.2
@@ -1159,6 +1172,25 @@ translations:
   - key: options.js_ts_balance.8
     t: 100% TS
 
+  - key: options.js_ts_balance.0.description
+    aliasFor: options.slider.0.description
+  - key: options.js_ts_balance.1.description
+    aliasFor: options.slider.1.description
+  - key: options.js_ts_balance.2.description
+    aliasFor: options.slider.2.description
+  - key: options.js_ts_balance.3.description
+    aliasFor: options.slider.3.description
+  - key: options.js_ts_balance.4.description
+    aliasFor: options.slider.4.description
+  - key: options.js_ts_balance.5.description
+    aliasFor: options.slider.5.description
+  - key: options.js_ts_balance.6.description
+    aliasFor: options.slider.6.description
+  - key: options.js_ts_balance.7.description
+    aliasFor: options.slider.7.description
+  - key: options.js_ts_balance.8.description
+    aliasFor: options.slider.8.description
+
   # ai_generated_code_balance
 
   - key: usage.ai_generated_code_balance
@@ -1168,7 +1200,7 @@ translations:
   - key: usage.ai_generated_code_balance.prompt
     t: Включно з кодом, скопійованим із ChatGPT або інших чат-ботів.
 
-  # slider
+  # ai_generated_code_balance
   - key: options.ai_generated_code_balance.0
     t: 0% ШІ
   - key: options.ai_generated_code_balance.1
@@ -1197,7 +1229,7 @@ translations:
   - key: usage.compiled_code_balance.prompt
     t: Будь-який зібраний, мініфікований або по-іншому перетворений код, на відміну від коду, який безпосередньо виконується браузером.
 
-  # slider
+  # compiled_code_balance
   - key: options.compiled_code_balance.0
     t: 0% компілюється
   - key: options.compiled_code_balance.1

@@ -8,6 +8,8 @@ translations:
     t: Алжир
   - key: options.country.ARG
     t: Аргентина
+  - key: options.country.ARM
+    t: Вірменія
   - key: options.country.AUS
     t: Австралія
   - key: options.country.AUT
@@ -18,6 +20,8 @@ translations:
     t: Бельгія
   - key: options.country.BLR
     t: Білорусь
+  - key: options.country.BIH
+    t: Боснія і Герцеговина
   - key: options.country.BRA
     t: Бразилія
   - key: options.country.BGR
@@ -44,20 +48,24 @@ translations:
     t: Чехія
   - key: options.country.DEU
     t: Німеччина
+  - key: options.country.GRC
+    t: Греція
   - key: options.country.DNK
     t: Данія
   - key: options.country.EGY
     t: Єгипет
+  - key: options.country.EST
+    t: Естонія
   - key: options.country.ETH
     t: Ефіопія
   - key: options.country.FIN
     t: Фінляндія
   - key: options.country.FRA
     t: Франція
+  - key: options.country.GEO
+    t: Грузія
   - key: options.country.GHA
     t: Гана
-  - key: options.country.GBR
-    t: Велика Британія
   - key: options.country.HKG
     t: Гонконг
   - key: options.country.HUN
@@ -82,10 +90,10 @@ translations:
     t: Японія
   - key: options.country.KEN
     t: Кенія
+  - key: options.country.LTU
+    t: Литва
   - key: options.country.LUX
     t: Люксембург
-  - key: options.country.KOR
-    t: Південна Корея
   - key: options.country.MDA
     t: Молдова
   - key: options.country.MEX
@@ -94,6 +102,8 @@ translations:
     t: М'янма
   - key: options.country.NPL
     t: Непал
+  - key: options.country.MKD
+    t: Північна Македонія
   - key: options.country.NOR
     t: Норвегія
   - key: options.country.NLD
@@ -104,18 +114,30 @@ translations:
     t: Нова Зеландія
   - key: options.country.POL
     t: Польща
+  - key: options.country.PRT
+    t: Португалія
   - key: options.country.PAK
     t: Пакистан
+  - key: options.country.PER
+    t: Перу
   - key: options.country.PHL
     t: Філіппіни
+  - key: options.country.ROU
+    t: Румунія
   - key: options.country.RUS
     t: Росія
   - key: options.country.SAU
     t: Саудівська Аравія
+  - key: options.country.SRB
+    t: Сербія
   - key: options.country.SGP
     t: Сінгапур
+  - key: options.country.SVN
+    t: Словенія
   - key: options.country.ZAF
     t: Південно-Африканська Республіка
+  - key: options.country.KOR
+    t: Південна Корея
   - key: options.country.ESP
     t: Іспанія
   - key: options.country.SWE
@@ -134,8 +156,12 @@ translations:
     t: Україна
   - key: options.country.ARE
     t: Об'єднані Арабські Емірати
+  - key: options.country.GBR
+    t: Велика Британія
   - key: options.country.USA
     t: США
+  - key: options.country.VEN
+    t: Венесуела
   - key: options.country.VNM
     t: В'єтнам
 # from https://github.com/lukes/ISO-3166-Countries-with-Regional-Codes/blob/master/slim-3/slim-3.json

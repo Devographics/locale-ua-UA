@@ -469,6 +469,7 @@ translations:
     t: Респонденти, які не зацікавлені у вивченні технології або використовували її і мали негативний досвід.
 
   # comments
+
   - key: options.experience.comments
     t: Коментарі
     aliases:
@@ -545,6 +546,26 @@ translations:
     t: Задоволений(-а)
   - key: options.happiness.4.short
     t: Дуже задоволений(-а)
+
+  # slider
+  - key: options.slider.0.description
+    t: 0%
+  - key: options.slider.1.description
+    t: 12.5%
+  - key: options.slider.2.description
+    t: 25%
+  - key: options.slider.3.description
+    t: 37.5%
+  - key: options.slider.4.description
+    t: 50%
+  - key: options.slider.5.description
+    t: 62.5%
+  - key: options.slider.6.description
+    t: 75%
+  - key: options.slider.7.description
+    t: 87.5%
+  - key: options.slider.8.description
+    t: 100%
 
   # opinions
   - key: options.opinions.0
@@ -1592,8 +1613,12 @@ translations:
   # completion
   - key: user_info.completion_stats
     t: Завершення опитування
+    aliases:
+      - user_metadata.completion_stats
   - key: user_info.completion_stats.description
     t: Яку частину опитування заповнили респонденти?
+    aliases:
+      - user_metadata.completion_stats.description
 
   # email_temporary (receive updates?)
   - key: user_info.receive_notifications
@@ -1649,6 +1674,7 @@ translations:
       Блог/розсилка #{index}…
 
   # newsletters
+
   - key: resources.newsletters
     t: Розсилки
   - key: resources.newsletters.question
