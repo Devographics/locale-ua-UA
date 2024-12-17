@@ -221,7 +221,7 @@ translations:
       Stay curious, as no other language offers the community, flexibility, and creativity that JavaScript does!
 
   - key: conclusion.js2024.fernando_herrera.bio
-    t: Developer, educator, and YouTuber
+    t: Розробник, освітній діяч і YouTube-відеоблогер
 
   - key: conclusion.js2024.shaundai_person
     t: |
@@ -234,7 +234,7 @@ translations:
       If you're like me, you prefer to focus on mastering a few essential tools rather than continually experimenting with new frameworks and libraries. Also like me, you might even hold off on adopting the latest versions of reliable front-end tools until they reach stable releases and any issues are resolved. You’re not alone, and there are huge benefits for those of us who prefer the tried-and-true path.
 
   - key: conclusion.js2024.shaundai_person.bio
-    t: Front end Senior Software Engineer (Netflix) and course instructor
+    t: Інженерка клієнтського програмного забезпечення (Netflix) та інструкторка курсів
 
   ###########################################################################
   # Picks
@@ -248,7 +248,7 @@ translations:
   - key: picks.jack_herrington.name
     t: TanStack
   - key: picks.jack_herrington.bio
-    t: Coder & YouTuber
+    t: Програміст та YouTube-відеоблогер
   - key: picks.jack_herrington.description
     t: |
       Tanstack, a banquet of practical, high quality, battle tested libraries, culminating in the TanStack Start framework.
@@ -256,7 +256,7 @@ translations:
   - key: picks.josefine_schaefer.name
     t: Arisa Fukuzaki
   - key: picks.josefine_schaefer.bio
-    t: Accessibility Engineer
+    t: Інженерка з доступності
   - key: picks.josefine_schaefer.description
     t: |
       Arisa is am amazing tech educator, mentor, docs & DevRel engineer who's super passionate about JS frameworks, community work and supporting women in tech. She's one to watch!
@@ -264,7 +264,7 @@ translations:
   - key: picks.cassie_evans.name
     t: gsap-video-export
   - key: picks.cassie_evans.bio
-    t: Does a little bit of everything at GSAP
+    t: Робить всього потрохи в GSAP
   - key: picks.cassie_evans.description
     t: |
       Chris made this super handy tool to export your GSAP animations to video. It's made my life much easier and my videos much smoother - no more low quality screen recordings for me!
@@ -272,7 +272,7 @@ translations:
   - key: picks.tania_rascia.name
     t: Cassidy Williams
   - key: picks.tania_rascia.bio
-    t: Self-taught principal engineer, accomplished tech blogger, and professionally trained chef
+    t: Самонавчена головна інженерка, досвідчена технічна блогерка і професійно підготовлена шеф-кухарка
   - key: picks.tania_rascia.description
     t: |
       Cassidy's been writing on her blog since 2009, has an incredibly unique style and so many cool, niche interests (I'm proud to own her StackOverflow copy/paste keyboard!). She puts out a great newsletter every week, makes the best developer memes, and does it all while being a new mom, which is beyond impressive.
@@ -280,7 +280,7 @@ translations:
   - key: picks.salma_alam_naylor.name
     t: The Breedling
   - key: picks.salma_alam_naylor.bio
-    t: Live streamer, software engineer, and developer educator
+    t: Стримерка наживо, інженерка програмного забезпечення і просвітниця для розробників
   - key: picks.salma_alam_naylor.description
     t: |
       Web technology isn't just for websites. The Breedling is an in-browser visualisation tool to accompany live music gigs by the band of the same name, mixing video and RIVE animations with WebGL shaders, utilising an old BBC experimental library VideoContext.
@@ -288,7 +288,7 @@ translations:
   - key: picks.wes_bos.name
     t: Transformers.js
   - key: picks.wes_bos.bio
-    t: Podcaster and educator
+    t: Автор подкастів та освітній діяч
   - key: picks.wes_bos.description
     t: |
       Transformers.js is a library for working on AI models in JavaScript. It does it all - Computer vision, audio, image generation, chat-bot generation, and more.
@@ -298,7 +298,7 @@ translations:
   - key: picks.shaundai_person.name
     t: Shruti Kapoor
   - key: picks.shaundai_person.bio
-    t: Front end Senior Software Engineer (Netflix) and course instructor
+    t: Інженерка клієнтського програмного забезпечення (Netflix) та інструкторка курсів
   - key: picks.shaundai_person.description
     t: |
       My Pick of the Year is my friend Shruti Kapoor. Shruti has a way of explaining even the trickiest technical JS concepts in very easy-to-understand way. In her fun and engaging YouTube videos and conference talks, she teaches her audience the most critical parts of JavaScript development without a lot of fluff.
@@ -306,7 +306,7 @@ translations:
   - key: picks.michelle_bakels.name
     t: v0
   - key: picks.michelle_bakels.bio
-    t: Software developer, community builder, and React Miami organizer at G2i
+    t: Розробниця програмного забезпечення, розбудовниця спільноти й організаторка "React Miami" з G2i
   - key: picks.michelle_bakels.description
     t: |
       While AI coding companions are here to stay, they can still run into issues with keeping up with the latest developments in our ecosystem. v0 isn’t only the best tool for generating UI, but it also has the strongest context for providing valuable and relevant coding assistance in our current state of JavaScript.
@@ -314,7 +314,7 @@ translations:
   - key: picks.sacha_greif.name
     t: Bluesky
   - key: picks.sacha_greif.bio
-    t: Maintainer, State of JS
+    t: Мейнтейнер "Стан JS"
   - key: picks.sacha_greif.description
     t: |
       With X's slow descent into madness, it felt like the front end community had been left without a home. So it's great to see so many of us finally converging towards a new platform in the form of Bluesky.
@@ -322,7 +322,7 @@ translations:
   - key: picks.dominik_dorfmeister.name
     t: Knip
   - key: picks.dominik_dorfmeister.bio
-    t: Software Engineer @ Sentry, React Query maintainer
+    t: Інженер програмного забезпечення в Sentry, мейнтейнер React Query
   - key: picks.dominik_dorfmeister.description
     t: |
       Knip is an amazing tool that analyzes your code and tells you what you can get rid of. It’s fast (so you can run it in CI), understands many frameworks and libraries out of the box, and works seamlessly in monorepos, too.
@@ -330,7 +330,7 @@ translations:
   - key: picks.sebastien_lorber.name
     t: Rspack
   - key: picks.sebastien_lorber.bio
-    t: This Week In React creator, Docusaurus maintainer
+    t: Автор "This Week in React", мейнтейнер Docusaurus
   - key: picks.sebastien_lorber.description
     t: |
       The Rspack bundler is an almost drop-in replacement for Webpack. Implemented in Rust, it's much faster than Webpack and consumes less memory. All Webpack projects should try it out immediately, considering how easy it is to adopt!
