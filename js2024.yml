@@ -53,7 +53,7 @@ translations:
 
   - key: introduction.js2024
     t: |
-
+      
       <span class="first-letter">L</span>et's take a second to consider something: 2024's top three front end framework were all launched over a decade ago. 
 
       Now sure, all three have evolved a lot along the way, and the patterns of 2014 would seem downright antiquated today. But given the JavaScript ecosystems's reputation as a constantly-churning whirlwind of change, it can be nice to know that some things do remain constant. 
@@ -163,27 +163,27 @@ translations:
   # Notes
   ###########################################################################
 
-  # - key: blocks.gender.note
-  #   t: |
-  #     If you're interested in learning more, we [wrote a blog post](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj) that addresses the survey's gender dynamics.
+  - key: blocks.gender.note
+    t: |
+      Якщо ви хочете дізнатися більше, ми [написали статтю](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj), у якій йдеться про гендерну динаміку опитування.
 
-  # - key: blocks.source.note
-  #   t: >
+  - key: blocks.source.note
+    t: >
+      
+      Ця діаграма зібрана із джерел переходу (referrers), параметрів URL та відповідей довільної форми. 
 
-  #     This chart aggregates a mix of referrers, URL parameters, and freeform answers. 
+      - Стан JS: список розсилання електронною поштою про ["Стан JS"](https://stateofjs.com). 
 
-  #     - State of JS: the [State of JS](https://stateofjs.com) mailing list.
+      - Стан CSS: список розсилання електронною поштою про ["Стан CSS"]; тексти з відповідниками `email`, `by email` тощо. 
 
-  #     - State of CSS: the State of CSS mailing list; also matches `email`, `by email`, etc.
-
-  #     - Work: matches `work`, `colleagues`, `coworkers`, etc.
+      - Робота: тексти з відповідниками `work`, `colleagues`, `coworkers` тощо.
 
   ###########################################################################
   # Awards
   ###########################################################################
 
-  # - key: award.feature_adoption_delta_award.comment
-  #   t: With a **{value}** progression in 2022, **top-level await** has quickly become an integral part of JavaScript.
+  - key: award.feature_adoption_delta_award.comment
+    t: Із прогресом **{value}** у 2022 році **await верхнього рівня** швидко став невід'ємною частиною JavaScript.
 
   - key: award.tool_usage_delta_award.comment
     t: |
@@ -227,7 +227,7 @@ translations:
     t: |
       <span class="first-line">Just under five years ago, I discovered the advantages of using TypeScript for the first time.</span>
 
-      I wasn't alone in this journey; I was among the many JavaScript developers who were just starting to explore TypeScript and its benefits for teams aiming to create scalable and maintainable front-end systems.  It’s amazing to me to see how quickly TypeScript has grown in popularity!  I’m thrilled to see that the majority of survey respondents now use TypeScript in their daily work.
+      I wasn't alone in this journey; I was among the many JavaScript developers who were just starting to explore TypeScript and its benefits for teams aiming to create scalable and maintainable front-end systems. It's amazing to me to see how quickly TypeScript has grown in popularity! I'm thrilled to see that the majority of survey respondents now use TypeScript in their daily work.
 
       Today, my go-to stack for both my professional work and my personal projects contains React, TypeScript, Vite, and Jest. Large and rapidly-growing teams have placed their bets on these tools and look for expertise in these areas when hiring front-end developers. So it's no surprise to see that they have been widely adopted and retained by other organizations as well.
 
@@ -301,7 +301,7 @@ translations:
     t: Front end Senior Software Engineer (Netflix) and course instructor
   - key: picks.shaundai_person.description
     t: |
-      My Pick of the Year is my friend Shruti Kapoor. Shruti has a way of explaining even the trickiest technical JS concepts in very easy-to-understand way.  In her fun and engaging YouTube videos and conference talks, she teaches her audience the most critical parts of JavaScript development without a lot of fluff.
+      My Pick of the Year is my friend Shruti Kapoor. Shruti has a way of explaining even the trickiest technical JS concepts in very easy-to-understand way. In her fun and engaging YouTube videos and conference talks, she teaches her audience the most critical parts of JavaScript development without a lot of fluff.
 
   - key: picks.michelle_bakels.name
     t: v0

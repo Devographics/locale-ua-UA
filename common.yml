@@ -1674,6 +1674,7 @@ translations:
       Блог/розсилка #{index}…
 
   # newsletters
+
   - key: resources.newsletters
     t: Розсилки
   - key: resources.newsletters.question

@@ -397,14 +397,14 @@ translations:
     t: Хронологічне розбиття часу збору відповідей.
 
   - key: user_metadata.authmode
-    t: Аутентифікація
+    t: Автентифікація
   - key: user_metadata.authmode.description
-    t: Як респонденти заповнили опитування — як гості чи аутентифіковані.
+    t: Як респонденти заповнили опитування — як гості чи автентифіковані.
 
   - key: options.authmode.anonymous
     t: Гостьовий акаунт
   - key: options.authmode.passwordless
-    t: Аутентифікований акаунт
+    t: Автентифікований акаунт
 
   - key: user_metadata.device
     t: Пристрій
@@ -805,7 +805,7 @@ translations:
     t: Налаштувати дані
   - key: custom_data.details
     t: >
-
+      
       1. Скопіюйте вміст поля "GraphQL-запит" і вставте його в середню панель [API-оглядача GraphQL](https://graphiql.stateofjs.com/).
 
       2. Змініть запит, додавши один або кілька **фільтрів** за допомогою лівої панелі оглядача. Переконайтеся, що загальна структура даних залишається такою ж.
@@ -1050,7 +1050,7 @@ translations:
   - key: charts.cutoff_answers.short
     t: Відкинуті відповіді
   - key: charts.cutoff_answers.description
-    t: Елементи, що мають меншу за {cutoff} кількість відповідей 
+    t: Елементи, що мають меншу за {cutoff} кількість відповідей
 
   - key: charts.other_answers
     t: Інші відповіді

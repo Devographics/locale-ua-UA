@@ -115,7 +115,7 @@ translations:
   - key: calendar.heading
     t: Майбутні опитування
   - key: calendar.feedbackAt
-    t: Початок консультування
+    t: Початок зворотного зв'язку
   - key: calendar.startedAt
     t: Початок опитування
   - key: calendar.endedAt
