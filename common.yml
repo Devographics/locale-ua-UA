@@ -81,7 +81,7 @@ translations:
   - key: general.survey_results
     t: Переглянути результати опитування »
   - key: general.surveys_available_languages
-    t: "Опитування доступні наступними мовами:"
+    t: "Опитування доступні такими мовами:"
   - key: general.help_us_translate
     t: Допомогти з перекладом опитувань »
   - key: general.translators
