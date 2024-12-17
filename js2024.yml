@@ -340,16 +340,16 @@ translations:
   ###########################################################################
 
   - key: sponsors.frontendmasters.description
-    t: Advance your skills with in-depth, modern front-end engineering courses.
+    t: Вдосконалюйте свої навички за допомогою поглиблених сучасних курсів про інженерію клієнтської частини.
   - key: sponsors.google_chrome.description
-    t: Thanks to the Google Chrome team for supporting our work.
+    t: Дякуємо команді Google Chrome за підтримку нашої роботи.
   - key: sponsors.tokyodev.description
-    t: Find your dream developer job in Japan today.
+    t: Знайдіть роботу розробника своєї мрії в Японії вже сьогодні.
   - key: sponsors.renderatl.description
-    t: The tech conference focused on all things web.
+    t: Технічна конференція, присвячена всьому у вебі.
   - key: sponsors.gitnation.description
     t: |
-      Learn latest trends directly from early-adopters and tech authors at GitNation.com
+      Дізнайтеся про останні тенденції безпосередньо від перших користувачів та технологічних авторів на GitNation.com
 
   ###########################################################################
   # FAQ/About
@@ -357,45 +357,45 @@ translations:
 
   - key: about.content
     t: |
-      The 2024 State of JavaScript survey ran from November 13 to December 10 2024, and collected 14,015 responses. The results were published on December 16, 2024. The survey is run by [Devographics](https://devographics.com/), a collective consisting of me ([Sacha Greif](https://sachagreif.com/)) and [Eric Burel](https://www.lbke.fr/), as well as invited experts and open-source contributors. 
+      Опитування "Cтан JavaScript 2023" тривало з 13 листопада до 10 грудня 2023 року та зібрало 14015 відповідей. Результати були опубліковані 16 грудня 2024 року. Опитування проводив [Devographics](https://devographics.com/), колектив, до складу якого входять я ([Sacha Greif](https://sachagreif.com/)) і [Eric Burel](https://www.lbke.fr/), а також запрошені експерти та учасники проєктів із відкритим програмним кодом. 
 
-      The State of JavaScript logo and t-shirt were designed by [Christopher Kirk-Nielsen](http://chriskirknielsen.com/). 
+      Логотип і футболку "Стан JavaScript" розробив [Christopher Kirk-Nielsen](http://chriskirknielsen.com/). 
 
-      ### Survey Goals 
+      ### Цілі опитування 
 
-      This survey was created to identify upcoming trends in the web development ecosystem in order to help developers make technological choices.  
+      Це опитування було створено для визначення майбутніх тенденцій в екосистемі веброзробки, щоб допомогти розробникам здійснити вибір з-поміж наявних технологій.  
 
-      As such, the survey is focused on anticipating what's coming over the next few years rather than analyzing what's popular now, which is why features or technologies may sometimes be omitted even if they are currently widespread. 
+      Так опитування зосереджено більше на передбаченні того, що станеться протягом наступних кількох років, ніж на аналізі того, що популярно саме зараз, — ось чому деякі функції чи технології іноді можуть не згадуватися попри широке впровадження. 
 
-      It should also be taken as a **snapshot of a specific subset of developers**, and is not meant to speak for the entire ecosystem. 
+      Його також слід сприймати як **знімок певної підмножини розробників у певний момент часу**, а не промовистий опис від імені всієї екосистеми. 
 
-      ### Survey Design 
+      ### Розробка опитування 
 
-      The survey was designed in part based on last year's survey, with an open feedback period where the survey outline was discussed [on GitHub](https://github.com/Devographics/surveys/issues?q=+label%3A%22State+of+JS+2024%22+). 
+      Опитування було розроблено частково на основі торішнього опитування з відкритим періодом для зворотного зв'язку, під час якого план опитування обговорювався [на платформі GitHub](https://github.com/Devographics/surveys/issues?q=+label%3A%22State+of+JS+2024%22+). 
 
-      All survey questions were optional. 
+      Усі запитання опитування були необов'язковими. 
 
-      ### Survey Audience 
+      ### Аудиторія опитування 
 
-      The survey was openly accessible online and respondents were not filtered or selected in any way. Respondents were primarily a mix of respondents from past surveys (alerted through a dedicated mailing list) and social media traffic. 
+      Опитування було повністю відкрите та доступне онлайн, респонденти жодним чином не відфільтровувалися та не відбиралися. Респонденти складалися здебільшого з учасників минулих опитувань (сповіщених електронною поштою за спеціальним списком розсилання) та тих, хто прийшов через соціальні мережі. 
 
-      Note that frameworks, libraries, etc. were free to encourage their audience to participate in the survey and some of them did take advantage of this via banners, tweets, etc. A detailed breakdown of traffic sources is included in the Metadata page's "Sources" chart. 
+      Зауважте, що фреймворки, бібліотеки тощо могли вільно заохочувати свою аудиторію до участі в опитуванні, і деякі з них скористалися цим за допомогою банерів, твітів або у інший спосіб. Детальний розподіл джерел трафіку включено в діаграму "Джерела". 
 
-      ### Project Funding 
+      ### Фінансування проєкту 
 
-      Funding from this project comes from a variety of sources: 
+      Цей проєкт фінансується з різних джерел: 
 
-      - **T-shirt sales**. 
+      - **Продаж футболок**. 
 
-      - **Sponsored links**: the links to recommended resources at the bottom of each page are provided by our partners [Frontend Masters](https://frontendmasters.com/) and [TokyoDev](https://tokyodev.com/). 
+      - **Розміщення посилань від спонсорів**: посилання на рекомендовані джерела у нижній частині кожної сторінки надають наші партнери [Frontend Masters](https://frontendmasters.com/) та [TokyoDev](https://tokyodev.com/). 
 
-      - **Direct Funding**: this year, [Google](https://www.google.com/) funded my work on the survey. 
+      - **Пряме фінансування**: цього року [Google](https://www.google.com/) профінансував мою роботу над опитуванням. 
 
-      Any contribution or sponsorship is greatly appreciated. we would especially like to work closely with more browser vendors, since they play such a central role in the web ecosystem. 
+      Будь-який внесок або спонсорство дуже цінується. Особливо ми хотіли б тісніше співпрацювати з більшою кількістю постачальників браузерів, оскільки вони відіграють центральну роль в екосистемі вебу. 
 
-      ### Technical Overview 
+      ### Технічний огляд 
 
-      You can find a more in-depth technical overview of how the surveys are run [here](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2024-edition-1p6a). 
+      Більш детальний технічний огляд того, як проводяться опитування, [тут](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2024-edition-1p6a). 
 
   ###########################################################################
   # Takeaways
