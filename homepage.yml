@@ -113,12 +113,12 @@ translations:
   # calendar
 
   - key: calendar.heading
-    t: Upcoming Surveys
+    t: Майбутні опитування
   - key: calendar.feedbackAt
-    t: Feedback start
+    t: Початок консультування
   - key: calendar.startedAt
-    t: Survey start
+    t: Початок опитування
   - key: calendar.endedAt
-    t: Survey end
+    t: Завершення опитування
   - key: calendar.releasedAt
-    t: Results release
+    t: Публікація результатів
