@@ -1476,7 +1476,7 @@ translations:
 
   # Features
 
-  # entities/features/js_features/js_arrays.yml - 2024/11/22
+  # entities/features/js_features/js_arrays.yml - 2024/12/19
 
   - key: entities.array_to_sorted.description
     t: >
@@ -1501,7 +1501,7 @@ translations:
     t: >
       Повертає значення останнього елемента, який задовольняє функцію перевірки.
 
-  # entities/features/js_features/js_async.yml - 2024/11/22
+  # entities/features/js_features/js_async.yml - 2024/12/19
 
   - key: entities.async_await.name
     t: Синтаксис async/await
@@ -1524,7 +1524,7 @@ translations:
     t: >
       Бере функцію зворотного виклику будь-якого типу та загортає її результат у Promise-об'єкт.
 
-  # entities/features/js_features/js_other.yml - 2024/11/22
+  # entities/features/js_features/js_other.yml - 2024/12/19
 
   # - key: entities.destructuring.name
   #   t: Destructuring
@@ -1789,7 +1789,13 @@ translations:
   - key: entities.js_float16_arrays.description
     t: Додає формат float16 (або половинної точності чи binary16) до TypedArray у JavaScript.
 
-  # entities/features/js_features/js_sets.yml - 2024/11/22
+  - key: entities.js_safe_assignment_operator.name
+    t: Оператор безпечного присвоєння
+
+  - key: entities.js_type_annotations.name
+    t: Типи-анотації
+
+  # entities/features/js_features/js_sets.yml - 2024/12/19
 
   - key: entities.set_intersection.description
     t: >
@@ -1819,7 +1825,7 @@ translations:
     t: >
       Повертає логічне значення, яке вказує, чи немає однакових елементів в обох множинах.
 
-  # entities/features/js_features/js_strings.yml - 2024/11/22
+  # entities/features/js_features/js_strings.yml - 2024/12/19
 
   - key: entities.string_replace_all.description
     t: >
