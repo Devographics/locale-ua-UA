@@ -54,15 +54,15 @@ translations:
   - key: introduction.js2024
     t: |
       
-      <span class="first-letter">L</span>et's take a second to consider something: 2024's top three front end framework were all launched over a decade ago. 
+      <span class="first-letter">Л</span>ишень зауважте: три найкращі клієнтські фреймворки 2024 року з'явилися понад десять років тому.
 
-      Now sure, all three have evolved a lot along the way, and the patterns of 2014 would seem downright antiquated today. But given the JavaScript ecosystems's reputation as a constantly-churning whirlwind of change, it can be nice to know that some things do remain constant. 
+      Звісно, ​​всі три зазнали значного розвитку, і патерни 2014 року сьогодні здавалися б сивою старовиною. Але враховуючи репутацію екосистем JavaScript як постійного вихору змін, тішить, що дещо залишається незмінним.
 
-      Speaking of constants, Vite and Vitest are still topping every chart and leading the charge for a newer, simpler generation of tooling. 
+      Щодо констант, то Vite і Vitest досі лідирують у всіх діаграмах та очолюють рух нового, простішого покоління інструментів.
 
-      Also – we've added a new **Metadata** appendix that will tell you more about survey respondents and the survey itself. And don't forget you can also apply any of these new variables to other charts using the **Query Builder**. 
+      Крім цього, ми створили новий додаток-секцію **Метадані**, який розповість вам більше про опитування та його респондентів. І не забувайте, що ви також можете застосувати будь-яку з цих нових змінних до інших діаграм за допомогою **Конструктора запитів**.
 
-      With all this out of the way, let's discover what JavaScript has been up to this year!
+      А тепер, розібравшись з передумовами, давайте дізнаємося, куди забрів JavaScript цього року!
 
       <span class="conclusion__byline">– Sacha Greif</span>
 
@@ -110,43 +110,43 @@ translations:
 
   - key: sections.user_info.description.js2024
     t: |
-      This year **14,015** respondents took part in the survey. 
+      Цього року в опитуванні взяли участь **14015** респондентів.
 
 
-      For the first time this year, in addition to the usual demographic datapoints we also asked about job titles, leading to some interesting findings about how those titles correlate with income, age, and gender.
+      Вперше цього року, окрім звичайних демографічних даних, ми також запитали про назви посад — і дійшли до цікавих висновків про те, як ці назви співвідносяться з доходом, віком і статтю.
 
   - key: sections.features.description.js2024
     t: |
-      While they aren't seeing wide usage just yet, JavaScript's new Set and Object features will make it less necessary to rely on third-party utility libraries. 
+      Хоч вони ще не мають широкого використання, нові функції JavaScript для Set і Object зменшать необхідність покладатися на сторонні бібліотеки утиліт.
 
 
-      Also, whenever available we now display each feature's [Baseline status](): green for “widely available”, blue for “newly available”, and white for “limited availability”.
+      Також, за можливості, ми тепер відображаємо [базову лінію]() кожної функції: зелену для "широкодоступного", синю для "доступного віднедавна" та білу для "доступного обмежено".
 
   - key: sections.libraries.description.js2024
     t: |
-      While the JavaScript ecosystem is still quite fragmented, it's nice to see that some of the most used libraries are also the most appreciated.
+      Хоч екосистема JavaScript все ще досить фрагментована, приємно бачити, що окремі бібліотеки, які найбільше використовуються, також найбільше й цінуються.
 
 
-      Make sure to explore our new grouping and sorting options to figure out which libraries get the most love… or the least!
+      Обов'язково вивчіть наші нові параметри групування та сортування, щоб з'ясувати, які бібліотеки приваблюють найбільше… або найменше!
 
   - key: sections.other_tools.description.js2024
     t: |
-      This year AI tools make their debut in the survey, and while the space is currently still dominated by a few front runners, it's impressive to see just how many options already exist!
+      Цього року в опитуванні дебютують ШІ-інструменти, і вражає чисельність наявних опцій, не зважаючи на поточне домінування кількома лідерами!
 
   - key: sections.usage.description.js2024
     t: |
-      This year's survey paints the picture of an average respondent who uses TypeScript, always runs their code through a build step, and hasn't quite jumped on the AI bandwagon just yet.
+      Цьогорічне опитування вимальовує портрет середньостатистичного респондента, який використовує TypeScript, завжди компілює свій код під час збирання та ще не зовсім пристав до AI.
 
   - key: sections.resources.description.js2024
     t: |
-      While there are no lack of amazing courses, podcasts, and newsletters, video content in particular continues its takeover of JavaScript content. 
+      Поряд із численними чудовими курсами, подкастами та розсилками, відеоформат продовжує підкорення контенту про JavaScript.
 
 
-      The Spanish-language conent ecosystem is also worth highlighting for putting up a worthy challenge to English's traditional dominance of the programming world.
+      Також варто виділити іспанськомовну екосистему, оскільки вона кидає гідний виклик традиційному домінуванню англійської мови у світі програмування.
 
   - key: sections.awards.description.js2024
     t: |
-      How *quickly* can you guess which project will take the top spot in each category?
+      Як *швидко* ви здогадаєтеся, який проєкт посяде перше місце у відповідній категорії?
 
   ###########################################################################
   # Charts
@@ -182,27 +182,27 @@ translations:
   # Awards
   ###########################################################################
 
-  - key: award.feature_adoption_delta_award.comment
-    t: Із прогресом **{value}** у 2022 році **await верхнього рівня** швидко став невід'ємною частиною JavaScript.
+  # - key: award.feature_adoption_delta_award.comment
+  #   t: Із прогресом **{value}** у 2022 році **await верхнього рівня** швидко став невід'ємною частиною JavaScript.
 
   - key: award.tool_usage_delta_award.comment
     t: |
-      Faithful to its name, **Vite** continues to grow at a record pace, adding **{value}** year-over-year in usage!
+      Вірний своїй назві, **Vite** продовжує рости рекордними темпами — частка його використання збільшилась на **{value}** за рік!
 
   - key: award.tool_satisfaction_award.comment
-    t: Vitest takes the top spot, with **{value}** of developers willing to use it again!
+    t: Vitest посідає перше місце — **{value}** розробників бажають використовувати його повторно!
 
   - key: award.tool_interest_award.comment
-    t: Staying in the Vite ecosystem, this year **Rolldown** is the technology developers are most interested in with a **{value}** interest ratio.
+    t: Залишаючись в екосистемі Vite, цього року **Rolldown** зацікавив найбільшу частку розробників, а саме **{value}**.
 
   - key: award.most_write_ins_award.comment
-    t: With **{value}** mentions, Angular meta-framework **Analog** was the library that received the most write-ins from respondents.
+    t: Метафреймворк **Analog** для Angular став найбільш згадуваною технологією у вписуваному тексті (write-ins); кількість згадувань — **{value}**.
 
   - key: award.most_commented_tool_award.comment
-    t: Angular may not be the newest kid on the block, but it's still the talk of the town with **{value}** comments from respondents!
+    t: Angular може й не наймодніший, але він досі не сходить із язиків; кількість коментарів — **{value}**.
 
   - key: award.most_loved_tool_award.comment
-    t: With **{value}** of all developers having a positive opinion of it, Vite once more gets the prize for most-loved technology!
+    t: Отримавши позитивні відгуки від **{value}** розробників, Vite знову тріумфує як найулюбленіша технологія!
 
   ###########################################################################
   # Conclusion
@@ -210,28 +210,28 @@ translations:
 
   - key: conclusion.js2024.fernando_herrera
     t: |
-      <span class="first-line">Several years ago, another State of JS survey put Astro on my radar.</span>
+      <span class="first-line">Кілька років тому після чергового опитування "Стан JS" на мій радар потрапив Astro.</span> 
 
-      I decided to try it and after spending a few hours with it, I fell in love with the technology. It was almost love at first sight! Suddenly, I saw myself rebuilding my website, administrative tools, and other projects with Astro. Now, I can say that Astro is my favourite framework by far.
+      Я вирішив спробувати його і, витративши лиш кілька годин, закохався в цю технологію. Це було чи не кохання з першого погляду! Не встиг і оком змигнути, як почав з ним перебудовувати свій вебсайт, інструменти адміністрування та інші проєкти. Тепер я можу сказати, що Astro є безсумнівно моїм улюбленим фреймворком. 
 
-      JavaScript is a dynamic and exciting ecosystem continually growing with many libraries and frameworks. From reusable components to client-side, server-side, and static solutions, there are countless ways to achieve your goals using Vanilla JavaScript, community packages, libraries, or frameworks—each offering new opportunities for innovation. Of course, it can feel overwhelming, but this diversity makes JavaScript powerful, giving you anywhere from one to hundreds of clever ways to succeed.
+      JavaScript — це динамічна та захоплива екосистема, що розростається численними бібліотеками і фреймворками день у день. Від використовуваних повторно компонентів до клієнтських, серверних і статичних рішень — є незліченна кількість способів досягти ваших цілей за допомогою стандартного JavaScript, пакетів спільноти, бібліотек або фреймворків, кожен з яких пропонує нові можливості для інновацій. Звісно, це здається надмірним, але ця різноманітність власне употужнює JavaScript, надаючи вам від одного до сотень узасаднених шляхів до успіху. 
 
-      Don’t be afraid to dive in and experiment with different tools—whether it’s Vitest or Jest, React or Solid, Node or Deno, Next.js or Astro – or something entirely new like [Brisa](https://brisa.build/). 
+      Не бійтеся занурюватися та експериментувати з різними інструментами: Vitest чи Jest, React чи Solid, Node чи Deno, Next.js чи Astro, чи щось  геть нове, як-от [Brisa](https://brisa.build/). 
 
-      Stay curious, as no other language offers the community, flexibility, and creativity that JavaScript does!
+      І не втрачайте зацікавленості, оскільки жодна інша мова не пропонує такі спільноту, гнучкість та креативність, як JavaScript!
 
   - key: conclusion.js2024.fernando_herrera.bio
     t: Розробник, освітній діяч і YouTube-відеоблогер
 
   - key: conclusion.js2024.shaundai_person
     t: |
-      <span class="first-line">Just under five years ago, I discovered the advantages of using TypeScript for the first time.</span>
+      <span class="first-line">Менше ніж п'ять років тому я вперше відчула переваги використання TypeScript.</span> 
 
-      I wasn't alone in this journey; I was among the many JavaScript developers who were just starting to explore TypeScript and its benefits for teams aiming to create scalable and maintainable front-end systems. It's amazing to me to see how quickly TypeScript has grown in popularity! I'm thrilled to see that the majority of survey respondents now use TypeScript in their daily work.
+      Я була не одна у цій подорожі; я була серед багатьох JavaScript-розробників, які тільки-но починали досліджувати TypeScript і його користь для команд, що прагнуть створити масштабовані та підтримувані клієнтські системи. Мене вражає те, як швидко TypeScript набув популярності! І приємно бачити, що більшість респондентів наразі використовують TypeScript у своїй щоденній роботі. 
 
-      Today, my go-to stack for both my professional work and my personal projects contains React, TypeScript, Vite, and Jest. Large and rapidly-growing teams have placed their bets on these tools and look for expertise in these areas when hiring front-end developers. So it's no surprise to see that they have been widely adopted and retained by other organizations as well.
+      Сьогодні мій звичний стек для професійної роботи та особистих проєктів містить React, TypeScript, Vite та Jest. Великі команди та ті, що стрімко зростають, попередньо поклалися на ці інструменти і тепер відшукують експертизу саме у цих напрямах під час найму розробників клієнтської частини. Тож не дивно, що ці технології були прийняті та широко впроваджені заразом й іншими організаціями. 
 
-      If you're like me, you prefer to focus on mastering a few essential tools rather than continually experimenting with new frameworks and libraries. Also like me, you might even hold off on adopting the latest versions of reliable front-end tools until they reach stable releases and any issues are resolved. You’re not alone, and there are huge benefits for those of us who prefer the tried-and-true path.
+      Якщо ви такі, як я, то волієте зосереджуватися на вдосконаленні кількох основних інструментів, а не постійно експериментувати з новими фреймворками та бібліотеками. Так само, як і я, ви можете відкласти впровадження нових версій порівняно надійних клієнтських інструментів, доки вони не досягнуть стабільних релізів чи не вирішать свої проблеми. Повірте, ви не самотні, і є чимала вигода для тих із нас, хто бажає йти протореним шляхом.
 
   - key: conclusion.js2024.shaundai_person.bio
     t: Інженерка клієнтського програмного забезпечення (Netflix) та інструкторка курсів
