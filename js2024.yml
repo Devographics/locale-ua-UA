@@ -64,7 +64,7 @@ translations:
 
       А тепер, розібравшись з передумовами, давайте дізнаємося, куди забрів JavaScript цього року!
 
-      <span class="conclusion__byline">– Sacha Greif</span>
+      <span class="conclusion__byline">— Sacha Greif</span>
 
   ###########################################################################
   # Tshirt
@@ -309,7 +309,7 @@ translations:
     t: Розробниця програмного забезпечення, розбудовниця спільноти й організаторка "React Miami" з G2i
   - key: picks.michelle_bakels.description
     t: |
-      While AI coding companions are here to stay, they can still run into issues with keeping up with the latest developments in our ecosystem. v0 isn’t only the best tool for generating UI, but it also has the strongest context for providing valuable and relevant coding assistance in our current state of JavaScript.
+      While AI coding companions are here to stay, they can still run into issues with keeping up with the latest developments in our ecosystem. v0 isn't only the best tool for generating UI, but it also has the strongest context for providing valuable and relevant coding assistance in our current state of JavaScript.
 
   - key: picks.sacha_greif.name
     t: Bluesky
@@ -325,7 +325,7 @@ translations:
     t: Інженер програмного забезпечення в Sentry, мейнтейнер React Query
   - key: picks.dominik_dorfmeister.description
     t: |
-      Knip is an amazing tool that analyzes your code and tells you what you can get rid of. It’s fast (so you can run it in CI), understands many frameworks and libraries out of the box, and works seamlessly in monorepos, too.
+      Knip is an amazing tool that analyzes your code and tells you what you can get rid of. It's fast (so you can run it in CI), understands many frameworks and libraries out of the box, and works seamlessly in monorepos, too.
 
   - key: picks.sebastien_lorber.name
     t: Rspack
@@ -405,297 +405,297 @@ translations:
 
   - key: user_info.country.takeaway.js2024
     t: >
-      As usual, the U.S. represented a large share of respondents, and also topped the ranking in terms of median income.
+      Як зазвичай, США представляли велику частку респондентів, а також очолювали рейтинг за середнім доходом.
 
   - key: user_info.age.takeaway.js2024
     t: >
-      With an mean age of 33.5 years old, the average State of JS respondent turned out to be slightly younger than State of CSS (34.9) and State of HTML (35.8).
+      Середній вік респондентів у "Стані JS" склав 33,5 роки, що трохи молодше, ніж у "Стані CSS" (34,9) та "Стані HTML" (35,8). 
 
-      As expected, age and income are positively correlated; and it's encouraging to see more gender diversity in younger age brackets, as that could indicate changing demographics.
+      Як і очікувалося, вік і дохід позитивно корелюють; заохочливо бачити більшу гендерну різноманітність у молодших вікових групах, що може свідчити про зміну демографії. 
 
-      Interestingly, younger respondents were far more likely to suffer from cognitive and visual impairments, while older respondents were more affected by hearing and mobility impairments.
+      Цікаво, що молодші респонденти частіше стикалися з когнітивними порушеннями та порушеннями зору, тоді як старші були більш схильні до порушень слуху та рухових функцій.
 
   - key: user_info.years_of_experience.takeaway.js2024
     t: >
-      51% of respondents had 10 years of experience or less – which means a majority of survey takers haven't known the world before modern JavaScript frameworks.
+      51% респондентів мали 10 років досвіду або менше — тобто більшість учасників опитування не бачили світу до появи сучасних JavaScript-фреймворків. 
 
-      Similarly to age, less experienced brackets also showed more gender diversity.
+      Як і з віком, у групах із меншим досвідом також було більше гендерної різноманітності.
 
   - key: user_info.company_size.takeaway.js2024
     t: >
-      Larger companies continue to represent a sizeable proportion of respondents, while company size continues to be correlated with income level.
+      Великі компанії продовжують представляти значну частку респондентів, тимчасом як розмір компанії, як і раніше, корелює з рівнем доходу.
 
   - key: user_info.yearly_salary.takeaway.js2024
     t: >
-      While we often hear tales of six-figure salaries out of Silicon Valley, the reality is that most front-end developers throughout the world earn far less, as becomes apparent when directly comparing the U.S. and the rest of the world.
+      Хоч ми нерідко чуємо про зарплати із шістьма нулями в Кремнієвій долині, правда в тому, що більшість розробників клієнтської частини у світі заробляють набагато менше, що стає очевидним під час простого порівняння США та решти світу.
 
   - key: user_info.job_title.takeaway.js2024
     t: >
-      It seems like the JavaScript ecosystem features as many different job titles as front end frameworks. But one clear trend is that anything with "engineer" in it will earn you more – even compared to CEOs, CTOs, and founders. "Developers" on the other hand are clearly at the bottom of the ladder, and might consider printing new business cards…
+      Здається, що у JavaScript-екосистемі є стільки ж різних посад, скільки і клієнтських фреймворків. Проте очевидна тенденція: будь-яка посада зі словом "інженер" принесе більше доходу — навіть у порівнянні із CEO, CTO чи засновниками. "Розробники", навпаки, посідають найнижчу сходинку і можуть задуматися про нові візитівки… 
 
 
-      In terms of demographics, fullstack and frontend positions were staffed by the youngest respondents on average, and frontend job titles were also correlated with a significantly higher proportion of women.
+      Щодо демографії, то наймолодші респонденти в середньому займали fullstack- і frontend-посади, й останні також корелювали зі значно вищою часткою жінок.
 
   - key: user_info.higher_education_degree.takeaway.js2024
     t: >
-      While having a degree will ensure you earn more, turns out it doesn't necessarily have to be related to programming.
+      Хоч наявність вищої освіти забезпечує вищий дохід, виявляється, що вона не обов'язково має бути пов'язана із програмуванням.
 
   - key: user_info.gender.takeaway.js2024
     t: >
-      We saw a small increase in the proportion of women and non-binary respondents compared to 2023, partly due to [renewed outreach efforts](https://dev.to/sachagreif/state-of-js-2024-outreach-and-diversity-report-n0e) this year.
+      Ми побачили невелике збільшення частки жінок та небінарних респондентів порівняно із 2023 роком, частково завдяки [відновленню дій із залучення](https://dev.to/sachagreif/state-of-js-2024-outreach-and-diversity-report-n0e) цього року.
 
   - key: user_info.race_ethnicity.takeaway.js2024
     t: >
-      Non-white respondents were more likely to be younger and have less experience – which could explain why they also tend to earn less; and hopefully points to ongoing diversification in the industry's younger corners.
+      Респонденти, які не належали до білих та європеоїдів, частіше були молодшими та мали менший досвід, що може пояснити, чому вони також зазвичай заробляють менше; і, сподіваємося, це свідчить про хід диверсифікації в молодших куточках галузі.
 
   - key: user_info.disability_status.takeaway.js2024
     t: >
-      Whether permanent or temporary, disabilities are a part of our daily lives for many of us – especially as we age, in the case of hearing and mobility impairments. 
+      Незалежно від того, постійні чи тимчасові, порушення здоров'я є частиною повсякденного життя багатьох із нас — особливо з віком у разі порушень слуху та рухових функцій. 
 
-      The fact that many respondents who suffer from visual and cognitive impairments were relatively young could also explain why those disabilities were correlated with a income levels.
+      Те, що багато респондентів, які страждають від когнітивних порушень та порушень зору, були відносно молодими, може також пояснити, чому ці порушення корелювали з рівнем доходу.
 
   # features
 
   - key: features.language_pain_points.takeaway.js2024
     t: >
-      When asked what aspect of JavaScript they struggled with the most, respondents overwhelmingly mentioned the lack of a built-in type system – with browser support issues a distant second.
+      Коли респондентів запитали про їхні найбільші труднощі у роботі із JavaScript, переважна більшість згадала відсутність вбудованої системи типів, а проблеми з підтримуванням браузерами залишилися на далекому другому місці.
 
   - key: features.browser_apis_pain_points.takeaway.js2024
     t: >
-      Unsurprisingly, poor browser support was the top obstacle regarding browsers and their APIs. Safari was also highlighted as a common pain point, and so was the overall lack of documentation about browser features.
+      Очікувано, погане підтримання браузерами було головною перешкодою у сфері браузерів і їхніх API. Поширеними проблемами також стали загальна відсутність документації про функції браузерів і власне браузер Safari.
 
   - key: features.reading_list.takeaway.js2024
     t: >
-      The Reading List lets you save items you want to learn more about after the survey is complete. 
+      Список читання дозволяє зберігати сутності (наведені у відповідях), які ви хочете дослідити після завершення опитування. 
 
-      This year, `error.cause`, Logical Assignment, and `Object.groupBy()` were the features that most triggered respondents' curiosity.
+      Цього року найбільше зацікавлення у респондентів викликали такі функції: `error.cause`, оператор логічного присвоєння й `Object.groupBy()`.
 
   # tools
 
   - key: tools.all_tools_experience.takeaway.js2024
     t: >
-      Webpack is the most-used JavaScript tool, but not the most-loved. That title instead belongs to Vite, with 56% of positive opinions (note that remaining neutral was also an option this year). Astoundingly, Vite was also the third most used tool overall despite having only been around for a relatively short time!
+      Webpack є найбільш використовуваним інструментом JavaScript, але не найулюбленішим. Цей титул належить Vite, який отримав 56% позитивних відгуків (зазначимо, що цього року можна було залишитися нейтральним). Вражає, що Vite також став третім найбільш використовуваним інструментом, незважаючи на свій вік! 
 
 
-      React on the other hand came in second not only in the most-used list, but also in the most-loved rankings – which is quite the staying power for a project that is over 10 years old! It's also worth nothing that React sports the highest proportion of users actively picking a sentiment.
+      З іншого боку, React посів друге місце не лише в рейтингу найвикористовуваніших, але й найулюбленіших, що свідчить про значну стійкість проєкту, якому вже понад 10 років! Також варто зазначити, що React має найвищу частку користувачів, які активно висловлюють ставлення.
 
   - key: tools.tools_arrows.takeaway.js2024
     t: >
-      JavaScript libraries commonly display a "boomerang" pattern over time: boosted by early positivity (line goes right), usage increases (line shoots up), but users then get confronted with more edge cases and real-world issues, and opinions can become more negative (line veers left).
+      JavaScript-бібліотеки зазвичай демонструють "бумеранг-патерн" із часом: на початковому етапі позитивні відгуки (лінія рухається вправо) сприяють росту використання (лінія стрімко підіймається), але користувачі стикаються із що раз неприємнішими крайніми випадками та проблемами під час реального впровадження, через що думки стають негативнішими (лінія повертає вліво). 
 
 
-      So it's always interesting to see projects that manage to buck this trend, such as Vue and Angular, which have both managed to gain positive opinions again even after a couple years of less favorable results.
+      Тому завжди цікаво бачити проєкти, які ламають цю тенденцію, як-от Vue та Angular, які знову отримали позитивні відгуки навіть після кількох років результатів не на їхню користь.
 
   - key: tools.tier_list.takeaway.js2024
     t: >
-      While there is sadly no single "S-tier" stack yet, SvelteKit and Astro both seem like safe bets to start a project – possibly with Vitest for testing and pnpm to manage your monorepo.
+      Хоч, на жаль, ще немає повного стеку "S-рівня", SvelteKit і Astro здаються надійними опціями для початку проєкту — можливо, з Vitest для тестування та pnpm для управління монорепо.
 
   - key: tools.scatterplot_overview.takeaway.js2024
     t: >
-      It's notable that there were only three libraries that captured over 50% of respondent usage while maintaining a >50% retention percentage: React, Jest, and Vite – the sign of a relatively fragmented ecosystem.
+      Варто зазначити, що лише три бібліотеки зібрали понад 50% використання серед респондентів, водночас маючи понад 50% утримання: React, Jest і Vite; це свідчить про відносно фрагментовану екосистему.
 
   # front end frameworks
 
   - key: tools.front_end_frameworks_ratios.takeaway.js2024
     t: >
-      Last year's big story was Vue overtaking Angular in raw usage among our respondents. Despite Angular's progress this year, Vue managed to keep its number two spot – as well a gain a whopping three spots in terms of retention percentage!
+      Найгучнішою новиною минулого року стало те, що Vue обійшов Angular за рівнем використання серед наших респондентів. Незважаючи на прогрес Angular цього року, Vue вдалося зберегти друге місце — а також піднятися аж на три позиції за відсотком утримання користувачів! 
 
-      Meanwhile, Svelte usage is increasing at a steady pace, while it continues to top the rankings in terms of overall positive opinions.
+      Водночас стабільно зростає використання Svelte, і він продовжує очолювати рейтинги за загальними позитивними відгуками.
 
   - key: tools.front_end_frameworks_pain_points.takeaway.js2024
     t: >
-      As the incumbent, React has to bear the cross of being the target of most complaints. 
+      Як лідер, React несе тягар найчастіших скарг. 
 
 
-      Excessive complexity, choice overload, poor performance, and breaking changes were also commonly cited as major pain points.
+      Надмірна складність, перевантаження вибором, низька швидкодія та руйнівні зміни також були серед основних проблем.
 
   - key: tools.front_end_frameworks_work.takeaway.js2024
     t: >
-      While there are no substantial income differences based on which frontend frameworks respondents used at work, company size tells a different story.
+      Хоч немає суттєвих відмінностей у доходах залежно від того, які клієнтські фреймворки респонденти використовували на роботі, розмір компанії показує інше. 
 
 
-      New challengers Alpine.js, Qwik, and Solid are being favored by small companies, while Web Components solutions Lit and Stencil are overwhelmingly used by large companies.
+      Нові претенденти, як-от Alpine.js, Qwik і Solid, мають успіх серед малих компаній, тоді як рішеннями з вебкомпонентами, як-то Lit чи Stencil, переважно користуються великими компаніями.
 
   # meta frameworks
 
   - key: tools.meta_frameworks_ratios.takeaway.js2024
     t: >
-      Next.js continues to loom high above the competition in terms of raw usage. Yet looking at retention tells a different story – if not for Gatsby, Next.js would be dead last. 
+      Next.js продовжує свій політ над конкурентами за рівнем використання. Та якщо подивитися на утримання, картина зовсім інша: якби не Gatsby, Next.js займав би останнє місце. 
 
 
-      This speaks to the success of Astro and SvelteKit in particular, who so far have managed to keep their users very happy.
+      Зокрема тут йдеться про успіх Astro та SvelteKit, які наразі успішно задовольняють своїх користувачів.
 
   - key: tools.meta_frameworks_pain_points.takeaway.js2024
     t: >
-      Just like React in its own category, Next.js as the leader also takes the brunt of the criticism.
+      Як і React у своїй категорії, Next.js — лідер за кількістю критики.
 
   - key: tools.meta_frameworks_work.takeaway.js2024
     t: >
-      Gatsby may be one of the least loved tools, but it's also the most lucrative – which is most likely due to it being used primarily in large companies.
+      Gatsby може бути одним із найменш улюблених інструментів, але він один із найприбутковіших — що, ймовірно, пов'язано з його використанням переважно великими компаніями. 
 
 
-      On the other side of the spectrum, Astro is still at the beginning of its journey towards enterprise adoption, which in turns correlates with lower income.
+      На іншому кінці спектру Astro все ще перебуває на початку свого шляху до впровадження в корпоративний сектор, що, зі свого боку, корелює з нижчими доходами.
 
   # testing
 
   - key: tools.testing_ratios.takeaway.js2024
     t: >
-      It's rare to see a trend as clear as Vitest's ascencion through the ranks over the past few years. While it may "only" be number four in terms of usage, it already tops the interest, retention, and overall positivity rankings – and shows no sign of conceding the top spot anytime soon.
+      Рідко можна побачити таку чітку тенденцію, як сходження Vitest за останні кілька років. Хоч він "лише" на четвертому місці за використанням, та вже очолює рейтинги зацікавленості, утримання та загального позитивного ставлення — і не збирається поступатися лідерством найближчим часом.
 
   - key: tools.testing_pain_points.takeaway.js2024
     t: >
-      Mocking is the biggest pain point presented by testing, closely followed by the hassle of complex setups and configurations, and the burden of slow-running tests.
+      Найбільшими проблемами тестування є створення макетних об'єктів (mocking), клопіт із складними налаштуваннями і конфігураціями, а також тягар повільного виконання тестів.
 
   - key: tools.testing_work.takeaway.js2024
     t: >
-      Vitest displays the classic signs of a technology at the start of its lifespan: high retention and interest, but low adoption in large companies – for now.
+      Vitest демонструє класичні ознаки технології на початку свого життєвого циклу: високе утримання та інтерес, але низьке впровадження у великих компаніях — поки що.
 
   # mobile desktop
   - key: tools.mobile_desktop_ratios.takeaway.js2024
     t: >
-      Over the past decade, building mobile and desktop apps has become far more common – yet that doesn't mean developers are necessarily happy with their tools. 
+      За останнє десятиліття створення мобільних і настільних застосунків стало значно поширенішим, але це не означає, що розробники обов'язково задоволені своїми інструментами. 
 
 
-      While Tauri and Expo stand out at the top of the retention chart, everything else has a lower ratio compared to good old Native Apps.
+      Хоч Tauri та Expo засідають на вершині рейтингу утримання, усе інше має нижчі показники у порівнянні зі старими-добрими нативними застосунками.
 
   - key: tools.mobile_desktop_pain_points.takeaway.js2024
     t: >
-      JavaScript codebases still struggle to compete against pure native apps in terms of performance. And it seems like both Electron and React Native have their share of drawbacks.
+      Кодова база на JavaScript поки не може конкурувати з чистими нативними застосунками за швидкодією. React Native і Electron, здається, також отримали на горіхи.
 
   - key: tools.mobile_desktop_work.takeaway.js2024
     t: >
-      Once again newer tools like Tauri seem to primarily be used in the workplace by less experienced developers, which goes to show that not having all that baggage can sometimes be a good thing!
+      Знов-таки новіші інструменти, як-от Tauri, здається, переважно використовуються на робочому місці менш досвідченими розробниками — відсутність багажу за плечима іноді може бути перевагою!
 
   # build tools
 
   - key: tools.build_tools_ratios.takeaway.js2024
     t: >
-      Just like its sibling Vitest, Vite is also gaining market share at record speed. Also make sure to keep an eye on new entrants Rolldown and Rspack, who are both starting off very high in the charts.
+      Як і його родич Vitest, Vite бере ринок шаленими темпами. Також слід звернути увагу на новачків Rolldown і Rspack, які розпочинають із дуже високих позицій у рейтингах.
 
   - key: tools.build_tools_pain_points.takeaway.js2024
     t: >
-      Excessive configuration has traditionally been the bane of build tools – yet it's also often that very complexity that makes them powerful.
+      Надмірні конфігураційні можливості традиційно були прокляттям інструментів для збирання, але часто саме ця складність употужнює їх.
 
   - key: tools.build_tools_work.takeaway.js2024
     t: >
-      Rspack has somehow found a way to buck the trend and jump right into being adopted by large companies, no doubt the result of its very smart strategy to become a drop-in replacement for webpack.
+      Rspack несподівано зломив тенденцію та одразу став популярним серед великих компаній — без сумніву завдяки своїй кмітливій стратегії замінити webpack.
 
   # monorepo tools
 
   - key: tools.monorepo_tools_ratios.takeaway.js2024
     t: >
-      Monorepos have yet to cross over into the mainstream of the web development ecosystem – yet for those who are brave enough to explore this new frontier, pnpm seems like the clear front-runner.
+      Монорепозиторії ще не стали мейнстримом в екосистемі веброзробки, але для тих, хто наважується взяти цей рубіж, pnpm видається безсумнівним фаворитом.
 
   - key: tools.monorepo_tools_ratios.takeaway.js2024
     t: >
-      Monorepos are still too hard to set up properly. And package management in itself is something that we still haven't gotten quite right… but then again, who has?
+      Монорепозиторії досі занадто складно налаштувати правильно. Й управління пакетами — це те, що нам ще не вдалося довести до досконалості… але, зрештою, кому вдалося?
 
   - key: tools.monorepo_tools_work.takeaway.js2024
     t: >
-      It should be no surprise that many monorepo tools are used by large companies since company size often correlates with codebase size.
+      Не дивно, що багато інструментів для монорепозиторіїв використовуються великими компаніями, адже розмір компанії часто корелює з розміром кодової бази.
 
   # usage
 
   - key: usage.js_ts_balance.takeaway.js2024
     t: >
-      We're now firmly in the TypeScript era. 67% of respondents stated they write more TypeScript than JavaScript code – while the single largest group consisted of people who *only* write TypeScript.
+      Достеменно настала епоха TypeScript. 67% респондентів заявили, що пишуть більше TypeScript-коду, ніж JavaScript; ще й найбільша окрема група складається з тих, хто пише *лише* TypeScript.
 
   - key: usage.compiled_code_balance.takeaway.js2024
     t: >
-      It should come as no surprise that in 2024, almost all of our JavaScript code goes through a build step. While bundlers and build tools certainly add complexity to our development process, they are most likely here to stay.
+      Не дивно, що у 2024 році майже весь JavaScript-код проходить через етап компіляції. Хоч збирачі та інструменти для компіляції ускладнюють процес розробки, вони, ймовірно, залишаться з нами надовго.
 
   - key: usage.ai_generated_code_balance.takeaway.js2024
     t: >
-      For all the talk of AI-assisted coding, most of us still only use AI tools sparingly. And in fact, a whole 20% do not use them whatsoever to produce code.
+      Незважаючи на всі розмови про програмування за допомогою ШІ, більшість із нас досі використовує ці інструменти досить рідко. Ба більше, аж 20% взагалі не використовують їх для написання коду.
 
   - key: usage.usage_type.takeaway.js2024
     t: >
-      It's always good to know in what context respondents are writing JavaScript code, and the vast majority are using it as part of their day job.
+      Завжди корисно знати, в якому контексті респонденти пишуть JavaScript-код, і переважна більшість робить це в межах своєї основної роботи.
 
   - key: usage.what_do_you_use_js_for.takeaway.js2024
     t: >
-      Virtually every respondent stated that they use JavaScript for frontend development, which makes sense given the language's origins.
+      Майже всі респонденти заявили, що використовують JavaScript для клієнтської розробки, що логічно з огляду на походження мови.
 
   - key: usage.industry_sector.takeaway.js2024
     t: >
-      While the largest industry sector consisted of developers building tools for other developers, the highest-paying one turned out to be Advertising.
+      Найчисленніша сфера діяльності складається з розробників, які створюють інструменти для інших розробників, але найвисокооплачуванішою виявилася реклама.
 
   - key: usage.js_app_patterns.takeaway.js2024
     t: >
-      Despite modern JavaScript meta-frameworks now supporting intricate rendering strategies, the most common application patterns remained the most traditional ones: single-page apps and server-side rendering.
+      Незважаючи на підтримання складних стратегій рендерингу сучасними JavaScript-метафреймворками, найпоширенішими патернами залишаються традиційні односторінкові застосунки та рендеринг з боку сервера.
 
   - key: usage.top_js_pain_points.takeaway.js2024
     t: >
-      Code architecture is always a concern once a codebase gets past a certain size, so it makes sense that it topped the rankings of overall JavaScript pain points, followed by state and dependency management.
+      Щойно кодова база перевищує певний розмір,архітектура коду — це завжди клопіт, тому цілком логічно, що вона очолила рейтинг основних проблем JavaScript; за нею йдуть управління станом та залежностями.
 
   - key: usage.js_new_features.takeaway.js2024
     t: >
-      There are currently quite a few [TC39 proposals](https://github.com/tc39/proposals) that are on the verge of becoming a reality. Temporal and Decorators stood out this year as the ones respondents were most excited about.
+      Наразі існує досить багато [пропозицій TC39](https://github.com/tc39/proposals), які ось-ось стануть реальністю. Цього року респонденти найбільше очікують Temporal і декоратори.
 
   - key: usage.top_currently_missing_from_js.takeaway.js2024
     t: >
-      While the lack of native static typing has long been felt by the community, it's interesting to see Signals making an entrance at number 3 on this list, despite not being part of the most popular front end framework.
+      Хоч спільнота давно відчуває нестачу нативної статичної типізації, цікаво бачити, що сигнали посіли третє місце в цьому списку, незважаючи на те, що вони не є частиною найпопулярнішого клієнтського фреймворку.
 
   - key: usage.native_types_proposal.takeaway.js2024
     t: >
-      It's clear that survey respondents want native types, and that they hope to seem them implemented with a TypeScript-like syntax. 
+      Очевидно, що респонденти опитування чекають на нативні типи та сподіваються, що вони будуть реалізовані подібно до синтаксису TypeScript. 
 
 
-      This year's question phrasing sadly did not make a clear distinction between runtime types and TypeScript-like type-as-annotations, so it remains to be seen which of these two paths will gain the community's favor.
+      Цьогорічне формулювання запитання, на жаль, не надало чіткого розмежування між типами у середовищі виконання (runtime types) та типами-анотаціями у стилі TypeScript, тому ще треба з'ясувати, який із цих підходів підтримає спільнота.
 
   # resources
 
   - key: resources.courses.takeaway.js2024
     t: >
-      Udemy has done a great job of drafting popular instructors such as Brad Traversy or Colt Steele to boost its roster of JavaScript courses, and so has Frontend Masters (disclaimer: Frontend Masters financially supports this survey).
+      Udemy вдало залучає популярних інструкторів, як-от Brad Traversy або Colt Steele, щоб доповнити власну колекцію курсів про JavaScript. Також це вдається Frontend Masters (дисклеймер: Frontend Masters підтримує це опитування фінансово).
 
 
-      It's also worth mentioning You Don't Know JS, a great book available online for free.
+      До того ж варто згадати "Ви не знаєте JS" (You Don't Know JS), чудову книгу, доступну онлайн безкоштовно.
 
   - key: resources.newsletters.takeaway.js2024
     t: >
-      Newsletters are a great way to stay up to date with the ever-changing JavaScript landscape, and Cooperpress' JavaScript Weekly continues to lead the field.
+      Розсилки — це чудовий спосіб залишатися обізнаними про мінливий світ JavaScript, і "JavaScript Weekly" від Cooperpress продовжує лідирувати у цій сфері.
 
   - key: resources.podcasts.takeaway.js2024
     t: >
-      While Syntax retains its crown for now, a new challenge might come in the form of video creators such as The Primeagen and Midudev, who can easily generate audio content in addition to traditional streams.
+      Хоч "Syntax" наразі зберігає свою корону, його наздоганяють відеоблогери, як-от The Primeagen, які можуть вільно генерувати аудіовміст на додаток до традиційних відеовключень.
 
   - key: resources.video_creators.takeaway.js2024
     t: >
-      Fireship, Theo, The Primeagen, stand atop the video creator rankings. But it's worth highlighting how vibrant the Spanish-language ecosystem has become, starting with (but not limited to!) Midudev in fourth place overall.
+      Fireship, Theo та The Primeagen на вершині рейтингу відеоблогерів. Але варто відзначити квітучість іспанськомовної екосистеми, починаючи (і не обмежуючись!) з Midudev, який посідає четверте місце загалом.
 
 
-      Note that the second tab shows the same rankings, but manually filtered down to Spanish-language creators only.
+      Зауважте, що на другій вкладці показано той самий рейтинг, що вручну відфільтрований лише для іспанськомовних авторів.
 
   - key: resources.people.takeaway.js2024
     t: >
-      English has long been the dominant language of the tech industry, but in our corner of the world at least Spanish is stepping up to the challenge, with Midudev and Fernando Herrera topping the rankings of most influential developers for non-video channels.
+      Англійська вже довго є панівною мовою в технологічній індустрії, але принаймні в нашому куточку світу іспанська кидає їй виклик. Midudev та Fernando Herrera (DevTalles) очолюють рейтинг найвпливовіших розробників НЕ у відеоформаті.
 
   # metadata
 
   - key: user_metadata.source.takeaway.js2024
     t: >
-      The majority of respondents knew about the survey from previous years. It's also worth highlighting that the [Angular](https://angular.dev/) and [Nuxt](https://nuxt.com/) homepages featured banners pointing their users to the survey; and that Bluesky came in at number 5 despite this being the first time appearing as a traffic source for the survey. 
+      Більшість респондентів дізналася про опитування як учасники попередніх років. Також варто зазначити, що на головних сторінках [Angular](https://angular.dev/) та [Nuxt](https://nuxt.com/) були розміщені банери, які спрямовували їхніх користувачів до опитування; а Bluesky посів п'яте місце, хоч він уперше з'явився як джерело трафіку для опитування. 
 
 
-      We also made special outreach efforts ([full report here](https://dev.to/sachagreif/state-of-js-2024-outreach-and-diversity-report-n0e)) focused on attracting more women developers.
+      Також ми провели окремі дії ([детальний звіт тут](https://dev.to/sachagreif/state-of-js-2024-outreach-and-diversity-report-n0e)) із залучення більшої кількості жінок-розробниць.
 
   - key: user_metadata.past_surveys.takeaway.js2024
     t: >
-      This chart shows which other Devographics surveys this year's respondents had previously taken part in. 
+      Ця діаграма показує, у яких ще опитуваннях від Devographics брали участь цьогорічні респонденти. 
 
 
-      The fact that a sizeable segment of this year's respondents had also taken other surveys points to web development not being quite as fragmented as one might think – even if you primarily write JavaScript, keeping up with CSS and the web platform is still key!
+      Те, що значна частина цих респондентів також брала участь в інших опитуваннях, свідчить, що веброзробка не є настільки розділеною, як здається: навіть якщо ви переважно пишете JavaScript-код, знання CSS та вебплатформи досі є важливим! 
 
 
-      Note that we can only generate this datapoint for respondents taking the survey while logged-in. Guest respondents appear as “No Answer”.
+      Зверніть увагу, що ми можемо згенерувати ці дані лише для автентифікованих респондентів. Гостьові респонденти додані до категорії "Без відповіді".
 
   - key: user_metadata.past_same_survey_count.takeaway.js2024
     t: >
-      This chart shows how many times this year's respondents had taken part in a State of JS survey before.
+      Ця діаграма показує, скільки разів цьогорічні респонденти брали участь в опитуванні "Стан JS" раніше. 
 
 
-      The fact that the largest bucket consists of new respondents means we are successfully reaching a new population, which mitigates bias that might carry over from our existing audience. But it also points to the challenges of getting people to consistently fill out a survey year after year.
+      Те, що найбільша категорія складається з нових респондентів, означає, що нам успішно вдається досягти нової аудиторії — це зменшує можливість передавання упереджень від наявної аудиторії. На жаль, це також вказує на проблеми заохочення людей до регулярного заповнення опитування рік у рік. 
 
 
-      Note that we can only generate this datapoint for respondents taking the survey while logged-in. Guest respondents appear as “No Answer”.
+      Зверніть увагу, що ми можемо згенерувати ці дані лише для автентифікованих респондентів. Гостьові респонденти додані до категорії "Без відповіді".
