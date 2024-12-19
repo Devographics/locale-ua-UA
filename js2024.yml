@@ -251,7 +251,7 @@ translations:
     t: Програміст та YouTube-відеоблогер
   - key: picks.jack_herrington.description
     t: |
-      Tanstack, a banquet of practical, high quality, battle tested libraries, culminating in the TanStack Start framework.
+      Tanstack, бенкет із практичних, високоякісних, перевірених у боях бібліотек, кульмінацією яких став фреймворк TanStack Start.
 
   - key: picks.josefine_schaefer.name
     t: Arisa Fukuzaki
@@ -259,7 +259,7 @@ translations:
     t: Інженерка з доступності
   - key: picks.josefine_schaefer.description
     t: |
-      Arisa is am amazing tech educator, mentor, docs & DevRel engineer who's super passionate about JS frameworks, community work and supporting women in tech. She's one to watch!
+      Arisa — прекрасна технічна викладачка, наставниця, інженерка у сфері DevRels та ведення документації, що захоплено займається JavaScript-фреймворками, роботою зі спільнотою та підтримкою жінок у технологічній індустрії. Вона варта вашої уваги!
 
   - key: picks.cassie_evans.name
     t: gsap-video-export
@@ -267,7 +267,7 @@ translations:
     t: Робить всього потрохи в GSAP
   - key: picks.cassie_evans.description
     t: |
-      Chris made this super handy tool to export your GSAP animations to video. It's made my life much easier and my videos much smoother - no more low quality screen recordings for me!
+      Chris створив цей надзвичайно зручний інструмент для експорту вашої GSAP-анімації у відео. Це значно спростило моє життя та зробило плавнішими мої відео — більше жодних записів з екрана низької якості!
 
   - key: picks.tania_rascia.name
     t: Cassidy Williams
@@ -275,7 +275,7 @@ translations:
     t: Самонавчена головна інженерка, досвідчена технічна блогерка і професійно підготовлена шеф-кухарка
   - key: picks.tania_rascia.description
     t: |
-      Cassidy's been writing on her blog since 2009, has an incredibly unique style and so many cool, niche interests (I'm proud to own her StackOverflow copy/paste keyboard!). She puts out a great newsletter every week, makes the best developer memes, and does it all while being a new mom, which is beyond impressive.
+      Cassidy пише у своєму блозі із 2009 року, має неймовірно унікальний стиль і численні круті, нішеві інтереси (я горда володарка її клавіатури для копіювання/вставлення із StackOverflow!). Вона щотижня публікує доладну розсилку, створює найкращі меми для розробників і робить усе це у ролі молодої мами, що, безумовно, вражає. 
 
   - key: picks.salma_alam_naylor.name
     t: The Breedling
@@ -283,17 +283,17 @@ translations:
     t: Стримерка наживо, інженерка програмного забезпечення і просвітниця для розробників
   - key: picks.salma_alam_naylor.description
     t: |
-      Web technology isn't just for websites. The Breedling is an in-browser visualisation tool to accompany live music gigs by the band of the same name, mixing video and RIVE animations with WebGL shaders, utilising an old BBC experimental library VideoContext.
+      Вебтехнології призначені не лише для простих вебсайтів. Breedling — це інструмент візуалізації у браузері, який супроводжує концерти живої музики однойменного гурту, поєднуючи відео та RIVE-анімацію шейдерами WebGL та використовуючи стару експериментальну бібліотеку VideoContext від BBC.
 
-  - key: picks.wes_bos.name
-    t: Transformers.js
-  - key: picks.wes_bos.bio
-    t: Автор подкастів та освітній діяч
-  - key: picks.wes_bos.description
-    t: |
-      Transformers.js is a library for working on AI models in JavaScript. It does it all - Computer vision, audio, image generation, chat-bot generation, and more.
+  # - key: picks.wes_bos.name
+  #   t: Transformers.js
+  # - key: picks.wes_bos.bio
+  #   t: Автор подкастів та освітній діяч
+  # - key: picks.wes_bos.description
+  #   t: |
+  #     Transformers.js — це бібліотека для роботи над моделями ШІ в JavaScript. Він робить усе: комп'ютерне бачення, аудіо, створення зображень, створення чат-бота тощо.
 
-      It works in the browser, via WASM or WebGPU, and on the server with Node.js, Bun or Deno. Running AI models on device is pretty exciting, and this library is a great way to get started without all the pain of trying to get Python running.
+  #     Він працює в браузері, через WASM або WebGPU, а також на сервері з Node.js, Bun або Deno. Запуск моделей штучного інтелекту на пристрої досить захопливий, і ця бібліотека є чудовим способом почати роботу без будь-якого болю, пов'язаного зі спробами запустити Python.
 
   - key: picks.shaundai_person.name
     t: Shruti Kapoor
@@ -301,15 +301,15 @@ translations:
     t: Інженерка клієнтського програмного забезпечення (Netflix) та інструкторка курсів
   - key: picks.shaundai_person.description
     t: |
-      My Pick of the Year is my friend Shruti Kapoor. Shruti has a way of explaining even the trickiest technical JS concepts in very easy-to-understand way. In her fun and engaging YouTube videos and conference talks, she teaches her audience the most critical parts of JavaScript development without a lot of fluff.
+      Мій вибір року – моя подруга Shruti Kapoor. Shruti може пояснити найзаплутаніші технічні концепції JS надзвичайно зрозуміло. У своїх веселих і захопливих YouTube-відео і виступах на конференціях вона навчає свою аудиторію ключовим частинам JavaScript-розробки без зайвої води.
 
-  - key: picks.michelle_bakels.name
-    t: v0
-  - key: picks.michelle_bakels.bio
-    t: Розробниця програмного забезпечення, розбудовниця спільноти й організаторка "React Miami" з G2i
-  - key: picks.michelle_bakels.description
-    t: |
-      While AI coding companions are here to stay, they can still run into issues with keeping up with the latest developments in our ecosystem. v0 isn't only the best tool for generating UI, but it also has the strongest context for providing valuable and relevant coding assistance in our current state of JavaScript.
+  # - key: picks.michelle_bakels.name
+  #   t: v0
+  # - key: picks.michelle_bakels.bio
+  #   t: Розробниця програмного забезпечення, розбудовниця спільноти й організаторка "React Miami" з G2i
+  # - key: picks.michelle_bakels.description
+  #   t: |
+  #     Хоча ШІ-компаньйони для програмування будуть і надалі, вони все одно можуть зіткнутися з проблемами, не відстаючи від останніх розробок у нашій екосистемі. v0 — це не тільки найкращий інструмент для створення UI, але він також має найсильніший контекст для надання цінної та відповідної допомоги у написанні коді з огляду на поточний стан JavaScript.
 
   - key: picks.sacha_greif.name
     t: Bluesky
@@ -317,7 +317,7 @@ translations:
     t: Мейнтейнер "Стан JS"
   - key: picks.sacha_greif.description
     t: |
-      With X's slow descent into madness, it felt like the front end community had been left without a home. So it's great to see so many of us finally converging towards a new platform in the form of Bluesky.
+      Поки X повільно божеволів, здавалося, що frontend-спільнота залишилася без дому. Тож дуже приємно бачити, що так багато з нас нарешті сходиться на нову платформу — Bluesky.
 
   - key: picks.dominik_dorfmeister.name
     t: Knip
@@ -325,7 +325,7 @@ translations:
     t: Інженер програмного забезпечення в Sentry, мейнтейнер React Query
   - key: picks.dominik_dorfmeister.description
     t: |
-      Knip is an amazing tool that analyzes your code and tells you what you can get rid of. It's fast (so you can run it in CI), understands many frameworks and libraries out of the box, and works seamlessly in monorepos, too.
+      Knip — прекрасний інструмент, який аналізує ваш код і повідомляє, чого можна позбутися. Він швидкий (його можна запускати в CI), "товаришує" з багатьма фреймворками і бібліотеками без зайвих налаштувань, а також бездоганно працює в монорепозиторіях.
 
   - key: picks.sebastien_lorber.name
     t: Rspack
@@ -333,7 +333,7 @@ translations:
     t: Автор "This Week in React", мейнтейнер Docusaurus
   - key: picks.sebastien_lorber.description
     t: |
-      The Rspack bundler is an almost drop-in replacement for Webpack. Implemented in Rust, it's much faster than Webpack and consumes less memory. All Webpack projects should try it out immediately, considering how easy it is to adopt!
+      Збирач Rspack — це майже повний безшовний замінник (drop-in replacement) Webpack. Реалізований мовою Rust, він вагомо швидкодійніший, ніж Webpack, і потребує менше пам'яті. Усі проєкти з Webpack повинні негайно його спробувати, зважаючи на легкість впровадження!
 
   ###########################################################################
   # Sponsors
@@ -346,7 +346,7 @@ translations:
   - key: sponsors.tokyodev.description
     t: Знайдіть роботу розробника своєї мрії в Японії вже сьогодні.
   - key: sponsors.renderatl.description
-    t: Технічна конференція, присвячена всьому у вебі.
+    t: Технологічна конференція, присвячена всьому у вебі.
   - key: sponsors.gitnation.description
     t: |
       Дізнайтеся про останні тенденції безпосередньо від перших користувачів та технологічних авторів на GitNation.com
