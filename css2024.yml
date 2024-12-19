@@ -498,7 +498,7 @@ translations:
   - key: sponsors.nijibox.description
     t: Консалтинг щодо UX та продуктової розробки у центрі Токіо.
   - key: sponsors.renderatl.description
-    t: Найбільша технічна конференція, присвячена дизайну та CSS.
+    t: Найбільша технологічна конференція, присвячена дизайну та CSS.
   - key: sponsors.google_chrome.description
     t: Дякуємо команді Google Chrome за підтримку нашої роботи.
   - key: sponsors.tokyodev.description
@@ -550,7 +550,7 @@ translations:
       Постачальники браузерів також використовують ці дані, щоб визначати пріоритетні напрями діяльності та узасаднювати ініціативи, як-от [Interop 2024](https://web.dev/blog/interop-2024). 
 
 
-      ### Дизайн опитування 
+      ### Розробка опитування 
 
       Опитування було розроблено колегіально [на платформі GitHub](https://github.com/Devographics/surveys/issues/245). 
 

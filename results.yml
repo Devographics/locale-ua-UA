@@ -1687,7 +1687,7 @@ translations:
   - key: filters.compare_data
     t: Порівняти дані
   - key: filters.customize_chart
-    t: Побудувати запит
+    t: Конструктор запитів
   - key: filters.docs
     t: Документація
   - key: filters.compare_chart
