@@ -1963,7 +1963,7 @@ translations:
     t: Відповіді довільної форми
   - key: answers.answers_for
     t: |
-      Відповіді, що відповідають ключу "{name}""
+      Відповіді, що відповідають ключу "{name}"
   - key: answers.answers_for_count
     t: |
       Відповіді ({count}), що відповідають ключу "{name}"
