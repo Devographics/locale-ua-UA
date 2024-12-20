@@ -483,7 +483,7 @@ translations:
     t: MDN
   - key: quiz.quiz_css_spec.answer
     t: >
-      [Робоча група CSS] (https://www.w3.org/groups/wg/css) при W3C підтримує специфікацію CSS, яка потім впроваджується постачальниками браузерів.
+      [Робоча група CSS](https://www.w3.org/groups/wg/css) при W3C підтримує специфікацію CSS, яка потім впроваджується постачальниками браузерів.
   - key: quiz.quiz_css_spec.description
     aliasFor: quiz.quiz_css_spec.question
 
