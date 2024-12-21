@@ -24,7 +24,7 @@ translations:
 
       ### Завантаження данних
 
-      Ви можете [завантажити JSON-ісходник з даними за цим опитуванням] (https://www.kaggle.com/sachag/state-of-css). Дайте нам знати, якщо ви зробите власні візуалізації цих даних!
+      Ви можете [завантажити JSON-ісходник з даними за цим опитуванням](https://www.kaggle.com/sachag/state-of-css). Дайте нам знати, якщо ви зробите власні візуалізації цих даних!
 
       ### Цікаві посилання
 
@@ -39,7 +39,7 @@ translations:
 
       ### Додаткова інформація
 
-      Сайт використовує шрифт IBM Plex Mono. Маєте питання? Хочете поділитися своєю думкою? [Напишіть нам!] (mailto:hello@stateofjs.com)
+      Сайт використовує шрифт IBM Plex Mono. Маєте питання? Хочете поділитися своєю думкою? [Напишіть нам!](mailto:hello@stateofjs.com)
 
       А тепер давайте подивимося, яким був CSS в цьому році!
 
@@ -129,10 +129,10 @@ translations:
 
   - key: blocks.gender.note
     t: |
-      Якщо вас цікавлять подробиці гендерної динаміки опитування, ми [написали пост в блозі про це] (https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj).
+      Якщо вас цікавлять подробиці гендерної динаміки опитування, ми [написали пост в блозі про це](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj).
   - key: blocks.css_missing_features.note
     t: |
-      З повним набором відповідей на це питання можна ознайомитися в [нашому спеціальному проекті] (https://whatsmissingfromcss.com/).
+      З повним набором відповідей на це питання можна ознайомитися в [нашому спеціальному проекті](https://whatsmissingfromcss.com/).
   - key: blocks.source.note
     t: >
 

@@ -657,7 +657,7 @@ translations:
   - key: tools.front_end_frameworks_happiness.short
     aliasFor: charts.axis_legends.happiness
   - key: tools.front_end_frameworks_happiness.question
-    t: Наскільки ви задоволені поточним станом фреймворків для клієнтської частини? За шкалою від 0 (дуже незадоволений(-а)) до 4 (дуже задоволений(-а)).
+    t: Наскільки ви задоволені поточним станом фреймворків для клієнтської частини? За шкалою від 0 (дуже незадоволені) до 4 (дуже задоволені).
 
   - key: tools.front_end_frameworks_pain_points
     t: Проблеми фреймворків для клієнтської частини
@@ -695,7 +695,7 @@ translations:
   - key: tools.meta_frameworks_happiness.short
     aliasFor: charts.axis_legends.happiness
   - key: tools.meta_frameworks_happiness.question
-    t: Наскільки ви задоволені поточним станом метафреймворків? За шкалою від 0 (дуже незадоволений(-а)) до 4 (дуже задоволений(-а)).
+    t: Наскільки ви задоволені поточним станом метафреймворків? За шкалою від 0 (дуже незадоволені) до 4 (дуже задоволені).
 
   - key: tools.meta_frameworks_pain_points
     t: Проблеми метафреймворків
@@ -731,7 +731,7 @@ translations:
   - key: tools.testing_happiness.short
     aliasFor: charts.axis_legends.happiness
   - key: tools.testing_happiness.question
-    t: Наскільки ви задоволені поточним станом інструментів для тестування коду? За шкалою від 0 (дуже незадоволений(-а)) до 4 (дуже задоволений(-а)).
+    t: Наскільки ви задоволені поточним станом інструментів для тестування коду? За шкалою від 0 (дуже незадоволені) до 4 (дуже задоволені).
 
   - key: tools.testing_pain_points
     t: Проблеми інструментів тестування
@@ -767,7 +767,7 @@ translations:
   - key: tools.mobile_desktop_happiness.short
     aliasFor: charts.axis_legends.happiness
   - key: tools.mobile_desktop_happiness.question
-    t: Наскільки ви задоволені поточним станом інструментів для мобільних пристроїв і настільних комп'ютерів? За шкалою від 0 (дуже незадоволений(-а)) до 4 (дуже задоволений(-а)).
+    t: Наскільки ви задоволені поточним станом інструментів для мобільних пристроїв і настільних комп'ютерів? За шкалою від 0 (дуже незадоволені) до 4 (дуже задоволені).
 
   - key: tools.mobile_desktop_pain_points
     t: Проблеми інструментів для мобільних пристроїв і настільних комп'ютерів
@@ -803,7 +803,7 @@ translations:
   - key: tools.build_tools_happiness.short
     aliasFor: charts.axis_legends.happiness
   - key: tools.build_tools_happiness.question
-    t: Наскільки ви задоволені поточним станом інструментів для збирання коду? За шкалою від 0 (дуже незадоволений(-а)) до 4 (дуже задоволений(-а)).
+    t: Наскільки ви задоволені поточним станом інструментів для збирання коду? За шкалою від 0 (дуже незадоволені) до 4 (дуже задоволені).
 
   - key: tools.build_tools_pain_points
     t: Проблеми інструментів для збирання
@@ -839,7 +839,7 @@ translations:
   - key: tools.monorepo_tools_happiness.short
     aliasFor: charts.axis_legends.happiness
   - key: tools.monorepo_tools_happiness.question
-    t: Наскільки ви задоволені поточним станом інструментів для монорепозиторіїв? За шкалою від 0 (дуже незадоволений(-а)) до 4 (дуже задоволений(-а)).
+    t: Наскільки ви задоволені поточним станом інструментів для монорепозиторіїв? За шкалою від 0 (дуже незадоволені) до 4 (дуже задоволені).
 
   - key: tools.monorepo_tools_pain_points
     t: Проблеми інструментів для монорепозиторіїв
@@ -1225,7 +1225,7 @@ translations:
   - key: usage.compiled_code_balance
     t: Співвідношення компільованого коду
   - key: usage.compiled_code_balance.question
-    t: Яка частка JavaScript-коду, який ви пишете для браузера, компілюється під час збирання?
+    t: Яка частка JavaScript-коду, який ви пишете для браузера, компілюється чи по-іншому перебудовується під час збирання?
   - key: usage.compiled_code_balance.prompt
     t: Будь-який зібраний, мініфікований або по-іншому перетворений код, на відміну від коду, який безпосередньо виконується браузером.
 
@@ -1574,8 +1574,8 @@ translations:
   # - key: entities.web_audio.name
   #   t: Web Audio
 
-  # - key: entities.web_components.name
-  #   t: Web Components
+  - key: entities.web_components.name
+    t: Вебкомпоненти
 
   # - key: entities.web_speech.name
   #   t: Web Speech API
@@ -1591,6 +1591,8 @@ translations:
 
   # - key: entities.file_system_access.name
   #   t: File System Access API
+  - key: entities.file_system_access.description
+    t: Доступ до файлів і директорій на локальному пристрої користувача.
 
   # - key: entities.web_share.name
   #   t: Web Share API
@@ -1598,8 +1600,8 @@ translations:
   # - key: entities.webxr.name
   #   t: WebXR Device API
 
-  # - key: entities.pwas.name
-  #   t: Progressive Web Apps
+  - key: entities.pwas.name
+    t: Поступовий вебзастосунок (PWA)
 
   # - key: entities.twa.name
   #   t: Trusted Web Activity
@@ -1834,3 +1836,247 @@ translations:
   - key: entities.string_match_all.description
     t: >
       Повертає ітератор над усіма збігами під час пошуку у стрічковій змінній за регулярним виразом.
+
+  ###########################################################################
+  # Entities found only in surveys repo - https://github.com/Devographics/surveys
+  ###########################################################################
+
+  ### Pain Points - state_of_js/js2024/results/data
+  # /features/browser_apis_pain_points.json - 2024/12/21
+  # /features/language_pain_points.json - 2024/12/21
+  # /front_end_frameworks/front_end_frameworks_pain_points.json - 2024/12/21
+  # /meta_frameworks/meta_frameworks_pain_points.json - 2024/12/21
+  # /testing/testing_pain_points.json - 2024/12/21
+  # /mobile_desktop/mobile_desktop_pain_points.json - 2024/12/21
+  # /build_tools/build_tools_pain_points.json - 2024/12/21
+  # /usage/top_js_pain_points.json - 2024/12/21
+
+  - key: entities.static_typing.name
+    t: Статична типізація
+  - key: entities.static_typing.description
+    t: Відсутність нативної типізації
+
+  - key: entities.browser_support.name
+    t: Підтримання браузерами
+  - key: entities.browser_support.description
+    t: Проблеми підтримання браузерами, сумісності та відповідності
+
+  - key: entities.typescript_support.name
+    t: Підтримання TypeScript
+
+  - key: entities.error_handling.name
+    t: Обробка помилок
+
+  - key: entities.performance.name
+    t: Швидкодія
+  - key: entities.performance.description
+    t: Проблеми швидкодії
+
+  - key: entities.async.name
+    t: Асинхронне програмування
+
+  - key: entities.standard_library.name
+    t: Стандартна бібліотека
+
+  - key: entities.security.name
+    t: Безпека
+
+  - key: entities.objects.name
+    t: Обробка об'єктів
+
+  - key: entities.ecosystem.name
+    t: Проблеми екосистеми
+
+  - key: entities.lack_of_tools.name
+    t: Відсутність інструментів
+
+  - key: entities.dependencies.name
+    t: Залежності
+  - key: entities.dependencies.description
+    t: Забагато залежностей
+
+  - key: entities.null_keyword.name
+    t: >
+      Поведінка `null`
+
+  - key: entities.excessive_complexity.name
+    t: Надмірна складність
+  - key: entities.excessive_complexity.description
+    t: Завелика складність
+
+  - key: entities.frameworks.name
+    t: Фреймворки
+
+  - key: entities.package_management.name
+    t: Проблеми управління пакетами
+
+  - key: entities.lack_of_pattern_matching.name
+    t: Відсутність зіставлення із шаблоном
+
+  - key: entities.syntax_issues.name
+    t: Проблеми синтаксису
+
+  - key: entities.lack_of_documentation.name
+    t: Відсутність документації
+  - key: entities.lack_of_documentation.description
+    t: Відсутність документації або прикладів коду
+
+  - key: entities.firefox_issues.name
+    t: Проблеми Firefox
+
+  - key: entities.lack_of_adoption.name
+    t: Відсутність впровадження
+
+  - key: entities.debugging.name
+    t: Залежності
+  - key: entities.debugging.description
+    t: Проблеми залежностей
+
+  - key: entities.speed_of_change.name
+    t: Швидкість змін
+  - key: entities.speed_of_change.description
+    t: Функції, бібліотеки та API змінюються занадто швидко
+
+  - key: entities.react_issues.name
+    t: Проблеми React
+
+  - key: entities.too_many_choices.name
+    t: Перевантаження вибором
+  - key: entities.too_many_choices.description
+    t: Надмірна кількість опцій і варіантів
+
+  - key: entities.version_updates.name
+    t: Руйнівні зміни
+  - key: entities.version_updates.description
+    t: Руйнівні зміни (breaking changes) та інші проблеми оновлення
+
+  - key: entities.state_management.name
+    t: Управління станом
+
+  - key: entities.ssr.description
+    t: Проблеми рендерингу із боку сервера
+
+  - key: entities.angular_issues.name
+    t: Проблеми Angular
+
+  - key: entities.configuration.name
+    t: Конфігурація
+  - key: entities.configuration.description
+    t: Труднощі налаштування і задання конфігурацій
+
+  - key: entities.build_issues.name
+    t: Проблеми збирання
+
+  - key: entities.vue_issues.name
+    t: Проблеми Vue.js
+
+  - key: entities.tough_learning_curve.name
+    t: Складна крива вивчення
+
+  - key: entities.bloat.name
+    t: Роздутість
+
+  - key: entities.build_tool_issues.name
+    t: Збирачі
+  - key: entities.build_tool_issues.description
+    t: Проблеми інструментів побудови та збирання
+
+  - key: entities.react_dominance.name
+    t: Надмірне домінування React
+
+  - key: entities.nextjs_issues.name
+    t: Проблеми Next.js
+
+  - key: entities.deployment.name
+    t: Розробка
+
+  - key: entities.server_client_issues.name
+    t: Інтеграція клієнта та сервера
+
+  - key: entities.too_opinionated.name
+    t: Завелика самовпевненість
+
+  - key: entities.lock_in.name
+    t: Замкненість (lock-in)  
+  - key: entities.lock_in.description
+    t: Завелика замкненість (в екосистемі постачальника)
+
+  - key: entities.server_components_issues.name
+    t: Проблеми серверних компонентів
+
+  - key: entities.cache_issues.name
+    t: Проблеми кешу
+
+  - key: entities.authentication.name
+    t: Автентифікація
+
+  - key: entities.mocking.name
+    t: Створення макетів (Mocking) 
+
+  - key: entities.flakiness.name
+    t: Недетермінованість (Flakiness)
+
+  - key: entities.browser_testing_issues.name
+    t: Проблеми тестування у браузері
+
+  - key: entities.e2e_testing.name
+    t: Тестування E2E
+
+  - key: entities.unit_testing.name
+    t: Модульне тестування
+
+  - key: entities.async_testing.name
+    t: Тестування асинхронного
+
+  - key: entities.front_end.name
+    t: Тестування клієнтської частини
+
+  - key: entities.integration_with_tools.name
+    t: Інтеграція інструментів
+
+  - key: entities.too_much_boilerplate.name
+    t: Надмірна шаблонність
+  - key: entities.too_much_boilerplate.description
+    t: Потрібно забагато повторюваних шаблонів
+
+  - key: entities.access_to_native_apis.name
+    t: Доступ до нативних API
+  - key: entities.access_to_native_apis.description
+    t: Відсутність доступу до нативних API
+
+  - key: entities.bundle_size.name
+    t: Розмір пакету
+  - key: entities.bundle_size.description
+    t: Надмірний розмір пакету застосунку (bundle)
+
+  - key: entities.limitations_compared_to_native.name
+    t: Обмеження, як порівняти з нативними
+
+  - key: entities.android_general_issues.name
+    t: Проблеми Android
+
+  - key: entities.testing.name
+    t: Тестування
+
+  - key: entities.webpack_issues.name
+    t: Проблеми Webpack
+
+  - key: entities.plugin_issues.name
+    t: Проблеми плагінів
+
+  - key: entities.bundler_issues.name
+    t: Пакувальники
+  - key: entities.bundler_issues.description
+    t: Проблеми пакувальників (bundlers)
+
+  - key: entities.build_times.name
+    t: Час збирання
+
+  - key: entities.maintenance.name
+    t: Підтримування
+
+  - key: entities.caching.name
+    t: Кешування
+
+  - key: entities.versioning.name
+    t: Нумерація версій
