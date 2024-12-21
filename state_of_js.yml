@@ -1575,7 +1575,7 @@ translations:
   #   t: Web Audio
 
   - key: entities.web_components.name
-    t: Web Components
+    t: Вебкомпоненти
 
   # - key: entities.web_speech.name
   #   t: Web Speech API
@@ -1592,7 +1592,7 @@ translations:
   # - key: entities.file_system_access.name
   #   t: File System Access API
   - key: entities.file_system_access.description
-    t: Access files and directories on the user's local device.
+    t: Доступ до файлів і директорій на локальному пристрої користувача.
 
   # - key: entities.web_share.name
   #   t: Web Share API
@@ -1601,7 +1601,7 @@ translations:
   #   t: WebXR Device API
 
   - key: entities.pwas.name
-    t: Progressive Web Apps
+    t: Поступовий вебзастосунок (PWA)
 
   # - key: entities.twa.name
   #   t: Trusted Web Activity
@@ -1852,231 +1852,231 @@ translations:
   # /usage/top_js_pain_points.json - 2024/12/21
 
   - key: entities.static_typing.name
-    t: Static typing
+    t: Статична типізація
   - key: entities.static_typing.description
-    t: Lack of native typing
+    t: Відсутність нативної типізації
 
   - key: entities.browser_support.name
-    t: Browser support
+    t: Підтримання браузерами
   - key: entities.browser_support.description
-    t: Browser support, compatibility, and consistency issues
+    t: Проблеми підтримання браузерами, сумісності та відповідності
 
   - key: entities.typescript_support.name
-    t: TypeScript support
+    t: Підтримання TypeScript
 
   - key: entities.error_handling.name
-    t: Error handling
+    t: Обробка помилок
 
   - key: entities.performance.name
-    t: Performance
+    t: Швидкодія
   - key: entities.performance.description
-    t: Performance issues
+    t: Проблеми швидкодії
 
   - key: entities.async.name
-    t: Async programming
+    t: Асинхронне програмування
 
   - key: entities.standard_library.name
-    t: Standard Library
+    t: Стандартна бібліотека
 
   - key: entities.security.name
-    t: Security
+    t: Безпека
 
   - key: entities.objects.name
-    t: Handling objects
+    t: Обробка об'єктів
 
   - key: entities.ecosystem.name
-    t: Ecosystem issues
+    t: Проблеми екосистеми
 
   - key: entities.lack_of_tools.name
-    t: Lack of tools
+    t: Відсутність інструментів
 
   - key: entities.dependencies.name
-    t: Dependencies
+    t: Залежності
   - key: entities.dependencies.description
-    t: Too many dependencies
+    t: Забагато залежностей
 
   - key: entities.null_keyword.name
     t: >
-      Behavior of `null`
+      Поведінка `null`
 
   - key: entities.excessive_complexity.name
-    t: Excessive complexity
+    t: Надмірна складність
   - key: entities.excessive_complexity.description
-    t: Too much complexity
+    t: Завелика складність
 
   - key: entities.frameworks.name
-    t: Frameworks
+    t: Фреймворки
 
   - key: entities.package_management.name
-    t: Package management issues
+    t: Проблеми управління пакетами
 
   - key: entities.lack_of_pattern_matching.name
-    t: Lack of pattern matching
+    t: Відсутність зіставлення із шаблоном
 
   - key: entities.syntax_issues.name
-    t: Syntax issues
+    t: Проблеми синтаксису
 
   - key: entities.lack_of_documentation.name
-    t: Lack of documentation
+    t: Відсутність документації
   - key: entities.lack_of_documentation.description
-    t: Lack of documentation or code examples
+    t: Відсутність документації або прикладів коду
 
   - key: entities.firefox_issues.name
-    t: Firefox issues
+    t: Проблеми Firefox
 
   - key: entities.lack_of_adoption.name
-    t: Lack of adoption
+    t: Відсутність впровадження
 
   - key: entities.debugging.name
-    t: Debugging
+    t: Залежності
   - key: entities.debugging.description
-    t: Debugging issues
+    t: Проблеми залежностей
 
   - key: entities.speed_of_change.name
-    t: Speed of change
+    t: Швидкість змін
   - key: entities.speed_of_change.description
-    t: Features, libraries, and APIs changing too fast
+    t: Функції, бібліотеки та API змінюються занадто швидко
 
   - key: entities.react_issues.name
-    t: React issues
+    t: Проблеми React
 
   - key: entities.too_many_choices.name
-    t: Choice overload
+    t: Перевантаження вибором
   - key: entities.too_many_choices.description
-    t: Overwhelming amount of options and choices
+    t: Надмірна кількість опцій і варіантів
 
   - key: entities.version_updates.name
-    t: Breaking changes
+    t: Руйнівні зміни
   - key: entities.version_updates.description
-    t: Breaking changes and other updating issues
+    t: Руйнівні зміни (breaking changes) та інші проблеми оновлення
 
   - key: entities.state_management.name
-    t: State management
+    t: Управління станом
 
   - key: entities.ssr.description
-    t: Server-side rendering issues
+    t: Проблеми рендерингу із боку сервера
 
   - key: entities.angular_issues.name
-    t: Angular issues
+    t: Проблеми Angular
 
   - key: entities.configuration.name
-    t: Configuration
+    t: Конфігурація
   - key: entities.configuration.description
-    t: Difficulties with set-up and configuration
+    t: Труднощі налаштування і задання конфігурацій
 
   - key: entities.build_issues.name
-    t: Build issues
+    t: Проблеми збирання
 
   - key: entities.vue_issues.name
-    t: Vue.js issues
+    t: Проблеми Vue.js
 
   - key: entities.tough_learning_curve.name
-    t: Tough learning curve
+    t: Складна крива вивчення
 
   - key: entities.bloat.name
-    t: Bloat
+    t: Роздутість
 
   - key: entities.build_tool_issues.name
-    t: Build tools
+    t: Збирачі
   - key: entities.build_tool_issues.description
-    t: Build tools issues
+    t: Проблеми інструментів побудови та збирання
 
   - key: entities.react_dominance.name
-    t: Excessive dominance
+    t: Надмірне домінування React
 
   - key: entities.nextjs_issues.name
-    t: Next.js issues
+    t: Проблеми Next.js
 
   - key: entities.deployment.name
-    t: Deployment
+    t: Розробка
 
   - key: entities.server_client_issues.name
-    t: Frontend and backend integration
+    t: Інтеграція клієнта та сервера
 
   - key: entities.too_opinionated.name
-    t: Too opinionated
+    t: Завелика самовпевненість
 
   - key: entities.lock_in.name
-    t: Lock-in
+    t: Замкненість (lock-in)  
   - key: entities.lock_in.description
-    t: Too much lock-in
+    t: Завелика замкненість (в екосистемі постачальника)
 
   - key: entities.server_components_issues.name
-    t: Server components issues
+    t: Проблеми серверних компонентів
 
   - key: entities.cache_issues.name
-    t: Сache issues
+    t: Проблеми кешу
 
   - key: entities.authentication.name
-    t: Authentication
+    t: Автентифікація
 
   - key: entities.mocking.name
-    t: Mocking
+    t: Створення макетів (Mocking) 
 
   - key: entities.flakiness.name
-    t: Flakiness
+    t: Недетермінованість (Flakiness)
 
   - key: entities.browser_testing_issues.name
-    t: Browser testing issues
+    t: Проблеми тестування у браузері
 
   - key: entities.e2e_testing.name
-    t: E2E testing
+    t: Тестування E2E
 
   - key: entities.unit_testing.name
-    t: Unit testing
+    t: Модульне тестування
 
   - key: entities.async_testing.name
-    t: Async testing
+    t: Тестування асинхронного
 
   - key: entities.front_end.name
-    t: Frontend testing
+    t: Тестування клієнтської частини
 
   - key: entities.integration_with_tools.name
-    t: Integration with tools
+    t: Інтеграція інструментів
 
   - key: entities.too_much_boilerplate.name
-    t: Excessive boilerplate
+    t: Надмірна шаблонність
   - key: entities.too_much_boilerplate.description
-    t: Too much boilerplate required
+    t: Потрібно забагато повторюваних шаблонів
 
   - key: entities.access_to_native_apis.name
-    t: Native APIs access
+    t: Доступ до нативних API
   - key: entities.access_to_native_apis.description
-    t: Lack of access to native APIs
+    t: Відсутність доступу до нативних API
 
   - key: entities.bundle_size.name
-    t: Bundle size
+    t: Розмір пакету
   - key: entities.bundle_size.description
-    t: Excessive bundle size
+    t: Надмірний розмір пакету застосунку (bundle)
 
   - key: entities.limitations_compared_to_native.name
-    t: Limitations compared to native
+    t: Обмеження, як порівняти з нативними
 
   - key: entities.android_general_issues.name
-    t: Android issues
+    t: Проблеми Android
 
   - key: entities.testing.name
-    t: Testing
+    t: Тестування
 
   - key: entities.webpack_issues.name
-    t: Webpack issues
+    t: Проблеми Webpack
 
   - key: entities.plugin_issues.name
-    t: Plugin issues
+    t: Проблеми плагінів
 
   - key: entities.bundler_issues.name
-    t: Bundlers
+    t: Пакувальники
   - key: entities.bundler_issues.description
-    t: Bundlers issues
+    t: Проблеми пакувальників (bundlers)
 
   - key: entities.build_times.name
-    t: Build times
+    t: Час збирання
 
   - key: entities.maintenance.name
-    t: Maintenance
+    t: Підтримування
 
   - key: entities.caching.name
-    t: Caching
+    t: Кешування
 
   - key: entities.versioning.name
-    t: Versioning
+    t: Нумерація версій
