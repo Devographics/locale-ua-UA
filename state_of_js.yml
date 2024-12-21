@@ -1574,8 +1574,8 @@ translations:
   # - key: entities.web_audio.name
   #   t: Web Audio
 
-  # - key: entities.web_components.name
-  #   t: Web Components
+  - key: entities.web_components.name
+    t: Web Components
 
   # - key: entities.web_speech.name
   #   t: Web Speech API
@@ -1591,6 +1591,8 @@ translations:
 
   # - key: entities.file_system_access.name
   #   t: File System Access API
+  - key: entities.file_system_access.description
+    t: Access files and directories on the user's local device.
 
   # - key: entities.web_share.name
   #   t: Web Share API
@@ -1598,8 +1600,8 @@ translations:
   # - key: entities.webxr.name
   #   t: WebXR Device API
 
-  # - key: entities.pwas.name
-  #   t: Progressive Web Apps
+  - key: entities.pwas.name
+    t: Progressive Web Apps
 
   # - key: entities.twa.name
   #   t: Trusted Web Activity
@@ -1834,3 +1836,247 @@ translations:
   - key: entities.string_match_all.description
     t: >
       Повертає ітератор над усіма збігами під час пошуку у стрічковій змінній за регулярним виразом.
+
+  ###########################################################################
+  # Entities found only in surveys repo - https://github.com/Devographics/surveys
+  ###########################################################################
+
+  ### Pain Points - state_of_js/js2024/results/data
+  # /features/browser_apis_pain_points.json - 2024/12/21
+  # /features/language_pain_points.json - 2024/12/21
+  # /front_end_frameworks/front_end_frameworks_pain_points.json - 2024/12/21
+  # /meta_frameworks/meta_frameworks_pain_points.json - 2024/12/21
+  # /testing/testing_pain_points.json - 2024/12/21
+  # /mobile_desktop/mobile_desktop_pain_points.json - 2024/12/21
+  # /build_tools/build_tools_pain_points.json - 2024/12/21
+  # /usage/top_js_pain_points.json - 2024/12/21
+
+  - key: entities.static_typing.name
+    t: Static typing
+  - key: entities.static_typing.description
+    t: Lack of native typing
+
+  - key: entities.browser_support.name
+    t: Browser support
+  - key: entities.browser_support.description
+    t: Browser support, compatibility, and consistency issues
+
+  - key: entities.typescript_support.name
+    t: TypeScript support
+
+  - key: entities.error_handling.name
+    t: Error handling
+
+  - key: entities.performance.name
+    t: Performance
+  - key: entities.performance.description
+    t: Performance issues
+
+  - key: entities.async.name
+    t: Async programming
+
+  - key: entities.standard_library.name
+    t: Standard Library
+
+  - key: entities.security.name
+    t: Security
+
+  - key: entities.objects.name
+    t: Handling objects
+
+  - key: entities.ecosystem.name
+    t: Ecosystem issues
+
+  - key: entities.lack_of_tools.name
+    t: Lack of tools
+
+  - key: entities.dependencies.name
+    t: Dependencies
+  - key: entities.dependencies.description
+    t: Too many dependencies
+
+  - key: entities.null_keyword.name
+    t: >
+      Behavior of `null`
+
+  - key: entities.excessive_complexity.name
+    t: Excessive complexity
+  - key: entities.excessive_complexity.description
+    t: Too much complexity
+
+  - key: entities.frameworks.name
+    t: Frameworks
+
+  - key: entities.package_management.name
+    t: Package management issues
+
+  - key: entities.lack_of_pattern_matching.name
+    t: Lack of pattern matching
+
+  - key: entities.syntax_issues.name
+    t: Syntax issues
+
+  - key: entities.lack_of_documentation.name
+    t: Lack of documentation
+  - key: entities.lack_of_documentation.description
+    t: Lack of documentation or code examples
+
+  - key: entities.firefox_issues.name
+    t: Firefox issues
+
+  - key: entities.lack_of_adoption.name
+    t: Lack of adoption
+
+  - key: entities.debugging.name
+    t: Debugging
+  - key: entities.debugging.description
+    t: Debugging issues
+
+  - key: entities.speed_of_change.name
+    t: Speed of change
+  - key: entities.speed_of_change.description
+    t: Features, libraries, and APIs changing too fast
+
+  - key: entities.react_issues.name
+    t: React issues
+
+  - key: entities.too_many_choices.name
+    t: Choice overload
+  - key: entities.too_many_choices.description
+    t: Overwhelming amount of options and choices
+
+  - key: entities.version_updates.name
+    t: Breaking changes
+  - key: entities.version_updates.description
+    t: Breaking changes and other updating issues
+
+  - key: entities.state_management.name
+    t: State management
+
+  - key: entities.ssr.description
+    t: Server-side rendering issues
+
+  - key: entities.angular_issues.name
+    t: Angular issues
+
+  - key: entities.configuration.name
+    t: Configuration
+  - key: entities.configuration.description
+    t: Difficulties with set-up and configuration
+
+  - key: entities.build_issues.name
+    t: Build issues
+
+  - key: entities.vue_issues.name
+    t: Vue.js issues
+
+  - key: entities.tough_learning_curve.name
+    t: Tough learning curve
+
+  - key: entities.bloat.name
+    t: Bloat
+
+  - key: entities.build_tool_issues.name
+    t: Build tools
+  - key: entities.build_tool_issues.description
+    t: Build tools issues
+
+  - key: entities.react_dominance.name
+    t: Excessive dominance
+
+  - key: entities.nextjs_issues.name
+    t: Next.js issues
+
+  - key: entities.deployment.name
+    t: Deployment
+
+  - key: entities.server_client_issues.name
+    t: Frontend and backend integration
+
+  - key: entities.too_opinionated.name
+    t: Too opinionated
+
+  - key: entities.lock_in.name
+    t: Lock-in
+  - key: entities.lock_in.description
+    t: Too much lock-in
+
+  - key: entities.server_components_issues.name
+    t: Server components issues
+
+  - key: entities.cache_issues.name
+    t: Сache issues
+
+  - key: entities.authentication.name
+    t: Authentication
+
+  - key: entities.mocking.name
+    t: Mocking
+
+  - key: entities.flakiness.name
+    t: Flakiness
+
+  - key: entities.browser_testing_issues.name
+    t: Browser testing issues
+
+  - key: entities.e2e_testing.name
+    t: E2E testing
+
+  - key: entities.unit_testing.name
+    t: Unit testing
+
+  - key: entities.async_testing.name
+    t: Async testing
+
+  - key: entities.front_end.name
+    t: Frontend testing
+
+  - key: entities.integration_with_tools.name
+    t: Integration with tools
+
+  - key: entities.too_much_boilerplate.name
+    t: Excessive boilerplate
+  - key: entities.too_much_boilerplate.description
+    t: Too much boilerplate required
+
+  - key: entities.access_to_native_apis.name
+    t: Native APIs access
+  - key: entities.access_to_native_apis.description
+    t: Lack of access to native APIs
+
+  - key: entities.bundle_size.name
+    t: Bundle size
+  - key: entities.bundle_size.description
+    t: Excessive bundle size
+
+  - key: entities.limitations_compared_to_native.name
+    t: Limitations compared to native
+
+  - key: entities.android_general_issues.name
+    t: Android issues
+
+  - key: entities.testing.name
+    t: Testing
+
+  - key: entities.webpack_issues.name
+    t: Webpack issues
+
+  - key: entities.plugin_issues.name
+    t: Plugin issues
+
+  - key: entities.bundler_issues.name
+    t: Bundlers
+  - key: entities.bundler_issues.description
+    t: Bundlers issues
+
+  - key: entities.build_times.name
+    t: Build times
+
+  - key: entities.maintenance.name
+    t: Maintenance
+
+  - key: entities.caching.name
+    t: Caching
+
+  - key: entities.versioning.name
+    t: Versioning
