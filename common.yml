@@ -1639,6 +1639,12 @@ translations:
   - key: user_info.did_you_run_into_technical_issues.question
     t: Чи виникли у вас якісь технічні проблеми під час проходження цього опитування?
 
+  # missing questions
+  - key: user_info.missing_questions
+    t: Missing Questions
+  - key: user_info.missing_questions.question
+    t: Were there any other questions you wish the survey would've asked?
+
   # how can we improve the survey?
   - key: user_info.how_can_we_improve
     t: Покращення опитування
