@@ -30,6 +30,8 @@ translations:
     t: Канада
   - key: options.country.CRI
     t: Коста-Рика
+  - key: options.country.HRV
+    t: Хорватія
   - key: options.country.CHE
     t: Швейцарія
   - key: options.country.CHL
@@ -132,6 +134,8 @@ translations:
     t: Сербія
   - key: options.country.SGP
     t: Сінгапур
+  - key: options.country.SVK
+    t: Словаччина
   - key: options.country.SVN
     t: Словенія
   - key: options.country.ZAF

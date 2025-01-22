@@ -1468,7 +1468,7 @@ translations:
   - key: user_info.years_of_experience
     t: Досвід
   - key: user_info.years_of_experience.question
-    t: Як довго ви працюєте або вчитеся у цій сфері (у роках)?
+    t: Як довго ви працюєте або вчитеся у сфері веброзробки (у роках)?
 
   # company size
   - key: user_info.company_size
