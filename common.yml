@@ -292,6 +292,9 @@ translations:
   - key: sections.opinions.description
     t: Що ви думаєте загалом?
 
+  - key: opinions.opinions_intro
+    t: Відповідаючи на наступні запитання, дайте нам знати, наскільки ви згодні з кожним твердженням.
+
   - key: sections.other_tools.title
     t: Інші інструменти
   - key: sections.other_tools.description
@@ -1465,7 +1468,7 @@ translations:
   - key: user_info.years_of_experience
     t: Досвід
   - key: user_info.years_of_experience.question
-    t: Як довго ви працюєте або вчитеся у цій сфері (у роках)?
+    t: Як довго ви працюєте або вчитеся у сфері веброзробки (у роках)?
 
   # company size
   - key: user_info.company_size
@@ -1622,6 +1625,8 @@ translations:
 
   # email_temporary (receive updates?)
   - key: user_info.receive_notifications
+    t: Сповіщення
+  - key: user_info.receive_notifications.question
     t: Бажаєте отримати сповіщення, коли будуть опубліковані результати опитування?
   - key: user_info.receive_notifications.note
     t: >
@@ -1633,6 +1638,12 @@ translations:
     t: Технічні проблеми
   - key: user_info.did_you_run_into_technical_issues.question
     t: Чи виникли у вас якісь технічні проблеми під час проходження цього опитування?
+
+  # missing questions
+  - key: user_info.missing_questions
+    t: Відсутні питання
+  - key: user_info.missing_questions.question
+    t: На вашу думку, яких питань не вистачило в опитуванні?
 
   # how can we improve the survey?
   - key: user_info.how_can_we_improve

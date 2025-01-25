@@ -35,7 +35,9 @@
 |logged in|[ви] увійшли|
 |nesting|вкладеність|
 |a percentile|процентиль|
+|performance|швидкодія|
 |presets|налаштування|
+|productivity|продуктивність|
 |query (media query, container query)|запит (медіазапит, контейнерний запит)|
 |a reading list (website feature)|список читання|
 |rankings|ранжування|
