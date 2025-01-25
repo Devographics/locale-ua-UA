@@ -487,7 +487,7 @@ translations:
       Тому завжди цікаво бачити проєкти, які ламають цю тенденцію, як-от Vue та Angular, які знову отримали позитивні відгуки — навіть після кількох років результатів не на їхню користь.
 
 
-      *Note: unlike previous editions, this year's question format made picking a positive or negative sentiment optional, with neutral as default. As a side effect, 2024 datapoints on this chart are generally trending back towards the center of the graph.*
+      *Зверніть увагу: на відміну від попередніх опитувань, висловлення позитивного чи негативного ставлення у цьогорічному форматі запитання було необов'язковим та початково нейтральним. Як побічний ефект, точки даних 2024-го року на цій діаграмі зазвичай повертаються до центру графіка.*
 
   - key: tools.tier_list.takeaway.js2024
     t: >

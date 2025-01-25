@@ -10,97 +10,97 @@ translations:
 
   - key: tools.tools_intro.ai2025
     t: |
-      This first part of the survey is all about which AI tools you use, or have heard about.
+      Ця перша частина опитування про те, якими ШІ-інструментами ви користуєтеся та про які з них чули.
 
   - key: sections.chatbots.title
-    t: Chatbots
+    t: Чат-боти
   - key: sections.chatbots.description
-    t: General-purpose AI tools.
+    t: ШІ-інструменти загального призначення.
 
   - key: tools.chatbots_pain_points
-    t: Chatbots Pain Points
+    t: Проблеми чат-ботів
   - key: tools.chatbots_pain_points.question
-    t: Which pain points have you encountered when using chatbots?
+    t: З якими проблемами ви стикалися під час використання чат-ботів?
 
   - key: sections.coding_assistants.title
-    t: Coding Assistants
+    t: Асистенти для програмування
   - key: sections.coding_assistants.description
-    t: AI tools that help throughout the development process.
+    t: ШІ-інструменти, які допомагають протягом процесу розробки.
 
   - key: tools.coding_assistants_pain_points
-    t: Coding Assistants Pain Points
+    t: Проблеми асистентів для програмування
   - key: tools.coding_assistants_pain_points.question
-    t: Which pain points have you encountered when using coding assistants?
+    t: З якими проблемами ви стикалися під час використання асистентів/помічників для програмування?
 
   - key: sections.code_generation.title
-    t: Code Generation
+    t: Генерація коду
   - key: sections.code_generation.description
-    t: AI tools used to generate new codebases or code snippets.
+    t: ШІ-інструменти, які використовуються для створення нових кодових баз або сніпетів.
 
   - key: tools.code_generation_pain_points
-    t: Code Generation Pain Points
+    t: Проблеми генерації коду
   - key: tools.code_generation_pain_points.question
-    t: Which pain points have you encountered when using code generation tools?
+    t: З якими проблемами ви стикалися під час використання інструментів генерації коду?
 
   - key: sections.ides.title
-    t: IDEs & Editors
+    t: IDE та редактори коду
   - key: sections.ides.title
-    t: IDEs or code editors focused on AI integration.
+    t: Інтегровані середовища розробки або редактори коду, які зосереджені на інтеграції ШІ.
 
   - key: tools.ides_pain_points
-    t: Coding Assistants Pain Points
+    t: Проблеми IDE та редакторів коду
   - key: tools.ides_pain_points.question
-    t: Which pain points have you encountered when using AI-focused IDEs and editors?
+    t: З якими проблемами ви стикалися під час використання інтегрованих середовищ розробки та редакторів коду, зосереджених на інтеграції ШІ?
 
   - key: sections.image_generation.title
-    t: Image Generation
+    t: Генерація зображень
   - key: sections.image_generation.description
-    t: AI tools for generating and editing images.
+    t: ШІ-інструменти для генерації та редагування зображень.
 
   # ai_programming_languages
 
   - key: other_tools.ai_programming_languages
-    t: Programming Languages
+    t: Мови програмування
   - key: other_tools.ai_programming_languages.question
-    t: Which programming language(s) do you use AI tools with?
+    t: З якими мовами програмування ви використовуєте ШІ-інструменти?
 
   - key: other_tools.image_generation
-    t: Image Generation
+    t: Генерація зображень
   - key: other_tools.image_generation.question
-    t: Which AI tools or models do you use to generate images?
+    t: Які ШІ-інструменти або -моделі ви використовуєте для генерації зображень?
 
   # ai_libraries_sdks
 
   - key: other_tools.ai_libraries_sdks
-    t: Libraries & SDKs
+    t: Бібліотеки та SDK
   - key: other_tools.ai_libraries_sdks.question
-    t: Which AI libraries and SDKs do you use?
+    t: Які ШІ-бібліотеки або -набори для розробки програмного забезпечення ви використовуєте?
 
-  # ai_browser_apis
+  # ai_browser_apis 
 
   - key: other_tools.ai_browser_apis
-    t: Browser APIs
+    t: API браузера
   - key: other_tools.ai_browser_apis.question
-    t: What AI APIs would you most like to see supported natively in browsers?
+    t: Які API штучного інтелекту, на вашу думку, найбільше потребують нативного підтримування браузерами?
 
   # ai_tools_others
 
   - key: other_tools.ai_tools_others
-    t: Other Tools
+    t: Інші інструменти
   - key: other_tools.ai_tools_others.question
-    t: What other AI tools not mentioned so far do you use?
+    t: Які ще ШІ-інструменти, що не були згадані, ви використовуєте?
 
   # ai_generated_code_balance
 
   - key: usage.ai_generated_code_balance
-    t: AI Code Generation
+    t: Генерація коду за допомогою ШІ
   - key: usage.ai_generated_code_balance.question
-    t: What proportion of the code you produce is AI-generated?
+    t: Яку частку коду, який ви створюєте, згенеровано за допомогою ШІ?
   - key: usage.ai_generated_code_balance.prompt
-    t: Including code copy-pasted from ChatGPT or other chatbots.
+    t: Включно з кодом, скопійованим із ChatGPT або інших чат-ботів.
 
   - key: options.ai_generated_code_balance.0
-    t: 0% AI
+    t: 0% ШІ
   - key: options.ai_generated_code_balance.1
     t: "|"
   - key: options.ai_generated_code_balance.2
@@ -116,17 +116,17 @@ translations:
   - key: options.ai_generated_code_balance.7
     t: "|"
   - key: options.ai_generated_code_balance.8
-    t: 100% AI
+    t: 100% ШІ
 
   # ai_generated_code_refactoring
 
   - key: usage.ai_generated_code_refactoring
-    t: AI Code Refactoring
+    t: Рефакторинг коду ШІ
   - key: usage.ai_generated_code_refactoring.question
-    t: When using AI to generate code, what proportion do you rewrite or refactor before use?
+    t: Яку частку коду, згенерованого за допомогою ШІ, ви переписуєте чи перероблюєте перед використанням?
   - key: usage.ai_generated_code_refactoring.prompt
     t: >
-      0% refactored: you use the code as-is with minimal changes; 100% refactored: you rewrite all or nearly all the code.
+      0% рефакторингу: ви використовуєте код як є з мінімальними змінами; 100% рефакторингу: ви переписуєте весь або майже весь код.
   # - key: options.ai_generated_code_refactoring.0
   #   t: I use the code as-is, or almost as-is
   # - key: options.ai_generated_code_refactoring.1
@@ -139,7 +139,7 @@ translations:
   #   t: I rewrite all, or almost all the code
 
   - key: options.ai_generated_code_refactoring.0
-    t: 0% refactored
+    t: 0% рефакторингу
   - key: options.ai_generated_code_refactoring.1
     t: "|"
   - key: options.ai_generated_code_refactoring.2
@@ -155,36 +155,36 @@ translations:
   - key: options.ai_generated_code_refactoring.7
     t: "|"
   - key: options.ai_generated_code_refactoring.8
-    t: 100% refactored
+    t: 100% рефакторингу
 
   # ai_code_refactoring_reasons
 
   - key: usage.ai_code_refactoring_reasons
-    t: Reasons for Refactoring
+    t: Причини рефакторингу
   - key: usage.ai_code_refactoring_reasons.question
-    t: What are the main reasons that require you to refactor AI-generated code?
+    t: Які основні причини рефакторингу вашого коду, згенерованого за допомогою ШІ?
 
   - key: options.ai_code_refactoring_reasons.excessive_repetition
-    t: Excessive repetition
+    t: Надмірне повторення
   - key: options.ai_code_refactoring_reasons.performance_issues
-    t: Performance issues
+    t: Проблеми швидкодії
   - key: options.ai_code_refactoring_reasons.outdated_imports
-    t: Outdated imports
+    t: Застарілі імпорти
   - key: options.ai_code_refactoring_reasons.security_issues
-    t: Security issues
+    t: Проблеми безпеки
   - key: options.ai_code_refactoring_reasons.variable_renaming
-    t: Variable renaming
+    t: Перейменування змінних
   - key: options.ai_code_refactoring_reasons.improving_readability
-    t: Poor readability
+    t: Погана прочитність
 
   # ai_personal_expenses
 
   - key: usage.ai_personal_expenses
-    t: Personal Expenses
+    t: Особисті витрати
   - key: usage.ai_personal_expenses.question
-    t: How much do you personally spend on AI tools per month (in USD)?
+    t: Скільки ви самі витрачаєте на ШІ-інструменти на місяць (у доларах США)?
   - key: usage.ai_personal_expenses.prompt
-    t: If working for yourself, include both personal and professional expenses.
+    t: Якщо ви працюєте на себе, то включно з приватними і професійними витратами.
 
   - key: options.ai_personal_expenses.range_0
     t: $0
@@ -215,69 +215,69 @@ translations:
     aliases:
       - options.ai_company_expenses.range_1001_5000
   - key: options.ai_personal_expenses.range_over_5000
-    t: Over $5000
+    t: Більше $5000
     aliases:
       - options.ai_company_expenses.range_over_5000
 
   # ai_company_expenses
 
   - key: usage.ai_company_expenses
-    t: Company Expenses
+    t: Витрати компанії
   - key: usage.ai_company_expenses.question
-    t: How much does your company spend on AI tools per month (in USD)?
+    t: Скільки ваша компанія витрачає на ШІ-інструменти на місяць (у доларах США)?
   - key: usage.ai_company_expenses.prompt
-    t: If working for yourself, feel free to skip this question.
+    t: Якщо ви працюєте на себе, пропускайте це запитання.
 
   # ai_code_generation_frequency
 
   - key: usage.ai_code_generation_frequency
-    t: Code Generation Frequency
+    t: Частота генерації коду
   - key: usage.ai_code_generation_frequency.question
-    t: How frequently do you use AI tools to generate or refactor code?
+    t: Як часто ви використовуєте ШІ-інструменти для генерації або рефакторингу коду?
   - key: options.ai_code_generation_frequency.0
-    t: Never
+    t: Ніколи
     aliases:
       - options.ai_other_tasks_frequency.0
   - key: options.ai_code_generation_frequency.1
-    t: A few times per year
+    t: Декілька разів на рік
     aliases:
       - options.ai_other_tasks_frequency.1
   - key: options.ai_code_generation_frequency.2
-    t: A few times per month
+    t: Декілька разів на місяць
     aliases:
       - options.ai_other_tasks_frequency.2
   - key: options.ai_code_generation_frequency.3
-    t: A few times per week
+    t: Декілька разів на тиждень
     aliases:
       - options.ai_other_tasks_frequency.3
   - key: options.ai_code_generation_frequency.4
-    t: A few times per day
+    t: Декілька разів на день
     aliases:
       - options.ai_other_tasks_frequency.4
   - key: options.ai_code_generation_frequency.5
-    t: A few times per hour
+    t: Декілька разів на годину
     aliases:
       - options.ai_other_tasks_frequency.5
   - key: options.ai_code_generation_frequency.6
-    t: Constantly
+    t: Постійно
     aliases:
       - options.ai_other_tasks_frequency.6
 
   # ai_other_tasks_frequency
 
   - key: usage.ai_other_tasks_frequency
-    t: Other Tasks Frequency
+    t: Частота інших завдань
   - key: usage.ai_other_tasks_frequency.question
-    t: How frequently do you use AI tools for tasks other than code generation?
+    t: Як часто ви використовуєте ШІ-інструменти для інших завдань, окрім генерації коду?
 
   - key: usage.ai_other_tasks_frequency.prompt
-    t: Research, learning new skills, summarizing documents, etc.
+    t: Дослідження, здобуття нових навичок, резюмування документів тощо.
 
   # ai_project_type
   - key: usage.ai_project_type
-    t: Use Case
+    t: Варіанти використання
   - key: usage.ai_project_type.question
-    t: What kind of projects do you use AI tools on?
+    t: Для якого виду проєктів ви використовуєте ШІ-інструменти?
 
   - key: options.ai_project_type.frontend_development
     aliasFor: options.what_do_you_use_js_for.frontend_development
@@ -340,303 +340,303 @@ translations:
   #   t: Learning new skills
 
   - key: usage.ai_generated_code_type
-    t: Generated Code
+    t: Згенерований код
   - key: usage.ai_generated_code_type.question
-    t: What kind of code do you generate using AI tools?
+    t: Який код ви створюєте за допомогою ШІ-інструментів?
 
   - key: options.ai_generated_code_type.helper_functions
-    t: Helper functions
+    t: Допоміжні функції
   - key: options.ai_generated_code_type.frontend_components
-    t: Frontend components
+    t: Компоненти клієнтської частини
   - key: options.ai_generated_code_type.css_code
-    t: CSS code
+    t: CSS-код
   - key: options.ai_generated_code_type.core_app_logic
-    t: Core app logic
+    t: Основна логіка застосунку
   - key: options.ai_generated_code_type.api_integrations
-    t: API integration code
+    t: Код для інтеграції API
   - key: options.ai_generated_code_type.documentation_comments
-    t: Documentation & comments
+    t: Документація та коментарі
   - key: options.ai_generated_code_type.tests
-    t: Tests
+    t: Тести
 
     # ai_uses
 
   - key: usage.ai_uses
-    t: Use Cases
+    t: Варіанти використання
   - key: usage.ai_uses.question
-    t: What do you use AI tools for?
+    t: Для чого ви використовуєте ШІ-інструменти?
 
   - key: options.ai_uses.code_generation
-    t: Code generation
+    t: Генерація коду
     aliases:
       - options.ai_browser_apis.code_generation
 
   - key: options.ai_uses.code_generation.description
-    t: Generating or refactoring code based on a prompt.
+    t: Генерація або рефакторинг коду залежно від підказок (prompts).
     aliases:
       - options.ai_browser_apis.code_generation.description
 
   - key: options.ai_uses.translation
-    t: Translation
+    t: Переклад
     aliases:
       - options.ai_browser_apis.translation
 
   - key: options.ai_uses.translation.description
-    t: Translating content from one language to another.
+    t: Переклад вмісту з однієї мови на іншу.
     aliases:
       - options.ai_browser_apis.translation.description
 
   - key: options.ai_uses.language_detection
-    t: Language detection
+    t: Визначення мови
     aliases:
       - options.ai_browser_apis.language_detection
 
   - key: options.ai_uses.language_detection.description
-    t: Detecting the language a text is written in.
+    t: Визначення мови, якою написаний текст.
     aliases:
       - options.ai_browser_apis.language_detection.description
 
   - key: options.ai_uses.summarization
-    t: Summarization
+    t: Підсумовування
     aliases:
       - options.ai_browser_apis.summarization
 
   - key: options.ai_uses.summarization.description
-    t: Summarizing a text or dataset into its main themes.
+    t: Резюмування основних тем тексту або набору даних.
     aliases:
       - options.ai_browser_apis.summarization.description
 
   - key: options.ai_uses.text_generation
-    t: Text generation
+    t: Генерація тексту
     aliases:
       - options.ai_browser_apis.text_generation
 
   - key: options.ai_uses.text_generation.description
-    t: Generating a text based on a prompt.
+    t: Генерація тексту залежно від підказок (prompts).
     aliases:
       - options.ai_browser_apis.text_generation.description
 
   - key: options.ai_uses.image_generation
-    t: Image generation
+    t: Генерація зображень
     aliases:
       - options.ai_browser_apis.image_generation
 
   - key: options.ai_uses.image_generation.description
-    t: Generating an image based on a prompt
+    t: Генерація зображень залежно від підказок (prompts).
     aliases:
       - options.ai_browser_apis.image_generation.description
 
   - key: options.ai_uses.speech_generation
-    t: Speech generation
+    t: Синтез мовлення
     aliases:
       - options.ai_browser_apis.speech_generation
 
   - key: options.ai_uses.speech_generation.description
-    t: Generating speech based on a prompt or a text.
+    t: Синтез мовлення залежно від підказки (prompt) або для тексту.
     aliases:
       - options.ai_browser_apis.speech_generation.description
 
   - key: options.ai_uses.speech_recognition
-    t: Speech recognition
+    t: Розпізнавання мовлення
     aliases:
       - options.ai_browser_apis.speech_recognition
 
   - key: options.ai_uses.speech_recognition.description
-    t: Transcribing recorded or real-time speech into text.
+    t: Перетворення записаного мовлення або мовлення в реальному часі в текст.
     aliases:
       - options.ai_browser_apis.speech_recognition.description
 
   - key: options.ai_uses.computer_vision
-    t: Computer vision
+    t: Комп'ютерне бачення
     aliases:
       - options.ai_browser_apis.computer_vision
 
   - key: options.ai_uses.computer_vision.description
-    t: Detecting items in a photo or video feed.
+    t: Виявлення та визначення елементів у фото- чи відеоданих.
     aliases:
       - options.ai_browser_apis.computer_vision.description
 
   - key: options.ai_uses.sentiment_analysis
-    t: Sentiment analysis
+    t: Аналіз тональності
     aliases:
       - options.ai_browser_apis.sentiment_analysis
 
   - key: options.ai_uses.sentiment_analysis.description
-    t: Classifying text data based on sentiment.
+    t: Класифікація текстових даних залежно від тональності (емоційного ставлення).
     aliases:
       - options.ai_browser_apis.sentiment_analysis.description
 
   - key: options.ai_uses.caption_generation
-    t: Captions generation
+    t: Генерація підписів чи субтитрів
     aliases:
       - options.ai_browser_apis.caption_generation
 
   - key: options.ai_uses.caption_generation.description
-    t: Generating captions or subtitles for images or videos.
+    t: Генерація підписів (captions) чи субтитрів для зображень або відео.
     aliases:
       - options.ai_browser_apis.caption_generation.description
 
   - key: options.ai_uses.learning_research
-    t: Learning & research
+    t: Навчання та дослідження
     aliases:
       - options.ai_browser_apis.learning_research
 
   - key: options.ai_uses.learning_research.description
-    t: Learning new skills or researching a topic.
+    t: Здобуття нових навичок або дослідження певної теми.
     aliases:
       - options.ai_browser_apis.learning_research.description
 
   # ai_pain_points
   - key: usage.ai_pain_points
-    t: Pain Points
+    t: Проблеми
   - key: usage.ai_pain_points.question
-    t: What are your top pain points when it comes to using AI tools?
+    t: На вашу думку, що є найголовнішими проблемами ШІ-інструментів?
 
   - key: options.ai_pain_points.misunderstood_prompt
-    t: Prompt comprehension
+    t: Розуміння підказок
   - key: options.ai_pain_points.misunderstood_prompt.description
-    t: AI not correctly understanding the prompt.
+    t: ШІ неправильно розуміє підказки (prompts).
 
   - key: options.ai_pain_points.poor_generated_code
-    t: Code quality
+    t: Якість коду
   - key: options.ai_pain_points.poor_generated_code.description
-    t: Code with low performance, excessive repetition, outdated imports, etc.
+    t: Код із низькою швидкодією, надмірним повторенням, застарілими імпортами тощо.
 
   - key: options.ai_pain_points.training_data_concerns
-    t: Copyright concerns
+    t: Проблеми з авторським правом
   - key: options.ai_pain_points.training_data_concerns.description
-    t: Concerns about training on copyrighted materials.
+    t: Занепокоєння щодо навчання на джерелах, захищених авторським правом.
 
   - key: options.ai_pain_points.integration_difficulties
-    t: Integration difficulties
+    t: Труднощі інтеграції
   - key: options.ai_pain_points.integration_difficulties.description
-    t: Difficulties integrating AI tools with your existing workflow.
+    t: Труднощі з інтеграцією ШІ-інструментів у наявний робочий процес.
 
   - key: options.ai_pain_points.costs
-    t: Financial costs
+    t: Фінансові витрати
   - key: options.ai_pain_points.costs.description
-    t: AI tools being too expensive.
+    t: ШІ-інструменти занадто дорогі.
 
   - key: options.ai_pain_points.environmental_impact
-    t: Environmental impact
+    t: Вплив на навколишнє середовище
   - key: options.ai_pain_points.environmental_impact.description
-    t: Concerns about the energy consumption of AI tools.
+    t: Занепокоєння щодо енергоспоживання ШІ-інструментів.
 
   - key: options.ai_pain_points.lack_of_context
-    t: Lack of context
+    t: Відсутність контексту
   - key: options.ai_pain_points.lack_of_context.description
-    t: AI not taking into account entire project context
+    t: ШІ не враховує весь контекст проєкту.
 
   - key: options.ai_pain_points.lack_of_memory
-    t: Lack of memory
+    t: Відсутність пам'яті
   - key: options.ai_pain_points.lack_of_memory.description
-    t: AI not having memory over time
+    t: ШІ не запам'ятовує з часом.
 
   - key: options.ai_pain_points.privacy_concerns
-    t: Privacy concerns
+    t: Проблеми конфіденційності
   - key: options.ai_pain_points.privacy_concerns.description
-    t: Concerns about private code or data leaking to AI providers.
+    t: Занепокоєння щодо витоку приватного коду або даних до постачальників ШІ.
 
   # ai_missing_features
 
   - key: usage.ai_missing_features
-    t: Missing Features
+    t: Відсутні функції
   - key: usage.ai_missing_features.question
-    t: What capabilities do you feel are currently missing from AI tools?
+    t: Яких можливостей, на вашу думку, не вистачає в ШІ-інструментах?
 
   # ai_happiness
 
   - key: usage.ai_happiness
-    t: Happiness
+    t: Задоволення
   - key: usage.ai_happiness.question
-    t: How happy are you with the current general state of AI tools for web development?
+    t: Наскільки ви задоволені поточним станом ШІ-інструментів для веброзробки?
 
   # existential_risk
 
   - key: opinions.existential_risk
-    t: Existential Risk
+    t: Екзистенційний ризик
   - key: opinions.existential_risk.question
-    t: AI poses an existential risk to humanity
+    t: ШІ створює ризик для існування людства
 
   # integral_workflow
 
   - key: opinions.integral_workflow
-    t: Workflow Integration
+    t: Інтеграція в робочий процес
   - key: opinions.integral_workflow.question
-    t: AI tools have become an integral part of my workflow
+    t: ШІ-інструменти стали невід'ємною частиною мого робочого процесу
 
   # more_productive
 
   - key: opinions.more_productive
-    t: Productivity
+    t: Продуктивність
   - key: opinions.more_productive.question
-    t: AI tools have made me a lot more productive
+    t: ШІ-інструменти зробили мене значно продуктивнішим
 
   # job_security_threat
 
   - key: opinions.job_security_threat
-    t: Job Security
+    t: Гарантії зайнятості (Job Security)
   - key: opinions.job_security_threat.question
-    t: AI tools are a threat to my job security
+    t: ШІ-інструменти — це загроза гарантіям моєї зайнятості
 
   # ai_reliance_worse_developers
 
   - key: opinions.ai_reliance_worse_developers
-    t: AI Reliance
+    t: Покладання на ШІ (AI Reliance)
   - key: opinions.ai_reliance_worse_developers.question
-    t: Relying on AI tools will make for less skilled developers overall
+    t: Через покладання на ШІ-інструментів загалом розробники будуть менш кваліфікованими
 
   # interested_in_developing_tools
 
   - key: opinions.interested_in_developing_tools
-    t: Developing Tools
+    t: Інструменти розробки
   - key: opinions.interested_in_developing_tools.question
-    t: I am interested in developing AI tools, not just using them
+    t: Я зацікавлений не лише у використанні, а й в розробці ШІ-інструментів
 
   # reach_agi
 
   - key: opinions.reach_agi
-    t: AGI Reached
+    t: СШІ досягнуто
   - key: opinions.reach_agi.question
-    t: We will reach AGI (”real”, thinking artificial intelligence) within the next 10 years
+    t: Ми досягнемо СШІ (AGI, ”справжній” штучний інтелект з мисленням) за наступні 10 років
 
   # courses
 
   - key: resources.ai_courses
-    t: Courses
+    t: Курси
   - key: resources.ai_courses.question
-    t: Which courses or resources have you used to learn more about AI?
+    t: Які курси ви проходили або якими джерелами користувалися, щоб дізнатися більше про ШІ?
 
   # newsletters
 
   - key: resources.ai_newsletters
-    t: Newsletters
+    t: Розсилки
   - key: resources.ai_newsletters.question
-    t: Which newsletters do you read to stay up to date with AI news?
+    t: Які розсилки ви читаєте, щоб залишатися обізнаними про новини ШІ?
 
   # podcasts
 
   - key: resources.ai_podcasts
-    t: Podcasts
+    t: Подкасти
   - key: resources.ai_podcasts.question
-    t: Which podcasts do you listen to learn about AI?
+    t: Які подкасти про ШІ ви слухаєте?
 
   # video_creators
 
   - key: resources.ai_video_creators
-    t: Podcasts
+    t: Відеоблогери
   - key: resources.ai_video_creators.question
-    t: Which video creators do you follow on YouTube, Twitch, etc. to learn about AI?
+    t: За якими відеоблогерами у сфері ШІ ви стежите (на YouTube, Twitch тощо)?
 
   # people
 
   - key: resources.ai_people
-    t: People
+    t: Особистості
   - key: resources.ai_people.question
-    t: Who do you follow on other social media to learn about AI?
+    t: За ким у сфері ШІ ви стежите у соціальних медіа?
 
   - key: user_info.years_of_experience.state_of_ai
-    t: Years of Experience
+    t: Досвід
 
   - key: user_info.years_of_experience.state_of_ai.question
-    t: How long have you been working or studying as a developer, in years?
+    t: Як довго ви працюєте як розробник або вчитеся у цій сфері (у роках)?

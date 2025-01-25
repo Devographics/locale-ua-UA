@@ -293,7 +293,7 @@ translations:
     t: Що ви думаєте загалом?
 
   - key: opinions.opinions_intro
-    t: For the following questions, let us know how much you agree with each statement.
+    t: Відповідаючи на наступні запитання, дайте нам знати, наскільки ви згодні з кожним твердженням.
 
   - key: sections.other_tools.title
     t: Інші інструменти
@@ -1625,7 +1625,7 @@ translations:
 
   # email_temporary (receive updates?)
   - key: user_info.receive_notifications
-    t: Notifications
+    t: Сповіщення
   - key: user_info.receive_notifications.question
     t: Бажаєте отримати сповіщення, коли будуть опубліковані результати опитування?
   - key: user_info.receive_notifications.note
@@ -1641,9 +1641,9 @@ translations:
 
   # missing questions
   - key: user_info.missing_questions
-    t: Missing Questions
+    t: Відсутні питання
   - key: user_info.missing_questions.question
-    t: Were there any other questions you wish the survey would've asked?
+    t: На вашу думку, яких питань не вистачило в опитуванні?
 
   # how can we improve the survey?
   - key: user_info.how_can_we_improve
