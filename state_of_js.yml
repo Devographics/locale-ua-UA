@@ -75,7 +75,7 @@ translations:
   - key: sections.datalayer.title
     t: Шар даних
   - key: sections.datalayer.description
-    t: Завантаження та керування даними у застосунку
+    t: Завантаження та управління даними у застосунку
 
   - key: sections.rendering_frameworks.title
     t: Фреймворки для рендерингу
@@ -215,7 +215,7 @@ translations:
   - key: options.js_pain_points.date_management
     t: Управління датами
   - key: options.js_pain_points.date_management.description
-    t: Обробка і керування датами та часом.
+    t: Обробка і маніпуляції із датами та часом.
   # - key: options.js_pain_points.xxx
   #   t:
   # - key: options.js_pain_points.xxx.description
@@ -266,7 +266,7 @@ translations:
   - key: options.top_js_pain_points.build_tools
     t: Інструменти для збирання коду
   - key: options.top_js_pain_points.build_tools.description
-    t: Керування інструментами для збирання вашого коду
+    t: Управління інструментами для збирання вашого коду
 
   - key: options.top_js_pain_points.typing
     t: Типізація
@@ -669,7 +669,7 @@ translations:
   # meta-frameworks
 
   - key: tools.meta_frameworks_ratios
-    t: Співвідношення метафреймворків з часом
+    t: Співвідношення метафреймворків із часом
   - key: tools.meta_frameworks_ratios.short
     aliasFor: tools.ratios
 
@@ -743,7 +743,7 @@ translations:
   # mobile & desktop
 
   - key: tools.mobile_desktop_ratios
-    t: Співвідношення інструментів для мобільних пристроїв і настільних комп'ютерів з часом
+    t: Співвідношення інструментів для мобільних пристроїв і настільних комп'ютерів із часом
   - key: tools.mobile_desktop_ratios.short
     aliasFor: tools.ratios
 
@@ -815,7 +815,7 @@ translations:
   # monorepo tools
 
   - key: tools.monorepo_tools_ratios
-    t: Співвідношення інструментів для монорепозиторіїв з часом
+    t: Співвідношення інструментів для монорепозиторіїв із часом
   - key: tools.monorepo_tools_ratios.short
     aliasFor: tools.ratios
 
@@ -1041,7 +1041,7 @@ translations:
   - key: tools.backend_frameworks
     aliasFor: sections.back_end_frameworks.title
   - key: tools.backend_frameworks.description
-    t: Фреймворки для генерації API і керування серверною частиною
+    t: Фреймворки для генерації API та управління серверною частиною
   - key: tools.backend_frameworks.others
     t: Інші фреймворки для серверної частини
 
@@ -1106,7 +1106,7 @@ translations:
   - key: other_tools.backend_frameworks
     t: Серверні фреймворки
   - key: other_tools.backend_frameworks.description
-    t: Фреймворки для генерації API і керування серверною частиною
+    t: Фреймворки для генерації API та управління серверною частиною
   - key: other_tools.backend_frameworks.others
     aliasFor: tools.backend_frameworks.others
 
