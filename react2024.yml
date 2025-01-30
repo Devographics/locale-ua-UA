@@ -13,13 +13,13 @@ translations:
 
   - key: general.react2024.survey_intro
     t: |
-      Let's face it: neither you or I have the dedication, patience, and sheer force of will it would take to properly keep up with the React ecosystem, as new APIs, new libraries, and even new versions are introduced week after week. 
+      Визнаймо: ні у вас, ні у мене немає тієї самовідданості, терпіння та величезної сили волі, які потрібні, щоб встигати за екосистемою React, де щотижня з'являються нові API, нові бібліотеки та навіть нові версії. 
 
-      Thankfully for all of our sakes, one individual has willingly taken on that burden: I'm talking about none other than [This Week in React](https://thisweekinreact.com/)'s Sebastien Lorber. 
+      На щастя для всіх нас, одна людина добровільно взяла на себе цей тягар: я говорю про Sebastien Lorber, автора ["This Week in React"](https://thisweekinreact.com/). 
 
-      Sebastien has lent us his knowledge to make sure this year's survey covers all bases. This means that by taking this survey not only will you help provide the community with valuable insights, but you will also get a chance to catch up with any developments you might've missed.
+      Sebastien поділився з нами своїми знаннями, щоб забезпечити всебічне охоплення цьогорічним опитуванням. Тому, беручи участь в цьому опитуванні, ви не лише допоможете спільноті отримати цінну інформацію, але й матимете змогу дізнатися про всі новини, які могли пропустити. 
 
-      So once again, please join me for this year's State of React!
+      Тож запрошую вас ще раз приєднатися до цьогорічного "Стану React"!
 
   - key: features.features_intro.react2024
     t: |
@@ -42,19 +42,19 @@ translations:
   - key: introduction.react2024
     t: |
 
-      <span class="first-letter">T</span>his has been a year of consolidation for React.
+      <span class="first-letter">Ц</span>ей рік став роком консолідації для React. 
 
-      With the community still reeling from the introduction of React Server Components, the lack of any major breaking changes was very welcome.
+      Спільнота все ще оговтується від запровадження серверних React-компонентів, тому відсутність будь-яких значних руйнівних змін була дуже доречною. 
 
-      Instead, React 19 focused on taking a lot of our pain away, from making `forwardRef` obsolete, to diffs for hydration errors, to a new compiler that makes our code more performant with minimal extra work on our part. 
+      Натомість React 19 зосередився на вирішенні багатьох проблем, які ускладнювали розробку, — від виходу `forwardRef` з ужитку і виправлення помилок гідрації до нового компілятора, що робить наш код більш швидкодійним із мінімальними зусиллями з нашого боку. 
 
-      Yet while React itself may be trying to calm things down, the ecosystem is still innovating at a furious pace. For example, an ongoing story over the past year has been the TanStack team leveraging TanStack Query's success into the creation of TanStack Start, a potential challenger to Next.js' meta-framework crown – especially for those who aren't ready to embrace the server-first approach.  
+      Однак, хоч сам React прагне стабільності, екосистема продовжує розвиватися шаленими темпами. Наприклад, протягом минулого року команда TanStack, спираючись на успіх TanStack Query, працювала над створенням TanStack Start — потенційного конкурента для Next.js як найкращого метафреймворку, особливо для тих, хто ще не готовий поринути у підхід "server-first".
 
-      But for now at least, let's take a breather and celebrate the relative stability of the world's most popular JavaScript library. 
+      Але принаймні наразі зробімо паузу і відзначмо відносну стабільність найпопулярнішої JavaScript-бібліотеки у світі. 
 
-      *Please note that this in an unofficial survey unaffiliated with Meta, Vercel, or the React team.*
+      *Зауважте, що це неофіційне опитування, яке не пов'язане з Meta, Vercel або командою React.* 
 
-      <span class="conclusion__byline">– Sacha Greif</span>
+      <span class="conclusion__byline">— Sacha Greif</span>
 
   ###########################################################################
   # Tshirt
@@ -100,49 +100,49 @@ translations:
 
   - key: sections.user_info.description.react2024
     t: |
-      **7,870** respondents took part in this second edition of the State of React survey. A small sample of the overall community to be sure, but still large enough to provide us with valuable data!
+      **7870** респондентів взяли участь у другій хвилі опитування "Стан React". Звісно, це не численна вибірка загальної спільноти, але все ж достатньо велика, щоб надати нам цінні дані!
 
   - key: user_info.country.takeaway.react2024
     t: |
-      The majority of respondents came from the **U.S.** and **Europe**.
+      Більшість респондентів — із **США** та **Європи**.
 
   - key: user_info.age.takeaway.react2024
     t: |
-      With a mean age of 32.4 years old, the average State of React respondent turned out to be slightly younger than the State of JS (33.5) orState of CSS (34.9).
+      Із середнім віком 32,4 року середній респондент "Стану React" виявився трохи молодшим, ніж у "Стані JS" (33,5) або "Стані CSS" (34,9).
 
   - key: user_info.years_of_experience.takeaway.react2024
     t: |
-      59% of respondents have less than 10 years of experience, meaning they never knew a world without React (which is itself nearly 12 years old!).
+      59% респондентів мають 10 років досвіду або менше — тобто більшість учасників опитування не бачили світу до появи React (якому вже майже 12 років!).
 
   - key: user_info.company_size.takeaway.react2024
     t: |
-      44% of respondents worked for companies with over 100 employees.
+      44% респондентів працювали в компаніях із кількістю співробітників понад 100 осіб.
 
   - key: user_info.yearly_salary.takeaway.react2024
     t: |
-      Survey respondents had a slightly higher median salary ($75,000) compared to State of JavaScript results ($70,000). Yet the same income disparities held through when looking at the U.S. vs the rest of the world.
+      Середня зарплата респондентів опитування була трохи вищою (75 000 доларів США) порівняно з результатами "Стану JavaScript" (70 000 доларів США). Проте така ж різниця в доходах збереглася у рейтингу відносно США та решти світу.
 
   - key: user_info.job_title.takeaway.react2024
     t: |
-      “Engineer” continues to be the most lucrative job title, while “Developer” remains at the bottom of the ladder.
+      "Інженер" продовжує залишатися найвигіднішою професією, а "розробник" посідає найнижчу сходинку. 
 
-      And just like in the most recent [State of JavaScript survey results](https://2024.stateofjs.com/en-US/demographics/#job_title), fullstack and frontend positions were staffed by the youngest respondents on average, and frontend job titles were also correlated with a significantly higher proportion of women.
+      І так само, як і в [результатах останнього опитування "Стан JavaScript"](https://2024.stateofjs.com/en-US/demographics/#job_title), наймолодші респонденти в середньому займали fullstack- і frontend-посади, й останні також корелювали зі значно вищою часткою жінок.
 
   - key: user_info.higher_education_degree.takeaway.react2024
     t: |
-      Unlike results shown by other surveys, this time the lack of a higher education degree did not seem to correlate with lower income levels.
+      На відміну від результатів інших опитувань, цього разу відсутність вищої освіти не корелювала з нижчим рівнем доходу.
 
   - key: user_info.gender.takeaway.react2024
     t: |
-      At 92% men, this edition's gender demographics remained consistent with previous surveys, showing that more effort is still needed to broaden the reach of the survey and ensure it represents all facets of the community.
+      92% чоловіків: гендерні демографічні показники цієї хвилі залишаються такими ж, як і в попередніх опитуваннях, і все ще потрібно більше зусиль, щоб розширити охоплення опитування та забезпечити представлення всіх частин спільноти.
 
   - key: user_info.race_ethnicity.takeaway.react2024
     t: |
-      It's encouraging to see the proportion of Hispanic and Latin respondents climb from 11% to 19%, potentially coinciding with the rise in popularity of Spanish and Portuguese-speaking streamers and educators.
+      Надихає те, що частка іспанців/латино зросла з 11% до 19%, що потенційно збігається зі зростанням популярності іспансько- та португальськомовних стримерів та освітніх діячів.
 
   - key: user_info.disability_status.takeaway.react2024
     t: |
-      Whether permanent or temporary, the fact that disabilities are a part of daily life for many is worth keeping in mind whenever we build new apps.
+      Незалежно від того, постійні чи тимчасові, порушення здоров'я є частиною повсякденного життя для багатьох, що варто пам'ятати щоразу, коли ми створюємо нові застосунки.
 
   - key: user_info.locale.takeaway.react2024
     aliasFor: user_info.locale.description
@@ -154,303 +154,303 @@ translations:
 
   - key: sections.features.description.react2024
     t: |
-      We asked respondents about their thoughts on **28** distinct features, from omnipresent hooks such as `useState`, to more niche APIs like `useDeferredValue`. Be sure to try and sort by “sentiment”!
+      Ми запитали в респондентів їхню думку щодо **28** окремих функцій — від найпоширеніших хуків, як `useState`, до більш нішевих API, як `useDeferredValue`. Й обов'язково спробуйте відсортувати дані за "ставленням"!
 
   - key: features.all_features
     t: Усі функції
 
   - key: features.all_features.takeaway.react2024
     t: |
-      This chart recaps all of the survey's feature questions. The main bars represent a respondent's experience; and they are then further subdivided according to that respondent's sentiment. You can change the grouping to alternate between both.
+      Ця діаграма підсумовує всі запитання опитування щодо функцій. Основні стовпці відповідають досвіду використання респондентом; далі вони поділяються відповідно до ставлення цього респондента. Ви можете змінити групування, щоб чергувати ці варіанти розбиття. 
 
 
-      Worth highlighting this year: `createPortal`, while only used by 46.4% of respondents, was the fifth most loved feature. The Taint API on the other hand was both the least used and most unknown feature – which make sense since it's still experimental.
+      Варто виділити цього року: `createPortal`, яким користувалися лише 46,4% респондентів, був п'ятою найулюбленішою функцією. З іншого боку, Taint API був і найменш використовуваною, і найбільш невідомою функцією, що зрозуміло, адже він все ще експериментальний. 
 
 
-      On the opposite end of the spectrum, `useState` was not only the most used feature but also the most beloved with only 1.26% of negative sentiment, which goes to show that simple solutions will always have their place.
+      На протилежному кінці спектра функція `useState` була не лише найуживанішою, але й найулюбленішою з лише 1,26% негативного ставлення, що свідчить про те, що прості рішення завжди матимуть місце.
 
   - key: features.reading_list.takeaway.react2024
     t: >
-      **25%** of respondents added at items to their reading list while taking the survey in order to learn more about them later. Here is a breakdown of their picks.
+      **25%** респондентів додали елементи до свого списку для читання під час опитування, щоб дізнатися про них більше. Ось розбиття їхнього вибору.
 
-  - key: features.main_apis_items
-    t: Досвід використання і ставлення до основних API
+  # - key: features.main_apis_items
+  #   t: Досвід використання і ставлення до основних API
   - key: features.main_apis_pain_points.takeaway.react2024
     t: >
-      Just like last year, `forwardRef` and `memo` were the top pain points among the most common React APIs. With React 19 now out and promising to alleviate both issues, it'll be interesting to see what this chart looks like next year.
+      Як і минулого року, `forwardRef` і `memo` були найбільш проблемними серед найпоширеніших API React'y. Оскільки React 19 вже доступний і намагається вирішити обидві проблеми, цікаво подивитися, який вигляд матиме ця діаграма наступного року.
 
-  - key: features.hooks_items
-    t: Досвід використання і ставлення до хуків
+  # - key: features.hooks_items
+  #   t: Досвід використання і ставлення до хуків
   - key: features.hooks_pain_points.takeaway.react2024
     t: >
-      `useEffect` is still the most problematic React hook, in large part due to having to manually manage dependency arrays.
+      `useEffect` все ще залишається найбільш проблемним хуком React — значною мірою через ручне управління масивами залежностей.
 
-  - key: features.new_apis_items
-    t: Досвід використання і ставлення до нових API
+  # - key: features.new_apis_items
+  #   t: Досвід використання і ставлення до нових API
   - key: features.new_apis_pain_points.takeaway.react2024
     t: >
-      **React Server Components** and overall complexity are still the top pain points when it comes to taking advantage of React's newer features.
+      **Серверні компоненти React** і загальна складність все ще залишаються головними проблемами, коли шукаємо вигоди у нових функціях React.
 
   # libraries
 
   - key: sections.libraries.description.react2024
     t: |
-      We reworked our charts to highlight not just developer experience, but *sentiment*. Be sure to explore these new grouping and sorting options to figure out which libraries get the most love… or the least!
+      Ми переробили наші діаграми, щоб підкреслити не лише досвід розробників, але і *ставлення*. Обов'язково вивчіть ці нові параметри групування та сортування, щоб з'ясувати, які бібліотеки приваблюють найбільше… або найменше!
 
   - key: tools.all_tools_experience
     t: Досвід використання і ставлення до бібліотек
   - key: tools.all_tools_experience.takeaway.react2024
     t: >
-      Among React libraries and frameworks, **TanStack Query** and **Zustand** have overtaken **Next.js** to take the lead the way in terms of overall positivity.
+      З-поміж бібліотек і фреймворків React **TanStack Query** і **Zustand** випередили **Next.js** і стали лідерами за загальною позитивністю.
 
 
-      And while **Create React App** may be the most used framework, it's also one of the most disliked with 33.1% of negative opinions, right after Redux's 34.1%.
+      І хоч **Create React App** є найбільш використовуваним, він заразом є одним із найменш улюблений із 33,1% негативних думок, одразу після Redux (34,1%).
 
 
-      Note that some items such as `useState` and `fetch` were also included as points of comparison, even though they're not libraries themselves.
+      Зауважте, що деякі пункти, як-от `useState` і `fetch`, також були додані для порівняння, хоч вони не є бібліотеками.
 
   - key: tools.scatterplot_overview
     t: Утримання та використання бібліотек
   - key: tools.scatterplot_overview.takeaway.react2024
     t: >
-      Among libraries and frameworks, **Next.js** was still the only item boasting both high retention and high usage. That being said, **TanStack Query** does seem to be on the verge of crossing over into the >50% usage quadrant anytime now!
+      З-поміж бібліотек і фреймворків **Next.js** досі єдиний, що може похизуватися як високим рівнем утримання, так і високим рівнем використання. Однак, здається, **TanStack Query** ось-ось перейде в цей квадрант із використанням >50%!
 
   # component libraries
 
-  - key: tools.component_libraries_experience
-    t: Досвід використання і ставлення до бібліотек компонентів
-  - key: tools.component_libraries_experience.takeaway.react2024
-    t: >
-      **React Aria** and **Radix** lead the rankings in terms of positivity, proving that the headless approach to component libraries has a lot going for it.
+  # - key: tools.component_libraries_experience
+  #   t: Досвід використання і ставлення до бібліотек компонентів
+  # - key: tools.component_libraries_experience.takeaway.react2024
+  #   t: >
+  #     **React Aria** and **Radix** lead the rankings in terms of positivity, proving that the headless approach to component libraries has a lot going for it.
 
   - key: tools.component_libraries_ratios
     t: Співвідношення бібліотек компонентів із часом
   - key: tools.component_libraries_ratios.takeaway.react2024
     t: >
-      While **MUI** maintains in top rank in terms of usage, **shadcn/ui** is making huge gains, doubling from 20% to 42% in a year; as well as topping the positivity chart with 80%!
+      Поки **MUI** зберігає перше місце за використанням, **shadcn/ui** успішно прогресує та подвоює цей показник із 20% до 42% за рік, а також очолює діаграму позитивності, маючи 80%!
 
   - key: tools.animation_libraries.takeaway.react2024
     t: >
-      **Motion** (previously known as Framer Motion) takes a well-deserved first place to celebrate its recent rebranding!
+      **Motion** (попередньо відомий як Framer Motion) посідає заслужене перше місце, щоб відсвяткувати нещодавній ребрендинг!
 
   - key: tools.data_visualization_libraries.takeaway.react2024
     t: >
-      **Chart.js** tops the rankings this year. By the way, did you know that all of this survey's chart are custom-built?
+      **Chart.js** очолює рейтинг цього року. До речі, чи ви знали, що всі діаграми цього опитування створені вручну, а не на основі готового рішення?
 
   - key: tools.form_libraries.takeaway.react2024
     t: >
-      **React Hook Form** is by far the most common form library today. But with the growing popularity of the TanStack, er, stack, it'll be interesting to keep an eye on **TanStack Forms** in the future.
+      На сьогодні **React Hook Form** є найпоширенішою бібліотекою для форм. Але зі зростанням популярності, гм…, стека TanStack цікаво подивитися на **TanStack Forms** у майбутньому.
 
   - key: tools.react_form_patterns.takeaway.react2024
     t: >
-      Interestingly, a majority of developers is comfortable using both **controlled** and **uncontrolled** forms. 
+      Привертає увагу, що більшості розробників зручно використовувати як **контрольовані**, так і **неконтрольовані** форми. 
 
 
-      That being said, if you must pick only one then **controlled** form inputs seem like the way to go!
+      Та якщо вам потрібно вибрати щось одне, **контрольовані** поля введення у формах є кращим вибором!
 
   - key: tools.css_tools.takeaway.react2024
     t: >
-      Did **Tailwind** kill CSS-in-JS? Or did CSS itself simply catch up? In any case the days of getting fancy with CSS architecture seem to be over, as the top three spots are all taken by longstanding CSS tools.
+      **Tailwind** вбив CSS-in-JS? Звичайний CSS усіх наздогнав? У будь-якому разі час знаджування архітектурою CSS, здається, закінчився, оскільки перші три позиції посіли інструменти CSS із тривалою історією.
 
   - key: tools.component_libraries_pain_points.takeaway.react2024
     t: >
-      With the amount of pain caused by **styling & customization** issues, it's no wonder “headless” libraries such as **Radix** and **React Aria** have proven so popular.
+      З огляду на біль, спричинений проблемами *стилізації та кастомізації*, не дивно, що headless-бібліотеки, як-от **Radix** і **React Aria**, виявилися настільки популярними.
 
   # state management
 
-  - key: tools.state_management_experience
-    t: Досвід використання і ставлення до управління станом
-  - key: tools.state_management_experience.takeaway.react2024
-    t: >
-      Beyond **useState**, the state management solution with the highest positivity ratio is **Zustand**. And while **Redux** still boasts a large userbase, it isn't quite as beloved.
+  # - key: tools.state_management_experience
+  #   t: Досвід використання і ставлення до управління станом
+  # - key: tools.state_management_experience.takeaway.react2024
+  #   t: >
+  #     Beyond **useState**, the state management solution with the highest positivity ratio is **Zustand**. And while **Redux** still boasts a large userbase, it isn't quite as beloved.
 
   - key: tools.state_management_ratios
     t: Співвідношення інструментів управління станом із часом
   - key: tools.state_management_ratios.takeaway.react2024
     t: >
-      **Zustand** confirms its lead in terms of positivity, with only the default **useState** scoring higher. It's also grown in terms of usage, going from 28% to 41% over the past year!
+      **Zustand** підтверджує своє лідерство за позитивністю, лише стандартний **useState** має вищий бал. Крім того, використання **Zustand** зросло з 28% до 41% за минулий рік!
 
   - key: tools.state_management_others.takeaway.react2024
     t: >
-      While **TanStack Query** is best known as a data loading library, it does a great job of managing the resulting state as well.
+      Хоч **TanStack Query** найбільш відомий як бібліотека завантаження даних, йому ще й вдається управління кінцевим станом.
 
   - key: tools.state_management_pain_points.takeaway.react2024
     t: >
-      State management as a whole remains unnecessarily complex, with **Redux** in particular taking a lot of the blame from respondents.
+      Управління станом загалом залишається надто складним, зокрема респонденти скаржаться на **Redux**.
 
   # data loading
 
-  - key: tools.data_loading_experience
-    t: Досвід використання і ставлення до завантаження даних
-  - key: tools.data_loading_experience.takeaway.react2024
-    t: >
-      **TanStack Query** has been making waves for a while now, and it turns out its reputation is reflected in the data since it's the data loading method respondents felt the most positive about, right after the native `fetch` API.
+  # - key: tools.data_loading_experience
+  #   t: Досвід використання і ставлення до завантаження даних
+  # - key: tools.data_loading_experience.takeaway.react2024
+  #   t: >
+  #     **TanStack Query** has been making waves for a while now, and it turns out its reputation is reflected in the data since it's the data loading method respondents felt the most positive about, right after the native `fetch` API.
 
   - key: tools.data_loading_ratios
     t: Співвідношення інструментів завантаження даних із часом
   - key: tools.data_loading_ratios.takeaway.react2024
     t: >
-      **TanStack Query** continues its growth trajectory, both in terms of usage and positivity. The interest graph in particular reveals that –along with **tRPC**– it's pretty much the only data loading library that is still intriguing respondents today!
+      **TanStack Query** продовжує йти траєкторією зростання — як за використанням, так і за позитивністю. Зокрема, графік зацікавленості показує, що — разом із **tRPC** — це, вважайте, єдина бібліотека для завантаження даних, яка все ще інтригує респондентів сьогодні!
 
   - key: tools.data_loading_others.takeaway.react2024
     t: >
-      Besides **ky** and **URQL**, no new data loading library scored more than the minimum 10 mention threshold.
+      Крім **ky** та **URQL**, жодна нова бібліотека для завантаження даних не отримала більше 10 згадувань, мінімального порогу входження.
 
   - key: tools.data_loading_pain_points.takeaway.react2024
     t: >
-      The fact that **state management** was cited as the biggest issues when it comes to data loading may explain the popularity of **TanStack Query**, since it tackes that issue head-on. 
+      Те, що **управління станом** було названо найбільшою проблемою, що стосується завантаження даних, може пояснити популярність **TanStack Query**, оскільки він безпосередньо вирішує саме її. 
 
 
-      Yet overall, the fact that only 3% of respondents shared a pain point at all shows that data loading may actually have somehow become one of the *least* painful parts of modern web apps.
+      Проте загалом той факт, що лише 3% респондентів узагалі поділилися тут якоюсь проблемою, свідчить про те, що завантаження даних насправді стало однією з *найменш* болючих частин сучасних вебзастосунків.
 
   # back-end infrastructure
 
-  - key: tools.meta_frameworks_experience
-    t: Досвід використання і ставлення до метафреймворків
-  - key: tools.meta_frameworks_experience.takeaway.react2024
-    t: >
-      While you'll certainly have no trouble finding people complaining about **Next.js**, it still managed to top the positivity rankings for meta-frameworks, followed by **Remix** and **Astro**.
+  # - key: tools.meta_frameworks_experience
+  #   t: Досвід використання і ставлення до метафреймворків
+  # - key: tools.meta_frameworks_experience.takeaway.react2024
+  #   t: >
+  #     While you'll certainly have no trouble finding people complaining about **Next.js**, it still managed to top the positivity rankings for meta-frameworks, followed by **Remix** and **Astro**.
 
   - key: tools.meta_frameworks_ratios
     t: Співвідношення метафреймворків із часом
   - key: tools.meta_frameworks_ratios.takeaway.react2024
     t: >
-      The only framework showing strong usage growth is **Astro**, going from 18% to 26%. Also worth noting that **TanStack Start** made a very strong debut at 81% interest and 90% retention!
+      **Astro** — єдиний фреймворк, який демонструє значне зростання використання — з 18% до 26%. Також варто зазначити, що **TanStack Start** разюче дебютував із 81% зацікавленості та 90% утримання!
 
   - key: tools.meta_frameworks_others.takeaway.react2024
     t: >
-      **Waku** is notable in that it's one of the few frameworks that were started after the advent of React Server Components, with the intent of taking full advantage of them from the start.
+      **Waku** впадає в око як один із небагатьох фреймворків, розпочатих після появи серверних компонентів React, щоб відразу повною мірою скористатися ними.
 
   - key: tools.build_tools.takeaway.react2024
     t: >
-      **Vite** has now overtaken **Webpack**, which is quite remarkable given how long Webpack has been around.
+      **Vite** нарешті обігнав **Webpack**, що справді вражає з огляду на довгочасність останнього.
 
   - key: tools.hosting.takeaway.react2024
     t: >
-      **Vercel** leads the rankings, which is understandable given its heavy investment in the React ecosystem.
+      **Vercel** очолює рейтинг, що цілком зрозуміло, зважаючи на значні інвестиції в екосистему React.
 
   - key: tools.other_services.takeaway.react2024
     t: >
-      **Firebase** is still a popular data storage platform, while **Sentry** remains most people's go-to for error tracking.
+      **Firebase** залишається популярною платформою для зберігання даних, тоді як **Sentry** — для відстеження помилок.
 
   - key: tools.backend_language.takeaway.react2024
     t: >
-      As expected, **TypeScript** and **JavaScript** power most React app's back-ends, showing that developers put a premium on keeping their entire codebase in the same language.
+      Як і очікувалося, **TypeScript** і **JavaScript** забезпечують роботу більшості серверних частин для React-застосунків, що свідчить про бажання розробників мати всю кодову базу однією мовою.
 
   - key: tools.back_end_infrastructure_pain_points.takeaway.react2024
     t: >
-      Oftentimes, the most common pain points will be generic issues such as “excessive complexity” or ”tough learning curve” – but not this time. 
+      Зазвичай найпоширенішими були б загальні проблеми, як-от "надмірна складність" або "складна крива вивчення", але не цього разу.  
 
-      **End-to-end typesafety** (sharing types between server and client; and making sure any data transferred comforms to them) is clearly this year's top issue when it comes to back-end infrastructure, and it explains why we're now seeing tools such as **TanStack Start** and **tRPC** appear to solve it.
+      **Наскрізна типобезпечність** (end-to-end typesafety; спільні між сервером і клієнтом типи, а також забезпечення відповідності їм будь-яких передаваних даних) — це, безумовно, головна проблема цього року, що стосується внутрішньої інфраструктури, і це пояснює, чому ми тепер бачимо інструменти, як **TanStack Start** і **tRPC**, які, схоже, вирішують цю проблему.
 
   #other_tools
 
   - key: sections.other_tools.description.react2024
     t: |
-      React is known for focusing on UI rendering while being fairly agnostic about the other parts of your app, and that's reflected in the vibrant ecosystem that has emerged to fill these gaps!
+      React відомий тим, що зосереджується саме на рендерингу UI, водночас майже не впливаючи на інші частини вашого застосунку — це відображено в живій екосистемі, яка виникла, щоб заповнити ці прогалини!
 
   - key: tools.testing.takeaway.react2024
     t: |
-      **Jest** and **Testing Library** maintained their lead this year. **Bun** also showed up with a few write-ins, which depending on the overall success of the new runtime might either be a one-time anomaly, or a sign of things to come.
+      **Jest** і **Testing Library** зберегли лідерство цього року. Крім того, **Bun** з'явився у кількох вписаних відповідях, які, залежно від загального успіху нового середовища виконання, можуть бути або одноразовою аномалією, або ознакою того, що станеться в майбутньому.
 
   - key: tools.renderers.takeaway.react2024
     t: |
-      As expected the vast majority of developers render their app in the browser, but this question highlights just how diverse the React ecosystem really is, with renderers for everything from PDFs to command-line apps!
+      Як і очікувалося, переважна більшість розробників рендерить застосунки у браузері, але це запитання підкреслює, наскільки різноманітною насправді є екосистема React із засобами рендеру для всього — від PDF-файлів до застосунків для командного рядка!
 
   - key: tools.validation.takeaway.react2024
     t: |
-      As you might've guessed, **Zod** is still the most common validation library.
+      Як ви вже могли здогадатися, **Zod** залишається найпоширенішою бібліотекою валідації.
 
   - key: tools.auth.takeaway.react2024
     t: |
-      Depending on whether you prefer a hosted service or a self-hosted solution, **Auth0** and **Auth.js** are both great options.
+      Залежно від того, чи ви віддаєте перевагу хмарним сервісам, чи власному хостингу, і **Auth0**, і **Auth.js** — чудові варіанти,
 
   - key: tools.mobile_development.takeaway.react2024
     t: |
-      While **React Native** still has its first place, **Expo** is gaining ground fast, and it would not be surprising to see it stealing the top spot within a year.
+      Хоч **React Native** досі займає перше місце, **Expo** невпинно завойовує позиції, і не буде дивним побачити його на вершині за рік.
 
   - key: tools.other_frontend_frameworks.takeaway.react2024
     t: |
-      What do React devs use when they're not using React? Turns out, **Angular** and **Vue**, just like everybody else!
+      Що використовують розробники React, коли вони не використовують React? Виявляється, **Angular** і **Vue** — як і всі!
 
   # usage
 
   - key: sections.usage.description.react2024
     t: |
-      No matter what version you use, application pattern you adopt, or industry sector you belong to, there's no wrong way to use React!
+      Незалежно від використовуваної версії, впровадженого патерну застосунку або вашої галузі діяльності — немає неправильного способу використання React!
 
   - key: usage.what_do_you_use_react_for.takeaway.react2024
     t: >
-      It's interesting to see that despite React traditionally being associated with complex client-side apps, **Static sites** still came in second, showing that JSX can also work great as a simple templating language.
+      Цікаво спостерігати, що незважаючи на те, що React традиційно асоціювався зі складними клієнтськими застосунками, **статичні сайти** все одно посіли друге місце — JSX може чудово послуговувати як проста мова для шаблонів.
 
   - key: usage.react_version.takeaway.react2024
     t: >
-      Note that the survey was conducted **before** the stable release of React 19.
+      Зауважте, що опитування було проведено **до** випуску стабільної версії React 19.
 
   - key: usage.usage_type.takeaway.react2024
     t: >
-      The overwhelming majority of respondents use React professionally.
+      Переважна більшість респондентів використовують React професійно.
 
   - key: usage.industry_sector.takeaway.react2024
     t: >
-      **Programming & Technical Tools** may be slightly over-represented as an industry sector, as it often attracts the type of developer most likely to fill out a survey such as this one.
+      **Програмування та технічні інструменти** можуть бути дещо надмірно представлені з-поміж сфер діяльності, оскільки саме ця сфера нерідко приваблює той тип розробників, які, швидше за все, заповнять таке опитування.
 
   - key: usage.js_app_patterns.takeaway.react2024
     t: >
-      Despite the recent focus on static site generation, server-side rendering, and server components, it's interesting to note that the vast majority of React developers still work on Single Page Applications.
+      Незважаючи на увагу віднедавна до генерації статичних сайтів, рендерингу з боку сервера та серверних компонентів, переважна більшість розробників React все ще працює над односторінковими застосунками.
 
   - key: usage.new_features.takeaway.react2024
     t: >
-      With `memo` being a longstanding pain point, it makes sense that respondents would be most excited about the **React Compiler**.
+      З огляду на те, що `memo` давно є проблемною точкою, логічно, що респондентів найбільше цікавить **React Compiler**.
 
   - key: usage.usage_pain_points.takeaway.react2024
     t: >
-      Once more, **excessive complexity** stands out as a major issue. It remains to be seen if a new generation of tooling will finally be able to alleviate our pain, or if that complexity is simply a natural consequence of the way the web works.
+      І знову **надмірна складність** постає як головна проблема. Залишається побачити, чи нове покоління інструментів нарешті зможе полегшити наш біль, чи ця складність є лише природним наслідком того, як працює все у вебі.
 
   # resources
 
   - key: sections.resources.description.react2024
     t: |
-      One of the big reason for React's continued dominance is the sheer amount of documentation, blog posts, videos, and other resources it has accumulated over the years. Here's just a small sample!
+      Одна з головних причин тривалого домінування React — величезна кількість документації, публікацій у блогах, відео та інших джерел, накопичених протягом багатьох років. Ось лише маленький приклад!
 
   - key: resources.learning_methods.takeaway.react2024
     t: |
-      The React team has done a great job with the new React docs site, so it shouldn't be surprised that it has become the number one way people learn about the framework.
+      Команда React чудово попрацювала над новим сайтом документації React, тож не варто дивуватися, що це найперший спосіб вивчення фреймворку.
 
   - key: resources.blogs_news_magazines.takeaway.react2024
     t: |
-      While this list is populated by many usual suspects, it's worth celebrating the presence of React-specific media such as **This Week in React** or **React Status**.
+      Незважаючи на те що цей список заповнений багатьма звичними "підозрюваними", варто відзначити присутність медіа, які стосуються саме React, як-от **This Week in React** або **React Status**.
 
   - key: resources.courses.takeaway.react2024
     t: |
-      It's always impressive to see how educators like **Wes Bos** or **Epic React**'s Kent C. Dodds can rank almost as high as entire platforms such as **Udemy** or **freeCodeCamp**.
+      Завжди вражає, коли викладачі, як **Wes Bos** або Kent C. Dodds з **Epic React**, можуть бути майже так само високо у рейтингу, як величезні платформи — **Udemy** або **freeCodeCamp**.
 
   - key: resources.podcasts.takeaway.react2024
     t: |
-      **Syntax** continues to assert its dominance over the dev podcast landscape, and while there still really isn't much in terms of web-focused React podcasts, **React Native Radio** comes in at a very honorable #8.
+      **Syntax** продовжує своє домінування серед подкастів для розробників, і хоч подкастів саме про React у вебі небагато, **React Native Radio** посідає почесне 8 місце.
 
   - key: resources.video_creators.takeaway.react2024
     t: |
-      While **Fireship** was surpisingly low in the rankings last year, the popular YouTuber now tops the video creator podium, ahead of **Theo** and **The Primeagen**.
+      Хоч минулого року **Fireship** був на диво низько в рейтингу, популярний YouTube-блогер тепер очолює п'єдестал для відеоблогерів, випереджаючи **Theo** і **The Primeagen**.
 
   - key: resources.people.takeaway.react2024
     t: |
-      With a huge climb from 17 to 5, **shadcn** is doing their best to match their own library's popularity!
+      Піднявшись із 17 на 5 сходинку, **shadcn** робить все можливе, щоб мати таку ж популярність, як у власної бібліотеки!
 
   - key: resources.other_surveys.takeaway.react2024
     t: |
-      While it's no surprise that many respondents also take the **State of JavaScript** survey, it's worth noting that a majority also fill out the **State of CSS**, indicating that the JS/CSS divide may not be as big as we often make it to be.
+      Хоч не дивно, що багато респондентів також беруть участь в опитуванні **Стан JavaScript**, варто зазначити, що більшість заразом заповнює **Стан CSS**, що вказує на те, що розрив JS/CSS може бути не таким великим, як нам здається.
 
   #awards
-  - key: sections.awards.description.react2024
-    t: |
-      This year's awards were dominated by one very specific project… how quickly will you guess what it is?
+  # - key: sections.awards.description.react2024
+  #   t: |
+  #     This year's awards were dominated by one very specific project… how quickly will you guess what it is?
 
   # metadata
 
-  - key: user_metadata.source.takeaway.react2024
-    t: >
-      A majority of respondents knew about the survey from previous years or other surveys, but newsletters such as **This Week in React** were also a large source of traffic.
+  # - key: user_metadata.source.takeaway.react2024
+  #   t: >
+  #     A majority of respondents knew about the survey from previous years or other surveys, but newsletters such as **This Week in React** were also a large source of traffic.
 
   ###########################################################################
   # Charts
