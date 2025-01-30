@@ -454,13 +454,13 @@ translations:
   # react pain points
 
   - key: options.react_pain_points.rerenders
-    t: Керування повторними рендерами компонентів
+    t: Управління повторними рендерами компонентів
   - key: options.react_pain_points.testing
     t: Тестування
   - key: options.react_pain_points.data_loading
     t: Завантаження даних та асинхронні операції
   - key: options.react_pain_points.state_management
-    t: Керування станом (`useState`, Redux, Context тощо)
+    t: Управління станом (`useState`, Redux, Context тощо)
   - key: options.react_pain_points.bundle_sizes
     t: Збереження малих розмірів пакету застосунку для клієнта
   - key: options.react_pain_points.server_rendering
@@ -472,7 +472,7 @@ translations:
   - key: options.react_pain_points.synthetic_events
     t: Синтетичні події
   - key: options.react_pain_points.ref_management
-    t: Керування посиланнями на DOM-вузли (refs)
+    t: Управління посиланнями на DOM-вузли (refs)
   - key: options.react_pain_points.memoization
     t: Мемоїзація
   - key: options.react_pain_points.animations

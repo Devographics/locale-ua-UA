@@ -1,0 +1,737 @@
+locale: ua-UA
+translations:
+  ###########################################################################
+  # General
+  ###########################################################################
+
+  - key: general.results.description
+    t: Щорічне опитування про останні тенденції в екосистемі React за 2024 рік.
+
+  ###########################################################################
+  # Introduction
+  ###########################################################################
+
+  - key: general.react2024.survey_intro
+    t: |
+      Визнаймо: ні у вас, ні у мене немає тієї самовідданості, терпіння та величезної сили волі, які потрібні, щоб встигати за екосистемою React, де щотижня з'являються нові API, нові бібліотеки та навіть нові версії. 
+
+      На щастя для всіх нас, одна людина добровільно взяла на себе цей тягар: я говорю про Sebastien Lorber, автора ["This Week in React"](https://thisweekinreact.com/). 
+
+      Sebastien поділився з нами своїми знаннями, щоб забезпечити всебічне охоплення цьогорічним опитуванням. Тому, беручи участь в цьому опитуванні, ви не лише допоможете спільноті отримати цінну інформацію, але й матимете змогу дізнатися про всі новини, які могли пропустити. 
+
+      Тож запрошую вас ще раз приєднатися до цьогорічного "Стану React"!
+
+  - key: features.features_intro.react2024
+    t: |
+      Ласкаво просимо до опитування! Ця перша частина присвячена тому, щоб поділитися своїм досвідом використання різноманітних функцій React:
+
+
+      - **Вперше чую**: ви це бачите вперше — або чули, але не знаєте, як це працює. 
+
+      - **Чув(-ла) про це**: ви читали або знаєте про це, але насправді ще не користувалися. 
+
+      - **Використовував(-ла)**: ви використовували це принаймні один раз, навіть якщо лише гралися.
+
+
+      До речі, якщо ви бажаєте розповісти нам більше про будь-який із ваших виборів, просто натисніть на маленьку іконку "коментар"!
+
+  - key: tools.tools_intro.react2024
+    t: |
+      Наступна частина опитування присвячена різноманітним бібліотекам і фреймворкам, що складають екосистему React.
+
+  - key: introduction.react2024
+    t: |
+
+      <span class="first-letter">Ц</span>ей рік став роком консолідації для React. 
+
+      Спільнота все ще оговтується від запровадження серверних React-компонентів, тому відсутність будь-яких значних руйнівних змін була дуже доречною. 
+
+      Натомість React 19 зосередився на вирішенні багатьох проблем, які ускладнювали розробку, — від виходу `forwardRef` з ужитку і виправлення помилок гідрації до нового компілятора, що робить наш код більш швидкодійним із мінімальними зусиллями з нашого боку. 
+
+      Однак, хоч сам React прагне стабільності, екосистема продовжує розвиватися шаленими темпами. Наприклад, протягом минулого року команда TanStack, спираючись на успіх TanStack Query, працювала над створенням TanStack Start — потенційного конкурента для Next.js як найкращого метафреймворку, особливо для тих, хто ще не готовий поринути у підхід "server-first".
+
+      Але принаймні наразі зробімо паузу і відзначмо відносну стабільність найпопулярнішої JavaScript-бібліотеки у світі. 
+
+      *Зауважте, що це неофіційне опитування, яке не пов'язане з Meta, Vercel або командою React.* 
+
+      <span class="conclusion__byline">— Sacha Greif</span>
+
+  ###########################################################################
+  # Tshirt
+  ###########################################################################
+
+  - key: sections.tshirt.title
+    t: Футболка
+
+  - key: sections.tshirt.description
+    t: |
+      ## Підтримайте опитування за допомогою офіційної футболки "Стан React"
+
+      Це бібліотека? Фреймворк? Невідомий елемент на межі перетворення в небезпечну, нестабільну сутність? Якими б не були ваші почуття щодо React, ви знайдете їх відображення в цьому дизайні, який перегукується з аніме та науковою фантастикою.
+
+  - key: tshirt.about
+    t: Про футболку
+
+  - key: tshirt.description
+    t: |
+      Ми використовуємо високоякісну футболку, надруковану нашими партнерами з Cotton Bureau.
+
+  - key: tshirt.getit
+    t: Отримати
+
+  - key: tshirt.price
+    t: USD $32 + доставляння
+
+  - key: tshirt.designer.heading
+    t: Про дизайнера
+
+  - key: tshirt.designer.name
+    t: Christopher Kirk-Nielsen
+
+  - key: tshirt.designer.bio
+    t: |
+      Chris родом із Франції, але тепер проживає у Сполучених Штатах; він не лише чудовий розробник клієнтської частини, а й талановитий ілюстратор, який спеціалізується на зображеннях у стилі ретро. Ми радимо вам переглянути [інші дизайни його футболок](https://chriskirknielsen.com/designs)!
+
+  ###########################################################################
+  # Content
+  ###########################################################################
+
+  # user_info
+
+  - key: sections.user_info.description.react2024
+    t: |
+      **7870** респондентів взяли участь у другій хвилі опитування "Стан React". Звісно, це не численна вибірка загальної спільноти, але все ж достатньо велика, щоб надати нам цінні дані!
+
+  - key: user_info.country.takeaway.react2024
+    t: |
+      Більшість респондентів — із **США** та **Європи**.
+
+  - key: user_info.age.takeaway.react2024
+    t: |
+      Із середнім віком 32,4 року середній респондент "Стану React" виявився трохи молодшим, ніж у "Стані JS" (33,5) або "Стані CSS" (34,9).
+
+  - key: user_info.years_of_experience.takeaway.react2024
+    t: |
+      59% респондентів мають 10 років досвіду або менше — тобто більшість учасників опитування не бачили світу до появи React (якому вже майже 12 років!).
+
+  - key: user_info.company_size.takeaway.react2024
+    t: |
+      44% респондентів працювали в компаніях із кількістю співробітників понад 100 осіб.
+
+  - key: user_info.yearly_salary.takeaway.react2024
+    t: |
+      Середня зарплата респондентів опитування була трохи вищою (75 000 доларів США) порівняно з результатами "Стану JavaScript" (70 000 доларів США). Проте така ж різниця в доходах збереглася у рейтингу відносно США та решти світу.
+
+  - key: user_info.job_title.takeaway.react2024
+    t: |
+      "Інженер" продовжує залишатися найвигіднішою професією, а "розробник" посідає найнижчу сходинку. 
+
+      І так само, як і в [результатах останнього опитування "Стан JavaScript"](https://2024.stateofjs.com/en-US/demographics/#job_title), наймолодші респонденти в середньому займали fullstack- і frontend-посади, й останні також корелювали зі значно вищою часткою жінок.
+
+  - key: user_info.higher_education_degree.takeaway.react2024
+    t: |
+      На відміну від результатів інших опитувань, цього разу відсутність вищої освіти не корелювала з нижчим рівнем доходу.
+
+  - key: user_info.gender.takeaway.react2024
+    t: |
+      92% чоловіків: гендерні демографічні показники цієї хвилі залишаються такими ж, як і в попередніх опитуваннях, і все ще потрібно більше зусиль, щоб розширити охоплення опитування та забезпечити представлення всіх частин спільноти.
+
+  - key: user_info.race_ethnicity.takeaway.react2024
+    t: |
+      Надихає те, що частка іспанців/латино зросла з 11% до 19%, що потенційно збігається зі зростанням популярності іспансько- та португальськомовних стримерів та освітніх діячів.
+
+  - key: user_info.disability_status.takeaway.react2024
+    t: |
+      Незалежно від того, постійні чи тимчасові, порушення здоров'я є частиною повсякденного життя для багатьох, що варто пам'ятати щоразу, коли ми створюємо нові застосунки.
+
+  - key: user_info.locale.takeaway.react2024
+    aliasFor: user_info.locale.description
+
+  - key: user_info.completion_stats.takeaway.react2024
+    aliasFor: user_info.completion_stats.description
+
+  # features
+
+  - key: sections.features.description.react2024
+    t: |
+      Ми запитали в респондентів їхню думку щодо **28** окремих функцій — від найпоширеніших хуків, як `useState`, до більш нішевих API, як `useDeferredValue`. Й обов'язково спробуйте відсортувати дані за "ставленням"!
+
+  - key: features.all_features
+    t: Усі функції
+
+  - key: features.all_features.takeaway.react2024
+    t: |
+      Ця діаграма підсумовує всі запитання опитування щодо функцій. Основні стовпці відповідають досвіду використання респондентом; далі вони поділяються відповідно до ставлення цього респондента. Ви можете змінити групування, щоб чергувати ці варіанти розбиття. 
+
+
+      Варто виділити цього року: `createPortal`, яким користувалися лише 46,4% респондентів, був п'ятою найулюбленішою функцією. З іншого боку, Taint API був і найменш використовуваною, і найбільш невідомою функцією, що зрозуміло, адже він все ще експериментальний. 
+
+
+      На протилежному кінці спектра функція `useState` була не лише найуживанішою, але й найулюбленішою з лише 1,26% негативного ставлення, що свідчить про те, що прості рішення завжди матимуть місце.
+
+  - key: features.reading_list.takeaway.react2024
+    t: >
+      **25%** респондентів додали елементи до свого списку для читання під час опитування, щоб дізнатися про них більше. Ось розбиття їхнього вибору.
+
+  # - key: features.main_apis_items
+  #   t: Досвід використання і ставлення до основних API
+  - key: features.main_apis_pain_points.takeaway.react2024
+    t: >
+      Як і минулого року, `forwardRef` і `memo` були найбільш проблемними серед найпоширеніших API React'y. Оскільки React 19 вже доступний і намагається вирішити обидві проблеми, цікаво подивитися, який вигляд матиме ця діаграма наступного року.
+
+  # - key: features.hooks_items
+  #   t: Досвід використання і ставлення до хуків
+  - key: features.hooks_pain_points.takeaway.react2024
+    t: >
+      `useEffect` все ще залишається найбільш проблемним хуком React — значною мірою через ручне управління масивами залежностей.
+
+  # - key: features.new_apis_items
+  #   t: Досвід використання і ставлення до нових API
+  - key: features.new_apis_pain_points.takeaway.react2024
+    t: >
+      **Серверні компоненти React** і загальна складність все ще залишаються головними проблемами, коли шукаємо вигоди у нових функціях React.
+
+  # libraries
+
+  - key: sections.libraries.description.react2024
+    t: |
+      Ми переробили наші діаграми, щоб підкреслити не лише досвід розробників, але і *ставлення*. Обов'язково вивчіть ці нові параметри групування та сортування, щоб з'ясувати, які бібліотеки приваблюють найбільше… або найменше!
+
+  - key: tools.all_tools_experience
+    t: Досвід використання і ставлення до бібліотек
+  - key: tools.all_tools_experience.takeaway.react2024
+    t: >
+      З-поміж бібліотек і фреймворків React **TanStack Query** і **Zustand** випередили **Next.js** і стали лідерами за загальною позитивністю.
+
+
+      І хоч **Create React App** є найбільш використовуваним, він заразом є одним із найменш улюблений із 33,1% негативних думок, одразу після Redux (34,1%).
+
+
+      Зауважте, що деякі пункти, як-от `useState` і `fetch`, також були додані для порівняння, хоч вони не є бібліотеками.
+
+  - key: tools.scatterplot_overview
+    t: Утримання та використання бібліотек
+  - key: tools.scatterplot_overview.takeaway.react2024
+    t: >
+      З-поміж бібліотек і фреймворків **Next.js** досі єдиний, що може похизуватися як високим рівнем утримання, так і високим рівнем використання. Однак, здається, **TanStack Query** ось-ось перейде в цей квадрант із використанням >50%!
+
+  # component libraries
+
+  # - key: tools.component_libraries_experience
+  #   t: Досвід використання і ставлення до бібліотек компонентів
+  # - key: tools.component_libraries_experience.takeaway.react2024
+  #   t: >
+  #     **React Aria** and **Radix** lead the rankings in terms of positivity, proving that the headless approach to component libraries has a lot going for it.
+
+  - key: tools.component_libraries_ratios
+    t: Співвідношення бібліотек компонентів із часом
+  - key: tools.component_libraries_ratios.takeaway.react2024
+    t: >
+      Поки **MUI** зберігає перше місце за використанням, **shadcn/ui** успішно прогресує та подвоює цей показник із 20% до 42% за рік, а також очолює діаграму позитивності, маючи 80%!
+
+  - key: tools.animation_libraries.takeaway.react2024
+    t: >
+      **Motion** (попередньо відомий як Framer Motion) посідає заслужене перше місце, щоб відсвяткувати нещодавній ребрендинг!
+
+  - key: tools.data_visualization_libraries.takeaway.react2024
+    t: >
+      **Chart.js** очолює рейтинг цього року. До речі, чи ви знали, що всі діаграми цього опитування створені вручну, а не на основі готового рішення?
+
+  - key: tools.form_libraries.takeaway.react2024
+    t: >
+      На сьогодні **React Hook Form** є найпоширенішою бібліотекою для форм. Але зі зростанням популярності, гм…, стека TanStack цікаво подивитися на **TanStack Forms** у майбутньому.
+
+  - key: tools.react_form_patterns.takeaway.react2024
+    t: >
+      Привертає увагу, що більшості розробників зручно використовувати як **контрольовані**, так і **неконтрольовані** форми. 
+
+
+      Та якщо вам потрібно вибрати щось одне, **контрольовані** поля введення у формах є кращим вибором!
+
+  - key: tools.css_tools.takeaway.react2024
+    t: >
+      **Tailwind** вбив CSS-in-JS? Звичайний CSS усіх наздогнав? У будь-якому разі час знаджування архітектурою CSS, здається, закінчився, оскільки перші три позиції посіли інструменти CSS із тривалою історією.
+
+  - key: tools.component_libraries_pain_points.takeaway.react2024
+    t: >
+      З огляду на біль, спричинений проблемами *стилізації та кастомізації*, не дивно, що headless-бібліотеки, як-от **Radix** і **React Aria**, виявилися настільки популярними.
+
+  # state management
+
+  # - key: tools.state_management_experience
+  #   t: Досвід використання і ставлення до управління станом
+  # - key: tools.state_management_experience.takeaway.react2024
+  #   t: >
+  #     Beyond **useState**, the state management solution with the highest positivity ratio is **Zustand**. And while **Redux** still boasts a large userbase, it isn't quite as beloved.
+
+  - key: tools.state_management_ratios
+    t: Співвідношення інструментів управління станом із часом
+  - key: tools.state_management_ratios.takeaway.react2024
+    t: >
+      **Zustand** підтверджує своє лідерство за позитивністю, лише стандартний **useState** має вищий бал. Крім того, використання **Zustand** зросло з 28% до 41% за минулий рік!
+
+  - key: tools.state_management_others.takeaway.react2024
+    t: >
+      Хоч **TanStack Query** найбільш відомий як бібліотека завантаження даних, йому ще й вдається управління кінцевим станом.
+
+  - key: tools.state_management_pain_points.takeaway.react2024
+    t: >
+      Управління станом загалом залишається надто складним, зокрема респонденти скаржаться на **Redux**.
+
+  # data loading
+
+  # - key: tools.data_loading_experience
+  #   t: Досвід використання і ставлення до завантаження даних
+  # - key: tools.data_loading_experience.takeaway.react2024
+  #   t: >
+  #     **TanStack Query** has been making waves for a while now, and it turns out its reputation is reflected in the data since it's the data loading method respondents felt the most positive about, right after the native `fetch` API.
+
+  - key: tools.data_loading_ratios
+    t: Співвідношення інструментів завантаження даних із часом
+  - key: tools.data_loading_ratios.takeaway.react2024
+    t: >
+      **TanStack Query** продовжує йти траєкторією зростання — як за використанням, так і за позитивністю. Зокрема, графік зацікавленості показує, що — разом із **tRPC** — це, вважайте, єдина бібліотека для завантаження даних, яка все ще інтригує респондентів сьогодні!
+
+  - key: tools.data_loading_others.takeaway.react2024
+    t: >
+      Крім **ky** та **URQL**, жодна нова бібліотека для завантаження даних не отримала більше 10 згадувань, мінімального порогу входження.
+
+  - key: tools.data_loading_pain_points.takeaway.react2024
+    t: >
+      Те, що **управління станом** було названо найбільшою проблемою, що стосується завантаження даних, може пояснити популярність **TanStack Query**, оскільки він безпосередньо вирішує саме її. 
+
+
+      Проте загалом той факт, що лише 3% респондентів узагалі поділилися тут якоюсь проблемою, свідчить про те, що завантаження даних насправді стало однією з *найменш* болючих частин сучасних вебзастосунків.
+
+  # back-end infrastructure
+
+  # - key: tools.meta_frameworks_experience
+  #   t: Досвід використання і ставлення до метафреймворків
+  # - key: tools.meta_frameworks_experience.takeaway.react2024
+  #   t: >
+  #     While you'll certainly have no trouble finding people complaining about **Next.js**, it still managed to top the positivity rankings for meta-frameworks, followed by **Remix** and **Astro**.
+
+  - key: tools.meta_frameworks_ratios
+    t: Співвідношення метафреймворків із часом
+  - key: tools.meta_frameworks_ratios.takeaway.react2024
+    t: >
+      **Astro** — єдиний фреймворк, який демонструє значне зростання використання — з 18% до 26%. Також варто зазначити, що **TanStack Start** разюче дебютував із 81% зацікавленості та 90% утримання!
+
+  - key: tools.meta_frameworks_others.takeaway.react2024
+    t: >
+      **Waku** впадає в око як один із небагатьох фреймворків, розпочатих після появи серверних компонентів React, щоб відразу повною мірою скористатися ними.
+
+  - key: tools.build_tools.takeaway.react2024
+    t: >
+      **Vite** нарешті обігнав **Webpack**, що справді вражає з огляду на довгочасність останнього.
+
+  - key: tools.hosting.takeaway.react2024
+    t: >
+      **Vercel** очолює рейтинг, що цілком зрозуміло, зважаючи на значні інвестиції в екосистему React.
+
+  - key: tools.other_services.takeaway.react2024
+    t: >
+      **Firebase** залишається популярною платформою для зберігання даних, тоді як **Sentry** — для відстеження помилок.
+
+  - key: tools.backend_language.takeaway.react2024
+    t: >
+      Як і очікувалося, **TypeScript** і **JavaScript** забезпечують роботу більшості серверних частин для React-застосунків, що свідчить про бажання розробників мати всю кодову базу однією мовою.
+
+  - key: tools.back_end_infrastructure_pain_points.takeaway.react2024
+    t: >
+      Зазвичай найпоширенішими були б загальні проблеми, як-от "надмірна складність" або "складна крива вивчення", але не цього разу.  
+
+      **Наскрізна типобезпечність** (end-to-end typesafety; спільні між сервером і клієнтом типи, а також забезпечення відповідності їм будь-яких передаваних даних) — це, безумовно, головна проблема цього року, що стосується внутрішньої інфраструктури, і це пояснює, чому ми тепер бачимо інструменти, як **TanStack Start** і **tRPC**, які, схоже, вирішують цю проблему.
+
+  #other_tools
+
+  - key: sections.other_tools.description.react2024
+    t: |
+      React відомий тим, що зосереджується саме на рендерингу UI, водночас майже не впливаючи на інші частини вашого застосунку — це відображено в живій екосистемі, яка виникла, щоб заповнити ці прогалини!
+
+  - key: tools.testing.takeaway.react2024
+    t: |
+      **Jest** і **Testing Library** зберегли лідерство цього року. Крім того, **Bun** з'явився у кількох вписаних відповідях, які, залежно від загального успіху нового середовища виконання, можуть бути або одноразовою аномалією, або ознакою того, що станеться в майбутньому.
+
+  - key: tools.renderers.takeaway.react2024
+    t: |
+      Як і очікувалося, переважна більшість розробників рендерить застосунки у браузері, але це запитання підкреслює, наскільки різноманітною насправді є екосистема React із засобами рендеру для всього — від PDF-файлів до застосунків для командного рядка!
+
+  - key: tools.validation.takeaway.react2024
+    t: |
+      Як ви вже могли здогадатися, **Zod** залишається найпоширенішою бібліотекою валідації.
+
+  - key: tools.auth.takeaway.react2024
+    t: |
+      Залежно від того, чи ви віддаєте перевагу хмарним сервісам, чи власному хостингу, і **Auth0**, і **Auth.js** — чудові варіанти,
+
+  - key: tools.mobile_development.takeaway.react2024
+    t: |
+      Хоч **React Native** досі займає перше місце, **Expo** невпинно завойовує позиції, і не буде дивним побачити його на вершині за рік.
+
+  - key: tools.other_frontend_frameworks.takeaway.react2024
+    t: |
+      Що використовують розробники React, коли вони не використовують React? Виявляється, **Angular** і **Vue** — як і всі!
+
+  # usage
+
+  - key: sections.usage.description.react2024
+    t: |
+      Незалежно від використовуваної версії, впровадженого патерну застосунку або вашої галузі діяльності — немає неправильного способу використання React!
+
+  - key: usage.what_do_you_use_react_for.takeaway.react2024
+    t: >
+      Цікаво спостерігати, що незважаючи на те, що React традиційно асоціювався зі складними клієнтськими застосунками, **статичні сайти** все одно посіли друге місце — JSX може чудово послуговувати як проста мова для шаблонів.
+
+  - key: usage.react_version.takeaway.react2024
+    t: >
+      Зауважте, що опитування було проведено **до** випуску стабільної версії React 19.
+
+  - key: usage.usage_type.takeaway.react2024
+    t: >
+      Переважна більшість респондентів використовують React професійно.
+
+  - key: usage.industry_sector.takeaway.react2024
+    t: >
+      **Програмування та технічні інструменти** можуть бути дещо надмірно представлені з-поміж сфер діяльності, оскільки саме ця сфера нерідко приваблює той тип розробників, які, швидше за все, заповнять таке опитування.
+
+  - key: usage.js_app_patterns.takeaway.react2024
+    t: >
+      Незважаючи на увагу віднедавна до генерації статичних сайтів, рендерингу з боку сервера та серверних компонентів, переважна більшість розробників React все ще працює над односторінковими застосунками.
+
+  - key: usage.new_features.takeaway.react2024
+    t: >
+      З огляду на те, що `memo` давно є проблемною точкою, логічно, що респондентів найбільше цікавить **React Compiler**.
+
+  - key: usage.usage_pain_points.takeaway.react2024
+    t: >
+      І знову **надмірна складність** постає як головна проблема. Залишається побачити, чи нове покоління інструментів нарешті зможе полегшити наш біль, чи ця складність є лише природним наслідком того, як працює все у вебі.
+
+  # resources
+
+  - key: sections.resources.description.react2024
+    t: |
+      Одна з головних причин тривалого домінування React — величезна кількість документації, публікацій у блогах, відео та інших джерел, накопичених протягом багатьох років. Ось лише маленький приклад!
+
+  - key: resources.learning_methods.takeaway.react2024
+    t: |
+      Команда React чудово попрацювала над новим сайтом документації React, тож не варто дивуватися, що це найперший спосіб вивчення фреймворку.
+
+  - key: resources.blogs_news_magazines.takeaway.react2024
+    t: |
+      Незважаючи на те що цей список заповнений багатьма звичними "підозрюваними", варто відзначити присутність медіа, які стосуються саме React, як-от **This Week in React** або **React Status**.
+
+  - key: resources.courses.takeaway.react2024
+    t: |
+      Завжди вражає, коли викладачі, як **Wes Bos** або Kent C. Dodds з **Epic React**, можуть бути майже так само високо у рейтингу, як величезні платформи — **Udemy** або **freeCodeCamp**.
+
+  - key: resources.podcasts.takeaway.react2024
+    t: |
+      **Syntax** продовжує своє домінування серед подкастів для розробників, і хоч подкастів саме про React у вебі небагато, **React Native Radio** посідає почесне 8 місце.
+
+  - key: resources.video_creators.takeaway.react2024
+    t: |
+      Хоч минулого року **Fireship** був на диво низько в рейтингу, популярний YouTube-блогер тепер очолює п'єдестал для відеоблогерів, випереджаючи **Theo** і **The Primeagen**.
+
+  - key: resources.people.takeaway.react2024
+    t: |
+      Піднявшись із 17 на 5 сходинку, **shadcn** робить все можливе, щоб мати таку ж популярність, як у власної бібліотеки!
+
+  - key: resources.other_surveys.takeaway.react2024
+    t: |
+      Хоч не дивно, що багато респондентів також беруть участь в опитуванні **Стан JavaScript**, варто зазначити, що більшість заразом заповнює **Стан CSS**, що вказує на те, що розрив JS/CSS може бути не таким великим, як нам здається.
+
+  #awards
+  # - key: sections.awards.description.react2024
+  #   t: |
+  #     This year's awards were dominated by one very specific project… how quickly will you guess what it is?
+
+  # metadata
+
+  # - key: user_metadata.source.takeaway.react2024
+  #   t: >
+  #     A majority of respondents knew about the survey from previous years or other surveys, but newsletters such as **This Week in React** were also a large source of traffic.
+
+  ###########################################################################
+  # Charts
+  ###########################################################################
+
+  - key: options.features_categories.language
+    aliasFor: sections.language.title
+  - key: options.features_categories.browser_apis
+    aliasFor: sections.browser_apis.title
+  - key: options.features_categories.other_features
+    aliasFor: sections.other_features.title
+
+  ###########################################################################
+  # Notes
+  ###########################################################################
+
+  - key: blocks.gender.note
+    t: |
+      Якщо ви хочете дізнатися більше, ми [написали статтю](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj), у якій йдеться про гендерну динаміку опитування.
+
+  - key: blocks.source.note
+    t: >
+
+      Ця діаграма зібрана із джерел переходу (referrers), параметрів URL та відповідей довільної форми. 
+
+      - Стан JS: список розсилання електронною поштою про ["Стан JS"](https://stateofjs.com). 
+
+      - Стан CSS: список розсилання електронною поштою про ["Стан CSS"]; тексти з відповідниками `email`, `by email` тощо. 
+
+      - Робота: тексти з відповідниками `work`, `colleagues`, `coworkers` тощо.
+
+  ###########################################################################
+  # Awards
+  ###########################################################################
+
+  # - key: award.feature_adoption_delta_award.comment
+  #   t: With a **{value}** progression in 2022, **top-level await** has quickly become an integral part of JavaScript.
+
+  # - key: award.tool_usage_delta_award.comment
+  #   t: |
+  #     **Vite** continues to be the fastest-growing library out there, with a **{value}** year-over-year increase in usage!
+
+  # - key: award.tool_satisfaction_award.comment
+  #   t: Vite once again takes the top spot, with **{value}** of developers willing to use it again!
+
+  # - key: award.tool_interest_award.comment
+  #   t: Did you guess Vite? Close, but this year **Vitest** is the technology developers are most interested in with a **{value}** interest ratio.
+
+  # - key: award.most_write_ins_award.comment
+  #   t: With **{value}** mentions, **Bun** was the most mentioned technology overall in freeform questions.
+
+  # - key: award.most_commented_tool_award.comment
+  #   t: With **{value}** comments, React showed that it's once again the most-discussed library around.
+
+  # - key: award.most_loved_tool_award.comment
+  #   t: With **{value}** of all developers having a positive opinion of it, Vite concludes its sweep of these awards by being the most-loved technology around!
+
+  ###########################################################################
+  # Conclusion
+  ###########################################################################
+
+  - key: conclusion.react2024.josh_comeau
+    t: |
+
+      <span class="first-line">What a year!</span>
+
+      With the introduction of React Server Components, I’d say this has been the biggest year for React since 2018, when React Hooks were first introduced.
+
+      In the 5 years since 2018, Hooks have reached overwhelming adoption. A whopping 99.5% of survey respondents have adopted `useState`, and less than 2% are unhappy about it. Class components still exist, but they’ve been relegated to legacy codebases and the occasional error boundary component.
+
+      I wonder, though… Will we all be using Server Components 5 years after their release, in 2028? I’m not so sure. The Server Components paradigm requires deep integration with the bundler and router. It’s not something that most developers can start incrementally adopting in their current React codebase.
+
+      React developers like to keep up-to-date; 71% of survey respondents said they were using React 18, the newest version available when this data was collected. At the same time, the most widely-used React environment is still Create React App, despite being officially deprecated and not having a release since April 2022. We’ll happily update React when a new version comes out, but we’re not about to switch to a different environment; 37% of survey respondents have never even used SSR (Server Side Rendering), even though it’s been an option for over a decade now!
+
+      If I had to guess, I’d say that in 2028, there will be two Reacts in wide circulation with roughly equivalent usage. The “full-stack” version, with Server Components and Server Actions, and the client-only Single Page App version.
+
+      We live in interesting times! I’m excited to see how React and its ecosystem evolves over the coming years. ❤️
+
+  - key: conclusion.react2024.josh_comeau.bio
+    t: Software engineer and educator. Creator of [The Joy of React](https://www.joyofreact.com/)
+
+  ###########################################################################
+  # Picks
+  ###########################################################################
+
+  - key: picks.my_pick
+    t: "Мій вибір 2024: "
+  - key: picks.intro
+    t: Ми покликали спільноту React поділитися своїм "вибором року"
+
+  # https://zustand-demo.pmnd.rs
+  - key: picks.jack_herrington.name
+    t: Zustand
+  - key: picks.jack_herrington.bio
+    t: Principal Engineer and YouTuber
+  - key: picks.jack_herrington.description
+    t: |
+      Simple, elegant, extensible state management that "just works" (tm). Nowadays, you might not need state management, but if you do, Zustand is a great place to start.
+
+  # https://react.dev/reference/rsc/server-components
+  - key: picks.alex_sidorenko.name
+    t: React Server Components
+  - key: picks.alex_sidorenko.bio
+    t: Making short videos about Next.js on Twitter
+  - key: picks.alex_sidorenko.description
+    t: |
+      Eleven years ago, React reimagined web development by challenging established practices. Now, React is doing this again with RSC. 
+
+      P.S. Shout out to the Next.js team for pushing this new vision forward.
+
+  # https://youtube.com/watch?v=zqhE-CepH2g
+  - key: picks.sam_selikoff.name
+    t: |
+      "Mind the Gap" – Ryan Florence's talk at Big Sky Dev Con 2024
+  - key: picks.sam_selikoff.bio
+    t: Videos for frontend developers on Build UI and YouTube, co-host of the Frontend First podcast
+  - key: picks.sam_selikoff.description
+    t: |
+      Ryan masterfully shows how React's new "use server" and "use client" directives let us build rich features on both sides of the network, using the same unified paradigm. A must-watch for any React developer.
+
+  # https://www.remotion.dev/
+  - key: picks.sebastien_lorber.name
+    t: Remotion
+  - key: picks.sebastien_lorber.bio
+    t: Creator of [This Week in React](https://thisweekinreact.com/)
+  - key: picks.sebastien_lorber.description
+    t: |
+      The idea of creating programmatic videos in React continues to fascinate me. Remotion is a rather discreet project, which continues to grow slowly but steadily, successfully adopted by DevRels, educators, indie makers and larger companies (notably GitHub's Unwrapped video campaign).
+
+  # https://buildui.com/posts/instant-search-params-with-react-server-components
+  - key: picks.aurora_scharff.name
+    t: Instant Search Params with React Server Components
+  - key: picks.aurora_scharff.bio
+    t: Web developer and consultant at Inmeta
+  - key: picks.aurora_scharff.description
+    t: |
+      This blog post goes through a problem you would must likely encounter when building a proper app with the Next.js App Router: handling search params. It’s surprisingly hard to make interactions behave “perfectly”, and the post end with the solution: useOptimistic. It also teaches you about transitions with lots of sandbox demos.
+
+  # https://mui.com/blog/introducing-pigment-css/
+  - key: picks.josh_comeau.name
+    t: Pigment CSS
+  - key: picks.josh_comeau.bio
+    t: Software engineer and educator. Creator of [The Joy of React](https://www.joyofreact.com/)
+  - key: picks.josh_comeau.description
+    t: |
+      The Material UI team is building a next-gen CSS-in-JS library that pulls the styled API into the React Server Components era. There’s no shortage of CSS-in-JS tools out there, but this one checks all of the boxes for me.
+
+  # https://www.propelauth.com/post/nextjs-challenges
+  - key: picks.carl_vitullo.name
+    t: It’s not just you, Next.js is getting harder to use
+  - key: picks.carl_vitullo.bio
+    t: Solopreneur currently hosting [This Month in React](https://podcasts.apple.com/us/podcast/this-month-in-react/id1661733526), and community lead at [Reactiflux](https://www.reactiflux.com/)
+  - key: picks.carl_vitullo.description
+    t: |
+      This was a great blog post! I think it captures the current zeitgeist in React, clearly articulates a frustration that's been simmering in the ecosystem through 2024.
+
+  # https://sonner.emilkowal.ski
+  - key: picks.miguel_angel_duran.name
+    t: Sonner
+  - key: picks.miguel_angel_duran.bio
+    t: Twitch Coding Streamer & Content Creator
+  - key: picks.miguel_angel_duran.description
+    t: |
+      Sonner is the best toast component for React. Beautiful by default, highly configurable, and with a simple API to use in any project. Wonderful work by Emil.
+
+  # https://docs.expo.dev/router/introduction/
+  - key: picks.lydia_hallie.name
+    t: Expo Router
+  - key: picks.lydia_hallie.bio
+    t: Independent software engineer and technical content creator
+  - key: picks.lydia_hallie.description
+    t: |
+      Expo Router earns my pick for its incredible potential in both the web and native space. It's the first framework to leverage React's full power to operate across all platforms, making React a true platform-agnostic renderer. Its file-based architecture makes it simpler for web developers to adapt to native platforms, speeding up development, and reducing the time to ship across all devices.
+
+  #
+  # - key: picks.xxx.name
+  #   t:
+  # - key: picks.xxx.bio
+  #   t:
+  # - key: picks.xxx.description
+  #   t: |
+
+  ###########################################################################
+  # Sponsors
+  ###########################################################################
+
+  - key: sponsors.frontendmasters.description
+    t: Вдосконалюйте свої навички за допомогою поглиблених сучасних інженерних курсів.
+  - key: sponsors.google_chrome.description
+    t: Дякуємо команді Google Chrome за підтримку нашої роботи.
+  - key: sponsors.tokyodev.description
+    t: Знайдіть роботу розробника своєї мрії в Японії вже сьогодні.
+  - key: sponsors.renderatl.description
+    t: Технологічна конференція, присвячена всьому у вебі.
+
+  ###########################################################################
+  # FAQ/About
+  ###########################################################################
+
+  # React 2024
+
+  - key: faq.data_used_react2024
+    t: Як ці дані будуть використані?
+  - key: faq.data_used_react2024.description
+    t: >
+      Усі зібрані дані будуть відкрито опубліковані для консультації всіх охочих. Розробники або компанії можуть використовувати їх для визначення пріоритетних напрямків розробки та формування своїх "дорожніх карт".
+
+  - key: faq.survey_goals_react2024
+    t: Яка мета цього опитування?
+  - key: faq.survey_goals_react2024.description
+    t: >
+      Мета опитування — вимірювання впізнаваності та популярності з-поміж API React-у, а також бібліотек в екосистемі React.
+
+  - key: faq.who_should_take_survey_react2024
+    t: Хто може взяти участь у цьому опитуванні?
+  - key: faq.who_should_take_survey_react2024.description
+    t: >
+      Це відкрите опитування для всіх, хто користується React, незалежно від того, регулярно ви це робите або час від часу, у межах своєї роботи, як студент або задля розваги!
+
+  - key: faq.how_long_will_survey_take_react2024
+    t: Скільки часу займе опитування?
+  - key: faq.how_long_will_survey_take_react2024.description
+    t: >
+      Залежно від того, на скільки питань ви відповісте (всі питання не обов'язкові), 
+      заповнення анкети повинно зайняти орієнтовно 15-20 хвилин.
+
+  - key: faq.survey_design_react2024
+    t: Як було розроблено це опитування?
+  - key: faq.survey_design_react2024.description
+    t: >
+      Опитування було розроблено з урахуванням думки спільноти через [відкрите обговорення](https://github.com/Devographics/surveys/issues/250).
+
+  - key: faq.results_released_react2024
+    t: Коли будуть опубліковані результати?
+  - key: faq.results_released_react2024.description
+    t: Опитування триватиме з 19 жовтня до 19 листопада, і його результати будуть опубліковані незабаром після завершення.
+
+  - key: about.content
+    t: |
+      Опитування "Стан React 2024" тривало з 19 жовтня до 19 листопада 2024 року та зібрало 7870 відповідей. Результати були опубліковані 29 січня 2024 року. Опитування проводив [Devographics](https://devographics.com/). 
+
+      Логотип і футболку "Стан React" розробив [Christopher Kirk-Nielsen](http://chriskirknielsen.com/)
+
+      ### Цілі опитування
+
+      Це опитування було створено для визначення майбутніх тенденцій в екосистемі React, щоб допомогти розробникам здійснити вибір з-поміж наявних технологій.
+
+      Так опитування зосереджено більше на передбаченні того, що станеться протягом наступних кількох років, ніж на аналізі того, що популярно саме зараз, — ось чому деякі функції чи технології іноді можуть не згадуватися попри широке впровадження.
+
+      Його також слід сприймати як **знімок певної підмножини розробників у певний момент часу**, а не промовистий опис від імені всієї екосистеми React.
+
+      ### Розробка опитування
+
+      Опитування було розроблено частково на основі торішнього опитування з відкритим періодом для зворотного зв'язку, під час якого план опитування обговорювався [на платформі GitHub](https://github.com/Devographics/surveys/issues/250). 
+
+      Усі запитання опитування були необов'язковими. 
+
+      ### Аудиторія опитування
+
+      Опитування було повністю відкрите та доступне онлайн, респонденти жодним чином не відфільтровувалися та не відбиралися. Респонденти складалися здебільшого з учасників минулих опитувань (сповіщених електронною поштою за спеціальним списком розсилання) та тих, хто прийшов через соціальні мережі.
+
+      Зауважте, що фреймворки, бібліотеки тощо могли вільно заохочувати свою аудиторію до участі в опитуванні, і деякі з них скористалися цим за допомогою банерів, твітів або в інший спосіб. Детальний розподіл джерел трафіку включено в діаграму "Джерела" у секції "Метадані". 
+
+      ### Фінансування проєкту
+
+      Цей проєкт фінансується з різних джерел:
+
+      - **Продаж футболок**.
+
+      - **Розміщення посилань від спонсорів**: посилання на рекомендовані джерела у нижній частині кожної сторінки надає наш партнер [Frontend Masters](https://frontendmasters.com/).
+
+      - **Пряме фінансування**: цього року [Google](https://www.google.com/), [GitNation](https://gitnation.com/) і [TokyoDev](https://www.tokyodev.com/) профінансували мою роботу над опитуванням. 
+
+      Будь-який внесок або спонсорство дуже цінується. Особливо ми хотіли б тісніше співпрацювати з більшою кількістю постачальників браузерів, оскільки вони відіграють центральну роль в екосистемі вебу. 
+
+      ### Технічний огляд
+
+      Більш детальний технічний огляд того, як проводяться опитування, [тут](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2023-edition-1p6a).
+
+      **Примітка: Це *НЕ* офіційне опитування щодо React, а команда опитування ніяк не пов'язана з Meta, Vercel або командою React.**
+
+      ### Особлива подяка
+
+      Особлива подяка Paul McMahon, Marc Grabanski та Justin E. Samuels за їхню підтримку, що триває і досі.

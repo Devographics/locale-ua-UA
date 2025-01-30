@@ -23,6 +23,7 @@
 |an account|акаунт(-у)|
 |the awareness|впізнаваність (відносно неістоти), обізнаність (відносно істоти)|
 |a contributor|учасник(-а)|
+|a control|елемент керування [формою]|
 |an email|електронна адреса|
 |a feature|функція|
 |a (meta-)framework|(мета)фреймворк|
@@ -33,6 +34,7 @@
 |to leave an issue|створити запит [на зміну]|
 |to log in|увійти|
 |logged in|[ви] увійшли|
+|management|управління|
 |nesting|вкладеність|
 |a percentile|процентиль|
 |performance|швидкодія|

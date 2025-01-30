@@ -275,7 +275,7 @@ translations:
   - key: sections.user_info.title
     t: Про вас
   - key: sections.user_info.description
-    t: Давайте познайомимося з вами.
+    t: Нумо знайомитися з вами.
 
   - key: sections.features.title
     t: Функції
@@ -1615,7 +1615,7 @@ translations:
 
   # completion
   - key: user_info.completion_stats
-    t: Завершення опитування
+    t: Заповнення опитування
     aliases:
       - user_metadata.completion_stats
   - key: user_info.completion_stats.description
