@@ -596,12 +596,12 @@ translations:
     t: Які з-поміж цих останніх та майбутніх нових функцій цікавлять вас найбільше?
 
   - key: options.new_features.asset_loading
-    t: Завантаження ресурсів
+    t: Завантаження ресурсів (assets)
   - key: options.new_features.asset_loading.description
     t: Повна інтеграція Suspense із життєвим циклом завантаження стилів, шрифтів та зображень
   - key: options.new_features.cache.description
     t: API для допомоги з кешуванням даних.
-  - key: options.new_features_react_forget.description
+  - key: options.new_features.react_forget.description
     t: Автоматичний реактивний компілятор для React
   - key: options.new_features.new_docs
     t: Нова документація
@@ -609,7 +609,7 @@ translations:
     t: Оновлений сайт документації React.
   - key: options.new_features.offscreen_rendering
     t: Позаекранний рендеринг
-  - key: options.new_features_offscreen_rendering.description
+  - key: options.new_features.offscreen_rendering.description
     t: Рендеринг екранів у фоновому режимі без додаткових витрат на продуктивність.
   - key: options.new_features.use_hook
     t: >
@@ -684,3 +684,178 @@ translations:
     t: Особистості
   - key: resources.people_react.question
     t: З-поміж особистостей у спільноті React — кого ви читаєте, за ким слідкуєте чи просто хочете виокремити?
+
+  ###########################################################################
+  # Entities repo - https://github.com/Devographics/entities
+  ###########################################################################
+
+  # Features
+
+  # entities/features/react_features/react_apis.yml - 2025/01/30
+
+  - key: entities.react_server_components.name
+    t: Серверні компоненти React
+
+  - key: entities.class_components.name
+    t: >
+      `Component` (класові компоненти)
+
+  - key: entities.createelement.description
+    t: >
+      `createElement` дає змогу створювати React-елемент. Він є альтернативою написанню JSX.
+
+  # entities/features/react_features/react_components.yml - 2025/01/30
+
+  - key: entities.react_act.description
+    t: >
+      `act` — це помічник для тестів, щоб застосовувати очікувані оновлення в React перед перевіркою тверджень.
+
+  # entities/features/react_features/react_hooks.yml - 2025/01/30
+
+  - key: entities.useactionstate.name
+    t: >
+      `useActionState` (попередньо `useFormState`)
+  - key: entities.useactionstate.description
+    t: >
+      `useActionState` — це хук, який дає змогу оновлювати стан залежно від результату дії форми.
+
+  - key: entities.useoptimistic.description
+    t: >
+      `useOptimistic` — це хук React, який дає змогу "оптимістично" оновлювати UI.
+
+  # entities/features/react_features/react_new_features.yml - 2025/01/30
+
+  - key: entities.react_activity.name
+    t: >
+      `Activity` (попередньо `Offscreen`)
+
+  - key: entities.server_actions.name
+    t: Серверні дії
+
+  - key: entities.preloading_resources.name
+    t: Попереднє завантаження ресурсів
+
+  - key: entities.ref_as_a_prop.name
+    t: >
+      `ref` як властивість (Prop)
+
+  - key: entities.built_in_head_tag_support.name
+    t: Вбудоване підтримування head-тегів 
+
+  - key: entities.web_components_support.name
+    t: Підтримування вебкомпонентів
+
+  ###########################################################################
+  # Entities found only in surveys repo - https://github.com/Devographics/surveys
+  ###########################################################################
+
+  ### Pain Points - state_of_react/react2024/results/data
+  # /main_apis/main_apis_pain_points.json - 2025/01/30
+  # /hooks/hooks_pain_points.json - 2025/01/30
+  # /new_apis/new_apis_pain_points.json - 2025/01/30
+  # /component_libraries/component_libraries_pain_points.json - 2025/01/30
+  # /state_management/state_management_pain_points.json - 2025/01/30
+  # /data_loading/data_loading_pain_points.json - 2025/01/30
+  # /back_end_infrastructure/back_end_infrastructure_pain_points.json - 2025/01/30
+
+  - key: entities.excessive_complexity.name
+    t: Надмірна складність
+  - key: entities.excessive_complexity.description
+    t: Завелика складність
+
+  # https://discord.com/channels/771563445023277056/878437777707008070/1334667936073515101
+  - key: entities.context_api_rerendering.name
+    t: Надмірні повторні рендери
+
+  - key: entities.testing.name
+    t: Тестування
+
+  - key: entities.error_handling.name
+    t: Обробка помилок
+
+  - key: entities.dependency_arrays.name
+    t: Масиви залежностей
+  - key: entities.dependency_arrays.description
+    t: >
+      Задання ​​списку змінних, від яких залежить `useEffect`.
+
+  - key: entities.excessive_rerendering.name
+    t: Надмірні повторні рендери
+
+  - key: entities.state_management.name
+    t: Управління станом
+
+  - key: entities.form_issues.name
+    t: Проблеми форм
+
+  - key: entities.nextjs_issues.name
+    t: Проблеми Next.js
+
+  - key: entities.server_client_issues.name
+    t: Інтеграція клієнта та сервера
+
+  - key: entities.ssr.description
+    t: Проблеми рендерингу із боку сервера
+
+  - key: entities.styling_customization.name
+    t: Стилізація та кастомізація
+  - key: entities.styling_customization.description
+    t: Проблеми стилізації та кастомізації за допомогою CSS.
+
+  - key: entities.tailwind_issues.name
+    t: Проблеми Tailwind
+
+  - key: entities.mui_issues.name
+    t: Проблеми MUI
+
+  - key: entities.performance.name
+    t: Швидкодія
+  - key: entities.performance.description
+    t: Проблеми швидкодії
+
+  - key: entities.styled_components_issues.name
+    t: Проблеми styled-компонентів
+
+  # https://discord.com/channels/771563445023277056/878437777707008070/1334667936073515101
+  - key: entities.excesssive_rerendering.name
+    t: Надмірні повторні рендери
+
+  - key: entities.redux_issues.name
+    t: Проблеми Redux
+
+  - key: entities.too_much_boilerplate.name
+    t: Надмірна шаблонність
+  - key: entities.too_much_boilerplate.description
+    t: Потрібно забагато повторюваних шаблонів
+
+  - key: entities.global_state_management.name
+    t: Управління глобальним станом
+
+  - key: entities.synchronization_issues.name
+    t: Проблеми синхронізації
+
+  - key: entities.verbosity.name
+    t: Надмірна багатослівність
+  - key: entities.verbosity.description
+    t: API занадто багатослівні чи докладні (verbose)
+
+  - key: entities.mobx_issues.name
+    t: Проблеми MobX
+
+  - key: entities.maintenance.name
+    t: Підтримування
+
+  - key: entities.tough_learning_curve.name
+    t: Складна крива вивчення
+
+  - key: entities.caching.name
+    t: Кешування
+
+  - key: entities.apollo_issues.name
+    t: Проблеми Apollo
+
+  - key: entities.end_to_end_type_safety.name
+    t: Наскрізна (e2e) типобезпечність
+
+  - key: entities.deployment.name
+    t: Розгортання
