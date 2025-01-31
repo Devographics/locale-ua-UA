@@ -1988,7 +1988,7 @@ translations:
     t: Проблеми Next.js
 
   - key: entities.deployment.name
-    t: Розробка
+    t: Розгортання
 
   - key: entities.server_client_issues.name
     t: Інтеграція клієнта та сервера
