@@ -540,16 +540,16 @@ translations:
   # ai_running_locally
 
   - key: usage.ai_running_locally
-    t: Local AI
+    t: Локальний ШІ
   - key: usage.ai_running_locally.question
-    t: Have you tried running AI models locally on your own machine?
+    t: Чи намагалися ви запускати ШІ-моделі локально на власному комп'ютері?
 
   - key: options.ai_running_locally.no_not_interested
-    t: No, and I'm not interested
+    t: Ні і не цікаво
   - key: options.ai_running_locally.no_but_interested
-    t: No, but I'd like to
+    t: Ні, але хочу спробувати
   - key: options.ai_running_locally.yes_interested
-    t: "Yes"
+    t: Так
 
   # ai_missing_features
 
