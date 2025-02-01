@@ -12,15 +12,15 @@ translations:
     t: |
       Ця перша частина опитування про те, якими ШІ-інструментами ви користуєтеся та про які з них чули.
 
-  - key: sections.chatbots.title
-    t: Чат-боти
-  - key: sections.chatbots.description
+  - key: sections.models.title
+    t: Постачальники моделей
+  - key: sections.models.description
     t: ШІ-інструменти загального призначення.
 
-  - key: tools.chatbots_pain_points
-    t: Проблеми чат-ботів
-  - key: tools.chatbots_pain_points.question
-    t: З якими проблемами ви стикалися під час використання чат-ботів?
+  - key: tools.models_pain_points
+    t: Проблеми постачальників моделей
+  - key: tools.cmodels_pain_points.question
+    t: З якими проблемами ви стикалися під час використання ШІ-моделей?
 
   - key: sections.coding_assistants.title
     t: Асистенти для програмування
@@ -536,6 +536,20 @@ translations:
     t: Проблеми конфіденційності
   - key: options.ai_pain_points.privacy_concerns.description
     t: Занепокоєння щодо витоку приватного коду або даних до постачальників ШІ.
+
+  # ai_running_locally
+
+  - key: usage.ai_running_locally
+    t: Локальний ШІ
+  - key: usage.ai_running_locally.question
+    t: Чи намагалися ви запускати ШІ-моделі локально на власному комп'ютері?
+
+  - key: options.ai_running_locally.no_not_interested
+    t: Ні і не цікаво
+  - key: options.ai_running_locally.no_but_interested
+    t: Ні, але хочу спробувати
+  - key: options.ai_running_locally.yes_interested
+    t: Так
 
   # ai_missing_features
 
