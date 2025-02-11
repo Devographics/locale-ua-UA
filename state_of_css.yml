@@ -1215,3 +1215,26 @@ translations:
     aliasFor: sections.selectors.title
   - key: features.math_features
     aliasFor: sections.math_features.title
+
+  # CSS
+
+  - key: faq.data_used_css
+    t: Як ці дані будуть використані?
+  - key: faq.data_used_css.description
+    t: >
+      Усі зібрані дані будуть оприлюднені та відкриті для будь-якого розробника чи компанії. 
+      Постачальники браузерів також [використовують ці дані](https://web.dev/interop-2023/), щоб визначати пріоритетні напрями розробки та сформувати свої "дорожні карти".
+
+  - key: faq.who_should_take_survey_css
+    t: Хто може взяти участь у цьому опитуванні?
+  - key: faq.who_should_take_survey_css.description
+    t: >
+      Це відкрите опитування для всіх, хто використовує CSS, незалежно від того, регулярно ви це робите або час від часу, 
+      у межах своєї роботи, як студент або задля розваги!
+
+  - key: faq.survey_goals_css
+    t: Яка мета цього опитування?
+  - key: faq.survey_goals_css.description
+    t: >
+      Мета опитування — відстежити еволюцію майбутніх функцій та бібліотек 
+      і допомогти розробникам вирішити, на яких нових технологіях зосередитися.
