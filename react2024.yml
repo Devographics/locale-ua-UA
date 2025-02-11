@@ -619,11 +619,11 @@ translations:
     t: Технологічна конференція, присвячена всьому у вебі.
 
   - key: sponsors.gitnation.description
-    t: Learn the latest trends directly from early-adopters and tech authors at GitNation.com
+    t: Дізнайтеся про останні тенденції безпосередньо від перших користувачів та технологічних авторів на GitNation.com
   - key: sponsors.reactsummit.description
-    t: The biggest React conference worldwide. Stay ahead of trends with 50+ speakers, network and party with 1,500 developers, enjoy the Amsterdam summer, and much more!
+    t: Найбільша у світі конференція, присвячена React. Станьте попереду трендів із понад 50 спікерами, познайомтеся на вечірці з 1500 розробниками, насолодіться літом в Амстердамі й більше!
   - key: sponsors.reactparis.description
-    t: The premier two-day, single-track React conference you don't need to miss in 2025.
+    t: Головна дводенна конференція про React, яку немислимо пропускати у 2025 році.
 
   ###########################################################################
   # FAQ/About

@@ -72,7 +72,7 @@ translations:
   # chatgpt
 
   - key: tools.chatgpt.prompt
-    t: Including all OpenAI GPT models
+    t: Включно з усіма GPT-моделями від OpenAI
 
   # ai_libraries_sdks
 
@@ -665,26 +665,26 @@ translations:
   ###########################################################################
 
   - key: faq.how_long_will_survey_take_ai
-    t: How long will the survey take?
+    t: Скільки часу займе опитування?
   - key: faq.how_long_will_survey_take_ai.description
-    t: This survey should take around 15 minutes to complete.
+    t: Заповнення анкети повинно зайняти орієнтовно 15 хвилин.
 
   - key: faq.who_should_take_survey_ai
-    t: Who should take the survey?
+    t: Хто може взяти участь у цьому опитуванні?
   - key: faq.who_should_take_survey_ai.description
-    t: This survey is for web developers of all experience levels, including those that don't currently use AI tools.
+    t: Це опитування для веброзробників усіх рівнів, включно з тими, хто наразі не використовує ШІ-інструменти.
 
   - key: faq.survey_goals_ai
-    t: What is the goal of the survey?
+    t: Яка мета цього опитування?
   - key: faq.survey_goals_ai.description
-    t: The goal of this survey is to identify how modern AI tools are impacting web development.
+    t: Мета опитування — визначити, як сучасні ШІ-інструменти впливають на веброзробку.
 
   - key: faq.data_used_ai
-    t: How will the data collected be used?
+    t: Як ці дані будуть використані?
   - key: faq.data_used_ai.description
-    t: The data collected will be used to publish a free online report, and the full dataset will also be available for free [on demand](https://discord.gg/2E7bbgnrJJ).
+    t: Зібрані дані використовуватимуться для публікації на загал онлайн-звіту, і весь набір даних також буде доступний безкоштовно [на вимогу](https://discord.gg/2E7bbgnrJJ).
 
   - key: faq.team
-    t: Who runs this survey?
+    t: Хто проводить це опитування?
   - key: faq.team.description
-    t: This survey is run by the [Devographics](https://devographics.com/) team along with help from volunteers and the community.
+    t: Це опитування проводить команда[Devographics](https://devographics.com/) з допомогою від спільноти та волонтерів.

@@ -18,12 +18,12 @@ translations:
   # FAQ
 
   - key: faq.results_released_ai2025
-    t: When will the results be released?
+    t: Коли будуть опубліковані результати?
   - key: faq.results_released_ai2025.description
-    t: The survey will run from February 10 to March 10, 2025, and the survey results will be released shortly after.
+    t: Опитування триватиме з 10 лютого до 10 березня 2025 року, і його результати будуть опубліковані незабаром після завершення.
 
   - key: faq.survey_design_ai2025
-    t: How was this survey designed?
+    t: Як було розроблено це опитування?
   - key: faq.survey_design_ai2025.description
     t: >
-      This survey was designed as the results of an [open design process](https://github.com/Devographics/surveys/issues/278) involving AI companies, browser vendors and the web development community.
+      Опитування було розроблено унаслідок [відкритого процесу розробки](https://github.com/Devographics/surveys/issues/278) із залученням компаній, які займаються ШІ, постачальників браузерів і спільноти веброзробки.
