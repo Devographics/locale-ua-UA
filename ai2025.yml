@@ -14,3 +14,16 @@ translations:
       Ми цінуємо ваш час і вашу думку та з нетерпінням чекаємо на можливість поділитися результатами з усією спільнотою. Нумо разом досліджувати, як ШІ змінює майбутнє веброзробки!
 
       *P.S. Один із наведених вище абзаців таки написаний за допомогою ШІ (у версії англійською — прим. ред.). Чи здогадаєтеся, який?*
+
+  # FAQ
+
+  - key: faq.results_released_ai2025
+    t: When will the results be released?
+  - key: faq.results_released_ai2025.description
+    t: The survey will run from February 10 to March 10, 2025, and the survey results will be released shortly after.
+
+  - key: faq.survey_design_ai2025
+    t: How was this survey designed?
+  - key: faq.survey_design_ai2025.description
+    t: >
+      This survey was designed as the results of an [open design process](https://github.com/Devographics/surveys/issues/278) involving AI companies, browser vendors and the web development community.
