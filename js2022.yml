@@ -1,0 +1,34 @@
+locale: ua-UA
+translations:
+  # TODO: add the rest
+
+  # JS 2022
+
+  - key: faq.learn_more_js2022
+    t: Де я можу дізнатися більше?
+  - key: faq.learn_more_js2022.description
+    t: Ви можете дізнатися більше про [торішнє опитування тут](https://2021.stateofjs.com/en-US/about/).
+
+  # - key: faq.survey_design_js2022
+  #   t: How was this survey designed?
+  # - key: faq.survey_design_css2022.description
+  #   t: This year, thanks to a grant from Google's [UI Fund](https://web.dev/ui-fund/), [Lea Verou](https://lea.verou.me/) was able to take the lead and managed the [open survey design process](https://github.com/orgs/Devographics/projects/1/views/1) on GitHub.
+
+  - key: faq.results_released_js2022
+    t: Коли будуть опубліковані результати?
+  - key: faq.results_released_js2022.description
+    t: Опитування триватиме до 15 грудня 2022 року, і його результати будуть опубліковані незабаром після завершення.
+
+  - key: faq.data_used_js2022
+    t: Як ці дані будуть використані?
+  - key: faq.data_used_js2022.description
+    t: Усі зібрані дані будуть оприлюднені. Вони будуть джерелом як для розробників, які звертаються до нього, щоб донести свій технологічний вибір, так і для постачальників браузерів, які використовують його для визначення пріоритетних напрямків розробки та формування своїх "дорожніх карт".
+
+  - key: general.js2022.survey_intro
+    t: |
+      Вперше за довгий час здається, що статус-кво екосистеми JavaScript поставлений під питання.
+
+      Швидше пакування від Vite, архітектура островів в Astro, відновлення виконання застосунку у Qwik... Нові учасники кидають виклик старій гвардії, і в результаті отримуємо набагато більше захоплення, але й
+      набагато більше невизначеності.
+
+      Отже, ще раз спробуймо разом з'ясувати, куди прямує JavaScript — у 2022 році і далі.

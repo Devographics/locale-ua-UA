@@ -109,9 +109,6 @@ translations:
   - key: features.web_components_main_features
     t: Досвід використання і ставлення до вебкомпонентів
 
-  # - key: features.web_components_main_features
-  #   t: Досвід використання і ставлення до вебкомпонентів
-
   - key: features.accessibility_features
     t: Досвід використання і ставлення до забезпечення доступності
 
@@ -139,7 +136,7 @@ translations:
     t: Учасниця робочої групи з питань технічної архітектури (TAG) при W3C і дослідниця в лабораторії комп'ютерних наук і штучного інтелекту (CSAIL) при MIT
   - key: conclusion.html2023.lea_verou
     t: >
-      *Хху!* Це опитування потребувало колосальних зусиль десятків людей із шести континентів.  Not only did it set a new record for the most responses in a “State of…” survey debut, its data collection UI pioneered innovations that gave us unparalleled insight into developer attitudes, and will ripple far beyond its scope.
+      *Хху!* Це опитування потребувало колосальних зусиль десятків людей із шести континентів. Not only did it set a new record for the most responses in a “State of…” survey debut, its data collection UI pioneered innovations that gave us unparalleled insight into developer attitudes, and will ripple far beyond its scope.
 
 
       Some argue that improving HTML is futile, but the survey resoundingly demonstrates the contrary. **Developers crave more interactive HTML elements**: not only were interactive elements like `<datalist>` or the Popover API among those accumulating the most positive sentiment across all categories, but in addition all top [missing elements](https://2023.stateofhtml.com/en-US/usage/#html_missing_elements) were interactive widgets. 
@@ -193,3 +190,70 @@ translations:
       ### Technical Overview
 
       You can find a more in-depth technical overview of how the surveys are run [here](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2023-edition-1p6a).
+
+  # HTML 2023
+
+  - key: faq.data_used_html2023
+    t: Як ці дані будуть використані?
+  - key: faq.data_used_html2023.description
+    t: >
+      Усі зібрані дані будуть оприлюднені та відкриті для будь-якого розробника чи компанії з метою консультації. 
+      Постачальники браузерів також [використовують ці дані](https://web.dev/interop-2023/), щоб визначати пріоритетні напрями діяльності та інформувати про свої плани.
+
+  - key: faq.survey_goals_html2023
+    t: Яка мета цього опитування?
+  - key: faq.survey_goals_html2023.description
+    t: >
+      Мета опитування — вимірювання впізнаваності нових функцій HTML і API браузера, а також допомогти розробникам стежити за розвитком їхнього використання.
+
+  - key: faq.who_should_take_survey_html2023
+    t: Хто може взяти участь у цьому опитуванні?
+  - key: faq.who_should_take_survey_html2023.description
+    t: >
+      Це відкрите опитування для всіх, хто створює вебсайти та вебзастосунки, незалежно від того, регулярно ви це робите або час від часу, у межах своєї роботи, як студент або задля розваги!
+
+  - key: faq.how_long_will_survey_take_html2023
+    t: Скільки часу займе опитування?
+  - key: faq.how_long_will_survey_take_html2023.description
+    t: >
+      Залежно від того, на скільки питань ви відповісте (всі питання не обов'язкові), 
+      заповнення анкети займе орієнтовно 15-20 хвилин.
+
+  - key: faq.learn_more_html2023
+    t: Де я можу дізнатися більше?
+  - key: faq.learn_more_html2023.description
+    t: Ви можете дізнатися більше про це опитування у [нашому анонсі](https://lea.verou.me/blog/2023/design-state-of-html/).
+
+  - key: faq.survey_design_html2023
+    t: Як було розроблено це опитування?
+  - key: faq.survey_design_html2023.description
+    t: >
+      [Lea Verou](https://lea.verou.me) розробила це опитування з урахуванням думки постачальників браузерів та інших учасників, як-от [WebDX Community Group](https://www.w3.org/community/webdx/).
+
+  - key: faq.results_released_html2023
+    t: Коли будуть опубліковані результати?
+  - key: faq.results_released_html2023.description
+    t: Опитування триватиме з 19 вересня до 16 жовтня, і його результати будуть опубліковані незабаром після завершення.
+
+  # Intro for actual survey page
+  - key: general.html2023.survey_intro
+    t: |
+      Поки веброзробники зосереджуються на JavaScript та CSS, нічого з того, що ми робимо, не було б можливим без HTML в основі.
+
+      Довго здавалося, що HTML не розвивається, але все змінюється.
+      На горизонті з'являються нові елементи, як-от `<selectlist>`, приголомшливі нові функції, наприклад, спливні вікна,
+      та ряд суміжних API браузера (вебкомпоненти, PWA тощо).
+
+      Цього року [Lea Verou](https://lea.verou.me/) взяла на себе величезне завдання з проведення цього абсолютно нового опитування — від змісту до UX і більше.
+
+      Спираючись на успіх опитувань ["Стан JS"](http://stateofjs.com/) та ["Стан CSS"](https://stateofcss.com/), ми запускаємо **Стан HTML**;
+      останній відсутній елемент, що доповнює трилогію, щоб ми могли відстежувати еволюцію вебплатформи загалом.
+
+      Переваги для вас:
+      - Результати опитування **використовуються браузерами** та групами стандартів **для визначення пріоритетів розробки**.
+      Ваші відповіді можуть допомогти реалізувати цікаві вам функції, визначити пріоритети для усунення несумісностей між браузерами та вказати на прогалини у платформі.
+      - Дізнайтеся про нові та майбутні функції; додайте функції до вашого списку читання та отримайте список джерел у кінці!
+      - Отримайте індивідуальну оцінку знань та порівняйте з іншими респондентами.
+
+      Опитування буде відкрите протягом 3 тижнів, але відповіді, внесені **протягом перших 9-ти днів (до 1 жовтня)**, матимуть набагато більший вплив на вебплатформу,
+      оскільки попередні дані будуть використовуватися для визначення певних пріоритетних напрямків, що мають граничний строк до того часу.

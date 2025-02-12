@@ -973,6 +973,30 @@ translations:
     t: >
       Нічого з переліченого
 
+  # employment status
+
+  - id: career.job_status
+    t: Статус зайнятості
+  - id: career.job_status.question
+    t: Що з наведеного найкраще описує ваш поточний статус зайнятості?
+
+  - id: options.job_status.employed_full_time
+    t: Працюю, повний день
+  - id: options.job_status.freelance
+    t: Фріланс, самозайнятість, незалежно за договором 
+  - id: options.job_status.employed_part_time
+    t: Працюю, неповний день
+  - id: options.job_status.student_full_time
+    t: Навчаюся, денна форма
+  - id: options.job_status.student_part_time
+    t: Навчаюся, заочна форма
+  - id: options.job_status.looking_for_job
+    t: НЕ працюю, але шукаю роботу
+  - id: options.job_status.not_employed_not_looking
+    t: НЕ працюю та НЕ шукаю роботу
+  - id: options.job_status.retired
+    t: На пенсії
+
   # Form Factors
   - key: options.form_factors.desktop
     t: Комп'ютери

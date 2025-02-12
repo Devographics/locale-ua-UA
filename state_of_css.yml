@@ -148,7 +148,7 @@ translations:
     t: Ніколи
 
   - key: options.css_for_print.1
-    t: Іноді додаю стилі для друку 
+    t: Іноді додаю стилі для друку
   - key: options.css_for_print.1.short
     t: Іноді
 
@@ -984,7 +984,7 @@ translations:
     t: У кожній парі виберіть те, що, за можливості, ви найбільше хотіли б використовувати у CSS сьогодні.
 
   - key: usage.missing_features_freeform
-    t: На вашу думку, чого наразі взагалі не вистачає у CSS?
+    t: На вашу думку, яких функцій наразі взагалі не вистачає у CSS?
   - key: usage.missing_features_freeform.others
     aliasFor: usage.missing_features_freeform
   - key: usage.missing_features_freeform
@@ -1099,8 +1099,8 @@ translations:
     aliasFor: usage.css_usage_type
   - key: usage.usage_type.question
     aliasFor: usage.css_usage_type.question
-  - key: usage.css_usage_type.others
-    t: Інші варіанти використання CSS
+  - key: usage.usage_type.others
+    aliasFor: usage.css_usage_type.others
 
   # design_methodology
   - key: usage.design_methodology
@@ -1197,6 +1197,7 @@ translations:
     aliasFor: sections.selectors.title
   - key: options.features_categories.math_features
     aliasFor: sections.math_features.title
+
   - key: features.layout
     aliasFor: sections.layout.title
   - key: features.shapes_graphics
@@ -1215,3 +1216,26 @@ translations:
     aliasFor: sections.selectors.title
   - key: features.math_features
     aliasFor: sections.math_features.title
+
+  # CSS
+
+  - key: faq.data_used_css
+    t: Як ці дані будуть використані?
+  - key: faq.data_used_css.description
+    t: >
+      Усі зібрані дані будуть оприлюднені та відкриті для будь-якого розробника чи компанії. 
+      Постачальники браузерів також [використовують ці дані](https://web.dev/interop-2023/), щоб визначати пріоритетні напрями розробки та сформувати свої "дорожні карти".
+
+  - key: faq.who_should_take_survey_css
+    t: Хто може взяти участь у цьому опитуванні?
+  - key: faq.who_should_take_survey_css.description
+    t: >
+      Це відкрите опитування для всіх, хто використовує CSS, незалежно від того, регулярно ви це робите або час від часу, 
+      у межах своєї роботи, як студент або задля розваги!
+
+  - key: faq.survey_goals_css
+    t: Яка мета цього опитування?
+  - key: faq.survey_goals_css.description
+    t: >
+      Мета опитування — відстежити еволюцію майбутніх функцій та бібліотек 
+      і допомогти розробникам вирішити, на яких нових технологіях зосередитися.

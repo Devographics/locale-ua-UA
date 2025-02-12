@@ -14,17 +14,17 @@ translations:
 
   - key: sections.models.title
     t: Постачальники моделей
-  - key: sections.models.description
-    t: ШІ-інструменти загального призначення.
+  - key: sections.models.prompt
+    t: ШІ-застосунки та -моделі загального призначення.
 
   - key: tools.models_pain_points
     t: Проблеми постачальників моделей
-  - key: tools.cmodels_pain_points.question
+  - key: tools.models_pain_points.question
     t: З якими проблемами ви стикалися під час використання ШІ-моделей?
 
   - key: sections.coding_assistants.title
     t: Асистенти для програмування
-  - key: sections.coding_assistants.description
+  - key: sections.coding_assistants.prompt
     t: ШІ-інструменти, які допомагають протягом процесу розробки.
 
   - key: tools.coding_assistants_pain_points
@@ -34,7 +34,7 @@ translations:
 
   - key: sections.code_generation.title
     t: Генерація коду
-  - key: sections.code_generation.description
+  - key: sections.code_generation.prompt
     t: ШІ-інструменти, які використовуються для створення нових кодових баз або сніпетів.
 
   - key: tools.code_generation_pain_points
@@ -44,7 +44,7 @@ translations:
 
   - key: sections.ides.title
     t: IDE та редактори коду
-  - key: sections.ides.title
+  - key: sections.ides.prompt
     t: Інтегровані середовища розробки або редактори коду, які зосереджені на інтеграції ШІ.
 
   - key: tools.ides_pain_points
@@ -54,7 +54,7 @@ translations:
 
   - key: sections.image_generation.title
     t: Генерація зображень
-  - key: sections.image_generation.description
+  - key: sections.image_generation.prompt
     t: ШІ-інструменти для генерації та редагування зображень.
 
   # ai_programming_languages
@@ -68,6 +68,11 @@ translations:
     t: Генерація зображень
   - key: other_tools.image_generation.question
     t: Які ШІ-інструменти або -моделі ви використовуєте для генерації зображень?
+
+  # chatgpt
+
+  - key: tools.chatgpt.prompt
+    t: Включно з усіма GPT-моделями від OpenAI
 
   # ai_libraries_sdks
 
@@ -654,3 +659,32 @@ translations:
 
   - key: user_info.years_of_experience.state_of_ai.question
     t: Як довго ви працюєте як розробник або вчитеся у цій сфері (у роках)?
+
+  ###########################################################################
+  # FAQ
+  ###########################################################################
+
+  - key: faq.how_long_will_survey_take_ai
+    t: Скільки часу займе опитування?
+  - key: faq.how_long_will_survey_take_ai.description
+    t: Заповнення анкети повинно зайняти орієнтовно 15 хвилин.
+
+  - key: faq.who_should_take_survey_ai
+    t: Хто може взяти участь у цьому опитуванні?
+  - key: faq.who_should_take_survey_ai.description
+    t: Це опитування для веброзробників усіх рівнів, включно з тими, хто наразі не використовує ШІ-інструменти.
+
+  - key: faq.survey_goals_ai
+    t: Яка мета цього опитування?
+  - key: faq.survey_goals_ai.description
+    t: Мета опитування — визначити, як сучасні ШІ-інструменти впливають на веброзробку.
+
+  - key: faq.data_used_ai
+    t: Як ці дані будуть використані?
+  - key: faq.data_used_ai.description
+    t: Зібрані дані використовуватимуться для публікації на загал онлайн-звіту, і весь набір даних також буде доступний безкоштовно [на вимогу](https://discord.gg/2E7bbgnrJJ).
+
+  - key: faq.team
+    t: Хто проводить це опитування?
+  - key: faq.team.description
+    t: Це опитування проводить команда[Devographics](https://devographics.com/) з допомогою від спільноти та волонтерів.
