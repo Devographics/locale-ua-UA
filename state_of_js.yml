@@ -199,7 +199,7 @@ translations:
   - key: options.js_pain_points.writing_modules
     t: Написання модулів
   - key: options.js_pain_points.writing_modules.description
-    t: Написання JavaScript-модулів і їх публікація у вигляді пакетів.
+    t: Написання JavaScript-модулів і їхня публікація у вигляді пакетів.
   - key: options.js_pain_points.debugging
     t: Налагодження
   - key: options.js_pain_points.debugging.description
@@ -1687,7 +1687,7 @@ translations:
   - key: entities.js_decorators.name
     t: Декоратори
   - key: entities.js_decorators.description
-    t: Функції, що викликаються для класів або інших елементів синтаксису JavaScript у їх визначенні.
+    t: Функції, що викликаються для класів або інших елементів синтаксису JavaScript у їхньому визначенні.
 
   - key: entities.js_source_phase_imports.name
     t: Фаза імпорту сирців (Source Phase Imports)
