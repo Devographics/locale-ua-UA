@@ -27,3 +27,7 @@ translations:
   - key: faq.survey_design_ai2025.description
     t: >
       Опитування було розроблено унаслідок [відкритого процесу розробки](https://github.com/Devographics/surveys/issues/278) із залученням компаній, які займаються ШІ, постачальників браузерів і спільноти веброзробки.
+
+  # TODO: features?
+  # Tabnine
+  # t: AI assistant for software developers

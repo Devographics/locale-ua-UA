@@ -286,7 +286,7 @@ translations:
   - key: sections.awards.title
     t: Нагороди
   - key: sections.awards.description
-    t: Те, що запам'яталось цього року.
+    t: Те, що запам'яталося цього року.
 
   - key: sections.user_metadata.title
     t: Метадані
@@ -623,7 +623,7 @@ translations:
   - key: blocks.tools_arrows.description
     t: |
       Графіки — від найпершого до останнього наявного року даних. Чим вище точка, тим більше людей використовує цю технологію;
-      чим правіше точка, тим більше користувачі хочуть цю технологію вивчити або користувались і використали б її знову.
+      чим правіше точка, тим більше користувачі хочуть цю технологію вивчити або користувалися і використали б її знову.
   - key: blocks.tools_arrows.note
     t: |
       - Деякі графіки пропускають роки.
@@ -1160,14 +1160,14 @@ translations:
   - key: share.block.body
     t: "Ось деякі цікаві результати опитування ({title}): {link}"
   - key: share.twitter
-    t: Поділитись у Twitter
+    t: Поділитися у Twitter
   # - key: share.bluesky
   - key: share.facebook
-    t: Поділитись у Facebook
+    t: Поділитися у Facebook
   - key: share.linkedin
-    t: Поділитись у LinkedIn
+    t: Поділитися в LinkedIn
   - key: share.email
-    t: Поділитись на електронну адресу
+    t: Поділитися на електронну адресу
   - key: share.image
     t: Завантажити зображення
   - key: share.link
@@ -1575,7 +1575,7 @@ translations:
   - key: explorer.share
     t: Поділитись…
   - key: explorer.share.title
-    t: Поділитись діаграмою "{xAxisLabel}" та "{yAxisLabel}"
+    t: Поділитися діаграмою "{xAxisLabel}" та "{yAxisLabel}"
   - key: explorer.share.tweet
     t: '"{xAxisLabel}" та "{yAxisLabel}" з опитування "{surveyName}" {year} року'
 
