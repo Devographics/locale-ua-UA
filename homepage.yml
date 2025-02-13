@@ -124,16 +124,16 @@ translations:
   - key: calendar.releasedAt
     t: Публікація результатів
   - key: calendar.past_editions
-    t: Past Surveys
+    t: Попередні опитування
   - key: calendar.ongoing_editions
-    t: Ongoing Surveys
+    t: Поточні опитування
   - key: calendar.upcoming_editions
-    t: Upcoming Surveys
+    t: Майбутні опитування
   - key: calendar.no_editions
-    t: No surveys.
+    t: Немає опитувань.
   - key: calendar.give_feedback
-    t: Share feedback →
+    t: Залишити відгук →
   - key: calendar.take_survey
-    t: Take survey →
+    t: Взяти участь в опитуванні →
   - key: calendar.view_results
-    t: View results →
+    t: Переглянути результати →
