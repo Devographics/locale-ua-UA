@@ -83,11 +83,20 @@
 |en-US|ua-UA|
 |-----|-----|
 |accessibility engineer|інженер з доступності|
+|author|автор|
 |coder|програміст|
+|co-founder|співзасновник|
+|co-host|співведучий|
+|creator|автор|
+|design engineer|дизайн-інженер|
 |developer|розробник|
 |developer educator|просвітник для розробників|
 |educator|освітній діяч|
+|engineering manager|інженерний менеджер|
+|founder|засновник|
 |front-end senior software engineer|старший інженер клієнтського програмного забезпечення|
+|host|ведучий|
+|instructor|інструктор|
 |maintainer|мейнтейнер|
 |podcaster|автор подкастів|
 |principal engineer|головний інженер|

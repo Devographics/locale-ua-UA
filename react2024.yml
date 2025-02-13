@@ -448,9 +448,9 @@ translations:
 
   # metadata
 
-  # - key: user_metadata.source.takeaway.react2024
-  #   t: >
-  #     A majority of respondents knew about the survey from previous years or other surveys, but newsletters such as **This Week in React** were also a large source of traffic.
+  - key: user_metadata.source.takeaway.react2024
+    t: >
+      Більшість респондентів дізналася про опитування як учасники попередніх років або інших опитувань, але розсилки, як-от **This Week in React**, також були значним джерелом трафіку.
 
   ###########################################################################
   # Charts
@@ -515,23 +515,23 @@ translations:
   - key: conclusion.react2024.sebastien_lorber
     t: |
 
-      <span class="first-line">What a great time to be a React developer!</span>
+      <span class="first-line">Надзвичайний час, щоб бути React-розробником!</span> 
 
-      This year started with a [React Labs update](https://react.dev/blog/2024/02/15/react-labs-what-we-have-been-working-on-february-2024) and a [tweet](https://x.com/acdlite/status/1758229889595977824) from Andrew Clark promising we’d never need to use forwardRef again — the [most disliked React feature](../features/#all_features). Fast forward, and this promise has been largely fulfilled, with [React 19](https://react.dev/blog/2024/12/05/react-19) introducing exciting new features to play with along the way.
+      Цей рік почався з [оновлення від React Labs](https://uk.react.dev/blog/2024/02/15/react-labs-what-we-have-been-working-on-february-2024) та [публікації](https://x.com/acdlite/status/1758229889595977824) від Andrew Clark, який пообіцяв, що нам більше ніколи не доведеться використовувати forwardRef — [найменш улюблену функцію React](../features/#all_features). І він дотримав свого слова, оскільки згодом [React 19](https://uk.react.dev/blog/2024/12/05/react-19) продемонстрував нові захопливі функції. 
 
-      It was a close call, though: the new version was set to launch in [June](https://x.com/acdlite/status/1797668537349328923), when the [Suspense drama](https://tkdodo.eu/blog/react-19-and-suspense-a-drama-in-3-acts) unfolded, delaying the release until December. An optimization to render Suspense fallbacks sooner inadvertently introduced a Suspense siblings waterfall issue in many client-side apps. Fortunately, the React team went the extra mile to preserve the optimization while preventing waterfalls by introducing a new [Suspense siblings pre-warming](https://react.dev/blog/2024/04/25/react-19-upgrade-guide#improvements-to-suspense) feature.
+      Однак цього могло не статися: дев'ятнадцята версія мала бути в [червні](https://x.com/acdlite/status/1797668537349328923), але через [драму із Suspense](https://tkdodo.eu/blog/react-19-and-suspense-a-drama-in-3-acts) реліз затримався до грудня. Оптимізація, що давала змогу швидше рендерити початкові елементи (fallbacks), ненавмисно спричинила проблему "водоспаду" сусідніх дочірніх елементів Suspense у багатьох клієнтських застосунках. На щастя, команда React доклала всіх зусиль, щоб зберегти оптимізацію, водночас запобігши "водоспадам", запровадивши функцію [попереднього прогріву таких елементів](https://uk.react.dev/blog/2024/04/25/react-19-upgrade-guide#improvements-to-suspense). 
 
-      Aside from the long wait, the adoption of this version has been relatively smooth from my perspective. The `18.3` release introduced extra warnings to help prepare our apps ahead of time, and the React team did an outstanding job minimizing breaking changes and documenting them thoroughly in the [upgrade guide](https://react.dev/blog/2024/04/25/react-19-upgrade-guide). Of course, we're still wrapping our heads around all the new features and APIs, but client-side React, as we know and love it, is now better than ever.
+      Окрім тривалого очікування, здається, перехід на цю нову версію відбувся без ускладнень. У версії `18.3` були додані додаткові попередження, щоб заздалегідь підготувати наші застосунки, а команда React відмінно впоралася з мінімізацією руйнівних змін та їхнім детальним описом у [посібнику з оновлення](https://uk.react.dev/blog/2024/04/25/react-19-upgrade-guide). Звісно, ми досі звикаємо до всіх недавніх функцій та API, але клієнтський React, яким ми його знаємо й любимо, тепер кращий, ніж будь-коли. 
 
-      The introduction of React Server Components and Server Actions brings us new, powerful primitives tightly integrated into frameworks. Next.js, the leading implementation, demonstrates their benefits but also highlights new challenges in routing and caching, which have led to pushback in the community. Personally, I think it’s perfectly fine to continue using React on the client side and eventually adopt server-side features if they make sense for your project, once best practices become clearer.
+      Поява серверних компонентів React та серверних дій надала потужні примітиви, які тісно інтегровані у фреймворки. Як провідна імплементація, Next.js демонструє їхні переваги, водночас виокремлюючи нові виклики в маршрутизації та кешуванні, що спричинило певний спротив у спільноті. На мою думку, цілком нормально й надалі використовувати React з боку клієнта та поступово додавати серверні функції, виправдані чи практичні для вашого проєкту, щойно найкращі практики стануть очевиднішими. 
 
-      But this year wasn’t just about React 19 — it was also the year React Native’s [New Architecture](https://reactnative.dev/blog/2024/10/23/the-new-architecture-is-here) became ready for production, marking a significant leap forward for the cross-platform ecosystem. We also got the [React Compiler](https://react.dev/blog/2024/10/21/react-compiler-beta-release) in beta. Initially presented as an auto-memoizing compiler, it’s actually a fully fledged optimization platform for React, set to become much more powerful in the future.
+      Але цей рік був не лише про React 19: нарешті готова до впровадження [нова архітектура](https://reactnative.dev/blog/2024/10/23/the-new-architecture-is-here) React Native, що є значним кроком вперед для мультиплатформної екосистеми. Також ми отримали бета-версію [React Compiler](https://uk.react.dev/blog/2024/10/21/react-compiler-beta-release). Спочатку представлений як компілятор для автоматичної мемоїзації, насправді він є повноцінною оптимізаційною платформою для React, яка в майбутньому стане ще потужнішою. 
 
-      These new foundations lay the groundwork for a bright future in 2025. We’ve only begun to tap into their potential, with many impactful features and integrations ahead. Similar to the introduction of hooks, we could be on the brink of a React renaissance.
+      Ці останні надбання закладають фундамент світлого майбутнього у 2025 році. І ми лишень доторкнулися їхнього потенціалу, а попереду багато інших важливих функцій та інтеграцій. Подібно до запровадження хуків, можливо, ми знову на порозі ренесансу React.
 
   - key: conclusion.react2024.sebastien_lorber.bio
     t: |
-      [This Week In React](https://thisweekinreact.com/) founder and [Docusaurus](https://docusaurus.io/) maintainer
+      Автор ["This Week In React"](https://thisweekinreact.com/) і мейнтейнер [Docusaurus](https://docusaurus.io/)
 
   ###########################################################################
   # Picks
@@ -545,51 +545,51 @@ translations:
   - key: picks.jack_herrington.name
     t: Tanstack Start
   - key: picks.jack_herrington.bio
-    t: Principal Engineer and YouTuber
+    t: Головний інженер і YouTube-відеоблогер
   - key: picks.jack_herrington.description
     t: |
-      Full-time Tanner is just the boost that Tanstack needed to take it next level. And Tanner is delivering on the promise of his stack with Tanstack Start on top of the whole Tanstack ecosystem.
+      Tanner, що працює повний робочий день, — це той імпульс, який потрібен Tanstack, щоб піднятися на новий рівень. І Tanner тримає свого слова, створивши стек Tanstack Start як довершення всієї екосистеми Tanstack.
 
   - key: picks.sebastien_lorber.name
     t: TanStack Router
   - key: picks.sebastien_lorber.bio
-    t: Creator of [This Week in React](https://thisweekinreact.com/)
+    t: Автор ["This Week in React"](https://thisweekinreact.com/)
   - key: picks.sebastien_lorber.description
     t: |
-      This new router, launched in v1 in December 2023, proves that innovation in type safety and search parameters management remains possible. Strong adoption began in 2024, with very positive feedback from the community.
+      З першою стабільною версією у грудні 2023 року, цей новий маршрутизатор доводить, що інновації в типобезпечності та управлінні параметрами пошуку все ще можливі. Його активне впровадження почалося у 2024 році і мало дуже позитивні відгуки від спільноти.
 
   - key: picks.aurora_scharff.name
     t: |
-      nuqs: Type-safe search params state manager for React
+      nuqs — менеджер стану з типобезпечними параметрами пошуку для React
   - key: picks.aurora_scharff.bio
-    t: Web developer and consultant at Inmeta
+    t: Веброзробниця та консультантка в Inmeta
   - key: picks.aurora_scharff.description
     t: |
-      My pick would be [François Best](https://bsky.app/profile/francoisbest.com) and his library [nuqs](https://nuqs.47ng.com/). Recently made available for other React frameworks besides Next.js, it solves many pain points when working with URL search params, and the API is super smooth and easy to use.
+      Моїм вибором став [François Best](https://bsky.app/profile/francoisbest.com) та його бібліотека [nuqs](https://nuqs.47ng.com/). Ставши віднедавна доступною для інших React-фреймворків, окрім Next.js, вона усуває багато проблем під час роботи з параметрами пошуку URL-адрес та має надзвичайно зручний і простий у використанні API.
 
   - key: picks.shaundai_person.name
-    t: CodeTV (formerly Learn with Jason)
+    t: CodeTV (попередньо "Learn with Jason")
   - key: picks.shaundai_person.bio
-    t: Front end Senior Software Engineer (Netflix) and course instructor
+    t: Старша інженерка клієнтського програмного забезпечення (Netflix) та інструкторка курсів
   - key: picks.shaundai_person.description
     t: |
-      Jason’s mission is to make programming fun and accessible for everyone, and he is doing such an incredible job of it. In one series, Jason and 3 devs are faced with the challenge to create an app based on a short coding prompt like “build a leaderboard” or “build an e-commerce site”. And his newest series is a web dev game show that is kind of like a mix of Jeopardy and Hot Ones!
+      Jason бажає зробити програмування цікавим і доступним для всіх, і результати його роботи справді неймовірні. Є епізоди, де перед Jason і трьома розробниками постає завдання розробити застосунок за заданою вказівкою, наприклад, створити таблицю лідерів або сайт електронної комерції. А його найновіший формат — це ігрове шоу для веброзробників, яке нагадує суміш "Jeopardy!" і "Hot Ones"!
 
   - key: picks.josh_comeau.name
-    t: Lucide Icons
+    t: Іконки Lucide
   - key: picks.josh_comeau.bio
-    t: Software engineer and educator. Creator of [The Joy of React](https://www.joyofreact.com/)
+    t: Інженер програмного забезпечення та освітній діяч. Автор ["The Joy of React"](https://www.joyofreact.com/)
   - key: picks.josh_comeau.description
     t: |
-      Lucide is a fork of Feather Icons, adding hundreds of new icons in the same delightful style. Their React bindings are so good; super easy to use, and highly optimized!
+      Lucide — це відгалуження іконок Feather із додаванням сотень нових у тому самому чарівному стилі. У них надзвичайне зв'язування з React; дуже просто використовувати та дуже оптимізовано!
 
   - key: picks.sacha_greif.name
     t: React Scan
   - key: picks.sacha_greif.bio
-    t: Creator @ Devographics
+    t: Автор у Devographics
   - key: picks.sacha_greif.description
     t: |
-      When I first saw a demo of React over a decade ago, one of its big selling points was how fast it could render long, complex web pages. Yet today, poor performance and excessive re-renderings are often held up as weaknesses of the framework. So it's great to see tools like [Million](https://million.dev/) creator [Aiden Bai](https://aiden.mov/)'s React Scan take on this challenge and give you new ways to improve React's performance.
+      Коли я вперше побачив демо React понад десять років тому, однією з його головних переваг була швидкість рендерингу довгих і складних вебсторінок. Проте сьогодні низька швидкодія і надмірний повторний рендеринг часто вважаються слабкими сторонами фреймворку. Тому приємно бачити інструменти як React Scan від [Aiden Bai](https://aiden.mov/), автора [Million](https://million.dev/), що взялися за цю проблему і дають вам нові способи покращити швидкодію React.
 
   # - key: picks.xxx.name
   #   t:
