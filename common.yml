@@ -176,7 +176,7 @@ translations:
       Допоможіть нам, поділившись цим опитуванням з іншими. 
       Чим більша залученість, тим точніша репрезентативність даних:
   - key: thanks.learn_more_about
-    t: "Функції, про які хотіли б дізнатись більше:"
+    t: "Функції, про які хотіли б дізнатися більше:"
   - key: thanks.knowledge_score
     t: Рівень ваших знань
   - key: thanks.features_score
@@ -572,15 +572,15 @@ translations:
 
   # opinions
   - key: options.opinions.0
-    t: Абсолютно не погоджуюсь
+    t: Зовсім не погоджуюся
   - key: options.opinions.1
-    t: Не погоджуюсь
+    t: Не погоджуюся
   - key: options.opinions.2
     t: Важко сказати
   - key: options.opinions.3
-    t: Погоджуюсь
+    t: Погоджуюся
   - key: options.opinions.4
-    t: Повністю погоджуюсь
+    t: Повністю погоджуюся
 
   # age
   - key: options.age.range_less_than_10
