@@ -113,7 +113,8 @@ translations:
   # calendar
 
   - key: calendar.heading
-    t: Майбутні опитування
+    t: |
+      Опитування {currentYear} року
   - key: calendar.feedbackAt
     t: Початок зворотного зв'язку
   - key: calendar.startedAt
@@ -122,3 +123,17 @@ translations:
     t: Завершення опитування
   - key: calendar.releasedAt
     t: Публікація результатів
+  - key: calendar.past_editions
+    t: Попередні опитування
+  - key: calendar.ongoing_editions
+    t: Поточні опитування
+  - key: calendar.upcoming_editions
+    t: Майбутні опитування
+  - key: calendar.no_editions
+    t: Немає опитувань.
+  - key: calendar.give_feedback
+    t: Залишити відгук →
+  - key: calendar.take_survey
+    t: Взяти участь в опитуванні →
+  - key: calendar.view_results
+    t: Переглянути результати →
