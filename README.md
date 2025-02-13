@@ -50,15 +50,14 @@ These strings are related to the app that you use to fill out the actual survey.
 
 - `surveys.yml`
 - `accounts.yml`
-- `state_of_js_2020_survey.yml`
+- `js2020.yml` (partially)
 
 #### Results App
 
 These strings only appear in the static site that displays the survey results and stats.
 
 - `results.yml`
-- `state_of_css_2020.yml`
-- `state_of_js_2020.yml`
+- `js2020.yml` (partially)
 
 #### Both
 
