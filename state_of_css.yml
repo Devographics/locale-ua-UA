@@ -321,7 +321,7 @@ translations:
   - key: options.css_missing_features.more_pseudo_elements
     t: Більше псевдоелементів
   - key: options.css_missing_features.more_pseudo_elements.description
-    t: Більше ніж два псевдоелемента на елемент.
+    t: Більш ніж два псевдоелемента на елемент.
 
   - key: options.css_missing_features.svg_in_css
     t: SVG-in-CSS

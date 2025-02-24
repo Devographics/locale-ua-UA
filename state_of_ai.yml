@@ -231,7 +231,7 @@ translations:
     aliases:
       - options.ai_company_expenses.range_1001_5000
   - key: options.ai_personal_expenses.range_over_5000
-    t: Більше $5000
+    t: Понад $5000
     aliases:
       - options.ai_company_expenses.range_over_5000
 

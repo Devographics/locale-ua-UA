@@ -657,7 +657,7 @@ translations:
   - key: options.years_of_experience.range_10_20
     t: Від 10 до 20 років
   - key: options.years_of_experience.range_more_than_20
-    t: Більше 20 років
+    t: Понад 20 років
 
   # years of experience (short versions)
   - key: options.years_of_experience.range_less_than_1.short
