@@ -8,7 +8,7 @@ translations:
     t: Щорічне опитування про останні тенденції в екосистемі React за 2024 рік.
 
   - key: general.react2024.ai2025_banner
-    t: Take the State of Web Dev AI survey and help us figure out AI's impact on the web! →
+    t: Візьміть участь у "Стані ШІ для веброзробки", щоб ми дізналися про вплив ШІ на веб! →
 
   ###########################################################################
   # Introduction

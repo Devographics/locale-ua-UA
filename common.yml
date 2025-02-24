@@ -1299,24 +1299,24 @@ translations:
   # employment_status
 
   - key: user_info.employment_status
-    t: Employment Status
+    t: Статус зайнятості
   - key: user_info.employment_status.question
-    t: What is your current employment status?
+    t: Який ваш поточний статус зайнятості?
 
   - key: options.employment_status.employed_full_time
-    t: Employed, full-time
+    t: Працюю, повний день
   - key: options.employment_status.freelance
-    t: Independent contractor, freelancer, or self-employed
+    t: Фріланс, самозайнятість, незалежно за договором
   - key: options.employment_status.employed_part_time
-    t: Employed, part-time
+    t: Працюю, неповний день
   - key: options.employment_status.student_full_time
-    t: Student, full-time
+    t: Навчаюся, денна форма
   - key: options.employment_status.student_part_time
-    t: Student, part-time
+    t: Навчаюся, заочна форма
   - key: options.employment_status.looking_for_job
-    t: Not employed, but looking for work
+    t: НЕ працюю, але шукаю роботу
   - key: options.employment_status.not_employed_not_looking
-    t: Not employed, and not looking for work
+    t: НЕ працюю та НЕ шукаю роботу
 
   - key: options.employment_status.full_time
     t: Повний робочий день
