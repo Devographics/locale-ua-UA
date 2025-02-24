@@ -419,7 +419,7 @@ translations:
 
   - key: resources.blogs_news_magazines.takeaway.react2024
     t: |
-      Незважаючи на те що цей список заповнений багатьма звичними "підозрюваними", варто відзначити присутність медіа, які стосуються саме React, як-от **This Week in React** або **React Status**.
+      Незважаючи на те, що цей список заповнений багатьма звичними "підозрюваними", варто відзначити присутність медіа, які стосуються саме React, як-от **This Week in React** або **React Status**.
 
   - key: resources.courses.takeaway.react2024
     t: |
@@ -515,7 +515,7 @@ translations:
   - key: conclusion.react2024.sebastien_lorber
     t: |
 
-      <span class="first-line">Надзвичайний час, щоб бути React-розробником!</span> 
+      <span class="first-line">Надзвичайний час, щоб бути React-розробниками!</span> 
 
       Цей рік почався з [оновлення від React Labs](https://uk.react.dev/blog/2024/02/15/react-labs-what-we-have-been-working-on-february-2024) та [публікації](https://x.com/acdlite/status/1758229889595977824) від Andrew Clark, який пообіцяв, що нам більше ніколи не доведеться використовувати forwardRef — [найменш улюблену функцію React](../features/#all_features). І він дотримав свого слова, оскільки згодом [React 19](https://uk.react.dev/blog/2024/12/05/react-19) продемонстрував нові захопливі функції. 
 
