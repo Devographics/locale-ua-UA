@@ -203,7 +203,7 @@ translations:
 
   - key: resources.blogs_news_magazines.takeaway
     t: |
-      Незважаючи на те що цей список заповнений багатьма звичними "підозрюваними", варто відзначити присутність медіа, які стосуються саме React, як-от **This Week in React** або **React Status**.
+      Незважаючи на те, що цей список заповнений багатьма звичними "підозрюваними", варто відзначити присутність медіа, які стосуються саме React, як-от **This Week in React** або **React Status**.
 
   - key: resources.sites_courses.takeaway
     t: |
