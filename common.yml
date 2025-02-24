@@ -1297,6 +1297,27 @@ translations:
     t: Так, НЕ споріднена галузь
 
   # employment_status
+
+  - key: user_info.employment_status
+    t: Статус зайнятості
+  - key: user_info.employment_status.question
+    t: Який ваш поточний статус зайнятості?
+
+  - key: options.employment_status.employed_full_time
+    t: Працюю, повний день
+  - key: options.employment_status.freelance
+    t: Фріланс, самозайнятість, незалежно за договором
+  - key: options.employment_status.employed_part_time
+    t: Працюю, неповний день
+  - key: options.employment_status.student_full_time
+    t: Навчаюся, денна форма
+  - key: options.employment_status.student_part_time
+    t: Навчаюся, заочна форма
+  - key: options.employment_status.looking_for_job
+    t: НЕ працюю, але шукаю роботу
+  - key: options.employment_status.not_employed_not_looking
+    t: НЕ працюю та НЕ шукаю роботу
+
   - key: options.employment_status.full_time
     t: Повний робочий день
   - key: options.employment_status.student

@@ -132,7 +132,7 @@ translations:
   - key: calendar.no_editions
     t: Немає опитувань.
   - key: calendar.give_feedback
-    t: Залишити відгук →
+    t: Запропонувати питання →
   - key: calendar.take_survey
     t: Взяти участь в опитуванні →
   - key: calendar.view_results
