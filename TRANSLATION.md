@@ -28,7 +28,7 @@
 |a feature|функція|
 |a (meta-)framework|(мета)фреймворк|
 |freeform|довільної форми|
-|happiness|задоволеність|
+|happiness|задоволеність; щастя (тільки для state of devs як щастя від життя)|
 |the hydration|гідрація|
 |an inbox|поштова скринька|
 |to leave an issue|створити запит [на зміну]|
