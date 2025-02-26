@@ -10,37 +10,37 @@ translations:
 
   - key: tools.tools_intro.ai2025
     t: |
-      This first part of the survey is all about which AI tools you use, or have heard about.
+      Ця перша частина опитування про те, якими ШІ-інструментами ви користуєтеся та про які з них чули.
 
   - key: sections.career.title
-    t: Career
+    t: Кар'єра
   - key: sections.career.prompt
-    t: Your career and work experience up to now.
+    t: Ваша кар'єра та досвід роботи до сьогодні.
 
   - key: sections.workplace.title
-    t: Workplace
+    t: Місце роботи
   - key: sections.workplace.prompt
-    t: Your current workplace.
+    t: Ваше поточне місце роботи.
 
   - key: sections.technology.title
-    t: Technology
+    t: Технології
   - key: sections.technology.prompt
-    t: The apps, languages, and platforms you use.
+    t: Застосунки, мови та платформи, які ви використовуєте.
 
   - key: sections.health.title
-    t: Health
+    t: Здоров'я
   - key: sections.health.prompt
-    t: Health & fitness.
+    t: Здоров'я та фізична форма.
 
   - key: sections.worldview.title
-    t: Worldview
+    t: Світогляд
   - key: sections.worldview.prompt
-    t: Worldview, politics, and current events.
+    t: Світогляд, політика та поточні події.
 
   - key: sections.hobbies.title
-    t: Hobbies
+    t: Хобі
   - key: sections.hobbies.prompt
-    t: Your other passions.
+    t: Інші ваші захоплення.
 
   # employment_status
   - key: career.employment_status
@@ -50,83 +50,83 @@ translations:
 
   # how_many_jobs
   - key: career.how_many_jobs
-    t: Job Count
+    t: Кількість місць роботи
   - key: career.how_many_jobs.question
-    t: How many companies have you worked for up to now?
+    t: У скількох компаніях ви працювали до сьогодні?
   - key: career.how_many_jobs.question.prompt
-    t: Only including programming jobs.
+    t: Враховуються тільки програмістські посади.
 
   # career_issues
 
   - key: career.career_issues
-    t: Workplace Issues
+    t: Проблеми на роботі
   - key: career.career_issues.question
-    t: Which of these workplace issues have you experienced throughout your professional career?
+    t: З якими проблемами на робочому місці ви стикалися протягом професійної кар'єри?
 
   - key: options.career_issues.sexual_harassment
-    t: Sexual harassment
+    t: Сексуальне домагання
   - key: options.career_issues.sexual_harassment.description
-    t: Unwelcome behavior of a sexual nature that creates a hostile work environment.
+    t: Небажана поведінка сексуального характеру, яка створює вороже робоче середовище.
 
   - key: options.career_issues.non_sexual_harassment
-    t: Non-sexual harassment
+    t: Несексуальне домагання
   - key: options.career_issues.non_sexual_harassment.description
-    t: Other targeted forms of harassment that creates a hostile work environment.
+    t: Інші цільові форми цькувань чи залякувань, які створюють вороже робоче середовище.
 
   - key: options.career_issues.gender_discrimination
-    t: Gender discrimination
+    t: Гендерна дискримінація
   - key: options.career_issues.gender_discrimination.description
-    t: Being discriminated against based on your gender.
+    t: Дискримінація за гендерною ознакою.
 
   - key: options.career_issues.race_discrimination
-    t: Race discrimination
+    t: Расова дискримінація
   - key: options.career_issues.race_discrimination.description
-    t: Being discriminated against based on your race.
+    t: Дискримінація за расовою ознакою.
 
   - key: options.career_issues.mental_health_issues
-    t: Mental health issues
+    t: Проблеми з психічним здоров'ям
   - key: options.career_issues.mental_health_issues.description
-    t: Workplace-related mental health issues such as stress or anxiety.
+    t: Психічні проблеми, пов'язані з роботою, як-от стрес або тривожність.
 
   - key: options.career_issues.excessive_overtime
-    t: Excessive overtime
+    t: Надмірна понаднормова робота
   - key: options.career_issues.excessive_overtime.description
-    t: Excessive overtime and other work-life-balance issues.
+    t: Надмірна понаднормова робота та проблеми балансу роботи і життя.
 
   - key: options.career_issues.underpaid_work
-    t: Underpaid work
+    t: Недоплачувана робота
   - key: options.career_issues.underpaid_work.description
-    t: Insufficient salary or income.
+    t: Недостатня зарплата або дохід.
 
   - key: options.career_issues.burnout
-    t: Burnout
+    t: Вигорання
   - key: options.career_issues.burnout.description
-    t: Lack of motivation or depression related to work issues.
+    t: Брак мотивації або депресія через робочі проблеми.
 
   - key: options.career_issues.job_insecurity
-    t: Job insecurity
+    t: Нестабільність роботи
   - key: options.career_issues.job_insecurity.description
-    t: Being afraid of losing your job; or difficulties finding a new one.
+    t: Страх втратити роботу або труднощі з пошуком нової.
 
   - key: options.career_issues.bad_management
-    t: Bad management
+    t: Поганий менеджмент
   - key: options.career_issues.bad_management.description
-    t: Overall bad work environment due to poor management practices.
+    t: Загалом погане робоче середовище через погане управління.
 
   # past_year_conferences
 
   - key: career.past_year_conferences
-    t: Conferences
+    t: Конференції
   - key: career.past_year_conferences.question
-    t: How many conferences have you attended in the past year?
+    t: Скільки конференцій ви відвідали за минулий рік?
 
   - key: career.past_year_meetups_events
-    t: Meetups & Events
+    t: Зустрічі та події
   - key: career.past_year_meetups_events.question
-    t: How many meetups & local events have you attended in the past year?
+    t: Скільки зустрічей чи місцевих заходів ви відвідали за минулий рік?
 
   - key: options.past_year_conferences.range_0
-    t: None
+    t: Нічого
     aliases:
       - options.past_year_meetups_events.range_0
   - key: options.past_year_conferences.range_1
@@ -146,47 +146,47 @@ translations:
     aliases:
       - options.past_year_meetups_events.range_11_15
   - key: options.past_year_conferences.range_more_than_15
-    t: More than 15
+    t: Понад 15
     aliases:
       - options.past_year_meetups_events.range_more_than_15
 
   # WORKPLACE
 
   - key: workplace.remote_work_policy
-    t: Remote Work
+    t: Віддалена робота
   - key: workplace.remote_work_policy.question
-    t: What best describes your employer's remote work policy?
+    t: Що з наведеного найкраще описує політику вашого роботодавця щодо віддаленої роботи?
 
   - key: options.remote_work_policy.no_remote_work
-    t: No remote work
+    t: Немає віддаленої роботи
   - key: options.remote_work_policy.no_remote_work.description
-    t: All employees must attend the office.
+    t: Всі працівники повинні відвідувати офіс.
   - key: options.remote_work_policy.hybrid
-    t: Hybrid
+    t: Гібридна робота
   - key: options.remote_work_policy.hybrid.description
-    t: Some remote work is permitted, but employees must regularly attend the office.
+    t: Частково можна працювати віддалено, але потрібно регулярно відвідувати офіс.
   - key: options.remote_work_policy.up_to_employee
-    t: Up to the employee
+    t: За вибором працівника
   - key: options.remote_work_policy.up_to_employee.description
-    t: Employees can choose whether to work remotely or in the office.
+    t: Працівники самі вибирають, працювати віддалено чи в офісі.
   - key: options.remote_work_policy.fully_remote
-    t: Fully remote
+    t: Повністю віддалена робота
   - key: options.remote_work_policy.fully_remote.description
-    t: All employees work completely remotely.
+    t: Всі працівники працюють віддалено.
   - key: options.remote_work_policy.na
-    t: 🚫 Not applicable
+    t: 🚫 Не застосовується
   - key: options.remote_work_policy.na.description
-    t: Solo worker
+    t: Один працівник
 
   - key: workplace.work_hours_per_week
-    t: Work Hours
+    t: Робочі години
   - key: workplace.work_hours_per_week.question
-    t: In a typical week, how many hours do you work?
+    t: Скільки годин на тиждень ви зазвичай працюєте?
 
   - key: workplace.job_happiness
-    t: Job Happiness
+    t: Задоволеність роботою
   - key: workplace.job_happiness.question
-    t: How happy are you with your current job?
+    t: Наскільки ви задоволені своєю поточною роботою?
 
   # - key: workplace.job_ai_threat
   #   t: a
@@ -194,96 +194,96 @@ translations:
   # workplace_difficulties
 
   - key: workplace.workplace_difficulties
-    t: Workplace Difficulties
+    t: Труднощі на роботі
   - key: workplace.workplace_difficulties.question
-    t: What are the negative aspects of the working environment at your current employer?
+    t: Які негативні аспекти робочого середовища у вашого поточного роботодавця?
 
   - key: options.workplace_difficulties.coworker_relations
-    t: Coworkers relations
+    t: Взаємовідносини з колегами
   - key: options.workplace_difficulties.coworker_relations.description
-    t: Harassment, poor communication, etc.
+    t: Домагання, погана комунікація тощо.
 
   - key: options.workplace_difficulties.company_culture
-    t: Company culture
+    t: Корпоративна культура
   - key: options.workplace_difficulties.company_culture.description
-    t: Toxic culture, bad work practices, etc.
+    t: Токсична атмосфера, погані робочі практики тощо.
 
   - key: options.workplace_difficulties.working_conditions
-    t: Working conditions
+    t: Умови роботи
   - key: options.workplace_difficulties.working_conditions.description
-    t: Old equipment, cramped spaces, etc.
+    t: Застаріле обладнання, тісний простір тощо.
 
   - key: options.workplace_difficulties.job_security
-    t: Job security
+    t: Гарантії зайнятості
   - key: options.workplace_difficulties.job_security.description
-    t: Poor job security, short-term contracts, etc.
+    t: Брак гарантій зайнятості, короткострокові контракти тощо.
 
   - key: options.workplace_difficulties.work_content
-    t: Work content
+    t: Зміст роботи
   - key: options.workplace_difficulties.work_content.description
-    t: Uninteresting tasks, tasks not matching job description, excessive idle time, etc.
+    t: Нецікаві завдання, завдання не збігаються з описом роботи, надмірна бездіяльність тощо.
 
   - key: options.workplace_difficulties.work_life_balance
-    t: Work-life balance
+    t: Баланс роботи та життя
   - key: options.workplace_difficulties.work_life_balance.description
-    t: Burnout, excessive overtime, forced company events, etc.
+    t: Вигорання, надмірні понаднормові, примусові корпоративні заходи тощо.
 
   - key: options.workplace_difficulties.compensation
-    t: Compensation
+    t: Оплата
   - key: options.workplace_difficulties.compensation.description
-    t: Insufficient compensation
+    t: Недостатня плата
 
   - key: options.workplace_difficulties.training
-    t: Training
+    t: Навчання
   - key: options.workplace_difficulties.training.description
-    t: Lack of training and development
+    t: Брак навчання та розвитку
 
     # workplace_perks
 
   - key: workplace.workplace_perks
-    t: Workplace Perks
+    t: Вигоди на роботі
   - key: workplace.workplace_perks.question
-    t: What are the positive aspects of the working environment at your current employer?
+    t: Які позитивні аспекти робочого середовища у вашого поточного роботодавця?
 
   - key: options.workplace_perks.coworker_relations
     aliasFor: options.workplace_difficulties.coworker_relations
   - key: options.workplace_perks.coworker_relations.description
-    t: Good relations with coworkers
+    t: Гарні відносини з колегами
 
   - key: options.workplace_perks.company_culture
     aliasFor: options.workplace_difficulties.company_culture
   - key: options.workplace_perks.company_culture.description
-    t: Positive company culture, attention to quality, etc.
+    t: Позитивна корпоративна культура, увага до якості тощо.
 
   - key: options.workplace_perks.working_conditions
     aliasFor: options.workplace_difficulties.working_conditions
   - key: options.workplace_perks.working_conditions.description
-    t: Good work environment, modern equipment, etc.
+    t: Комфортне робоче середовище, сучасне обладнання тощо.
 
   - key: options.workplace_perks.job_security
     aliasFor: options.workplace_difficulties.job_security
   - key: options.workplace_perks.job_security.description
-    t: Stable job, long-term contracts, etc.
+    t: Стабільна робота, довгострокові контракти тощо.
 
   - key: options.workplace_perks.work_content
     aliasFor: options.workplace_difficulties.work_content
   - key: options.workplace_perks.work_content.description
-    t: Interesting tasks, fulfilling job, etc.
+    t: Цікаві завдання, задоволення від роботи тощо.
 
   - key: options.workplace_perks.work_life_balance
     aliasFor: options.workplace_difficulties.work_life_balance
   - key: options.workplace_perks.work_life_balance.description
-    t: No overtime, flexible hours, etc.
+    t: Відсутність понаднормових, гнучкий графік тощо.
 
   - key: options.workplace_perks.compensation
     aliasFor: options.workplace_difficulties.compensation
   - key: options.workplace_perks.compensation.description
-    t: Good compensation
+    t: Гідна оплата
 
   - key: options.workplace_perks.training
     aliasFor: options.workplace_difficulties.training
   - key: options.workplace_perks.training.description
-    t: Company-provided training and skill development
+    t: Навчання та розвиток коштом компанії
 
   # - key: workplace.how_much_can_you_be_yourself_at_work
   #   t:
@@ -292,22 +292,22 @@ translations:
 
   # mobile_os
   - key: technology.mobile_os
-    t: Mobile OS
+    t: Мобільна ОС
   - key: technology.mobile_os.question
-    t: Which mobile OS do you use most?
+    t: Які мобільні операційні системи ви використовуєте найчастіше?
 
   - key: options.mobile_os.ios
     t: iOS
   - key: options.mobile_os.android
     t: Android
   - key: options.mobile_os.no_smartphone
-    t: I don't have a smartphone
+    t: Не маю смартфона
 
   # desktop_os
   - key: technology.desktop_os
-    t: Desktop OS
+    t: Настільна ОС
   - key: technology.desktop_os.question
-    t: Which desktop OS do you use most?
+    t: Які настільні операційні системи ви використовуєте найчастіше?
 
   - key: options.desktop_os.mac_os
     t: macOS
@@ -318,78 +318,78 @@ translations:
 
   # programming_languages
   - key: technology.programming_languages
-    t: Programming Languages
+    t: Мови програмування
   - key: technology.programming_languages.question
-    t: Which programming languages do you code in?
+    t: Якими мовами ви програмуєте?
 
   # ai_tools
   - key: technology.ai_tools
-    t: AI Tools
+    t: ШІ-інструменти
   - key: technology.ai_tools.question
-    t: Which AI tools do you use regularly?
+    t: Які ШІ-інструменти ви регулярно використовуєте?
 
   # productivity_apps
   - key: technology.productivity_apps
-    t: Productivity Apps
+    t: Застосунки для продуктивності
   - key: technology.productivity_apps.question
-    t: Which productivity app do you use regularly?
+    t: Які застосунки для продуктивності ви регулярно використовуєте?
 
   # chat_apps
   - key: technology.chat_apps
-    t: Messaging Apps
+    t: Месенджери
   - key: technology.chat_apps.question
-    t: Which messaging apps do you use regularly?
+    t: Які месенджери ви регулярно використовуєте?
 
   # social_media
   - key: technology.social_media
-    t: Social Media
+    t: Соціальні мережі
   - key: technology.social_media.question
-    t: Which social media sites do you use regularly?
+    t: Які соціальні мережі ви регулярно використовуєте?
 
   # health
 
   - key: health.health_issues
-    t: Health Issues
+    t: Проблеми зі здоров'ям
   - key: health.health_issues.question
-    t: Which ongoing health issues are you experiencing?
+    t: Які хронічні чи постійні проблеми зі здоров'ям ви маєте?
 
   - key: options.health_issues.poor_sleep
-    t: Poor sleep
+    t: Поганий сон
   - key: options.health_issues.weight_issues
-    t: Weight issues
+    t: Проблеми з вагою
   - key: options.health_issues.respiratory_issues
-    t: Respiratory issues
+    t: Респіраторні захворювання
   - key: options.health_issues.diabetes
-    t: Diabetes
+    t: Діабет
   - key: options.health_issues.chronic_fatigue
-    t: Chronic fatigue
+    t: Хронічна втома
   - key: options.health_issues.heart_disease
-    t: Heart disease
+    t: Серцеві захворювання
   - key: options.health_issues.cancer
-    t: Cancer
+    t: Рак
   - key: options.health_issues.mental_health_issues
-    t: Mental health issues
+    t: Психічні розлади
   - key: options.health_issues.substance_abuse_issues
-    t: Substance abuse issues
+    t: Зловживання психоактивними речовинами
   - key: options.health_issues.back_pain
-    t: Back pain
+    t: Біль у спині
   - key: options.health_issues.wrist_hand_pain
-    t: Wrist/hand pain
+    t: Біль у зап'ясті/руці
   - key: options.health_issues.other_joint_pain
-    t: Other joint pain
+    t: Інші болі в суглобах
   - key: options.health_issues.skin_issues
-    t: Skin issues
+    t: Проблеми зі шкірою
   - key: options.health_issues.headaches
-    t: Headaches & migraines
+    t: Головні болі та мігрені
 
   # sleep_quantity
   - key: health.sleep_quantity
-    t: Sleep Quantity
+    t: Тривалість сну
   - key: health.sleep_quantity.question
-    t: How much hours of sleep do you get per night, on average?
+    t: Скільки годин ви спите щоночі в середньому?
 
   - key: options.sleep_quantity.range_5_or_less
-    t: 5 or fewer
+    t: 5 чи менше
   - key: options.sleep_quantity.range_6
     t: 6
   - key: options.sleep_quantity.range_7
@@ -401,159 +401,159 @@ translations:
   - key: options.sleep_quantity.range_10
     t: 10
   - key: options.sleep_quantity.more_than_10
-    t: 10 or more
+    t: Понад 10
 
   # sleep_bedtime
   - key: health.sleep_bedtime
-    t: Bedtime
+    t: Час засинання
   - key: health.sleep_bedtime.question
-    t: What time do you usually go to sleep?
+    t: О котрій годині ви зазвичай лягаєте спати?
 
   - key: health.sleep_wakeuptime
-    t: Wake Up Time
+    t: Час пробудження
   - key: health.sleep_wakeuptime.question
-    t: What time do you usually wake up?
+    t: О котрій годині ви зазвичай прокидаєтеся?
 
   - key: health.sleep_measures
-    t: Sleep Strategies
+    t: Стратегії покращення сну
   - key: health.sleep_measures.question
-    t: What methods have you tried to improve your sleep, if any?
+    t: Які методи ви пробували для покращення сну?
 
   - key: options.sleep_measures.consistent_bedtime
-    t: Consistent bedtime
+    t: Дотримання постійного часу сну
   - key: options.sleep_measures.darkened_curtains
-    t: Darkened curtains
+    t: Затемнені штори
   - key: options.sleep_measures.sleep_mask
-    t: Sleep mask
+    t: Маска для сну
   - key: options.sleep_measures.avoid_screens
-    t: Avoiding screens before bedtime
+    t: Уникання екранів перед сном
   - key: options.sleep_measures.earplugs
-    t: Earplugs
+    t: Вушні затички/беруші
   - key: options.sleep_measures.sleeping_pills
-    t: Sleeping pills
+    t: Снодійні препарати
   - key: options.sleep_measures.supplements
-    t: Supplements
+    t: Добавки (supplements)
 
   # worldview
 
   - key: worldview.left_right
-    t: Left vs Right
+    t: Ліві та праві
   - key: worldview.left_right.question
-    t: Where do you place yourself on the left vs right political axis?
+    t: Де ви себе розміщуєте на шкалі лівих і правих політичних поглядів?
 
   - key: options.left_right.0
-    t: Far Left
+    t: Крайні ліві
   - key: options.left_right.4
-    t: Center
+    t: Центр
   - key: options.left_right.8
-    t: Far Right
+    t: Крайні праві
 
   - key: worldview.global_issues
-    t: Global Issues
+    t: Глобальні проблеми
   - key: worldview.global_issues.question
-    t: What do you consider to be the top global issues facing the world today?
+    t: Які глобальні проблеми, на вашу думку, є найважливішими у світі сьогодні?
 
   - key: options.global_issues.climate_change
-    t: Climate change
+    t: Зміна клімату
   - key: options.global_issues.global_pandemics
-    t: Global pandemics
+    t: Глобальні пандемії
   - key: options.global_issues.refugees_immigration
-    t: Refugee & migration crisis
+    t: Криза біженців і міграції
   - key: options.global_issues.economic_inequality
-    t: Economic inequality
+    t: Економічна нерівність
   - key: options.global_issues.healthcare_access
-    t: Healthcare access
+    t: Доступ до охорони здоров'я
   - key: options.global_issues.geopolitical_tensions
-    t: Geopolitical tensions
+    t: Геополітична напруженість
   - key: options.global_issues.ai_threats
-    t: AI threats
+    t: Загрози від ШІ
   - key: options.global_issues.rising_authoritarianism
-    t: Rising authoritarianism
+    t: Зростання авторитаризму
   - key: options.global_issues.rising_intolerance
-    t: Rising intolerence
+    t: Зростання нетерпимості
   - key: options.global_issues.erosion_traditional_values
-    t: Erosion of traditional values
+    t: Руйнування традиційних цінностей
   - key: options.global_issues.globalization
-    t: Globalization
+    t: Глобалізація
   - key: options.global_issues.lack_of_free_speech
-    t: Lack of free speech
+    t: Брак свободи слова
 
   # companies_opinion
 
   - key: worldview.companies_opinion
-    t: Companies
+    t: Компанії
   - key: worldview.companies_opinion.question
-    t: What's your opinion of the following companies?
+    t: Що ви думаєте про наведені компанії?
 
   # happiness_factors
   - key: worldview.happiness_factors
-    t: Happiness Factors
+    t: Фактори щастя
   - key: worldview.happiness_factors.description
-    t: What are the most important factors for your own personal happiness?
+    t: Які фактори є найбільш важливими для вашого особистого щастя?
 
   - key: options.happiness_factors.health
-    t: Good health
+    t: Гарне здоров'я
   - key: options.happiness_factors.career_progress
-    t: Career progress
+    t: Кар'єрний розвиток
   - key: options.happiness_factors.romantic_relationships
-    t: Romantic relationships
+    t: Романтичні стосунки
   - key: options.happiness_factors.other_relationships
-    t: Friendships
+    t: Дружба
   - key: options.happiness_factors.hobbies
-    t: Hobbies
+    t: Хобі
   - key: options.happiness_factors.family
-    t: Family
+    t: Сім'я
   - key: options.happiness_factors.community
-    t: Community
+    t: Спільнота
   - key: options.happiness_factors.material_possessions
-    t: Wealth and material possessions
+    t: Добробут та матеріальні блага
   - key: options.happiness_factors.living_environment
-    t: Living environment
+    t: Середовище проживання
   - key: options.happiness_factors.religion_spirituality
-    t: Religion and/or spirituality
+    t: Релігія ата/або духовність
 
   # overall_happiness
   - key: worldview.overall_happiness
-    t: Overall Happiness
+    t: Загальний показник щастя
   - key: worldview.overall_happiness.question
-    t: Overall, how happy are you these days?
+    t: Наскільки ви зараз щасливі загалом?
 
   # hobbies
 
   - key: hobbies.physical_activity
-    t: Physical Activity
+    t: Фізична активність
   - key: hobbies.physical_activity.question
-    t: Which of the following physical activites do you practice regularly? (once a week or more)
+    t: Якими фізичними активностями ви регулярно займаєтеся? (раз на тиждень або частіше)
 
   - key: options.physical_activity.climbing
-    t: Climbing
+    t: Скелелазіння
   - key: options.physical_activity.martial_arts
-    t: Martial arts
+    t: Бойові мистецтва
   - key: options.physical_activity.running
-    t: Running
+    t: Біг
   - key: options.physical_activity.strength_training
-    t: Strength training
+    t: Силові тренування
   - key: options.physical_activity.swimming
-    t: Swimming
+    t: Плавання
   - key: options.physical_activity.yoga
-    t: Yoga
+    t: Йога
   - key: options.physical_activity.gymnastics
-    t: Gymnastics
+    t: Гімнастика
   - key: options.physical_activity.golf
-    t: Golf
+    t: Гольф
   - key: options.physical_activity.tennis
-    t: Tennis
+    t: Теніс
   - key: options.physical_activity.soccer
-    t: Soccer
+    t: Футбол
   - key: options.physical_activity.biking
-    t: Biking
+    t: Велоспорт
   - key: options.physical_activity.hiking
-    t: Hiking
+    t: Пішохідний туризм
 
   - key: hobbies.physical_activity_frequency
-    t: Physical Activity Frequency
+    t: Частота фізичної активності
   - key: hobbies.physical_activity_frequency.question
-    t: On average, how many days a week do you exercise?
+    t: Скільки днів на тиждень ви тренуєтеся в середньому?
 
   - key: options.physical_activity_frequency.0
     t: 0
@@ -573,55 +573,55 @@ translations:
     t: 7
 
   - key: hobbies.hobbies
-    t: Hobbies
+    t: Хобі
   - key: hobbies.hobbies.question
-    t: What hobbies do you have?
+    t: Які хобі ви маєте?
 
   - key: options.hobbies.woodworking
-    t: Woodworking/DIY
+    t: Столярна справа/DIY
   - key: options.hobbies.table_top_gaming
-    t: Table-top gaming
+    t: Настільні ігри
   - key: options.hobbies.video_games
-    t: Video games
+    t: Відеоігри
   - key: options.hobbies.music
-    t: Playing music
+    t: Гра на музичних інструментах
   - key: options.hobbies.cooking
-    t: Cooking
+    t: Кулінарія
   - key: options.hobbies.reading
-    t: Reading
+    t: Читання
   - key: options.hobbies.arts_and_crafts
-    t: Arts and crafts
+    t: Мистецтво та рукоділля
   - key: options.hobbies.electronics
-    t: Electronics
+    t: Електроніка
   - key: options.hobbies.gardening
-    t: Gardening
+    t: Садівництво
   - key: options.hobbies.camping
-    t: Camping
+    t: Кемпінг
 
   # hobbies_frequency
 
   - key: hobbies.hobbies_frequency
-    t: Hobbies Frequency
+    t: Частота хобі
   - key: hobbies.hobbies_frequency.question
-    t: How often are you able to practice your hobbies?
+    t: Як часто ви можете займатися своїми хобі?
 
   - key: options.hobbies_frequency.once_a_year_less
-    t: Once a year or less
+    t: Раз на рік чи рідше
   - key: options.hobbies_frequency.few_times_per_year
-    t: A few times per year
+    t: Декілька разів на рік
   - key: options.hobbies_frequency.few_times_per_month
-    t: A few times per month
+    t: Декілька разів на місяць
   - key: options.hobbies_frequency.few_times_per_week
-    t: A few times per week
+    t: Декілька разів на тиждень
   - key: options.hobbies_frequency.every_day
-    t: Every day
+    t: Щодня
 
   # video_game_platforms
 
   - key: hobbies.video_game_platforms
-    t: Video Game Platforms
+    t: Відеоігрові платформи
   - key: hobbies.video_game_platforms.question
-    t: Which video game platforms do you play on, if any?
+    t: На яких відеоігрових платформах ви граєте?
 
   - key: options.video_game_platforms.nintendo_switch
     t: Switch
@@ -640,30 +640,30 @@ translations:
   - key: options.video_game_platforms.steamdeck
     t: Steamdeck
   - key: options.video_game_platforms.retro_emulation_console
-    t: Retro emulation consoles
+    t: Емулятор гральної ретроконсолі
 
   # video_games
 
   - key: hobbies.video_games
-    t: Video Games
+    t: Відеоігри
   - key: hobbies.video_games.question
-    t: What are your top three favorite video games you've played in the past 12 months?
+    t: У які три ваші найулюбленіші відеоігри ви грали за останні 12 місяців?
 
   # user_info
 
   - key: user_info.number_of_kids
-    t: Number of Kids
+    t: Кількість дітей
   - key: user_info.number_of_kids.question
-    t: How many children do you have, if any?
+    t: Скільки у вас дітей?
 
   - key: user_info.relationship_status
-    t: Relationship Status
+    t: Сімейний стан
   - key: user_info.relationship_status.question
-    t: What is your current relationship status?
+    t: Який ваш поточний сімейний стан?
 
   - key: options.relationship_status.single
-    t: Single
+    t: НЕ в стосунках
   - key: options.relationship_status.in_a_relationship
-    t: In a relationship
+    t: У стосунках
   - key: options.relationship_status.its_complicated
-    t: It's complicated
+    t: Складно

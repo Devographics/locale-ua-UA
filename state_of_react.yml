@@ -493,7 +493,7 @@ translations:
   - key: usage.react_version
     t: Версія React
   - key: usage.react_version.question
-    t: Якою версією React ви найчастіше користуєтеся у повсякденній роботі?
+    t: Яку версію React ви найчастіше використовуєте у повсякденній роботі?
 
   - key: options.react_version.react_v16x
     t: 16.x
