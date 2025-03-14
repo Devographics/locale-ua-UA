@@ -23,62 +23,161 @@ translations:
     t: |
       Ця перша частина опитування про те, якими ШІ-інструментами ви користуєтеся та про які з них чули.
 
+  # models
+
   - key: sections.models.title
     t: Постачальники моделей
   - key: sections.models.prompt
     t: ШІ-застосунки та -моделі загального призначення.
 
+  - key: tools.models_experience
+    t: Models Experience & Sentiment
+  - key: tools.models_others
+    t: Other Models
+
   - key: tools.models_pain_points
     t: Проблеми постачальників моделей
+    aliases:
+      - models.models_pain_points
+      - ai_pain_points.models_pain_points
   - key: tools.models_pain_points.question
     t: З якими проблемами ви стикалися під час використання ШІ-моделей?
+    aliases:
+      - models.models_pain_points.question
+      - ai_pain_points.models_pain_points.question
+
+  - key: options.ai_pain_points.hallucinations
+    t: Hallucinations
+  - key: options.ai_pain_points.inaccurate_incorrect_results
+    t: Inaccurate/incorrect results
+  - key: options.ai_pain_points.context_limitations
+    t: Limited context
+  - key: options.ai_pain_points.high_cost
+    t: High monetary cost
+  - key: options.ai_pain_points.slow_to_return_results
+    t: Slow response speed
+  - key: options.ai_pain_points.poor_generated_code_quality
+    t: Poor generated code quality
+  - key: options.ai_pain_points.outdated_information
+    t: Outdated information
+  - key: options.ai_pain_points.misunderstanding_prompt
+    t: Misunderstanding the prompt
+  - key: options.ai_pain_points.rate_limiting
+    t: Rate and usage limiting
+  - key: options.ai_pain_points.inconsistent_results
+    t: Inconsistent results
+  - key: options.ai_pain_points.poor_reliability
+    t: Poor reliability
+  - key: options.ai_pain_points.overly_generic_answers
+    t: Overly generic answers
+  - key: options.ai_pain_points.overconfidence
+    t: Overconfidence
+  - key: options.ai_pain_points.overly_verbose_results
+    t: Overly verbose answers
+
+  - key: options.ai_pain_points.cursor_pain_points
+    t: Cursor issues
+
+  # coding_assistants
 
   - key: sections.coding_assistants.title
     t: Асистенти для програмування
   - key: sections.coding_assistants.prompt
     t: ШІ-інструменти, які допомагають протягом процесу розробки.
 
+  - key: tools.coding_assistants_experience
+    t: Coding Assistants Experience & Sentiment
+  - key: tools.coding_assistants_others
+    t: Other Coding Assistants
+
   - key: tools.coding_assistants_pain_points
     t: Проблеми асистентів для програмування
+    aliases:
+      - coding_assistants.coding_assistants_pain_points
+      - ai_pain_points.coding_assistants_pain_points
   - key: tools.coding_assistants_pain_points.question
     t: З якими проблемами ви стикалися під час використання асистентів/помічників для програмування?
+    aliases:
+      - coding_assistants.coding_assistants_pain_points.question
+      - ai_pain_points.coding_assistants_pain_points.question
+
+  # code_generation
 
   - key: sections.code_generation.title
     t: Генерація коду
   - key: sections.code_generation.prompt
     t: ШІ-інструменти, які використовуються для створення нових кодових баз або сніпетів.
 
+  - key: tools.code_generation_experience
+    t: Code Generation Experience & Sentiment
+  - key: tools.code_generation_others
+    t: Other Code Generation Tools
+
   - key: tools.code_generation_pain_points
     t: Проблеми генерації коду
+    aliases:
+      - code_generation.code_generation_pain_points
+      - ai_pain_points.code_generation_pain_points
   - key: tools.code_generation_pain_points.question
     t: З якими проблемами ви стикалися під час використання інструментів генерації коду?
+    aliases:
+      - code_generation.code_generation_pain_points.question
+      - ai_pain_points.code_generation_pain_points.question
+
+  # ides
 
   - key: sections.ides.title
     t: IDE та редактори коду
   - key: sections.ides.prompt
     t: Інтегровані середовища розробки або редактори коду, які зосереджені на інтеграції ШІ.
 
+  - key: tools.ides_experience
+    t: IDEs Experience & Sentiment
+  - key: tools.ides_others
+    t: Other IDEs
+
   - key: tools.ides_pain_points
     t: Проблеми IDE та редакторів коду
+    aliases:
+      - ides.ides_pain_points
+      - ai_pain_points.ides_pain_points
   - key: tools.ides_pain_points.question
     t: З якими проблемами ви стикалися під час використання інтегрованих середовищ розробки та редакторів коду, зосереджених на інтеграції ШІ?
+    aliases:
+      - ides.ides_pain_points.question
+      - ai_pain_points.ides_pain_points.question
+
+  # image_generation
 
   - key: sections.image_generation.title
     t: Генерація зображень
   - key: sections.image_generation.prompt
     t: ШІ-інструменти для генерації та редагування зображень.
 
+  - key: tools.image_generation_experience
+    t: Image Generation Experience & Sentiment
+  - key: tools.image_generation_others
+    t: Other Image Generation Tools
+
   # ai_programming_languages
 
   - key: other_tools.ai_programming_languages
     t: Мови програмування
+    aliases:
+      - tools.ai_programming_languages
   - key: other_tools.ai_programming_languages.question
     t: З якими мовами програмування ви використовуєте ШІ-інструменти?
+    aliases:
+      - tools.ai_programming_languages.question
 
   - key: other_tools.image_generation
     t: Генерація зображень
+    aliases:
+      - tools.image_generation
   - key: other_tools.image_generation.question
     t: Які ШІ-інструменти або -моделі ви використовуєте для генерації зображень?
+    aliases:
+      - tools.image_generation.question
 
   # chatgpt
 
@@ -89,22 +188,34 @@ translations:
 
   - key: other_tools.ai_libraries_sdks
     t: Бібліотеки та SDK
+    aliases:
+      - tools.ai_libraries_sdks
   - key: other_tools.ai_libraries_sdks.question
     t: Які ШІ-бібліотеки або -набори для розробки програмного забезпечення ви використовуєте?
+    aliases:
+      - tools.ai_libraries_sdks.question
 
   # ai_browser_apis 
 
   - key: other_tools.ai_browser_apis
     t: API браузера
+    aliases:
+      - tools.ai_browser_apis
   - key: other_tools.ai_browser_apis.question
     t: Які API штучного інтелекту, на вашу думку, найбільше потребують нативного підтримування браузерами?
+    aliases:
+      - tools.ai_browser_apis.question
 
-  # ai_tools_others
+  # ai_pain_points_others
 
-  - key: other_tools.ai_tools_others
+  - key: other_tools.ai_pain_points_others
     t: Інші інструменти
-  - key: other_tools.ai_tools_others.question
+    aliases:
+      - tools.ai_pain_points_others
+  - key: other_tools.ai_pain_points_others.question
     t: Які ще ШІ-інструменти, що не були згадані, ви використовуєте?
+    aliases:
+      - tools.ai_pain_points_others.question
 
   # ai_generated_code_balance
 
