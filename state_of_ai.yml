@@ -775,6 +775,8 @@ translations:
     t: Особистості
   - key: resources.ai_people.question
     t: За ким у сфері ШІ ви стежите у соціальних медіа?
+  - key: resources.ai_people.description
+    t: Developers, influencers, experts, etc.
 
   - key: user_info.years_of_experience.state_of_ai
     t: Досвід
