@@ -811,4 +811,4 @@ translations:
   - key: faq.team
     t: Хто проводить це опитування?
   - key: faq.team.description
-    t: Це опитування проводить команда [Devographics](https://devographics.com/) з допомогою від спільноти та волонтерів.
+    t: Це опитування проводить команда [Devographics](https://devographics.com/) із допомогою від спільноти та волонтерів.
