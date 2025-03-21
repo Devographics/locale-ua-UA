@@ -31,9 +31,9 @@ translations:
     t: ШІ-застосунки та -моделі загального призначення.
 
   - key: tools.models_experience
-    t: Models Experience & Sentiment
+    t: Досвід використання і ставлення до моделей
   - key: tools.models_others
-    t: Other Models
+    t: Інші моделі
 
   - key: tools.models_pain_points
     t: Проблеми постачальників моделей
@@ -47,36 +47,36 @@ translations:
       - ai_pain_points.models_pain_points.question
 
   - key: options.ai_pain_points.hallucinations
-    t: Hallucinations
+    t: Галюцинації
   - key: options.ai_pain_points.inaccurate_incorrect_results
-    t: Inaccurate/incorrect results
+    t: Неточні/неправильні результати
   - key: options.ai_pain_points.context_limitations
-    t: Limited context
+    t: Обмежений контекст
   - key: options.ai_pain_points.high_cost
-    t: High monetary cost
+    t: Висока вартість
   - key: options.ai_pain_points.slow_to_return_results
-    t: Slow response speed
+    t: Низька швидкість відповіді
   - key: options.ai_pain_points.poor_generated_code_quality
-    t: Poor generated code quality
+    t: Погана якість згенерованого коду
   - key: options.ai_pain_points.outdated_information
-    t: Outdated information
+    t: Застаріла інформація
   - key: options.ai_pain_points.misunderstanding_prompt
-    t: Misunderstanding the prompt
+    t: Нерозуміння підказки (prompt)
   - key: options.ai_pain_points.rate_limiting
-    t: Rate and usage limiting
+    t: Обмеження на запити та використання
   - key: options.ai_pain_points.inconsistent_results
-    t: Inconsistent results
+    t: Непослідовні результати
   - key: options.ai_pain_points.poor_reliability
-    t: Poor reliability
+    t: Погана надійність
   - key: options.ai_pain_points.overly_generic_answers
-    t: Overly generic answers
+    t: Занадто узагальнені відповіді
   - key: options.ai_pain_points.overconfidence
-    t: Overconfidence
+    t: Надмірна впевненість
   - key: options.ai_pain_points.overly_verbose_results
-    t: Overly verbose answers
+    t: Занадто багатослівні чи докладні відповіді
 
   - key: options.ai_pain_points.cursor_pain_points
-    t: Cursor issues
+    t: Проблеми Cursor
 
   # coding_assistants
 
@@ -86,9 +86,9 @@ translations:
     t: ШІ-інструменти, які допомагають протягом процесу розробки.
 
   - key: tools.coding_assistants_experience
-    t: Coding Assistants Experience & Sentiment
+    t: Досвід використання і ставлення до асистентів для програмування
   - key: tools.coding_assistants_others
-    t: Other Coding Assistants
+    t: Інші асистенти для програмування
 
   - key: tools.coding_assistants_pain_points
     t: Проблеми асистентів для програмування
@@ -109,9 +109,9 @@ translations:
     t: ШІ-інструменти, які використовуються для створення нових кодових баз або сніпетів.
 
   - key: tools.code_generation_experience
-    t: Code Generation Experience & Sentiment
+    t: Досвід використання і ставлення до генерації коду
   - key: tools.code_generation_others
-    t: Other Code Generation Tools
+    t: Інші інструменти генерації коду
 
   - key: tools.code_generation_pain_points
     t: Проблеми генерації коду
@@ -132,9 +132,9 @@ translations:
     t: Інтегровані середовища розробки або редактори коду, які зосереджені на інтеграції ШІ.
 
   - key: tools.ides_experience
-    t: IDEs Experience & Sentiment
+    t: Досвід використання і ставлення до IDE
   - key: tools.ides_others
-    t: Other IDEs
+    t: Інші IDE
 
   - key: tools.ides_pain_points
     t: Проблеми IDE та редакторів коду
@@ -155,9 +155,9 @@ translations:
     t: ШІ-інструменти для генерації та редагування зображень.
 
   - key: tools.image_generation_experience
-    t: Image Generation Experience & Sentiment
+    t: Досвід використання і ставлення до генерації зображень
   - key: tools.image_generation_others
-    t: Other Image Generation Tools
+    t: Інші інструменти генерації зображень
 
   # ai_programming_languages
 
@@ -776,7 +776,7 @@ translations:
   - key: resources.ai_people.question
     t: За ким у сфері ШІ ви стежите у соціальних медіа?
   - key: resources.ai_people.description
-    t: Developers, influencers, experts, etc.
+    t: Розробники, впливові діячі, експерти тощо
 
   - key: user_info.years_of_experience.state_of_ai
     t: Досвід
