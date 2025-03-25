@@ -678,6 +678,11 @@ translations:
   - key: options.ai_running_locally.yes_interested
     t: Так
 
+  - key: options.ai_running_locally.no_not_interested.short
+    t: No, not interested
+  - key: options.ai_running_locally.no_but_interested.short
+    t: No, but interested
+
   # ai_missing_features
 
   - key: usage.ai_missing_features
