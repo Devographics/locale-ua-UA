@@ -1940,6 +1940,10 @@ translations:
     t: >
       медіана: **{value}**
 
+  - key: charts.average.marker
+    t: >
+      Average: **{value}**
+
   - key: charts.filter_by
     t: >
       Фільтрувати за:
