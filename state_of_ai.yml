@@ -36,7 +36,7 @@ translations:
   - key: tools.models_others
     t: Інші моделі
   - key: tools.models_others.question
-    t: What other models are you currently using?
+    t: Які ще моделі ви наразі використовуєте?
 
   - key: tools.models_pain_points
     t: Проблеми постачальників моделей
@@ -56,7 +56,7 @@ translations:
   - key: options.ai_pain_points.slow_to_return_results
     t: Низька швидкість відповіді
   - key: options.ai_pain_points.poor_generated_code_quality
-    t: Погана якість згенерованого коду
+    t: Низька якість згенерованого коду
   - key: options.ai_pain_points.outdated_information
     t: Застаріла інформація
   - key: options.ai_pain_points.misunderstanding_prompt
@@ -66,7 +66,7 @@ translations:
   - key: options.ai_pain_points.inconsistent_results
     t: Непослідовні результати
   - key: options.ai_pain_points.poor_reliability
-    t: Погана надійність
+    t: Низька надійність
   - key: options.ai_pain_points.overly_generic_answers
     t: Занадто узагальнені відповіді
   - key: options.ai_pain_points.overconfidence
@@ -76,45 +76,45 @@ translations:
   - key: options.ai_pain_points.hallucinations_inaccuracies
     t: Галюцинації та неточності
   - key: options.ai_pain_points.code_generation_issues
-    t: Poor generated code quality
+    t: Низька якість згенерованого коду
   - key: options.ai_pain_points.lack_of_understanding
-    t: Lack of prompt understanding
+    t: Відсутність розуміння підказки (prompt)
   - key: options.ai_pain_points.poor_response_quality
-    t: Poor response quality
+    t: Низька якість відповіді
   - key: options.ai_pain_points.prompt_engineering_difficulty
-    t: Difficulties enginering prompts
+    t: Складнощі створення підказок (prompt)
   - key: options.ai_pain_points.slow_response_time
-    t: Slow response time
+    t: Повільність відповіді
   - key: options.ai_pain_points.outdated_knowledge
-    t: Outdated knowledge
+    t: Застарілі знання
   - key: options.ai_pain_points.limited_reasoning_ability
-    t: Limited reasoning ability
+    t: Обмежена здатність міркувати
   - key: options.ai_pain_points.overly_verbose_responses
-    t: Overly verbose responses
+    t: Занадто багатослівні чи докладні відповіді
   - key: options.ai_pain_points.bad_ui_ux
-    t: Poor UI/UX
+    t: Погані UI/UX
   - key: options.ai_pain_points.tool_integration_issues
-    t: Tool integration issues
+    t: Проблеми інтеграції інструментів
   - key: options.ai_pain_points.intrusive_suggestions
-    t: Intrusive or distracting suggestions
+    t: Пропозиції, які нав'язуються або відвертають увагу
   - key: options.ai_pain_points.code_modification_problems
-    t: Bad at modifying code
+    t: Погано змінює код
   - key: options.ai_pain_points.tool_setup_issues
-    t: Tool setup issues
+    t: Проблеми налаштування інструментів
   - key: options.ai_pain_points.overrated_hype
-    t: Overrated
+    t: Переоціненість
   - key: options.ai_pain_points.stuck_in_loops
-    t: Stuck in loops
+    t: Циклічно застрягає
   - key: options.ai_pain_points.poor_suggestions
-    t: Poor suggestions
+    t: Погані пропозиції
   - key: options.ai_pain_points.lack_of_codebase_knowledge
-    t: Lack of codebase awareness
+    t: Відсутність обізнаності про кодову базу
   - key: options.ai_pain_points.limited_usefulness
-    t: Limited usefuleness
+    t: Обмежена корисність
   - key: options.ai_pain_points.free_plan_limitations
-    t: Free plans limitations
+    t: Обмеження безкоштовних планів
   - key: options.ai_pain_points.ethical_concerns
-    t: Ethical concerns
+    t: Етичні проблеми
 
   - key: options.ai_pain_points.cursor_pain_points
     t: Проблеми Cursor
@@ -132,7 +132,7 @@ translations:
   - key: tools.coding_assistants_others
     t: Інші асистенти для програмування
   - key: tools.coding_assistants_others.question
-    t: What other coding assistants are you currently using?
+    t: Які ще асистенти для програмування ви наразі використовуєте?
 
   - key: tools.coding_assistants_pain_points
     t: Проблеми асистентів для програмування
@@ -158,7 +158,7 @@ translations:
   - key: tools.code_generation_others
     t: Інші інструменти генерації коду
   - key: tools.code_generation_others.question
-    t: What other code generation tools are you currently using?
+    t: Які ще інструменти генерації коду ви наразі використовуєте?
 
   - key: tools.code_generation_pain_points
     t: Проблеми генерації коду
@@ -184,7 +184,7 @@ translations:
   - key: tools.ides_others
     t: Інші IDE
   - key: tools.ides_others.question
-    t: What other IDEs are you currently using?
+    t: Які ще IDE ви наразі використовуєте?
 
   - key: tools.ides_pain_points
     t: Проблеми IDE та редакторів коду
@@ -210,7 +210,7 @@ translations:
   - key: tools.image_generation_others
     t: Інші інструменти генерації зображень
   - key: tools.image_generation_others.question
-    t: What other image generation tools are you currently using?
+    t: Які ще інструменти генерації зображень ви наразі використовуєте?
 
   # ai_programming_languages
 
@@ -371,33 +371,33 @@ translations:
     t: Погана прочитність
 
   - key: options.ai_code_refactoring_reasons.faulty_code
-    t: Faulty code
+    t: Помилки в коді
   - key: options.ai_code_refactoring_reasons.hallucinations_inaccuracies
     aliasFor: options.ai_pain_points.hallucinations_inaccuracies
   - key: options.ai_code_refactoring_reasons.code_generation_issues
     aliasFor: options.ai_pain_points.poor_generated_code
   - key: options.ai_code_refactoring_reasons.poor_generated_code_style
-    t: Poor code style
+    t: Поганий стиль коду
   - key: options.ai_code_refactoring_reasons.not_matching_requirements
-    t: Not matching requirements
+    t: Невідповідність вимогам
   - key: options.ai_code_refactoring_reasons.codebase_compatibility
-    t: Incompatible with codebase
+    t: Несумісність з кодовою базою
   - key: options.ai_code_refactoring_reasons.context_limitations
-    t: Lack of context
+    t: Відсутність контексту
   - key: options.ai_code_refactoring_reasons.incomplete_implementation
-    t: Incomplete code
+    t: Незавершеність коду
   - key: options.ai_code_refactoring_reasons.over_engineering
-    t: Over-engineering
+    t: Технічна переускладненість
   - key: options.ai_code_refactoring_reasons.gaining_better_understanding
-    t: Gaining a better understanding
+    t: Отримання кращого розуміння
   - key: options.ai_code_refactoring_reasons.outdated_knowledge
-    t: Outdated code
+    t: Застарілість коду
   - key: options.ai_code_refactoring_reasons.excessive_comments
-    t: Excessive comments
+    t: Надмірність коментарів
   - key: options.ai_code_refactoring_reasons.code_readability
-    t: Poor readability
+    t: Погана прочитність
   - key: options.ai_code_refactoring_reasons.phantom_api_usage
-    t: Using made-up APIs
+    t: Використання вигаданих API
 
   # ai_personal_expenses
 
@@ -582,11 +582,11 @@ translations:
     t: Тести
 
   - key: options.ai_generated_code_type.configuration_code
-    t: Configuration code
+    t: Конфігураційний код
   - key: options.ai_generated_code_type.boilerplate_code
-    t: Boilerplate code
+    t: Шаблонний код
   - key: options.ai_generated_code_type.database_queries
-    t: Database queries
+    t: Запити до бази даних
 
     # ai_uses
 
@@ -716,7 +716,7 @@ translations:
       - options.ai_browser_apis.learning_research.description
 
   - key: options.ai_uses.no_browser_ai_apis
-    t: None
+    t: Нічого
     aliases:
       - options.ai_browser_apis.no_browser_ai_apis
 
@@ -786,9 +786,9 @@ translations:
     t: Так
 
   - key: options.ai_running_locally.no_not_interested.short
-    t: No, not interested
+    t: Ні, НЕ цікаво
   - key: options.ai_running_locally.no_but_interested.short
-    t: No, but interested
+    t: Ні, але цікаво
 
   # ai_missing_features
 
@@ -798,25 +798,25 @@ translations:
     t: Яких можливостей, на вашу думку, не вистачає в ШІ-інструментах?
 
   - key: options.ai_missing_features.larger_context_window
-    t: Larger context window
+    t: Більше контекстне вікно
   - key: options.ai_missing_features.large_codebase_support
-    t: Larger codebases support
+    t: Підтримування великих кодових баз
   - key: options.ai_missing_features.up_to_date_knowledge
-    t: Up-to-date knowledge
+    t: Актуальні знання
   - key: options.ai_missing_features.better_accuracy
-    t: Better accuracy
+    t: Краща точність
   - key: options.ai_missing_features.self_evaluation
-    t: Self-evaluation
+    t: Самооцінювання/самоаналіз
   - key: options.ai_missing_features.higher_intelligence
-    t: Higher intelligence
+    t: Вищий рівень інтелекту
   - key: options.ai_missing_features.system_integration
-    t: Better tool integration
+    t: Краща інтеграція інструментів
   - key: options.ai_missing_features.truthfulness
-    t: Truthfulness
+    t: Правдивість
   - key: options.ai_missing_features.user_interaction
-    t: Better UI/UX
+    t: Кращі UI/UX
   - key: options.ai_missing_features.customization
-    t: More customization
+    t: Більше налаштувань для себе
 
   # ai_happiness
 
