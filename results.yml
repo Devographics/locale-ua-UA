@@ -1944,6 +1944,16 @@ translations:
     t: >
       Average: **{value}**
 
+  - key: charts.median.marker
+    t: >
+      Median: **{value}**
+
+  - key: charts.marker.toggle.average
+    t: Toggle median
+
+  - key: charts.marker.toggle.median
+    t: Toggle average
+
   - key: charts.filter_by
     t: >
       Фільтрувати за:
@@ -1996,6 +2006,9 @@ translations:
       автоматизованої та ручної обробки даних.
   - key: answers.report_abuse
     t: Повідомити про порушення у цій відповіді
+
+  - key: answers.alphabetical
+    t: Alphabetical Order
 
   - key: answers.length
     t: Довжина відповіді
