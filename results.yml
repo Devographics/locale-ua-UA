@@ -403,8 +403,12 @@ translations:
 
   - key: user_metadata.created_at_date
     t: Відповіді з часом
+    aliases:
+      - _user_metadata.created_at_date
   - key: user_metadata.created_at_date.description
     t: Хронологічне розбиття часу збору відповідей.
+    aliases:
+      - _user_metadata.created_at_date.description
 
   - key: user_metadata.authmode
     t: Автентифікація
