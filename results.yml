@@ -868,7 +868,7 @@ translations:
   - key: blocks.freeform
     t: Довільна форма
   - key: blocks.multiple
-    t: Multiple
+    t: Множинний вибір
 
   # Reading List
   - key: features.reading_list
@@ -926,7 +926,7 @@ translations:
   - key: charts.facet_respondents
     t: "({count} респондентів)"
   - key: charts.facet_detail
-    t: "({count} responses out of {totalRespondents} respondents)"
+    t: "({count} відповідей від {totalRespondents} респондентів)"
 
   - key: charts.average.used
     t: 'Середнє: "Використовував(-ла)"'
@@ -1087,12 +1087,12 @@ translations:
   - key: charts.freeform_data
     t: Дані відповідей вільної форми
   - key: charts.freeform_data.description
-    t: Respondents typed their answers using a freeform text field
+    t: Респонденти вводили свої відповіді, використовуючи текстове поле довільної форми
 
   - key: charts.multiple_data
-    t: Multiple Choice
+    t: Множинний вибір
   - key: charts.multiple_data.description
-    t: Respondents could submit more than one answer for this question
+    t: Респонденти могли надати більше однієї відповіді на це запитання
 
   - key: charts.tick.links
     t: Посилання
@@ -1946,17 +1946,17 @@ translations:
 
   - key: charts.average.marker
     t: >
-      Average: **{value}**
+      середнє: **{value}**
 
   - key: charts.median.marker
     t: >
-      Median: **{value}**
+      медіана: **{value}**
 
   - key: charts.marker.toggle.average
-    t: Toggle median
+    t: Перемкнути в медіану
 
   - key: charts.marker.toggle.median
-    t: Toggle average
+    t: Перемкнути в середнє
 
   - key: charts.filter_by
     t: >
@@ -2012,7 +2012,7 @@ translations:
     t: Повідомити про порушення у цій відповіді
 
   - key: answers.alphabetical
-    t: Alphabetical Order
+    t: За алфавітом
 
   - key: answers.length
     t: Довжина відповіді
