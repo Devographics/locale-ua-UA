@@ -32,8 +32,11 @@ translations:
 
   - key: tools.models_experience
     t: Досвід використання і ставлення до моделей
+
   - key: tools.models_others
     t: Інші моделі
+  - key: tools.models_others.question
+    t: Які ще моделі ви наразі використовуєте?
 
   - key: tools.models_pain_points
     t: Проблеми постачальників моделей
@@ -46,18 +49,14 @@ translations:
       - models.models_pain_points.question
       - ai_pain_points.models_pain_points.question
 
-  - key: options.ai_pain_points.hallucinations
-    t: Галюцинації
-  - key: options.ai_pain_points.inaccurate_incorrect_results
-    t: Неточні/неправильні результати
   - key: options.ai_pain_points.context_limitations
-    t: Обмежений контекст
+    t: Обмеження контексту чи пам'яті
   - key: options.ai_pain_points.high_cost
     t: Висока вартість
   - key: options.ai_pain_points.slow_to_return_results
     t: Низька швидкість відповіді
   - key: options.ai_pain_points.poor_generated_code_quality
-    t: Погана якість згенерованого коду
+    t: Низька якість згенерованого коду
   - key: options.ai_pain_points.outdated_information
     t: Застаріла інформація
   - key: options.ai_pain_points.misunderstanding_prompt
@@ -67,13 +66,55 @@ translations:
   - key: options.ai_pain_points.inconsistent_results
     t: Непослідовні результати
   - key: options.ai_pain_points.poor_reliability
-    t: Погана надійність
+    t: Низька надійність
   - key: options.ai_pain_points.overly_generic_answers
     t: Занадто узагальнені відповіді
   - key: options.ai_pain_points.overconfidence
     t: Надмірна впевненість
   - key: options.ai_pain_points.overly_verbose_results
     t: Занадто багатослівні чи докладні відповіді
+  - key: options.ai_pain_points.hallucinations_inaccuracies
+    t: Галюцинації та неточності
+  - key: options.ai_pain_points.code_generation_issues
+    t: Низька якість згенерованого коду
+  - key: options.ai_pain_points.lack_of_understanding
+    t: Відсутність розуміння підказки (prompt)
+  - key: options.ai_pain_points.poor_response_quality
+    t: Низька якість відповіді
+  - key: options.ai_pain_points.prompt_engineering_difficulty
+    t: Складнощі створення підказок (prompt)
+  - key: options.ai_pain_points.slow_response_time
+    t: Повільність відповіді
+  - key: options.ai_pain_points.outdated_knowledge
+    t: Застарілі знання
+  - key: options.ai_pain_points.limited_reasoning_ability
+    t: Обмежена здатність міркувати
+  - key: options.ai_pain_points.overly_verbose_responses
+    t: Занадто багатослівні чи докладні відповіді
+  - key: options.ai_pain_points.bad_ui_ux
+    t: Погані UI/UX
+  - key: options.ai_pain_points.tool_integration_issues
+    t: Проблеми інтеграції інструментів
+  - key: options.ai_pain_points.intrusive_suggestions
+    t: Пропозиції, які нав'язуються або відвертають увагу
+  - key: options.ai_pain_points.code_modification_problems
+    t: Погано змінює код
+  - key: options.ai_pain_points.tool_setup_issues
+    t: Проблеми налаштування інструментів
+  - key: options.ai_pain_points.overrated_hype
+    t: Переоціненість
+  - key: options.ai_pain_points.stuck_in_loops
+    t: Циклічно застрягає
+  - key: options.ai_pain_points.poor_suggestions
+    t: Погані пропозиції
+  - key: options.ai_pain_points.lack_of_codebase_knowledge
+    t: Відсутність обізнаності про кодову базу
+  - key: options.ai_pain_points.limited_usefulness
+    t: Обмежена корисність
+  - key: options.ai_pain_points.free_plan_limitations
+    t: Обмеження безкоштовних планів
+  - key: options.ai_pain_points.ethical_concerns
+    t: Етичні проблеми
 
   - key: options.ai_pain_points.cursor_pain_points
     t: Проблеми Cursor
@@ -87,8 +128,11 @@ translations:
 
   - key: tools.coding_assistants_experience
     t: Досвід використання і ставлення до асистентів для програмування
+
   - key: tools.coding_assistants_others
     t: Інші асистенти для програмування
+  - key: tools.coding_assistants_others.question
+    t: Які ще асистенти для програмування ви наразі використовуєте?
 
   - key: tools.coding_assistants_pain_points
     t: Проблеми асистентів для програмування
@@ -110,8 +154,11 @@ translations:
 
   - key: tools.code_generation_experience
     t: Досвід використання і ставлення до генерації коду
+
   - key: tools.code_generation_others
     t: Інші інструменти генерації коду
+  - key: tools.code_generation_others.question
+    t: Які ще інструменти генерації коду ви наразі використовуєте?
 
   - key: tools.code_generation_pain_points
     t: Проблеми генерації коду
@@ -133,8 +180,11 @@ translations:
 
   - key: tools.ides_experience
     t: Досвід використання і ставлення до IDE
+
   - key: tools.ides_others
     t: Інші IDE
+  - key: tools.ides_others.question
+    t: Які ще IDE ви наразі використовуєте?
 
   - key: tools.ides_pain_points
     t: Проблеми IDE та редакторів коду
@@ -156,8 +206,11 @@ translations:
 
   - key: tools.image_generation_experience
     t: Досвід використання і ставлення до генерації зображень
+
   - key: tools.image_generation_others
     t: Інші інструменти генерації зображень
+  - key: tools.image_generation_others.question
+    t: Які ще інструменти генерації зображень ви наразі використовуєте?
 
   # ai_programming_languages
 
@@ -206,16 +259,16 @@ translations:
     aliases:
       - tools.ai_browser_apis.question
 
-  # ai_pain_points_others
+  # ai_tools_others
 
-  - key: other_tools.ai_pain_points_others
+  - key: other_tools.ai_tools_others
     t: Інші інструменти
     aliases:
-      - tools.ai_pain_points_others
-  - key: other_tools.ai_pain_points_others.question
+      - tools.ai_tools_others
+  - key: other_tools.ai_tools_others.question
     t: Які ще ШІ-інструменти, що не були згадані, ви використовуєте?
     aliases:
-      - tools.ai_pain_points_others.question
+      - tools.ai_tools_others.question
 
   # ai_generated_code_balance
 
@@ -244,6 +297,19 @@ translations:
     t: "|"
   - key: options.ai_generated_code_balance.8
     t: 100% ШІ
+
+  # - key: options.ai_generated_code_balance.1.short
+  #   t: 12.5%
+  # - key: options.ai_generated_code_balance.2.short
+  #   t: 25%
+  # - key: options.ai_generated_code_balance.3.short
+  #   t: 37.5%
+  # - key: options.ai_generated_code_balance.5.short
+  #   t: 62.5%
+  # - key: options.ai_generated_code_balance.6.short
+  #   t: 75%
+  # - key: options.ai_generated_code_balance.7.short
+  #   t: 87.5%
 
   # ai_generated_code_refactoring
 
@@ -303,6 +369,35 @@ translations:
     t: Перейменування змінних
   - key: options.ai_code_refactoring_reasons.improving_readability
     t: Погана прочитність
+
+  - key: options.ai_code_refactoring_reasons.faulty_code
+    t: Помилки в коді
+  - key: options.ai_code_refactoring_reasons.hallucinations_inaccuracies
+    aliasFor: options.ai_pain_points.hallucinations_inaccuracies
+  - key: options.ai_code_refactoring_reasons.code_generation_issues
+    aliasFor: options.ai_pain_points.poor_generated_code
+  - key: options.ai_code_refactoring_reasons.poor_generated_code_style
+    t: Поганий стиль коду
+  - key: options.ai_code_refactoring_reasons.not_matching_requirements
+    t: Невідповідність вимогам
+  - key: options.ai_code_refactoring_reasons.codebase_compatibility
+    t: Несумісність з кодовою базою
+  - key: options.ai_code_refactoring_reasons.context_limitations
+    t: Відсутність контексту
+  - key: options.ai_code_refactoring_reasons.incomplete_implementation
+    t: Незавершеність коду
+  - key: options.ai_code_refactoring_reasons.over_engineering
+    t: Технічна переускладненість
+  - key: options.ai_code_refactoring_reasons.gaining_better_understanding
+    t: Отримання кращого розуміння
+  - key: options.ai_code_refactoring_reasons.outdated_knowledge
+    t: Застарілість коду
+  - key: options.ai_code_refactoring_reasons.excessive_comments
+    t: Надмірність коментарів
+  - key: options.ai_code_refactoring_reasons.code_readability
+    t: Погана прочитність
+  - key: options.ai_code_refactoring_reasons.phantom_api_usage
+    t: Використання вигаданих API
 
   # ai_personal_expenses
 
@@ -486,6 +581,13 @@ translations:
   - key: options.ai_generated_code_type.tests
     t: Тести
 
+  - key: options.ai_generated_code_type.configuration_code
+    t: Конфігураційний код
+  - key: options.ai_generated_code_type.boilerplate_code
+    t: Шаблонний код
+  - key: options.ai_generated_code_type.database_queries
+    t: Запити до бази даних
+
     # ai_uses
 
   - key: usage.ai_uses
@@ -613,6 +715,11 @@ translations:
     aliases:
       - options.ai_browser_apis.learning_research.description
 
+  - key: options.ai_uses.no_browser_ai_apis
+    t: Нічого
+    aliases:
+      - options.ai_browser_apis.no_browser_ai_apis
+
   # ai_pain_points
   - key: usage.ai_pain_points
     t: Проблеми
@@ -678,6 +785,11 @@ translations:
   - key: options.ai_running_locally.yes_interested
     t: Так
 
+  - key: options.ai_running_locally.no_not_interested.short
+    t: Ні, НЕ цікаво
+  - key: options.ai_running_locally.no_but_interested.short
+    t: Ні, але цікаво
+
   # ai_missing_features
 
   - key: usage.ai_missing_features
@@ -685,12 +797,37 @@ translations:
   - key: usage.ai_missing_features.question
     t: Яких можливостей, на вашу думку, не вистачає в ШІ-інструментах?
 
+  - key: options.ai_missing_features.larger_context_window
+    t: Більше контекстне вікно
+  - key: options.ai_missing_features.large_codebase_support
+    t: Підтримування великих кодових баз
+  - key: options.ai_missing_features.up_to_date_knowledge
+    t: Актуальні знання
+  - key: options.ai_missing_features.better_accuracy
+    t: Краща точність
+  - key: options.ai_missing_features.self_evaluation
+    t: Самооцінювання/самоаналіз
+  - key: options.ai_missing_features.higher_intelligence
+    t: Вищий рівень інтелекту
+  - key: options.ai_missing_features.system_integration
+    t: Краща інтеграція інструментів
+  - key: options.ai_missing_features.truthfulness
+    t: Правдивість
+  - key: options.ai_missing_features.user_interaction
+    t: Кращі UI/UX
+  - key: options.ai_missing_features.customization
+    t: Більше налаштувань для себе
+
   # ai_happiness
 
   - key: usage.ai_happiness
     t: Задоволення
+    aliases:
+      - happiness.ai_happiness
   - key: usage.ai_happiness.question
     t: Наскільки ви задоволені поточним станом ШІ-інструментів для веброзробки?
+    aliases:
+      - happiness.ai_happiness.question
 
   # existential_risk
 

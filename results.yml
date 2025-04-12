@@ -403,8 +403,12 @@ translations:
 
   - key: user_metadata.created_at_date
     t: Відповіді з часом
+    aliases:
+      - _user_metadata.created_at_date
   - key: user_metadata.created_at_date.description
     t: Хронологічне розбиття часу збору відповідей.
+    aliases:
+      - _user_metadata.created_at_date.description
 
   - key: user_metadata.authmode
     t: Автентифікація
@@ -863,6 +867,8 @@ translations:
   # other
   - key: blocks.freeform
     t: Довільна форма
+  - key: blocks.multiple
+    t: Множинний вибір
 
   # Reading List
   - key: features.reading_list
@@ -919,6 +925,8 @@ translations:
     t: "{count} відповідей"
   - key: charts.facet_respondents
     t: "({count} респондентів)"
+  - key: charts.facet_detail
+    t: "({count} відповідей від {totalRespondents} респондентів)"
 
   - key: charts.average.used
     t: 'Середнє: "Використовував(-ла)"'
@@ -1079,7 +1087,12 @@ translations:
   - key: charts.freeform_data
     t: Дані відповідей вільної форми
   - key: charts.freeform_data.description
-    t: Дані, зібрані з відповідей довільної форми
+    t: Респонденти вводили свої відповіді, використовуючи текстове поле довільної форми
+
+  - key: charts.multiple_data
+    t: Множинний вибір
+  - key: charts.multiple_data.description
+    t: Респонденти могли надати більше однієї відповіді на це запитання
 
   - key: charts.tick.links
     t: Посилання
@@ -1931,6 +1944,20 @@ translations:
     t: >
       медіана: **{value}**
 
+  - key: charts.average.marker
+    t: >
+      середнє: **{value}**
+
+  - key: charts.median.marker
+    t: >
+      медіана: **{value}**
+
+  - key: charts.marker.toggle.average
+    t: Перемкнути в медіану
+
+  - key: charts.marker.toggle.median
+    t: Перемкнути в середнє
+
   - key: charts.filter_by
     t: >
       Фільтрувати за:
@@ -1983,6 +2010,9 @@ translations:
       автоматизованої та ручної обробки даних.
   - key: answers.report_abuse
     t: Повідомити про порушення у цій відповіді
+
+  - key: answers.alphabetical
+    t: За алфавітом
 
   - key: answers.length
     t: Довжина відповіді
