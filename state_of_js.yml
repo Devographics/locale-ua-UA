@@ -1854,7 +1854,7 @@ translations:
   - key: entities.static_typing.name
     t: Статична типізація
   - key: entities.static_typing.description
-    t: Відсутність нативної типізації
+    t: Нестача нативної типізації
 
   - key: entities.browser_support.name
     t: Підтримання браузерами
@@ -1888,7 +1888,7 @@ translations:
     t: Проблеми екосистеми
 
   - key: entities.lack_of_tools.name
-    t: Відсутність інструментів
+    t: Нестача інструментів
 
   - key: entities.dependencies.name
     t: Залежності
@@ -1911,21 +1911,21 @@ translations:
     t: Проблеми управління пакетами
 
   - key: entities.lack_of_pattern_matching.name
-    t: Відсутність зіставлення із шаблоном
+    t: Нестача зіставлення із шаблоном
 
   - key: entities.syntax_issues.name
     t: Проблеми синтаксису
 
   - key: entities.lack_of_documentation.name
-    t: Відсутність документації
+    t: Нестача документації
   - key: entities.lack_of_documentation.description
-    t: Відсутність документації або прикладів коду
+    t: Нестача документації або прикладів коду
 
   - key: entities.firefox_issues.name
     t: Проблеми Firefox
 
   - key: entities.lack_of_adoption.name
-    t: Відсутність впровадження
+    t: Нестача впровадження
 
   - key: entities.debugging.name
     t: Залежності
@@ -2042,7 +2042,7 @@ translations:
   - key: entities.access_to_native_apis.name
     t: Доступ до нативних API
   - key: entities.access_to_native_apis.description
-    t: Відсутність доступу до нативних API
+    t: Нестача доступу до нативних API
 
   - key: entities.bundle_size.name
     t: Розмір пакету

@@ -480,7 +480,7 @@ translations:
   - key: options.react_pain_points.forms
     t: Форми
   - key: options.react_pain_points.typescript
-    t: Відсутність офіційного підтримання TypeScript
+    t: Нестача офіційного підтримання TypeScript
 
   # usage type
   - key: usage.react_usage_type
