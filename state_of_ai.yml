@@ -78,7 +78,7 @@ translations:
   - key: options.ai_pain_points.code_generation_issues
     t: Низька якість згенерованого коду
   - key: options.ai_pain_points.lack_of_understanding
-    t: Відсутність розуміння підказки (prompt)
+    t: Нестача розуміння підказки (prompt)
   - key: options.ai_pain_points.poor_response_quality
     t: Низька якість відповіді
   - key: options.ai_pain_points.prompt_engineering_difficulty
@@ -108,7 +108,7 @@ translations:
   - key: options.ai_pain_points.poor_suggestions
     t: Погані пропозиції
   - key: options.ai_pain_points.lack_of_codebase_knowledge
-    t: Відсутність обізнаності про кодову базу
+    t: Нестача обізнаності про кодову базу
   - key: options.ai_pain_points.limited_usefulness
     t: Обмежена корисність
   - key: options.ai_pain_points.free_plan_limitations
@@ -383,7 +383,7 @@ translations:
   - key: options.ai_code_refactoring_reasons.codebase_compatibility
     t: Несумісність з кодовою базою
   - key: options.ai_code_refactoring_reasons.context_limitations
-    t: Відсутність контексту
+    t: Нестача контексту
   - key: options.ai_code_refactoring_reasons.incomplete_implementation
     t: Незавершеність коду
   - key: options.ai_code_refactoring_reasons.over_engineering
@@ -757,12 +757,12 @@ translations:
     t: Занепокоєння щодо енергоспоживання ШІ-інструментів.
 
   - key: options.ai_pain_points.lack_of_context
-    t: Відсутність контексту
+    t: Нестача контексту
   - key: options.ai_pain_points.lack_of_context.description
     t: ШІ не враховує весь контекст проєкту.
 
   - key: options.ai_pain_points.lack_of_memory
-    t: Відсутність пам'яті
+    t: Нестача пам'яті
   - key: options.ai_pain_points.lack_of_memory.description
     t: ШІ не запам'ятовує з часом.
 

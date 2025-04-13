@@ -176,7 +176,7 @@ translations:
     t: Які проблеми динамічної зміни HTML найбільше вас розчаровують?
   - key: features.interactivity_pain_points.prompt
     t: |
-      Несумісність між браузерами або відсутність підтримування, відсутні функції та інші проблеми, з якими ви стикаєтеся,
+      Несумісність між браузерами або недостатнє підтримування, відсутні функції та інші проблеми, з якими ви стикаєтеся,
       що пов'язані з інтерактивними елементами та поведінкою (крім форм), маніпулюванням DOM, подіями та суміжними API.
 
   - key: features.interactivity_pain_points.placeholder
@@ -814,7 +814,7 @@ translations:
   - key: usage.html_interoperability_features
     t: Сумісність між браузерами
   - key: usage.html_interoperability_features.question
-    t: Якими наявними функціями HTML або API браузера ви не можете користуватися через відмінності між браузерами або відсутність підтримування?
+    t: Якими наявними функціями HTML або API браузера ви не можете користуватися через відмінності між браузерами або недостатнє підтримування?
   # - key: usage.html_interoperability_features.description
   #   t: |
   #     Any type of API the survey has asked about is within scope.

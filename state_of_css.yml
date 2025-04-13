@@ -915,7 +915,7 @@ translations:
   - key: opinions_others.browser_interoperability_features.others.description
     t: >
       Якими наявними функціями CSS ви не можете користуватися (або взагалі уникаєте)
-      через відсутність підтримування або відмінності між браузерами?
+      через недостатнє підтримування або відмінності між браузерами?
 
   - key: usage.css_interoperability_features
     aliasFor: opinions_others.browser_interoperability_features.others
