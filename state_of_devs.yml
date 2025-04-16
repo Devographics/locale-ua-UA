@@ -60,11 +60,11 @@ translations:
 
   # how_many_jobs
   - key: career.how_many_jobs
-    t: Кількість місць роботи
+    t: Кількість роботодавців
   - key: career.how_many_jobs.question
-    t: У скількох компаніях ви працювали до сьогодні?
-  - key: career.how_many_jobs.question.prompt
-    t: Враховуються тільки програмістські посади.
+    t: У скількох роботодавців ви працювали до сьогодні?
+  - key: career.how_many_jobs.prompt
+    t: Враховуються тільки посади розробки з доходом.
 
   # career_issues
 
@@ -72,6 +72,16 @@ translations:
     t: Проблеми на роботі
   - key: career.career_issues.question
     t: З якими проблемами на робочому місці ви стикалися протягом професійної кар'єри?
+
+  - key: career.career_issues.commentPrompt
+    t: |
+      Будь ласка, розкажіть нам, за бажання, більше про конкретні проблеми, з якими ви зіткнулися — лишень не вказуйте
+      жодної інформації, за якою можна ідентифікувати вас або вашу компанію.
+
+  - key: options.career_issues.harassment
+    t: Домагання
+  - key: options.career_issues.harassment.description
+    t: Небажана поведінка, яка створює вороже робоче середовище.
 
   - key: options.career_issues.sexual_harassment
     t: Сексуальне домагання
@@ -93,25 +103,30 @@ translations:
   - key: options.career_issues.race_discrimination.description
     t: Дискримінація за расовою ознакою.
 
+  - key: options.career_issues.discrimination
+    t: Дискримінація
+  - key: options.career_issues.discrimination.description
+    t: Зазнавання дискримінації через особисті риси.
+
   - key: options.career_issues.mental_health_issues
     t: Проблеми з психічним здоров'ям
   - key: options.career_issues.mental_health_issues.description
-    t: Психічні проблеми, пов'язані з роботою, як-от стрес або тривожність.
+    t: Психічні проблеми, завдані роботою, як-от стрес або тривожність.
 
   - key: options.career_issues.excessive_overtime
-    t: Надмірна понаднормова робота
+    t: Проблеми балансу роботи і життя
   - key: options.career_issues.excessive_overtime.description
-    t: Надмірна понаднормова робота та проблеми балансу роботи і життя.
+    t: Надмірна понаднормова робота, проблеми балансу роботи і життя тощо.
 
   - key: options.career_issues.underpaid_work
-    t: Недоплачувана робота
+    t: Недостатня плата
   - key: options.career_issues.underpaid_work.description
     t: Недостатня зарплата або дохід.
 
   - key: options.career_issues.burnout
     t: Вигорання
   - key: options.career_issues.burnout.description
-    t: Брак мотивації або депресія через робочі проблеми.
+    t: Почуття перевантаженості роботою, що призводить до браку мотивації або депресії.
 
   - key: options.career_issues.job_insecurity
     t: Нестабільність роботи
@@ -122,6 +137,79 @@ translations:
     t: Поганий менеджмент
   - key: options.career_issues.bad_management.description
     t: Загалом погане робоче середовище через погане управління.
+
+  # discrimination_issues
+
+  - key: career.discrimination_issues
+    t: Дискримінація
+  - key: career.discrimination_issues.question
+    t: Чи почувалися ви коли-небудь дискримінованими на робочому місці через будь-який із наведених нижче факторів?
+
+  - key: options.discrimination_issues.gender
+    t: Гендер чи гендерна ідентичність
+  - key: options.discrimination_issues.sexual_orientation
+    t: Сексуальна орієнтація
+  - key: options.discrimination_issues.race
+    t: Раса
+  - key: options.discrimination_issues.religion
+    t: Релігія
+  - key: options.discrimination_issues.age
+    t: Вік
+  - key: options.discrimination_issues.political_views
+    t: Політичні погляди
+  - key: options.discrimination_issues.caregiving_status
+    t: Стан догляду (вагітність, догляд за дитиною тощо)
+  - key: options.discrimination_issues.disability
+    t: Порушення здоров'я
+
+  - key: career.discrimination_issues.commentPrompt
+    aliasFor: career.career_issues.commentPrompt
+
+  # negative_impacts
+
+  - key: career.negative_impacts
+    t: Негативні наслідки
+  - key: career.negative_impacts.question
+    t: Що з цього вам довелося зробити внаслідок проблем на робочому місці?
+
+  - key: options.negative_impacts.changing_appearance
+    t: Змінити зовнішній вигляд
+
+  - key: options.negative_impacts.changing_behavior
+    t: Змінити спосіб говорити чи діяти
+
+  - key: options.negative_impacts.reported_someone
+    t: Поскаржитися на когось керівництву чи HR
+
+  - key: options.negative_impacts.isolating_yourself
+    t: Самоізолюватися від колег
+
+  - key: options.negative_impacts.internal_transfer
+    t: Прохати перейти в інший відділ
+
+  - key: options.negative_impacts.time_off
+    t: Піти в коротку чи довгу відпустку
+
+  - key: options.negative_impacts.quitting_job
+    t: Звільнитися з робити
+
+  - key: options.negative_impacts.shifting_careers
+    t: Змінити кар'єру
+
+  - key: options.negative_impacts.seeking_counseling
+    t: Звернутися до терапії або консультацій
+
+  - key: options.negative_impacts.engaging_legal_counsel
+    t: Залучити юрисконсульта
+
+  - key: options.negative_impacts.scaling_back
+    t: Уповільнити розвиток кар'єри або перейти на неповний робочий день
+
+  - key: options.negative_impacts.taking_medicine
+    t: Приймати ліки (від стресу, депресії тощо)
+
+  - key: career.negative_impacts.commentPrompt
+    aliasFor: career.career_issues.commentPrompt
 
   # past_year_conferences
 
@@ -160,6 +248,20 @@ translations:
     aliases:
       - options.past_year_meetups_events.range_more_than_15
 
+  # laid_off
+
+  - key: career.laid_off
+    t: Скорочення (Layoffs)
+  - key: career.laid_off.question
+    t: Чи вас коли-небудь звільняли унаслідок скорочення працівників?
+
+  - key: options.laid_off.yes_past_year
+    t: Так, протягом останніх 12 місяців
+  - key: options.laid_off.yes_before
+    t: Так, понад рік тому
+  - key: options.laid_off.no
+    t: Ні, ніколи
+
   # WORKPLACE
 
   - key: workplace.remote_work_policy
@@ -180,7 +282,7 @@ translations:
   - key: options.remote_work_policy.up_to_employee.description
     t: Працівники самі вибирають, працювати віддалено чи в офісі.
   - key: options.remote_work_policy.fully_remote
-    t: Повністю віддалена робота
+    t: Лише віддалена робота
   - key: options.remote_work_policy.fully_remote.description
     t: Всі працівники працюють віддалено.
   - key: options.remote_work_policy.na
@@ -244,7 +346,7 @@ translations:
     t: Недостатня плата
 
   - key: options.workplace_difficulties.training
-    t: Навчання
+    t: Навчання і професійний розвиток
   - key: options.workplace_difficulties.training.description
     t: Брак навчання та розвитку
 
@@ -253,7 +355,7 @@ translations:
   - key: workplace.workplace_perks
     t: Вигоди на роботі
   - key: workplace.workplace_perks.question
-    t: Які позитивні аспекти робочого середовища у вашого поточного роботодавця?
+    t: Що вам подобається в поточному робочому місці?
 
   - key: options.workplace_perks.coworker_relations
     aliasFor: options.workplace_difficulties.coworker_relations
@@ -295,6 +397,54 @@ translations:
   - key: options.workplace_perks.training.description
     t: Навчання та розвиток коштом компанії
 
+  # job_finding_application_count
+
+  - key: workplace.job_finding_application_count
+    t: Заяви на роботу
+  - key: workplace.job_finding_application_count.question
+    t: На скільки вакансій ви подалися, перш ніж отримати поточну роботу?
+
+  - key: options.job_finding_application_count.range_0
+    t: Ніскільки (Не застосовується)
+  - key: options.job_finding_application_count.range_1
+    t: 1
+  - key: options.job_finding_application_count.range_2_5
+    t: 2-5
+  - key: options.job_finding_application_count.range_5_10
+    t: 5-10
+  - key: options.job_finding_application_count.range_10_50
+    t: 10-50
+  - key: options.job_finding_application_count.range_50_100
+    t: 50-100
+  - key: options.job_finding_application_count.range_over_100
+    t: 100+
+
+  # job_finding_methods
+
+  - key: workplace.job_finding_methods
+    t: Пошук роботи
+  - key: workplace.job_finding_methods.question
+    t: Як ви знайшли свою поточну роботу?
+
+  - key: options.job_finding_methods.job_board
+    t: Дошка вакансій
+  - key: options.job_finding_methods.direct_application
+    t: Пряма заява в компанію
+  - key: options.job_finding_methods.recruiter
+    t: Рекрутер
+  - key: options.job_finding_methods.personal_network
+    t: Особиста мережа (контактів)
+  - key: options.job_finding_methods.referral
+    t: Рекомендація (Referral)
+  - key: options.job_finding_methods.linkedin
+    t: LinkedIn
+  - key: options.job_finding_methods.social_media
+    t: Інші соціальні медіа (Facebook, X тощо)
+  - key: options.job_finding_methods.internal_transfer
+    t: Підвищення або перехід всередині компанії
+  - key: options.job_finding_methods.open_source_community
+    t: Причетність до відкритого коду чи спільноти
+
   # - key: workplace.how_much_can_you_be_yourself_at_work
   #   t:
 
@@ -305,6 +455,8 @@ translations:
     t: Мобільна ОС
   - key: technology.mobile_os.question
     t: Які мобільні операційні системи ви використовуєте найчастіше?
+  # - key: technology.mobile_os.prompt
+  #   t: Including work use and personal use.
 
   - key: options.mobile_os.ios
     t: iOS
@@ -318,6 +470,8 @@ translations:
     t: Настільна ОС
   - key: technology.desktop_os.question
     t: Які настільні операційні системи ви використовуєте найчастіше?
+  # - key: technology.desktop_os.question
+  #   aliasFor: technology.mobile_os.prompt
 
   - key: options.desktop_os.mac_os
     t: macOS
@@ -355,6 +509,75 @@ translations:
     t: Соціальні мережі
   - key: technology.social_media.question
     t: Які соціальні мережі ви регулярно використовуєте?
+
+  # community_involvement
+
+  - key: technology.community_involvement
+    t: Залученість до спільноти
+  - key: technology.community_involvement.question
+    t: Який із цих методів ви використовуєте, щоб залишатися залученими до спільноти розробників?
+
+  - key: options.community_involvement.meetups
+    t: Локальні зустрічі (meetups)
+  - key: options.community_involvement.conferences
+    t: Конференції
+  - key: options.community_involvement.forums
+    t: Онлайн-платформи (GitHub, Stack Overflow тощо)
+  - key: options.community_involvement.chatrooms
+    t: Онлайн-чати (Discord, Slack тощо)
+  - key: options.community_involvement.social_media
+    t: Соціальні медіа
+  - key: options.community_involvement.newsletters
+    t: Розсилки
+  - key: options.community_involvement.videos
+    t: Відео (YouTube тощо)
+  - key: options.community_involvement.streaming
+    t: Стримінг (Twitch тощо)
+  - key: options.community_involvement.podcasts
+    t: Подкасти
+
+  # community_contributions
+
+  - key: technology.community_contributions
+    t: Внесок у спільноту
+  - key: technology.community_contributions.question
+    t: Який із цих методів ви використовували протягом останніх 12 місяців, щоб зробити внесок у спільноту?
+
+  - key: options.community_contributions.conference
+    t: Відвідали зустріч чи конференцію
+  - key: options.community_contributions.talk
+    t: Виступили з доповіддю
+  - key: options.community_contributions.blog_post
+    t: Написали публікацію у блозі
+  - key: options.community_contributions.answer_question
+    t: Відповіли на запитання чи проблему (issue)
+  - key: options.community_contributions.financial_support
+    t: Фінансово підтримали розробників або проєкт
+  - key: options.community_contributions.event_organization
+    t: Організували захід
+  - key: options.community_contributions.open_source_contribution
+    t: Зробили внесок у ПЗ із відкритим кодом
+
+  # open_source_involvement
+  - key: technology.open_source_involvement
+    t: Проєкти з відкритим кодом
+  - key: technology.open_source_involvement.question
+    t: Як ви долучалися до ПЗ із відкритим кодом протягом вашої кар'єри?
+
+  - key: options.open_source_involvement.regular_use
+    t: Використовували відкрите ПЗ
+  - key: options.open_source_involvement.code_contribution
+    t: Додавали код до відкритих проєктів
+  - key: options.open_source_involvement.documentation
+    t: Додавали документацію чи інші некодові елементи
+  - key: options.open_source_involvement.submit_issues
+    t: Надсилали проблеми (issues) чи повідомляли про помилки
+  - key: options.open_source_involvement.created_projects
+    t: Створювали або підтримували відкриті проєкти
+  - key: options.open_source_involvement.documentation
+    t: Фінансово підтримували відкриті проєкти
+  - key: options.open_source_involvement.na
+    t: Не долучалися
 
   # health
 
@@ -437,6 +660,8 @@ translations:
     t: Маска для сну
   - key: options.sleep_measures.avoid_screens
     t: Уникання екранів перед сном
+  - key: options.sleep_measures.screen_dimming
+    t: Затемнення екранів перед сном
   - key: options.sleep_measures.earplugs
     t: Вушні затички/беруші
   - key: options.sleep_measures.sleeping_pills
@@ -449,7 +674,7 @@ translations:
   - key: worldview.left_right
     t: Ліві та праві
   - key: worldview.left_right.question
-    t: Де ви себе розміщуєте на шкалі лівих і правих політичних поглядів?
+    t: Де ви себе розміщуєте на шкалі лівих і правих економічних поглядів?
 
   - key: options.left_right.0
     t: Крайні ліві
@@ -458,10 +683,162 @@ translations:
   - key: options.left_right.8
     t: Крайні праві
 
+  # policies
+
+  # - key: worldview.policies
+  #   t: Policies
+  # - key: worldview.policies.question
+  #   t: How strongly do you agree or disagree about implementing these policy proposals?
+
+  # - key: options.policies.ubi
+  #   t: Universal basic income
+  # - key: options.policies.ubi.description
+  #   t: Government-provided minimum income for all citizens
+
+  # - key: options.policies.free_trade
+  #   t: Free trade
+  # - key: options.policies.free_trade.description
+  #   t: Free trade across countries with minimal restrictions.
+
+  # - key: options.policies.universal_health_care
+  #   t: Universal health care
+  # - key: options.policies.universal_health_care.description
+  #   t: Free access to health care regardless of personal wealth.
+
+  # - key: options.policies.open_borders
+  #   t: Open borders
+  # - key: options.policies.open_borders.description
+  #   t: Free movement of people between countries.
+
+  # - key: options.policies.drug_legalization
+  #   t: Drug decriminalization
+  # - key: options.policies.drug_legalization.description
+  #   t: Reduced or eliminated control or penalties for most drugs.
+
+  # - key: options.policies.hate_speech_regulations
+  #   t: Hate speech regulations
+  # - key: options.policies.hate_speech_regulations.description
+  #   t: Criminal penalties for some forms of offensive speech.
+
+  # - key: options.policies.affirmative_action
+  #   t: Affirmative action
+  # - key: options.policies.affirmative_action.description
+  #   t: Increased opportunities for specific disadvantaged groups.
+
+  # - key: options.policies.separation_church_state
+  #   t: Separation of church and state
+  # - key: options.policies.separation_church_state.description
+  #   t: Ensuring government does not favor one religion over another.
+
+  # - key: options.policies.progressive_taxation
+  #   t: High marginal tax rates
+  # - key: options.policies.progressive_taxation.description
+  #   t: Taxing the top income earners at higher rates.
+
+  # - key: options.policies.lgbtq_equality
+  #   t: Pro-LGBTQ policies
+  # - key: options.policies.lgbtq_equality.description
+  #   t: Policies aimed at improving the lives of LGBTQ individuals (same-sex marriage, etc.).
+
+  # - key: options.policies.reduced_government_size
+  #   t: Reduced government size
+  # - key: options.policies.reduced_government_size.description
+  #   t: Reducing the size of the government and expanding the private sector.
+
+  # - key: options.policies.dei_initiatives
+  #   t: DEI initiatives
+  # - key: options.policies.dei_initiatives.description
+  #   t: Initiatives aimed at increasing an organization's diversity and inclusivity.
+
+  # - key: options.policies.business_regulation
+  #   t: Business regulation
+  # - key: options.policies.business_regulation.description
+  #   t: Policies aimed at regulating how companies operate.
+
+  # - key: options.policies.interventionism
+  #   t: Foreign interventionism
+  # - key: options.policies.interventionism.description
+  #   t: Becoming involved in the internal affairs of other countries.
+
+  # - key: options.policies.climate_action
+  #   t: Climate action
+  # - key: options.policies.climate_action.description
+  #   t: Policies aimed at reducing global warming (driving bans, restrictions on cars, etc.).
+
+  # - key: options.policies.politics_free_workplace
+  #   t: Politics-free workplace
+  # - key: options.policies.politics_free_workplace.description
+  #   t: Banning political topics in the workplace.
+
+  # - key: worldview.policies_statements
+  #   t: Political Viewpoints
+  # - key: worldview.policies_statements.question
+  #   t: How strongly do you agree or disagree with the following statements?
+
+  # - key: options.policies_statements.ubi
+  #   t: All citizens should receive a government-provided universal basic income.
+
+  # - key: options.policies_statements.free_trade
+  #   t: There should be minimal restrictions to trade between countries.
+
+  # - key: options.policies_statements.universal_health_care
+  #   t: Everybody should have access to free access to health care regardless of wealth.
+
+  # - key: options.policies_statements.open_borders
+  #   t: Borders should be open to people fleeing war or poverty.
+
+  # - key: options.policies_statements.drug_legalization
+  #   t: Most drugs should be legal for personal usage.
+
+  # - key: options.policies_statements.hate_speech_regulations
+  #   t: Some forms of hate speech should be against the law.
+
+  # - key: options.policies_statements.affirmative_action
+  #   t: Historically disadvantaged groups should receive special opportunities.
+
+  # - key: options.policies_statements.separation_church_state
+  #   t: Government should not favor one religion over another.
+
+  # - key: options.policies_statements.progressive_taxation
+  #   t: Top income earners should be taxed at very high rates.
+
+  # - key: options.policies_statements.lgbtq_equality
+  #   t: Same-sex couples should be able to get married.
+
+  # - key: options.policies_statements.reduced_government_size
+  #   t: Government size should generally be reduced in favor of the private sector.
+
+  # - key: options.policies_statements.dei_initiatives
+  #   t: Increasing diversity and inclusivity in organizations is important.
+
+  # - key: options.policies_statements.business_regulation
+  #   t: Companies should be able to operate with minimal regulations.
+
+  # - key: options.policies_statements.interventionism
+  #   t: Becoming involved in the internal affairs of other countries is sometimes necessary.
+
+  # - key: options.policies_statements.climate_action
+  #   t: Strong action (car bans, driving restrictions, etc.) is needed to combat climate change.
+
+  # - key: options.policies_statements.politics_free_workplace
+  #   t: Workplaces should ban the discussion of political topics.
+
+  # - key: options.policies_statements.gender_spectrum
+  #   t: Children should be taught that gender is a spectrum.
+
+  # - key: options.policies_statements.cultural_diversity
+  #   t: Cultural and racial diversity is overall a net positive for a country.
+
+  # - key: options.policies_statements.individual_rights
+  #   t: It's sometimes necessary to sacrifice indivdual rights to preserve law and order.
+
+  # - key: options.policies.ai_regulation
+  #   t: AI regulations
+
   - key: worldview.global_issues
     t: Глобальні проблеми
   - key: worldview.global_issues.question
-    t: Які глобальні проблеми, на вашу думку, є найважливішими у світі сьогодні?
+    t: Які поточні глобальні проблеми бентежать вас найбільше?
 
   - key: options.global_issues.climate_change
     t: Зміна клімату
@@ -488,18 +865,18 @@ translations:
   - key: options.global_issues.lack_of_free_speech
     t: Брак свободи слова
 
-  # companies_opinion
+  # # companies_opinion
 
-  - key: worldview.companies_opinion
-    t: Компанії
-  - key: worldview.companies_opinion.question
-    t: Що ви думаєте про наведені компанії?
+  # - key: worldview.companies_opinion
+  #   t: Компанії
+  # - key: worldview.companies_opinion.question
+  #   t: Що ви думаєте про наведені компанії?
 
   # happiness_factors
   - key: worldview.happiness_factors
     t: Фактори щастя
   - key: worldview.happiness_factors.description
-    t: Які фактори є найбільш важливими для вашого особистого щастя?
+    t: Які фактори найбільше впливають на ваше особисте щастя?
 
   - key: options.happiness_factors.health
     t: Гарне здоров'я
@@ -523,17 +900,46 @@ translations:
     t: Релігія ата/або духовність
 
   # overall_happiness
+
   - key: worldview.overall_happiness
     t: Загальний показник щастя
   - key: worldview.overall_happiness.question
     t: Наскільки ви зараз щасливі загалом?
+
+  # # personal_hope
+
+  # - key: worldview.personal_hope
+  #   t: Personal Hope
+  # - key: worldview.personal_hope.question
+  #   t: I feel hopeful about myself and my family's future
+
+  # # country_hope
+
+  # - key: worldview.country_hope
+  #   t: Country Hope
+  # - key: worldview.country_hope.question
+  #   t: I feel hopeful about my country's future
+
+  # # world_hope
+
+  # - key: worldview.world_hope
+  #   t: World Hope
+  # - key: worldview.world_hope.question
+  #   t: I feel hopeful about the world's future
+
+  # relocation
+
+  - key: worldview.relocation
+    t: Переїзд
+  - key: worldview.relocation.question
+    t: Якби у вас була можливість кілька років пожити в іншій країні, куди б ви хотіли поїхати?
 
   # hobbies
 
   - key: hobbies.physical_activity
     t: Фізична активність
   - key: hobbies.physical_activity.question
-    t: Якими фізичними активностями ви регулярно займаєтеся? (раз на тиждень або частіше)
+    t: Якими фізичними активностями ви регулярно займаєтеся?
 
   - key: options.physical_activity.climbing
     t: Скелелазіння
@@ -557,13 +963,13 @@ translations:
     t: Футбол
   - key: options.physical_activity.biking
     t: Велоспорт
-  - key: options.physical_activity.hiking
-    t: Пішохідний туризм
+  - key: options.physical_activity.hiking_walking
+    t: Пішохідний туризм/ходіння
 
-  - key: hobbies.physical_activity_frequency
-    t: Частота фізичної активності
-  - key: hobbies.physical_activity_frequency.question
-    t: Скільки днів на тиждень ви тренуєтеся в середньому?
+  - key: health.physical_activity_frequency
+    t: Частота тренувань
+  - key: health.physical_activity_frequency.question
+    t: Скільки днів на тиждень ви тренуєтеся зазвичай?
 
   - key: options.physical_activity_frequency.0
     t: 0
@@ -607,6 +1013,10 @@ translations:
     t: Садівництво
   - key: options.hobbies.camping
     t: Кемпінг
+  - key: options.hobbies.sports_exercise
+    t: Спорт/тренування
+  - key: options.hobbies.movies_tv
+    t: Фільми/серіали
 
   # hobbies_frequency
 
@@ -652,12 +1062,77 @@ translations:
   - key: options.video_game_platforms.retro_emulation_console
     t: Емулятор гральної ретроконсолі
 
-  # video_games
+  # favorite_video_games
 
-  - key: hobbies.video_games
-    t: Відеоігри
-  - key: hobbies.video_games.question
-    t: У які три ваші найулюбленіші відеоігри ви грали за останні 12 місяців?
+  - key: hobbies.favorite_video_games
+    t: Улюблені відеоігри
+  - key: hobbies.favorite_video_games.question
+    t: Які ваші останні улюблені відеоігри?
+  - key: hobbies.favorite_video_games.prompt
+    t: Ігри, у які ви грали протягом останніх 12 місяців.
+
+  # favorite_musical_artists
+
+  - key: hobbies.favorite_musical_artists
+    t: Улюблена музика
+  - key: hobbies.favorite_musical_artists.question
+    t: Які ваші останні улюблені музичні виконавці?
+  - key: hobbies.favorite_musical_artists.prompt
+    t: Виконавці, яких ви слухали протягом останніх 12 місяців.
+
+  # favorite_movies
+
+  - key: hobbies.favorite_movies
+    t: Улюблені фільми
+  - key: hobbies.favorite_movies.question
+    t: Які ваші останні улюблені фільми?
+  - key: hobbies.favorite_movies.prompt
+    t: Фільми, які ви дивилися протягом останніх 12 місяців.
+
+  # favorite_tv
+
+  - key: hobbies.favorite_tv
+    t: Улюблені серіали
+  - key: hobbies.favorite_tv.question
+    t: Які ваші останні улюблені серіали?
+  - key: hobbies.favorite_tv.prompt
+    t: Телевізійні чи стримінгові серіали, які ви дивилися протягом останніх 12 місяців.
+
+    # musical_genres
+
+  - key: hobbies.musical_genres
+    t: Музика
+  - key: hobbies.musical_genres.question
+    t: Які ваші улюблені музичні жанри?
+
+  - key: options.musical_genres.rock
+    t: Рок
+  - key: options.musical_genres.hip_hop
+    t: Хіп-хоп
+  - key: options.musical_genres.pop
+    t: Поп
+  - key: options.musical_genres.edm
+    t: EDM
+  - key: options.musical_genres.country
+    t: Кантрі
+  - key: options.musical_genres.classical
+    t: Класична
+  - key: options.musical_genres.jazz
+    t: Джаз
+  - key: options.musical_genres.latin
+    t: Латинська
+  - key: options.musical_genres.soul
+    t: Соул
+  - key: options.musical_genres.funk
+    t: Фанк
+  - key: options.musical_genres.reggae
+    t: Реґі
+  - key: options.musical_genres.metal
+    t: Метал
+  - key: options.musical_genres.kpop
+    t: Кей-поп
+  - key: options.musical_genres.soundtracks
+    t: Саундтреки
 
   # user_info
 
@@ -677,3 +1152,23 @@ translations:
     t: У стосунках
   - key: options.relationship_status.its_complicated
     t: Складно
+
+  # FAQ
+
+  - key: faq.who_should_take_survey_devs
+    t: Хто може взяти участь у цьому опитуванні?
+  - key: faq.who_should_take_survey_devs.description
+    t: >
+      Це відкрите опитування для всіх, хто працює чи вчиться як розробник, програміст чи інженер, незалежно від рівня досвіду чи походження!
+
+  - key: faq.survey_goals_devs
+    t: Яка мета цього опитування
+  - key: faq.survey_goals_devs.description
+    t: >
+      Мета опитування — отримати повніше уявлення про екосистему розробників за межами суто технічних тенденцій.
+
+  - key: faq.data_used_devs
+    t: Як ці дані будуть використані?
+  - key: faq.data_used_devs.description
+    t: >
+      Зібрані дані використовуватимуться для публікації на загал онлайн-звіту. Також весь набір даних також буде доступний безкоштовно [на вимогу](https://discord.gg/2E7bbgnrJJ).

@@ -23,7 +23,7 @@ translations:
     t: Приховане
 
   - key: general.pick_up_to
-    t: Оберіть до {limit} елементів.
+    t: Виберіть до {limit} елементів.
 
   - key: general.privacy_policy
     t: Політика конфіденційності
@@ -89,16 +89,37 @@ translations:
   - key: years.years
     t: роки
 
-  - key: likert.option.0
-    t: Дуже незадоволений(-а)
-  - key: likert.option.1
-    t: Незадоволений(-а)
-  - key: likert.option.2
-    t: Нейтральний(-а)
-  - key: likert.option.3
-    t: Задоволений(-а)
-  - key: likert.option.4
-    t: Дуже задоволений(-а)
+  - key: likert.happiness.option.0
+    t: Дуже незадоволені
+  - key: likert.happiness.option.1
+    t: Незадоволені
+  - key: likert.happiness.option.2
+    t: Нейтральні
+  - key: likert.happiness.option.3
+    t: Задоволені
+  - key: likert.happiness.option.4
+    t: Дуже задоволені
+
+  - key: likert.agreement.option.0
+    t: Зовсім не погоджуюся
+    aliases:
+      - likert.option.0
+  - key: likert.agreement.option.1
+    t: Не погоджуюся
+    aliases:
+      - likert.option.1
+  - key: likert.agreement.option.2
+    t: Нейтрально
+    aliases:
+      - likert.option.2
+  - key: likert.agreement.option.3
+    t: Погоджуюся
+    aliases:
+      - likert.option.3
+  - key: likert.agreement.option.4
+    t: Повністю погоджуюся
+    aliases:
+      - likert.option.4
 
   - key: general.numeric_input.invalid_input
     t: Будь ласка, переконайтеся, що ви ввели правильне число.
@@ -109,6 +130,10 @@ translations:
     t: роки(-ів)
   - key: general.numeric_input.unit.hours
     t: год
+
+  - key: general.check_all
+    t: >
+      Виберіть усе застосовне.
 
   ###########################################################################
   # Errors & Messages

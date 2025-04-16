@@ -294,6 +294,8 @@ translations:
 
   - key: opinions.opinions_intro
     t: Відповідаючи на наступні запитання, дайте нам знати, наскільки ви згодні з кожним твердженням.
+    aliases:
+      - worldview.opinions_intro
 
   - key: sections.other_tools.title
     t: Інші інструменти
@@ -891,7 +893,7 @@ translations:
   - key: options.race_ethnicity.black_african
     t: Темношкірі або африканського походження
   - key: options.race_ethnicity.multiracial
-    t: Представники багатьох рас
+    t: Представники багатьох рас чи етносів
   - key: options.race_ethnicity.biracial
     t: Представники двох рас
   - key: options.race_ethnicity.native_american_islander_australian
@@ -941,17 +943,37 @@ translations:
   - key: options.disability_status.na
     t: 🚫 Нічого
   - key: options.disability_status.visual_impairments
-    t: >
-      Порушення зору (як-от: сліпота, колірна сліпота тощо)
+    t: Порушення зору
+  - key: options.disability_status.visual_impairments.description
+    t: Сліпота, колірна сліпота тощо
   - key: options.disability_status.hearing_impairments
-    t: >
-      Порушення слуху (як-от: глухота, шум у вухах тощо)
+    t: Порушення слуху
+  - key: options.disability_status.hearing_impairments.description
+    t: Глухота, шум у вухах тощо
   - key: options.disability_status.mobility_impairments
-    t: >
-      Порушення рухових функцій (як-от: артрит, зап'ястковий тунельний синдром тощо)
+    t: Порушення рухових функцій
+  - key: options.disability_status.mobility_impairments.description
+    t: Артрит, зап'ястковий тунельний синдром тощо
   - key: options.disability_status.cognitive_impairments
-    t: >
-      Когнітивні порушення (як-от: тривожний розлад, дислексія, СДУГ тощо)
+    t: Когнітивні порушення
+  - key: options.disability_status.cognitive_impairments.description
+    t: Тривожний розлад, дислексія, СДУГ тощо
+
+  - key: options.disability_status.neurodivergent_conditions
+    t: Нейрорізноманітні стани здоров'я
+  - key: options.disability_status.neurodivergent_conditions.description
+    t: СДУГ, розлад аутичного спектра, дислексія тощо
+
+  - key: options.disability_status.mental_health_conditions
+    t: Психічні розлади
+  - key: options.disability_status.mental_health_conditions.description
+    t: Тривожний розлад, депресія, ПТСР тощо
+
+  - key: options.disability_status.chronic_illnesses
+    t: Хронічні захворювання
+  - key: options.disability_status.chronic_illnesses.description
+    t: Цукровий діабет, автоімунні захворювання тощо
+
   - key: options.disability_status.not_listed
     t: >
       Нічого з переліченого
@@ -1061,7 +1083,7 @@ translations:
   - key: options.industry_sector.telecommunications
     t: Телекомунікації і зв'язок
   - key: options.industry_sector.student
-    t: Студент
+    t: Студентство
   - key: options.industry_sector.hospitality
     t: Індустрія гостинності
   - key: options.industry_sector.cyber_security
@@ -1204,9 +1226,9 @@ translations:
   - key: options.first_steps.school
     t: Середня чи вища освіта
   - key: options.first_steps.courses_free
-    t: Онлайн курси (безкоштовні)
+    t: Онлайн-курси (безкоштовні)
   - key: options.first_steps.courses_paid
-    t: Онлайн курси (платні)
+    t: Онлайн-курси (платні)
   - key: options.first_steps.podcasts
     t: Подкасти чи аудіозаписи
   - key: options.first_steps.bootcamp
@@ -1321,17 +1343,26 @@ translations:
   - key: options.employment_status.full_time
     t: Повний робочий день
   - key: options.employment_status.student
-    t: Студент
+    t: Студентство
   - key: options.employment_status.self_employed
-    t: Самозайнятий
+    t: Самозайнятість
   - key: options.employment_status.contractor
-    t: Підрядник, контрактор
+    t: Як підряд, за контрактом
   - key: options.employment_status.part_time
     t: Неповний робочий день
   - key: options.employment_status.between_jobs
     t: Без роботи на цей момент
   - key: options.employment_status.retired
     t: На пенсії/у відставці
+
+  - key: options.employment_status.company_employee
+    t: Наймана праця
+  - key: options.employment_status.student
+    t: Студентство
+  - key: options.employment_status.unemployed
+    t: Без роботи
+  - key: options.employment_status.ceo_founder
+    t: CEO/засновники/підприємці
 
   # bracket
   - key: options.bracket.round1
@@ -1513,7 +1544,9 @@ translations:
   - key: user_info.years_of_experience
     t: Досвід
   - key: user_info.years_of_experience.question
-    t: Як довго ви працюєте або вчитеся у сфері веброзробки (у роках)?
+    t: Скільки років досвіду ви маєте у сфері розробки?
+  - key: user_info.years_of_experience.prompt
+    t: Як професіонали, студенти, аматори тощо.
 
   # company size
   - key: user_info.company_size
@@ -1526,6 +1559,19 @@ translations:
     t: Річний дохід
   - key: user_info.yearly_salary.question
     t: Ваш річний дохід (до оподаткування) у доларах США.
+
+  # income_evolution
+  - key: user_info.income_evolution
+    t: Зміни доходу
+  - key: user_info.income_evolution.question
+    t: Як змінився ваш загальний дохід за останні 12 місяців?
+
+  - key: options.income_evolution.increased
+    t: Збільшився
+  - key: options.income_evolution.stayed_same
+    t: Не змінився
+  - key: options.income_evolution.decreased
+    t: Зменшився
 
   # job title
   - key: user_info.job_title
@@ -1591,7 +1637,7 @@ translations:
       Яке з наведених порушень ви маєте?
   - key: user_info.disability_status.prompt
     t: >
-      Позначте всі відповідності. Зауважте, що це включно з тимчасовою втратою працездатності або травмою.
+      Зауважте, що це включно з тимчасовою втратою працездатності або травмою.
 
   # disability status (other)
   - key: user_info.disability_status.others
