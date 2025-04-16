@@ -957,22 +957,22 @@ translations:
   - key: options.disability_status.cognitive_impairments
     t: Когнітивні порушення
   - key: options.disability_status.cognitive_impairments.description
-    t: Тривожний розлад, дислексія, СДУГ тощо.
+    t: Тривожний розлад, дислексія, СДУГ тощо
 
   - key: options.disability_status.neurodivergent_conditions
-    t: Neurodivergent conditions
+    t: Нейрорізноманітні стани здоров'я
   - key: options.disability_status.neurodivergent_conditions.description
-    t: ADHD, Autism Spectrum Disorder, dyslexia, etc.
+    t: СДУГ, розлад аутичного спектра, дислексія тощо
 
   - key: options.disability_status.mental_health_conditions
-    t: Mental health conditions
+    t: Психічні розлади
   - key: options.disability_status.mental_health_conditions.description
-    t: Anxiety, depression, PTSD, etc.
+    t: Тривожний розлад, депресія, ПТСР тощо
 
   - key: options.disability_status.chronic_illnesses
-    t: Chronic illness
+    t: Хронічні захворювання
   - key: options.disability_status.chronic_illnesses.description
-    t: Diabetes, autoimmune disorders, etc.
+    t: Цукровий діабет, автоімунні захворювання тощо
 
   - key: options.disability_status.not_listed
     t: >
@@ -1083,7 +1083,7 @@ translations:
   - key: options.industry_sector.telecommunications
     t: Телекомунікації і зв'язок
   - key: options.industry_sector.student
-    t: Студент
+    t: Студентство
   - key: options.industry_sector.hospitality
     t: Індустрія гостинності
   - key: options.industry_sector.cyber_security
@@ -1226,9 +1226,9 @@ translations:
   - key: options.first_steps.school
     t: Середня чи вища освіта
   - key: options.first_steps.courses_free
-    t: Онлайн курси (безкоштовні)
+    t: Онлайн-курси (безкоштовні)
   - key: options.first_steps.courses_paid
-    t: Онлайн курси (платні)
+    t: Онлайн-курси (платні)
   - key: options.first_steps.podcasts
     t: Подкасти чи аудіозаписи
   - key: options.first_steps.bootcamp
@@ -1343,11 +1343,11 @@ translations:
   - key: options.employment_status.full_time
     t: Повний робочий день
   - key: options.employment_status.student
-    t: Студент
+    t: Студентство
   - key: options.employment_status.self_employed
-    t: Самозайнятий
+    t: Самозайнятість
   - key: options.employment_status.contractor
-    t: Підрядник, контрактор
+    t: Як підряд, за контрактом
   - key: options.employment_status.part_time
     t: Неповний робочий день
   - key: options.employment_status.between_jobs
@@ -1356,13 +1356,13 @@ translations:
     t: На пенсії/у відставці
 
   - key: options.employment_status.company_employee
-    t: Company employee
+    t: Наймана праця
   - key: options.employment_status.student
-    t: Student
+    t: Студентство
   - key: options.employment_status.unemployed
-    t: Unemployed
+    t: Без роботи
   - key: options.employment_status.ceo_founder
-    t: CEO/Founder/Entrepreneur
+    t: CEO/засновники/підприємці
 
   # bracket
   - key: options.bracket.round1
@@ -1546,7 +1546,7 @@ translations:
   - key: user_info.years_of_experience.question
     t: Скільки років досвіду ви маєте у сфері розробки?
   - key: user_info.years_of_experience.prompt
-    t: Whether as a professional, student, hobbyist, etc.
+    t: Як професіонали, студенти, аматори тощо.
 
   # company size
   - key: user_info.company_size
@@ -1562,16 +1562,16 @@ translations:
 
   # income_evolution
   - key: user_info.income_evolution
-    t: Income Evolution
+    t: Зміни доходу
   - key: user_info.income_evolution.question
-    t: How has your total income evolved over the past 12 months?
+    t: Як змінився ваш загальний дохід за останні 12 місяців?
 
   - key: options.income_evolution.increased
-    t: Increased
+    t: Збільшився
   - key: options.income_evolution.stayed_same
-    t: Stayed the same
+    t: Не змінився
   - key: options.income_evolution.decreased
-    t: Decreased
+    t: Зменшився
 
   # job title
   - key: user_info.job_title

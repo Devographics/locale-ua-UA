@@ -75,13 +75,13 @@ translations:
 
   - key: career.career_issues.commentPrompt
     t: |
-      Please tell us more about the specific issues you've encountered if you'd like to – just make sure to leave out 
-      any information that could be used to identify you or your company.
+      Будь ласка, розкажіть нам, за бажання, більше про конкретні проблеми, з якими ви зіткнулися — лишень не вказуйте
+      жодної інформації, за якою можна ідентифікувати вас або вашу компанію.
 
   - key: options.career_issues.harassment
-    t: Harassment
+    t: Домагання
   - key: options.career_issues.harassment.description
-    t: Unwelcome behavior that creates a hostile work environment.
+    t: Небажана поведінка, яка створює вороже робоче середовище.
 
   - key: options.career_issues.sexual_harassment
     t: Сексуальне домагання
@@ -104,9 +104,9 @@ translations:
     t: Дискримінація за расовою ознакою.
 
   - key: options.career_issues.discrimination
-    t: Discrimination
+    t: Дискримінація
   - key: options.career_issues.discrimination.description
-    t: Being discriminated against based on personal characteristics.
+    t: Зазнавання дискримінації через особисті риси.
 
   - key: options.career_issues.mental_health_issues
     t: Проблеми з психічним здоров'ям
@@ -114,19 +114,19 @@ translations:
     t: Психічні проблеми, завдані роботою, як-от стрес або тривожність.
 
   - key: options.career_issues.excessive_overtime
-    t: Work-life balance issues
+    t: Проблеми балансу роботи і життя
   - key: options.career_issues.excessive_overtime.description
     t: Надмірна понаднормова робота, проблеми балансу роботи і життя тощо.
 
   - key: options.career_issues.underpaid_work
-    t: Insufficient wages
+    t: Недостатня плата
   - key: options.career_issues.underpaid_work.description
     t: Недостатня зарплата або дохід.
 
   - key: options.career_issues.burnout
     t: Вигорання
   - key: options.career_issues.burnout.description
-    t: Feeling overwhelmed with work, leading to lack of motivation or depression.
+    t: Почуття перевантаженості роботою, що призводить до браку мотивації або депресії.
 
   - key: options.career_issues.job_insecurity
     t: Нестабільність роботи
@@ -141,26 +141,26 @@ translations:
   # discrimination_issues
 
   - key: career.discrimination_issues
-    t: Discrimination
+    t: Дискримінація
   - key: career.discrimination_issues.question
-    t: Have you ever felt discriminated against in the workplace based on any of the following factors?
+    t: Чи почувалися ви коли-небудь дискримінованими на робочому місці через будь-який із наведених нижче факторів?
 
   - key: options.discrimination_issues.gender
-    t: Gender or gender identity
+    t: Гендер чи гендерна ідентичність
   - key: options.discrimination_issues.sexual_orientation
-    t: Sexual orientation
+    t: Сексуальна орієнтація
   - key: options.discrimination_issues.race
-    t: Race
+    t: Раса
   - key: options.discrimination_issues.religion
-    t: Religion
+    t: Релігія
   - key: options.discrimination_issues.age
-    t: Age
+    t: Вік
   - key: options.discrimination_issues.political_views
-    t: Political views
+    t: Політичні погляди
   - key: options.discrimination_issues.caregiving_status
-    t: Caregiving status (pregnancy, childcare, etc.)
+    t: Стан догляду (вагітність, догляд за дитиною тощо)
   - key: options.discrimination_issues.disability
-    t: Disabilities
+    t: Порушення здоров'я
 
   - key: career.discrimination_issues.commentPrompt
     aliasFor: career.career_issues.commentPrompt
@@ -168,45 +168,45 @@ translations:
   # negative_impacts
 
   - key: career.negative_impacts
-    t: Negative Impact
+    t: Негативні наслідки
   - key: career.negative_impacts.question
-    t: Which of these steps have you had to undertake as a result of  workplace issues?
+    t: Що з цього вам довелося зробити внаслідок проблем на робочому місці?
 
   - key: options.negative_impacts.changing_appearance
-    t: Changing your appearance
+    t: Змінити зовнішній вигляд
 
   - key: options.negative_impacts.changing_behavior
-    t: Changing the way you speak or act
+    t: Змінити спосіб говорити чи діяти
 
   - key: options.negative_impacts.reported_someone
-    t: Reporting someone to management or HR
+    t: Поскаржитися на когось керівництву чи HR
 
   - key: options.negative_impacts.isolating_yourself
-    t: Isolating yourself from colleagues
+    t: Самоізолюватися від колег
 
   - key: options.negative_impacts.internal_transfer
-    t: Asking to be transferred to another department
+    t: Прохати перейти в інший відділ
 
   - key: options.negative_impacts.time_off
-    t: Taking time off or going on leave
+    t: Піти в коротку чи довгу відпустку
 
   - key: options.negative_impacts.quitting_job
-    t: Quitting a job
+    t: Звільнитися з робити
 
   - key: options.negative_impacts.shifting_careers
-    t: Shifting careers
+    t: Змінити кар'єру
 
   - key: options.negative_impacts.seeking_counseling
-    t: Seeking therapy or counseling
+    t: Звернутися до терапії або консультацій
 
   - key: options.negative_impacts.engaging_legal_counsel
-    t: Engaging legal counsel
+    t: Залучити юрисконсульта
 
   - key: options.negative_impacts.scaling_back
-    t: Scaling back your career or going part-time
+    t: Уповільнити розвиток кар'єри або перейти на неповний робочий день
 
   - key: options.negative_impacts.taking_medicine
-    t: Taking medication (for stress, depression, etc.)
+    t: Приймати ліки (від стресу, депресії тощо)
 
   - key: career.negative_impacts.commentPrompt
     aliasFor: career.career_issues.commentPrompt
@@ -251,16 +251,16 @@ translations:
   # laid_off
 
   - key: career.laid_off
-    t: Layoffs
+    t: Скорочення (Layoffs)
   - key: career.laid_off.question
-    t: Have you ever been laid off?
+    t: Чи вас коли-небудь звільняли унаслідок скорочення працівників?
 
   - key: options.laid_off.yes_past_year
-    t: Yes, during the past 12 months
+    t: Так, протягом останніх 12 місяців
   - key: options.laid_off.yes_before
-    t: Yes, sometimes before that
+    t: Так, понад рік тому
   - key: options.laid_off.no
-    t: I've never been laid off
+    t: Ні, ніколи
 
   # WORKPLACE
 
@@ -355,7 +355,7 @@ translations:
   - key: workplace.workplace_perks
     t: Вигоди на роботі
   - key: workplace.workplace_perks.question
-    t: What do you enjoy about your current workplace?
+    t: Що вам подобається в поточному робочому місці?
 
   - key: options.workplace_perks.coworker_relations
     aliasFor: options.workplace_difficulties.coworker_relations
@@ -400,12 +400,12 @@ translations:
   # job_finding_application_count
 
   - key: workplace.job_finding_application_count
-    t: Applications
+    t: Заяви на роботу
   - key: workplace.job_finding_application_count.question
-    t: How many positions did you apply to before getting your current job?
+    t: На скільки вакансій ви подалися, перш ніж отримати поточну роботу?
 
   - key: options.job_finding_application_count.range_0
-    t: None (did not apply)
+    t: Ніскільки (Не застосовується)
   - key: options.job_finding_application_count.range_1
     t: 1
   - key: options.job_finding_application_count.range_2_5
@@ -422,28 +422,28 @@ translations:
   # job_finding_methods
 
   - key: workplace.job_finding_methods
-    t: Job Finding
+    t: Пошук роботи
   - key: workplace.job_finding_methods.question
-    t: How did you find your current job?
+    t: Як ви знайшли свою поточну роботу?
 
   - key: options.job_finding_methods.job_board
-    t: Job board
+    t: Дошка вакансій
   - key: options.job_finding_methods.direct_application
-    t: Direct application to the company
+    t: Пряма заява в компанію
   - key: options.job_finding_methods.recruiter
-    t: Recruiter
+    t: Рекрутер
   - key: options.job_finding_methods.personal_network
-    t: Personal network
+    t: Особиста мережа (контактів)
   - key: options.job_finding_methods.referral
-    t: Referral
+    t: Рекомендація (Referral)
   - key: options.job_finding_methods.linkedin
     t: LinkedIn
   - key: options.job_finding_methods.social_media
-    t: Other social media (Facebook, X, etc.)
+    t: Інші соціальні медіа (Facebook, X тощо)
   - key: options.job_finding_methods.internal_transfer
-    t: Internal promotion or transfer
+    t: Підвищення або перехід всередині компанії
   - key: options.job_finding_methods.open_source_community
-    t: Open source or community involvement
+    t: Причетність до відкритого коду чи спільноти
 
   # - key: workplace.how_much_can_you_be_yourself_at_work
   #   t:
@@ -513,71 +513,71 @@ translations:
   # community_involvement
 
   - key: technology.community_involvement
-    t: Community Involvement
+    t: Залученість до спільноти
   - key: technology.community_involvement.question
-    t: Which of these methods do you use to stay involved with the developer community?
+    t: Який із цих методів ви використовуєте, щоб залишатися залученими до спільноти розробників?
 
   - key: options.community_involvement.meetups
-    t: Local meetups
+    t: Локальні зустрічі (meetups)
   - key: options.community_involvement.conferences
-    t: Conferences
+    t: Конференції
   - key: options.community_involvement.forums
-    t: Online platforms (GitHub, Stack Overflow, etc.)
+    t: Онлайн-платформи (GitHub, Stack Overflow тощо)
   - key: options.community_involvement.chatrooms
-    t: Online chatrooms (Discord, Slack, etc.)
+    t: Онлайн-чати (Discord, Slack тощо)
   - key: options.community_involvement.social_media
-    t: Social media
+    t: Соціальні медіа
   - key: options.community_involvement.newsletters
-    t: Newsletters
+    t: Розсилки
   - key: options.community_involvement.videos
-    t: Videos (YouTube, etc.)
+    t: Відео (YouTube тощо)
   - key: options.community_involvement.streaming
-    t: Streaming (Twitch, etc.)
+    t: Стримінг (Twitch тощо)
   - key: options.community_involvement.podcasts
-    t: Podcasts
+    t: Подкасти
 
   # community_contributions
 
   - key: technology.community_contributions
-    t: Community Contributions
+    t: Внесок у спільноту
   - key: technology.community_contributions.question
-    t: Which of these methods have you used over the past 12 months to contribute to the community?
+    t: Який із цих методів ви використовували протягом останніх 12 місяців, щоб зробити внесок у спільноту?
 
   - key: options.community_contributions.conference
-    t: Attended a meetup or conference
+    t: Відвідали зустріч чи конференцію
   - key: options.community_contributions.talk
-    t: Gave a talk
+    t: Виступили з доповіддю
   - key: options.community_contributions.blog_post
-    t: Wrote a blog post
+    t: Написали публікацію у блозі
   - key: options.community_contributions.answer_question
-    t: Answered a question or issue
+    t: Відповіли на запитання чи проблему (issue)
   - key: options.community_contributions.financial_support
-    t: Financially supported a developer or project
+    t: Фінансово підтримали розробників або проєкт
   - key: options.community_contributions.event_organization
-    t: Organized an event
+    t: Організували захід
   - key: options.community_contributions.open_source_contribution
-    t: Contributed to open-source software
+    t: Зробили внесок у ПЗ із відкритим кодом
 
   # open_source_involvement
   - key: technology.open_source_involvement
-    t: Open Source
+    t: Проєкти з відкритим кодом
   - key: technology.open_source_involvement.question
-    t: How have you been involved with open source software over your career?
+    t: Як ви долучалися до ПЗ із відкритим кодом протягом вашої кар'єри?
 
   - key: options.open_source_involvement.regular_use
-    t: I've used open source software
+    t: Використовували відкрите ПЗ
   - key: options.open_source_involvement.code_contribution
-    t: I've contributed code to open source projects
+    t: Додавали код до відкритих проєктів
   - key: options.open_source_involvement.documentation
-    t: I've contributed documentation or other non-code assets
+    t: Додавали документацію чи інші некодові елементи
   - key: options.open_source_involvement.submit_issues
-    t: I've submitted issues or bug reports
+    t: Надсилали проблеми (issues) чи повідомляли про помилки
   - key: options.open_source_involvement.created_projects
-    t: I've created or maintained open source projects
+    t: Створювали або підтримували відкриті проєкти
   - key: options.open_source_involvement.documentation
-    t: I've financially supported open source projects
+    t: Фінансово підтримували відкриті проєкти
   - key: options.open_source_involvement.na
-    t: No involvement
+    t: Не долучалися
 
   # health
 
@@ -661,7 +661,7 @@ translations:
   - key: options.sleep_measures.avoid_screens
     t: Уникання екранів перед сном
   - key: options.sleep_measures.screen_dimming
-    t: Dimming screens before bedtime
+    t: Затемнення екранів перед сном
   - key: options.sleep_measures.earplugs
     t: Вушні затички/беруші
   - key: options.sleep_measures.sleeping_pills
@@ -930,9 +930,9 @@ translations:
   # relocation
 
   - key: worldview.relocation
-    t: Relocation
+    t: Переїзд
   - key: worldview.relocation.question
-    t: If you had the opportunity to live in another country for a few years, where would you like to go?
+    t: Якби у вас була можливість кілька років пожити в іншій країні, куди б ви хотіли поїхати?
 
   # hobbies
 
@@ -1014,9 +1014,9 @@ translations:
   - key: options.hobbies.camping
     t: Кемпінг
   - key: options.hobbies.sports_exercise
-    t: Sports/exercise
+    t: Спорт/тренування
   - key: options.hobbies.movies_tv
-    t: Movies/TV
+    t: Фільми/серіали
 
   # hobbies_frequency
 
@@ -1067,72 +1067,72 @@ translations:
   - key: hobbies.favorite_video_games
     t: Улюблені відеоігри
   - key: hobbies.favorite_video_games.question
-    t: What have been some of your favorite video games recently?
+    t: Які ваші останні улюблені відеоігри?
   - key: hobbies.favorite_video_games.prompt
-    t: Games you've played during the past 12 months.
+    t: Ігри, у які ви грали протягом останніх 12 місяців.
 
   # favorite_musical_artists
 
   - key: hobbies.favorite_musical_artists
-    t: Favorite Music
+    t: Улюблена музика
   - key: hobbies.favorite_musical_artists.question
-    t: What have been some of your favorite musical artists recently?
+    t: Які ваші останні улюблені музичні виконавці?
   - key: hobbies.favorite_musical_artists.prompt
-    t: Artists you've listened to during the past 12 months.
+    t: Виконавці, яких ви слухали протягом останніх 12 місяців.
 
   # favorite_movies
 
   - key: hobbies.favorite_movies
-    t: Favorite Movies
+    t: Улюблені фільми
   - key: hobbies.favorite_movies.question
-    t: What have been some of your favorite movies recently?
+    t: Які ваші останні улюблені фільми?
   - key: hobbies.favorite_movies.prompt
-    t: Movies you've seen during the past 12 months.
+    t: Фільми, які ви дивилися протягом останніх 12 місяців.
 
   # favorite_tv
 
   - key: hobbies.favorite_tv
-    t: Favorite TV Shows
+    t: Улюблені серіали
   - key: hobbies.favorite_tv.question
-    t: What have been some of your favorite TV shows recently?
+    t: Які ваші останні улюблені серіали?
   - key: hobbies.favorite_tv.prompt
-    t: TV/streaming shows you've seen during the past 12 months.
+    t: Телевізійні чи стримінгові серіали, які ви дивилися протягом останніх 12 місяців.
 
     # musical_genres
 
   - key: hobbies.musical_genres
-    t: Music
+    t: Музика
   - key: hobbies.musical_genres.question
-    t: What are your favorite musical genres?
+    t: Які ваші улюблені музичні жанри?
 
   - key: options.musical_genres.rock
-    t: Rock
+    t: Рок
   - key: options.musical_genres.hip_hop
-    t: Hip Hop
+    t: Хіп-хоп
   - key: options.musical_genres.pop
-    t: Pop
+    t: Поп
   - key: options.musical_genres.edm
     t: EDM
   - key: options.musical_genres.country
-    t: Country
+    t: Кантрі
   - key: options.musical_genres.classical
-    t: Classical
+    t: Класична
   - key: options.musical_genres.jazz
-    t: Jazz
+    t: Джаз
   - key: options.musical_genres.latin
-    t: Latin
+    t: Латинська
   - key: options.musical_genres.soul
-    t: Soul
+    t: Соул
   - key: options.musical_genres.funk
-    t: Funk
+    t: Фанк
   - key: options.musical_genres.reggae
-    t: Reggae
+    t: Реґі
   - key: options.musical_genres.metal
-    t: Metal
+    t: Метал
   - key: options.musical_genres.kpop
-    t: K-pop
+    t: Кей-поп
   - key: options.musical_genres.soundtracks
-    t: Soundtracks
+    t: Саундтреки
 
   # user_info
 
@@ -1156,19 +1156,19 @@ translations:
   # FAQ
 
   - key: faq.who_should_take_survey_devs
-    t: Who should take this survey?
+    t: Хто може взяти участь у цьому опитуванні?
   - key: faq.who_should_take_survey_devs.description
     t: >
-      This survey is for anybody who works or studies as a developer, programmer, or engineer, no matter their experience level or background.
+      Це відкрите опитування для всіх, хто працює чи вчиться як розробник, програміст чи інженер, незалежно від рівня досвіду чи походження!
 
   - key: faq.survey_goals_devs
-    t: What are the goals of this survey?
+    t: Яка мета цього опитування
   - key: faq.survey_goals_devs.description
     t: >
-      The goals of this survey are to gain a fuller picture of the developer ecosystem beyond purely technical trends.
+      Мета опитування — отримати повніше уявлення про екосистему розробників за межами суто технічних тенденцій.
 
   - key: faq.data_used_devs
-    t: How will the collected data be used?
+    t: Як ці дані будуть використані?
   - key: faq.data_used_devs.description
     t: >
-      A detailed report based on the data collected will be published and made freely accessible. Additionally, the full dataset will also be available for free [on demand](https://discord.gg/2E7bbgnrJJ).
+      Зібрані дані використовуватимуться для публікації на загал онлайн-звіту. Також весь набір даних також буде доступний безкоштовно [на вимогу](https://discord.gg/2E7bbgnrJJ).

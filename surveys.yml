@@ -90,34 +90,34 @@ translations:
     t: роки
 
   - key: likert.happiness.option.0
-    t: Дуже незадоволений(-а)
+    t: Дуже незадоволені
   - key: likert.happiness.option.1
-    t: Незадоволений(-а)
+    t: Незадоволені
   - key: likert.happiness.option.2
-    t: Нейтральний(-а)
+    t: Нейтральні
   - key: likert.happiness.option.3
-    t: Задоволений(-а)
+    t: Задоволені
   - key: likert.happiness.option.4
-    t: Дуже задоволений(-а)
+    t: Дуже задоволені
 
   - key: likert.agreement.option.0
-    t: Strongly Disagree
+    t: Зовсім не погоджуюся
     aliases:
       - likert.option.0
   - key: likert.agreement.option.1
-    t: Disagree
+    t: Не погоджуюся
     aliases:
       - likert.option.1
   - key: likert.agreement.option.2
-    t: Neutral
+    t: Нейтрально
     aliases:
       - likert.option.2
   - key: likert.agreement.option.3
-    t: Agree
+    t: Погоджуюся
     aliases:
       - likert.option.3
   - key: likert.agreement.option.4
-    t: Strongly Agree
+    t: Повністю погоджуюся
     aliases:
       - likert.option.4
 
@@ -133,7 +133,7 @@ translations:
 
   - key: general.check_all
     t: >
-      Check all that apply.
+      Виберіть усе застосовне.
 
   ###########################################################################
   # Errors & Messages
