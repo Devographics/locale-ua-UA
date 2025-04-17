@@ -2039,7 +2039,7 @@ translations:
   - key: tools.cardinalities
     t: Кількість елементів
   - key: tools.cardinalities.description
-    t: Скільки елементів у цій категорії респонденти використовували (або чули про них).
+    t: Скільки елементів у цій категорії респонденти використовували.
 
   ###########################################################################
   # Entities repo - https://github.com/Devographics/entities

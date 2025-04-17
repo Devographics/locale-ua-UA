@@ -1,5 +1,9 @@
 locale: ua-UA
 translations:
+  - key: general.ai2025.devs2025_banner
+    t: >
+      Нове опитування розробників про все, що *не* стосується коду: здоров'я, хобі, кар'єра і більше! →
+
   - key: general.ai2025.survey_intro
     t: |
 

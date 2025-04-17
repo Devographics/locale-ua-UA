@@ -75,7 +75,9 @@ translations:
 
   - key: career.career_issues.commentPrompt
     t: |
-      Будь ласка, розкажіть нам, за бажання, більше про конкретні проблеми, з якими ви зіткнулися — лишень не вказуйте
+      Будь ласка, розкажіть нам, за бажання, більше про конкретні проблеми, з якими ви зіткнулися. 
+
+      ⚠️ Попередження: ваш коментар **буде опублікованим**, тому не вказуйте, будь ласка, 
       жодної інформації, за якою можна ідентифікувати вас або вашу компанію.
 
   - key: options.career_issues.harassment
@@ -143,7 +145,7 @@ translations:
   - key: career.discrimination_issues
     t: Дискримінація
   - key: career.discrimination_issues.question
-    t: Чи почувалися ви коли-небудь дискримінованими на робочому місці через будь-який із наведених нижче факторів?
+    t: Чи ви коли-небудь пережили дискримінацію на робочому місці через будь-який із наведених нижче факторів?
 
   - key: options.discrimination_issues.gender
     t: Гендер чи гендерна ідентичність
@@ -152,15 +154,19 @@ translations:
   - key: options.discrimination_issues.race
     t: Раса
   - key: options.discrimination_issues.religion
-    t: Релігія
+    t: Релігія або духовні переконання
   - key: options.discrimination_issues.age
     t: Вік
   - key: options.discrimination_issues.political_views
-    t: Політичні погляди
+    t: Політичні переконання або належність
   - key: options.discrimination_issues.caregiving_status
-    t: Стан догляду (вагітність, догляд за дитиною тощо)
+    t: Обов'язки догляду
+  - key: options.discrimination_issues.caregiving_status.description
+    t: Як-от вагітність, батьківство, догляд за літніми тощо.
   - key: options.discrimination_issues.disability
     t: Порушення здоров'я
+  - key: options.discrimination_issues.disability.description
+    t: Включно з фізичними, психічними чи нейронетиповими.
 
   - key: career.discrimination_issues.commentPrompt
     aliasFor: career.career_issues.commentPrompt
@@ -170,43 +176,43 @@ translations:
   - key: career.negative_impacts
     t: Негативні наслідки
   - key: career.negative_impacts.question
-    t: Що з цього вам довелося зробити внаслідок проблем на робочому місці?
+    t: Чи ви щось із цього зробили внаслідок проблем на робочому місці?
 
   - key: options.negative_impacts.changing_appearance
-    t: Змінити зовнішній вигляд
+    t: Змінили зовнішність чи одяг
 
   - key: options.negative_impacts.changing_behavior
-    t: Змінити спосіб говорити чи діяти
+    t: Змінили спосіб говорити, поводитися чи виражати себе
 
   - key: options.negative_impacts.reported_someone
-    t: Поскаржитися на когось керівництву чи HR
+    t: Поскаржилися на проблему керівництву чи відділу кадрів
 
   - key: options.negative_impacts.isolating_yourself
-    t: Самоізолюватися від колег
+    t: Уникали чи дистанціювалися від колег
 
   - key: options.negative_impacts.internal_transfer
-    t: Прохати перейти в інший відділ
+    t: Прохали про перехід в іншу команду чи відділ
 
   - key: options.negative_impacts.time_off
-    t: Піти в коротку чи довгу відпустку
+    t: Взяли коротку чи довгу відпустку
 
   - key: options.negative_impacts.quitting_job
-    t: Звільнитися з робити
+    t: Звільнилися з робити
 
   - key: options.negative_impacts.shifting_careers
-    t: Змінити кар'єру
+    t: Змінили кар'єру чи сферу діяльності
 
   - key: options.negative_impacts.seeking_counseling
-    t: Звернутися до терапії або консультацій
+    t: Звернулися до терапії, консультацій чи підтримки психічного здоров'я
 
   - key: options.negative_impacts.engaging_legal_counsel
-    t: Залучити юрисконсульта
+    t: Звернулися до юридичної допомоги
 
   - key: options.negative_impacts.scaling_back
-    t: Уповільнити розвиток кар'єри або перейти на неповний робочий день
+    t: Скоротили робочий день або перейшли на менш вимогливу посаду
 
   - key: options.negative_impacts.taking_medicine
-    t: Приймати ліки (від стресу, депресії тощо)
+    t: Приймали ліки від стресу, тривожності, депресії тощо
 
   - key: career.negative_impacts.commentPrompt
     aliasFor: career.career_issues.commentPrompt
@@ -444,6 +450,8 @@ translations:
     t: Підвищення або перехід всередині компанії
   - key: options.job_finding_methods.open_source_community
     t: Причетність до відкритого коду чи спільноти
+  - key: options.job_finding_methods.company_founder
+    t: Заснування власної компанії, самозайнятість
 
   # - key: workplace.how_much_can_you_be_yourself_at_work
   #   t:
