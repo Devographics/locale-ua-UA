@@ -53,10 +53,6 @@ translations:
     t: Обмеження контексту чи пам'яті
   - key: options.ai_pain_points.high_cost
     t: Висока вартість
-  - key: options.ai_pain_points.slow_to_return_results
-    t: Низька швидкість відповіді
-  - key: options.ai_pain_points.poor_generated_code_quality
-    t: Низька якість згенерованого коду
   - key: options.ai_pain_points.outdated_information
     t: Застаріла інформація
   - key: options.ai_pain_points.misunderstanding_prompt
@@ -71,8 +67,6 @@ translations:
     t: Занадто узагальнені відповіді
   - key: options.ai_pain_points.overconfidence
     t: Надмірна впевненість
-  - key: options.ai_pain_points.overly_verbose_results
-    t: Занадто багатослівні чи докладні відповіді
   - key: options.ai_pain_points.hallucinations_inaccuracies
     t: Галюцинації та неточності
   - key: options.ai_pain_points.code_generation_issues
