@@ -450,6 +450,8 @@ translations:
     t: Підвищення або перехід всередині компанії
   - key: options.job_finding_methods.open_source_community
     t: Причетність до відкритого коду чи спільноти
+  - key: options.job_finding_methods.company_founder
+    t: Заснування власної компанії, самозайнятість
 
   # - key: workplace.how_much_can_you_be_yourself_at_work
   #   t:
