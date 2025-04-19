@@ -109,6 +109,8 @@ translations:
     t: Обмеження безкоштовних планів
   - key: options.ai_pain_points.ethical_concerns
     t: Етичні проблеми
+  - key: options.ai_pain_points.slow_performance
+    t: Низька швидкодія
 
   - key: options.ai_pain_points.cursor_pain_points
     t: Проблеми Cursor
@@ -713,6 +715,17 @@ translations:
     t: Нічого
     aliases:
       - options.ai_browser_apis.no_browser_ai_apis
+
+  - key: options.ai_uses.code_assistance
+    t: Перегляд коду та асистування
+  - key: options.ai_uses.search_information_gathering
+    t: Пошук і збір інформації
+  - key: options.ai_uses.text_processing
+    t: Обробка тексту
+  - key: options.ai_uses.not_using
+    t: Не використовую зараз
+  - key: options.ai_uses.data_manipulation_processing
+    t: Обробка даних
 
   # ai_pain_points
   - key: usage.ai_pain_points
