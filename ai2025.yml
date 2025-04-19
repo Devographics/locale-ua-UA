@@ -212,7 +212,7 @@ translations:
 
   - key: usage.ai_missing_features.takeaway.ai2025
     t: |
-      The main thing missing from today's models is the ability to keep entire codebases in memory, something that will prove key if AI tools are meant to help us maintain applications, and not just prototype them.
+      Найголовніше, чого не вистачає сьогоднішнім моделям, — це можливість зберігати усю кодову базу в пам'яті, що стане ключовим, якщо ШІ-інструменти мають допомагати нам підтримувати застосунки, а не лише створювати їхні прототипи.
 
   - key: usage.ai_happiness.takeaway.ai2025
     t: |

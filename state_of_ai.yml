@@ -110,7 +110,7 @@ translations:
   - key: options.ai_pain_points.ethical_concerns
     t: Етичні проблеми
   - key: options.ai_pain_points.slow_performance
-    t: Slow performance
+    t: Низька швидкодія
 
   - key: options.ai_pain_points.cursor_pain_points
     t: Проблеми Cursor
@@ -717,15 +717,15 @@ translations:
       - options.ai_browser_apis.no_browser_ai_apis
 
   - key: options.ai_uses.code_assistance
-    t: Code review & assistance
+    t: Перегляд коду та асистування
   - key: options.ai_uses.search_information_gathering
-    t: Search & information gathering
+    t: Пошук і збір інформації
   - key: options.ai_uses.text_processing
-    t: Text processing
+    t: Обробка тексту
   - key: options.ai_uses.not_using
-    t: Not currently using
+    t: Не використовую зараз
   - key: options.ai_uses.data_manipulation_processing
-    t: Data processing
+    t: Обробка даних
 
   # ai_pain_points
   - key: usage.ai_pain_points
