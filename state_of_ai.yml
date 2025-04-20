@@ -82,7 +82,7 @@ translations:
   - key: options.ai_pain_points.outdated_knowledge
     t: Застарілі знання
   - key: options.ai_pain_points.limited_reasoning_ability
-    t: Обмежена здатність міркувати
+    t: Обмежена здатність міркувати (reasoning)
   - key: options.ai_pain_points.overly_verbose_responses
     t: Занадто багатослівні чи докладні відповіді
   - key: options.ai_pain_points.bad_ui_ux
