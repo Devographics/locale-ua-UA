@@ -905,7 +905,7 @@ translations:
   - key: options.happiness_factors.living_environment
     t: Середовище проживання
   - key: options.happiness_factors.religion_spirituality
-    t: Релігія ата/або духовність
+    t: Релігія та/або духовність
 
   # overall_happiness
 
