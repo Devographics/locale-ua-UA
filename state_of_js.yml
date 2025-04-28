@@ -1665,7 +1665,7 @@ translations:
     t: "`hashbang`-інструкція"
   - key: entities.hashbang_grammar.description
     t: >
-      Надає шлях до певного JavaScript-інтерпретатора, який ви хочете використовувати для виконання сценарію.
+      Надає шлях до певного JavaScript-інтерпретатора, який ви хочете використовувати для виконання сценарію (script).
 
   - key: entities.object_group_by.description
     t: >

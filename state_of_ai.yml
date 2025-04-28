@@ -956,3 +956,18 @@ translations:
     t: Хто проводить це опитування?
   - key: faq.team.description
     t: Це опитування проводить команда [Devographics](https://devographics.com/) із допомогою від спільноти та волонтерів.
+
+
+  ###########################################################################
+  # Entities found only in surveys repo - https://github.com/Devographics/surveys
+  ###########################################################################
+
+  ### state_of_ai/ai2025/results/data - 2025/04/16
+
+  - key: entities.missing_features.name
+    t: Нестача функцій
+  - key: entities.missing_features.description
+    t: Нестача функцій
+
+  - key: entities.scripting.name
+    t: Написання сценаріїв (Scripting)
