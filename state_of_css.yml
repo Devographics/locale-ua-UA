@@ -25,30 +25,60 @@ translations:
   - key: sections.layout.description
     t: Як ви розміщуєте елементи на екрані?
 
+  - key: features.layout_pain_points
+    t: Layout Pain Points
+  - key: features.layout_pain_points.question
+    t: What are your top CSS pain points related to layout?
+
   - key: sections.shapes_graphics.title
     t: Форма та графіка
   - key: sections.shapes_graphics.description
     t: Управління формою і відображенням елементів.
+
+  - key: features.shapes_graphics_pain_points
+    t: Shapes & Graphics Pain Points
+  - key: features.shapes_graphics_pain_points.question
+    t: What are your top CSS pain points related to shapes & graphics?
 
   - key: sections.interactions.title
     t: Взаємодія
   - key: sections.interactions.description
     t: Контроль взаємодії користувача зі сторінкою.
 
+  - key: features.interactions_pain_points
+    t: Interactions Pain Points
+  - key: features.interactions_pain_points.question
+    t: What are your top CSS pain points related to interactions?
+
   - key: sections.typography.title
     t: Типографія
   - key: sections.typography.description
     t: Параметри та компонування тексту.
+
+  - key: features.typography_pain_points
+    t: Typography Pain Points
+  - key: features.typography_pain_points.question
+    t: What are your top CSS pain points related to typography?
 
   - key: sections.animations_transforms.title
     t: Анімація та перетворення
   - key: sections.animations_transforms.description
     t: Анімування та перетворення елементів.
 
+  - key: features.animations_transforms_pain_points
+    t: Animations & Transforms Pain Points
+  - key: features.animations_transforms_pain_points.question
+    t: What are your top CSS pain points related to animations & transforms?
+
   - key: sections.accessibility.title
     t: Доступність
   - key: sections.accessibility.description
     t: Функції і техніки доступності.
+
+  - key: features.accessibility_pain_points
+    t: Accessibility Pain Points
+  - key: features.accessibility_pain_points.question
+    t: What are your top CSS pain points related to accessibility?
 
   - key: sections.media_queries.title
     t: Медіазапити
@@ -65,6 +95,11 @@ translations:
   - key: sections.colors.description
     t: Функції, пов'язані з кольором.
 
+  - key: features.typography_pain_points
+    t: Colors Pain Points
+  - key: features.typography_pain_points.question
+    t: What are your top CSS pain points related to handling colors?
+
   - key: sections.javascript_apis.title
     t: API у JavaScript
   - key: sections.javascript_apis.description
@@ -75,10 +110,20 @@ translations:
   - key: sections.other_features.description
     t: Інші функції CSS.
 
+  - key: features.other_features_pain_points
+    t: Typography Pain Points
+  - key: features.other_features_pain_points.question
+    t: What are your top CSS pain points related to the features mentioned above?
+
   - key: sections.math_features.title
     t: Математика
   - key: sections.math_features.description
     t: Математичні функції.
+
+  - key: features.math_features_pain_points
+    t: Math Features Pain Points
+  - key: features.math_features_pain_points.question
+    t: What are your top CSS pain points related to math features?
 
   - key: sections.units_selectors.title
     t: Одиниці виміру та селектори

@@ -30,21 +30,29 @@ translations:
   # sections
   - key: sections.main_apis.title
     t: Основні API
+    aliases:
+      - features.main_apis
   - key: sections.main_apis.description
     t: Стабільні, загальновідомі функції React
 
   - key: sections.hooks.title
     t: Хуки
+    aliases:
+      - features.hooks
   - key: sections.hooks.description
     t: Вбудовані хуки React
 
   - key: sections.new_apis.title
     t: Нові функції
+    aliases:
+      - features.new_apis
   - key: sections.new_apis.description
     t: Нещодавно додані або експериментальні API та функції
 
   - key: sections.component_libraries.title
     t: Бібліотеки компонентів
+    aliases:
+      - tools.component_libraries
   - key: sections.component_libraries.description
     t: Елементи для побудови вашого застосунку
 
@@ -55,16 +63,22 @@ translations:
 
   - key: sections.state_management.title
     t: Управління станом
+    aliases:
+      - tools.state_management
   - key: sections.state_management.description
     t: Бібліотеки для управління станом застосунку
 
   - key: sections.data_loading.title
     t: Завантаження даних
+    aliases:
+      - tools.data_loading
   - key: sections.data_loading.description
     t: Інструменти для завантаження та управління даними
 
   - key: sections.back_end_infrastructure.title
     t: Серверна частина та інфраструктура
+    aliases:
+      - tools.back_end_infrastructure
   - key: sections.back_end_infrastructure.description
     t: Пакування та обслуговування вашого застосунку
 

@@ -97,15 +97,17 @@ translations:
   - key: ratios.awareness
     aliasFor: options.experience_ranking.awareness
   - key: ratios.retention
-    t: Утримання
+    t: Вдоволення
   - key: ratios.positivity
     t: Позитивне ставлення
   - key: ratios.positivityRelative
     t: Позитивне ставлення
+  - key: ratios.appreciation
+    t: Схвалення
 
   - key: ratios.interest.description
     t: >
-      Частка респондентів із **позитивним ставленням** з-поміж тих, хто **чув** про це
+      Частка респондентів із **позитивним ставленням** з-поміж тих, хто **чув** про це та висловив ставлення
   - key: ratios.usage.description
     t: >
       Частка респондентів, які **використовували** це
@@ -114,13 +116,16 @@ translations:
       Частка респондентів, які **чули або використовували** це
   - key: ratios.retention.description
     t: >
-      Частка респондентів із **позитивним ставленням** з-поміж тих, хто **використовував** це
+      Частка респондентів із **позитивним ставленням** з-поміж тих, хто **використовував** це та висловив ставлення
   - key: ratios.positivity.description
     t: >
       Частка респондентів із **позитивним ставленням** з-поміж усіх
   - key: ratios.positivityRelative.description
     t: >
       Частка респондентів із **позитивним ставленням** з-поміж тих, хто висловив ставлення.
+  - key: ratios.appreciation.description
+    t: >
+      Gap between **interest** (**positive sentiment** among “heard of it” respondents) and **satisfaction** (**positive sentiment** among “used it” respondents), in percentage points.
 
   - key: modes.rank
     t: Ранг
@@ -1978,19 +1983,19 @@ translations:
 
   - key: charts.multiexp.cell_group_tooltip.experience
     t: >
-      **{value}%** респондентів відповіли "**{answer}**"
+      **{count}** респондентів (**{value}%**) відповіли "**{answer}**"
 
   - key: charts.multiexp.cell_group_tooltip.sentiment
     t: >
-      **{value}%** респондентів мають ставлення "**{answer}**"
+      **{count}** респондентів (**{value}%**) мають ставлення "**{answer}**"
 
   - key: charts.multiexp.cell_tooltip
     t: >
-      **{value}%** респондентів відповіли "**{experience}**" і мають ставлення "**{sentiment}**"
+      **{count}** респондентів (**{value}%**) відповіли "**{experience}**" і мають ставлення "**{sentiment}**"
 
   - key: charts.multiexp.cell_tooltip_neutral
     t: >
-      **{value}%** респондентів відповіли "**{experience}**" і не висловили жодного ставлення
+      **{count}** респондентів (**{value}%**) відповіли "**{experience}**" і не висловили жодного ставлення
 
   ###########################################################################
   # Raw Freeform Answers
