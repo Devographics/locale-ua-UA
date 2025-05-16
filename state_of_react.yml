@@ -133,18 +133,30 @@ translations:
 
   - key: features.main_apis_pain_points
     t: Проблеми основних API
+    aliases:
+      - react_pain_points.main_apis_pain_points
   - key: features.main_apis_pain_points.question
     t: З якими проблемами ви стикалися під час використання вищезазначених API?
+    aliases:
+      - react_pain_points.main_apis_pain_points.question
 
   - key: features.hooks_pain_points
     t: Проблеми хуків
+    aliases:
+      - react_pain_points.hooks_pain_points
   - key: features.hooks_pain_points.question
     t: З якими проблемами ви стикалися під час використання хуків?
+    aliases:
+      - react_pain_points.hooks_pain_points.question
 
   - key: features.new_apis_pain_points
     t: Проблеми нових API
+    aliases:
+      - react_pain_points.new_apis_pain_points
   - key: features.new_apis_pain_points.question
     t: З якими проблемами ви стикалися під час використання нових API?
+    aliases:
+      - react_pain_points.new_apis_pain_points.question
 
   # main features
   - key: features.fragment.description
@@ -290,8 +302,12 @@ translations:
 
   - key: tools.component_libraries_pain_points
     t: Проблеми у роботі з компонентами
+    aliases:
+      - react_pain_points.component_libraries_pain_points
   - key: tools.component_libraries_pain_points.question
     t: З якими проблемами ви стикалися під час роботи з компонентами?
+    aliases:
+      - react_pain_points.component_libraries_pain_points.question
 
   # - key: tools.ui_libraries_happiness
   #   t: Happiness
@@ -305,8 +321,12 @@ translations:
 
   - key: tools.state_management_pain_points
     t: Проблеми управління станом
+    aliases:
+      - react_pain_points.state_management_pain_points
   - key: tools.state_management_pain_points.question
     t: З якими проблемами ви стикалися під час управління станом?
+    aliases:
+      - react_pain_points.state_management_pain_points.question
 
   # - key: tools.state_management_happiness
   #   t: Happiness
@@ -320,8 +340,12 @@ translations:
 
   - key: tools.data_loading_pain_points
     t: Проблеми під час завантаження даних
+    aliases:
+      - react_pain_points.data_loading_pain_points
   - key: tools.data_loading_pain_points.question
     t: З якими проблемами ви стикалися під час завантаження даних?
+    aliases:
+      - react_pain_points.data_loading_pain_points.question
 
   # - key: tools.data_loading_happiness
   #   t: Happiness
@@ -343,8 +367,12 @@ translations:
 
   - key: tools.back_end_infrastructure_pain_points
     t: Проблеми серверної частини
+    aliases:
+      - react_pain_points.back_end_infrastructure_pain_points
   - key: tools.back_end_infrastructure_pain_points.question
     t: З якими проблемами ви стикалися під час роботи із серверною частиною та інфраструктурою?
+    aliases:
+      - react_pain_points.back_end_infrastructure_pain_points.question
 
   - key: tools.testing
     t: Бібліотеки для тестування
@@ -609,8 +637,12 @@ translations:
 
   - key: usage.usage_pain_points
     t: Інші проблеми
+    aliases:
+      - react_pain_points.usage_pain_points
   - key: usage.usage_pain_points.question
     t: Чи є ще які-небудь проблеми щодо React, які ви хотіли б згадати?
+    aliases:
+      - react_pain_points.usage_pain_points.question
 
   # new features
   - key: usage.new_features
@@ -708,7 +740,115 @@ translations:
   - key: resources.people_react.question
     t: З-поміж особистостей у спільноті React — кого ви читаєте, за ким слідкуєте чи просто хочете виокремити?
 
-  ###########################################################################
+  # pain points
+
+  - key: react_pain_points.end_to_end_type_safety
+    t: Наскрізна (e2e) типобезпечність
+  - key: react_pain_points.create_react_app_issues
+    t: Create React App issues
+
+  - key: react_pain_points.webpack_issues
+    t: Webpack issues
+
+  - key: react_pain_points.firebase_issues
+    t: Firebase issues
+
+  - key: react_pain_points.pricing_issues
+    t: High costs
+
+  - key: react_pain_points.aws_issues
+    t: AWS Issues
+
+  - key: react_pain_points.graphql_issues
+    t: GraphQL Issues
+
+  - key: react_pain_points.css_in_js_issues
+    t: CSS-in-JS issues
+
+  - key: react_pain_points.tailwind_issues
+    t: Проблеми Tailwind
+
+  - key: react_pain_points.mui_issues
+    t: Проблеми MUI
+
+  - key: react_pain_points.styled_components_issues
+    t: Проблеми styled-компонентів
+
+  - key: react_pain_points.prop_drilling
+    t: Prop drilling
+
+  - key: react_pain_points.caching
+    t: Кешування
+
+  - key: react_pain_points.graphql_issues
+    t: GraphQL issues
+
+  - key: react_pain_points.apollo_issues
+    t: Проблеми Apollo
+
+  - key: react_pain_points.optimistic_updates
+    t: Optimistic updates
+
+  - key: react_pain_points.cancelling_requests
+    t: Unable to cancel requests
+
+  - key: react_pain_points.rules_of_hooks
+    t: Rules of hooks
+
+  - key: react_pain_points.hooks_disallowed_conditional_logic
+    t: Disallowed conditional logic
+
+  # - key: react_pain_points.excessive_rerendering # duplicate in original
+  #   t: Excessive rerendering
+
+  - key: react_pain_points.dependency_arrays
+    t: Масиви залежностей
+
+  - key: react_pain_points.context_api
+    t: Context API
+
+  - key: react_pain_points.context_api_rerendering
+    t: Надмірні повторні рендери контексту
+
+  - key: react_pain_points.react_lack_of_signals
+    t: Lack of signals
+
+  - key: react_pain_points.excessive_rerendering
+    t: Надмірні повторні рендери
+    aliases:
+      - react_pain_points.excesssive_rerendering
+
+  - key: react_pain_points.nextjs_issues
+    t: Проблеми Next.js
+
+  - key: react_pain_points.vercel_issues
+    t: Vercel issues
+
+  - key: react_pain_points.hooks_issues
+    t: Hooks issues
+
+  - key: react_pain_points.redux_issues
+    t: Проблеми Redux
+
+  - key: react_pain_points.mobx_issues
+    t: Проблеми MobX
+
+  - key: react_pain_points.global_state_management
+    t: Управління глобальним станом
+
+  - key: react_pain_points.synchronization_issues
+    t: Проблеми синхронізації
+
+  - key: react_pain_points.reactivity_issues
+    t: Reactivity issues
+
+  - key: react_pain_points.side_effects_issues
+    t: Side effects issues
+
+  - key: react_pain_points.cache_issues
+    t: Cache issues
+
+###########################################################################
   # Entities repo - https://github.com/Devographics/entities
   ###########################################################################
 
@@ -787,8 +927,8 @@ translations:
     t: Завелика складність
 
   # https://discord.com/channels/771563445023277056/878437777707008070/1334667936073515101
-  - key: entities.context_api_rerendering.name
-    t: Надмірні повторні рендери
+  # - key: entities.context_api_rerendering.name
+    # t: Надмірні повторні рендери
 
   - key: entities.testing.name
     t: Тестування
@@ -796,23 +936,23 @@ translations:
   - key: entities.error_handling.name
     t: Обробка помилок
 
-  - key: entities.dependency_arrays.name
-    t: Масиви залежностей
+  # - key: entities.dependency_arrays.name
+  #   t: Масиви залежностей
   - key: entities.dependency_arrays.description
     t: >
       Задання ​​списку змінних, від яких залежить `useEffect`.
 
-  - key: entities.excessive_rerendering.name
-    t: Надмірні повторні рендери
+  # - key: entities.excessive_rerendering.name
+  #   t: Надмірні повторні рендери
 
-  - key: entities.state_management.name
-    t: Управління станом
+  # - key: entities.state_management.name
+  #   t: Управління станом
 
   - key: entities.form_issues.name
     t: Проблеми форм
 
-  - key: entities.nextjs_issues.name
-    t: Проблеми Next.js
+  # - key: entities.nextjs_issues.name
+  #   t: Проблеми Next.js
 
   - key: entities.server_client_issues.name
     t: Інтеграція клієнта та сервера
@@ -825,45 +965,45 @@ translations:
   - key: entities.styling_customization.description
     t: Проблеми стилізації та кастомізації за допомогою CSS.
 
-  - key: entities.tailwind_issues.name
-    t: Проблеми Tailwind
+  # - key: entities.tailwind_issues.name
+  #   t: Проблеми Tailwind
 
-  - key: entities.mui_issues.name
-    t: Проблеми MUI
+  # - key: entities.mui_issues.name
+  #   t: Проблеми MUI
 
   - key: entities.performance.name
     t: Швидкодія
   - key: entities.performance.description
     t: Проблеми швидкодії
 
-  - key: entities.styled_components_issues.name
-    t: Проблеми styled-компонентів
+  # - key: entities.styled_components_issues.name
+  #   t: Проблеми styled-компонентів
 
   # https://discord.com/channels/771563445023277056/878437777707008070/1334667936073515101
-  - key: entities.excesssive_rerendering.name
-    t: Надмірні повторні рендери
+  # - key: entities.excesssive_rerendering.name
+  #   t: Надмірні повторні рендери
 
-  - key: entities.redux_issues.name
-    t: Проблеми Redux
+  # - key: entities.redux_issues.name
+  #   t: Проблеми Redux
 
   - key: entities.too_much_boilerplate.name
     t: Надмірна шаблонність
   - key: entities.too_much_boilerplate.description
     t: Потрібно забагато повторюваних шаблонів
 
-  - key: entities.global_state_management.name
-    t: Управління глобальним станом
+  # - key: entities.global_state_management.name
+  #   t: Управління глобальним станом
 
-  - key: entities.synchronization_issues.name
-    t: Проблеми синхронізації
+  # - key: entities.synchronization_issues.name
+  #   t: Проблеми синхронізації
 
   - key: entities.verbosity.name
     t: Надмірна багатослівність
   - key: entities.verbosity.description
     t: API занадто багатослівні чи докладні (verbose)
 
-  - key: entities.mobx_issues.name
-    t: Проблеми MobX
+  # - key: entities.mobx_issues.name
+  #   t: Проблеми MobX
 
   - key: entities.maintenance.name
     t: Підтримування
@@ -871,14 +1011,14 @@ translations:
   - key: entities.tough_learning_curve.name
     t: Складна крива вивчення
 
-  - key: entities.caching.name
-    t: Кешування
+  # - key: entities.caching.name
+  #   t: Кешування
 
-  - key: entities.apollo_issues.name
-    t: Проблеми Apollo
+  # - key: entities.apollo_issues.name
+  #   t: Проблеми Apollo
 
-  - key: entities.end_to_end_type_safety.name
-    t: Наскрізна (e2e) типобезпечність
+  # - key: entities.end_to_end_type_safety.name
+  #   t: Наскрізна (e2e) типобезпечність
 
   - key: entities.deployment.name
     t: Розгортання

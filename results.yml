@@ -973,9 +973,9 @@ translations:
   - key: charts.axis_legends.interest_percentage
     t: Зацікавленість, %
   - key: charts.axis_legends.satisfaction_percentage
-    t: Утримання, %
+    t: Вдоволення, %
   - key: charts.axis_legends.retention_percentage
-    t: Утримання, %
+    t: Вдоволення, %
   - key: charts.axis_legends.usage_percentage
     t: Використання, %
   - key: charts.axis_legends.awareness_percentage
