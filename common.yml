@@ -1364,6 +1364,9 @@ translations:
   - key: options.employment_status.ceo_founder
     t: CEO/засновники/підприємці
 
+  - key: options.employment_status.freelance.short
+    t: Freelancer/self-employed
+
   # bracket
   - key: options.bracket.round1
     t: Виграш у першому раунді
@@ -1537,16 +1540,26 @@ translations:
   # age
   - key: user_info.age
     t: Вік
+    aliases:
+      - health.age
   - key: user_info.age.question
     t: Скільки вам років?
+    aliases:
+      - health.age.question
 
   # years of experience
   - key: user_info.years_of_experience
     t: Досвід
+    aliases:
+      - career.years_of_experience
   - key: user_info.years_of_experience.question
     t: Скільки років досвіду ви маєте у сфері розробки?
+    aliases:
+      - career.years_of_experience.question
   - key: user_info.years_of_experience.prompt
     t: Як професіонали, студенти, аматори тощо.
+    aliases:
+      - career.years_of_experience.prompt
 
   # company size
   - key: user_info.company_size
@@ -1557,8 +1570,12 @@ translations:
   # salary ranges
   - key: user_info.yearly_salary
     t: Річний дохід
+    aliases:
+      - workplace.yearly_salary
   - key: user_info.yearly_salary.question
     t: Ваш річний дохід (до оподаткування) у доларах США.
+    aliases:
+      - workplace.yearly_salary.question
 
   # income_evolution
   - key: user_info.income_evolution
@@ -1701,8 +1718,12 @@ translations:
   # degree
   - key: user_info.higher_education_degree
     t: Вища освіта
+    aliases:
+      - career.higher_education_degree
   - key: user_info.higher_education_degree.question
     t: Ви маєте вищу освіту?
+    aliases:
+      - career.higher_education_degree.question
 
   # completion
   - key: user_info.completion_stats
