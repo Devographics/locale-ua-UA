@@ -214,7 +214,7 @@ translations:
       Опитування {surveyName}
   - key: general.share_text
     t: >
-      Цьогорічне опитування "{surveyName}" відкрито! {link}
+      Пройдіть опитування "{surveyName}" за вільної хвилинки! {link}
 
   # forms
   - key: forms.select_option
@@ -1254,6 +1254,17 @@ translations:
     t: Розсилка
   - key: options.first_steps.events
     t: Події, заходи
+
+  # web_platform_resources
+
+  - key: resources.web_platform_resources
+    t: Джерела інформації про вебплатформу
+    aliases:
+      - other_tools.web_platform_resources
+  - key: resources.web_platform_resources.question
+    t: До яких джерел ви звертаєтеся, щоб залишатися обізнаними про функції вебплатформи?
+    aliases:
+      - other_tools.web_platform_resources.question
 
   # learning methods
 
