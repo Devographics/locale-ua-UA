@@ -26,9 +26,9 @@ translations:
     t: Як ви розміщуєте елементи на екрані?
 
   - key: features.layout_pain_points
-    t: Layout Pain Points
+    t: Проблеми компонування
   - key: features.layout_pain_points.question
-    t: What are your top CSS pain points related to layout?
+    t: Які CSS-проблеми компонування найбільше вас розчаровують?
 
   - key: sections.shapes_graphics.title
     t: Форма та графіка
@@ -36,9 +36,9 @@ translations:
     t: Управління формою і відображенням елементів.
 
   - key: features.shapes_graphics_pain_points
-    t: Shapes & Graphics Pain Points
+    t: Проблеми форми та графіки
   - key: features.shapes_graphics_pain_points.question
-    t: What are your top CSS pain points related to shapes & graphics?
+    t: Які CSS-проблеми форми та графіки найбільше вас розчаровують?
 
   - key: sections.interactions.title
     t: Взаємодія
@@ -46,9 +46,9 @@ translations:
     t: Контроль взаємодії користувача зі сторінкою.
 
   - key: features.interactions_pain_points
-    t: Interactions Pain Points
+    t: Проблеми взаємодії
   - key: features.interactions_pain_points.question
-    t: What are your top CSS pain points related to interactions?
+    t: Які CSS-проблеми взаємодії найбільше вас розчаровують?
 
   - key: sections.typography.title
     t: Типографія
@@ -56,9 +56,9 @@ translations:
     t: Параметри та компонування тексту.
 
   - key: features.typography_pain_points
-    t: Typography Pain Points
+    t: Проблеми типографії
   - key: features.typography_pain_points.question
-    t: What are your top CSS pain points related to typography?
+    t: Які CSS-проблеми типографії найбільше вас розчаровують?
 
   - key: sections.animations_transforms.title
     t: Анімація та перетворення
@@ -66,9 +66,9 @@ translations:
     t: Анімування та перетворення елементів.
 
   - key: features.animations_transforms_pain_points
-    t: Animations & Transforms Pain Points
+    t: Проблеми анімації та перетворення
   - key: features.animations_transforms_pain_points.question
-    t: What are your top CSS pain points related to animations & transforms?
+    t: Які CSS-проблеми анімації та перетворення найбільше вас розчаровують?
 
   - key: sections.accessibility.title
     t: Доступність
@@ -76,9 +76,9 @@ translations:
     t: Функції і техніки доступності.
 
   - key: features.accessibility_pain_points
-    t: Accessibility Pain Points
+    t: Проблеми доступності
   - key: features.accessibility_pain_points.question
-    t: What are your top CSS pain points related to accessibility?
+    t: Які CSS-проблеми доступності найбільше вас розчаровують?
 
   - key: sections.media_queries.title
     t: Медіазапити
@@ -96,9 +96,9 @@ translations:
     t: Функції, пов'язані з кольором.
 
   - key: features.typography_pain_points
-    t: Colors Pain Points
+    t: Проблеми кольорів
   - key: features.typography_pain_points.question
-    t: What are your top CSS pain points related to handling colors?
+    t: Які CSS-проблеми кольорів найбільше вас розчаровують?
 
   - key: sections.javascript_apis.title
     t: API у JavaScript
@@ -111,9 +111,9 @@ translations:
     t: Інші функції CSS.
 
   - key: features.other_features_pain_points
-    t: Typography Pain Points
+    t: Проблеми інших функцій
   - key: features.other_features_pain_points.question
-    t: What are your top CSS pain points related to the features mentioned above?
+    t: Які CSS-проблеми наведених вище функцій найбільше вас розчаровують?
 
   - key: sections.math_features.title
     t: Математика
@@ -121,9 +121,9 @@ translations:
     t: Математичні функції.
 
   - key: features.math_features_pain_points
-    t: Math Features Pain Points
+    t: Проблеми математики
   - key: features.math_features_pain_points.question
-    t: What are your top CSS pain points related to math features?
+    t: Які CSS-проблеми математичних функцій найбільше вас розчаровують?
 
   - key: sections.units_selectors.title
     t: Одиниці виміру та селектори
@@ -762,7 +762,7 @@ translations:
     t: Фреймворки або бібліотеки з заготованими компонентами чи стилями.
 
   - key: options.css_frameworks.custom_framework
-    t: Custom/in-house framework
+    t: Власний/внутрішній фреймворк
 
   - key: tools.css_in_js
     t: CSS-in-JS
@@ -1160,16 +1160,16 @@ translations:
 
   # baseline_awareness
   - key: usage.baseline_awareness
-    t: Baseline Awareness
+    t: Впізнаваність бази сумісності
   - key: usage.baseline_awareness.question
-    t: How familiar are you with the Web Platform Baseline indicator?
+    t: Чи ви знайомі з індикатором бази сумісності вебплатформи (Web Platform Baseline)?
 
   - key: options.baseline_awareness.never_heard
-    t: I've never heard about it
+    t: Вперше чую
   - key: options.baseline_awareness.heard_not_sure
-    t: I've heard about it but I'm not quite sure what it is
+    t: Чув(-ла) про це, але не зовсім впевнений(-а)
   - key: options.baseline_awareness.know_what_it_is
-    t: I know exactly what it is
+    t: Точно знаю, що це
 
   # favorite_new_feature
   - key: usage.favorite_new_features
@@ -1179,9 +1179,9 @@ translations:
 
   # gamechanger_feature
   - key: usage.gamechanger_feature
-    t: Game-changing Feature
+    t: Функція, яка змінила все
   - key: usage.gamechanger_feature.question
-    t: Over the past 5 years, which feature has had the biggest impact on how you write CSS?
+    t: Протягом останніх 5 років, яка функція мала найбільший вплив на те, як ви пишете CSS?
 
   ###########################################################################
   # Resources

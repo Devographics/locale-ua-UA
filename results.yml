@@ -77,9 +77,9 @@ translations:
   - key: tabs.outreach
     t: Залучення
   - key: tabs.men_vs_non_men
-    t: Men vs Non-Men
+    t: Чоловіки та нечоловіки
   - key: tabs.white_vs_non_white
-    t: White vs Non-White
+    t: Білі та небілі
 
   ###########################################################################
   # Options
@@ -129,7 +129,7 @@ translations:
       Частка респондентів із **позитивним ставленням** з-поміж тих, хто висловив ставлення.
   - key: ratios.appreciation.description
     t: >
-      Gap between **interest** (**positive sentiment** among “heard of it” respondents) and **satisfaction** (**positive sentiment** among “used it” respondents), in percentage points.
+      Різниця між **зацікавленістю** (**позитивне ставлення** з-поміж респондентів, які "чули про це") і **вдоволенням** (**позитивне ставлення** з-поміж респондентів, які "використовували це"), у відсоткових пунктах.
 
   - key: modes.rank
     t: Ранг
@@ -810,7 +810,7 @@ translations:
   - key: export.export_filters
     t: Фільтри у вигляді коду
   - key: export.debug
-    t: Debug
+    t: Для налагодження
 
   - key: custom_data.heading
     t: Власна діаграма
@@ -1162,37 +1162,37 @@ translations:
   - key: comments.filter.all
     t: Усі
   - key: comments.filter.clear
-    t: Clear
+    t: Очистити
 
   - key: comment.like.description
-    t: Like this comment
+    t: Вподобати цей коментар
 
   - key: comments.filter.show
-    t: Show Filters
+    t: Показати фільтри
   - key: comments.filter.hide
-    t: Hide Filters
+    t: Приховати фільтри
 
   - key: comments.filter.by_keyword
-    t: Top Keywords
+    t: Основні ключові слова
   - key: comments.filter.by_keyword.description
-    t: Filter based on top keywords mentioned in comments.
+    t: Фільтр за основними ключовими словами, згаданими у коментарях.
   - key: comments.filter.by_search
-    t: Search
+    t: Пошук
   - key: comments.filter.by_search.description
-    t: Search using a custom keyword.
+    t: Пошук за власним ключовим словом.
   - key: comments.filter.by_answer
-    t: Selected Answer
+    t: Вибрана відповідь
   - key: comments.filter.by_answer.description
-    t: Filter based on the answer(s) selected by respondents.
+    t: Фільтр за відповіддю, вибраною респондентами.
 
   - key: comments.filter.by_experience
-    t: Experience
+    t: Досвід
   - key: comments.filter.by_experience.description
-    t: Filter based on respondent's experience with the main item.
+    t: Фільтр за досвідом респондентів на цю тему.
   - key: comments.filter.by_sentiment
-    t: Sentiment
+    t: Ставлення
   - key: comments.filter.by_sentiment.description
-    t: Filter based on respondent's sentiments about the main item.
+    t: Фільтр за ставленням респондентів на цю тему.
 
   ###########################################################################
   # Sharing

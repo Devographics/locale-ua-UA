@@ -3,15 +3,15 @@ translations:
   - key: general.css2025.survey_intro
     t: |
 
-      There is only one item on my CSS wishlist for 2025: a slower pace!
+      У мене є лише один пункт у списку побажань до CSS на 2025 рік — повільніший темп!
 
-      After years of rapid innovation, now feels like the right time for browser vendors to take a beat to consolidate, fix browser inconsistencies, and let the rest of us catch up.  
+      Після років стрімких нововведень, здається, розробникам браузерів варто ненадовго зупинитися: узгодити стандарти, виправити несумісності між браузерами і дати решті з нас змогу наздогнати.
 
-      After all, we might've heard about subgrid, `:has()`, scroll-driven animations, and all the other recent CSS improvements – but how many of us can say that we've actually used all these features, let alone mastered them?
+      Все ж таки ми, мабуть, чули про вкладену сітку, :has(), анімації, що керуються гортанням, та інші покращення CSS — але скільки з нас їх направду використовували, не кажучи вже про досконале опанування?
 
-      This is why this year's survey will be so interesting. It'll be a chance to see which of the past few year's new CSS additions have already been adopted by the community, and which ones are still on our to-do list. 
+      Ось чому це опитування буде дуже цікавим. Це шанс побачити, які з нових CSS-функцій останніх років уже були прийняті спільнотою, а які — все ще у нашому списку "на потім".
 
-      So once again, please join me for this year's State of CSS!
+      Тож ще раз, будь ласка, приєднуйтеся до цьогорічного "Стану CSS"!
 
   - key: features.features_intro_css2025
     aliasFor: features.features_intro_css2024
@@ -26,17 +26,17 @@ translations:
     aliasFor: faq.how_long_will_survey_take_css2024.description
 
   - key: faq.learn_more_css2025
-    t: Where can I learn more?
+    t: Де я можу дізнатися більше?
   - key: faq.learn_more_css2025.description
-    t: You can learn more about this survey in [our announcement post](https://dev.to/sachagreif/the-2024-state-of-css-survey-is-now-open-4o5h).
+    t: Ви можете дізнатися більше про це опитування у [нашому анонсі](https://dev.to/sachagreif/the-2024-state-of-css-survey-is-now-open-4o5h).
 
   - key: faq.survey_design_css2025
-    t: How was this survey designed?
+    t: Як було розроблено це опитування?
   - key: faq.survey_design_css2025.description
     t: >
-      This survey was designed as the results of an [open design process](https://github.com/Devographics/surveys/issues/289) involving browser vendors and the web development community.
+      Опитування було розроблено унаслідок [відкритого процесу розробки](https://github.com/Devographics/surveys/issues/289) із залученням постачальників браузерів і спільноти веброзробки.
 
   - key: faq.results_released_css2025
-    t: When will the results be released?
+    t: Коли будуть опубліковані результати?
   - key: faq.results_released_css2025.description
-    t: The survey will run from June 1 to July 1, 2025, and the survey results will be released shortly after.
+    t: Опитування триватиме із 1 червня до 1 липня 2025 року, і його результати будуть опубліковані незабаром після завершення.
