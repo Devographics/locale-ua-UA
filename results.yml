@@ -76,6 +76,10 @@ translations:
     t: Іспанськомовні
   - key: tabs.outreach
     t: Залучення
+  - key: tabs.men_vs_non_men
+    t: Чоловіки та нечоловіки
+  - key: tabs.white_vs_non_white
+    t: Білі та небілі
 
   ###########################################################################
   # Options
@@ -97,15 +101,17 @@ translations:
   - key: ratios.awareness
     aliasFor: options.experience_ranking.awareness
   - key: ratios.retention
-    t: Утримання
+    t: Вдоволення
   - key: ratios.positivity
     t: Позитивне ставлення
   - key: ratios.positivityRelative
     t: Позитивне ставлення
+  - key: ratios.appreciation
+    t: Схвалення
 
   - key: ratios.interest.description
     t: >
-      Частка респондентів із **позитивним ставленням** з-поміж тих, хто **чув** про це
+      Частка респондентів із **позитивним ставленням** з-поміж тих, хто **чув** про це та висловив ставлення
   - key: ratios.usage.description
     t: >
       Частка респондентів, які **використовували** це
@@ -114,13 +120,16 @@ translations:
       Частка респондентів, які **чули або використовували** це
   - key: ratios.retention.description
     t: >
-      Частка респондентів із **позитивним ставленням** з-поміж тих, хто **використовував** це
+      Частка респондентів із **позитивним ставленням** з-поміж тих, хто **використовував** це та висловив ставлення
   - key: ratios.positivity.description
     t: >
       Частка респондентів із **позитивним ставленням** з-поміж усіх
   - key: ratios.positivityRelative.description
     t: >
       Частка респондентів із **позитивним ставленням** з-поміж тих, хто висловив ставлення.
+  - key: ratios.appreciation.description
+    t: >
+      Різниця між **зацікавленістю** (**позитивне ставлення** з-поміж респондентів, які "чули про це") і **вдоволенням** (**позитивне ставлення** з-поміж респондентів, які "використовували це"), у відсоткових пунктах.
 
   - key: modes.rank
     t: Ранг
@@ -800,6 +809,8 @@ translations:
     t: GraphQL-запит
   - key: export.export_filters
     t: Фільтри у вигляді коду
+  - key: export.debug
+    t: Для налагодження
 
   - key: custom_data.heading
     t: Власна діаграма
@@ -968,9 +979,9 @@ translations:
   - key: charts.axis_legends.interest_percentage
     t: Зацікавленість, %
   - key: charts.axis_legends.satisfaction_percentage
-    t: Утримання, %
+    t: Вдоволення, %
   - key: charts.axis_legends.retention_percentage
-    t: Утримання, %
+    t: Вдоволення, %
   - key: charts.axis_legends.usage_percentage
     t: Використання, %
   - key: charts.axis_legends.awareness_percentage
@@ -1150,6 +1161,38 @@ translations:
     t: "Ставлення: "
   - key: comments.filter.all
     t: Усі
+  - key: comments.filter.clear
+    t: Очистити
+
+  - key: comment.like.description
+    t: Вподобати цей коментар
+
+  - key: comments.filter.show
+    t: Показати фільтри
+  - key: comments.filter.hide
+    t: Приховати фільтри
+
+  - key: comments.filter.by_keyword
+    t: Основні ключові слова
+  - key: comments.filter.by_keyword.description
+    t: Фільтр за основними ключовими словами, згаданими у коментарях.
+  - key: comments.filter.by_search
+    t: Пошук
+  - key: comments.filter.by_search.description
+    t: Пошук за власним ключовим словом.
+  - key: comments.filter.by_answer
+    t: Вибрана відповідь
+  - key: comments.filter.by_answer.description
+    t: Фільтр за відповіддю, вибраною респондентами.
+
+  - key: comments.filter.by_experience
+    t: Досвід
+  - key: comments.filter.by_experience.description
+    t: Фільтр за досвідом респондентів на цю тему.
+  - key: comments.filter.by_sentiment
+    t: Ставлення
+  - key: comments.filter.by_sentiment.description
+    t: Фільтр за ставленням респондентів на цю тему.
 
   ###########################################################################
   # Sharing
@@ -1978,19 +2021,19 @@ translations:
 
   - key: charts.multiexp.cell_group_tooltip.experience
     t: >
-      **{value}%** респондентів відповіли "**{answer}**"
+      **{count}** респондентів (**{value}%**) відповіли "**{answer}**"
 
   - key: charts.multiexp.cell_group_tooltip.sentiment
     t: >
-      **{value}%** респондентів мають ставлення "**{answer}**"
+      **{count}** респондентів (**{value}%**) мають ставлення "**{answer}**"
 
   - key: charts.multiexp.cell_tooltip
     t: >
-      **{value}%** респондентів відповіли "**{experience}**" і мають ставлення "**{sentiment}**"
+      **{count}** респондентів (**{value}%**) відповіли "**{experience}**" і мають ставлення "**{sentiment}**"
 
   - key: charts.multiexp.cell_tooltip_neutral
     t: >
-      **{value}%** респондентів відповіли "**{experience}**" і не висловили жодного ставлення
+      **{count}** респондентів (**{value}%**) відповіли "**{experience}**" і не висловили жодного ставлення
 
   ###########################################################################
   # Raw Freeform Answers

@@ -25,30 +25,60 @@ translations:
   - key: sections.layout.description
     t: Як ви розміщуєте елементи на екрані?
 
+  - key: features.layout_pain_points
+    t: Проблеми компонування
+  - key: features.layout_pain_points.question
+    t: Які CSS-проблеми компонування найбільше вас розчаровують?
+
   - key: sections.shapes_graphics.title
     t: Форма та графіка
   - key: sections.shapes_graphics.description
     t: Управління формою і відображенням елементів.
+
+  - key: features.shapes_graphics_pain_points
+    t: Проблеми форми та графіки
+  - key: features.shapes_graphics_pain_points.question
+    t: Які CSS-проблеми форми та графіки найбільше вас розчаровують?
 
   - key: sections.interactions.title
     t: Взаємодія
   - key: sections.interactions.description
     t: Контроль взаємодії користувача зі сторінкою.
 
+  - key: features.interactions_pain_points
+    t: Проблеми взаємодії
+  - key: features.interactions_pain_points.question
+    t: Які CSS-проблеми взаємодії найбільше вас розчаровують?
+
   - key: sections.typography.title
     t: Типографія
   - key: sections.typography.description
     t: Параметри та компонування тексту.
+
+  - key: features.typography_pain_points
+    t: Проблеми типографії
+  - key: features.typography_pain_points.question
+    t: Які CSS-проблеми типографії найбільше вас розчаровують?
 
   - key: sections.animations_transforms.title
     t: Анімація та перетворення
   - key: sections.animations_transforms.description
     t: Анімування та перетворення елементів.
 
+  - key: features.animations_transforms_pain_points
+    t: Проблеми анімації та перетворення
+  - key: features.animations_transforms_pain_points.question
+    t: Які CSS-проблеми анімації та перетворення найбільше вас розчаровують?
+
   - key: sections.accessibility.title
     t: Доступність
   - key: sections.accessibility.description
     t: Функції і техніки доступності.
+
+  - key: features.accessibility_pain_points
+    t: Проблеми доступності
+  - key: features.accessibility_pain_points.question
+    t: Які CSS-проблеми доступності найбільше вас розчаровують?
 
   - key: sections.media_queries.title
     t: Медіазапити
@@ -65,6 +95,11 @@ translations:
   - key: sections.colors.description
     t: Функції, пов'язані з кольором.
 
+  - key: features.typography_pain_points
+    t: Проблеми кольорів
+  - key: features.typography_pain_points.question
+    t: Які CSS-проблеми кольорів найбільше вас розчаровують?
+
   - key: sections.javascript_apis.title
     t: API у JavaScript
   - key: sections.javascript_apis.description
@@ -75,10 +110,20 @@ translations:
   - key: sections.other_features.description
     t: Інші функції CSS.
 
+  - key: features.other_features_pain_points
+    t: Проблеми інших функцій
+  - key: features.other_features_pain_points.question
+    t: Які CSS-проблеми наведених вище функцій найбільше вас розчаровують?
+
   - key: sections.math_features.title
     t: Математика
   - key: sections.math_features.description
     t: Математичні функції.
+
+  - key: features.math_features_pain_points
+    t: Проблеми математики
+  - key: features.math_features_pain_points.question
+    t: Які CSS-проблеми математичних функцій найбільше вас розчаровують?
 
   - key: sections.units_selectors.title
     t: Одиниці виміру та селектори
@@ -716,6 +761,9 @@ translations:
   - key: tools.css_frameworks.prompt
     t: Фреймворки або бібліотеки з заготованими компонентами чи стилями.
 
+  - key: options.css_frameworks.custom_framework
+    t: Власний/внутрішній фреймворк
+
   - key: tools.css_in_js
     t: CSS-in-JS
   - key: tools.css_in_js.question
@@ -735,8 +783,6 @@ translations:
     aliasFor: sections.pre_post_processors_others.title
   - key: other_tools.pre_post_processors_freeform
     aliasFor: sections.pre_post_processors_others.title
-  - key: options.pre_post_processors.na
-    t: Нічого
 
   - key: tools.pre_post_processors
     aliasFor: sections.pre_post_processors.title
@@ -751,8 +797,6 @@ translations:
     t: Інші інструменти
   - key: tools_others.utilities.others.description
     t: Інше (поле відповіді довільної форми).
-  - key: options.utilities.na
-    t: Нічого
 
   - key: tools.utilities
     aliasFor: tools_others.utilities
@@ -1114,11 +1158,30 @@ translations:
   - key: options.design_methodology.design_in_css
     t: Реалізую власні дизайни безпосередньо в CSS
 
+  # baseline_awareness
+  - key: usage.baseline_awareness
+    t: Впізнаваність бази сумісності
+  - key: usage.baseline_awareness.question
+    t: Чи ви знайомі з індикатором бази сумісності вебплатформи (Web Platform Baseline)?
+
+  - key: options.baseline_awareness.never_heard
+    t: Вперше чую
+  - key: options.baseline_awareness.heard_not_sure
+    t: Чув(-ла) про це, але не зовсім впевнений(-а)
+  - key: options.baseline_awareness.know_what_it_is
+    t: Точно знаю, що це
+
   # favorite_new_feature
   - key: usage.favorite_new_features
     t: Улюблена нова функція
   - key: usage.favorite_new_features.question
     t: Які ваші улюблені нові функції CSS ви почали використовувати цього року?
+
+  # gamechanger_feature
+  - key: usage.gamechanger_feature
+    t: Функція, яка змінила все
+  - key: usage.gamechanger_feature.question
+    t: Протягом останніх 5 років, яка функція мала найбільший вплив на те, як ви пишете CSS?
 
   ###########################################################################
   # Resources
