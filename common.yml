@@ -1005,7 +1005,7 @@ translations:
   - id: options.job_status.employed_full_time
     t: Працюю, повний день
   - id: options.job_status.freelance
-    t: Фріланс, самозайнятість, незалежно за договором 
+    t: Фриланс, самозайнятість, незалежно за договором 
   - id: options.job_status.employed_part_time
     t: Працюю, неповний день
   - id: options.job_status.student_full_time
@@ -1339,7 +1339,7 @@ translations:
   - key: options.employment_status.employed_full_time
     t: Працюю, повний день
   - key: options.employment_status.freelance
-    t: Фріланс, самозайнятість, незалежно за договором
+    t: Фриланс, самозайнятість, незалежно за договором
   - key: options.employment_status.employed_part_time
     t: Працюю, неповний день
   - key: options.employment_status.student_full_time
@@ -1376,7 +1376,7 @@ translations:
     t: CEO/засновники/підприємці
 
   - key: options.employment_status.freelance.short
-    t: Freelancer/self-employed
+    t: Фриланс/самозайнятість
 
   # bracket
   - key: options.bracket.round1

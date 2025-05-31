@@ -123,13 +123,13 @@ translations:
   # features
 
   - key: features.main_apis_ratios
-    t: Main APIs Over Time
+    t: Основні API з часом
 
   - key: features.hooks_ratios
-    t: Hooks Over Time
+    t: Хуки з часом
 
   - key: features.new_apis_ratios
-    t: New APIs Over Time
+    t: Нові API з часом
 
   - key: features.main_apis_pain_points
     t: Проблеми основних API
@@ -745,25 +745,25 @@ translations:
   - key: react_pain_points.end_to_end_type_safety
     t: Наскрізна (e2e) типобезпечність
   - key: react_pain_points.create_react_app_issues
-    t: Create React App issues
+    t: Проблеми Create React App
 
   - key: react_pain_points.webpack_issues
-    t: Webpack issues
+    t: Проблеми Webpack
 
   - key: react_pain_points.firebase_issues
-    t: Firebase issues
+    t: Проблеми Firebase
 
   - key: react_pain_points.pricing_issues
-    t: High costs
+    t: Висока вартість
 
   - key: react_pain_points.aws_issues
-    t: AWS Issues
+    t: Проблеми AWS
 
-  - key: react_pain_points.graphql_issues
-    t: GraphQL Issues
+  # - key: react_pain_points.graphql_issues # duplicate in original
+  #   t: GraphQL Issues
 
   - key: react_pain_points.css_in_js_issues
-    t: CSS-in-JS issues
+    t: Проблеми CSS-in-JS
 
   - key: react_pain_points.tailwind_issues
     t: Проблеми Tailwind
@@ -775,28 +775,28 @@ translations:
     t: Проблеми styled-компонентів
 
   - key: react_pain_points.prop_drilling
-    t: Prop drilling
+    t: Свердління пропсами (Prop drilling)
 
   - key: react_pain_points.caching
     t: Кешування
 
   - key: react_pain_points.graphql_issues
-    t: GraphQL issues
+    t: Проблеми GraphQL
 
   - key: react_pain_points.apollo_issues
     t: Проблеми Apollo
 
   - key: react_pain_points.optimistic_updates
-    t: Optimistic updates
+    t: Оптимістичні оновлення
 
   - key: react_pain_points.cancelling_requests
-    t: Unable to cancel requests
+    t: Неможливо скасувати запити
 
   - key: react_pain_points.rules_of_hooks
-    t: Rules of hooks
+    t: Правила хуків
 
   - key: react_pain_points.hooks_disallowed_conditional_logic
-    t: Disallowed conditional logic
+    t: Заборонена умовна логіка (хуки)
 
   # - key: react_pain_points.excessive_rerendering # duplicate in original
   #   t: Excessive rerendering
@@ -811,7 +811,7 @@ translations:
     t: Надмірні повторні рендери контексту
 
   - key: react_pain_points.react_lack_of_signals
-    t: Lack of signals
+    t: Нестача сигналів
 
   - key: react_pain_points.excessive_rerendering
     t: Надмірні повторні рендери
@@ -822,10 +822,10 @@ translations:
     t: Проблеми Next.js
 
   - key: react_pain_points.vercel_issues
-    t: Vercel issues
+    t: Проблеми Vercel
 
   - key: react_pain_points.hooks_issues
-    t: Hooks issues
+    t: Проблеми хуків
 
   - key: react_pain_points.redux_issues
     t: Проблеми Redux
@@ -840,13 +840,13 @@ translations:
     t: Проблеми синхронізації
 
   - key: react_pain_points.reactivity_issues
-    t: Reactivity issues
+    t: Проблеми реактивності
 
   - key: react_pain_points.side_effects_issues
-    t: Side effects issues
+    t: Проблеми побічних ефектів
 
   - key: react_pain_points.cache_issues
-    t: Cache issues
+    t: Проблеми кешу
 
 ###########################################################################
   # Entities repo - https://github.com/Devographics/entities

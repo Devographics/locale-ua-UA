@@ -81,7 +81,7 @@ translations:
   - key: options.how_many_jobs.range_11_20
     t: 11-20
   - key: options.how_many_jobs.range_over_20
-    t: Over 20
+    t: Понад 20
   # career_issues
 
   - key: career.career_issues
@@ -197,62 +197,62 @@ translations:
   - key: options.negative_impacts.changing_appearance
     t: Змінили зовнішність чи одяг
   - key: options.negative_impacts.changing_appearance.short
-    t: Changed appearance
+    t: Змінили зовнішність
 
   - key: options.negative_impacts.changing_behavior
     t: Змінили спосіб говорити, поводитися чи виражати себе
   - key: options.negative_impacts.changing_behavior.short
-    t: Changed behavior
+    t: Змінили поведінку
 
   - key: options.negative_impacts.reported_someone
     t: Поскаржилися на проблему керівництву чи відділу кадрів
   - key: options.negative_impacts.reported_someone.short
-    t: Reported issue to HR
+    t: Поскаржилися на проблему до HR
 
   - key: options.negative_impacts.isolating_yourself
     t: Уникали чи дистанціювалися від колег
   - key: options.negative_impacts.isolating_yourself.short
-    t: Avoided colleagues
+    t: Уникали колег
 
   - key: options.negative_impacts.internal_transfer
     t: Прохали про перехід в іншу команду чи відділ
   - key: options.negative_impacts.internal_transfer.short
-    t: Requested transfer
+    t: Прохали про перехід
 
   - key: options.negative_impacts.time_off
     t: Взяли коротку чи довгу відпустку
   - key: options.negative_impacts.time_off.short
-    t: Taken time off
+    t: Взяли відпустку
 
   - key: options.negative_impacts.quitting_job
     t: Звільнилися з робити
   - key: options.negative_impacts.quitting_job.short
-    t: Resigned
+    t: Звільнилися
 
   - key: options.negative_impacts.shifting_careers
     t: Змінили кар'єру чи сферу діяльності
   - key: options.negative_impacts.shifting_careers.short
-    t: Changed careers
+    t: Змінили кар'єру
 
   - key: options.negative_impacts.seeking_counseling
     t: Звернулися до терапії, консультацій чи підтримки психічного здоров'я
   - key: options.negative_impacts.seeking_counseling.short
-    t: Sought therapy
+    t: Звернулися до терапії
 
   - key: options.negative_impacts.engaging_legal_counsel
     t: Звернулися до юридичної допомоги
   - key: options.negative_impacts.engaging_legal_counsel.short
-    t: Legal counsel
+    t: Юридична допомога
 
   - key: options.negative_impacts.scaling_back
     t: Скоротили робочий день або перейшли на менш вимогливу посаду
   - key: options.negative_impacts.scaling_back.short
-    t: Reduced work hours
+    t: Скоротили робочий день
 
   - key: options.negative_impacts.taking_medicine
     t: Приймали ліки від стресу, тривожності, депресії тощо
   - key: options.negative_impacts.taking_medicine.short
-    t: Taken medication
+    t: Приймали ліки
 
   - key: career.negative_impacts.commentPrompt
     aliasFor: career.career_issues.commentPrompt
