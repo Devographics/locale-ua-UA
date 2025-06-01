@@ -1302,3 +1302,49 @@ translations:
     t: >
       Мета опитування — відстежити еволюцію майбутніх функцій та бібліотек 
       і допомогти розробникам вирішити, на яких нових технологіях зосередитися.
+
+  ###########################################################################
+  # Entities repo - https://github.com/Devographics/entities
+  ###########################################################################
+
+  # features/css_features/css_layout.yml
+
+  - key: entities.subgrid.name # options.css_missing_features.subgrid
+    t: Вкладена сітка (Subgrid)
+  - key: entities.logical_properties.name
+    t: Логічні властивості CSS
+  - key: entities.media_queries_range_contexts.name
+    t: Діапазони в медіазапитах
+  - key: entities.at_container_size.name
+    t: Контейнерні запити за розмірами
+  - key: entities.at_container_style.name
+    t: Контейнерні запити за стилями
+
+  # features/css_features/css_colors.yml
+
+  - key: entities.wide_gamut_colors.name
+    t: Кольори широкої гами (Wide Gamut)
+  - key: entities.relative_colors.name
+    t: Відносні кольори
+
+  # features/css_features/css_interactions.yml
+
+  - key: entities.scroll_snap.name
+    t: Гортання із фіксуванням (Scroll Snap)
+  - key: entities.scroll_driven_animations.name
+    t: Анімації, керовані гортанням
+  - key: entities.scroll_state.name
+    t: Контейнерні запити за станом гортання
+  - key: entities.css_carousels.name
+    t: Каруселі у CSS
+
+  # features/css_features/css_other.yml
+
+  - key: entities.anchor_positioning.name # options.css_missing_features.anchored_positioning
+    t: Якірне позиціонування
+  - key: entities.nth_child_of_s.description
+    t: Попереднє фільтрування набору дочірніх елементів перед застосуванням до нього nth-child.
+  - key: entities.advanced_attr_function.name
+    t: Покращений `attr()`
+  - key: entities.advanced_attr_function.description
+    t: Підтримування інших властивостей, крім `content`.
