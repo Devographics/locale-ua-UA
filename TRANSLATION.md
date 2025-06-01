@@ -50,6 +50,7 @@
 |a respondent|респондент|
 |the retention|утримання|
 |salary|дохід|
+|the satisfaction|вдоволення|
 |to sign in|увійти|
 |to sign up|зареєструватися|
 |the sentiment (_категорія для респондентів_)|ставлення|

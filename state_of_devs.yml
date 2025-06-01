@@ -64,7 +64,7 @@ translations:
   - key: career.how_many_jobs.question
     t: У скількох роботодавців ви працювали до сьогодні?
   - key: career.how_many_jobs.prompt
-    t: Враховуються тільки посади розробки з доходом.
+    t: Враховуються тільки посади розроблення з доходом.
 
   - key: options.how_many_jobs.range_1
     t: 1
@@ -1224,3 +1224,234 @@ translations:
   - key: faq.data_used_devs.description
     t: >
       Зібрані дані використовуватимуться для публікації на загал онлайн-звіту. Також весь набір даних також буде доступний безкоштовно [на вимогу](https://discord.gg/2E7bbgnrJJ).
+
+  ###########################################################################
+  # Entities repo - https://github.com/Devographics/entities
+  ###########################################################################
+
+  # missing write-ins
+
+  - key: entities.professor.name
+    t: Професор
+
+  - key: entities.boredom.name
+    t: Нудьга
+
+  - key: entities.country_citizenship.name
+    t: Походження/громадянство
+  - key: entities.appearance_body.name
+    t: Зовнішній вигляд
+
+  - key: entities.internship.name
+    t: Інтернатура
+  - key: entities.acquisition.name
+    t: Придбання (Acquisition)
+  - key: entities.career_fair.name
+    t: Ярмарок вакансій
+
+  - key: entities.remote_work_benefit.name
+    t: Віддалена робота
+
+  - key: entities.bad_management.name # options.career_issues.bad_management
+    t: Поганий менеджмент
+  - key: entities.bureaucracy.name
+    t: Бюрократія
+
+  - key: entities.blogs_websites.name
+    t: Блоги, вебсайти
+  - key: entities.rss_feeds.name
+    t: RSS-стрічки
+
+  - key: entities.mentoring.name # options.first_steps.mentoring
+    t: Наставництво
+
+  - key: entities.gastrointestinal_issues.name
+    t: Проблеми із ШКТ
+  - key: entities.high_blood_pressure.name
+    t: Високий кров'яний тиск
+
+  - key: entities.meditation.name
+    t: Медитація
+  - key: entities.exercise.name
+    t: Вправи
+  - key: entities.white_noise.name
+    t: Білий шум
+  - key: entities.cpap_machine.name
+    t: Апарат СДТП (CPAP)
+  - key: entities.cannabis_cbd.name
+    t: Канабіс, КБД
+  - key: entities.reading_books.name
+    t: Читання книг
+  - key: entities.audiobooks_podcasts.name
+    t: Аудіокниги, подкасти
+  - key: entities.music.name
+    t: Музика
+  - key: entities.nose_mouth_strips.name
+    t: Носові/ротові смужки
+  - key: entities.blue_light_filter.name
+    t: Фільтр синього світла
+  - key: entities.breathing_exercises.name
+    t: Дихальні вправи
+  - key: entities.stretching_yoga.name
+    t: Розтягування, йога
+
+  - key: entities.war.name
+    t: Війна
+  - key: entities.gaza_israel_conflict.name
+    t: Конфлікт між Газою та Ізраїлем
+  - key: entities.trump.name
+    t: Трамп
+
+  - key: entities.pets.name
+    t: Домашні улюбленці
+  - key: entities.freedom.name
+    t: Свобода
+
+  - key: entities.programming.name
+    t: Програмування
+  - key: entities.photography.name
+    t: Фотографія
+  - key: entities.hiking_walking.name # options.physical_activity.hiking_walking
+    t: Пішохідний туризм/ходіння
+  - key: entities.writing.name
+    t: Написання творів
+  - key: entities.travel.name # options.industry_sector.travel
+    t: Подорожі
+  - key: entities.3d_printing.name
+    t: 3D-друк
+  - key: entities.language_learning.name
+    t: Вивчення мов
+
+  - key: entities.dancing.name
+    t: Танці
+  - key: entities.basket_ball.name
+    t: Баскетбол
+  - key: entities.badminton.name
+    t: Бадмінтон
+  - key: entities.pilates.name
+    t: Пілатес
+  - key: entities.volleyball.name
+    t: Волейбол
+  - key: entities.rowing.name
+    t: Веслування
+  - key: entities.padel.name
+    t: Падель
+  - key: entities.skiing.name
+    t: Лижний спорт
+
+  #########################
+  #  Job Titles
+  #########################
+
+  - key: entities.ceo.name
+    t: Гол. виконавчі директори/CEO
+  - key: entities.co_founder.name
+    t: (Спів-)засновники
+  - key: entities.consultant.name
+    t: Консультанти
+  - key: entities.student.name
+    t: Студенти
+  - key: entities.freelancer.name
+    t: Фрилансери
+  - key: entities.cto.name
+    t: Технічні директори/CTO
+  - key: entities.engineering_manager.name
+    t: Інженерні менеджери
+  - key: entities.director_of_engineering.name
+    t: Директори інженерії
+  - key: entities.software_development_manager.name
+    t: Менеджери розроблення ПЗ
+
+  # head
+
+  - key: entities.head_of_engineering.name
+    t: Керівники інженерного відділу
+  - key: entities.head_of_development.name
+    t: Керівники відділу розроблення
+  - key: entities.head_of_product.name
+    t: Керівники продукту
+  - key: entities.head_of_design.name
+    t: Керівники відділу дизайну
+  - key: entities.head_of_technology.name
+    t: Керівники технологічного напряму
+
+  # architect
+
+  - key: entities.software_architect.name
+    t: Архітектори ПЗ
+  - key: entities.solution_architect.name
+    t: Архітектори рішень
+  - key: entities.frontend_architect.name
+    t: Архітектори клієнтського ПЗ
+
+  # lead
+
+  - key: entities.technical_lead.name
+    t: Технічні керівники команди
+  - key: entities.frontend_lead.name
+    t: Керівники команди клієнтського ПЗ
+  - key: entities.lead.name
+    t: Керівники команди
+
+  # engineer
+
+  - key: entities.software_engineer.name
+    t: Інженери ПЗ
+  - key: entities.frontend_engineer.name
+    t: Інженери клієнтського ПЗ
+  - key: entities.backend_engineer.name
+    t: Інженери серверного ПЗ
+  - key: entities.fullstack_engineer.name
+    t: Інженери повностекового ПЗ
+  - key: entities.junior_engineer.name
+    t: Молодші інженери
+  - key: entities.senior_engineer.name
+    t: Старші інженери
+  - key: entities.lead_engineer.name
+    t: Провідні інженери
+  - key: entities.systems_engineer.name
+    t: Системні інженери
+
+  # developer
+
+  - key: entities.developer.name
+    t: Розробники
+  - key: entities.frontend_developer.name
+    t: Розробники клієнтського ПЗ
+  - key: entities.backend_developer.name
+    t: Розробники серверного ПЗ
+  - key: entities.fullstack_developer.name
+    t: Розробники повностекового ПЗ
+  - key: entities.junior_developer.name
+    t: Молодші розробники
+  - key: entities.senior_developer.name
+    t: Старші розробники
+  - key: entities.lead_developer.name
+    t: Провідні розробники
+
+  # programmer
+
+  - key: entities.programmer.name
+    t: Програмісти
+  - key: entities.senior_programmer.name
+    t: Старші програмісти
+
+  # manager
+
+  - key: entities.manager.name
+    t: Менеджери
+  - key: entities.project_manager.name
+    t: Менеджери проєктів
+  - key: entities.product_manager.name
+    t: Продуктові менеджери
+
+  # other 
+
+  - key: entities.computer_scientist.name
+    t: Фахівці з комп'ютерних наук
+  - key: entities.creative_technologist.name
+    t: Креативні технологи
+  - key: entities.data_scientist.name
+    t: Фахівці з наук про дані
+  - key: entities.designer.name
+    t: Дизайнери
