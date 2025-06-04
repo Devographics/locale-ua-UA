@@ -95,9 +95,9 @@ translations:
   - key: sections.colors.description
     t: Функції, пов'язані з кольором.
 
-  - key: features.typography_pain_points
+  - key: features.colors_pain_points
     t: Проблеми кольорів
-  - key: features.typography_pain_points.question
+  - key: features.colors_pain_points.question
     t: Які CSS-проблеми кольорів найбільше вас розчаровують?
 
   - key: sections.javascript_apis.title
