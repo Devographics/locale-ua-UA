@@ -156,6 +156,9 @@ translations:
   - key: options.career_issues.bad_management.description
     t: Загалом погане робоче середовище через погане управління.
 
+  - key: options.career_issues.boredom
+    t: Нудьга
+
   # discrimination_issues
 
   - key: career.discrimination_issues
@@ -183,6 +186,11 @@ translations:
     t: Порушення здоров'я
   - key: options.discrimination_issues.disability.description
     t: Включно з фізичними, психічними чи нейронетиповими.
+
+  - key: options.discrimination_issues.country_citizenship
+    t: Походження/громадянство 
+  - key: options.discrimination_issues.appearance_body
+    t: Зовнішність чи риси
 
   - key: career.discrimination_issues.commentPrompt
     aliasFor: career.career_issues.commentPrompt
@@ -310,6 +318,21 @@ translations:
 
   # WORKPLACE
 
+  - key: workplace.company_size
+    aliasFor: user_info.company_size
+  - key: workplace.company_size.question
+    aliasFor: user_info.company_size.question
+
+  - key: workplace.job_title
+    aliasFor: user_info.job_title
+  - key: workplace.job_title.question
+    aliasFor: user_info.job_title.question
+
+  - key: workplace.income_evolution
+    aliasFor: user_info.income_evolution
+  - key: workplace.income_evolution.question
+    aliasFor: user_info.income_evolution.question
+
   - key: workplace.remote_work_policy
     t: Віддалена робота
   - key: workplace.remote_work_policy.question
@@ -341,10 +364,34 @@ translations:
   - key: workplace.work_hours_per_week.question
     t: Скільки годин на тиждень ви зазвичай працюєте?
 
+  - key: options.work_hours_per_week.range_under_30
+    t: Under 30
+  - key: options.work_hours_per_week.range_31_35
+    t: 31-35
+  - key: options.work_hours_per_week.range_36_40
+    t: 36-40
+  - key: options.work_hours_per_week.range_41_45
+    t: 41-45
+  - key: options.work_hours_per_week.range_46_50
+    t: 46-50
+  - key: options.work_hours_per_week.range_over_50
+    t: Over 50
+
   - key: workplace.job_happiness
     t: Задоволеність роботою
   - key: workplace.job_happiness.question
     t: Наскільки ви задоволені своєю поточною роботою?
+
+  - key: options.job_happiness.0
+    aliasFor: options.happiness.0
+  - key: options.job_happiness.1
+    aliasFor: options.happiness.1
+  - key: options.job_happiness.2
+    aliasFor: options.happiness.2
+  - key: options.job_happiness.3
+    aliasFor: options.happiness.4
+  - key: options.job_happiness.4
+    aliasFor: options.happiness.4
 
   # - key: workplace.job_ai_threat
   #   t: a
@@ -396,6 +443,15 @@ translations:
   - key: options.workplace_difficulties.training.description
     t: Брак навчання та розвитку
 
+  - key: options.workplace_difficulties.bad_management
+    t: Поганий менеджмент
+  - key: options.workplace_difficulties.in_person_work
+    t: In-person work requirements
+  - key: options.workplace_difficulties.lack_of_human_contact
+    t: Lack of human contact
+  - key: options.workplace_difficulties.bureaucracy
+    t: Надмірна бюрократія
+
     # workplace_perks
 
   - key: workplace.workplace_perks
@@ -442,6 +498,9 @@ translations:
     aliasFor: options.workplace_difficulties.training
   - key: options.workplace_perks.training.description
     t: Навчання та розвиток коштом компанії
+
+  - key: options.workplace_perks.remote_work_benefit
+    t: Переваги віддаленої роботи
 
   # job_finding_application_count
 
@@ -492,6 +551,17 @@ translations:
     t: Причетність до відкритого коду чи спільноти
   - key: options.job_finding_methods.company_founder
     t: Заснування власної компанії, самозайнятість
+
+  - key: options.job_finding_methods.contacted_by_company
+    t: Founded the company or self-employed
+  - key: options.job_finding_methods.internship
+    t: Інтернатура
+  - key: options.job_finding_methods.through_university
+    t: Through university
+  - key: options.job_finding_methods.merger_acquisition
+    t: Злиття або придбання компаній (Acquisition)
+  - key: options.job_finding_methods.career_fair
+    t: Ярмарок вакансій
 
   # - key: workplace.how_much_can_you_be_yourself_at_work
   #   t:
@@ -584,6 +654,11 @@ translations:
   - key: options.community_involvement.podcasts
     t: Подкасти
 
+  - key: options.community_involvement.blogs_websites
+    t: Блоги, вебсайти
+  - key: options.community_involvement.rss_feeds
+    t: RSS-стрічки
+
   # community_contributions
 
   - key: technology.community_contributions
@@ -605,6 +680,9 @@ translations:
     t: Організували захід
   - key: options.community_contributions.open_source_contribution
     t: Зробили внесок у ПЗ із відкритим кодом
+
+  - key: options.community_contributions.mentoring
+    t: Наставництво
 
   # open_source_involvement
   - key: technology.open_source_involvement
@@ -663,6 +741,11 @@ translations:
   - key: options.health_issues.headaches
     t: Головні болі та мігрені
 
+  - key: options.health_issues.gastrointestinal_issues
+    t: Проблеми із ШКТ
+  - key: options.health_issues.high_blood_pressure
+    t: Високий кров'яний тиск
+
   # sleep_quantity
   - key: health.sleep_quantity
     t: Тривалість сну
@@ -716,6 +799,31 @@ translations:
     t: Снодійні препарати
   - key: options.sleep_measures.supplements
     t: Добавки (supplements)
+
+  - key: options.sleep_measures.exercise
+    t: Вправи
+  - key: options.sleep_measures.meditation_relaxation
+    t: Медитація або релаксація
+  - key: options.sleep_measures.sleep_environment
+    t: Good sleep environment
+  - key: options.sleep_measures.noise_machine
+    t: Апарати генерації шуму
+  - key: options.sleep_measures.cpap_machine
+    t: Апарат СДТП (CPAP)
+  - key: options.sleep_measures.cannabis_cbd
+    t: Канабіс, КБД
+  - key: options.sleep_measures.reading_books
+    t: Читання
+  - key: options.sleep_measures.sound_therapy
+    t: Sound Therapy
+  - key: options.sleep_measures.better_sleep_schedule
+    t: Better sleep schedule
+  - key: options.sleep_measures.audiobooks_podcasts
+    t: Аудіокниги, подкасти
+  - key: options.sleep_measures.music
+    t: Музика
+  - key: options.sleep_measures.controlling_light_exposure
+    t: Controlling light exposure
 
   # worldview
 
@@ -913,6 +1021,15 @@ translations:
   - key: options.global_issues.lack_of_free_speech
     t: Брак свободи слова
 
+  - key: options.global_issues.war_and_conflict
+    t: Війна та конфлікти
+  - key: options.global_issues.gaza_israel_conflict
+    t: Конфлікт між Газою та Ізраїлем
+  - key: options.global_issues.trump
+    t: Трамп
+  - key: options.global_issues.lgbtq_rights
+    t: LGBTQ rights
+
   # # companies_opinion
 
   # - key: worldview.companies_opinion
@@ -946,6 +1063,13 @@ translations:
     t: Середовище проживання
   - key: options.happiness_factors.religion_spirituality
     t: Релігія та/або духовність
+
+  - key: options.happiness_factors.pets
+    t: Домашні улюбленці
+  - key: options.happiness_factors.exercise
+    t: Exercise
+  - key: options.happiness_factors.freedom
+    t: Свобода
 
   # overall_happiness
 
@@ -1018,6 +1142,23 @@ translations:
   - key: options.physical_activity.hiking_walking
     t: Пішохідний туризм/ходіння
 
+  - key: options.physical_activity.dancing
+    t: Танці
+  - key: options.physical_activity.basket_ball
+    t: Баскетбол
+  - key: options.physical_activity.badminton
+    t: Бадмінтон
+  - key: options.physical_activity.pilates
+    t: Пілатес
+  - key: options.physical_activity.volleyball
+    t: Волейбол
+  - key: options.physical_activity.rowing
+    t: Веслування
+  - key: options.physical_activity.padel
+    t: Падель
+  - key: options.physical_activity.skiing
+    t: Лижний спорт
+
   - key: health.physical_activity_frequency
     t: Частота тренувань
   - key: health.physical_activity_frequency.question
@@ -1069,6 +1210,23 @@ translations:
     t: Спорт/тренування
   - key: options.hobbies.movies_tv
     t: Фільми/серіали
+
+  - key: options.hobbies.programming
+    t: Програмування
+  - key: options.hobbies.photography
+    t: Фотографія
+  - key: options.hobbies.hiking_walking
+    t: Пішохідний туризм/ходіння
+  - key: options.hobbies.writing
+    t: Написання творів
+  - key: options.hobbies.travel
+    t: Подорожі
+  - key: options.hobbies.dancing
+    t: Dancing
+  - key: options.hobbies.3d_printing
+    t: 3D-друк
+  - key: options.hobbies.language_learning
+    t: Вивчення мов
 
   # hobbies_frequency
 
@@ -1224,234 +1382,3 @@ translations:
   - key: faq.data_used_devs.description
     t: >
       Зібрані дані використовуватимуться для публікації на загал онлайн-звіту. Також весь набір даних також буде доступний безкоштовно [на вимогу](https://discord.gg/2E7bbgnrJJ).
-
-  ###########################################################################
-  # Entities repo - https://github.com/Devographics/entities
-  ###########################################################################
-
-  # missing write-ins
-
-  - key: entities.professor.name
-    t: Професор
-
-  - key: entities.boredom.name
-    t: Нудьга
-
-  - key: entities.country_citizenship.name
-    t: Походження/громадянство
-  - key: entities.appearance_body.name
-    t: Зовнішній вигляд
-
-  - key: entities.internship.name
-    t: Інтернатура
-  - key: entities.acquisition.name
-    t: Придбання (Acquisition)
-  - key: entities.career_fair.name
-    t: Ярмарок вакансій
-
-  - key: entities.remote_work_benefit.name
-    t: Віддалена робота
-
-  - key: entities.bad_management.name # options.career_issues.bad_management
-    t: Поганий менеджмент
-  - key: entities.bureaucracy.name
-    t: Бюрократія
-
-  - key: entities.blogs_websites.name
-    t: Блоги, вебсайти
-  - key: entities.rss_feeds.name
-    t: RSS-стрічки
-
-  - key: entities.mentoring.name # options.first_steps.mentoring
-    t: Наставництво
-
-  - key: entities.gastrointestinal_issues.name
-    t: Проблеми із ШКТ
-  - key: entities.high_blood_pressure.name
-    t: Високий кров'яний тиск
-
-  - key: entities.meditation.name
-    t: Медитація
-  - key: entities.exercise.name
-    t: Вправи
-  - key: entities.white_noise.name
-    t: Білий шум
-  - key: entities.cpap_machine.name
-    t: Апарат СДТП (CPAP)
-  - key: entities.cannabis_cbd.name
-    t: Канабіс, КБД
-  - key: entities.reading_books.name
-    t: Читання книг
-  - key: entities.audiobooks_podcasts.name
-    t: Аудіокниги, подкасти
-  - key: entities.music.name
-    t: Музика
-  - key: entities.nose_mouth_strips.name
-    t: Носові/ротові смужки
-  - key: entities.blue_light_filter.name
-    t: Фільтр синього світла
-  - key: entities.breathing_exercises.name
-    t: Дихальні вправи
-  - key: entities.stretching_yoga.name
-    t: Розтягування, йога
-
-  - key: entities.war.name
-    t: Війна
-  - key: entities.gaza_israel_conflict.name
-    t: Конфлікт між Газою та Ізраїлем
-  - key: entities.trump.name
-    t: Трамп
-
-  - key: entities.pets.name
-    t: Домашні улюбленці
-  - key: entities.freedom.name
-    t: Свобода
-
-  - key: entities.programming.name
-    t: Програмування
-  - key: entities.photography.name
-    t: Фотографія
-  - key: entities.hiking_walking.name # options.physical_activity.hiking_walking
-    t: Пішохідний туризм/ходіння
-  - key: entities.writing.name
-    t: Написання творів
-  - key: entities.travel.name # options.industry_sector.travel
-    t: Подорожі
-  - key: entities.3d_printing.name
-    t: 3D-друк
-  - key: entities.language_learning.name
-    t: Вивчення мов
-
-  - key: entities.dancing.name
-    t: Танці
-  - key: entities.basket_ball.name
-    t: Баскетбол
-  - key: entities.badminton.name
-    t: Бадмінтон
-  - key: entities.pilates.name
-    t: Пілатес
-  - key: entities.volleyball.name
-    t: Волейбол
-  - key: entities.rowing.name
-    t: Веслування
-  - key: entities.padel.name
-    t: Падель
-  - key: entities.skiing.name
-    t: Лижний спорт
-
-  #########################
-  #  Job Titles
-  #########################
-
-  - key: entities.ceo.name
-    t: Гол. виконавчі директори/CEO
-  - key: entities.co_founder.name
-    t: (Спів-)засновники
-  - key: entities.consultant.name
-    t: Консультанти
-  - key: entities.student.name
-    t: Студенти
-  - key: entities.freelancer.name
-    t: Фрилансери
-  - key: entities.cto.name
-    t: Технічні директори/CTO
-  - key: entities.engineering_manager.name
-    t: Інженерні менеджери
-  - key: entities.director_of_engineering.name
-    t: Директори інженерії
-  - key: entities.software_development_manager.name
-    t: Менеджери розроблення ПЗ
-
-  # head
-
-  - key: entities.head_of_engineering.name
-    t: Керівники інженерного відділу
-  - key: entities.head_of_development.name
-    t: Керівники відділу розроблення
-  - key: entities.head_of_product.name
-    t: Керівники продукту
-  - key: entities.head_of_design.name
-    t: Керівники відділу дизайну
-  - key: entities.head_of_technology.name
-    t: Керівники технологічного напряму
-
-  # architect
-
-  - key: entities.software_architect.name
-    t: Архітектори ПЗ
-  - key: entities.solution_architect.name
-    t: Архітектори рішень
-  - key: entities.frontend_architect.name
-    t: Архітектори клієнтського ПЗ
-
-  # lead
-
-  - key: entities.technical_lead.name
-    t: Технічні керівники команди
-  - key: entities.frontend_lead.name
-    t: Керівники команди клієнтського ПЗ
-  - key: entities.lead.name
-    t: Керівники команди
-
-  # engineer
-
-  - key: entities.software_engineer.name
-    t: Інженери ПЗ
-  - key: entities.frontend_engineer.name
-    t: Інженери клієнтського ПЗ
-  - key: entities.backend_engineer.name
-    t: Інженери серверного ПЗ
-  - key: entities.fullstack_engineer.name
-    t: Інженери повностекового ПЗ
-  - key: entities.junior_engineer.name
-    t: Молодші інженери
-  - key: entities.senior_engineer.name
-    t: Старші інженери
-  - key: entities.lead_engineer.name
-    t: Провідні інженери
-  - key: entities.systems_engineer.name
-    t: Системні інженери
-
-  # developer
-
-  - key: entities.developer.name
-    t: Розробники
-  - key: entities.frontend_developer.name
-    t: Розробники клієнтського ПЗ
-  - key: entities.backend_developer.name
-    t: Розробники серверного ПЗ
-  - key: entities.fullstack_developer.name
-    t: Розробники повностекового ПЗ
-  - key: entities.junior_developer.name
-    t: Молодші розробники
-  - key: entities.senior_developer.name
-    t: Старші розробники
-  - key: entities.lead_developer.name
-    t: Провідні розробники
-
-  # programmer
-
-  - key: entities.programmer.name
-    t: Програмісти
-  - key: entities.senior_programmer.name
-    t: Старші програмісти
-
-  # manager
-
-  - key: entities.manager.name
-    t: Менеджери
-  - key: entities.project_manager.name
-    t: Менеджери проєктів
-  - key: entities.product_manager.name
-    t: Продуктові менеджери
-
-  # other 
-
-  - key: entities.computer_scientist.name
-    t: Фахівці з комп'ютерних наук
-  - key: entities.creative_technologist.name
-    t: Креативні технологи
-  - key: entities.data_scientist.name
-    t: Фахівці з наук про дані
-  - key: entities.designer.name
-    t: Дизайнери

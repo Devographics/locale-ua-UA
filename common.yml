@@ -1044,6 +1044,8 @@ translations:
     t: Інструменти тестування (Axe, Lighthouse тощо)
   - key: options.form_factors.vision_simulator
     t: Симулятор порушень зору (колірної сліпоти тощо)
+  - key: options.form_factors.pdf_export
+    t: PDF Export
 
   # Industry Sector
   - key: options.industry_sector.ecommerce
@@ -1377,6 +1379,8 @@ translations:
 
   - key: options.employment_status.freelance.short
     t: Фриланс/самозайнятість
+  - key: options.employment_status.professor
+    t: Професор
 
   # bracket
   - key: options.bracket.round1
