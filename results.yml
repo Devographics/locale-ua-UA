@@ -449,6 +449,104 @@ translations:
   - key: user_metadata.os.description
     t: Яка операційна система використовувалася під час проходження опитування.
 
+  # job_info
+
+  - key: options.job_title.ceo
+    t: Гол. виконавчі директори/CEO
+  - key: options.job_title.co_founder
+    t: (Спів-)засновники
+  - key: options.job_title.consultant
+    t: Консультанти
+  - key: options.job_title.student
+    t: Студенти
+  - key: options.job_title.freelancer
+    t: Фрилансери
+  - key: options.job_title.cto
+    t: Технічні директори/CTO
+  - key: options.job_title.engineering_manager
+    t: Інженерні менеджери
+  - key: options.job_title.director_of_engineering
+    t: Директори інженерії
+  - key: options.job_title.software_development_manager
+    t: Менеджери розроблення ПЗ
+  # head
+  - key: options.job_title.head_of_engineering
+    t: Керівники інженерного відділу
+  - key: options.job_title.head_of_development
+    t: Керівники відділу розроблення
+  - key: options.job_title.head_of_product
+    t: Керівники продукту
+  # architect
+  - key: options.job_title.software_architect
+    t: Архітектори ПЗ
+  - key: options.job_title.solution_architect
+    t: Архітектори рішень
+  - key: options.job_title.frontend_architect
+    t: Архітектори клієнтського ПЗ
+  # lead
+  - key: options.job_title.technical_lead
+    t: Технічні керівники команди
+  - key: options.job_title.frontend_lead
+    t: Керівники команди клієнтського ПЗ
+  - key: options.job_title.lead
+    t: Керівники команди 
+  # engineer
+  - key: options.job_title.software_engineer
+    t: Інженери ПЗ
+  - key: options.job_title.frontend_engineer
+    t: Інженери клієнтського ПЗ
+  - key: options.job_title.backend_engineer
+    t: Інженери серверного ПЗ
+  - key: options.job_title.fullstack_engineer
+    t: Інженери повностекового ПЗ
+  - key: options.job_title.junior_engineer
+    t: Молодші інженери
+  - key: options.job_title.senior_engineer
+    t: Старші інженери
+  - key: options.job_title.lead_engineer
+    t: Провідні інженери
+  - key: options.job_title.systems_engineer
+    t: Системні інженери
+  # developer
+  - key: options.job_title.developer
+    t: Розробники
+  - key: options.job_title.frontend_developer
+    t: Розробники клієнтського ПЗ
+  - key: options.job_title.backend_developer
+    t: Розробники серверного ПЗ
+  - key: options.job_title.fullstack_developer
+    t: Розробники повностекового ПЗ
+  - key: options.job_title.junior_developer
+    t: Молодші розробники
+  - key: options.job_title.senior_developer
+    t: Старші розробники
+  - key: options.job_title.lead_developer
+    t: Провідні розробники
+  # programmer
+  - key: options.job_title.programmer
+    t: Програмісти
+  - key: options.job_title.senior_programmer
+    t: Старші програмісти
+  # manager
+  - key: options.job_title.manager
+    t: Менеджери
+  - key: options.job_title.project_manager
+    t: Менеджери проєктів
+  - key: options.job_title.product_manager
+    t: Продуктові менеджери
+  - key: options.job_title.computer_scientist
+    t: Фахівці з комп'ютерних наук
+  - key: options.job_title.creative_technologist
+    t: Креативні технологи
+  - key: options.job_title.data_scientist
+    t: Фахівці з наук про дані
+  - key: options.job_title.designer
+    t: Дизайнери
+  - key: options.job_title.head_of_design
+    t: Керівники відділу дизайну
+  - key: options.job_title.head_of_technology
+    t: Керівники технологічного напряму
+
   ###########################################################################
   # Locales
   ###########################################################################

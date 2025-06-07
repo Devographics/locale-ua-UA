@@ -162,6 +162,8 @@ translations:
     t: Об'єднані Арабські Емірати
   - key: options.country.GBR
     t: Велика Британія
+  - key: options.country.SCT
+    t: Шотландія
   - key: options.country.USA
     t: США
   - key: options.country.VEN

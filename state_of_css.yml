@@ -95,9 +95,9 @@ translations:
   - key: sections.colors.description
     t: Функції, пов'язані з кольором.
 
-  - key: features.typography_pain_points
+  - key: features.colors_pain_points
     t: Проблеми кольорів
-  - key: features.typography_pain_points.question
+  - key: features.colors_pain_points.question
     t: Які CSS-проблеми кольорів найбільше вас розчаровують?
 
   - key: sections.javascript_apis.title
@@ -245,6 +245,8 @@ translations:
     t: Електронні листи
   - key: options.what_do_you_use_css_for.printed_documents
     t: Документи для друку
+  - key: options.what_do_you_use_css_for.pdf_documents
+    t: PDF-документи
   - key: options.what_do_you_use_css_for.desktop_apps
     t: Застосунки для настільних комп'ютерів
 
@@ -953,6 +955,36 @@ translations:
   - key: opinions.enjoy_writing_css.title
     t: Насолода
 
+  - key: usage.css_pace_of_change
+    t: Темп змін
+  - key: usage.css_pace_of_change.question
+    t: Як добре ви зазвичай стежите за новими функціями CSS, як-от ті, що згадані в цьому опитуванні?
+
+  - key: options.css_pace_of_change.1
+    t: Не знали/не випробували більшість функцій
+  # - key: options.css_pace_of_change.0.description
+  # t: I haven't learned about or tried out most features
+
+  - key: options.css_pace_of_change.2
+    t: Дізналися про деякі функції, але не випробували їх
+  # - key: options.css_pace_of_change.1.description
+  # t: I've learned about some of the features; but haven't tried them out
+
+  - key: options.css_pace_of_change.3
+    t: Дізналися про деякі функції та випробували їх
+  # - key: options.css_pace_of_change.2.description
+  # t: I've learned about and tried out some of the features
+
+  - key: options.css_pace_of_change.4
+    t: Дізналися про більшість функцій та випробували деякі з них
+  # - key: options.css_pace_of_change.3.description
+  # t: I've learned about most of the features and tried out some of them
+
+  - key: options.css_pace_of_change.5
+    t: Дізналися про більшість функцій та випробували їх
+  # - key: options.css_pace_of_change.4.description
+  #   t: I've learned about and tried out most of the features
+
   # Browser interoperability question
   - key: opinions_others.browser_interoperability_features.others
     t: Несумісність між браузерами
@@ -1127,6 +1159,7 @@ translations:
   - key: css_missing_features.css_missing_features_matchups.description
     t: Яку функцію, за можливості, ви найбільше хотіли б використовувати у CSS сьогодні? Відсоток раундів, що виграні елементом ліворуч проти елемента зверху.
 
+  # usage
   - key: usage.css_js_balance
     t: Співвідношення CSS і JavaScript
   - key: usage.css_js_balance.question
@@ -1162,14 +1195,18 @@ translations:
   - key: usage.baseline_awareness
     t: Впізнаваність бази сумісності
   - key: usage.baseline_awareness.question
-    t: Чи ви знайомі з індикатором бази сумісності вебплатформи (Web Platform Baseline)?
+    t: Вікторина! Індикатор бази сумісності вебплатформи (Web Platform Baseline) — це…
 
-  - key: options.baseline_awareness.never_heard
-    t: Вперше чую
-  - key: options.baseline_awareness.heard_not_sure
-    t: Чув(-ла) про це, але не зовсім впевнений(-а)
-  - key: options.baseline_awareness.know_what_it_is
-    t: Точно знаю, що це
+  - key: options.baseline_awareness.text_formatting
+    t: Набір нових функцій компонування тексту
+  - key: options.baseline_awareness.performance_testing_tool
+    t: Інструмент для тестування швидкодії в браузері
+  - key: options.baseline_awareness.supported_apis
+    t: Набір функцій та API вебу, що підтримуються всіма основними браузерами
+  - key: options.baseline_awareness.code_examples
+    t: Набір прикладів коду для повторного використання в різних проєктах
+  - key: options.baseline_awareness.no_idea
+    t: Не маю уявлення
 
   # favorite_new_feature
   - key: usage.favorite_new_features
