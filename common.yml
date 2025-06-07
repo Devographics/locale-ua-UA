@@ -1045,7 +1045,7 @@ translations:
   - key: options.form_factors.vision_simulator
     t: Симулятор порушень зору (колірної сліпоти тощо)
   - key: options.form_factors.pdf_export
-    t: PDF Export
+    t: Експорт PDF
 
   # Industry Sector
   - key: options.industry_sector.ecommerce

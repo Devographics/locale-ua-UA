@@ -246,7 +246,7 @@ translations:
   - key: options.what_do_you_use_css_for.printed_documents
     t: Документи для друку
   - key: options.what_do_you_use_css_for.pdf_documents
-    t: PDF documents
+    t: PDF-документи
   - key: options.what_do_you_use_css_for.desktop_apps
     t: Застосунки для настільних комп'ютерів
 
@@ -956,32 +956,32 @@ translations:
     t: Насолода
 
   - key: usage.css_pace_of_change
-    t: Pace of Change
+    t: Темп змін
   - key: usage.css_pace_of_change.question
-    t: How well are you generally able to keep up with new CSS features, such as those mentioned in this survey?
+    t: Як добре ви зазвичай стежите за новими функціями CSS, як-от ті, що згадані в цьому опитуванні?
 
   - key: options.css_pace_of_change.1
-    t: I haven't learned about or tried out most features
+    t: Не знали/не випробували більшість функцій
   # - key: options.css_pace_of_change.0.description
   # t: I haven't learned about or tried out most features
 
   - key: options.css_pace_of_change.2
-    t: I've learned about some of the features; but haven't tried them out
+    t: Дізналися про деякі функції, але не випробували їх
   # - key: options.css_pace_of_change.1.description
   # t: I've learned about some of the features; but haven't tried them out
 
   - key: options.css_pace_of_change.3
-    t: I've learned about and tried out some of the features
+    t: Дізналися про деякі функції та випробували їх
   # - key: options.css_pace_of_change.2.description
   # t: I've learned about and tried out some of the features
 
   - key: options.css_pace_of_change.4
-    t: I've learned about most of the features and tried out some of them
+    t: Дізналися про більшість функцій та випробували деякі з них
   # - key: options.css_pace_of_change.3.description
   # t: I've learned about most of the features and tried out some of them
 
   - key: options.css_pace_of_change.5
-    t: I've learned about and tried out most of the features
+    t: Дізналися про більшість функцій та випробували їх
   # - key: options.css_pace_of_change.4.description
   #   t: I've learned about and tried out most of the features
 
@@ -1198,15 +1198,15 @@ translations:
     t: Вікторина! Індикатор бази сумісності вебплатформи (Web Platform Baseline) — це…
 
   - key: options.baseline_awareness.text_formatting
-    t: A set of new text layout features
+    t: Набір нових функцій компонування тексту
   - key: options.baseline_awareness.performance_testing_tool
-    t: An in-browser performance testing tool
+    t: Інструмент для тестування швидкодії в браузері
   - key: options.baseline_awareness.supported_apis
-    t: A set of web features and APIs supported by all major browsers
+    t: Набір функцій та API вебу, що підтримуються всіма основними браузерами
   - key: options.baseline_awareness.code_examples
-    t: A set of code examples to reuse across projects
+    t: Набір прикладів коду для повторного використання в різних проєктах
   - key: options.baseline_awareness.no_idea
-    t: I have no idea
+    t: Не маю уявлення
 
   # favorite_new_feature
   - key: usage.favorite_new_features

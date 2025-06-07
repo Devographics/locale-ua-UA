@@ -365,7 +365,7 @@ translations:
     t: Скільки годин на тиждень ви зазвичай працюєте?
 
   - key: options.work_hours_per_week.range_under_30
-    t: Under 30
+    t: Менше 30
   - key: options.work_hours_per_week.range_31_35
     t: 31-35
   - key: options.work_hours_per_week.range_36_40
@@ -375,7 +375,7 @@ translations:
   - key: options.work_hours_per_week.range_46_50
     t: 46-50
   - key: options.work_hours_per_week.range_over_50
-    t: Over 50
+    t: Понад 50
 
   - key: workplace.job_happiness
     t: Задоволеність роботою
@@ -446,9 +446,9 @@ translations:
   - key: options.workplace_difficulties.bad_management
     t: Поганий менеджмент
   - key: options.workplace_difficulties.in_person_work
-    t: In-person work requirements
+    t: Вимоги відвідування робочого місця
   - key: options.workplace_difficulties.lack_of_human_contact
-    t: Lack of human contact
+    t: Нестача контакту з людьми
   - key: options.workplace_difficulties.bureaucracy
     t: Надмірна бюрократія
 
@@ -553,11 +553,11 @@ translations:
     t: Заснування власної компанії, самозайнятість
 
   - key: options.job_finding_methods.contacted_by_company
-    t: Founded the company or self-employed
+    t: Власна компанія/самозайнятість
   - key: options.job_finding_methods.internship
     t: Інтернатура
   - key: options.job_finding_methods.through_university
-    t: Through university
+    t: Через університет
   - key: options.job_finding_methods.merger_acquisition
     t: Злиття або придбання компаній (Acquisition)
   - key: options.job_finding_methods.career_fair
@@ -805,7 +805,7 @@ translations:
   - key: options.sleep_measures.meditation_relaxation
     t: Медитація або релаксація
   - key: options.sleep_measures.sleep_environment
-    t: Good sleep environment
+    t: Гарні умови для сну
   - key: options.sleep_measures.noise_machine
     t: Апарати генерації шуму
   - key: options.sleep_measures.cpap_machine
@@ -815,15 +815,15 @@ translations:
   - key: options.sleep_measures.reading_books
     t: Читання
   - key: options.sleep_measures.sound_therapy
-    t: Sound Therapy
+    t: Звукова терапія
   - key: options.sleep_measures.better_sleep_schedule
-    t: Better sleep schedule
+    t: Кращий графік сну
   - key: options.sleep_measures.audiobooks_podcasts
     t: Аудіокниги, подкасти
   - key: options.sleep_measures.music
     t: Музика
   - key: options.sleep_measures.controlling_light_exposure
-    t: Controlling light exposure
+    t: Контроль світла/освітленості
 
   # worldview
 
@@ -1028,7 +1028,7 @@ translations:
   - key: options.global_issues.trump
     t: Трамп
   - key: options.global_issues.lgbtq_rights
-    t: LGBTQ rights
+    t: Права LGBTQ
 
   # # companies_opinion
 
@@ -1067,7 +1067,7 @@ translations:
   - key: options.happiness_factors.pets
     t: Домашні улюбленці
   - key: options.happiness_factors.exercise
-    t: Exercise
+    t: Вправи
   - key: options.happiness_factors.freedom
     t: Свобода
 

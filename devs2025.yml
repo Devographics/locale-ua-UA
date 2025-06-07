@@ -14,15 +14,15 @@ translations:
   - key: introduction.devs2025
     t: |
 
-      “These questions feel really personal”. ”This is going to be too controversial”. “You should stick to programming surveys”.
+      "Ці питання занадто особисті". "Це буде досить контроверсійно". "Тобі треба зосередитися на опитуваннях про програмування".
 
-      This is some of the initial feedback I got when I first floated the idea of running a developer survey entirely dedicated to workplace issues, health, hobbies, and other topics unrelated to code. 
+      Це деякі з найперших відгуків, які я отримав, коли вперше запропонував ідею провести серед розробників опитування, повністю присвячене питанням робочого середовища, здоров'я, хобі та іншим темам, не пов'язаним із програмуванням.
 
-      Yet I'm glad I went ahead. This survey's 8,717 respondents are proof that it struck a chord with the developer community – and the much higher participation rate from women in particular (compared to previous surveys) shows that there was demand for something that focused on these less-discussed issues.
+      Але я радий, що вирішив усе ж це зробити. 8717 учасників — доказ того, що ця тема відгукнулася у спільноті розробників. А значно вища частка жінок (як порівняти з попередніми опитуваннями) свідчить про попит на дослідження цих менш обговорюваних аспектів життя.
 
-      While you browse the data, make sure to also check out the many comments (<span class="icon-inline icon-inline-comment"/> icon) left by respondents as they took the survey, in which they share their personal stories and thoughts in much more detail.
+      І поки ви переглядаєте дані, не забудьте за численні коментарі (іконка <span class="icon-inline icon-inline-comment"/>), які залишили респонденти під час проходження — в них вони діляться своїми особистими історіями та думками набагато детальніше.
 
-      With all this out of the way, please enjoy the results from the first ever State of Devs survey!
+      А тепер, розібравшись з передумовами, нумо насолоджуватися результатами першого в історії опитування "Стан розробників"!
 
       <span class="conclusion__byline">– Sacha Greif</span>
 
