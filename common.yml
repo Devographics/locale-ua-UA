@@ -1664,12 +1664,18 @@ translations:
   # disability status
   - key: user_info.disability_status
     t: Порушення здоров'я
+    aliases:
+      - health.disability_status
   - key: user_info.disability_status.question
     t: >
       Яке з наведених порушень ви маєте?
+    aliases:
+      - health.disability_status.question
   - key: user_info.disability_status.prompt
     t: >
       Зауважте, що це включно з тимчасовою втратою працездатності або травмою.
+    aliases:
+      - health.disability_status.prompt
 
   # disability status (other)
   - key: user_info.disability_status.others
