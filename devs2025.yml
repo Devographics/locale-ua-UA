@@ -1,6 +1,6 @@
 locale: ua-UA
 translations:
-  - key: technology.general.devs2025.survey_intro
+  - key: general.devs2025.survey_intro
     t: |
 
       2025 рік — дивний час для розробника. ШІ змінює наш звичний спосіб роботи, ми маємо справу з масовими звільненнями, а в деяких куточках технологічної спільноти змінюється політичний дискурс.
@@ -11,7 +11,7 @@ translations:
 
       Як зазвичай, кожне запитання є необов'язковим, тому вільно пропускайте ті, на які вам не зручно відповідати. Також зауважте, що результати будуть опубліковані для всіх. Ми сподіваємося, що ви побачите цінність цього опитування, і нетерпляче чекаємо познайомитися з вами ближче!
 
-  - key: technology.introduction.devs2025
+  - key: introduction.devs2025
     t: |
 
       "Ці питання занадто особисті". "Це буде досить контроверсійно". "Тобі треба зосередитися на опитуваннях про програмування".
@@ -28,20 +28,20 @@ translations:
 
   # FAQ
 
-  - key: technology.faq.how_long_will_survey_take_devs2025
+  - key: faq.how_long_will_survey_take_devs2025
     t: Скільки часу займе опитування?
-  - key: technology.faq.how_long_will_survey_take_devs2025.description
+  - key: faq.how_long_will_survey_take_devs2025.description
     t: >
       Заповнення всієї анкети займе орієнтовно 15 хвилин. Зауважте, що всі питання не обов'язкові.
 
-  - key: technology.faq.results_released_devs2025
+  - key: faq.results_released_devs2025
     t: Коли будуть опубліковані результати?
-  - key: technology.faq.results_released_devs2025.description
+  - key: faq.results_released_devs2025.description
     t: Опитування триватиме з 15 квітня до 15 травня 2025 року, і його результати будуть опубліковані незабаром після завершення.
 
-  - key: technology.faq.survey_design_devs2025
+  - key: faq.survey_design_devs2025
     t: Як було розроблено це опитування?
-  - key: technology.faq.survey_design_devs2025.description
+  - key: faq.survey_design_devs2025.description
     t: >
       Опитування було розроблено унаслідок [відкритого процесу розробки](https://github.com/Devographics/surveys/issues/279) із залученням спільноти веброзробки.
 
@@ -51,35 +51,37 @@ translations:
 
   # career
 
-  - key: technology.career.years_of_experience.takeaway.devs2025
+  - key: career.years_of_experience.takeaway.devs2025
     t: |
       Більший досвід корелює з вищим доходом — до певної межі. Після 30 років досвіду медіанний дохід знову починає знижуватися.
 
-  - key: technology.career.higher_education_degree.takeaway.devs2025
+  - key: career.higher_education_degree.takeaway.devs2025
     t: |
       Наявність вищої освіти призводить до вищого доходу, але, що цікаво, освіта не обов'язково має бути пов'язана із програмуванням.
 
-  - key: technology.career.how_many_jobs.takeaway.devs2025
+  - key: career.how_many_jobs.takeaway.devs2025
     t: |
       Респонденти працювали в середньому в 4,2 роботодавців. І хоча робота в більшої кількості роботодавців пов'язана з вищим доходом, ця кореляція зникає у разі врахування років досвіду, що вказує на відсутність переваг від частішої зміни роботи.
 
-  - key: technology.career.employment_status.takeaway.devs2025
+  - key: career.employment_status.takeaway.devs2025
     t: |
-      Поки фрілансери та незалежні підрядники заробляють менше, ніж штатні працівники, було несподівано побачити, що підприємництво не призводить до збільшення доходу.
+      While freelancers and independent contractors earn less than full-time employees, it was surprising to see that becoming a founder or an entrepreneur does not result in a significant income increase.
 
-  - key: technology.career.career_issues.takeaway.devs2025
+      Company employees were also the group most likely to have seen their income grow over the past year.
+
+  - key: career.career_issues.takeaway.devs2025
     t: |
       Очевидно, що три основні проблеми, про які тут повідомляється, взаємопов'язані: погане управління призводить до проблем із балансом між роботою та особистим життям, що потім призводить до вигорання.
 
       Стать, здається, таки впливає на кар'єрні проблеми: жінки та небінарні респонденти стикаються з кожною проблемою частіше, особливо коли йдеться про проблеми психічного здоров'я.
 
-  - key: technology.career.discrimination_issues.takeaway.devs2025
+  - key: career.discrimination_issues.takeaway.devs2025
     t: |
       Хоча ми часто думаємо про дискримінацію в контексті статі чи раси, найпоширенішим фактором насправді є вік — те, що зрештою впливає на всіх нас.
 
       Розбиття даних за віковими групами показує, що вікова дискримінація стає особливо поширеною після 50 років.
 
-  - key: technology.career.negative_impacts.takeaway.devs2025
+  - key: career.negative_impacts.takeaway.devs2025
     t: |
       Серед усіх респондентів неконфронтаційні підходи, як-от уникнення колег, зміна своєї поведінки чи навіть звільнення, є найпоширенішими стратегіями подолання проблем на робочому місці.
 
@@ -87,7 +89,7 @@ translations:
 
       З іншого боку, раса та етнічність, схоже, не мають такого однозначного впливу. Фактично, трохи *менше* небілих респондентів повідомили про звільнення чи звернення до терапії через проблеми на робочому місці — хоча потрібні додаткові дослідження, щоб визначити, чи це тому, що вони не відчували такої потреби, чи тому, що відчували, але не мали змоги діяти.
 
-  - key: technology.career.laid_off.takeaway.devs2025
+  - key: career.laid_off.takeaway.devs2025
     t: |
       Попри розмови про спад у технологічній сфері, більшість респондентів досі ніколи не була звільнена.
 
@@ -95,53 +97,55 @@ translations:
 
   # workplace
 
-  - key: technology.workplace.company_size.takeaway.devs2025
+  - key: workplace.company_size.takeaway.devs2025
     t: |
       Не дивно, що більші компанії мають кошти, щоб платити вищі зарплати. Ба більше, дохід респондентів набагато частіше зростав протягом минулого року, якщо вони працювали у великій компанії.
 
-  - key: technology.workplace.job_title.takeaway.devs2025
+  - key: workplace.job_title.takeaway.devs2025
     t: |
       Як видно з інших опитувань, наявність титулу інженера корелює з вищим доходом, якщо порівняти з "просто" розробником.
 
       Ще один момент, який варто зазначити: в цілому посади клієнтської частини мають більше гендерного різноманіття, ніж інші позиції.
 
-  - key: technology.workplace.yearly_income.takeaway.devs2025
+  - key: workplace.yearly_income.takeaway.devs2025
     t: |
       США продовжують пропонувати набагато вищі зарплати проти решти світу.
 
-  - key: technology.workplace.income_evolution.takeaway.devs2025
+  - key: workplace.income_evolution.takeaway.devs2025
     t: |
       Попри побоювання спаду галузі, лише 9% респондентів повідомили про зниження свого доходу протягом минулого року.
 
-  - key: technology.workplace.job_finding_application_count.takeaway.devs2025
+      Norway, Ireland, and South Africa-based respondents were the most likely to have seen their income increase.
+
+  - key: workplace.job_finding_application_count.takeaway.devs2025
     t: |
       Хоча респондентам загалом знадобилося подати в середньому 4 заяви, щоб знайти свою поточну роботу, це число зменшувалося зі збільшенням років досвіду.
 
       Тим не менш, невелике збільшення спостерігалося на вищому кінці кривої досвіду, що можна пояснити віковою дискримінацією або застарілими навичками, які ускладнюють пошук роботи.
 
-  - key: technology.workplace.job_finding_methods.takeaway.devs2025
+  - key: workplace.job_finding_methods.takeaway.devs2025
     t: |
       Наявність більш особистого зв'язку з компанією під час подання заявки (на відміну від використання дошки оголошень про роботу чи соціальних мереж) пов'язана з вищим доходом.
 
       Єдиний виняток — це наймання через роботу з відкритим кодом, яка пов'язана з тими самими рівнями доходу, що й більш прямі методи, як-от рекрутери чи рекомендації.
 
-  - key: technology.workplace.remote_work_policy.takeaway.devs2025
+  - key: workplace.remote_work_policy.takeaway.devs2025
     t: |
       Нестача віддаленої роботи корелює як із нижчим медіанним доходом, так і з нижчим вдоволенням роботою.
 
-  - key: technology.workplace.work_hours_per_week.takeaway.devs2025
+  - key: workplace.work_hours_per_week.takeaway.devs2025
     t: |
       Що більше ви працюєте — то більше заробляєте, принаймні до певної межі. Індія є найпрацьовитішою країною з медіанними 45 годинами роботи на тиждень, тоді як більшість інших країн зосереджені навколо позначки 40 годин.
 
-  - key: technology.workplace.job_happiness.takeaway.devs2025
+  - key: workplace.job_happiness.takeaway.devs2025
     t: |
-      Розробники загалом досить задоволені своєю роботою.
+      Developers are overall pretty happy with their job – provided they can endure the first 10 years, that is.
 
-  - key: technology.workplace.workplace_perks.takeaway.devs2025
+  - key: workplace.workplace_perks.takeaway.devs2025
     t: |
       Всупереч стереотипу асоціального комп'ютерного ботаніка, виявляється, що найбільше ми цінуємо насправді один одного — стосунки з колегами займають перше місце серед того, що розробникам подобається на своєму робочому місці.
 
-  - key: technology.workplace.workplace_difficulties.takeaway.devs2025
+  - key: workplace.workplace_difficulties.takeaway.devs2025
     t: |
       Зрештою, всім нам потрібно заробляти на життя, і погана компенсація посіла перше місце як головна проблема робочого місця, з якою розробники стикаються сьогодні.
 
@@ -173,7 +177,7 @@ translations:
 
   - key: technology.social_media.takeaway.devs2025
     t: |
-      Mastodon та Bluesky можуть бути в авангарді нового контркультурного руху, але виявляється, що їхні користувачі — це також ті, кому потрібно розтягуватися щоразу, коли вони встають зі стільця, і які люблять розповідати про часи комутованого з'єднання та касетних стрічок.
+      Plotting social media apps against age reveals that Bluesky and Mastodon users probably need to stretch every time they get up from a chair, and like to reminisce about the days of dial-up and cassette tapes. 
 
       TikTok, з іншого боку, схиляється до молодших користувачів, що має сенс, оскільки потрібне молоде тіло, щоб навіть *спробувати* деякі з тих танців.
 
@@ -185,11 +189,13 @@ translations:
 
   - key: technology.community_contributions.takeaway.devs2025
     t: |
-      Приємно бачити, що розробники знаходять способи віддячити спільноті.
+      When looking at community involvement vs gender, it seems like women and non-binary respondents are less likely to engage in online spaces, but more likely to attend live events – which might point to a failure to build sufficiently inclusive online communities.
 
   - key: technology.open_source_involvement.takeaway.devs2025
     t: |
-      Не дивно, що майже всі використовували ПЗ з відкритим кодом, але те, що майже половина всіх респондентів зробили свій внесок у такі проєкти, дуже підбадьорює.
+      While nearly half of respondents have contributed code to open-source projects, it turns out this figure hides a real gender divide, with **51%** of men having contributed code, but only **36%** of non-men respondents.
+
+      That delta is much smaller for actually *creating* an open-source project (29% vs 21%) – which could indicate that the issue is not open-source in itself, but rather feeling comfortable enough to join an existing project.
 
   # health
   - key: technology.health.gender_vs_health_issues.takeaway.devs2025
