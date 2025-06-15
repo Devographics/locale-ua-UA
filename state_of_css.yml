@@ -395,6 +395,41 @@ translations:
   - key: options.css_missing_features.css_toggle.description
     t: Спосіб зіставлення "значення, що може перемикатися", з елементом.
 
+  - key: features.layout_features_ratios
+    t: Функції макета з часом
+  - key: features.layout_features_ratios.short
+    t: Функції з часом
+
+  - key: features.shapes_graphics_features_ratios
+    t: Математичні функції з часом
+  - key: features.shapes_graphics_ratios.short
+    aliasFor: features.layout_features_ratios.short
+
+  - key: features.colors_ratios
+    t: Математичні функції з часом
+  - key: features.colors_ratios.short
+    aliasFor: features.layout_features_ratios.short
+
+  - key: features.interactions_ratios
+    t: Математичні функції з часом
+  - key: features.interactions_ratios.short
+    aliasFor: features.layout_features_ratios.short
+
+  - key: features.typography_ratios
+    t: Математичні функції з часом
+  - key: features.typography_ratios.short
+    aliasFor: features.layout_features_ratios.short
+
+  - key: features.math_features_ratios
+    t: Математичні функції з часом
+  - key: features.math_features_ratios.short
+    aliasFor: features.layout_features_ratios.short
+
+  - key: features.other_features_ratios
+    t: Математичні функції з часом
+  - key: features.other_features_ratios.short
+    aliasFor: features.layout_features_ratios.short
+
   ###########################################################################
   # Features
   ###########################################################################
