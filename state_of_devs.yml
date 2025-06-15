@@ -505,7 +505,7 @@ translations:
   # job_finding_application_count
 
   - key: workplace.job_finding_application_count
-    t: Заяви на роботу
+    t: Кількість заявок
   - key: workplace.job_finding_application_count.question
     t: На скільки вакансій ви подалися, перш ніж отримати поточну роботу?
 
