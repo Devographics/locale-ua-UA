@@ -1011,6 +1011,8 @@ translations:
     t: Відсотки
   - key: chart_units.percentageBucket
     aliasFor: chart_units.percentage_bucket
+  - key: chart_units.medianByFacet
+    t: Median
   - key: chart_units.average
     t: Середнє
   - key: chart_units.averageByFacet
@@ -1886,6 +1888,18 @@ translations:
     t: За групами
   - key: filters.facet
     t: "Група:"
+  - key: filters.optional
+    t: (optional)
+  - key: filters.axis1
+    t: Variable 1
+  - key: filters.axis2
+    t: Variable 2
+  - key: filters.axis1.description
+    t: |
+      Pick the main variable you want to analyze (vertical axis).
+  - key: filters.axis2.description
+    t: |
+      Pick another variable to compare the first one to (horizontal axis).
 
   - key: filters.facet_view
     t: Сегментовані стовпці
@@ -2063,6 +2077,8 @@ translations:
 
   - key: charts.vs
     t: та
+  - key: charts.median
+    t: (median)
 
   - key: charts.custom_variant
     t: Варіація {index}
@@ -2086,6 +2102,18 @@ translations:
   - key: charts.metadata.median
     t: >
       медіана: **{value}**
+  - key: charts.metadata.limit
+    t: >
+      Showing the top **{value}** items
+  - key: charts.metadata.cutoff
+    t: >
+      Only showing items with more than **{value}** answers
+  - key: charts.metadata.sort_asc
+    t: >
+      Sorted by **{value}**, **ascending**
+  - key: charts.metadata.sort_desc
+    t: >
+      Sorted by **{value}**, **descending**
 
   - key: charts.average.marker
     t: >
