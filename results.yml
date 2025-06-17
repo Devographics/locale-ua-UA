@@ -64,6 +64,8 @@ translations:
     t: За ступенем
   - key: tabs.by_salary
     t: За доходом
+  - key: tabs.by_salary_experience_fixed
+    t: vs. Income (Same Exp.)
   - key: tabs.by_gender
     t: За гендером
   - key: tabs.by_race_ethnicity
