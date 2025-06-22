@@ -95,7 +95,7 @@ translations:
   - key: options.country.LTU
     t: Литва
   - key: options.country.LVA
-    t: Latvia
+    t: Латвія
   - key: options.country.LUX
     t: Люксембург
   - key: options.country.MDA
@@ -161,7 +161,7 @@ translations:
   - key: options.country.UKR
     t: Україна
   - key: options.country.URY
-    t: Uruguay
+    t: Уругвай
   - key: options.country.ARE
     t: Об'єднані Арабські Емірати
   - key: options.country.GBR

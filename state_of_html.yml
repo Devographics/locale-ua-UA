@@ -1062,27 +1062,27 @@ translations:
   ###########################################################################
 
   - key: faq.how_long_will_survey_take_html
-    t: How long will answering the survey take?
+    t: Скільки часу займе опитування?
   - key: faq.how_long_will_survey_take_html.description
     t: >
-      Depending on how many questions you answer (all questions can be skipped),
-      filling out the survey should take around 10-15 minutes.
+      Залежно від того, на скільки питань ви відповісте (всі питання не обов'язкові), 
+      заповнення анкети займе орієнтовно 10-15 хвилин.
 
   - key: faq.who_should_take_survey_html
-    t: Who should take this survey?
+    t: Хто може взяти участь у цьому опитуванні?
   - key: faq.who_should_take_survey_html.description
     t: >
-      This is an open survey for anybody who makes websites or web apps, whether regularly or occasionally, as part of their job, as a student, or just for fun!
+      Це відкрите опитування для всіх, хто створює вебсайти та вебзастосунки, незалежно від того, регулярно ви це робите або час від часу, у межах своєї роботи, як студент або задля розваги!
 
   - key: faq.data_used_html
-    t: How will this data be used?
+    t: Як ці дані будуть використані?
   - key: faq.data_used_html.description
     t: >
-      All data collected will be released openly for any developer or company to consult.
-      Browser vendors also [use this data](https://web.dev/blog/interop-2024) to prioritize focus areas and inform their roadmaps.
+      Усі зібрані дані будуть оприлюднені та відкриті для будь-якого розробника чи компанії з метою консультації. 
+      Постачальники браузерів також [використовують ці дані](https://web.dev/blog/interop-2024), щоб визначати пріоритетні напрями діяльності та інформувати про свої плани.
 
   - key: faq.survey_goals_html
-    t: What are the survey's goals?
+    t: Яка мета цього опитування?
   - key: faq.survey_goals_html.description
     t: >
-      The survey's goals are to measure awareness of new HTML features and browser APIs, and help developers keep track of how their usage is evolving.
+      Мета опитування — вимірювання впізнаваності нових функцій HTML і API браузера, а також допомогти розробникам стежити за розвитком їхнього використання.

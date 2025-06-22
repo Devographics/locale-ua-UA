@@ -65,7 +65,7 @@ translations:
   - key: tabs.by_salary
     t: За доходом
   - key: tabs.by_salary_experience_fixed
-    t: vs. Income (Same Exp.)
+    t: За доходом (Одн. досвід)
   - key: tabs.by_gender
     t: За гендером
   - key: tabs.by_race_ethnicity
@@ -1014,7 +1014,7 @@ translations:
   - key: chart_units.percentageBucket
     aliasFor: chart_units.percentage_bucket
   - key: chart_units.medianByFacet
-    t: Median
+    t: Медіана
   - key: chart_units.average
     t: Середнє
   - key: chart_units.averageByFacet
@@ -1891,17 +1891,17 @@ translations:
   - key: filters.facet
     t: "Група:"
   - key: filters.optional
-    t: (optional)
+    t: (необов'язково)
   - key: filters.axis1
-    t: Variable 1
+    t: Змінна 1
   - key: filters.axis2
-    t: Variable 2
+    t: Змінна 2
   - key: filters.axis1.description
     t: |
-      Pick the main variable you want to analyze (vertical axis).
+      Виберіть головну змінну для аналізу (вертикальна вісь).
   - key: filters.axis2.description
     t: |
-      Pick another variable to compare the first one to (horizontal axis).
+      Виберіть іншу змінну, щоб порівняти з головною (горизонтальна вісь).
 
   - key: filters.facet_view
     t: Сегментовані стовпці
@@ -2080,7 +2080,7 @@ translations:
   - key: charts.vs
     t: та
   - key: charts.median
-    t: (median)
+    t: (медіана)
 
   - key: charts.custom_variant
     t: Варіація {index}
@@ -2106,16 +2106,16 @@ translations:
       медіана: **{value}**
   - key: charts.metadata.limit
     t: >
-      Showing the top **{value}** items
+      Перші **{value}** елементів
   - key: charts.metadata.cutoff
     t: >
-      Only showing items with more than **{value}** answers
+      Лише елементи, що мають більшу за **{value}**  кількість відповідей
   - key: charts.metadata.sort_asc
     t: >
-      Sorted by **{value}**, **ascending**
+      Відсортовано за: **{value}**, **зростання**
   - key: charts.metadata.sort_desc
     t: >
-      Sorted by **{value}**, **descending**
+      Відсортовано за: **{value}**, **спадання**
 
   - key: charts.average.marker
     t: >
@@ -2219,34 +2219,34 @@ translations:
   ###########################################################################
 
   - key: sponsors.neon.description
-    t: Unleash cutting-edge AI applications with Postgres.
+    t: Відкрийте передові ШІ-застосунки з Postgres.
 
   - key: sponsors.frontendmasters.description
-    t: Advance your skills with in-depth, modern front-end engineering courses.
+    t: Вдосконалюйте свої навички за допомогою поглиблених сучасних курсів про інженерію клієнтської частини.
 
   - key: sponsors.polypane.description
-    t: The browser for ambitious devs. Build responsive, accessible and fast websites with ease.
+    t: Браузер для амбітних розробників. З легкістю створюйте адаптивні, доступні та швидкі вебсайти.
 
   - key: sponsors.nijibox.description
-    t: UX and Product Development consulting in the heart of Tokyo.
+    t: Консалтинг щодо UX та продуктової розробки у центрі Токіо.
 
   - key: sponsors.renderatl.description
-    t: The largest tech conference with a dedicated Design & CSS track.
+    t: Найбільша технологічна конференція, присвячена дизайну та CSS.
 
   - key: sponsors.google_chrome.description
-    t: Thanks to the Google Chrome team for supporting our work.
+    t: Дякуємо команді Google Chrome за підтримку нашої роботи.
 
   - key: sponsors.tokyodev.description
-    t: Find your dream developer job in Japan today.
+    t: Знайдіть роботу розробника своєї мрії в Японії вже сьогодні.
 
   - key: sponsors.gitnation.description
-    t: Learn the latest trends directly from early-adopters and tech authors.
+    t: Дізнайтеся про останні тенденції безпосередньо від перших користувачів та технологічних авторів.
 
   - key: sponsors.algolia.description
-    t: Deploy fast and scalable AI search anywhere with Algolia's API-first design
+    t: Розгортайте швидкий та масштабований пошук на основі ШІ будь-де за допомогою API-орієнтованого підходу від Algolia.
 
   - key: sponsors.storyblok.description
-    t: Make bigger, faster market impact with the CMS that gets out of your way.
+    t: Зробіть більший вплив на ринок швидше за допомогою CMS, яка вам не заважатиме.
 
   ###########################################################################
   # Entities repo - https://github.com/Devographics/entities

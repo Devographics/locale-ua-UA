@@ -1366,7 +1366,7 @@ translations:
   - key: options.number_of_kids.range_4
     t: 4
   - key: options.number_of_kids.range_over_5
-    t: 5 or more
+    t: 5 і більше
 
   - key: user_info.relationship_status
     t: Сімейний стан
@@ -1381,13 +1381,13 @@ translations:
     t: Складно
 
   - key: options.relationship_status.divorced_separated
-    t: Divorced or separated
+    t: Розлучені/живемо окремо 
   - key: options.relationship_status.married
-    t: Married
+    t: Одружені
   - key: options.relationship_status.polyamorous
-    t: Polyamorous
+    t: Поліаморні
   - key: options.relationship_status.widowed
-    t: Widowed
+    t: Овдовілі
 
   # FAQ
 

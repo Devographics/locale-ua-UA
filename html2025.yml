@@ -12,12 +12,12 @@ translations:
   #     This means that your answers might end up having a direct impact on the roadmap of the browser you're using right now. Which is why I'm so excited to open this third edition of the State of HTML survey!
 
   - key: faq.survey_design_html2025
-    t: How was this survey designed?
+    t: Як було розроблено це опитування?
   - key: faq.survey_design_html2025.description
     t: >
-      This survey was designed as the results of an [open design process](https://github.com/Devographics/surveys/issues/253) involving browser vendors and the web development community.
+      Опитування було розроблено унаслідок [відкритого процесу розробки](https://github.com/Devographics/surveys/issues/253) із залученням постачальників браузерів і спільноти веброзробки.
 
   - key: faq.results_released_html2025
-    t: When will the results be released?
+    t: Коли будуть опубліковані результати?
   - key: faq.results_released_html2025.description
-    t: The survey will run from July 15 to August 15, 2025, and the survey results will be released around September 15, 2025.
+    t: Опитування триватиме з 15 липня до 15 серпня 2025 року, і його результати будуть опубліковані орієнтовно 15 вересня 2025 року.
