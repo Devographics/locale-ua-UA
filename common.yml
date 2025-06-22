@@ -1099,7 +1099,7 @@ translations:
   - key: options.industry_sector.transport
     t: Транспортування
     aliases:
-    - options.industry_sector.transportation
+      - options.industry_sector.transportation
   - key: options.industry_sector.manufacturing
     t: Промисловість
 
