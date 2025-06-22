@@ -24,13 +24,13 @@ translations:
 
       А тепер, розібравшись з передумовами, нумо насолоджуватися результатами першого в історії опитування "Стан розробників"!
 
-      *Note: because of the amount of data involved, these results will be released in two parts. Please enjoy part 1 for now!*
+      *Зауважте: через обсяг даних ці результати будуть опубліковані у двох частинах. Будь ласка, насолоджуйтеся першою з них!*
 
       <span class="conclusion__byline">– Sacha Greif</span>
 
   - key: general.devs2025.css2025_banner
     t: |
-      Take the State of CSS survey and test your CSS knowledge! →
+      Пройдіть опитування "Стан CSS" та перевірте свої знання стилів! →
 
   # FAQ
 
@@ -89,11 +89,11 @@ translations:
   # career
 
   - key: sections.career.description.devs2025
-    t: Your career and work experience up to now.
+    t: Ваша кар'єра та досвід роботи до сьогодні.
 
   - key: career.years_of_experience.takeaway.devs2025
     t: |
-      More experience is correlated with a higher salary – up to a point. Past 15 years of experience, the gains become relatively small.
+      Більший досвід корелює з вищим доходом — до певної межі. Після 15 років досвіду зростання відносно невелике.
 
   - key: career.higher_education_degree.takeaway.devs2025
     t: |
@@ -101,13 +101,13 @@ translations:
 
   - key: career.how_many_jobs.takeaway.devs2025
     t: |
-      Respondents have worked for 4.2 employers on average. And while having worked for more employers is associated with a higher income, that correlation does become weaker when controlling for years of experience.
+      Респонденти працювали в середньому в 4,2 роботодавців. І хоча робота в більшої кількості роботодавців пов'язана з вищим доходом, ця кореляція послаблюється у разі врахування років досвіду.
 
   - key: career.employment_status.takeaway.devs2025
     t: |
-      While freelancers and independent contractors earn less than full-time employees, it was surprising to see that becoming a founder or an entrepreneur does not result in a significant income increase.
+      Поки фрілансери та незалежні підрядники заробляють менше, ніж штатні працівники, було несподівано побачити, що становлення засновником чи підприємцем не призводить до значного збільшення доходу.
 
-      Company employees were also the group most likely to have seen their income grow over the past year.
+      Співробітники компаній також були тією групою, чий дохід найбільш імовірно зріс протягом минулого року.
 
   - key: career.career_issues.takeaway.devs2025
     t: |
@@ -119,7 +119,7 @@ translations:
     t: |
       Хоча ми часто думаємо про дискримінацію в контексті статі чи раси, найпоширенішим фактором насправді є вік — те, що зрештою впливає на всіх нас.
 
-      Breaking down the top 5 causes of discrimination by age range reveals that age discrimination becomes especially prevalent after 50 years old.
+      Розбиття найпоширеніших 5 причин дискримінації за віковими групами показує, що вікова дискримінація стає особливо поширеною після 50 років.
 
   - key: career.negative_impacts.takeaway.devs2025
     t: |
@@ -138,7 +138,7 @@ translations:
   # workplace
 
   - key: sections.workplace.description.devs2025
-    t: Your current workplace.
+    t: Ваше поточне місце роботи.
 
   - key: workplace.company_size.takeaway.devs2025
     t: |
@@ -158,7 +158,7 @@ translations:
     t: |
       Попри побоювання спаду галузі, лише 9% респондентів повідомили про зниження свого доходу протягом минулого року.
 
-      Norway, Ireland, and South Africa-based respondents were the most likely to have seen their income increase.
+      Респонденти з Норвегії, Ірландії та Південної Африки — серед тих, чий дохід найбільш імовірно зріс.
 
   - key: workplace.job_finding_application_count.takeaway.devs2025
     t: |
@@ -174,7 +174,7 @@ translations:
 
   - key: workplace.remote_work_policy.takeaway.devs2025
     t: |
-      Нестача віддаленої роботи корелює як із нижчим медіанним доходом, так і з нижчим вдоволенням роботою (as expressed on a scale from 1 to 5).
+      Нестача віддаленої роботи корелює як із нижчим медіанним доходом, так і з нижчим вдоволенням роботою (вираженим за шкалою від 1 до 5).
 
   - key: workplace.work_hours_per_week.takeaway.devs2025
     t: |
@@ -182,7 +182,7 @@ translations:
 
   - key: workplace.job_happiness.takeaway.devs2025
     t: |
-      Developers are overall pretty happy with their job – provided they can endure the first 10 years, that is.
+      Розробники загалом досить задоволені своєю роботою — за умови, що вони зможуть витримати перші 10 років, звісно.
 
   - key: workplace.workplace_perks.takeaway.devs2025
     t: |
@@ -195,7 +195,7 @@ translations:
   # technology
 
   - key: sections.workplace.description.devs2025
-    t: The apps, languages, and platforms you use.
+    t: Застосунки, мови та платформи, які ви використовуєте.
 
   # - key: technology.mobile_os.takeaway.devs2025
   #   t: |
@@ -246,7 +246,7 @@ translations:
   # health
 
   - key: sections.health.description.devs2025
-    t: Health & fitness.
+    t: Здоров'я та фізична форма.
 
   - key: health.age.takeaway.devs2025
     t: |
@@ -260,7 +260,7 @@ translations:
     t: |
       Поганий сон був проблемою здоров'я, про яку респонденти повідомляли найчастіше, що може бути пов'язано з великою роллю екранів усіх видів у нашому житті.
 
-      Деякі проблеми, як-от проблеми психічного здоров'я та мігрені, також впливали на жінок і небінарних респондентів частіше, як порівняти із загальною популяцією, when looking at the top 6 health issues for each gender.
+      Якщо дивитися на найпоширеніші 6 проблем зі здоров'ям для кожного гендеру, деякі з них, як-от проблеми психічного здоров'я та мігрені, також впливали на жінок і небінарних респондентів частіше, як порівняти із загалом.
 
   - key: health.sleep_quantity.takeaway.devs2025
     t: |
@@ -311,7 +311,7 @@ translations:
   # hobbies
 
   - key: sections.worldview.description.devs2025
-    t: Your other passions.
+    t: Інші ваші захоплення.
 
   - key: hobbies.hobbies.takeaway.devs2025
     t: |
@@ -386,10 +386,10 @@ translations:
 
   # tbc
   - key: sections.to_be_continued.title
-    t: To Be Continued…
+    t: Далі буде…
 
   - key: conclusion.devs2025.sacha_greif.bio
-    t: Data Mixologist @ Devographics
+    t: Міксолог даних у Devographics
 
   - key: conclusion.devs2025.sacha_greif
     t: |
