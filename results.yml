@@ -64,6 +64,8 @@ translations:
     t: За ступенем
   - key: tabs.by_salary
     t: За доходом
+  - key: tabs.by_salary_experience_fixed
+    t: За доходом (Одн. досвід)
   - key: tabs.by_gender
     t: За гендером
   - key: tabs.by_race_ethnicity
@@ -1011,6 +1013,8 @@ translations:
     t: Відсотки
   - key: chart_units.percentageBucket
     aliasFor: chart_units.percentage_bucket
+  - key: chart_units.medianByFacet
+    t: Медіана
   - key: chart_units.average
     t: Середнє
   - key: chart_units.averageByFacet
@@ -1886,6 +1890,18 @@ translations:
     t: За групами
   - key: filters.facet
     t: "Група:"
+  - key: filters.optional
+    t: (необов'язково)
+  - key: filters.axis1
+    t: Змінна 1
+  - key: filters.axis2
+    t: Змінна 2
+  - key: filters.axis1.description
+    t: |
+      Виберіть головну змінну для аналізу (вертикальна вісь).
+  - key: filters.axis2.description
+    t: |
+      Виберіть іншу змінну, щоб порівняти з головною (горизонтальна вісь).
 
   - key: filters.facet_view
     t: Сегментовані стовпці
@@ -2063,6 +2079,8 @@ translations:
 
   - key: charts.vs
     t: та
+  - key: charts.median
+    t: (медіана)
 
   - key: charts.custom_variant
     t: Варіація {index}
@@ -2086,6 +2104,18 @@ translations:
   - key: charts.metadata.median
     t: >
       медіана: **{value}**
+  - key: charts.metadata.limit
+    t: >
+      Перші **{value}** елементів
+  - key: charts.metadata.cutoff
+    t: >
+      Лише елементи, що мають більшу за **{value}**  кількість відповідей
+  - key: charts.metadata.sort_asc
+    t: >
+      Відсортовано за: **{value}**, **зростання**
+  - key: charts.metadata.sort_desc
+    t: >
+      Відсортовано за: **{value}**, **спадання**
 
   - key: charts.average.marker
     t: >
@@ -2183,6 +2213,40 @@ translations:
     t: Кількість опцій
   - key: tools.cardinalities.description
     t: Скільки опцій у цій категорії респонденти використовували.
+
+  ###########################################################################
+  # Sponsors
+  ###########################################################################
+
+  - key: sponsors.neon.description
+    t: Відкрийте передові ШІ-застосунки з Postgres.
+
+  - key: sponsors.frontendmasters.description
+    t: Вдосконалюйте свої навички за допомогою поглиблених сучасних курсів про інженерію клієнтської частини.
+
+  - key: sponsors.polypane.description
+    t: Браузер для амбітних розробників. З легкістю створюйте адаптивні, доступні та швидкі вебсайти.
+
+  - key: sponsors.nijibox.description
+    t: Консалтинг щодо UX та продуктової розробки у центрі Токіо.
+
+  - key: sponsors.renderatl.description
+    t: Найбільша технологічна конференція, присвячена дизайну та CSS.
+
+  - key: sponsors.google_chrome.description
+    t: Дякуємо команді Google Chrome за підтримку нашої роботи.
+
+  - key: sponsors.tokyodev.description
+    t: Знайдіть роботу розробника своєї мрії в Японії вже сьогодні.
+
+  - key: sponsors.gitnation.description
+    t: Дізнайтеся про останні тенденції безпосередньо від перших користувачів та технологічних авторів.
+
+  - key: sponsors.algolia.description
+    t: Розгортайте швидкий та масштабований пошук на основі ШІ будь-де за допомогою API-орієнтованого підходу від Algolia.
+
+  - key: sponsors.storyblok.description
+    t: Зробіть більший вплив на ринок швидше за допомогою CMS, яка вам не заважатиме.
 
   ###########################################################################
   # Entities repo - https://github.com/Devographics/entities

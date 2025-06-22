@@ -1,6 +1,6 @@
 locale: ua-UA
 translations:
-  - key: technology.general.devs2025.survey_intro
+  - key: general.devs2025.survey_intro
     t: |
 
       2025 рік — дивний час для розробника. ШІ змінює наш звичний спосіб роботи, ми маємо справу з масовими звільненнями, а в деяких куточках технологічної спільноти змінюється політичний дискурс.
@@ -11,7 +11,7 @@ translations:
 
       Як зазвичай, кожне запитання є необов'язковим, тому вільно пропускайте ті, на які вам не зручно відповідати. Також зауважте, що результати будуть опубліковані для всіх. Ми сподіваємося, що ви побачите цінність цього опитування, і нетерпляче чекаємо познайомитися з вами ближче!
 
-  - key: technology.introduction.devs2025
+  - key: introduction.devs2025
     t: |
 
       "Ці питання занадто особисті". "Це буде досить контроверсійно". "Тобі треба зосередитися на опитуваннях про програмування".
@@ -20,28 +20,34 @@ translations:
 
       Але я радий, що вирішив усе ж це зробити. 8717 учасників — доказ того, що ця тема відгукнулася у спільноті розробників. А значно вища частка жінок (як порівняти з попередніми опитуваннями) свідчить про попит на дослідження цих менш обговорюваних аспектів життя.
 
-      І поки ви переглядаєте дані, не забудьте за численні коментарі (іконка <span class="icon-inline icon-inline-comment"/>), які залишили респонденти під час проходження — в них вони діляться своїми особистими історіями та думками набагато детальніше.
+      І поки ви переглядаєте дані, не забудьте за численні коментарі (іконка <span class="icon-inline icon-inline-comment">коментаря</span>), які залишили респонденти під час проходження — в них вони діляться своїми особистими історіями та думками набагато детальніше.
 
       А тепер, розібравшись з передумовами, нумо насолоджуватися результатами першого в історії опитування "Стан розробників"!
 
+      *Зауважте: через обсяг даних ці результати будуть опубліковані у двох частинах. Будь ласка, насолоджуйтеся першою з них!*
+
       <span class="conclusion__byline">– Sacha Greif</span>
+
+  - key: general.devs2025.css2025_banner
+    t: |
+      Пройдіть опитування "Стан CSS" та перевірте свої знання стилів! →
 
   # FAQ
 
-  - key: technology.faq.how_long_will_survey_take_devs2025
+  - key: faq.how_long_will_survey_take_devs2025
     t: Скільки часу займе опитування?
-  - key: technology.faq.how_long_will_survey_take_devs2025.description
+  - key: faq.how_long_will_survey_take_devs2025.description
     t: >
       Заповнення всієї анкети займе орієнтовно 15 хвилин. Зауважте, що всі питання не обов'язкові.
 
-  - key: technology.faq.results_released_devs2025
+  - key: faq.results_released_devs2025
     t: Коли будуть опубліковані результати?
-  - key: technology.faq.results_released_devs2025.description
+  - key: faq.results_released_devs2025.description
     t: Опитування триватиме з 15 квітня до 15 травня 2025 року, і його результати будуть опубліковані незабаром після завершення.
 
-  - key: technology.faq.survey_design_devs2025
+  - key: faq.survey_design_devs2025
     t: Як було розроблено це опитування?
-  - key: technology.faq.survey_design_devs2025.description
+  - key: faq.survey_design_devs2025.description
     t: >
       Опитування було розроблено унаслідок [відкритого процесу розробки](https://github.com/Devographics/surveys/issues/279) із залученням спільноти веброзробки.
 
@@ -49,37 +55,73 @@ translations:
   # Takeaways
   ###########################################################################
 
+  # user_info
+
+  - key: sections.user_info.description.devs2025
+    t: 'У першій хвилі опитування "Cтан розробників" взяли участь 8717 розробників.'
+
+  - key: user_info.country.takeaway.devs2025
+    t: |
+      Медіанний розрив у доходах розробників між США та іншими країнами залишається значним, що, принаймні частково, зумовлено високими зарплатами та вартістю життя в Кремнієвій долині.
+
+  - key: user_info.gender.takeaway.devs2025
+    t: |
+      15% участі жінок може здатися незначним, але це принаймні значно вище, ніж в [інших опитуваннях](https://2024.stateofjs.com/en-US/demographics/#gender), які коливаються в межах 6%. 
+
+      І хоч дані свідчать про гендерний розрив у доходах, потрібні додаткові дослідження, щоб зробити висновок, чи пов'язано це з гендерною дискримінацією, чи з іншими корельованими факторами, як-от різниця в рівні досвіду.
+
+  - key: user_info.race_ethnicity.takeaway.devs2025
+    t: |
+      Аналіз даних про расу та етнічну приналежність показує, що групи небілих зазвичай молодші за віком, що також спостерігається в [інших опитуваннях](https://2024.stateofjs.com/en-US/demographics/#race_ethnicity). 
+
+      Тут також підкреслено, як різні расові групи можуть мати дуже різний гендерний розподіл.
+
+  - key: user_info.relationship_status.takeaway.devs2025
+    t: |
+      Більшість респондентів знаходить своїх супутників життя до тридцяти років, проте в деяких країнах це видається набагато складнішим завданням, як порівняти з іншими. 
+
+      А якщо дивитися на стать, то небінарні респонденти набагато частіше самотні, ніж чоловіки чи жінки.
+
+  - key: user_info.number_of_kids.takeaway.devs2025
+    t: |
+      Більшість респондентів не має дітей, але якщо й стають батьками, то, як правило, після 30 років.
+
   # career
 
-  - key: technology.career.years_of_experience.takeaway.devs2025
-    t: |
-      Більший досвід корелює з вищим доходом — до певної межі. Після 30 років досвіду медіанний дохід знову починає знижуватися.
+  - key: sections.career.description.devs2025
+    t: Ваша кар'єра та досвід роботи до сьогодні.
 
-  - key: technology.career.higher_education_degree.takeaway.devs2025
+  - key: career.years_of_experience.takeaway.devs2025
+    t: |
+      Більший досвід корелює з вищим доходом — до певної межі. Після 15 років досвіду зростання відносно невелике.
+
+  - key: career.higher_education_degree.takeaway.devs2025
     t: |
       Наявність вищої освіти призводить до вищого доходу, але, що цікаво, освіта не обов'язково має бути пов'язана із програмуванням.
 
-  - key: technology.career.how_many_jobs.takeaway.devs2025
+  - key: career.how_many_jobs.takeaway.devs2025
     t: |
-      Респонденти працювали в середньому в 4,2 роботодавців. І хоча робота в більшої кількості роботодавців пов'язана з вищим доходом, ця кореляція зникає у разі врахування років досвіду, що вказує на відсутність переваг від частішої зміни роботи.
+      Респонденти працювали в середньому в 4,2 роботодавців. І хоча робота в більшої кількості роботодавців пов'язана з вищим доходом, ця кореляція послаблюється у разі врахування років досвіду.
 
-  - key: technology.career.employment_status.takeaway.devs2025
+  - key: career.employment_status.takeaway.devs2025
     t: |
-      Поки фрілансери та незалежні підрядники заробляють менше, ніж штатні працівники, було несподівано побачити, що підприємництво не призводить до збільшення доходу.
+      Поки фрілансери та незалежні підрядники заробляють менше, ніж штатні працівники, було несподівано побачити, що становлення засновником чи підприємцем не призводить до значного збільшення доходу.
 
-  - key: technology.career.career_issues.takeaway.devs2025
+      Співробітники компаній також були тією групою, чий дохід найбільш імовірно зріс протягом минулого року.
+
+  - key: career.career_issues.takeaway.devs2025
     t: |
       Очевидно, що три основні проблеми, про які тут повідомляється, взаємопов'язані: погане управління призводить до проблем із балансом між роботою та особистим життям, що потім призводить до вигорання.
 
       Стать, здається, таки впливає на кар'єрні проблеми: жінки та небінарні респонденти стикаються з кожною проблемою частіше, особливо коли йдеться про проблеми психічного здоров'я.
 
-  - key: technology.career.discrimination_issues.takeaway.devs2025
+  - key: career.discrimination_issues.takeaway.devs2025
     t: |
       Хоча ми часто думаємо про дискримінацію в контексті статі чи раси, найпоширенішим фактором насправді є вік — те, що зрештою впливає на всіх нас.
 
-      Розбиття даних за віковими групами показує, що вікова дискримінація стає особливо поширеною після 50 років.
+      Розбиття найпоширеніших 5 причин дискримінації за віковими групами показує, що вікова дискримінація стає особливо поширеною після 50 років.
 
-  - key: technology.career.negative_impacts.takeaway.devs2025
+  - key: career.negative_impacts.takeaway.devs2025
     t: |
       Серед усіх респондентів неконфронтаційні підходи, як-от уникнення колег, зміна своєї поведінки чи навіть звільнення, є найпоширенішими стратегіями подолання проблем на робочому місці.
 
@@ -87,7 +129,7 @@ translations:
 
       З іншого боку, раса та етнічність, схоже, не мають такого однозначного впливу. Фактично, трохи *менше* небілих респондентів повідомили про звільнення чи звернення до терапії через проблеми на робочому місці — хоча потрібні додаткові дослідження, щоб визначити, чи це тому, що вони не відчували такої потреби, чи тому, що відчували, але не мали змоги діяти.
 
-  - key: technology.career.laid_off.takeaway.devs2025
+  - key: career.laid_off.takeaway.devs2025
     t: |
       Попри розмови про спад у технологічній сфері, більшість респондентів досі ніколи не була звільнена.
 
@@ -95,57 +137,65 @@ translations:
 
   # workplace
 
-  - key: technology.workplace.company_size.takeaway.devs2025
+  - key: sections.workplace.description.devs2025
+    t: Ваше поточне місце роботи.
+
+  - key: workplace.company_size.takeaway.devs2025
     t: |
       Не дивно, що більші компанії мають кошти, щоб платити вищі зарплати. Ба більше, дохід респондентів набагато частіше зростав протягом минулого року, якщо вони працювали у великій компанії.
 
-  - key: technology.workplace.job_title.takeaway.devs2025
+  - key: workplace.job_title.takeaway.devs2025
     t: |
-      Як видно з інших опитувань, наявність титулу інженера корелює з вищим доходом, якщо порівняти з "просто" розробником.
+      Як видно з [інших опитувань](https://2024.stateofjs.com/en-US/demographics/#job_title), наявність титулу інженера корелює з вищим доходом, якщо порівняти з "просто" розробником.
 
       Ще один момент, який варто зазначити: в цілому посади клієнтської частини мають більше гендерного різноманіття, ніж інші позиції.
 
-  - key: technology.workplace.yearly_income.takeaway.devs2025
+  - key: workplace.yearly_income.takeaway.devs2025
     t: |
       США продовжують пропонувати набагато вищі зарплати проти решти світу.
 
-  - key: technology.workplace.income_evolution.takeaway.devs2025
+  - key: workplace.income_evolution.takeaway.devs2025
     t: |
       Попри побоювання спаду галузі, лише 9% респондентів повідомили про зниження свого доходу протягом минулого року.
 
-  - key: technology.workplace.job_finding_application_count.takeaway.devs2025
+      Респонденти з Норвегії, Ірландії та Південної Африки — серед тих, чий дохід найбільш імовірно зріс.
+
+  - key: workplace.job_finding_application_count.takeaway.devs2025
     t: |
       Хоча респондентам загалом знадобилося подати в середньому 4 заяви, щоб знайти свою поточну роботу, це число зменшувалося зі збільшенням років досвіду.
 
       Тим не менш, невелике збільшення спостерігалося на вищому кінці кривої досвіду, що можна пояснити віковою дискримінацією або застарілими навичками, які ускладнюють пошук роботи.
 
-  - key: technology.workplace.job_finding_methods.takeaway.devs2025
+  - key: workplace.job_finding_methods.takeaway.devs2025
     t: |
       Наявність більш особистого зв'язку з компанією під час подання заявки (на відміну від використання дошки оголошень про роботу чи соціальних мереж) пов'язана з вищим доходом.
 
       Єдиний виняток — це наймання через роботу з відкритим кодом, яка пов'язана з тими самими рівнями доходу, що й більш прямі методи, як-от рекрутери чи рекомендації.
 
-  - key: technology.workplace.remote_work_policy.takeaway.devs2025
+  - key: workplace.remote_work_policy.takeaway.devs2025
     t: |
-      Нестача віддаленої роботи корелює як із нижчим медіанним доходом, так і з нижчим вдоволенням роботою.
+      Нестача віддаленої роботи корелює як із нижчим медіанним доходом, так і з нижчим вдоволенням роботою (вираженим за шкалою від 1 до 5).
 
-  - key: technology.workplace.work_hours_per_week.takeaway.devs2025
+  - key: workplace.work_hours_per_week.takeaway.devs2025
     t: |
       Що більше ви працюєте — то більше заробляєте, принаймні до певної межі. Індія є найпрацьовитішою країною з медіанними 45 годинами роботи на тиждень, тоді як більшість інших країн зосереджені навколо позначки 40 годин.
 
-  - key: technology.workplace.job_happiness.takeaway.devs2025
+  - key: workplace.job_happiness.takeaway.devs2025
     t: |
-      Розробники загалом досить задоволені своєю роботою.
+      Розробники загалом досить задоволені своєю роботою — за умови, що вони зможуть витримати перші 10 років, звісно.
 
-  - key: technology.workplace.workplace_perks.takeaway.devs2025
+  - key: workplace.workplace_perks.takeaway.devs2025
     t: |
       Всупереч стереотипу асоціального комп'ютерного ботаніка, виявляється, що найбільше ми цінуємо насправді один одного — стосунки з колегами займають перше місце серед того, що розробникам подобається на своєму робочому місці.
 
-  - key: technology.workplace.workplace_difficulties.takeaway.devs2025
+  - key: workplace.workplace_difficulties.takeaway.devs2025
     t: |
       Зрештою, всім нам потрібно заробляти на життя, і погана компенсація посіла перше місце як головна проблема робочого місця, з якою розробники стикаються сьогодні.
 
   # technology
+
+  - key: sections.workplace.description.devs2025
+    t: Застосунки, мови та платформи, які ви використовуєте.
 
   # - key: technology.mobile_os.takeaway.devs2025
   #   t: |
@@ -155,17 +205,17 @@ translations:
   #   t: |
   #     xxx
 
-  # - key: technology.programming_languages.takeaway.devs2025
-  #   t: |
-  #     xxx
+  - key: technology.programming_languages.takeaway.devs2025
+    t: |
+      Хоч виникає спокуса вивчити Clojure, Elm, Ruby або Scala, дивлячись на зростання доходу, яке ці мови, здається, приносять, важливо також зазначити, що вони, як правило, практикуються більш досвідченими розробниками, що і може пояснити різницю.
 
   - key: technology.productivity_apps.takeaway.devs2025
     t: |
-      Коли йдеться про застосунки для продуктивності, варто відзначити вражаючий результат **Obsidian**, який посів 6-те місце загалом, попри те, що навіть не був частиною попередньо визначених варіантів питання.
+      Коли йдеться про застосунки для продуктивності, варто відзначити разючий результат **Obsidian**, який посів 6-те місце загалом, попри те, що навіть не був частиною попередньо визначених варіантів питання.
 
       Деякі інструменти, як-от **Azure DevOps** та **Jira**, схильні використовуватися у великих компаніях, тоді як **Linear** та **Trello** популярніші серед менших організацій.
 
-      Коли дивитися на виключно віддалені організації,
+    # Коли дивитися на виключно віддалені організації,
 
   - key: technology.chat_apps.takeaway.devs2025
     t: |
@@ -173,7 +223,7 @@ translations:
 
   - key: technology.social_media.takeaway.devs2025
     t: |
-      Mastodon та Bluesky можуть бути в авангарді нового контркультурного руху, але виявляється, що їхні користувачі — це також ті, кому потрібно розтягуватися щоразу, коли вони встають зі стільця, і які люблять розповідати про часи комутованого з'єднання та касетних стрічок.
+      Розподіл використання соціальних медіа за віком показує, що користувачі Mastodon та Bluesky ймовірно мають розтягуватися щоразу, коли вони встають зі стільця, і люблять розповідати про часи комутованого з'єднання та касетних стрічок. 
 
       TikTok, з іншого боку, схиляється до молодших користувачів, що має сенс, оскільки потрібне молоде тіло, щоб навіть *спробувати* деякі з тих танців.
 
@@ -185,15 +235,166 @@ translations:
 
   - key: technology.community_contributions.takeaway.devs2025
     t: |
-      Приємно бачити, що розробники знаходять способи віддячити спільноті.
+      Якщо порівняти залученість до спільноти з гендером, то здається, що жінки та небінарні респонденти менш схильні до участі в онлайн-просторі, але частіше відвідують живі заходи, що може свідчити про нездатність створити досить інклюзивні онлайн-спільноти.
 
   - key: technology.open_source_involvement.takeaway.devs2025
     t: |
-      Не дивно, що майже всі використовували ПЗ з відкритим кодом, але те, що майже половина всіх респондентів зробили свій внесок у такі проєкти, дуже підбадьорює.
+      Майже половина респондентів додавали код до проєктів із відкритим кодом, але виявляється, що ця цифра приховує реальний гендерний розрив: серед них було **51%** чоловіків і **36%** нечоловіків.
+
+      Ця різниця набагато менша для тих, хто фактично *створив* проєкт із відкритим кодом (29% проти 21%), що може свідчити про те, що проблема не в самій сфері відкритого коду, а радше у відчутті достатнього комфорту, щоб приєднатися до наявного проєкту.
 
   # health
-  - key: technology.health.gender_vs_health_issues.takeaway.devs2025
+
+  - key: sections.health.description.devs2025
+    t: Здоров'я та фізична форма.
+
+  - key: health.age.takeaway.devs2025
+    t: |
+      Women and non-binary respondents tend to skew a little younger than men, when looking at median age by gender.
+
+  - key: health.disability_status.takeaway.devs2025
+    t: |
+      Looking at disabilities by age shows that while mental health and neurodivergent conditions are the most common issues, hearing loss becomes a problem once you hit 60.
+
+  - key: health.health_issues.takeaway.devs2025
     t: |
       Поганий сон був проблемою здоров'я, про яку респонденти повідомляли найчастіше, що може бути пов'язано з великою роллю екранів усіх видів у нашому житті.
 
-      Деякі проблеми, як-от проблеми психічного здоров'я та мігрені, також впливали на жінок і небінарних респондентів частіше, як порівняти із загальною популяцією.
+      Якщо дивитися на найпоширеніші 6 проблем зі здоров'ям для кожного гендеру, деякі з них, як-от проблеми психічного здоров'я та мігрені, також впливали на жінок і небінарних респондентів частіше, як порівняти із загалом.
+
+  - key: health.sleep_quantity.takeaway.devs2025
+    t: |
+      As one might expect, having kids has a big impact on the number of sleep hours per night. Even though the median remains constant at 7, the answer distribution is shifted down towards 6 for respondents with one or more children. 
+
+      Age also has an impact, with older respondents tending to sleep less.
+
+  - key: health.sleep_measures.takeaway.devs2025
+    t: |
+      While respondents are trying a range of strategies to improve their sleep (consistent with “poor sleep” being reported as the number one overall health issue), these strategies do not seem to affect median hours of sleep per night. 
+
+      With sleep quantity being such a hard metric to nudge, it might be more effective to focus on sleep *quality* instead – although this is of course much trickier to measure accurately.
+
+  # worldview
+
+  - key: sections.worldview.description.devs2025
+    t: Worldview, politics, and current events.
+
+  - key: worldview.global_issues.takeaway.devs2025
+    t: |
+      **Climate change** is a big problem for the entire planet, but U.S.-based respondents also highlighted **rising authoritarianism**, while Ukraine-neighboring Poland is understandably worried about **geopolitical tensions**.
+
+      And while you might assume younger generations are more progressive, it's striking to see that this is not necessarily the case here, at least not regarding a few keys issue. 
+
+      Under-20 respondents were the most likely to state that **lack of free speech** and **erosion of traditional values** were major issues, while being the *least* likely to state that **rising intolerance** was one – all of which tends to align with modern conservative political viewpoints.
+
+      Older demographics also tended to be more concerned about **rising authoritarianism**, with over-40 age groups placing it as their top concern overall.
+
+  - key: worldview.happiness_factors.takeaway.devs2025
+    t: |
+      **Good health** may be the most important happiness factor globally, but India and Russia stand out for also valuing **career progress** quite highly.
+
+      When looking at demographic factors, non-binary respondents placed **hobbies** first and **family** much lower than men and women; and plotting happiness factors against age reveals that as respondents age, **friendships** and **hobbies** are often replaced with **family**.
+
+  - key: worldview.relocation.takeaway.devs2025
+    t: |
+      **Japan** tops the overall rankings of places developers would most like to relocate to, although breaking things down by respondent country reveals that respondents also tend to favor geographically close destinations or countries that share their language.
+
+  - key: worldview.overall_happiness.takeaway.devs2025
+    t: |
+      Respondents are overall relatively happy, but median happiness drops when respondents don't get enough (or get *too much*) sleep. 
+
+      And while absolute income does not seem to impact happiness, seeing an income *decrease* certainly does; and so does not being in a relatiomship.
+
+    aliases:
+      - happiness.overall_happiness.takeaway.devs2025
+
+  # hobbies
+
+  - key: sections.worldview.description.devs2025
+    t: Інші ваші захоплення.
+
+  - key: hobbies.hobbies.takeaway.devs2025
+    t: |
+      It's no surprise that **video games** dominates the rankings in a developer survey – and a few respondents even wrote in **programming** as their favorite hobby.
+
+      Older respondents were more likely to pick **Movies/TV** over video games, and among the over-60 crowd **reading** actually came first.
+
+      The data also reveals that hobbies still follow gender lines: compared to men, women were much more likely to cite **arts and crafts**, and less likely to mention **video games**.
+
+  - key: hobbies.physical_activity.takeaway.devs2025
+    t: |
+      **Hiking/walking** and **strength training** are popular all around, but when looking at physical activites vs. gender **yoga** stands out as something women are much more likely to practice than men.
+
+  - key: hobbies.favorite_musical_artists.takeaway.devs2025
+    t: |
+      Who expected **Linkin Park** to be still kicking in 2025? 
+
+      Plotting artists by median age of respondents gives us a hint at what to listen to if we want to be blend in with our fellow kids (**Charli XCX**, **Twenty One Pilots**) and what to avoid at all cost (**Pink Floyd**).
+
+      There are also gender differences, with women and non-binary respondents preferring artists such as **Chappell Roan** and **Taylor Swift**.
+
+  - key: hobbies.favorite_movies.takeaway.devs2025
+    t: |
+      **Dune** leads the rankings here, a testament to the movie's status as a cinematic masterpiece.
+
+      Looking at gender-based lists, **Wicked** stands out as the number one among women and non-binary respondents.
+
+  - key: hobbies.favorite_tv.takeaway.devs2025
+    t: |
+      **Severance** will go down as a high point of TV storytelling, and its themes of work/life balance and workplace alienation clearly resonated with survey respondents.
+
+      Animation and especially Japanese shows such as **Frieren** and **Solo Leveling** are popular with younger respondents, but so are older sitcom classics such as **Friends** and **The Office**.
+
+      When looking at gender, the lists are fairly similar except for ninth place, featuring polar opposites **Reacher** and **The Handmaid's Tale**.
+
+  - key: hobbies.favorite_video_games.takeaway.devs2025
+    t: |
+      **Baldur's Gate 3** is known for featuring ridiculous amounts of content, and this is reflected by the fact that it ranked first here despite coming out in 2023.
+
+      It also turns out that **Stardew Valley** is a hit among women and non-binary respondents, coming in second despite not placing in the top 20 among men.
+
+  - key: hobbies.video_game_platforms.takeaway.devs2025
+    t: |
+      Despite macOS being [more prevalent](/en-US/technology/#desktop_os) among respondents as a main desktop option, **Windows** is still the dominant platform when it comes to gaming.
+
+      The younger generations are the ones most likely to play on PC, while older respondents tend to prefer the ease of use of consoles.
+
+  # midpage sponsors blocks
+
+  - key: tokyodev.relocation
+    t: |
+      Find Work in Japan
+
+  - key: tokyodev.relocation.description
+    t: |
+      Relocating to Japan doesn't just have to be a dream. TokyoDev's Developer’s Crash Course in Coming to Japan covers things like what it is like to work for a Japanese company, how much you can expect to make, what visas are available and how hard they are to obtain.
+
+  - key: frontendmasters.learning_path
+    t: |
+      Ваш шлях до того, щоб стати старшим веброзробником
+
+  - key: frontendmasters.learning_path.description
+    t: |
+      Хочете покращити свою кар'єру? Заглибтеся у JavaScript, React, швидкодію у вебі, CSS, розгортання вебсайтів, TypeScript та функціональне програмування, щоб перейти від молодшого до старшого рівня вже сьогодні.
+
+  - key: storyblok.technologies
+    t: React? Vue? Astro? JS?
+
+  - key: storyblok.technologies.description
+    t: |
+      Неважливо, ми спілкуємося у форматі JSON. Storyblok — це Headless CMS, яка працює з усіма сучасними фреймворками та платформами, тож ви можете вільно вибрати найкращий варіант для свого проєкту. Почніть за лічені хвилини!
+
+  # tbc
+  - key: sections.to_be_continued.title
+    t: Далі буде…
+
+  - key: conclusion.devs2025.sacha_greif.bio
+    t: Міксолог даних у Devographics
+
+  - key: conclusion.devs2025.sacha_greif
+    t: |
+      Якщо я скажу вам, що ми ледве дослідили *половину* даних, зібраних у цьому опитуванні, думаю, ви зрозумієте, чому мені довелося розділити цей звіт на дві частини.
+
+      Попереду ще розділи про **здоров'я** (скільки годин спить середній розробник?), **хобі** (яка відеогра найпопулярніша?) та **світогляд** (куди б ви переїхали, якби могли вибрати будь-яке місце?).
+
+      Але не хвилюйтеся — вам не доведеться довго чекати, щоб зануритися в другу частину. А щоб не пропустити її напевне, залиште свою електронну адресу нижче, і ми повідомимо вас, щойно вона з'явиться!

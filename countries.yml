@@ -94,6 +94,8 @@ translations:
     t: Кенія
   - key: options.country.LTU
     t: Литва
+  - key: options.country.LVA
+    t: Латвія
   - key: options.country.LUX
     t: Люксембург
   - key: options.country.MDA
@@ -158,6 +160,8 @@ translations:
     t: Уганда
   - key: options.country.UKR
     t: Україна
+  - key: options.country.URY
+    t: Уругвай
   - key: options.country.ARE
     t: Об'єднані Арабські Емірати
   - key: options.country.GBR

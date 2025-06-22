@@ -1004,7 +1004,7 @@ translations:
   - key: opinions.browser_interoperability_is_obstacle
     t: Сумісність між браузерами
   - key: opinions.browser_interoperability_is_obstacle.question
-    t: Недостатня сумісність між браузерами — це велика перешкода для веброзробки
+    t: Недостатня сумісність між браузерами — це наразі велика перешкода для веброзробки
 
   - key: options.browser_interoperability_is_obstacle.0
     aliasFor: options.opinions.0
@@ -1056,3 +1056,33 @@ translations:
     aliasFor: sections.accessibility.title
   - key: features.mobile_web_apps
     aliasFor: sections.mobile_web_apps.title
+
+  ###########################################################################
+  # FAQ
+  ###########################################################################
+
+  - key: faq.how_long_will_survey_take_html
+    t: Скільки часу займе опитування?
+  - key: faq.how_long_will_survey_take_html.description
+    t: >
+      Залежно від того, на скільки питань ви відповісте (всі питання не обов'язкові), 
+      заповнення анкети займе орієнтовно 10-15 хвилин.
+
+  - key: faq.who_should_take_survey_html
+    t: Хто може взяти участь у цьому опитуванні?
+  - key: faq.who_should_take_survey_html.description
+    t: >
+      Це відкрите опитування для всіх, хто створює вебсайти та вебзастосунки, незалежно від того, регулярно ви це робите або час від часу, у межах своєї роботи, як студент або задля розваги!
+
+  - key: faq.data_used_html
+    t: Як ці дані будуть використані?
+  - key: faq.data_used_html.description
+    t: >
+      Усі зібрані дані будуть оприлюднені та відкриті для будь-якого розробника чи компанії з метою консультації. 
+      Постачальники браузерів також [використовують ці дані](https://web.dev/blog/interop-2024), щоб визначати пріоритетні напрями діяльності та інформувати про свої плани.
+
+  - key: faq.survey_goals_html
+    t: Яка мета цього опитування?
+  - key: faq.survey_goals_html.description
+    t: >
+      Мета опитування — вимірювання впізнаваності нових функцій HTML і API браузера, а також допомогти розробникам стежити за розвитком їхнього використання.
