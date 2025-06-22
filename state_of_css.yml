@@ -396,7 +396,7 @@ translations:
     t: Спосіб зіставлення "значення, що може перемикатися", з елементом.
 
   - key: features.layout_features_ratios
-    t: Функції макета з часом
+    t: Функції компонування з часом
   - key: features.layout_features_ratios.short
     t: Функції з часом
 
