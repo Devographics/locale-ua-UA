@@ -58,33 +58,33 @@ translations:
   # user_info
 
   - key: sections.user_info.description.devs2025
-    t: 8,717 developers took part in the first ever State of Devs survey.
+    t: 'У першій хвилі опитування "Cтан розробників" взяли участь 8717 розробників.'
 
   - key: user_info.country.takeaway.devs2025
     t: |
-      The median income gap among developers between the U.S. and other countries remain large, driven at least partly by high Silicon Valley salaries and cost of living.
+      Медіанний розрив у доходах розробників між США та іншими країнами залишається значним, що, принаймні частково, зумовлено високими зарплатами та вартістю життя в Кремнієвій долині.
 
   - key: user_info.gender.takeaway.devs2025
     t: |
-      15% of women participation might feel small, but it's at least considerably higher than [other surveys](https://2024.stateofjs.com/en-US/demographics/#gender), which tend to hover around 6%. 
+      15% участі жінок може здатися незначним, але це принаймні значно вище, ніж в [інших опитуваннях](https://2024.stateofjs.com/en-US/demographics/#gender), які коливаються в межах 6%. 
 
-      And while the data reveals a gender income gap, further research would be needed to conclude whether this is due to gender discrimination, or other correlated factors such as differences in experience levels.
+      І хоч дані свідчать про гендерний розрив у доходах, потрібні додаткові дослідження, щоб зробити висновок, чи пов'язано це з гендерною дискримінацією, чи з іншими корельованими факторами, як-от різниця в рівні досвіду.
 
   - key: user_info.race_ethnicity.takeaway.devs2025
     t: |
-      Looking at race & ethnicity data shows that non-white groups tend to skew younger, a recurring trend that is also present in [other surveys](https://2024.stateofjs.com/en-US/demographics/#race_ethnicity).
+      Аналіз даних про расу та етнічну приналежність показує, що групи небілих зазвичай молодші за віком, що також спостерігається в [інших опитуваннях](https://2024.stateofjs.com/en-US/demographics/#race_ethnicity). 
 
-      It also highlights how different racial groups can have very different gender breakdowns.
+      Тут також підкреслено, як різні расові групи можуть мати дуже різний гендерний розподіл.
 
   - key: user_info.relationship_status.takeaway.devs2025
     t: |
-      Most respondents find a life partner by the time they're in their thirties, although doing so seems much more of a challenge in some countries compared to others.
+      Більшість респондентів знаходить своїх супутників життя до тридцяти років, проте в деяких країнах це видається набагато складнішим завданням, як порівняти з іншими. 
 
-      And when looking at gender, non-binary respondents are single at a much higher rate than either men or women.
+      А якщо дивитися на стать, то небінарні респонденти набагато частіше самотні, ніж чоловіки чи жінки.
 
   - key: user_info.number_of_kids.takeaway.devs2025
     t: |
-      A majority of respondents do not have children, and those who do become parent tend to do so after 30.
+      Більшість респондентів не має дітей, але якщо й стають батьками, то, як правило, після 30 років.
 
   # career
 
@@ -207,15 +207,15 @@ translations:
 
   - key: technology.programming_languages.takeaway.devs2025
     t: |
-      While it might be tempting to learn Clojure, Elm, Ruby, or Scala given the income premium these languages seem to carry, it's important to also acknowledge that these language tend to be practiced by more experienced devs, which could account for the difference.
+      Хоч виникає спокуса вивчити Clojure, Elm, Ruby або Scala, дивлячись на зростання доходу, яке ці мови, здається, приносять, важливо також зазначити, що вони, як правило, практикуються більш досвідченими розробниками, що і може пояснити різницю.
 
   - key: technology.productivity_apps.takeaway.devs2025
     t: |
-      Коли йдеться про застосунки для продуктивності, варто відзначити вражаючий результат **Obsidian**, який посів 6-те місце загалом, попри те, що навіть не був частиною попередньо визначених варіантів питання.
+      Коли йдеться про застосунки для продуктивності, варто відзначити разючий результат **Obsidian**, який посів 6-те місце загалом, попри те, що навіть не був частиною попередньо визначених варіантів питання.
 
       Деякі інструменти, як-от **Azure DevOps** та **Jira**, схильні використовуватися у великих компаніях, тоді як **Linear** та **Trello** популярніші серед менших організацій.
 
-      Коли дивитися на виключно віддалені організації,
+    # Коли дивитися на виключно віддалені організації,
 
   - key: technology.chat_apps.takeaway.devs2025
     t: |
@@ -223,7 +223,7 @@ translations:
 
   - key: technology.social_media.takeaway.devs2025
     t: |
-      Plotting social media apps against age reveals that Bluesky and Mastodon users probably need to stretch every time they get up from a chair, and like to reminisce about the days of dial-up and cassette tapes. 
+      Розподіл використання соціальних медіа за віком показує, що користувачі Mastodon та Bluesky ймовірно мають розтягуватися щоразу, коли вони встають зі стільця, і люблять розповідати про часи комутованого з'єднання та касетних стрічок. 
 
       TikTok, з іншого боку, схиляється до молодших користувачів, що має сенс, оскільки потрібне молоде тіло, щоб навіть *спробувати* деякі з тих танців.
 
@@ -235,13 +235,13 @@ translations:
 
   - key: technology.community_contributions.takeaway.devs2025
     t: |
-      When looking at community involvement vs gender, it seems like women and non-binary respondents are less likely to engage in online spaces, but more likely to attend live events – which might point to a failure to build sufficiently inclusive online communities.
+      Якщо порівняти залученість до спільноти з гендером, то здається, що жінки та небінарні респонденти менш схильні до участі в онлайн-просторі, але частіше відвідують живі заходи, що може свідчити про нездатність створити досить інклюзивні онлайн-спільноти.
 
   - key: technology.open_source_involvement.takeaway.devs2025
     t: |
-      While nearly half of respondents have contributed code to open-source projects, it turns out this figure hides a real gender divide, with **51%** of men having contributed code, but only **36%** of non-men respondents.
+      Майже половина респондентів додавали код до проєктів із відкритим кодом, але виявляється, що ця цифра приховує реальний гендерний розрив: серед них було **51%** чоловіків і **36%** нечоловіків.
 
-      That delta is much smaller for actually *creating* an open-source project (29% vs 21%) – which could indicate that the issue is not open-source in itself, but rather feeling comfortable enough to join an existing project.
+      Ця різниця набагато менша для тих, хто фактично *створив* проєкт із відкритим кодом (29% проти 21%), що може свідчити про те, що проблема не в самій сфері відкритого коду, а радше у відчутті достатнього комфорту, щоб приєднатися до наявного проєкту.
 
   # health
 
@@ -371,18 +371,18 @@ translations:
 
   - key: frontendmasters.learning_path
     t: |
-      Your Path to Becoming a Senior Web Developer
+      Ваш шлях до того, щоб стати старшим веброзробником
 
   - key: frontendmasters.learning_path.description
     t: |
-      Want to upgrade your career? Deep-dive into JavaScript, React, Web performance, CSS, deploying websites, TypeScript, and functional programming to go from junior to senior today.
+      Хочете покращити свою кар'єру? Заглибтеся у JavaScript, React, швидкодію у вебі, CSS, розгортання вебсайтів, TypeScript та функціональне програмування, щоб перейти від молодшого до старшого рівня вже сьогодні.
 
   - key: storyblok.technologies
     t: React? Vue? Astro? JS?
 
   - key: storyblok.technologies.description
     t: |
-      Doesn't matter, we speak JSON. Storyblok is a Headless CMS that works with all modern frameworks and platforms so you are completely free to choose the best option for your project. Get started in a matter of minutes!
+      Неважливо, ми спілкуємося у форматі JSON. Storyblok — це Headless CMS, яка працює з усіма сучасними фреймворками та платформами, тож ви можете вільно вибрати найкращий варіант для свого проєкту. Почніть за лічені хвилини!
 
   # tbc
   - key: sections.to_be_continued.title
@@ -393,8 +393,8 @@ translations:
 
   - key: conclusion.devs2025.sacha_greif
     t: |
-      If I tell you we've barely explored *half* of the data collected through this survey, I think you'll understand why I had to split this report in two parts.
+      Якщо я скажу вам, що ми ледве дослідили *половину* даних, зібраних у цьому опитуванні, думаю, ви зрозумієте, чому мені довелося розділити цей звіт на дві частини.
 
-      Still to come are sections about **health** (how many hours does the average developer sleep?), **hobbies** (what video game is the most popular?), and **worldview** (where would you relocate if you could choose to go anywhere?).
+      Попереду ще розділи про **здоров'я** (скільки годин спить середній розробник?), **хобі** (яка відеогра найпопулярніша?) та **світогляд** (куди б ви переїхали, якби могли вибрати будь-яке місце?).
 
-      But don't worry – you won't have to wait too long to dive into the second part of this report. And if you want to make sure you don't miss it, leave your email below and we'll let you know as soon as it's out!
+      Але не хвилюйтеся — вам не доведеться довго чекати, щоб зануритися в другу частину. А щоб не пропустити її напевне, залиште свою електронну адресу нижче, і ми повідомимо вас, щойно вона з'явиться!
