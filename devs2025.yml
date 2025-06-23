@@ -250,11 +250,11 @@ translations:
 
   - key: health.age.takeaway.devs2025
     t: |
-      Women and non-binary respondents tend to skew a little younger than men, when looking at median age by gender.
+      Women and non-binary respondents tend to skew a little younger than men when looking at median age by gender.
 
   - key: health.disability_status.takeaway.devs2025
     t: |
-      Looking at disabilities by age shows that while mental health and neurodivergent conditions are the most common issues, hearing loss becomes a problem once you hit 60.
+      Looking at disabilities by age shows that while mental health and neurodivergent conditions are the most common issues, hearing loss becomes more prevalent once you hit 60.
 
   - key: health.health_issues.takeaway.devs2025
     t: |
@@ -264,15 +264,15 @@ translations:
 
   - key: health.sleep_quantity.takeaway.devs2025
     t: |
-      As one might expect, having kids has a big impact on the number of sleep hours per night. Even though the median remains constant at 7, the answer distribution is shifted down towards 6 for respondents with one or more children. 
+      As one might expect, having kids significantly affects nightly sleep duration. Although the median remains at 7 hours, the distribution shifts down toward 6 for respondents with one or more children.
 
-      Age also has an impact, with older respondents tending to sleep less.
+      Age also plays a role, with older respondents tending to sleep less.
 
   - key: health.sleep_measures.takeaway.devs2025
     t: |
-      While respondents are trying a range of strategies to improve their sleep (consistent with “poor sleep” being reported as the number one overall health issue), these strategies do not seem to affect median hours of sleep per night. 
+      Respondents are trying a range of strategies to improve their sleep (consistent with “poor sleep” being the most commonly reported health issue) but these efforts don’t appear to influence median nightly sleep duration.
 
-      With sleep quantity being such a hard metric to nudge, it might be more effective to focus on sleep *quality* instead – although this is of course much trickier to measure accurately.
+      With sleep quantity being such a hard metric to nudge, it might be more effective to focus on sleep *quality* instead – although this is of course much harder to measure accurately.
 
   # worldview
 
@@ -398,3 +398,35 @@ translations:
       Попереду ще розділи про **здоров'я** (скільки годин спить середній розробник?), **хобі** (яка відеогра найпопулярніша?) та **світогляд** (куди б ви переїхали, якби могли вибрати будь-яке місце?).
 
       Але не хвилюйтеся — вам не доведеться довго чекати, щоб зануритися в другу частину. А щоб не пропустити її напевне, залиште свою електронну адресу нижче, і ми повідомимо вас, щойно вона з'явиться!
+
+  ###########################################################################
+  # FAQ/About
+  ###########################################################################
+
+  - key: about.content
+    t: |
+      The 2025 State of Devs survey ran from April 15 to May 15 2025, and collected 8,717 responses. The results were published on June 20, 2025. The survey is run by [Devographics](https://devographics.com/).
+
+      ### Survey Goals
+
+      This survey was created in an effort to learn more about the non-technical aspects of life as a developer. 
+
+      ### Survey Design
+
+      The survey was designed in collaboration with the community, with an open feedback period where the survey outline was discussed [on GitHub](https://github.com/Devographics/surveys/issues/279). 
+
+      All survey questions were optional. 
+
+      ### Survey Audience
+
+      The survey was openly accessible online and respondents were not filtered or selected in any way. Respondents were primarily a mix of respondents from past Devographics surveys such as [State of JS](https://stateofjs.com/), [State of CSS](https://stateofcss.com/), etc. (alerted through a dedicated mailing list) and social media traffic. 
+
+      This survey should also be taken as a **snapshot of a specific subset of developers**, and is not meant to speak for the entire ecosystem. 
+
+      ### Project Funding
+
+      Funding from this project comes from our partners, which are listed on the survey's homepage. 
+
+      ### Technical Overview
+
+      You can find an in-depth technical overview on how the surveys are run [here](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2023-edition-1p6a).
