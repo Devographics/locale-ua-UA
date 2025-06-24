@@ -84,7 +84,9 @@ translations:
 
   - key: user_info.number_of_kids.takeaway.devs2025
     t: |
-      Більшість респондентів не має дітей, але якщо й стають батьками, то, як правило, після 30 років.
+      Більшість респондентів не має дітей, але якщо й стають батьками, то, як правило, у більш зрілому віці.
+
+      Women and non-binary respondents also had fewer kids on average compared to men.
 
   # career
 
