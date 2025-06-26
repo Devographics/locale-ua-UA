@@ -1860,7 +1860,7 @@ translations:
   - key: filters.compare_data
     t: Порівняти дані
   - key: filters.customize_chart
-    t: Конструктор запитів
+    t: Конструктор запитів…
   - key: filters.docs
     t: Документація
   - key: filters.compare_chart
