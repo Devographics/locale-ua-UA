@@ -1045,7 +1045,9 @@ translations:
   - key: charts.facet_respondents
     t: "({count} респондентів)"
   - key: charts.facet_detail
-    t: "({count} відповідей від {totalRespondents} респондентів)"
+    t: "({count} із {totalRespondents} респондентів)"
+  - key: charts.facet_detail_answers
+    t: "({count} із {totalAnswers} відповідей)"
 
   - key: charts.average.used
     t: 'Середнє: "Використовував(-ла)"'
@@ -2107,6 +2109,9 @@ translations:
   - key: charts.metadata.respondents
     t: >
       **{value}** відповіли на питання
+  - key: charts.metadata.answers
+    t: >
+      **{value}** відповідей на питання
   - key: charts.metadata.average
     t: >
       середнє: **{value}**
