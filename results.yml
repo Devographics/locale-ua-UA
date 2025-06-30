@@ -441,10 +441,12 @@ translations:
   - key: user_info.completion_stats
     t: Заповнення опитування
     aliases:
+      - user_metadata.completion_stats
       - _user_metadata.completion_stats
   - key: user_info.completion_stats.description
     t: Яку частину опитування заповнили респонденти?
     aliases:
+      - user_metadata.completion_stats.description
       - _user_metadata.completion_stats.description
 
   # skipped
