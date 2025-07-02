@@ -85,11 +85,11 @@ translations:
   - key: tabs.by_age
     t: За віком
   - key: tabs.by_remote_work_policy
-    t: By Remote Work
+    t: За віддаленою роботою
   - key: tabs.vs_job_happiness
-    t: vs. Job Happiness
+    t: та задоволеність роботою
   - key: tabs.developers_engineers
-    t: Developers vs Engineers
+    t: Розробники та інженери
 
   ###########################################################################
   # Options
@@ -420,22 +420,22 @@ translations:
   #   t: Зауважте, що ці дані не включають респондентів, які взяли участь в опитуванні як гості.
 
   - key: user_metadata.past_editions
-    t: Previous Editions
+    t: Попередні хвилі
     aliases:
       - _user_metadata.past_editions
   - key: user_metadata.past_editions.description
-    t: Previous editions of this survey taken by respondents.
+    t: Попередні хвилі цього опитування, у яких взяли участь респонденти.
     aliases:
       - _user_metadata.past_editions.description
 
-  - key: user_metadata.past_editions
-    t: Previous Editions
-    aliases:
-      - _user_metadata.past_editions
-  - key: user_metadata.past_editions.description
-    t: Previous editions of this survey taken by respondents.
-    aliases:
-      - _user_metadata.past_editions.description
+  # - key: user_metadata.past_editions
+  #   t: Previous Editions
+  #   aliases:
+  #     - _user_metadata.past_editions
+  # - key: user_metadata.past_editions.description
+  #   t: Previous editions of this survey taken by respondents.
+  #   aliases:
+  #     - _user_metadata.past_editions.description
 
   # completion
   - key: user_info.completion_stats
@@ -451,11 +451,11 @@ translations:
 
   # skipped
   - key: user_info.skipped
-    t: Skipped Questions
+    t: Пропущені питання
     aliases:
       - _user_metadata.skipped
   - key: user_info.skipped.description
-    t: Which questions were the most frequently skipped.
+    t: Які питання найчастіше пропускали.
     aliases:
       - _user_metadata.skipped.description
 
@@ -1134,7 +1134,7 @@ translations:
     t: "{percentile}-й процентиль: {value}"
 
   - key: charts.average_value
-    t: "Average: {value}"
+    t: "Середнє: {value}"
 
   - key: charts.freeform_data_indicator
     t: (відповіді вільної форми)
@@ -2233,7 +2233,7 @@ translations:
 
   - key: charts.toggle_view
     t: >
-      Show:
+      Показати:
 
   ###########################################################################
   # Multi Items Experience Chart

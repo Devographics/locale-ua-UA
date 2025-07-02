@@ -86,7 +86,7 @@ translations:
     t: |
       Більшість респондентів не має дітей, але якщо й стають батьками, то, як правило, у більш зрілому віці.
 
-      Women and non-binary respondents also had fewer kids on average compared to men.
+      Жінки та небінарні респонденти також мали в середньому менше дітей, як порівняти з чоловіками.
 
   # career
 
@@ -107,7 +107,7 @@ translations:
 
   - key: career.employment_status.takeaway.devs2025
     t: |
-      Поки фрілансери та незалежні підрядники заробляють менше, ніж штатні працівники, було несподівано побачити, що становлення засновником чи підприємцем не призводить до значного збільшення доходу.
+      Поки фрилансери та незалежні підрядники заробляють менше, ніж штатні працівники, було несподівано побачити, що становлення засновником чи підприємцем не призводить до значного збільшення доходу.
 
       Співробітники компаній також були тією групою, чий дохід найбільш імовірно зріс протягом минулого року.
 
@@ -235,7 +235,7 @@ translations:
 
       І хоча RSS-стрічки були популярною відповіддю, написаною від руки, медіанний вік цих респондентів не віщує добра для майбутнього цієї технології.
 
-      When looking at gender dynamics, women and non-binary respondents are far less likely to rely on video content and participate in public online platforms-but more likely to take part in smaller-scale chatrooms and meetups.
+      Якщо розглядати гендерну динаміку, жінки та небінарні респонденти набагато рідше покладаються на відеоконтент чи беруть участь у публічних онлайн-платформах, але частіше перебувають у менш масштабних чатах та на зустрічах.
 
   - key: technology.community_contributions.takeaway.devs2025
     t: |
@@ -281,7 +281,7 @@ translations:
   # worldview
 
   - key: sections.worldview.description.devs2025
-    t: Worldview, politics, and current events.
+    t: Світогляд, політика та поточні події.
 
   - key: worldview.global_issues.takeaway.devs2025
     t: |
@@ -317,7 +317,7 @@ translations:
   # hobbies
 
   - key: sections.worldview.description.devs2025
-    t: Worldview, politics, and current events.
+    t: Інші ваші захоплення.
 
   - key: hobbies.hobbies.takeaway.devs2025
     t: |
@@ -427,11 +427,11 @@ translations:
 
   - key: tokyodev.relocation
     t: |
-      Find Work in Japan
+      Знайдіть роботу в Японії
 
   - key: tokyodev.relocation.description
     t: |
-      Relocating to Japan doesn't just have to be a dream. TokyoDev's Developer’s Crash Course in Coming to Japan covers things like what it is like to work for a Japanese company, how much you can expect to make, what visas are available and how hard they are to obtain.
+      Релокація до Японії не має залишатися мрією. Вичерпний курс приїзду розробника в Японію від TokyoDev охоплює такі теми, як робота в японській компанії, очікуваний заробіток, доступні візи та складність їх отримання.
 
   - key: frontendmasters.learning_path
     t: |
@@ -504,32 +504,32 @@ translations:
 
   - key: about.content
     t: |
-      The 2025 State of Devs survey ran from April 15 to May 15 2025, and collected 8,717 responses. The results were published on June 20, 2025. The survey is run by [Devographics](https://devographics.com/).
+      Опитування "Стан розробників 2025" тривало з 15 квітня до 15 травня 2025 року та зібрало 8717 відповідей. Результати були опубліковані 20 червня 2025 року. Опитування проводив [Devographics](https://devographics.com/). 
 
-      ### Survey Goals
+      ### Цілі опитування 
 
-      This survey was created in an effort to learn more about the non-technical aspects of life as a developer. 
+      Це опитування було створено, щоб дізнатися більше про нетехнічні аспекти життя розробника. 
 
-      ### Survey Design
+      ### Розробка опитування 
 
-      The survey was designed in collaboration with the community, with an open feedback period where the survey outline was discussed [on GitHub](https://github.com/Devographics/surveys/issues/279). 
+      Опитування було розроблено разом зі спільнотою з відкритим періодом для зворотного зв'язку, під час якого план опитування обговорювався [на платформі GitHub](https://github.com/Devographics/surveys/issues/279). 
 
-      All survey questions were optional. 
+      Усі запитання опитування були необов'язковими. 
 
-      ### Survey Audience
+      ### Аудиторія опитування 
 
-      The survey was openly accessible online and respondents were not filtered or selected in any way. Respondents were primarily a mix of respondents from past Devographics surveys such as [State of JS](https://stateofjs.com/), [State of CSS](https://stateofcss.com/), etc. (alerted through a dedicated mailing list) and social media traffic. 
+      Опитування було повністю відкрите та доступне онлайн, респонденти жодним чином не відфільтровувалися та не відбиралися. Респонденти складалися здебільшого з учасників минулих опитувань Devographics, як-от ["Стан JS"](https://stateofjs.com/), ["Стан CSS"](https://stateofcss.com/) тощо (сповіщених електронною поштою за спеціальним списком розсилання), та тих, хто прийшов через соціальні мережі. 
 
-      This survey should also be taken as a **snapshot of a specific subset of developers**, and is not meant to speak for the entire ecosystem. 
+      Це опитування також слід сприймати як **знімок певної підмножини розробників у певний момент часу**, а не промовистий опис від імені всієї екосистеми. 
 
-      ### Project Funding
+      ### Фінансування проєкту 
 
-      Funding from this project comes from our partners, which are listed on the survey's homepage. 
+      Цей проєкт фінансується нашими партнерами, переліченими на головній сторінці опитування. 
 
-      ### Technical Overview
+      ### Технічний огляд 
 
-      You can find an in-depth technical overview on how the surveys are run [here](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2023-edition-1p6a).
+      Більш детальний технічний огляд того, як проводяться опитування, [тут](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2023-edition-1p6a).
 
-      ### Contact
+      ### Контакти
 
-      The best way to get in touch is to [join our public Discord](https://discord.com/invite/zRDb35jfrt), or you can also [find me on Bluesky](https://bsky.app/profile/sachagreif.com).
+      Найкращий спосіб прокомунікувати — це [приєднатися до нашого публічного Discord-сервера](https://discord.com/invite/zRDb35jfrt), а також можете [знайти мене (Sacha Greif) на Bluesky](https://bsky.app/profile/sachagreif.com). 

@@ -360,15 +360,15 @@ translations:
     t: Один працівник
 
   - key: options.remote_work_policy.depends_on_role
-    t: Depends on role
+    t: Залежно від ролі
   - key: options.remote_work_policy.mostly_remote
-    t: Mostly remote
+    t: Переважно віддалено
   - key: options.remote_work_policy.hybrid_remote_work
-    t: Hybrid
+    t: Гібридно
   - key: options.remote_work_policy.freelance_self_employed
-    t: Freelancer/self-employed
+    t: Фриланс/самозайнятість
   - key: options.remote_work_policy.remote_based_on_distance
-    t: Based on distance from company
+    t: Залежно від відстані до компанії
 
   - key: workplace.work_hours_per_week
     t: Робочі години
