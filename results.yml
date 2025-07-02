@@ -84,6 +84,12 @@ translations:
     t: Білі та Небілі
   - key: tabs.by_age
     t: За віком
+  - key: tabs.by_remote_work_policy
+    t: За віддаленою роботою
+  - key: tabs.vs_job_happiness
+    t: та задоволеність роботою
+  - key: tabs.developers_engineers
+    t: Розробники та інженери
 
   ###########################################################################
   # Options
@@ -321,10 +327,12 @@ translations:
     t: Мова
     aliases:
       - user_metadata.locale
+      - _user_metadata.locale
   - key: user_info.locale.description
     t: Мова, яку вибрали респонденти для проходження опитування.
     aliases:
       - user_metadata.locale.description
+      - _user_metadata.locale.description
 
   - key: user_info.source
     t: Джерело
@@ -402,15 +410,63 @@ translations:
 
   - key: user_metadata.past_surveys
     t: Попередні опитування
+    aliases:
+      - _user_metadata.past_surveys
   - key: user_metadata.past_surveys.description
     t: Попередні опитування від Devographics, у яких взяли участь респонденти.
+    aliases:
+      - _user_metadata.past_surveys.description
   # - key: user_metadata.past_surveys.note
   #   t: Зауважте, що ці дані не включають респондентів, які взяли участь в опитуванні як гості.
 
+  - key: user_metadata.past_editions
+    t: Попередні хвилі
+    aliases:
+      - _user_metadata.past_editions
+  - key: user_metadata.past_editions.description
+    t: Попередні хвилі цього опитування, у яких взяли участь респонденти.
+    aliases:
+      - _user_metadata.past_editions.description
+
+  # - key: user_metadata.past_editions
+  #   t: Previous Editions
+  #   aliases:
+  #     - _user_metadata.past_editions
+  # - key: user_metadata.past_editions.description
+  #   t: Previous editions of this survey taken by respondents.
+  #   aliases:
+  #     - _user_metadata.past_editions.description
+
+  # completion
+  - key: user_info.completion_stats
+    t: Заповнення опитування
+    aliases:
+      - user_metadata.completion_stats
+      - _user_metadata.completion_stats
+  - key: user_info.completion_stats.description
+    t: Яку частину опитування заповнили респонденти?
+    aliases:
+      - user_metadata.completion_stats.description
+      - _user_metadata.completion_stats.description
+
+  # skipped
+  - key: user_info.skipped
+    t: Пропущені питання
+    aliases:
+      - _user_metadata.skipped
+  - key: user_info.skipped.description
+    t: Які питання найчастіше пропускали.
+    aliases:
+      - _user_metadata.skipped.description
+
   - key: user_metadata.past_same_survey_count
     t: Кількість учасників
+    aliases:
+      - _user_metadata.past_same_survey_count
   - key: user_metadata.past_same_survey_count.description
     t: Скільки разів респонденти взяли участь у попередніх хвилях цього опитування.
+    aliases:
+      - _user_metadata.past_same_survey_count.description
   # - key: user_metadata.past_same_survey_count.note
   #   aliasFor: user_metadata.past_surveys.note
 
@@ -425,8 +481,12 @@ translations:
 
   - key: user_metadata.authmode
     t: Автентифікація
+    aliases:
+      - _user_metadata.authmode
   - key: user_metadata.authmode.description
     t: Як респонденти заповнили опитування — як гості чи автентифіковані.
+    aliases:
+      - _user_metadata.authmode.description
 
   - key: options.authmode.anonymous
     t: Гостьовий акаунт
@@ -435,23 +495,39 @@ translations:
 
   - key: user_metadata.device
     t: Пристрій
+    aliases:
+      - _user_metadata.device
   - key: user_metadata.device.description
     t: Який пристрій використовувався під час проходження опитування.
+    aliases:
+      - _user_metadata.device.description
 
   - key: user_metadata.browser
     t: Браузер
+    aliases:
+      - _user_metadata.browser
   - key: user_metadata.browser.description
     t: Який браузер використовувався під час проходження опитування.
+    aliases:
+      - _user_metadata.browser.description
 
   - key: user_metadata.version
     t: Версія браузера
+    aliases:
+      - _user_metadata.version
   - key: user_metadata.version.description
     t: Яка версія браузера використовувалася під час проходження опитування.
+    aliases:
+      - _user_metadata.version.description
 
   - key: user_metadata.os
     t: ОС
+    aliases:
+      - _user_metadata.os
   - key: user_metadata.os.description
     t: Яка операційна система використовувалася під час проходження опитування.
+    aliases:
+      - _user_metadata.os.description
 
   # job_info
 
@@ -1041,7 +1117,9 @@ translations:
   - key: charts.facet_respondents
     t: "({count} респондентів)"
   - key: charts.facet_detail
-    t: "({count} відповідей від {totalRespondents} респондентів)"
+    t: "({count} із {totalRespondents} респондентів)"
+  - key: charts.facet_detail_answers
+    t: "({count} із {totalAnswers} відповідей)"
 
   - key: charts.average.used
     t: 'Середнє: "Використовував(-ла)"'
@@ -1054,6 +1132,9 @@ translations:
     t: "{percentile}-й процентиль"
   - key: charts.nth_percentile_value
     t: "{percentile}-й процентиль: {value}"
+
+  - key: charts.average_value
+    t: "Середнє: {value}"
 
   - key: charts.freeform_data_indicator
     t: (відповіді вільної форми)
@@ -1857,7 +1938,7 @@ translations:
   - key: filters.compare_data
     t: Порівняти дані
   - key: filters.customize_chart
-    t: Конструктор запитів
+    t: Конструктор запитів…
   - key: filters.docs
     t: Документація
   - key: filters.compare_chart
@@ -2079,8 +2160,10 @@ translations:
 
   - key: charts.vs
     t: та
-  - key: charts.median
+  - key: charts.facet_median
     t: (медіана)
+  - key: charts.facet_average
+    t: (середнє)
 
   - key: charts.custom_variant
     t: Варіація {index}
@@ -2098,6 +2181,9 @@ translations:
   - key: charts.metadata.respondents
     t: >
       **{value}** відповіли на питання
+  - key: charts.metadata.answers
+    t: >
+      **{value}** відповідей на питання
   - key: charts.metadata.average
     t: >
       середнє: **{value}**
@@ -2144,6 +2230,10 @@ translations:
   - key: charts.filtered_by_value
     t: >
       Відфільтровано за: "{value}"
+
+  - key: charts.toggle_view
+    t: >
+      Показати:
 
   ###########################################################################
   # Multi Items Experience Chart
