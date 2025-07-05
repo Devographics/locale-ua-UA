@@ -1170,13 +1170,13 @@ translations:
   - key: options.industry_sector.saas
     t: SaaS (Програмне забезпечення як послуга)
   - key: options.industry_sector.automation
-    t: Automation
-  - key: options.industry_sector.automation
-    t: Automation
+    t: Автоматизація
+  # - key: options.industry_sector.automation
+  #   t: Automation
   - key: options.industry_sector.industrial
-    t: Industrial
+    t: Промисловість
   - key: options.industry_sector.music
-    t: Music
+    t: Музика
 
   # tool evaluation
   - key: options.tool_evaluation.learning_curve_documentation
