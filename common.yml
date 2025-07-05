@@ -1054,6 +1054,8 @@ translations:
     t: Новини, медіа, блогінг
   - key: options.industry_sector.healthcare
     t: Охорона здоров'я
+    aliases:
+      - options.industry_sector.health_care
   - key: options.industry_sector.finance
     t: Фінанси, банківська сфера
   - key: options.industry_sector.programming_tools
@@ -1112,7 +1114,9 @@ translations:
   - key: options.industry_sector.gaming
     t: Індустрія відеоігор
   - key: options.industry_sector.research
-    t: Дослідницька діяльність
+    t: Дослідницька діяльність та наука
+    aliases:
+      - options.industry_sector.science
   - key: options.industry_sector.law
     t: Право, юриспруденція
   - key: options.industry_sector.non_profit
@@ -1165,6 +1169,14 @@ translations:
     t: Робототехніка
   - key: options.industry_sector.saas
     t: SaaS (Програмне забезпечення як послуга)
+  - key: options.industry_sector.automation
+    t: Автоматизація
+  # - key: options.industry_sector.automation
+  #   t: Automation
+  - key: options.industry_sector.industrial
+    t: Промисловість
+  - key: options.industry_sector.music
+    t: Музика
 
   # tool evaluation
   - key: options.tool_evaluation.learning_curve_documentation
