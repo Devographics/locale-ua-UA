@@ -250,13 +250,13 @@ translations:
 
   - key: health.age.takeaway.devs2025
     t: |
-      Women and non-binary respondents tend to skew a little younger than men when looking at median age by gender.
+      Серед опитаних жінок і небінарних людей медіанний вік трохи нижчий, ніж серед чоловіків.
 
   - key: health.disability_status.takeaway.devs2025
     t: |
-      Looking at disabilities by age shows that while mental health and neurodivergent conditions are the most common issues, hearing loss becomes more prevalent once you hit 60.
+      Якщо подивитися на порушення здоров'я за віком, то найпоширенішими є проблеми психічного здоров'я і нейрорізноманітні стани, але після 60 років значно частіше трапляється втрата слуху.
 
-      Some disabilities such as visual impairments are also more common among men, while mental health issues and chronic illnesses are over-represented among women.
+      Деякі типи порушень, зокрема порушення зору, частіше трапляються серед чоловіків, тоді як психічні розлади та хронічні захворювання — серед жінок.
 
   - key: health.health_issues.takeaway.devs2025
     t: |
@@ -266,15 +266,15 @@ translations:
 
   - key: health.sleep_quantity.takeaway.devs2025
     t: |
-      As expected, having kids does affect average sleep duration – although not as much as one might think.
+      Як і очікувалося, наявність дітей впливає на середню тривалість сну — але не так сильно, як можна було б припустити.
 
-      Age also plays a role, with older respondents tending to sleep slightly less.
+      Вік також грає важливу роль: старші респонденти зазвичай сплять трохи менше.
 
   - key: health.sleep_measures.takeaway.devs2025
     t: |
-      Respondents are trying a range of strategies to improve their sleep (consistent with “poor sleep” being the most commonly reported health issue) but these efforts don’t appear to influence median nightly sleep duration.
+      Респонденти випробовують різні стратегії, щоб покращити сон (що логічно, адже "поганий сон" є найпоширенішою проблемою зі здоров'ям), але ці зусилля, здається, не впливають на медіанну тривалість нічного сну.
 
-      With sleep quantity being such a hard metric to nudge, it might be more effective to focus on sleep *quality* instead – although this is of course much harder to measure accurately.
+      Оскільки кількість сну складно змінити, можливо, варто зосередитися на його *якості*, яку, звісно, набагато важче точно виміряти.
 
   # worldview
 
