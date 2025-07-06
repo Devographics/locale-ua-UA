@@ -319,49 +319,49 @@ translations:
 
   - key: hobbies.hobbies.takeaway.devs2025
     t: |
-      It's no surprise that **video games** dominates the rankings in a developer survey – and a few respondents even wrote in **programming** as their favorite hobby.
+      Не дивно, що **відеоігри** очолюють рейтинг у цьому опитуванні серед розробників, а дехто навіть вказав **програмування** як улюблене хобі.
 
-      Older respondents were more likely to pick **Movies/TV** over video games, and among the over-60 crowd **reading** actually came first.
+      Старші респонденти частіше вибирали **фільми/серіали** замість відеоігор, а серед тих, кому за 60, **читання** посіло перше місце.
 
-      The data also reveals that hobbies still follow gender lines: compared to men, women were much more likely to cite **arts and crafts**, and less likely to mention **video games**.
+      Дані також показують, що хобі й далі мають гендерну диференціацію: жінки значно частіше згадували **мистецтво та рукоділля** і рідше — **відеоігри**.
 
   - key: hobbies.physical_activity.takeaway.devs2025
     t: |
-      **Hiking/walking** and **strength training** are popular all around, but when looking at physical activites vs. gender **yoga** stands out as something women are much more likely to practice than men.
+      **Пішохідний туризм/ходіння** та **силові тренування** є популярними серед усіх, але якщо поглянути на фізичну активність за гендером, то **йога** чітко вирізняється як заняття, яким значно частіше займаються жінки.
 
   - key: hobbies.favorite_musical_artists.takeaway.devs2025
     t: |
-      Who expected **Linkin Park** to be still kicking in 2025? 
+      Хто б міг подумати, що **Linkin Park** буде все ще у тренді у 2025?
 
-      Plotting artists by median age of respondents gives us a hint at what to listen to if we want to be blend in with our fellow kids (**Charli XCX**, **Twenty One Pilots**) and what to avoid at all cost (**Pink Floyd**).
+      Якщо порівняти артистів із медіанним віком респондентів, можна здогадатися, що треба слухати, щоб злитися з молоддю (**Charli XCX**, **Twenty One Pilots**), і чого уникати за будь-яку ціну (**Pink Floyd**).
 
-      There are also gender differences, with women and non-binary respondents preferring artists such as **Chappell Roan** and **Taylor Swift**.
+      Є і гендерні відмінності: жінки та небінарні респонденти надають перевагу певним артистам, як-от **Chappell Roan** і **Taylor Swift**.
 
   - key: hobbies.favorite_movies.takeaway.devs2025
     t: |
-      **Dune** leads the rankings here, a testament to the movie's status as a cinematic masterpiece.
+      **"Dune" ("Дюна")** лідирує в цьому рейтингу — визнання її статусу як кінематографічного шедевра.
 
-      Looking at gender-based lists, **Wicked** stands out as the number one among women and non-binary respondents.
+      Якщо дивитися на рейтинги за гендером, то **"Wicked" ("Wicked: Чародійка")** посідає перше місце серед жінок і небінарних респондентів.
 
   - key: hobbies.favorite_tv.takeaway.devs2025
     t: |
-      **Severance** will go down as a high point of TV storytelling, and its themes of work/life balance and workplace alienation clearly resonated with survey respondents.
+      **"Severance" ("Розрив")** стане віхою в історії серіального сторітелінгу, його теми балансу між роботою і життям та відчуження на роботі явно відгукнулися респондентам.
 
-      Animation and especially Japanese shows such as **Frieren** and **Solo Leveling** are popular with younger respondents, but so are older sitcom classics such as **Friends** and **The Office**.
+      Серед молоді популярна анімація, особливо японські серіали, як-от **"Frieren" ("Проводжальниця Фрірен")** і **"Solo Leveling" ("Тільки я візьму новий рівень")**, але так само і класичні ситкоми: **"Friends" ("Друзі")** та **"The Office" ("Офіс")**.
 
-      When looking at gender, the lists are fairly similar except for ninth place, featuring polar opposites **Reacher** and **The Handmaid's Tale**.
+      За гендером рейтинги загалом подібні, за винятком дев'ятого місця, де зустрічаються цілком протилежні **"Reacher" ("Річер")** та **"The Handmaid's Tale" ("Оповідь служниці")**.
 
   - key: hobbies.favorite_video_games.takeaway.devs2025
     t: |
-      **Baldur's Gate 3** is known for featuring ridiculous amounts of content, and this is reflected by the fact that it ranked first here despite coming out in 2023.
+      **"Baldur's Gate 3" ("Брама Балдура 3")** відома неймовірною кількістю контенту, і це підтверджується її першим місцем у рейтингу попри те, що гра вийшла ще у 2023-му.
 
-      It also turns out that **Stardew Valley** is a hit among women and non-binary respondents, coming in second despite not placing in the top 20 among men.
+      Цікаво, що **"Stardew Valley" ("Долина Стардью")** досить популярна серед жінок і небінарних респондентів, а серед чоловіків ця гра навіть не потрапила до першої двадцятки.
 
   - key: hobbies.video_game_platforms.takeaway.devs2025
     t: |
-      Despite macOS being [more prevalent](/en-US/technology/#desktop_os) among respondents as a main desktop option, **Windows** is still the dominant platform when it comes to gaming.
+      Попри те, що macOS є [поширеним](/en-US/technology/#desktop_os) вибором настільної ОС серед респондентів, **Windows** досі домінує в ігровому сегменті.
 
-      The younger generations are the ones most likely to play on PC, while older respondents tend to prefer the ease of use of consoles.
+      Молодші покоління найчастіше грають на ПК, а старші респонденти зазвичай віддають перевагу зручності консолей.
 
   # metadata
 
