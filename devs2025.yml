@@ -374,46 +374,46 @@ translations:
   # figures
 
   - key: figure.figure_gender.devs2025
-    t: Percentage of women and non-binary respondents among those who specified their gender.
+    t: Відсоток жінок і небінарних респондентів серед тих, хто вказав свій гендер.
 
   - key: figure.figure_career_issues_discrimination.devs2025
-    t: Difference in the percentage of men vs. women/non-binary respondents who reported experiencing discrimination throughout their career.
+    t: Різниця у відсотках чоловіків та жінок/небінарних респондентів, які вказали, що зазнали дискримінації впродовж кар'єри.
 
   - key: figure.figure_discrimination_therapy.devs2025
-    t: Difference in the percentage of men vs. women/non-binary respondents who reported having sought therapy due to workplace issues.
+    t: Різниця у відсотках чоловіків та жінок/небінарних респондентів, які вказали, що звернулися до терапії через проблеми на робочому місці.
 
   - key: figure.figure_company_size_income_evolution.devs2025
-    t: Percentage of respondents working for large (1000+ employees) companies who saw their income increase over the past year.
+    t: Відсоток респондентів із великих компаній (1000+ працівників), що вказали зростання доходу за рік.
 
   - key: figure.figure_job_title_income.devs2025
-    t: Average salary difference between job titles containing 'engineer' and those containing 'developer'.
+    t: Різниця середнього доходу між посадами, які містять слово "інженер", і тими, які містять "розробник".
 
   - key: figure.figure_yearly_salary_usa_world.devs2025
-    t: Difference between U.S. salary average and the rest of the world.
+    t: Різниця між середнім доходом у США та рештою світу.
 
   - key: figure.figure_job_finding_application_count.devs2025
-    t: Median number of job applications need by respondents to find their current job.
+    t: Медіанне число заяв, які треба було подати респонденту, щоб знайти поточну роботу.
 
   - key: figure.figure_remote_work_policy_happiness.devs2025
-    t: Difference in respondent's average job happiness (on a 5-point scale) between companies that allow remote work and those that don't.
+    t: Різниця в середньому рівні задоволеності роботою (за шкалою від 1 до 5) між компаніями, що дозволяють працювати віддалено, і тими, що ні.
 
   - key: figure.figure_community_involvement.devs2025
-    t: Median age of RSS feed users (vs. 35 overall for survey respondents).
+    t: Медіанний вік користувачів RSS-стрічок (проти 35 років у середньому серед респондентів опитування).
 
   - key: figure.figure_open_source_involvement.devs2025
-    t: Difference in the percentage of men vs. women/non-binary respondents who contribute open-source code.
+    t: Різниця у відсотках чоловіків та жінок/небінарних респондентів, які роблять внесок у ПЗ із відкритим кодом.
 
   - key: figure.figure_sleep_quantity.devs2025
-    t: Average number of hours respondents sleep per night.
+    t: Середня кількість годин сну на добу серед респондентів.
 
   - key: figure.figure_global_issues.devs2025
-    t: Percentage of U.S. respondents who cited rising authoritarianism as a concern.
+    t: Відсоток респондентів із США, які вказали занепокоєння через зростання авторитаризму.
 
   - key: figure.figure_relocation_japan.devs2025
-    t: Number of respondents who cited Japan as a potential relocation destination.
+    t: Кількість респондентів, які вказали Японію потенційним місцем для переїзду.
 
   - key: figure.figure_favorite_musical_artists_pink_floyd.devs2025
-    t: Median age of Pink Floyd listeners among respondents.
+    t: Медіанний вік слухачів Pink Floyd серед респондентів.
 
   - key: figure.xxx.devs2025
     t:
