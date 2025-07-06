@@ -250,13 +250,13 @@ translations:
 
   - key: health.age.takeaway.devs2025
     t: |
-      Women and non-binary respondents tend to skew a little younger than men when looking at median age by gender.
+      Серед опитаних жінок і небінарних людей медіанний вік трохи нижчий, ніж серед чоловіків.
 
   - key: health.disability_status.takeaway.devs2025
     t: |
-      Looking at disabilities by age shows that while mental health and neurodivergent conditions are the most common issues, hearing loss becomes more prevalent once you hit 60.
+      Якщо подивитися на порушення здоров'я за віком, то найпоширенішими є проблеми психічного здоров'я і нейрорізноманітні стани, але після 60 років значно частіше трапляється втрата слуху.
 
-      Some disabilities such as visual impairments are also more common among men, while mental health issues and chronic illnesses are over-represented among women.
+      Деякі типи порушень, зокрема порушення зору, частіше трапляються серед чоловіків, тоді як психічні розлади та хронічні захворювання — серед жінок.
 
   - key: health.health_issues.takeaway.devs2025
     t: |
@@ -266,15 +266,15 @@ translations:
 
   - key: health.sleep_quantity.takeaway.devs2025
     t: |
-      As expected, having kids does affect average sleep duration – although not as much as one might think.
+      Як і очікувалося, наявність дітей впливає на середню тривалість сну — але не так сильно, як можна було б припустити.
 
-      Age also plays a role, with older respondents tending to sleep slightly less.
+      Вік також грає важливу роль: старші респонденти зазвичай сплять трохи менше.
 
   - key: health.sleep_measures.takeaway.devs2025
     t: |
-      Respondents are trying a range of strategies to improve their sleep (consistent with “poor sleep” being the most commonly reported health issue) but these efforts don’t appear to influence median nightly sleep duration.
+      Респонденти випробовують різні стратегії, щоб покращити сон (що логічно, адже "поганий сон" є найпоширенішою проблемою зі здоров'ям), але ці зусилля, здається, не впливають на медіанну тривалість нічного сну.
 
-      With sleep quantity being such a hard metric to nudge, it might be more effective to focus on sleep *quality* instead – although this is of course much harder to measure accurately.
+      Оскільки кількість сну складно змінити, можливо, варто зосередитися на його *якості*, яку, звісно, набагато важче точно виміряти.
 
   # worldview
 
@@ -283,31 +283,31 @@ translations:
 
   - key: worldview.global_issues.takeaway.devs2025
     t: |
-      **Climate change** is a big problem for the entire planet, but U.S.-based respondents also highlighted **rising authoritarianism**, while Ukraine-neighboring Poland is understandably worried about **geopolitical tensions**.
+      **Зміна клімату** — це глобальна проблема, але респонденти із США також акцентують на **зростанні авторитаризму**, тоді як Польща, що межує з Україною, закономірно турбується про **геополітичну напруженість**.
 
-      And while you might assume younger generations are more progressive, it's striking to see that this is not necessarily the case here, at least not regarding a few key issues. 
+      І хоча можна було б припустити, що молодше покоління загалом прогресивніше, цікаво, що це не завжди так — принаймні в деяких ключових питаннях.
 
-      Under-20 respondents are the most likely to state that **lack of free speech** and **erosion of traditional values** are major issues, while being the *least* likely to state that **rising intolerance** was one – all of which tends to align with modern conservative political viewpoints.
+      Серед важливих проблем респонденти до 20 років найчастіше виділяють **брак свободи слова** та **руйнування традиційних цінностей**  і *найрідше* — **зростання нетерпимості**, що направду узгоджується із сучасними консервативними політичними поглядами.
 
-      Older demographics also tend to be more concerned about **rising authoritarianism**, with over-40 age groups placing it as their top concern overall.
+      Старші вікові групи також частіше занепокоєні **зростанням авторитаризму** — у вікових групах понад 40 років це найпоширеніше занепокоєння.
 
-      Finally, women are over-represented among respondents citing **healthcare access** as one of their top priorities, which again echoes ongoing political concerns especially in the U.S.
+      На закінчення, жінки значно переважають серед тих, хто вказує на **доступ до охорони здоров'я** як на один із головних пріоритетів, — і це знову ж таки перегукується з політичною тематикою, особливо у США.
 
   - key: worldview.happiness_factors.takeaway.devs2025
     t: |
-      **Good health** may be the most important happiness factor globally, but India and Russia stand out for also valuing **career progress** quite highly, as well as **wealth and material possessions** in the case of Russia.
+      **Гарне здоров'я** — ймовірно, найважливіший чинник щастя у світі, але Індія та росія вирізняються також високою оцінкою **кар'єрного розвитку**, а росія — ще й **добробутом та матеріальними благами**.
 
-      When looking at demographic factors, non-binary respondents placed **hobbies** first and **family** much lower than men and women; and plotting happiness factors against age reveals that as respondents age, **friendships** and **hobbies** are often replaced with **family**.
+      Якщо дивитися на демографічні чинники, небінарні респонденти поставили **хобі** на перше місце, а **сім'ю** — значно нижче, ніж чоловіки та жінки; водночас зі зростанням віку **сім'я** часто замінює **дружбу** та **хобі**.
 
   - key: worldview.relocation.takeaway.devs2025
     t: |
-      **Japan** tops the overall rankings of places developers would most like to relocate to, although breaking things down by respondent country reveals that respondents also tend to favor geographically close destinations or countries that share their language.
+      **Японія** очолює загальний рейтинг країн, куди розробники найбільше хотіли б переїхати, але аналіз відповідей за країнами респондентів вказує на те, що вони також надають перевагу географічно близьким або мовно спорідненим місцям.
 
   - key: worldview.overall_happiness.takeaway.devs2025
     t: |
-      Respondents are overall relatively happy, but median happiness drops when respondents don't get enough (or get *too much*) sleep. 
+      Загалом респонденти доволі щасливі, але медіанне відчуття щастя падає, якщо вони сплять недостатньо (або *занадто багато*).
 
-      And while absolute income does not seem to impact happiness, seeing an income *decrease* certainly does; and so does not being in a relatiomship.
+      І хоча абсолютний дохід не має значного впливу на щастя, **зменшення** доходу точно має — так само як і відсутність стосунків.
 
     aliases:
       - happiness.overall_happiness.takeaway.devs2025
@@ -319,101 +319,101 @@ translations:
 
   - key: hobbies.hobbies.takeaway.devs2025
     t: |
-      It's no surprise that **video games** dominates the rankings in a developer survey – and a few respondents even wrote in **programming** as their favorite hobby.
+      Не дивно, що **відеоігри** очолюють рейтинг у цьому опитуванні серед розробників, а дехто навіть вказав **програмування** як улюблене хобі.
 
-      Older respondents were more likely to pick **Movies/TV** over video games, and among the over-60 crowd **reading** actually came first.
+      Старші респонденти частіше вибирали **фільми/серіали** замість відеоігор, а серед тих, кому за 60, **читання** посіло перше місце.
 
-      The data also reveals that hobbies still follow gender lines: compared to men, women were much more likely to cite **arts and crafts**, and less likely to mention **video games**.
+      Дані також показують, що хобі й далі мають гендерну диференціацію: жінки значно частіше згадували **мистецтво та рукоділля** і рідше — **відеоігри**.
 
   - key: hobbies.physical_activity.takeaway.devs2025
     t: |
-      **Hiking/walking** and **strength training** are popular all around, but when looking at physical activites vs. gender **yoga** stands out as something women are much more likely to practice than men.
+      **Пішохідний туризм/ходіння** та **силові тренування** є популярними серед усіх, але якщо поглянути на фізичну активність за гендером, то **йога** чітко вирізняється як заняття, яким значно частіше займаються жінки.
 
   - key: hobbies.favorite_musical_artists.takeaway.devs2025
     t: |
-      Who expected **Linkin Park** to be still kicking in 2025? 
+      Хто б міг подумати, що **Linkin Park** буде все ще у тренді у 2025?
 
-      Plotting artists by median age of respondents gives us a hint at what to listen to if we want to be blend in with our fellow kids (**Charli XCX**, **Twenty One Pilots**) and what to avoid at all cost (**Pink Floyd**).
+      Якщо порівняти артистів із медіанним віком респондентів, можна здогадатися, що треба слухати, щоб злитися з молоддю (**Charli XCX**, **Twenty One Pilots**), і чого уникати за будь-яку ціну (**Pink Floyd**).
 
-      There are also gender differences, with women and non-binary respondents preferring artists such as **Chappell Roan** and **Taylor Swift**.
+      Є і гендерні відмінності: жінки та небінарні респонденти надають перевагу певним артистам, як-от **Chappell Roan** і **Taylor Swift**.
 
   - key: hobbies.favorite_movies.takeaway.devs2025
     t: |
-      **Dune** leads the rankings here, a testament to the movie's status as a cinematic masterpiece.
+      **"Dune" ("Дюна")** лідирує в цьому рейтингу — визнання її статусу як кінематографічного шедевра.
 
-      Looking at gender-based lists, **Wicked** stands out as the number one among women and non-binary respondents.
+      Якщо дивитися на рейтинги за гендером, то **"Wicked" ("Wicked: Чародійка")** посідає перше місце серед жінок і небінарних респондентів.
 
   - key: hobbies.favorite_tv.takeaway.devs2025
     t: |
-      **Severance** will go down as a high point of TV storytelling, and its themes of work/life balance and workplace alienation clearly resonated with survey respondents.
+      **"Severance" ("Розрив")** стане віхою в історії серіального сторітелінгу, його теми балансу між роботою і життям та відчуження на роботі явно відгукнулися респондентам.
 
-      Animation and especially Japanese shows such as **Frieren** and **Solo Leveling** are popular with younger respondents, but so are older sitcom classics such as **Friends** and **The Office**.
+      Серед молоді популярна анімація, особливо японські серіали, як-от **"Frieren" ("Проводжальниця Фрірен")** і **"Solo Leveling" ("Тільки я візьму новий рівень")**, але так само і класичні ситкоми: **"Friends" ("Друзі")** та **"The Office" ("Офіс")**.
 
-      When looking at gender, the lists are fairly similar except for ninth place, featuring polar opposites **Reacher** and **The Handmaid's Tale**.
+      За гендером рейтинги загалом подібні, за винятком дев'ятого місця, де зустрічаються цілком протилежні **"Reacher" ("Річер")** та **"The Handmaid's Tale" ("Оповідь служниці")**.
 
   - key: hobbies.favorite_video_games.takeaway.devs2025
     t: |
-      **Baldur's Gate 3** is known for featuring ridiculous amounts of content, and this is reflected by the fact that it ranked first here despite coming out in 2023.
+      **"Baldur's Gate 3" ("Брама Балдура 3")** відома неймовірною кількістю контенту, і це підтверджується її першим місцем у рейтингу попри те, що гра вийшла ще у 2023-му.
 
-      It also turns out that **Stardew Valley** is a hit among women and non-binary respondents, coming in second despite not placing in the top 20 among men.
+      Цікаво, що **"Stardew Valley" ("Долина Стардью")** досить популярна серед жінок і небінарних респондентів, а серед чоловіків ця гра навіть не потрапила до першої двадцятки.
 
   - key: hobbies.video_game_platforms.takeaway.devs2025
     t: |
-      Despite macOS being [more prevalent](/en-US/technology/#desktop_os) among respondents as a main desktop option, **Windows** is still the dominant platform when it comes to gaming.
+      Попри те, що macOS є [поширеним](/en-US/technology/#desktop_os) вибором настільної ОС серед респондентів, **Windows** досі домінує в ігровому сегменті.
 
-      The younger generations are the ones most likely to play on PC, while older respondents tend to prefer the ease of use of consoles.
+      Молодші покоління найчастіше грають на ПК, а старші респонденти зазвичай віддають перевагу зручності консолей.
 
   # metadata
 
   - key: _user.metadata.source.takeaway.devs2025
     t: |
-      While a majority of respondents came from our existing audience and mailing list, **Josh Comeau** mentioning the survey in his newsletter was also a big boost. 
+      Хоча більшість респондентів — з нашої наявної аудиторії та списку розсилання електронною поштою, значного імпульсу додала згадка про опитування в розсилці від **Josh Comeau**.
 
-      When looking at the gender breakdown for each source, [snowball sampling](https://github.com/Devographics/surveys/issues/258) proved quite effective at driving more women to participate in the survey, as was sponsoring creators such as [Cassidy Williams](https://cassidoo.co/), who featured the survey in her weekly newsletter.
+      Якщо глянути на гендерний розподіл за кожним джерелом, ["метод снігової кулі"](https://github.com/Devographics/surveys/issues/258) виявився доволі ефективним для залучення більшої кількості жінок до участі — як і співпраця з авторами контенту, як-от [Cassidy Williams](https://cassidoo.co/), яка теж рекламувала опитування у своїй щотижневій розсилці.
 
   # figures
 
   - key: figure.figure_gender.devs2025
-    t: Percentage of women and non-binary respondents among those who specified their gender.
+    t: Відсоток жінок і небінарних респондентів серед тих, хто вказав свій гендер.
 
   - key: figure.figure_career_issues_discrimination.devs2025
-    t: Difference in the percentage of men vs. women/non-binary respondents who reported experiencing discrimination throughout their career.
+    t: Різниця у відсотках чоловіків та жінок/небінарних респондентів, які вказали, що зазнали дискримінації впродовж кар'єри.
 
   - key: figure.figure_discrimination_therapy.devs2025
-    t: Difference in the percentage of men vs. women/non-binary respondents who reported having sought therapy due to workplace issues.
+    t: Різниця у відсотках чоловіків та жінок/небінарних респондентів, які вказали, що звернулися до терапії через проблеми на робочому місці.
 
   - key: figure.figure_company_size_income_evolution.devs2025
-    t: Percentage of respondents working for large (1000+ employees) companies who saw their income increase over the past year.
+    t: Відсоток респондентів із великих компаній (1000+ працівників), що вказали зростання доходу за рік.
 
   - key: figure.figure_job_title_income.devs2025
-    t: Average salary difference between job titles containing 'engineer' and those containing 'developer'.
+    t: Різниця середнього доходу між посадами, які містять слово "інженер", і тими, які містять "розробник".
 
   - key: figure.figure_yearly_salary_usa_world.devs2025
-    t: Difference between U.S. salary average and the rest of the world.
+    t: Різниця між середнім доходом у США та рештою світу.
 
   - key: figure.figure_job_finding_application_count.devs2025
-    t: Median number of job applications need by respondents to find their current job.
+    t: Медіанне число заяв, які треба було подати респонденту, щоб знайти поточну роботу.
 
   - key: figure.figure_remote_work_policy_happiness.devs2025
-    t: Difference in respondent's average job happiness (on a 5-point scale) between companies that allow remote work and those that don't.
+    t: Різниця в середньому рівні задоволеності роботою (за шкалою від 1 до 5) між компаніями, що дозволяють працювати віддалено, і тими, що ні.
 
   - key: figure.figure_community_involvement.devs2025
-    t: Median age of RSS feed users (vs. 35 overall for survey respondents).
+    t: Медіанний вік користувачів RSS-стрічок (проти 35 років у середньому серед респондентів опитування).
 
   - key: figure.figure_open_source_involvement.devs2025
-    t: Difference in the percentage of men vs. women/non-binary respondents who contribute open-source code.
+    t: Різниця у відсотках чоловіків та жінок/небінарних респондентів, які роблять внесок у ПЗ із відкритим кодом.
 
   - key: figure.figure_sleep_quantity.devs2025
-    t: Average number of hours respondents sleep per night.
+    t: Середня кількість годин сну на добу серед респондентів.
 
   - key: figure.figure_global_issues.devs2025
-    t: Percentage of U.S. respondents who cited rising authoritarianism as a concern.
+    t: Відсоток респондентів із США, які вказали занепокоєння через зростання авторитаризму.
 
   - key: figure.figure_relocation_japan.devs2025
-    t: Number of respondents who cited Japan as a potential relocation destination.
+    t: Кількість респондентів, які вказали Японію потенційним місцем для переїзду.
 
   - key: figure.figure_favorite_musical_artists_pink_floyd.devs2025
-    t: Median age of Pink Floyd listeners among respondents.
+    t: Медіанний вік слухачів Pink Floyd серед респондентів.
 
   - key: figure.xxx.devs2025
     t:
@@ -522,7 +522,7 @@ translations:
 
       Почати кар'єру — справжній виклик. Ще одна заява. Ще один день. Понад 1000 кандидатів. "Відеоінтерв'ю" із ШІ. Очевидно, що сайти з вакансіями — лише лотерея, а [найголовніше — це мережа контактів](../workplace/#job_finding_methods). Що менший досвід — то [більше заяв](../workplace/#job_finding_application_count) доводиться надсилати, і я можу лишень здогадуватися, як ця цифра зростатиме далі, адже компанії й надалі незграбно намагаються замінити молодших спеціалістів штучним інтелектом. 
 
-      Кажуть, що добре здоров'я даремно витрачається на молодість. [І справді](../worldview/#happiness_factors), молодші учасники опитування — єдина вікова група, яка не назвала "добре здоров'я" головним джерелом щастя. Та розробники загалом — досить свідомі люди, а наш [світогляд](../worldview/) вказує на нашу небайдужість до глобальних проблем. 
+      Кажуть, що добре здоров'я даремно витрачається на молодість. [І справді](../worldview/#happiness_factors), молодші учасники опитування — єдина вікова група, яка не назвала "гарне здоров'я" головним джерелом щастя. Та розробники загалом — досить свідомі люди, а наш [світогляд](../worldview/) вказує на нашу небайдужість до глобальних проблем. 
 
       Якщо переглянути метадані відповідей, видно, що розробники значно різноманітніші у [виборі браузерів](../metadata/#browser), ніж загальне населення. Chrome — 36%, Firefox — 14%, Safari — 13%, Edge — 2%. Для порівняння, для світу Statcounter фіксує 68% для Chrome, 16% — Safari, 5% — Edge, 2% — Firefox. Схожа різноманітність і у [виборі настільних операційних систем](../technology/#desktop_os), де macOS і Linux відгризають звичну частку Windows. 
 
