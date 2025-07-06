@@ -367,9 +367,9 @@ translations:
 
   - key: _user.metadata.source.takeaway.devs2025
     t: |
-      While a majority of respondents came from our existing audience and mailing list, **Josh Comeau** mentioning the survey in his newsletter was also a big boost. 
+      Хоча більшість респондентів — з нашої наявної аудиторії та списку розсилання електронною поштою, значного імпульсу додала згадка про опитування в розсилці від **Josh Comeau**.
 
-      When looking at the gender breakdown for each source, [snowball sampling](https://github.com/Devographics/surveys/issues/258) proved quite effective at driving more women to participate in the survey, as was sponsoring creators such as [Cassidy Williams](https://cassidoo.co/), who featured the survey in her weekly newsletter.
+      Якщо глянути на гендерний розподіл за кожним джерелом, ["метод снігової кулі"](https://github.com/Devographics/surveys/issues/258) виявився доволі ефективним для залучення більшої кількості жінок до участі — як і співпраця з авторами контенту, як-от [Cassidy Williams](https://cassidoo.co/), яка теж рекламувала опитування у своїй щотижневій розсилці.
 
   # figures
 
