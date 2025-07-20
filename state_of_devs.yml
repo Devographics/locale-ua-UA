@@ -1367,7 +1367,7 @@ translations:
     t: Скільки у вас дітей?
 
   - key: options.number_of_kids.range_0
-    t: 0
+    t: Немає
   - key: options.number_of_kids.range_1
     t: 1
   - key: options.number_of_kids.range_2

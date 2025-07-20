@@ -27,11 +27,6 @@ translations:
   # Sections
   ###########################################################################
 
-  - key: sections.features.title
-    t: Функції
-  - key: sections.features.description
-    t: Синтаксис, API браузера та інші функції.
-
   - key: sections.syntax.title
     t: Синтаксис
   - key: sections.syntax.description

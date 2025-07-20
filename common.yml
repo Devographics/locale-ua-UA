@@ -1171,8 +1171,6 @@ translations:
     t: SaaS (Програмне забезпечення як послуга)
   - key: options.industry_sector.automation
     t: Автоматизація
-  # - key: options.industry_sector.automation
-  #   t: Automation
   - key: options.industry_sector.industrial
     t: Промисловість
   - key: options.industry_sector.music
@@ -1384,8 +1382,6 @@ translations:
 
   - key: options.employment_status.company_employee
     t: Наймана праця
-  - key: options.employment_status.student
-    t: Студентство
   - key: options.employment_status.unemployed
     t: Без роботи
   - key: options.employment_status.ceo_founder
@@ -2002,3 +1998,6 @@ translations:
     t: Віднедавна доступно
   - key: baseline.support.high
     t: Широко доступно
+
+  - key: feature.experimental
+    t: Непідтримувана функція або пропозиція
