@@ -26,53 +26,78 @@ translations:
 
   - key: sections.forms.title
     t: Форми
-  - key: sections.forms.description
+  - key: sections.forms.prompt
     t: Елементи й атрибути, що відносяться до форм.
 
   - key: sections.interactivity.title
     t: Інтерактивність
-  - key: sections.interactivity.description
+  - key: sections.interactivity.prompt
     t: API, які забезпечують розширену взаємодію з користувачем.
 
   - key: sections.web_components.title
     t: Вебкомпоненти
-  - key: sections.web_components.description
+  - key: sections.web_components.prompt
     t: Створення та використання вебкомпонентів.
 
   - key: sections.content.title
     t: Наповнення сайту
-  - key: sections.content.description
+  - key: sections.content.prompt
     t: Вбудовування елементів, мультимедіа, розмітка даних та інші пов'язані із наповненням функції.
 
   - key: sections.external_content.title
     t: Наповнення сайту ззовні
-  - key: sections.external_content.description
+  - key: sections.external_content.prompt
     t: Вбудовування зовнішніх ресурсів та інших мультимедійних API.
 
   - key: sections.accessibility.title
     t: Доступність
-  - key: sections.accessibility.description
+  - key: sections.accessibility.prompt
     t: Як зробити сайти та застосунки доступними для всіх.
 
   - key: sections.mobile_web_apps.title
     t: Нативні вебзастосунки
-  - key: sections.mobile_web_apps.description
+  - key: sections.mobile_web_apps.prompt
     t: Створення вебзастосунків, оптимізованих для мобільних пристроїв і настільних комп'ютерів.
 
   - key: sections.other_features.title
     t: Інші функції
-  - key: sections.other_features.description
+  - key: sections.other_features.prompt
     t: Інші HTML-елементи та API браузера.
 
   - key: sections.other_tools.title
     t: Інші інструменти
-  - key: sections.other_tools.description
+  - key: sections.other_tools.prompt
     t: Інші інструменти, якими ви користуєтеся в роботі.
 
   - key: sections.usage.title
     t: Використання
-  - key: sections.usage.description
+  - key: sections.usage.prompt
     t: Як ви використовуєте HTML.
+
+  - key: sections.graphics_multimedia.title
+    t: Graphics & Multimedia
+  - key: sections.graphics_multimedia.prompt
+    t: Rendering graphics and animations.
+
+  - key: sections.performance.title
+    t: Performance
+  - key: sections.performance.prompt
+    t: Making your site run even faster.
+
+  - key: sections.security.title
+    t: Security
+  - key: sections.security.prompt
+    t: Securing your code against attackers.
+
+  - key: sections.system_capabilities.title
+    t: System Capabilities
+  - key: sections.system_capabilities.prompt
+    t: Accessing device and system APIs.
+
+  - key: sections.other_tools.title
+    t: Other Tools
+  - key: sections.other_tools.prompt
+    t: Other web-platform-related tools.
 
   ###########################################################################
   # Features
@@ -180,8 +205,7 @@ translations:
       що пов'язані з інтерактивними елементами та поведінкою (крім форм), маніпулюванням DOM, подіями та суміжними API.
 
   - key: features.interactivity_pain_points.placeholder
-    t: |
-      Проблема #{index}…
+    aliasFor: features.forms_pain_points.placeholder
 
   - key: features.interactivity_techniques
     t: Методи для додавання інтерактивності
@@ -261,11 +285,46 @@ translations:
     t: Які проблеми управління наповненням у HTML найбільше вас розчаровують?
   - key: features.content_pain_points.prompt
     t: |
-      Подумайте про вбудовувані елементи (мультимедіа, елементи iframe, SVG тощо), машиночитні дані, інтернаціоналізацію та локалізацію, безпеку та приватність, швидкодію тощо.
+      Подумайте про елементи вмісту (елементи iframe, заголовки, таблиці, секції), машиночитні дані, інтернаціоналізацію та локалізацію тощо.
       Пишіть усе, що вас турбує: відсутні функції, несумісність між браузерами та інші проблеми.
   - key: features.content_pain_points.placeholder
+    aliasFor: features.forms_pain_points.placeholder
+
+  # Graphics & Multimedia
+
+  - key: features.graphics_pain_points
+    t: Graphics & Multimedia Pain Points
+  - key: features.graphics_pain_points.question
+    t: What are your pain points around rendering graphics, videos, animations, and other media?
+  - key: features.graphics_pain_points.prompt
     t: |
-      Проблема #{index}…
+      Think of issues around using Canvas, SVG, WebGL, and other APIs for rendering graphics graphics, rendering animations, graphics performance, missing graphics primitives or APIs, etc.
+  - key: features.graphics_pain_points.placeholder
+    aliasFor: features.forms_pain_points.placeholder
+
+  # Performance
+
+  - key: features.performance_pain_points
+    t: Performance Pain Points
+  - key: features.performance_pain_points.question
+    t: What are your pain points around performance?
+  - key: features.performance_pain_points.prompt
+    t: |
+      Issues around poor performance metrics, slow-loading pages, delayed rendering, janky animations or scrolling, etc.
+  - key: features.performance_pain_points.placeholder
+    aliasFor: features.forms_pain_points.placeholder
+
+  # Security
+
+  - key: features.security_pain_points
+    t: Security Pain Points
+  - key: features.security_pain_points.question
+    t: What are your pain points around security?
+  - key: features.security_pain_points.prompt
+    t: |
+      TODO
+  - key: features.security_pain_points.placeholder
+    aliasFor: features.forms_pain_points.placeholder
 
   # Content
 
@@ -329,8 +388,7 @@ translations:
   - key: features.using_web_components_pain_points.prompt
     t: Використання власних або чужих вебкомпонентів. Відсутні функції, несумісність між браузерами тощо.
   - key: features.using_web_components_pain_points.placeholder
-    t: |
-      Проблема #{index}…
+    aliasFor: features.forms_pain_points.placeholder
 
   - key: features.making_web_components_pain_points
     t: Проблеми створення вебкомпонентів
@@ -340,8 +398,132 @@ translations:
     t: |
       Що заважає вам створити дивовижні компоненти зі своєї уяви? Відсутні функції, несумісність між браузерами тощо.
   - key: features.making_web_components_pain_points.placeholder
+    aliasFor: features.forms_pain_points.placeholder
+
+  # web_components_common_pain_points
+
+  - key: features.web_components_common_pain_points
+    t: Pain Points
+  - key: features.web_components_common_pain_points.question
+    t: What are your top pain points around making and using web components?
+
+  - key: options.web_components_common_pain_points.complex_apis
+    t: Excessive complexity
+  - key: options.web_components_common_pain_points.complex_apis.description
+    t: Web Component APIs are painful to use/too low-level/too complex.
+
+  - key: options.web_components_common_pain_points.a11y_issues
+    t: Accessibility issues
+  - key: options.web_components_common_pain_points.a11y_issues.description
+    t: Focus management, ARIA, etc. are hard to implement.
+
+  - key: options.web_components_common_pain_points.i18n_issues
+    t: Localization/internationalization issues
+  - key: options.web_components_common_pain_points.i18n_issues.description
+    t: It's hard to make web components that can adapt to the page’s locale or whose text can be customized.
+
+  - key: options.web_components_common_pain_points.low_shadow_dom_specificity
+    t: Low shadow DOM CSS specificity
+  - key: options.web_components_common_pain_points.low_shadow_dom_specificity.description
     t: |
-      Проблема #{index}…
+      E.g. `* { margin: 0 }` overrides any margin set via  `::slotted()` , `:host `, etc.
+
+  - key: options.web_components_common_pain_points.overly_strict_encapsulation
+    t: Overly strict style encapsulation
+  - key: options.web_components_common_pain_points.overly_strict_encapsulation.description
+    t: Styling shadow DOM from the outside (or vice versa) is too limited.
+
+  - key: options.web_components_common_pain_points.overreliance_on_js
+    t: Over-reliance on JavaScript & SSR issues
+  - key: options.web_components_common_pain_points.overreliance_on_js.description
+    t: Unless server-side-rendered, Web Components need JavaScript to render even when not interactive.
+
+  # - key: options.web_components_common_pain_points.poor_ssr_support
+  #   t: Poor SSR support
+  # - key: options.web_components_common_pain_points.poor_ssr_support.description
+  #   t: Web Components are hard to properly server-render.
+
+  - key: options.web_components_common_pain_points.design_tokens_access
+    t: Accessing design tokens
+  - key: options.web_components_common_pain_points.design_tokens_access.description
+    t: Colors, fonts, spacing, etc. need to be communicated separately to each component.
+
+  - key: options.web_components_common_pain_points.native_element_extension
+    t: Extending native elements
+  - key: options.web_components_common_pain_points.native_element_extension.description
+    t: Native elements need to be recreated entirely to add one feature.
+
+  - key: options.web_components_common_pain_points.slotted_descendants_style
+    t: Slotted descendant styling
+  - key: options.web_components_common_pain_points.slotted_descendants_style.description
+    t: Slotted descendants cannot be styled (e.g. cannot do `::slotted(ul) > li`).
+
+  # web_components_other_pain_points
+
+  - key: features.web_components_other_pain_points
+    t: Other Pain Points
+  - key: features.web_components_other_pain_points.question
+    t: Any other pain points around making and using web components?
+
+  # component_strategies
+
+  - key: usage.component_strategies
+    t: HTML Reuse
+  - key: usage.component_strategies.question
+    t: Which strategies do you use to implement components or otherwise reuse HTML code?
+
+  - key: options.component_strategies.server_side_templating
+    t: Server-side templating
+  - key: options.component_strategies.server_side_templating.description
+    t: Server-side templates generated through PHP, Node.js, etc.
+
+  - key: options.component_strategies.build_time_templating
+    t: Build-time templating
+  - key: options.component_strategies.build_time_templating.description
+    t: Astro, Jekyll, other static site generators, etc.
+
+  - key: options.component_strategies.client_side_templating
+    t: Client-side templating
+  - key: options.component_strategies.client_side_templating.description
+    t: DOM manipulation, jQuery, Handlebars, etc.
+
+  - key: options.component_strategies.component_based_frameworks
+    t: Component-based JavaScript Frameworks
+  - key: options.component_strategies.component_based_frameworks.description
+    t: React, Vue.js, Angular, etc.
+
+  - key: options.component_strategies.web_components
+    t: Web Components
+  - key: options.component_strategies.web_components.description
+    t: Web components, with or without a helper library.
+
+  - key: options.component_strategies.web_components_frameworks
+    t: Web Components helper libraries
+  - key: options.component_strategies.web_components_frameworks.description
+    t: Stencil, Lit, Polymer, etc.
+
+  - key: options.component_strategies.copy_paste
+    t: Copy-paste
+  - key: options.component_strategies.copy_paste.description
+    t: Copy-pasting snippets from internal or external sources.
+
+  # reasons_for_not_using_web_components
+
+  - key: features.reasons_for_not_using_web_components
+    t: Reasons for Not Using
+  - key: features.reasons_for_not_using_web_components.question
+    t: If you're *not* using web components currently, can you tell us why?
+
+  - key: options.reasons_for_not_using_web_components.not_interested
+    t: Not interested, or don't see the need for them
+  - key: options.reasons_for_not_using_web_components.no_chance
+    t: Interested, but haven't had a chance to use them yet
+  - key: options.reasons_for_not_using_web_components.negative_experience
+    t: Used them but had a negative experience
+  - key: options.reasons_for_not_using_web_components.use_frameworks_instead
+    t: Can accomplish the same thing using JS frameworks instead
+  - key: options.reasons_for_not_using_web_components.compatibility_issues
+    t: Want to use them but can't because of compatibility or support issues.
 
   # Accessibility
 
@@ -362,8 +544,7 @@ translations:
   - key: features.accessibility_pain_points.question
     t: Які проблеми доступності вебплатформи найбільше вас розчаровують?
   - key: features.accessibility_pain_points.placeholder
-    t: |
-      Проблема #{index}…
+    aliasFor: features.forms_pain_points.placeholder
 
   - key: features.accessibility_disabilities
     t: Порушення здоров'я користувача
@@ -545,13 +726,25 @@ translations:
     t: |
       Проблема #{index}
 
+  # System Capabilities
+
+  - key: features.system_capabilities_pain_points
+    t: System Capabilities Pain Points
+  - key: features.system_capabilities_pain_points.question
+    t: What are your pain points around accessing native system and device capabilities?
+  - key: features.system_capabilities_pain_points.prompt
+    t: |
+      Issues around accessing device or OS capabilities, interacting with the file system, matching native app feature sets, etc.
+  - key: features.system_capabilities_pain_points.placeholder
+    aliasFor: features.forms_pain_points.placeholder
+
   # other features
 
   - key: features.foo_attribute
     t: "атрибут `{id}`"
 
-  - key: features.slot_attribute
-    t: Іменоване присвоєння slot-елемента
+  # - key: features.slot_attribute
+  #   t: Іменоване присвоєння slot-елемента
 
   - key: features.landmark_elements
     t: Елементи-орієнтири (Landmark elements)
@@ -659,10 +852,16 @@ translations:
     t: Додавання стилів до частини компонента (`::part()`)
 
   - key: features.svg_element
-    t: Вбудовані елементи SVG (`<svg>`)
+    t: |
+      `<svg>` (вбудовані елементи SVG)
 
   - key: features.math_element
-    t: Вбудовані елементи MathML (`<math>`)
+    t: |
+      `<math>` (вбудовані елементи MathML )
+
+  - key: features.mapviewer_element
+    t: |
+      `<mapviewer>` (вбудовані елементи MapML)
 
   - key: features.scoped_element_registries
     t: Область видимості для `CustomElementRegistry`
@@ -693,9 +892,6 @@ translations:
 
   - key: features.customizable_select
     t: Налаштовуваний select-елемент
-
-  - key: features.contenteditable_plaintext
-    t: "Значення `plaintext-only` для `contenteditable`"
 
   - key: features.dom_parts
     t: DOM-частини (DOM Parts)
@@ -895,7 +1091,7 @@ translations:
   - key: usage.html_missing_elements
     t: Відсутні елементи
   - key: usage.html_missing_elements.question
-    t: Якби ви могли додати 3 елементи до HTML, що б це було?
+    t: Якби ви могли додати нові елементи до HTML, що б це було?
   # - key: usage.html_missing_elements.description
   #   t: |
   #     If you use any component technologies, the components you find yourself reusing across multiple projects could be good candidates.
@@ -906,6 +1102,12 @@ translations:
     t: Елемент "акордеон"
   - key: options.html_missing_elements.alert
     t: Оповіщення
+
+  - key: options.html_missing_elements.callout
+    t: Callout
+  - key: options.html_missing_elements.callout.description
+    t: Visually distinct text block for info messages, errors, warnings, etc.
+
   - key: options.html_missing_elements.calendar
     t: Календар
   - key: options.html_missing_elements.carousel
@@ -928,6 +1130,10 @@ translations:
     t: Індикатор прогресу виконання (Progress Bar)
   - key: options.html_missing_elements.skeleton_loading_placeholder
     t: Каркасний UI / Заповнювач під час завантаження
+
+  - key: options.html_missing_elements.sortable_list
+    t: Sortable drag-and-drop list
+
   - key: options.html_missing_elements.switch
     t: Перемикач (Switch / Toggle)
   - key: options.html_missing_elements.tabs
@@ -937,7 +1143,7 @@ translations:
   - key: options.html_missing_elements.tooltip
     t: Підказка (Tooltip)
   - key: options.html_missing_elements.offcanvas
-    t: Панель поза полотном перегляду (Off-Canvas Area)
+    t: (Висувна) панель поза полотном перегляду (Off-Canvas Area)
   - key: options.html_missing_elements.spinner
     t: Покажчик завантаження (Loading Spinner)
   - key: options.html_missing_elements.segmented_button
@@ -948,6 +1154,27 @@ translations:
     t: Іконка
   - key: options.html_missing_elements.star_rating
     t: Оцінювання зірочками
+  - key: options.html_missing_elements.html_include
+    t: HTML include
+  - key: options.html_missing_elements.html_include.description
+    t: An element that includes content from another page inline in the document.
+  - key: options.html_missing_elements.range_slider
+    t: Range slider
+  - key: options.html_missing_elements.range_slider.description
+    t: A slider with two handles, for selecting a range of numbers.
+
+  - key: options.html_missing_elements.charts
+    t: Charts/graphs
+  - key: options.html_missing_elements.rich_text_editor
+    t: Rich text editor
+  - key: options.html_missing_elements.rich_code_block
+    t: Rich code block
+  - key: options.html_missing_elements.rich_code_block.description
+    t: With syntax highlighting, code editing, copy button, etc.
+  - key: options.html_missing_elements.footnotes
+    t: Footnotes/sidenotes
+  - key: options.html_missing_elements.maps
+    t: Map
 
   - key: usage.html_pain_points_freeform
     t: Інші проблеми
@@ -964,6 +1191,57 @@ translations:
     t: 50%–50%
   - key: options.html_css_js_balance.8
     t: 100% JS
+
+  # design_system_strategies
+  - key: usage.design_system_strategies
+    t: Design Systems
+
+  - key: usage.design_system_strategies.question
+    t: Do you use any of the following design system strategies to maintain UI consistency?
+
+  - key: options.design_system_strategies.elements_components
+    t: Elements/components
+  - key: options.design_system_strategies.elements_components.description
+    t: |
+      A library of reusable building blocks like buttons or dropdowns, implemented in any technology (e.g., React, Web Components, etc.).
+
+  - key: options.design_system_strategies.design_tokens
+    t: Design tokens
+  - key: options.design_system_strategies.design_tokens.description
+    t: |
+      Atomic variables for things like colors, spacing, and typography, e.g. `--color-accent-dark`, `--font-heading`, etc.
+
+  - key: options.design_system_strategies.utilities
+    t: Utilities
+  - key: options.design_system_strategies.utilities.description
+    t: |
+      Low-level CSS classes that apply a single, specific style or behavior, e.g. .`visually-hidden` , `.grid-2x2`, `.text-center`, etc.
+
+  - key: options.design_system_strategies.guidelines
+    t: Guidelines
+  - key: options.design_system_strategies.guidelines.description
+    t: |
+      Standards and best practices to maintain consistency and ensure certain goals are met (accessibility, usability, etc.).
+
+  - key: options.design_system_strategies.patterns
+    t: Patterns
+  - key: options.design_system_strategies.patterns.description
+    t: |
+      Copy-pastable higher-level arrangements of all of the above that solve common UI/UX problems, such as navigation bars, or even entire responsive page layouts.
+
+  # html_styling_issues
+
+  - key: usage.html_styling_issues
+    t: Styling Issues
+  - key: usage.html_styling_issues.question
+    t: Which elements do you struggle the most to style or visually customize?
+
+  - key: options.html_styling_issues.validation_errors
+    t: Validation errors
+
+  - key: options.html_styling_issues.fieldset_and_legend
+    t: |
+      `<fieldset>` and `<legend>`
 
   ###########################################################################
   # Opinions
@@ -1017,6 +1295,22 @@ translations:
   - key: options.browser_interoperability_is_obstacle.4
     aliasFor: options.opinions.4
 
+  - key: opinions.browser_interoperability_pace
+    t: Interoperability Pace
+  - key: opinions.browser_interoperability_pace.question
+    t: Over the past few years, new web features have become stable across browsers at a faster pace
+
+  - key: options.browser_interoperability_is_obstacle.0
+    aliasFor: options.opinions.0
+  - key: options.browser_interoperability_is_obstacle.1
+    aliasFor: options.opinions.1
+  - key: options.browser_interoperability_is_obstacle.2
+    aliasFor: options.opinions.2
+  - key: options.browser_interoperability_is_obstacle.3
+    aliasFor: options.opinions.3
+  - key: options.browser_interoperability_is_obstacle.4
+    aliasFor: options.opinions.4
+
   - key: opinions.web_platform_right_direction
     t: Вебплатформа
   - key: opinions.web_platform_right_direction.question
@@ -1031,6 +1325,23 @@ translations:
   - key: options.web_platform_right_direction.3
     aliasFor: options.opinions.3
   - key: options.web_platform_right_direction.4
+    aliasFor: options.opinions.4
+
+  - key: opinions.validation_is_important
+    t: HTML Validation
+  - key: opinions.validation_is_important.question
+    t: |
+      Ensuring my HTML code passes validation is important
+
+  - key: options.validation_is_important.0
+    aliasFor: options.opinions.0
+  - key: options.validation_is_important.1
+    aliasFor: options.opinions.1
+  - key: options.validation_is_important.2
+    aliasFor: options.opinions.2
+  - key: options.validation_is_important.3
+    aliasFor: options.opinions.3
+  - key: options.validation_is_important.4
     aliasFor: options.opinions.4
 
   ###########################################################################

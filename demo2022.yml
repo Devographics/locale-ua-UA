@@ -14,7 +14,7 @@ translations:
   # Introduction
   ###########################################################################
 
-  - key: introduction.graphql2022
+  - key: introduction.demo2022
     t: >
 
       <span class="first-letter">S</span>ince being originally created at Facebook in September 2015, many developers have embraced GraphQL as a new and promising way to build APIs. 
@@ -73,27 +73,27 @@ translations:
   # Sections
   ###########################################################################
 
-  - key: sections.user_info_graphql2022.description
+  - key: sections.user_info_demo2022.description
     t: |
       **3,094** respondents took part in this year's survey.
 
-  - key: sections.features_graphql2022.description
+  - key: sections.features_demo2022.description
     t: |
       GraphQL may be a simple concept at its core, but there are many features and patterns to consider when you dig below the surface.
 
-  - key: sections.libraries_graphql2022.description
+  - key: sections.libraries_demo2022.description
     t: |
       The GraphQL ecosystem is surprisingly deep, with many competing libraries helping you set up your API.
 
-  - key: sections.tools_others_graphql2022.description
+  - key: sections.tools_others_demo2022.description
     t: |
       Picking the right tools to use in combination with GraphQL can make all the difference.
 
-  - key: sections.usage_graphql2022.description
+  - key: sections.usage_demo2022.description
     t: |
       We wanted to know not only how people use GraphQL, but also *why* they use it – as well as where GraphQL is still lacking…
 
-  - key: sections.resources_graphql2022.description
+  - key: sections.resources_demo2022.description
     t: |
       We're sure you'll discover at least one or two new people, podcasts, or blogs to follow!
 
@@ -169,7 +169,7 @@ translations:
   # Conclusion
   ###########################################################################
 
-  - key: conclusion.graphql2022
+  - key: conclusion.demo2022
     t: |
 
       <span class="first-line">GraphQL is truly part of how we build modern applications today.</span>
@@ -186,7 +186,7 @@ translations:
 
       GraphQL has found its place in the ecosystem, and it has an exciting future ahead!
 
-  - key: conclusion.graphql2022.bio
+  - key: conclusion.demo2022.bio
     t: Senior Developer Relations @ Grafbase
 
   ###########################################################################
@@ -250,7 +250,7 @@ translations:
   - key: picks.xxxx.bio
     t:
   - key: picks.xxxx.description
-    t: 
+    t: |
   ###########################################################################
   # Sponsors
   ###########################################################################
@@ -358,11 +358,3 @@ translations:
       - **Data Visualizations**: [Nivo](https://nivo.rocks/) React dataviz library. 
 
       - **Type**: [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) and [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue).
-
-  - key: general.graphql2022.survey_intro
-    t: |
-      Коли вперше було представлено GraphQL, він пропонував радикально новий спосіб побудови API, з більшим контролем, деталізацією та гнучкістю.
-
-      Але ця гнучкість мала свою ціну у вигляді додаткової складності, і швидко з'явилися фреймворки, бібліотеки та служби, щоб допомогти визначити кращі шаблони та робочі процеси.
-
-      Тепер, вперше ми проводимо опитування спільноти GraphQL, щоб з'ясувати, які з-поміж цих інструментів найпопулярніші і які функції насправді використовуються. З вашою допомогою нумо дивитися, що робив GraphQL у 2022 році!
