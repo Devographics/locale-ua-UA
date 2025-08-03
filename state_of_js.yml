@@ -112,8 +112,6 @@ translations:
   - key: sections.tools.description
     t: Інші інструменти JavaScript
 
-  - key: sections.other_tools.title
-    t: Інші інструменти
   - key: sections.other_tools.description
     t: З-поміж наведених інструментів та технологій виберіть ті, які ви регулярно використовуєте.
 

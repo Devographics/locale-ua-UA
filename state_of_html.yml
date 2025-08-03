@@ -64,11 +64,6 @@ translations:
   - key: sections.other_features.prompt
     t: Інші HTML-елементи та API браузера.
 
-  - key: sections.other_tools.title
-    t: Інші інструменти
-  - key: sections.other_tools.prompt
-    t: Інші інструменти, якими ви користуєтеся в роботі.
-
   - key: sections.usage.title
     t: Використання
   - key: sections.usage.prompt
@@ -94,8 +89,6 @@ translations:
   - key: sections.system_capabilities.prompt
     t: Доступ до API пристрою та системи.
 
-  - key: sections.other_tools.title
-    t: Інші інструменти
   - key: sections.other_tools.prompt
     t: Інші інструменти, пов'язані з вебплатформою.
 
@@ -426,7 +419,7 @@ translations:
     t: Низька CSS-специфічність Shadow DOM
   - key: options.web_components_common_pain_points.low_shadow_dom_specificity.description
     t: |
-      E.g. `* { margin: 0 }` overrides any margin set via  `::slotted()` , `:host `, etc.
+      E.g. `* { margin: 0 }` overrides any margin set via  `::slotted()` , `:host`, etc.
 
   - key: options.web_components_common_pain_points.overly_strict_encapsulation
     t: Надто сувора інкапсуляція стилів
@@ -464,6 +457,8 @@ translations:
     t: Інші проблеми
   - key: features.web_components_other_pain_points.question
     t: Які ще проблеми створення та використання вебкомпонентів вас розчаровують?
+  - key: features.web_components_other_pain_points.placeholder
+    aliasFor: features.forms_pain_points.placeholder
 
   # component_strategies
 
@@ -800,8 +795,8 @@ translations:
   - key: features.html_modules
     t: HTML-модулі
 
-  - key: features.accordion_element
-    t: Елемент "виключний акордеон"
+  # - key: features.accordion_element
+  #   t: Елемент "виключний акордеон"
 
   - key: features.imperative_slot
     t: Імперативне присвоєння slot-елемента

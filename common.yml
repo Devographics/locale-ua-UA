@@ -131,9 +131,9 @@ translations:
   - key: general.privacy_policy
     t: Політика конфіденційності
   - key: general.leave_issue
-    t: Маєте питання? Знайшли помилку? <a href="{link}" target="_blank">Створіть запит</a>.
+    t: Маєте питання? Знайшли помилку? <a href="{link}" target="_blank">Повідомте про проблему</a>.
   - key: general.leave_issue2
-    t: Створити запит
+    t: Повідомити про проблему
   - key: general.emoji_icons
     t: Емодзі-іконки від <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
 
@@ -299,12 +299,6 @@ translations:
 
   - key: sections.other_tools.title
     t: Інші інструменти
-  - key: sections.other_tools.description
-    t: Які з-поміж цих інструментів і технологій ви регулярно використовуєте.
-  - key: section.tools_others.title
-    aliasFor: sections.other_tools.title
-  - key: section.tools_others.description
-    aliasFor: sections.other_tools.description
 
   - key: sections.report.title
     t: Звіт про тренди
@@ -1994,10 +1988,23 @@ translations:
     t: Дізнатися більше
   - key: baseline.support.false
     t: Обмежено доступно
+  - key: baseline.support.false.description
+    t: Підтримувано лише декількома браузерами.
+
   - key: baseline.support.low
     t: Віднедавна доступно
+  - key: baseline.support.low.description
+    t: Підтримувано у всіх 4 основних браузерах.
+
   - key: baseline.support.high
     t: Широко доступно
+  - key: baseline.support.high.description
+    t: Минуло 30 місяців після отримання статусу "віднедавна доступно".
+
+  - key: baseline.support.unknown
+    t: Невідомо
+  - key: baseline.support.unknown.description
+    t: Немає даних бази сумісності.
 
   - key: feature.experimental
     t: Непідтримувана функція або пропозиція

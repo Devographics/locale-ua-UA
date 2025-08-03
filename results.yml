@@ -1323,6 +1323,50 @@ translations:
   - key: charts.show_neutral_sentiment
     t: Показати нейтральне
 
+  # other bucket
+  - key: charts.other_bucket.percents.positive
+    t: |
+      +{value}% вище, ніж в останньому опитуванні
+  - key: charts.other_bucket.percents.negative
+    t: |
+      -{value}% нижче, ніж в останньому опитуванні
+  - key: charts.other_bucket.ranks.positive
+    t: |
+      +{value} набуто рейтингу
+  - key: charts.other_bucket.ranks.negative
+    t: |
+      -{value} втрачено рейтингу
+
+  # subsets filtering
+
+  - key: charts.subsets.presets
+    t: |
+      Готові фільтри:
+
+  - key: charts.subsets.top_items
+    t: Елементи найвище
+  - key: charts.subsets.top_items.description
+    t: Виділити елементи, які посіли найвищі місця цього року
+
+  - key: charts.subsets.bottom_items
+    t: Елементи найнижче
+  - key: charts.subsets.bottom_items.description
+    t: Виділити елементи, які посіли найнижчі місця цього року
+
+  - key: charts.subsets.largest_increase
+    t: Найбільший приріст
+  - key: charts.subsets.largest_increase.description
+    t: Виділити елементи з найбільшим приростом за рік
+
+  - key: charts.subsets.largest_decrease
+    t: Найбільший спад
+  - key: charts.subsets.largest_decrease.description
+    t: Виділити елементи з найбільшим спадом за рік
+
+  - key: charts.subsets.sections
+    t: |
+      Секції:
+
   ###########################################################################
   # Comments
   ###########################################################################
@@ -1584,6 +1628,21 @@ translations:
     t: Найбільш улюблена функція
   - key: award.most_loved_feature_award.description
     t: Нагороджується функція з найбільшою часткою позитивного ставлення.
+
+  - key: award.most_hated_feature_award.title
+    t: Найбільш ненависна функція
+  - key: award.most_hated_feature_award.description
+    t: Нагороджується функція з найбільшою часткою негативного ставлення.
+
+  - key: award.largest_awareness_progression_award.title
+    t: Найбільший приріст впізнаваності
+  - key: award.largest_awareness_progression_award.description
+    t: Нагороджується технологія з найбільшим прогресом впізнаваності за рік.
+
+  - key: award.largest_usage_progression_award.title
+    t: Найбільший приріст використання
+  - key: award.largest_usage_progression_award.description
+    t: Нагороджується технологія з найбільшим прогресом використання за рік.
 
   ###########################################################################
   # Hints
@@ -2230,6 +2289,13 @@ translations:
   - key: charts.filtered_by_value
     t: >
       Відфільтровано за: "{value}"
+
+  - key: charts.filter_by.sections
+    t: |
+      Категорія:
+  - key: charts.filter_by.baseline
+    t: |
+      Статус бази сумісності:
 
   - key: charts.toggle_view
     t: >

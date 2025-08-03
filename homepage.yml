@@ -7,7 +7,7 @@ translations:
   - key: homepage.hand_coded
     t: Зроблено в Японії.
   - key: homepage.leave_issue
-    t: Створити запит
+    t: Повідомити про проблему
   - key: homepage.get_in_touch
     t: Зв'яжіться з нами
 
