@@ -639,7 +639,7 @@ translations:
   - key: features.css_nesting
     t: Вкладеність CSS
   - key: features.shadow_dom_css
-    t: Функції Shadow DOM
+    t: Функції тіньового DOM
   - key: features.individual_transform_properties
     t: Окремі властивості перетворення
   - key: features.individual_transform_properties.question
