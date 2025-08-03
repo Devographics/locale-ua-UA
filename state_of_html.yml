@@ -403,33 +403,33 @@ translations:
   - key: options.web_components_common_pain_points.complex_apis
     t: Надмірна складність
   - key: options.web_components_common_pain_points.complex_apis.description
-    t: Web Component APIs are painful to use/too low-level/too complex.
+    t: API вебкомпонентів болісні у використанні/надто низькорівневі/надто складні.
 
   - key: options.web_components_common_pain_points.a11y_issues
     t: Проблеми доступності
   - key: options.web_components_common_pain_points.a11y_issues.description
-    t: Focus management, ARIA, etc. are hard to implement.
+    t: Управління фокусом, ARIA тощо складно реалізувати.
 
   - key: options.web_components_common_pain_points.i18n_issues
     t: Проблеми локалізації/інтернаціоналізації
   - key: options.web_components_common_pain_points.i18n_issues.description
-    t: It's hard to make web components that can adapt to the page’s locale or whose text can be customized.
+    t: Важко створити вебкомпоненти, які можуть адаптуватися до локалізації сторінки або текст яких можна налаштувати.
 
   - key: options.web_components_common_pain_points.low_shadow_dom_specificity
-    t: Низька CSS-специфічність Shadow DOM
+    t: Низька CSS-специфічність тіньового DOM
   - key: options.web_components_common_pain_points.low_shadow_dom_specificity.description
     t: |
-      E.g. `* { margin: 0 }` overrides any margin set via  `::slotted()` , `:host`, etc.
+      Наприклад, `* { margin: 0 }` перевизначає будь-який margin, заданий у `::slotted()`, `:host` тощо.
 
   - key: options.web_components_common_pain_points.overly_strict_encapsulation
     t: Надто сувора інкапсуляція стилів
   - key: options.web_components_common_pain_points.overly_strict_encapsulation.description
-    t: Styling shadow DOM from the outside (or vice versa) is too limited.
+    t: Занадто обмежене додавання стилів до тіньового DOM ззовні (або навпаки).
 
   - key: options.web_components_common_pain_points.overreliance_on_js
-    t: Over-reliance on JavaScript & SSR issues
+    t: Проблеми надмірної залежності від JavaScript та SSR
   - key: options.web_components_common_pain_points.overreliance_on_js.description
-    t: Unless server-side-rendered, Web Components need JavaScript to render even when not interactive.
+    t: Якщо вебкомпоненти не рендеряться на сервері, то для їхнього рендерингу потрібен JavaScript, навіть коли вони не інтерактивні.
 
   # - key: options.web_components_common_pain_points.poor_ssr_support
   #   t: Poor SSR support
@@ -437,19 +437,19 @@ translations:
   #   t: Web Components are hard to properly server-render.
 
   - key: options.web_components_common_pain_points.design_tokens_access
-    t: Accessing design tokens
+    t: Доступ до токенів дизайну
   - key: options.web_components_common_pain_points.design_tokens_access.description
-    t: Colors, fonts, spacing, etc. need to be communicated separately to each component.
+    t: Кольори, шрифти, відступи тощо потрібно повідомляти окремо кожному компоненту.
 
   - key: options.web_components_common_pain_points.native_element_extension
-    t: Extending native elements
+    t: Розширення нативних елементів
   - key: options.web_components_common_pain_points.native_element_extension.description
-    t: Native elements need to be recreated entirely to add one feature.
+    t: Щоб додати одну функцію, потрібно повністю відтворити нативні елементи.
 
   - key: options.web_components_common_pain_points.slotted_descendants_style
-    t: Slotted descendant styling
+    t: Додавання стилів до нащадків slotted-елементів
   - key: options.web_components_common_pain_points.slotted_descendants_style.description
-    t: Slotted descendants cannot be styled (e.g. cannot do `::slotted(ul) > li`).
+    t: Немає змоги додати стилі до нащадків slotted-елементів (e.g. cannot do `::slotted(ul) > li`).
 
   # web_components_other_pain_points
 
@@ -465,42 +465,42 @@ translations:
   - key: usage.component_strategies
     t: Повторне використання HTML
   - key: usage.component_strategies.question
-    t: Which strategies do you use to implement components or otherwise reuse HTML code?
+    t: Які стратегії ви використовуєте для створення компонентів або повторного використання HTML-коду?
 
   - key: options.component_strategies.server_side_templating
-    t: Server-side templating
+    t: Шаблонування на сервері
   - key: options.component_strategies.server_side_templating.description
-    t: Server-side templates generated through PHP, Node.js, etc.
+    t: Шаблони, згенеровані на сервері за допомогою PHP, Node.js тощо.
 
   - key: options.component_strategies.build_time_templating
-    t: Build-time templating
+    t: Шаблонування під час збирання
   - key: options.component_strategies.build_time_templating.description
-    t: Astro, Jekyll, other static site generators, etc.
+    t: Astro, Jekyll, інші статичні генератори сайтів тощо.
 
   - key: options.component_strategies.client_side_templating
-    t: Client-side templating
+    t: Шаблонування на клієнті
   - key: options.component_strategies.client_side_templating.description
-    t: DOM manipulation, jQuery, Handlebars, etc.
+    t: Маніпулювання DOM, jQuery, Handlebars тощо.
 
   - key: options.component_strategies.component_based_frameworks
-    t: Component-based JavaScript Frameworks
+    t: JavaScript-фреймворки на основі компонентів
   - key: options.component_strategies.component_based_frameworks.description
-    t: React, Vue.js, Angular, etc.
+    t: React, Vue.js, Angular тощо.
 
   - key: options.component_strategies.web_components
     t: Вебкомпоненти
   - key: options.component_strategies.web_components.description
-    t: Web components, with or without a helper library.
+    t: Вебкомпоненти — з допоміжною бібліотекою або без неї.
 
   - key: options.component_strategies.web_components_frameworks
-    t: Web Components helper libraries
+    t: Допоміжні бібліотеки вебкомпонентів
   - key: options.component_strategies.web_components_frameworks.description
-    t: Stencil, Lit, Polymer, etc.
+    t: Stencil, Lit, Polymer тощо.
 
   - key: options.component_strategies.copy_paste
-    t: Copy-paste
+    t: Копіювати-вставити
   - key: options.component_strategies.copy_paste.description
-    t: Copy-pasting snippets from internal or external sources.
+    t: Копіювання та вставлення фрагментів із внутрішніх або зовнішніх джерел.
 
   # reasons_for_not_using_web_components
 
@@ -1227,16 +1227,16 @@ translations:
   # html_styling_issues
 
   - key: usage.html_styling_issues
-    t: Styling Issues
+    t: Проблеми додавання стилів
   - key: usage.html_styling_issues.question
-    t: Which elements do you struggle the most to style or visually customize?
+    t: До яких елементів вам найскладніше додавати стилі або візуально їх налаштовувати?
 
   - key: options.html_styling_issues.validation_errors
-    t: Validation errors
+    t: Проблеми валідації
 
   - key: options.html_styling_issues.fieldset_and_legend
     t: |
-      `<fieldset>` and `<legend>`
+      `<fieldset>` та `<legend>`
 
   ###########################################################################
   # Opinions
