@@ -221,22 +221,22 @@ translations:
     t: До яких джерел щодо СSS ви звертаєтеся?
 
   - key: features.pain_points
-    t: Pain Points
+    t: Проблеми
 
   - key: features.all_features
-    t: All Features
+    t: Усі функції
 
   - key: features.features_ratios_over_time
-    t: Features Over Time
+    t: Функції з часом
 
   ###########################################################################
   # Other Tools
   ###########################################################################
 
   - key: sections.other_tools.title
-    t: Other Tools
+    t: Інші інструменти
   - key: sections.other_tools.description
-    t: Other CSS-related tools.
+    t: Інші інструменти, пов'язані із CSS.
 
   ###########################################################################
   # Pain Points
@@ -1168,7 +1168,7 @@ translations:
     t: Стилі для смуги гортання
 
   - key: options.css_interoperability_features.safari_unsupported_features
-    t: Safari issues
+    t: Проблеми Safari
 
   - key: options.css_interoperability_features.na
     t: Нічого

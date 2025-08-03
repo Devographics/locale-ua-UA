@@ -1326,46 +1326,46 @@ translations:
   # other bucket
   - key: charts.other_bucket.percents.positive
     t: |
-      +{value}% higher compared to last survey
+      +{value}% вище, ніж в останньому опитуванні
   - key: charts.other_bucket.percents.negative
     t: |
-      -{value}% lower compared to last survey
+      -{value}% нижче, ніж в останньому опитуванні
   - key: charts.other_bucket.ranks.positive
     t: |
-      +{value} ranks gained
+      +{value} набуто рейтингу
   - key: charts.other_bucket.ranks.negative
     t: |
-      -{value} ranks lost
+      -{value} втрачено рейтингу
 
   # subsets filtering
 
   - key: charts.subsets.presets
     t: |
-      Presets:
+      Готові фільтри:
 
   - key: charts.subsets.top_items
-    t: Top Items
+    t: Елементи найвище
   - key: charts.subsets.top_items.description
-    t: Highlight items that scored the highest this year
+    t: Виділити елементи, які посіли найвищі місця цього року
 
   - key: charts.subsets.bottom_items
-    t: Bottom Items
+    t: Елементи найнижче
   - key: charts.subsets.bottom_items.description
-    t: Highlight items that scored the lowest this year
+    t: Виділити елементи, які посіли найнижчі місця цього року
 
   - key: charts.subsets.largest_increase
-    t: Largest Increase
+    t: Найбільший приріст
   - key: charts.subsets.largest_increase.description
-    t: Highlight items that saw the largest increase over the past year
+    t: Виділити елементи з найбільшим приростом за рік
 
   - key: charts.subsets.largest_decrease
-    t: Largest Decrease
+    t: Найбільший спад
   - key: charts.subsets.largest_decrease.description
-    t: Highlight items that saw the largest decrease over the past year
+    t: Виділити елементи з найбільшим спадом за рік
 
   - key: charts.subsets.sections
     t: |
-      Sections:
+      Секції:
 
   ###########################################################################
   # Comments
@@ -1630,19 +1630,19 @@ translations:
     t: Нагороджується функція з найбільшою часткою позитивного ставлення.
 
   - key: award.most_hated_feature_award.title
-    t: Most Hated Feature
+    t: Найбільш ненависна функція
   - key: award.most_hated_feature_award.description
-    t: Awarded to the feature with the highest proportion of negative opinions.
+    t: Нагороджується функція з найбільшою часткою негативного ставлення.
 
   - key: award.largest_awareness_progression_award.title
-    t: Largest Awareness Increase
+    t: Найбільший приріст впізнаваності
   - key: award.largest_awareness_progression_award.description
-    t: Awarded to the feature with the largest year-over-year awareness increase.
+    t: Нагороджується технологія з найбільшим прогресом впізнаваності за рік.
 
   - key: award.largest_usage_progression_award.title
-    t: Largest Usage Increase
+    t: Найбільший приріст використання
   - key: award.largest_usage_progression_award.description
-    t: Awarded to the feature with the largest year-over-year usage increase.
+    t: Нагороджується технологія з найбільшим прогресом використання за рік.
 
   ###########################################################################
   # Hints
@@ -2292,10 +2292,10 @@ translations:
 
   - key: charts.filter_by.sections
     t: |
-      Category:
+      Категорія:
   - key: charts.filter_by.baseline
     t: |
-      Baseline Status:
+      Статус бази сумісності:
 
   - key: charts.toggle_view
     t: >
