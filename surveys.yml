@@ -299,6 +299,10 @@ translations:
     t: >
       Зберігайте елементи тут за допомогою кнопки "+", і в кінці опитування ви отримаєте список посилань, щоб дізнатися більше про них.
 
+  - key: readinglist.description2
+    t: >
+      Items you're interested are saved here, and you'll get a list of links to learn more about them at the end of the survey.
+
   - key: readinglist.empty
     t: >
       У вашому списку читання немає елементів. 

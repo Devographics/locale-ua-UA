@@ -1323,6 +1323,50 @@ translations:
   - key: charts.show_neutral_sentiment
     t: Показати нейтральне
 
+  # other bucket
+  - key: charts.other_bucket.percents.positive
+    t: |
+      +{value}% higher compared to last survey
+  - key: charts.other_bucket.percents.negative
+    t: |
+      -{value}% lower compared to last survey
+  - key: charts.other_bucket.ranks.positive
+    t: |
+      +{value} ranks gained
+  - key: charts.other_bucket.ranks.negative
+    t: |
+      -{value} ranks lost
+
+  # subsets filtering
+
+  - key: charts.subsets.presets
+    t: |
+      Presets:
+
+  - key: charts.subsets.top_items
+    t: Top Items
+  - key: charts.subsets.top_items.description
+    t: Highlight items that scored the highest this year
+
+  - key: charts.subsets.bottom_items
+    t: Bottom Items
+  - key: charts.subsets.bottom_items.description
+    t: Highlight items that scored the lowest this year
+
+  - key: charts.subsets.largest_increase
+    t: Largest Increase
+  - key: charts.subsets.largest_increase.description
+    t: Highlight items that saw the largest increase over the past year
+
+  - key: charts.subsets.largest_decrease
+    t: Largest Decrease
+  - key: charts.subsets.largest_decrease.description
+    t: Highlight items that saw the largest decrease over the past year
+
+  - key: charts.subsets.sections
+    t: |
+      Sections:
+
   ###########################################################################
   # Comments
   ###########################################################################
@@ -1584,6 +1628,21 @@ translations:
     t: Найбільш улюблена функція
   - key: award.most_loved_feature_award.description
     t: Нагороджується функція з найбільшою часткою позитивного ставлення.
+
+  - key: award.most_hated_feature_award.title
+    t: Most Hated Feature
+  - key: award.most_hated_feature_award.description
+    t: Awarded to the feature with the highest proportion of negative opinions.
+
+  - key: award.largest_awareness_progression_award.title
+    t: Largest Awareness Increase
+  - key: award.largest_awareness_progression_award.description
+    t: Awarded to the feature with the largest year-over-year awareness increase.
+
+  - key: award.largest_usage_progression_award.title
+    t: Largest Usage Increase
+  - key: award.largest_usage_progression_award.description
+    t: Awarded to the feature with the largest year-over-year usage increase.
 
   ###########################################################################
   # Hints
@@ -2230,6 +2289,13 @@ translations:
   - key: charts.filtered_by_value
     t: >
       Відфільтровано за: "{value}"
+
+  - key: charts.filter_by.sections
+    t: |
+      Category:
+  - key: charts.filter_by.baseline
+    t: |
+      Baseline Status:
 
   - key: charts.toggle_view
     t: >

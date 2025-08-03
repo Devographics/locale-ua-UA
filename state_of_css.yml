@@ -17,6 +17,44 @@ translations:
     t: Щорічне опитування розробників про останні тенденції в CSS
 
   ###########################################################################
+  # Tshirt
+  ###########################################################################
+
+  - key: sections.tshirt.title
+    t: Футболка
+
+  - key: sections.tshirt.description
+    t: |
+      ## Підтримайте опитування за допомогою футболки "Стан CSS"
+
+      Погана якість відео, громіздкі касети та необхідність перемотування назад — здається, ніхто не сумує за чимось з епохи VHS. Але нам *все-таки* не вистачає одного — дивовижних зображень 90-х, які раніше прикрашали порожні VHS-касети.
+
+      І тепер завдяки талановитому Christopher Kirk-Nielsen ви можете насолоджуватися добірним ретро, водночас відзначаючи свою любов до CSS!і
+
+  - key: tshirt.about
+    t: Про футболку
+
+  - key: tshirt.description
+    t: |
+      Ми використовуємо високоякісну, надм'яку футболку приталеного крою із тканини з трьох типів волокна (tri-blend), надруковану нашими партнерами з Cotton Bureau.
+
+  - key: tshirt.getit
+    t: Отримати
+
+  - key: tshirt.price
+    t: USD $29 + доставляння
+
+  - key: tshirt.designer.heading
+    t: Про дизайнера
+
+  - key: tshirt.designer.name
+    t: Christopher Kirk-Nielsen
+
+  - key: tshirt.designer.bio
+    t: |
+      Chris родом із Франції, але тепер проживає у Сполучених Штатах; він не лише чудовий розробник клієнтської частини, а й талановитий ілюстратор, який спеціалізується на зображеннях у стилі ретро. Ми радимо вам переглянути [інші дизайни його футболок](https://chriskirknielsen.com/designs)!
+
+  ###########################################################################
   # Sections
   ###########################################################################
 
@@ -182,6 +220,107 @@ translations:
   - key: sections.resources_css.description
     t: До яких джерел щодо СSS ви звертаєтеся?
 
+  - key: features.pain_points
+    t: Pain Points
+
+  - key: features.all_features
+    t: All Features
+
+  - key: features.features_ratios_over_time
+    t: Features Over Time
+
+  ###########################################################################
+  # Other Tools
+  ###########################################################################
+
+  - key: sections.other_tools.title
+    t: Other Tools
+  - key: sections.other_tools.description
+    t: Other CSS-related tools.
+
+  ###########################################################################
+  # Pain Points
+  ###########################################################################
+
+  # layout
+  - key: features.flexbox_issues
+    t: Flexbox issues
+  - key: features.height_issues
+    t: Height issues
+  - key: features.overflow_issues
+    t: Overflow issues
+  - key: features.positioning_issues
+    t: Positioning issues
+  - key: features.alignment_issues
+    t: Alignment issues
+  - key: features.centering_issues
+    t: Centering issues
+  - key: features.hard_to_memorize
+    t: Remembering correct syntax
+  - key: features.z_index_issues
+    t: Z-index issues
+  - key: features.scrolling_issues
+    t: Scrolling issues
+  - key: features.table_layouts_issues
+    t: Table layout issues
+
+    # shapes & graphics
+  - key: features.shape_issues
+    t: Shape drawing issues
+  - key: features.svg_issues
+    t: SVG issues
+  - key: features.gradient_issues
+    t: Gradient issues
+    aliases:
+      - features.gradients_issues
+
+    # colors
+  - key: features.theming_issues
+    t: Theming issues
+  - key: features.contrast_issues
+    t: Contrast issues
+  - key: features.dark_mode_issues
+    t: Dark mode issues
+  - key: features.color_spaces_issues
+    t: Color spaces issues
+  - key: features.color_variables_issues
+    t: Color variables issues
+  - key: features.color_manipulation_issues
+    t: Color manipulation issues
+  - key: features.color_syntax_issues
+    t: Color syntax issues
+  - key: features.new_color_spaces_adoption_issues
+    t: Slow adoption of new color spaces
+
+  # interactions
+  - key: features.scrolling_issues
+    t: Scrolling issues
+  - key: features.scrollbar_issues
+    t: Scrollbar issues
+
+  # typography
+  - key: features.line_height_issues
+    t: |
+      `line-height` issues
+  - key: features.font_sizing_issues
+    t: Font sizing issues
+
+  # math
+  - key: features.handling_units
+    t: Handling units
+  - key: features.math_is_hard
+    t: Math difficulties
+  - key: features.lack_of_random_function
+    t: |
+      Lack of `random()` function
+
+  # other_features
+  # - key: features.
+  #   t:
+
+  - key: features.excessive_tailwind_use
+    t: Excessive Tailwind Use
+
   ###########################################################################
   # Options
   ###########################################################################
@@ -316,7 +455,7 @@ translations:
   - key: options.css_missing_features.parent_selector.description
     t: Змога вибирати батьківський елемент за його безпосереднім нащадком.
   - key: options.css_missing_features.browser_support
-    t: Підтримання браузерами
+    aliasFor: features.browser_support
   - key: options.css_missing_features.browser_support.description
     t: Краще підтримування браузерами наявних функцій.
   - key: options.css_missing_features.mixins
@@ -394,41 +533,6 @@ translations:
     t: Перемикач (Toggle) у CSS
   - key: options.css_missing_features.css_toggle.description
     t: Спосіб зіставлення "значення, що може перемикатися", з елементом.
-
-  - key: features.layout_features_ratios
-    t: Функції компонування з часом
-  - key: features.layout_features_ratios.short
-    t: Функції з часом
-
-  - key: features.shapes_graphics_features_ratios
-    t: Математичні функції з часом
-  - key: features.shapes_graphics_ratios.short
-    aliasFor: features.layout_features_ratios.short
-
-  - key: features.colors_ratios
-    t: Математичні функції з часом
-  - key: features.colors_ratios.short
-    aliasFor: features.layout_features_ratios.short
-
-  - key: features.interactions_ratios
-    t: Математичні функції з часом
-  - key: features.interactions_ratios.short
-    aliasFor: features.layout_features_ratios.short
-
-  - key: features.typography_ratios
-    t: Математичні функції з часом
-  - key: features.typography_ratios.short
-    aliasFor: features.layout_features_ratios.short
-
-  - key: features.math_features_ratios
-    t: Математичні функції з часом
-  - key: features.math_features_ratios.short
-    aliasFor: features.layout_features_ratios.short
-
-  - key: features.other_features_ratios
-    t: Математичні функції з часом
-  - key: features.other_features_ratios.short
-    aliasFor: features.layout_features_ratios.short
 
   ###########################################################################
   # Features
@@ -800,6 +904,8 @@ translations:
 
   - key: options.css_frameworks.custom_framework
     t: Власний/внутрішній фреймворк
+    aliases:
+      - tools.custom_framework
 
   - key: tools.css_in_js
     t: CSS-in-JS
@@ -1061,6 +1167,9 @@ translations:
   - key: options.css_interoperability_features.scrollbar
     t: Стилі для смуги гортання
 
+  - key: options.css_interoperability_features.safari_unsupported_features
+    t: Safari issues
+
   - key: options.css_interoperability_features.na
     t: Нічого
 
@@ -1092,6 +1201,13 @@ translations:
 
   - key: options.css_pain_points.na
     t: Нічого
+
+  - key: options.css_general_pain_points.layout_and_positioning_issues
+    t: Layout & positioning
+  - key: options.css_general_pain_points.excessive_tailwind_use
+    t: Excessive Tailwind usage
+  - key: options.css_general_pain_points.hard_to_memorize
+    t: Hard-to-remember syntax
 
   # Missing Features
   - key: opinions.css_missing_features
@@ -1340,22 +1456,48 @@ translations:
 
   - key: features.layout
     aliasFor: sections.layout.title
+  - key: features.layout.description
+    aliasFor: sections.layout.description
+
   - key: features.shapes_graphics
     aliasFor: sections.shapes_graphics.title
+  - key: features.shapes_graphics.description
+    aliasFor: sections.shapes_graphics.description
+
   - key: features.interactions
     aliasFor: sections.interactions.title
+  - key: features.interactions.description
+    aliasFor: sections.interactions.description
+
   - key: features.typography
     aliasFor: sections.typography.title
+  - key: features.typography.description
+    aliasFor: sections.typography.description
+
   - key: features.accessibility
     aliasFor: sections.accessibility.title
+  - key: features.accessibility.description
+    aliasFor: sections.accessibility.description
+
   - key: features.other_features
     aliasFor: sections.other_features.title
+  - key: features.other_features.description
+    aliasFor: sections.other_features.description
+
   - key: features.colors
     aliasFor: sections.colors.title
+  - key: features.colors.description
+    aliasFor: sections.colors.description
+
   - key: features.selectors
     aliasFor: sections.selectors.title
+  - key: features.selectors.description
+    aliasFor: sections.selectors.description
+
   - key: features.math_features
     aliasFor: sections.math_features.title
+  - key: features.math_features.description
+    aliasFor: sections.math_features.description
 
   # CSS
 
