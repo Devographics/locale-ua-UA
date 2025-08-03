@@ -75,29 +75,29 @@ translations:
     t: Як ви використовуєте HTML.
 
   - key: sections.graphics_multimedia.title
-    t: Graphics & Multimedia
+    t: Графіка та мультимедіа
   - key: sections.graphics_multimedia.prompt
-    t: Rendering graphics and animations.
+    t: Рендеринг графіки та анімацій.
 
   - key: sections.performance.title
-    t: Performance
+    t: Швидкодія
   - key: sections.performance.prompt
-    t: Making your site run even faster.
+    t: Як зробити ваш сайт ще швидшим.
 
   - key: sections.security.title
-    t: Security
+    t: Безпека
   - key: sections.security.prompt
-    t: Securing your code against attackers.
+    t: Захист вашого коду від зловмисників.
 
   - key: sections.system_capabilities.title
-    t: System Capabilities
+    t: Системні функції
   - key: sections.system_capabilities.prompt
-    t: Accessing device and system APIs.
+    t: Доступ до API пристрою та системи.
 
   - key: sections.other_tools.title
-    t: Other Tools
+    t: Інші інструменти
   - key: sections.other_tools.prompt
-    t: Other web-platform-related tools.
+    t: Інші інструменти, пов'язані з вебплатформою.
 
   ###########################################################################
   # Features
@@ -293,33 +293,33 @@ translations:
   # Graphics & Multimedia
 
   - key: features.graphics_pain_points
-    t: Graphics & Multimedia Pain Points
+    t: Проблеми графіки та мультимедіа
   - key: features.graphics_pain_points.question
-    t: What are your pain points around rendering graphics, videos, animations, and other media?
+    t: Які проблеми рендерингу графіки, відео, анімацій та інших видів медіа найбільше вас розчаровують?
   - key: features.graphics_pain_points.prompt
     t: |
-      Think of issues around using Canvas, SVG, WebGL, and other APIs for rendering graphics graphics, rendering animations, graphics performance, missing graphics primitives or APIs, etc.
+      Подумайте про проблеми використання Canvas, SVG, WebGL та інших API для рендерингу графіки, про рендеринг анімацій, про швидкодію графіки, про відсутні графічні примітиви чи API тощо.
   - key: features.graphics_pain_points.placeholder
     aliasFor: features.forms_pain_points.placeholder
 
   # Performance
 
   - key: features.performance_pain_points
-    t: Performance Pain Points
+    t: Проблеми швидкодії
   - key: features.performance_pain_points.question
-    t: What are your pain points around performance?
+    t: Які проблеми швидкодії найбільше вас розчаровують?
   - key: features.performance_pain_points.prompt
     t: |
-      Issues around poor performance metrics, slow-loading pages, delayed rendering, janky animations or scrolling, etc.
+      Проблеми з низькими показниками швидкодії, повільним завантаженням сторінок, затримкою рендерингу, нестабільною анімацією або гортанням тощо.
   - key: features.performance_pain_points.placeholder
     aliasFor: features.forms_pain_points.placeholder
 
   # Security
 
   - key: features.security_pain_points
-    t: Security Pain Points
+    t: Проблеми безпеки
   - key: features.security_pain_points.question
-    t: What are your pain points around security?
+    t: Які проблеми безпеки найбільше вас розчаровують?
   - key: features.security_pain_points.prompt
     t: |
       TODO
@@ -403,33 +403,33 @@ translations:
   # web_components_common_pain_points
 
   - key: features.web_components_common_pain_points
-    t: Pain Points
+    t: Проблеми
   - key: features.web_components_common_pain_points.question
-    t: What are your top pain points around making and using web components?
+    t: Які проблеми створення та використання вебкомпонентів найбільше вас розчаровують?
 
   - key: options.web_components_common_pain_points.complex_apis
-    t: Excessive complexity
+    t: Надмірна складність
   - key: options.web_components_common_pain_points.complex_apis.description
     t: Web Component APIs are painful to use/too low-level/too complex.
 
   - key: options.web_components_common_pain_points.a11y_issues
-    t: Accessibility issues
+    t: Проблеми доступності
   - key: options.web_components_common_pain_points.a11y_issues.description
     t: Focus management, ARIA, etc. are hard to implement.
 
   - key: options.web_components_common_pain_points.i18n_issues
-    t: Localization/internationalization issues
+    t: Проблеми локалізації/інтернаціоналізації
   - key: options.web_components_common_pain_points.i18n_issues.description
     t: It's hard to make web components that can adapt to the page’s locale or whose text can be customized.
 
   - key: options.web_components_common_pain_points.low_shadow_dom_specificity
-    t: Low shadow DOM CSS specificity
+    t: Низька CSS-специфічність Shadow DOM
   - key: options.web_components_common_pain_points.low_shadow_dom_specificity.description
     t: |
       E.g. `* { margin: 0 }` overrides any margin set via  `::slotted()` , `:host `, etc.
 
   - key: options.web_components_common_pain_points.overly_strict_encapsulation
-    t: Overly strict style encapsulation
+    t: Надто сувора інкапсуляція стилів
   - key: options.web_components_common_pain_points.overly_strict_encapsulation.description
     t: Styling shadow DOM from the outside (or vice versa) is too limited.
 
@@ -461,14 +461,14 @@ translations:
   # web_components_other_pain_points
 
   - key: features.web_components_other_pain_points
-    t: Other Pain Points
+    t: Інші проблеми
   - key: features.web_components_other_pain_points.question
-    t: Any other pain points around making and using web components?
+    t: Які ще проблеми створення та використання вебкомпонентів вас розчаровують?
 
   # component_strategies
 
   - key: usage.component_strategies
-    t: HTML Reuse
+    t: Повторне використання HTML
   - key: usage.component_strategies.question
     t: Which strategies do you use to implement components or otherwise reuse HTML code?
 
@@ -493,7 +493,7 @@ translations:
     t: React, Vue.js, Angular, etc.
 
   - key: options.component_strategies.web_components
-    t: Web Components
+    t: Вебкомпоненти
   - key: options.component_strategies.web_components.description
     t: Web components, with or without a helper library.
 
@@ -729,12 +729,12 @@ translations:
   # System Capabilities
 
   - key: features.system_capabilities_pain_points
-    t: System Capabilities Pain Points
+    t: Проблеми системних функцій
   - key: features.system_capabilities_pain_points.question
-    t: What are your pain points around accessing native system and device capabilities?
+    t: Які проблеми доступу до нативних функцій системи чи пристрою найбільше вас розчаровують?
   - key: features.system_capabilities_pain_points.prompt
     t: |
-      Issues around accessing device or OS capabilities, interacting with the file system, matching native app feature sets, etc.
+      Проблеми із доступом до функцій пристрою або ОС, взаємодією із файловою системою, створенням такого ж набору функцій, як і в нативного застосунку, тощо.
   - key: features.system_capabilities_pain_points.placeholder
     aliasFor: features.forms_pain_points.placeholder
 
@@ -1296,9 +1296,9 @@ translations:
     aliasFor: options.opinions.4
 
   - key: opinions.browser_interoperability_pace
-    t: Interoperability Pace
+    t: Темп настання сумісності
   - key: opinions.browser_interoperability_pace.question
-    t: Over the past few years, new web features have become stable across browsers at a faster pace
+    t: Протягом останніх кількох років нові функції вебу стають стабільними у різних браузерах набагато швидше
 
   - key: options.browser_interoperability_is_obstacle.0
     aliasFor: options.opinions.0
@@ -1328,10 +1328,10 @@ translations:
     aliasFor: options.opinions.4
 
   - key: opinions.validation_is_important
-    t: HTML Validation
+    t: Валідація HTML
   - key: opinions.validation_is_important.question
     t: |
-      Ensuring my HTML code passes validation is important
+      Важливо забезпечити успішне проходження валідації для мого HTML-коду 
 
   - key: options.validation_is_important.0
     aliasFor: options.opinions.0
