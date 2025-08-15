@@ -84,12 +84,18 @@ translations:
     t: Білі та Небілі
   - key: tabs.by_age
     t: За віком
+  - key: tabs.vs_age
+    t: та вік
   - key: tabs.by_remote_work_policy
     t: За віддаленою роботою
   - key: tabs.vs_job_happiness
     t: та задоволеність роботою
   - key: tabs.developers_engineers
     t: Розробники та інженери
+  - key: tabs.by_os
+    t: За операційною системою
+  - key: tabs.vs_company_size
+    t: та розмір компанії
 
   ###########################################################################
   # Options
@@ -2403,6 +2409,12 @@ translations:
 
   - key: sponsors.storyblok.description
     t: Зробіть більший вплив на ринок швидше за допомогою CMS, яка вам не заважатиме.
+
+  - key: sponsors.jetbrains.description
+    t: A rich suite of tools that provide an exceptional developer experience.
+
+  - key: sponsors.webstorm.description
+    t: Enjoy more productive coding with the JavaScript IDE that has everything you need.
 
   ###########################################################################
   # Entities repo - https://github.com/Devographics/entities
