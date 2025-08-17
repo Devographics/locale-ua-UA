@@ -244,82 +244,82 @@ translations:
 
   # layout
   - key: features.flexbox_issues
-    t: Flexbox issues
+    t: Проблеми флексбоксу
   - key: features.height_issues
-    t: Height issues
+    t: Проблеми висоти
   - key: features.overflow_issues
-    t: Overflow issues
+    t: Проблеми overflow
   - key: features.positioning_issues
-    t: Positioning issues
+    t: Проблеми позиціонування
   - key: features.alignment_issues
-    t: Alignment issues
+    t: Проблеми вирівнювання
   - key: features.centering_issues
-    t: Centering issues
+    t: Проблеми центрування
   - key: features.hard_to_memorize
-    t: Remembering correct syntax
+    t: Запам'ятовування правильного синтаксису
   - key: features.z_index_issues
-    t: Z-index issues
+    t: Проблеми z-index
   - key: features.scrolling_issues
-    t: Scrolling issues
+    t: Проблеми гортання
   - key: features.table_layouts_issues
-    t: Table layout issues
+    t: Проблеми макету із таблиць
 
     # shapes & graphics
   - key: features.shape_issues
-    t: Shape drawing issues
+    t: Проблеми малювання фігур
   - key: features.svg_issues
-    t: SVG issues
+    t: Проблеми SVG
   - key: features.gradient_issues
-    t: Gradient issues
+    t: Проблеми градієнтів
     aliases:
       - features.gradients_issues
 
     # colors
   - key: features.theming_issues
-    t: Theming issues
+    t: Проблеми теми
   - key: features.contrast_issues
-    t: Contrast issues
+    t: Проблеми контрасту
   - key: features.dark_mode_issues
-    t: Dark mode issues
+    t: Проблеми темного режиму
   - key: features.color_spaces_issues
-    t: Color spaces issues
+    t: Проблеми колірних просторів
   - key: features.color_variables_issues
-    t: Color variables issues
+    t: Проблеми змінних кольору
   - key: features.color_manipulation_issues
-    t: Color manipulation issues
+    t: Проблеми маніпуляції кольором
   - key: features.color_syntax_issues
-    t: Color syntax issues
+    t: Проблеми синтаксису кольорів
   - key: features.new_color_spaces_adoption_issues
-    t: Slow adoption of new color spaces
+    t: Повільне впровадження нових колірних просторів
 
   # interactions
-  - key: features.scrolling_issues
-    t: Scrolling issues
+  # - key: features.scrolling_issues
+  #   t: Scrolling issues
   - key: features.scrollbar_issues
-    t: Scrollbar issues
+    t: Проблеми смуги гортання
 
   # typography
   - key: features.line_height_issues
     t: |
-      `line-height` issues
+      Проблеми `line-height`
   - key: features.font_sizing_issues
-    t: Font sizing issues
+    t: Проблеми кеглю шрифтів
 
   # math
   - key: features.handling_units
-    t: Handling units
+    t: Поводження з одиницями вимірювання
   - key: features.math_is_hard
-    t: Math difficulties
+    t: Труднощі математики
   - key: features.lack_of_random_function
     t: |
-      Lack of `random()` function
+      Відсутність функції `random()`
 
   # other_features
   # - key: features.
   #   t:
 
   - key: features.excessive_tailwind_use
-    t: Excessive Tailwind Use
+    t: Надмірне використання Tailwind
 
   ###########################################################################
   # Options
@@ -1203,11 +1203,11 @@ translations:
     t: Нічого
 
   - key: options.css_general_pain_points.layout_and_positioning_issues
-    t: Layout & positioning
+    t: Компонування та позиціонування
   - key: options.css_general_pain_points.excessive_tailwind_use
-    t: Excessive Tailwind usage
+    t: Надмірне використання Tailwind
   - key: options.css_general_pain_points.hard_to_memorize
-    t: Hard-to-remember syntax
+    t: Складний для запам'ятовування синтаксис
 
   # Missing Features
   - key: opinions.css_missing_features
