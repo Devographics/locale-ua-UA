@@ -2,7 +2,7 @@ locale: ua-UA
 translations:
   - key: general.css2025.html2025_banner
     t: |
-      Take the State of HTML survey and help shape the future of the web! →
+      Пройдіть опитування про стан HTML та допоможіть сформувати майбутнє вебу! →
 
   - key: general.css2025.survey_intro
     t: |
@@ -19,16 +19,16 @@ translations:
 
   - key: introduction.css2025
     t: |
-      <span class="first-letter">O</span>ne could be forgiven for being slow to adopt all these new-fangled CSS features. After all, do we really need them? And even if we do, do they even work reliably across browsers?
+      <span class="first-letter">Я</span>к не пробачити повільне впровадження всіх цих новомодних функцій CSS. Зрештою, чи справді вони нам потрібні? А якщо потрібні, то чи працюють вони надійно в різних браузерах? 
 
 
-      But as Baseline indicators turn to green one after the other, and satisfaction with new functions and properties remains high, even the most reluctant among us might have to admit that features such as `:has()`, `aspect-ratio`, and Cascade Layers have all earned their spot in our stylesheets. 
+      Але оскільки індикатори бази сумісності один за одним стають зеленими, а вдоволення від нових функцій і властивостей залишається високим, навіть найбільш неохочі з нас, здається, змушені визнати, що певні функції, як-от `:has()`, `aspect-ratio` та каскадні шари, виправдали своє місце в наших таблицях стилів. 
 
 
-      The only question is *when*. Too soon, and you'll run head-first into early-adopter pain points. Too late, and you'll miss out on time-saving improvements.
+      Єдине питання — *коли*. Занадто рано, і ви зіткнетеся з проблемними моментами раннього впровадження. Занадто пізно, і ви пропустите покращення, які зекономлять час. 
 
 
-      Thankfully there is now a robust ecosystem of tools and resources dedicated to answering this question–starting with this very survey!
+      На щастя, наразі є надійна екосистема інструментів та джерел, присвячених відповіді на це питання, починаючи з цього ж опитування! 
 
 
       <span class="conclusion__byline">– Sacha Greif</span>
@@ -46,26 +46,26 @@ translations:
 
   - key: sections.user_info.description.css2025
     t: |
-      This year's survey reached **5,506** developers throughout the world.
+      Цього року в опитуванні взяли участь **5506** розробників з усього світу.
 
   - key: sections.features.description.css2025
     t: |
-      It's no secret that CSS is adding new features at a record rate – which is why we ended up asking about no less than *50* of them this year!
+      Не секрет, що CSS додає нові функції з рекордною швидкістю, тому цього року ми запитали про щонайменше *50* із них!
 
   - key: sections.tools.css2025
-    t: Libraries & Tools
+    t: Бібліотеки й інструменти
 
   - key: sections.tools.description.css2025
     t: |
-      Despite the many capabilities unlocked by CSS's new features, developers still rely on tooling and libraries to support their workflow, at least for now.
+      Незважаючи на численні можливості, відкриті новими функціями CSS, розробники досі покладаються на певний інструментарій та бібліотеки для підтримання свого робочого процесу — принаймні поки що.
 
   - key: sections.usage.description.css2025
     t: |
-      No matter how you use CSS, the data shows that making sure your code works across all browsers is still a concern, especially for newer features such as `:has()`.
+      Незалежно від того, як ви використовуєте CSS, все ще проблемно переконатися у працездатності коду в усіх браузерах — особливо для нових функцій, як-от `:has()`.
 
   - key: sections.resources.description.css2025
     t: |
-      Rest assured: with the amount of new CSS features coming out, we won't run out of material for CSS blog posts, podcasts, videos, and courses anytime soon!
+      Будьте певні: з огляду на кількість нових функцій CSS, які безупинно з'являються, у нас найближчим часом не вичерпається матеріал для публікацій у блогах, подкастів, відео та курсів про СSS!
 
   ###########################################################################
   # Takeaways
@@ -318,71 +318,71 @@ translations:
 
   - key: about.content.css2025
     t: >
-      The 2025 State of CSS survey ran from June 1 to July 15 2025, and collected 5,506 responses. The survey is run by [Devographics](https://www.devographics.com/), with help from a team of open-source contributors and consultants. 
+      Опитування "Cтан CSS 2025" тривало із 1 червня до 15 липня 2025 року та зібрало 5506 відповідей. Опитування проводив [Devographics](https://www.devographics.com/) із допомогою команди консультантів та учасників проєктів із відкритим програмним кодом. 
 
 
-      The State of CSS logo and t-shirt were designed and animated by [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
+      Логотип і футболку "Стан CSS" розробив та анімував [Christopher Kirk-Nielsen](http://chriskirknielsen.com/). 
 
 
-      ### Survey Goals
+      ### Цілі опитування 
 
-      This survey was created to identify upcoming trends in the web development ecosystem in order to help developers make technological choices. 
-
-
-      As such, this survey is focused on anticipating what's coming over the next few years rather than analyzing what's popular now, which is why the features or technologies that are currently most widespread are not always included. 
+      Це опитування було створено для визначення майбутніх тенденцій в екосистемі веброзробки, щоб допомогти розробникам здійснити вибір з-поміж наявних технологій. 
 
 
-      Additionally, survey data is also used by browser vendors to prioritize features and inform initiatives such as [Interop 2025](https://web.dev/blog/interop-2025).
+      Так опитування зосереджено більше на передбаченні того, що станеться протягом наступних кількох років, ніж на аналізі того, що популярно саме зараз, — ось чому деякі функції чи технології іноді можуть не згадуватися попри широке впровадження. 
 
 
-      ### Survey Design
-
-      This survey was designed collaboratively [on GitHub](https://github.com/Devographics/surveys/issues/245).
-
-      ### Survey Audience
-
-      The survey was openly accessible online and respondents were not filtered or selected in any way. Respondents were primarily a mix of respondents from past surveys (alerted through a dedicated mailing list) and social media traffic. 
-
-      ### Project Funding
-
-      Apart from t-shirt sales, funding from this project comes from a variety of sources:
-
-      - Our partner [Frontend Masters](https://frontendmasters.com/) sponsors the survey in exchange for featuring relevant links to their courses at the bottom of each page.
-
-      - The [Google Chrome](https://www.google.com/chrome/) team set aside a sponsoring budget this year to help design and run the survey.
-
-      - [TokyoDev](https://www.tokyodev.com/) is also sponsoring the survey on an ongoing basis. 
-
-      ### Technical Overview
-
-      You can find a more in-depth technical overview of how the surveys are run [here](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2023-edition-1p6a). Our code is [open-source](https://github.com/Devographics/Monorepo/). 
-
-      ### Feedback
+      Постачальники браузерів також використовують ці дані, щоб визначати пріоритетні напрями діяльності та узасаднювати ініціативи, як-от [Interop 2025](https://web.dev/blog/interop-2025). 
 
 
-      - [Report a technical issue](https://github.com/Devographics/Monorepo/issues)
+      ### Розробка опитування 
 
-      - [Make a suggestion for next year](https://github.com/Devographics/surveys/issues/249)
+      Опитування було розроблено колегіально [на платформі GitHub](https://github.com/Devographics/surveys/issues/245). 
 
-      - [Other non-technical issues](https://github.com/Devographics/surveys/issues)
+      ### Аудиторія опитування 
 
-      - [Join our Discord](https://discord.gg/tuWRUWVyJs)
+      Опитування було повністю відкрите та доступне онлайн, респонденти жодним чином не відфільтровувалися та не відбиралися. Респонденти складалися здебільшого з учасників минулих опитувань (сповіщених електронною поштою за спеціальним списком розсилання) та тих, хто прийшов через соціальні мережі. 
+
+      ### Фінансування проєкту 
+
+      Окрім як із продажу футболок, цей проєкт фінансується з різних джерел: 
+
+      - Наш партнер [Frontend Masters](https://frontendmasters.com/) спонсорує опитування в обмін на розміщення відповідних посилань на їхні курси у нижній частині кожної сторінки. 
+
+      - Цього року команда [Google Chrome](https://www.google.com/chrome/) виділила спонсорський бюджет, щоб допомогти розробити та провести опитування. 
+
+      - [TokyoDev](https://www.tokyodev.com/) також регулярно спонсорує це опитування. 
+
+      ### Технічний огляд 
+
+      Більш детальний технічний огляд того, як проводяться опитування, [тут](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2023-edition-1p6a). Код проєкту є [відкритим](https://github.com/Devographics/Monorepo/). 
+
+      ### Зворотний зв'язок 
+
+
+      - [Повідомити про технічну проблему](https://github.com/Devographics/Monorepo/issues) 
+
+      - [Додати пропозицію на наступний рік](https://github.com/Devographics/surveys/issues/249) 
+
+      - [Інші нетехнічні проблеми](https://github.com/Devographics/surveys/issues) 
+
+      - [Завітати у наш Discord-чат](https://discord.gg/tuWRUWVyJs) 
 
   ###########################################################################
   # Picks
   ###########################################################################
 
   - key: picks.my_pick.css2025
-    t: "My 2025 Pick: "
+    t: "Мій вибір 2025: "
   - key: picks.intro
-    t: We asked members of the CSS community to share their “pick of the year”
+    t: Ми покликали спільноту CSS поділитися своїм "вибором року"
 
   # https://linear-easing-generator.netlify.app/
   - key: picks.josh_comeau.name
     t: |
-      `linear()` Easing Generator
+      Генератор функції-пом'якшення `linear()`
   - key: picks.josh_comeau.bio
-    t: Indie developer and educator
+    t: Інді-розробник та освітній діяч
   - key: picks.josh_comeau.description
     t: |
       Description: The `linear()` timing function has quickly become one of my favourite modern features, and this lovely tool makes it easy to quickly generate CSS springs from JS logic!
@@ -392,7 +392,7 @@ translations:
     t: |
       `if()`
   - key: picks.ahmad_shadeed.bio
-    t: Design Engineer, Author of [debuggingcss.com](https://debuggingcss.com)
+    t: Дизайн-інженер, автор [debuggingcss.com](https://debuggingcss.com)
   - key: picks.ahmad_shadeed.description
     t: |
       Combined with `:has()` and style queries, `if()` will help us do even more conditional stuff in CSS.
@@ -402,14 +402,14 @@ translations:
     t: |
       `text-wrap: balance;`
   - key: picks.kilian_valkhof.bio
-    t: Creator of [Polypane](https://polypane.app/)
+    t: Автор [Polypane](https://polypane.app/)
   - key: picks.kilian_valkhof.description
     t: |
       I can’t remember the last time a new CSS property was introduced that I could just add to any stylesheet new and old. It’s a little magic one liner that makes your titles much nicer with zero downsides. Add it to your css resets!
 
     # https://codepen.io/thebabydino/pen/LEExpVg
   - key: picks.ana_tudor.name
-    t: Combining features
+    t: Поєднання функцій
   - key: picks.ana_tudor.bio
     t: CSS Mad Scientist
   - key: picks.ana_tudor.description
@@ -420,9 +420,9 @@ translations:
 
   # https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Values_and_Units/Using_CSS_math_functions
   - key: picks.amit_sheen.name
-    t: CSS Math Functions
+    t: Математичні функції в CSS
   - key: picks.amit_sheen.bio
-    t: Web Developer & Creative Coder
+    t: Веброзробник та креативний програміст
   - key: picks.amit_sheen.description
     t: |
       Math is the language of the universe, of life itself, and without it, we wouldn’t be able to describe, measure, or build anything with clarity. 
@@ -433,7 +433,7 @@ translations:
   - key: picks.sacha_greif.name
     t: Julia Miocene
   - key: picks.sacha_greif.bio
-    t: Maintainer, State of CSS
+    t: Мейнтейнер State of CSS
   - key: picks.sacha_greif.description
     t: |
       When you spend days on end debugging a layout or styling forms, it's easy to forget that front-end coding can also be enjoyed for its own sake. Julia's amazing work is a great reminder of the joy and creativity that can be found in CSS, if you just take the time to look for it.
@@ -442,7 +442,7 @@ translations:
   - key: picks.julia_miocene.name
     t: View Transition API
   - key: picks.julia_miocene.bio
-    t: Product Designer, UX Engineer, Pure CSS Animator
+    t: Дизайнерка продукту, UX-інженерка, аніматорка "чистим" CSS
   - key: picks.julia_miocene.description
     t: |
       My pick of the year is the View Transition API. It helped me get rid of JS code and complex animation tricks. Now I can animate generated content and user interactions with ease ✨
@@ -450,9 +450,9 @@ translations:
   # https://modern-fluid-typography.vercel.app/
   - key: picks.ana_rodrigues.name
     t: |
-      Font Clamp Generators
+      Генератори кеглю шрифтів із clamp
   - key: picks.ana_rodrigues.bio
-    t: Front-end developer at [Hactar.is](https://hactar.is/)
+    t: Розробниця клієнтської частини в [Hactar.is](https://hactar.is/)
   - key: picks.ana_rodrigues.description
     t: |
       My pick of the year is all the font clamp generators that people have been creating and sharing. What’s great about them is that they are all so different so it accommodates different learning styles. Especially, if reading documentation alone doesn’t help understanding how something works.
@@ -461,7 +461,7 @@ translations:
   - key: picks.saron_yitbarek.name
     t: Picalilli
   - key: picks.saron_yitbarek.bio
-    t: Web Evangelist at Apple
+    t: Євангелістка вебу в Apple
   - key: picks.saron_yitbarek.description
     t: |
       I've been following Piccalili for a while and I love that they have free technical articles alongside more in-depth paid courses so you can pick what flavor of learning you're up for. And as a business, they're so thoughtful about understanding the web community and making ethical business decisions that allow them to do great work without feeling icky about how they make money.
@@ -469,36 +469,36 @@ translations:
   # https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/light-dark
   - key: picks.sara_joy.name
     t: |
-      The `light-dark()` Function
+      Функція `light-dark()`
   - key: picks.sara_joy.bio
-    t: Front End Developer
+    t: Розробниця клієнтської частини
   - key: picks.sara_joy.description
     t: |
       Once using `color-scheme` in CSS, using `light-dark()` to declare colors based upon whether light or dark mode is currently in use feels like a no-brainer. I'm currently enjoying following [this discussion thread](https://github.com/w3c/csswg-drafts/issues/10577) about what further logic we may use in the future, to query color-scheme and change CSS conditionally.
 
   - key: frontendmasters.learning_path
     t: |
-      Your Path to Becoming a Senior Web Developer
+      Ваш шлях до того, щоб стати старшим веброзробником
 
   - key: frontendmasters.learning_path.description
     t: |
-      Want to upgrade your career? Deep-dive into JavaScript, React, Web performance, CSS, deploying websites, TypeScript, and functional programming to go from junior to senior today.
+      Хочете покращити свою кар'єру? Заглибтеся у JavaScript, React, швидкодію у вебі, CSS, розгортання вебсайтів, TypeScript та функціональне програмування, щоб перейти від молодшого до старшого рівня вже сьогодні.
 
   ###########################################################################
   # Figures
   ###########################################################################
 
   - key: figure.figure_has_usage.css2025
-    t: Percentage of respondents who have used `:has()`.
+    t: Відсоток респондентів, які використовували `:has()`.
 
   - key: figure.figure_light_dark_awareness.css2025
-    t: Year-over-year percentage increase in respondents who had heard about `light-dark()`.
+    t: Приріст відсотка респондентів, які чули про `light-dark()`, за рік.
 
   - key: figure.figure_css_in_js.css2025
-    t: Percentage of survey respondents who use a CSS-in-JS library.
+    t: Відсоток респондентів опитування, які використовують CSS-in-JS.
 
   - key: figure.figure_anchor_positioning.css2025
-    t: Year-over-year percentage increase in respondents who wish they could use Anchor Positioning.
+    t: Приріст відсотка респондентів, які хотіли б використовувати функцію позиціонування якорів, за рік.
 
   ###########################################################################
   # Conclusion
@@ -524,4 +524,4 @@ translations:
       If 2025 was about stabilizing the impossible, 2026 may be about realizing long‑awaited dreams. For those who love CSS, there has never been a better time to experiment, learn and help shape what comes next.
 
   - key: conclusion.css2025.amit_sheen.bio
-    t: Web Developer & Creative Coder
+    t: Веброзробник та креативний програміст
