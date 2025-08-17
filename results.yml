@@ -2411,10 +2411,10 @@ translations:
     t: Зробіть більший вплив на ринок швидше за допомогою CMS, яка вам не заважатиме.
 
   - key: sponsors.jetbrains.description
-    t: A rich suite of tools that provide an exceptional developer experience.
+    t: Багатий набір інструментів, що надає винятковий досвід розробника.
 
   - key: sponsors.webstorm.description
-    t: Enjoy more productive coding with the JavaScript IDE that has everything you need.
+    t: Насолоджуйтеся більш продуктивним програмуванням за допомогою IDE для JavaScript з усім необхідним.
 
   ###########################################################################
   # Entities repo - https://github.com/Devographics/entities
