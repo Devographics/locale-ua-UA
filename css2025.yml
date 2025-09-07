@@ -77,70 +77,70 @@ translations:
 
   - key: features.all_features.takeaway.css2025
     t: >
-      Of all the features included in the survey, `:has()` is both the most-used and the most-loved one. Also worth pointing out: **Subgrid** gets second place in the most-loved rankings, while `aspect-ratio` is #2 in usage and #3 in sentiment.
+      Серед усіх функцій в опитуванні `:has()` є і найуживанішою, і найбільш улюбленою. Також варто відзначити: вкладена сітка посіла друге місце в рейтингу найулюбленіших функцій, тимчасом як `aspect-ratio` є другим за використанням і третім за ставленням користувачів. 
 
 
-      After **Subgrid**, `line-clamp` got the most comments, many of them from respondents with a negative opinion of the feature.
+      Одразу після **вкладеної сітки** найбільше коментарів отримав `line-clamp` — і багато з них від респондентів із негативним ставленням до нього. 
 
 
-      The least-used features were `sibling-count` and `sibling-index`, which makes sense since their browser support is still very new and limited. And the least-loved feature overall was **Trigonometric Functions**… no doubt due to the “trigonometry” part!
+      Найменш використовуваними виявилися `sibling-count` та `sibling-index`, що логічно, адже їхнє підтримання браузерами недавнє й обмежене. А найменш улюбленими загалом стали **тригонометричні функції**… без сумніву, через слово "тригонометрія"! 
 
 
-      Finally, be sure to filter by **“Widely Available” Baseline Status** to see what features are available to use right now!
+      Нарешті, обов'язково застосуйте фільтр **Статус бази сумісності: "Широко доступно"**, щоб дізнатися, які функції можна використати вже сьогодні!
 
   - key: features.features_ratios_over_time.takeaway.css2025
     t: >
-      Looking at trends over time and in context paints quite an interesting picture. The feature with the single largest year-over-year usage increase is `text-wrap: pretty`, while the one with the largest *awareness* increase is `light-dark()`.
+      Якщо подивитися на тенденції з часом і в контексті, вимальовується доволі цікава картина. Функцією з найбільшим приростом використання за рік стала `text-wrap: pretty`, а з найбільшим зростанням *впізнаваності* — `light-dark()`. 
 
 
-      **Color functions** also stand out for placing towards the bottom of the chart in terms of usage, which might mean they haven't yet found their audience.
+      Зі свого боку **колірні функції** вирізняються тим, що займають нижні позиції за використанням, що може означати, що вони ще не знайшли свою аудиторію. 
 
 
-      Finally, the Appreciation tab lets us look at the difference in positivity between respondents interested in a feature and those who have actually used it. **Anchor positioning** shows a **-12%** drop-off, which could mean that the API isn't as user-friendly as people expect.
+      Нарешті, вкладка "Схвалення" дає змогу побачити різницю у позитивному сприйнятті між тими, хто цікавився функцією, і тими, хто направду її використовував. Наприклад, **якірне позиціонування** демонструє падіння до **-12%**, що може означати, що API є менш зручним, ніж очікувалося.
 
   - key: features.layout_pain_points.takeaway.css2025
     t: >
-      While **Grid** is undeniably powerful, that power also comes with a steep learning curve that can turn using this fairly complex feature into a real pain point. 
+      Хоч **сітка** є безсумнівно потужною, ця потужність супроводжується стрімкою кривою навчання, яка може перетворити використання цієї комплексної функції на справжню проблему. 
 
 
-      Further down the rankings, dealing with height, overflow, positioning, and alignment still all prove to be common issues for CSS developers.
+      Далі в рейтингу — робота з висотою, переповненням, позиціонуванням і вирівнюванням, які досі є поширеними викликами для CSS-розробників.
 
   - key: features.shapes_graphics_pain_points.takeaway.css2025
     t: >
-      Now that we're fairly comfortable with rectangles, we've started looking towards the wider world of triangles, circles, and polygons. Sadly drawing these **complex shapes** remains tough with CSS only. 
+      Тепер, коли більш-менш освоїли прямокутники, ми почали звертати увагу на ширший світ трикутників, кіл і багатокутників. На жаль, малювання цих **складних фігур** досі залишається непростим завданням у разі використання самого лиш CSS. 
 
 
-      Which is why many of us resort to **SVG**–which is not without its own issues.
+      Тому багато хто з нас вдається до **SVG** —  утім він теж не без перешкод.
 
   - key: features.colors_pain_points.takeaway.css2025
     t: >
-      Many respondents would like CSS to go beyond the light/dark dichotomy, and actually provide more tools for managing full-fledged theming, as well as do a better job ensuring proper **contrast** when picking colors.  
+      Багато респондентів хотіли б, щоб CSS вийшов за межі дихотомії світлого/темного режимів і надав більше інструментів для повноцінного управління темами, а також краще забезпечував належний **контраст** під час вибору кольорів. 
 
 
-      And while new color spaces such as `oklch()` are certainly powerful, they also come with their own range of issues.
+      І хоч нові колірні простори, як-от `oklch()`, справді дивовижні, вони тако само мають свої проблеми.
 
   - key: features.interactions_pain_points.takeaway.css2025
     t: >
-      While many of us are waiting for better browser support for **scroll-driven animations**, others are pointing out potential **accessibility issues** with new interaction patterns such as **carousels**.
+      Поки багато хто з нас чекає на краще підтримання **анімацій, керованих гортанням**, інші звертають увагу на потенційні **проблеми доступності** нових шаблонів взаємодії, наприклад, **каруселей**. 
 
 
-      Another common pain point was the difficulty of “animating to `auto`”, something that is thankfully [now possible](https://developer.chrome.com/docs/css-ui/animate-to-height-auto)!
+      Ще однією поширеною проблемою була складність "анімування до `auto`", що, на щастя, [тепер можливо](https://developer.chrome.com/docs/css-ui/animate-to-height-auto)!
 
   - key: features.typography_pain_points.takeaway.css2025
     t: >
-      Controlling vertical text alignment (a.k.a. **leading**) in the browser has been an issue for as long as I can remember. Thankfully `text-box-edge` and `text-box-trim` promise to give us more granular tools to properly set type online.
+      Керування вертикальним вирівнюванням тексту (відомим як **leading**) у браузері було проблемою стільки, скільки я пам'ятаю. На щастя, `text-box-edge` і `text-box-trim` обіцяють дати нам більш гнучкі інструменти для якісної роботи з типографікою онлайн.
 
   - key: features.math_features_pain_points.takeaway.css2025
     t: >
-      Many respondents has gripes about `calc()`, especially when it comes to handling units inside calculations.
+      Багато респондентів висловлювали претензії до `calc()`, особливо щодо роботи з одиницями вимірювання в обчисленнях.
 
   - key: features.other_features_pain_points.takeaway.css2025
     t: >
-      No surprise here, but **Browser Support** remains the top pain point for the CSS features mentioned in this section.
+      Без сюрпризів, та **підтримання браузерами** залишається головною проблемою для CSS-функцій, згаданих у цьому розділі.
 
   - key: features.reading_list.takeaway.css2025
     t: >
-      Little-known `::target-text` (only 82% of respondents had never heard of it) tops the Reading List rankings of the features respondents were most curious about.
+      Маловідомий `::target-text` (про нього не чули 82% респондентів) очолив рейтинг доданого до списку читання — функцій, про які хотіли дізнатись більше.
 
   # other_tools
 
