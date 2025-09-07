@@ -146,26 +146,26 @@ translations:
 
   - key: tools.css_frameworks.takeaway.css2025
     t: >
-      Tailwind tops the framework rankings, and it seems to appeal to slightly less experienced developers (10 years of median experience), while more experienced respondents use a custom or in-house framework (15 years of median experience). 
+      Tailwind очолює рейтинг фреймворків і, здається, більше подобається менш досвідченим розробникам (медіанний досвід — 10 років), тимчасом як більш досвідчені респонденти використовують власні або внутрішні фреймворки (медіанний досвід — 15 років). 
 
 
-      That being said, it's also worth nothing that **47%** of survey respondents either don't use a framework, or skipped the question altogether.
+      Водночас варто зазначити, що **47%** учасників опитування або взагалі не використовують фреймворк, або пропустили це питання.
 
   - key: tools.css_in_js.takeaway.css2025
     t: >
-      **CSS Modules**' fairly light touch continues to prove popular, while **Styled Components** still holds on at number two.
+      **CSS Modules** зі своїм досить легким підходом залишаються популярними, тоді як **Styled Components** досі утримують друге місце.
 
   - key: tools.pre_post_processors.takeaway.css2025
     t: >
-      **Sass** is still number one, but pre-processor usage overall is slowly decreasing as CSS itself adopts more and more of their features.
+      **Sass** усе ще на першому місці, але загальне використання препроцесорів поступово зменшується, адже сам CSS переймає дедалі більше їхніх функцій.
 
   - key: tools.utilities.takeaway.css2025
     t: >
-      Using **Prettier** is a safe bet for any developer–but the list below contains many other lesser-known tools that are also worth checking out.
+      **Prettier** — перевірений вибір для будь-якого розробника, але дещо нижче є багато менш відомих інструментів, які теж варто спробувати.
 
   - key: tools.browsers.takeaway.css2025
     t: >
-      When it comes to browsers, the big four are the big four for a reason, and they maintained almost identical usage numbers compared to last year.
+      Коли йдеться про браузери, недаремно є поняття "велика четвірка", а показники їхнього використання майже не змінилися, як порівняти з минулим роком.
 
   # usage
 
