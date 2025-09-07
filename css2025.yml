@@ -265,31 +265,31 @@ translations:
 
   - key: award.most_used_feature_award.comment
     t: |
-      With {value} usage, `:has()` has been widely adopted by the community!
+      `:has()` було широко впроваджено спільнотою — його використали {value}!
 
   - key: award.least_used_feature_award.comment
     t: |
-      With only {value} usage, `sibling-count` is still far from mainstream.
+      Лише {value} використання — і `sibling-count` досі далекий від мейнстриму.
 
   - key: award.most_loved_feature_award.comment
     t: |
-      With {value} of respondents having a positive impression of `:has()`, it takes the top spot in our rankings.
+      Оскільки {value} респондентів мають позитивне ставлення до `:has()`, він посідає перше місце в нашому рейтингу.
 
   - key: award.most_hated_feature_award.comment
     t: |
-      Only {value} of respondents truly hate trigonometry, yet that's enough to put **Trigonometric Functions** dead last in terms of being loved :(
+      Лише {value} респондентів справді ненавидять тригонометрію, але цього досить, щоб **тригонометричні функції** опинилися на самому дні рейтингу тих, хто подобається :(
 
   - key: award.largest_awareness_progression_award.comment
     t: |
-      Compared to last year, {value} more respondents are no longer in the dark about `light-dark()`!
+      Як порівняти з минулим роком, іще {value} респондентів більше не блукають у темряві щодо `light-dark()`!
 
   - key: award.largest_usage_progression_award.comment
     t: |
-      With a {value} usage increase, `text-wrap: pretty` is doing pretty, pretty good!
+      Використання зросло на {value}: `text-wrap: pretty` демонструє дуже гарні результати!
 
   - key: award.most_commented_feature_award.comment
     t: |
-      **Subgrid** got over {value} comments, in part because it appeared early on in the survey, but also because it's definitely a praise-worthy feature!
+      **Вкладена сітка (Subgrid)** отримала понад {value} коментарів — частково тому, що вона була на початку опитування, але також і через те, що це направду варта схвалення функція!
 
   ###########################################################################
   # FAQ/About
