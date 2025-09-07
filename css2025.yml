@@ -171,66 +171,66 @@ translations:
 
   - key: usage.form_factors.takeaway.css2025
     t: >
-      While testing environments don't show much change year over year, it's encouraging to see a small increase in respondents testing with keyboard-only and screen readers.
+      Хоч середовища тестування не демонструють значних змін за рік, обнадійливо бачити невелике зростання кількості респондентів, які тестують за допомогою лише клавіатури чи екранних зчитувальних пристроїв (screen readers). 
 
 
-      It's also interesting to note that when comparing with company size, larger companies tend to test using screen readers at a higher rate.
+      Також варто зазначити, що як порівняти з розміром компанії, то тестувати за допомогою екранних зчитувальних пристроїв частіше схильні великі компанії.
 
   - key: usage.what_do_you_use_css_for.takeaway.css2025
     t: >
-      While CSS started its life as a document layout system, it's now clear that interactive apps represent its primary use case–a fact that has been no doubt driving the language's recent evolution.
+      CSS починав свій шлях як система для компонування та розмітки документів, але тепер цілком очевидно, що інтерактивні застосунки є його основним варіантом використання — факт, який безперечно впливає на еволюцію мови останнім часом.
 
   - key: usage.industry_sector.takeaway.css2025
     t: >
-      Many of us are building tools destined to be used internally within the developer community, which makes it much easier to adopt new features without worrying as much about browser compatibility.
+      Багато з нас створюють інструменти, призначені для подальшого використання всередині спільноти розробників, що значно полегшує впровадження нових функцій без надмірних хвилювань щодо сумісності між браузерами.
 
   - key: usage.css_interoperability_features.takeaway.css2025
     t: >
-      Not only did **Anchor Positioning** keep its number one spot, but the percentage of respondents citing it almost doubled.
+      **Якірне позиціонування** не тільки зберегло свою першу позицію, а й майже подвоїло відсоток респондентів, які зазначили його у відповідях. 
 
 
-      The **View Transition API** also climbed to number 3, while **Container style queries** gained a whopping **11 spots** in the rankings.
+      Також **View Transition API** піднялося на третє місце, тоді як **контейнерні запити за стилями** піднялися на шалені **11 позицій** у рейтингу. 
 
 
-      On the other hand, **CSS Nesting** and `:has()` both lost ground, which makes sense since these features are now supported in all major browsers.
+      З іншого боку, **вкладеність CSS** і `:has()` втратили позиції, що логічно, адже ці функції тепер підтримуються всіма основними браузерами.
 
   - key: usage.css_missing_features.takeaway.css2025
     t: >
-      **Mixins** are still the feature developers wish for the most, closely followed by **Masonry Layout**. Both have long been possible using workarounds such as pre-processors or JavaScript, but it would be nice to see them natively supported in CSS!
+      **Домішки (mixins)** досі залишаються найбажанішою функцією серед розробників, а одразу за ними — **компонування masonry**. Обидві можна реалізувати іншими способами, як-от через препроцесори або JavaScript, проте було б чудово побачити їхнє нативне підтримання у CSS!
 
   - key: usage.css_general_pain_points.takeaway.css2025
     t: >
-      **Browser Support** may still be the dominant CSS pain point in 2025, but the fact that only a relatively small 10% of question respondents mentioned it is a testament to recent improvements in this domain.
+      **Підтримання браузерами** досі основна проблема CSS у 2025 році, проте той факт, що лише відносно невеликі 10% респондентів її згадали, свідчить про нещодавні покращення у цій сфері.
 
   - key: usage.favorite_new_features.takeaway.css2025
     t: >
-      While `:has()` is still number one, it did lose a bit of ground, as the **View Transition API** and especially **Anchor Positioning** (which gained 8 spots) start seeing wider adoption.
+      Хоч `:has()` усе ще на першому місці, він дещо втратив позиції, тоді як **View Transition API** і особливо **якірне позиціонування** (який піднявся на 8 позицій) почали ширше впроваджуватися.
 
   - key: usage.gamechanger_feature.takeaway.css2025
     t: >
-      Every new CSS feature has its use, but only a few of them are real game-changers. It turns out **Grid**, `:has()`, and **CSS Nesting** are the features that most changed how we write CSS in recent years.
+      Кожна нова функція CSS має своє призначення, але лише деякі з них справді змінюють правила гри. Виявилося, що **сітка**, `:has()` і **вкладеність CSS** найбільше вплинули на те, як ми пишемо CSS останніми роками.
 
   - key: usage.baseline_awareness.takeaway.css2025
     t: >
-      We wanted to see how familiar respondents are with the Baseline browser compatibility indicator (which you can see in use throughout these very survey results!).
+      Ми хотіли дізнатися, наскільки респонденти знайомі з індикатором бази (Baseline) сумісності браузерів (який ви можете бачити в усіх цих результатах опитування!). 
 
 
-      Despite our clever traps in the form of fake answers, the vast majority of you successfuly negotiated the question! Younger respondents in particular showed higher awareness of Baseline, no doubt due to the recent Baseline integration in Fortnite (…just kidding).
+      Попри наші хитрі фейкові варіанти відповідей, переважна більшість із вас успішно впоралась із запитанням! Зокрема молодші респонденти продемонстрували вищу обізнаність щодо бази сумісності, без сумніву, завдяки нещодавній інтеграції Baseline у Fortnite (…жартуємо).
 
   - key: usage.css_pace_of_change.takeaway.css2025
     t: >
-      Adopting a new feature is usually a multi-stage process: first, you hear about it a few times over the course of months or years, until you form a solid idea of what it does. Then, you might try it out on an experimental side project, before finally adopting it in production. 
+      Прийняття нової функції зазвичай є багатоступеневим процесом: спершу ви кілька разів чуєте про неї протягом місяців чи років, доки не сформуєте чітке уявлення про її призначення. Потім ви можете спробувати її в експериментальному побічному проєкті, перш ніж нарешті впровадити для широкого загалу. 
 
 
-      This chart shows that most of us are squarely in the middle of this journey, having learned about and tried out only part of the feature set presented in this survevy.
+      Ця діаграма показує, що більшість із нас наразі перебуває саме посередині цього шляху — дізналися і випробували лише частину функцій, представлених у цьому опитуванні.
 
   - key: usage.state_of_the_web_happiness.takeaway.css2025
     t: >
-      Happiness with the web has been fairly stable over the past years, neither going up or down.
+      Рівень задоволеності вебом загалом залишався доволі стабільним протягом останніх років, без суттєвих коливань.
 
   - key: usage.state_of_css_happiness.takeaway.css2025
     t: >
-      On the other hand, happiness with CSS specifically shows a clear upwards trend in recent years, which happens to align nicely with the language's own rapid pace of improvement.
+      Натомість рівень задоволеності саме CSS демонструє чітку тенденцію до зростання останніми роками, що добре корелює з високими темпами розвитку цієї мови.
 
   # resources
   - key: resources.podcasts.takeaway.css2025
