@@ -235,29 +235,29 @@ translations:
   # resources
   - key: resources.podcasts.takeaway.css2025
     t: >
-      **Syntax** still rules the podcast landscape, and it even found a way to add a sizable **+8%** listeners! 
+      **Syntax** досі домінує у світі подкастів і навіть зумів додати чималу слухацьку аудиторію — **+8%**! 
 
 
-      Honorable mentions go to **Kevin Powell's podcast** and **Podrocket**, both of which gained 4 places.
+      Почесні згадки отримують **подкаст від Kevin Powell** та **Podrocket** — обидва піднялися на 4 позиції.
 
   - key: resources.video_creators.takeaway.css2025
     t: >
-      **Kevin Powell** has carved out a niche as the CSS king of YouTube, but creators with a more generalist focus such as **Theo** and **The Primeagen** are hot on his heels. 
+      **Kevin Powell** викарбував нішу короля CSS на YouTube, але творці з більш загальним фокусом, як-от **Theo** та **The Primeagen**, теж намагаються не відставати. 
 
 
-      **Syntax** is also continuing its successful transition to video, gaining **5%** and **5 ranks** compared to last year.
+      **Syntax** успішно продовжує перехід у відеоформат, додавши **5%** та **5 позицій** за рік.
 
   - key: resources.people.takeaway.css2025
     t: >
-      **Josh**, **Kevin**, **Adam**, and **Una** continue to dominate the top of the CSS influencer rankings–as shown by the fact that you knew who I was talking about without me even mentioning their last names.
+      **Josh**, **Kevin**, **Adam** та **Una** продовжують очолювати рейтинги впливових діячів у сфері CSS — про це свідчить навіть той факт, що ви й так знали, про кого я, хоч і не вказав їхніх прізвищ.
 
   - key: resources.web_platform_resources.takeaway.css2025
     t: >
-      **MDN** is a wonderful free resource to learn about CSS, but it's by no means the only one, as shown by this short list of useful links.
+      **MDN** — чудове безкоштовне джерело для вивчення CSS, але аж ніяк не єдине, що видно з цього короткого списку корисних посилань.
 
   - key: resources.other_surveys.takeaway.css2025
     t: >
-      While respondents mostly participate in the other “State of” surveys as well as the **Stack Overflow** survey, the **JetBrains Developer Ecosystem Survey** is also worth knowing about.
+      Хоч респонденти здебільшого беруть участь і в інших опитуваннях нашого формату "State of", а також в опитуванні **Stack Overflow**, варто знати й про **JetBrains Developer Ecosystem Survey**.
 
   ###########################################################################
   # Awards
