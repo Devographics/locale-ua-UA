@@ -106,7 +106,7 @@ translations:
   - key: features.animations_transforms_pain_points
     t: Проблеми анімації та перетворення
   - key: features.animations_transforms_pain_points.question
-    t: Які CSS-проблеми анімації та перетворення найбільше вас розчаровують?
+    t: Які CSS-проблеми анімування та перетворення найбільше вас розчаровують?
 
   - key: sections.accessibility.title
     t: Доступність
@@ -244,7 +244,7 @@ translations:
 
   # layout
   - key: features.flexbox_issues
-    t: Проблеми флексбоксу
+    t: Проблеми гнучкої рамки (Flexbox)
   - key: features.height_issues
     t: Проблеми висоти
   - key: features.overflow_issues
@@ -550,7 +550,7 @@ translations:
     t: Області обтікання в CSS (CSS Exclusions)
 
   - key: features.flexbox_gap
-    t: "Властивість `gap` для флексбоксу"
+    t: "Властивість `gap` для гнучкої рамки (Flexbox)"
 
   - key: features.viewport_percentage_length_units
     t: Одиниці вимірювання на основі малої, великої та динамічної області перегляду
@@ -1526,10 +1526,22 @@ translations:
   # Entities repo - https://github.com/Devographics/entities
   ###########################################################################
 
+  # features/css_features/css_animations_and_transforms.yml
+
+  - key: entities.discrete_properties_animations.name # features.discrete_properties_animations
+    t: Анімування дискретних властивостей
+  - key: entities.discrete_properties_animations.description # DIFFERS FROM features.discrete_properties_animations.description
+    t: >
+      Анімування від і до властивостей, як-от `display: none`
+
   # features/css_features/css_layout.yml
 
+  - key: entities.grid.name
+    t: Сітка
   - key: entities.subgrid.name # options.css_missing_features.subgrid
     t: Вкладена сітка (Subgrid)
+  - key: entities.flexbox.name
+    t: Гнучка рамка (Flexbox)
   - key: entities.logical_properties.name
     t: Логічні властивості CSS
   - key: entities.media_queries_range_contexts.name
@@ -1559,6 +1571,19 @@ translations:
 
   # features/css_features/css_other.yml
 
+  - key: entities.css_custom_properties.name # features.variables
+    t: Змінні CSS (Власні властивості)
+  - key: entities.display_contents.description
+    t: |
+      Задає елементу відображення лише його вмісту, а не самого елемента
+  - key: entities.cascade_layers.name # features.cascade_layers
+    t: Каскадні шари
+  - key: entities.comparison_functions.name #features.comparison_functions
+    t: Функції порівняння в CSS
+  - key: entities.css_nesting.name # features.css_nesting
+    t: Вкладеність CSS
+  - key: entities.css_nesting.description # features.css_nesting.description
+    t: Вбудована вкладеність CSS без пре-/постпроцесорів. # NO DESCRIPTION IN ENTITIES
   - key: entities.anchor_positioning.name # options.css_missing_features.anchored_positioning
     t: Якірне позиціонування
   - key: entities.nth_child_of_s.description
@@ -1566,4 +1591,100 @@ translations:
   - key: entities.advanced_attr_function.name
     t: Покращений `attr()`
   - key: entities.advanced_attr_function.description
-    t: Підтримування інших властивостей, крім `content`.
+    t: Підтримання інших властивостей, крім `content`.
+
+  # TODO: move common pain points to results.yml?
+  # tokens/pain_points/common_pain_points/common_pain_points.yml
+
+  - key: entities.animation_issues.name
+    t: Анімації
+  - key: entities.animation_issues.description
+    t: Проблеми анімування
+
+  - key: entities.browser_support.name
+    t: Підтримання браузерами
+  - key: entities.browser_support.description
+    t: Проблеми підтримання браузерами, сумісності та відповідності
+  
+  - key: entities.state_management.name
+    t: Управління станом
+
+  - key: entities.speed_of_change.name
+    t: Швидкість змін
+  - key: entities.speed_of_change.description
+    t: Функції, бібліотеки та API змінюються занадто швидко
+
+  - key: entities.too_many_choices.name
+    t: Перевантаження вибором
+  - key: entities.too_many_choices.description
+    t: Надмірна кількість опцій і варіантів
+
+  - key: entities.excessive_complexity.name
+    t: Надмірна складність
+  - key: entities.excessive_complexity.description
+    t: Завелика складність
+
+  - key: entities.performance.name
+    t: Швидкодія
+  - key: entities.performance.description
+    t: Проблеми швидкодії
+
+  - key: entities.debugging.name
+    t: Налагодження
+  - key: entities.debugging.description
+    t: Проблеми налагодження
+
+  - key: entities.responsive_design.name #options.css_pain_points.responsive_design
+    t: Чуйний (responsive) дизайн
+
+  - key: entities.focus_management.name
+    t: Управління фокусом
+  - key: entities.focus_management.description
+    t: Управління фокусом користувача
+
+  # tokens/missing_features/css_missing_features.yml
+
+  - key: entities.better_scoping.name # features.scoping
+    t: Область видимості
+  - key: entities.conditional_logic.name
+    t: Умовна логіка
+  - key: entities.form_elements.name # options.css_pain_points.form_elements_styling
+    t: Стилі для елементів форми
+  - key: entities.random.name
+    t: "Функція `random()`"
+  - key: entities.loops.name
+    t: Цикл for
+  - key: entities.masonry_layout.name # options.css_missing_features.masonry_layout
+    t: Компонування masonry
+  - key: entities.masonry_layout.name # options.css_missing_features.masonry_layout.description
+    t: Вбудоване підтримання сітки вільного плину для компонування у стилі Pinterest.
+  - key: entities.media_queries_variables.name # options.css_missing_features.media_queries_variables
+    t: Змінні в медіазапитах
+  - key: entities.media_queries_variables.description # options.css_missing_features.media_queries_variables.description
+    t: Можливість використання змінних всередині медіазапитів.
+  - key: entities.better_animations.name
+    t: Покращене анімування
+
+  # tokens/other/use_cases.yml
+
+  - key: entities.e_commerce_sites.name
+    t: Сайти електронної комерції
+
+  # tokens/other/how_can_we_improve.yml
+
+  - key: entities.accessibility.name # options.css_pain_points.accessibility
+    t: Доступність
+  - key: entities.accessibility.description # DIFFERS FROM options.css_pain_points.accessibility.description
+    t: Покращення доступності
+
+  # tokens/other/state_of_css.yml
+
+  - key: entities.overflow.name
+    t: Переповнення (Overflow)
+
+  # entities/features/html_features/html_main.yml - css 2025 results
+
+  - key: entities.popover_api.name 
+    t: "Атрибут `popover` (API спливного вікна)"
+  - key: entities.popover_api.description
+    t: Синтаксис HTML та API у JS, що забезпечують спливні вікна, як-от накладні елементи (overlays), поп-апи, меню тощо.
