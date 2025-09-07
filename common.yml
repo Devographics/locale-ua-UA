@@ -616,7 +616,7 @@ translations:
 
   # age 2
   - key: options.age.range_under_20
-    t: 20 років і молодше
+    t: 19 років і молодше
   - key: options.age.range_20_29
     t: 20-29 років
   - key: options.age.range_30_39
@@ -1700,6 +1700,7 @@ translations:
   - key: user_info.email.note
     t: >
       Ми не зберігаємо жодних персональних даних, тому після того, як ви додасте свою електронну адресу, ми використаємо її для створення унікального анонімного ідентифікатора і одразу видалимо.
+
   - key: user_info.country
     t: Країна чи регіон
   - key: user_info.country.question
