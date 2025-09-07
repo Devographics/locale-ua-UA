@@ -380,12 +380,12 @@ translations:
   # https://linear-easing-generator.netlify.app/
   - key: picks.josh_comeau.name
     t: |
-      Генератор функції-пом'якшення `linear()`
+      Генератор функції плавності `linear()`
   - key: picks.josh_comeau.bio
     t: Інді-розробник та освітній діяч
   - key: picks.josh_comeau.description
     t: |
-      Description: The `linear()` timing function has quickly become one of my favourite modern features, and this lovely tool makes it easy to quickly generate CSS springs from JS logic!
+      Функція плавності з часом `linear()` дуже швидко стала однією з моїх найулюбленіших сучасних функцій, а цей чудовий інструмент дає змогу легко й швидко генерувати "пружинки" (springs) у CSS із JS-логіки!
 
   # https://developer.mozilla.org/en-US/docs/Web/CSS/if
   - key: picks.ahmad_shadeed.name
@@ -395,7 +395,7 @@ translations:
     t: Дизайн-інженер, автор [debuggingcss.com](https://debuggingcss.com)
   - key: picks.ahmad_shadeed.description
     t: |
-      Combined with `:has()` and style queries, `if()` will help us do even more conditional stuff in CSS.
+      Разом із `:has()` і запитами за стилями, `if()` допоможе нам робити ще більше умовних речей у CSS.
 
   # https://developer.mozilla.org/en-US/docs/Web/CSS/text-wrap
   - key: picks.kilian_valkhof.name
@@ -405,7 +405,7 @@ translations:
     t: Автор [Polypane](https://polypane.app/)
   - key: picks.kilian_valkhof.description
     t: |
-      I can’t remember the last time a new CSS property was introduced that I could just add to any stylesheet new and old. It’s a little magic one liner that makes your titles much nicer with zero downsides. Add it to your css resets!
+      Не пам'ятаю, коли востаннє з'являлася нова властивість CSS, яку можна було просто додати в будь-який, навіть старий, файл стилю. Це маленький чарівний однорядковий запис, який робить ваші заголовки значно кращими без жодних побічних ефектів. Додайте його у свої `reset`-файли!
 
     # https://codepen.io/thebabydino/pen/LEExpVg
   - key: picks.ana_tudor.name
@@ -414,9 +414,9 @@ translations:
     t: CSS Mad Scientist
   - key: picks.ana_tudor.description
     t: |
-      My pick not as much a single feature that changes things, as it is the way multiple features can be used together.
+      Мій вибір — це не одна функція, що змінює все, а спосіб комбінувати кілька функцій разом. 
 
-      For example, subgrid + the new `corner-shape` (or the `shape()` clip-path function) to get content-dependant shapes with concave roundings that aren't necessarily circular.
+      Наприклад, вкладена сітка + новий `corner-shape` (або функція clip-path `shape()`) для отримання залежних від контенту форми з увігнутими заокругленнями, які не обов'язково мають бути круглими.
 
   # https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Values_and_Units/Using_CSS_math_functions
   - key: picks.amit_sheen.name
@@ -425,9 +425,9 @@ translations:
     t: Веброзробник та креативний програміст
   - key: picks.amit_sheen.description
     t: |
-      Math is the language of the universe, of life itself, and without it, we wouldn’t be able to describe, measure, or build anything with clarity. 
+      Математика — це мова Всесвіту, самого життя, і без неї ми не могли б нічого описати, виміряти чи збудувати чітко й зрозуміло. 
 
-      So the fact that we can now use these functions natively in CSS only strengthens our capabilities and opens up a whole world of new possibilities.
+      Тож той факт, що тепер ми можемо використовувати ці функції нативно в CSS, лише розширює наші можливості та відкриває цілий світ нових рішень.
 
   # https://miocene.io/
   - key: picks.sacha_greif.name
@@ -436,7 +436,7 @@ translations:
     t: Мейнтейнер State of CSS
   - key: picks.sacha_greif.description
     t: |
-      When you spend days on end debugging a layout or styling forms, it's easy to forget that front-end coding can also be enjoyed for its own sake. Julia's amazing work is a great reminder of the joy and creativity that can be found in CSS, if you just take the time to look for it.
+      Коли днями налагоджуєш верстку чи додаєш стилі до форм, легко забути, що програмування клієнтської частини може просто приносити задоволення. Дивовижна робота від Julia нагадує про радість і креативність, які можна знайти в CSS, — якщо лише виокремити на це час.
 
   # https://developer.mozilla.org/en-US/docs/Web/API/View_Transition_API
   - key: picks.julia_miocene.name
@@ -445,7 +445,7 @@ translations:
     t: Дизайнерка продукту, UX-інженерка, аніматорка "чистим" CSS
   - key: picks.julia_miocene.description
     t: |
-      My pick of the year is the View Transition API. It helped me get rid of JS code and complex animation tricks. Now I can animate generated content and user interactions with ease ✨
+      Мій вибір року — View Transition API. Воно допомогло мені позбутися JS-коду та складних анімаційних трюків. Тепер я можу анімувати згенерований контент і взаємодії користувача з легкістю ✨
 
   # https://modern-fluid-typography.vercel.app/
   - key: picks.ana_rodrigues.name
@@ -455,7 +455,7 @@ translations:
     t: Розробниця клієнтської частини в [Hactar.is](https://hactar.is/)
   - key: picks.ana_rodrigues.description
     t: |
-      My pick of the year is all the font clamp generators that people have been creating and sharing. What’s great about them is that they are all so different so it accommodates different learning styles. Especially, if reading documentation alone doesn’t help understanding how something works.
+      Мій вибір року — це всі генератори кеглю шрифтів із clamp, які створюють і поширюють люди. Чудово, що вони всі настільки різні, що годяться для різних стилів навчання. Особливо, якщо читання документації саме по собі не допомагає зрозуміти, як щось працює.
 
   # https://piccalil.li/blog/
   - key: picks.saron_yitbarek.name
@@ -464,7 +464,7 @@ translations:
     t: Євангелістка вебу в Apple
   - key: picks.saron_yitbarek.description
     t: |
-      I've been following Piccalili for a while and I love that they have free technical articles alongside more in-depth paid courses so you can pick what flavor of learning you're up for. And as a business, they're so thoughtful about understanding the web community and making ethical business decisions that allow them to do great work without feeling icky about how they make money.
+      Я вже певний час спостерігаю за Piccalili й обожнюю те, що в них є безкоштовні технічні статті поряд із поглибленими платними курсами, тож ви можете обрати формат навчання, який вам більше до снаги. І як бізнес вони дуже уважно ставляться до вебспільноти й приймають етичні бізнес-рішення, що дають їм змогу робити чудову роботу без неприємного відчуття щодо способів заробітку.
 
   # https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/light-dark
   - key: picks.sara_joy.name
@@ -474,7 +474,7 @@ translations:
     t: Розробниця клієнтської частини
   - key: picks.sara_joy.description
     t: |
-      Once using `color-scheme` in CSS, using `light-dark()` to declare colors based upon whether light or dark mode is currently in use feels like a no-brainer. I'm currently enjoying following [this discussion thread](https://github.com/w3c/csswg-drafts/issues/10577) about what further logic we may use in the future, to query color-scheme and change CSS conditionally.
+      Коли починаєш використовувати `color-scheme` у CSS, застосування `light-dark()` для визначення кольорів залежно від світлого або темного режиму видається очевидним кроком. Наразі із задоволенням стежу за [цією гілкою обговорення](https://github.com/w3c/csswg-drafts/issues/10577) про те, яку ще логіку ми зможемо використовувати в майбутньому, щоб запитувати color-scheme і змінювати CSS умовно.
 
   - key: frontendmasters.learning_path
     t: |
