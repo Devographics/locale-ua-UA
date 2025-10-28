@@ -575,7 +575,7 @@ translations:
   - key: options.job_title.frontend_lead
     t: Керівники команди клієнтського ПЗ
   - key: options.job_title.lead
-    t: Керівники команди 
+    t: Керівники команди
   # engineer
   - key: options.job_title.software_engineer
     t: Інженери ПЗ
@@ -1014,7 +1014,7 @@ translations:
     t: Налаштувати дані
   - key: custom_data.details
     t: >
-      
+
       1. Скопіюйте вміст поля "GraphQL-запит" і вставте його в середню панель [API-оглядача GraphQL](https://graphiql.stateofjs.com/).
 
       2. Змініть запит, додавши один або кілька **фільтрів** за допомогою лівої панелі оглядача. Переконайтеся, що загальна структура даних залишається такою ж.
@@ -1330,10 +1330,10 @@ translations:
     t: Показати нейтральне
 
   # other bucket
-  - key: charts.other_bucket.percents.positive
+  - key: charts.other_bucket.previous_edition.percents.positive
     t: |
       +{value}% вище, ніж в останньому опитуванні
-  - key: charts.other_bucket.percents.negative
+  - key: charts.other_bucket.previous_edition.percents.negative
     t: |
       -{value}% нижче, ніж в останньому опитуванні
   - key: charts.other_bucket.ranks.positive
