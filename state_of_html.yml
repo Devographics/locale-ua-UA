@@ -71,6 +71,8 @@ translations:
 
   - key: sections.graphics_multimedia.title
     t: Графіка та мультимедіа
+    aliases:
+      - features.graphics_multimedia
   - key: sections.graphics_multimedia.prompt
     t: Рендеринг графіки та анімацій.
 
@@ -86,6 +88,8 @@ translations:
 
   - key: sections.system_capabilities.title
     t: Системні функції
+    aliases:
+      - features.system_capabilities
   - key: sections.system_capabilities.prompt
     t: Доступ до API пристрою та системи.
 
@@ -396,7 +400,7 @@ translations:
   # web_components_common_pain_points
 
   - key: features.web_components_common_pain_points
-    t: Проблеми
+    t: Проблеми вебкомпонентів
   - key: features.web_components_common_pain_points.question
     t: Які проблеми створення та використання вебкомпонентів найбільше вас розчаровують?
 
@@ -454,7 +458,7 @@ translations:
   # web_components_other_pain_points
 
   - key: features.web_components_other_pain_points
-    t: Інші проблеми
+    t: Інші проблеми вебкомпонентів
   - key: features.web_components_other_pain_points.question
     t: Які ще проблеми створення та використання вебкомпонентів вас розчаровують?
   - key: features.web_components_other_pain_points.placeholder
@@ -587,13 +591,21 @@ translations:
 
   - key: features.accessibility_screenreaders
     t: Екранні зчитувальні пристрої
+    aliases:
+      - accessibility.accessibility_screenreaders
   - key: features.accessibility_screenreaders.question
     t: Які екранні зчитувальні пристрої ви використовуєте для тестування доступності?
+    aliases:
+      - accessibility.accessibility_screenreaders.question
 
   - key: features.accessibility_techniques
     t: Інші методи забезпечення доступності
+    aliases:
+      - accessibility.accessibility_techniques
   - key: features.accessibility_techniques.question
     t: Які ще методи складають вашу звичну стратегію забезпечення доступності?
+    aliases:
+      - accessibility.accessibility_techniques.question
 
   - key: options.accessibility_techniques.tabindex
     t: |

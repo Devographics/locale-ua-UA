@@ -220,15 +220,6 @@ translations:
   - key: sections.resources_css.description
     t: До яких джерел щодо СSS ви звертаєтеся?
 
-  - key: features.pain_points
-    t: Проблеми
-
-  - key: features.all_features
-    t: Усі функції
-
-  - key: features.features_ratios_over_time
-    t: Функції з часом
-
   ###########################################################################
   # Other Tools
   ###########################################################################
@@ -1103,26 +1094,36 @@ translations:
 
   - key: options.css_pace_of_change.1
     t: Не знали/не випробували більшість функцій
+    aliases:
+      - options.js_pace_of_change.1
   # - key: options.css_pace_of_change.0.description
   # t: I haven't learned about or tried out most features
 
   - key: options.css_pace_of_change.2
     t: Дізналися про деякі функції, але не випробували їх
+    aliases:
+      - options.js_pace_of_change.2
   # - key: options.css_pace_of_change.1.description
   # t: I've learned about some of the features; but haven't tried them out
 
   - key: options.css_pace_of_change.3
     t: Дізналися про деякі функції та випробували їх
+    aliases:
+      - options.js_pace_of_change.3
   # - key: options.css_pace_of_change.2.description
   # t: I've learned about and tried out some of the features
 
   - key: options.css_pace_of_change.4
     t: Дізналися про більшість функцій та випробували деякі з них
+    aliases:
+      - options.js_pace_of_change.4
   # - key: options.css_pace_of_change.3.description
   # t: I've learned about most of the features and tried out some of them
 
   - key: options.css_pace_of_change.5
     t: Дізналися про більшість функцій та випробували їх
+    aliases:
+      - options.js_pace_of_change.5
   # - key: options.css_pace_of_change.4.description
   #   t: I've learned about and tried out most of the features
 

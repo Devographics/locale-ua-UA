@@ -552,6 +552,8 @@ translations:
     t: 17.x
   - key: options.react_version.react_v18x
     t: 18.x
+  - key: options.react_version.react_v19x
+    t: 19.x
   - key: options.react_version.react_canary
     t: Canary
   - key: options.react_version.not_sure
@@ -643,6 +645,54 @@ translations:
     t: Чи є ще які-небудь проблеми щодо React, які ви хотіли б згадати?
     aliases:
       - react_pain_points.usage_pain_points.question
+
+  - key: usage.meta_involvement_opinion
+    t: Причетність Meta
+  - key: usage.meta_involvement_opinion.question
+    t: Як ви ставитеся до залученості компанії Meta до React-у?
+
+  - key: options.meta_involvement_opinion.0
+    t: Дуже негативно
+  - key: options.meta_involvement_opinion.1
+    t: Негативно
+  - key: options.meta_involvement_opinion.2
+    t: Нейтрально
+  - key: options.meta_involvement_opinion.3
+    t: Позитивно
+  - key: options.meta_involvement_opinion.4
+    t: Дуже позитивно
+
+  - key: usage.vercel_involvement_opinion
+    t: Причетність Vercel
+  - key: usage.vercel_involvement_opinion.question
+    t: Як ви ставитеся до залученості компанії Vercel до React-у?
+
+  - key: options.vercel_involvement_opinion.0
+    aliasFor: options.meta_involvement_opinion.0
+  - key: options.vercel_involvement_opinion.1
+    aliasFor: options.meta_involvement_opinion.1
+  - key: options.vercel_involvement_opinion.2
+    aliasFor: options.meta_involvement_opinion.2
+  - key: options.vercel_involvement_opinion.3
+    aliasFor: options.meta_involvement_opinion.3
+  - key: options.vercel_involvement_opinion.4
+    aliasFor: options.meta_involvement_opinion.4
+
+  - key: usage.react_foundation_involvement_opinion
+    t: Причетність React Foundation
+  - key: usage.react_foundation_involvement_opinion.question
+    t: Як ви ставитеся до залученості організації React Foundation до React-у?
+
+  - key: options.react_foundation_involvement_opinion.0
+    aliasFor: options.meta_involvement_opinion.0
+  - key: options.react_foundation_involvement_opinion.1
+    aliasFor: options.meta_involvement_opinion.1
+  - key: options.react_foundation_involvement_opinion.2
+    aliasFor: options.meta_involvement_opinion.2
+  - key: options.react_foundation_involvement_opinion.3
+    aliasFor: options.meta_involvement_opinion.3
+  - key: options.react_foundation_involvement_opinion.4
+    aliasFor: options.meta_involvement_opinion.4
 
   # new features
   - key: usage.new_features
@@ -848,7 +898,36 @@ translations:
   - key: react_pain_points.cache_issues
     t: Проблеми кешу
 
-###########################################################################
+  ###########################################################################
+  # FAQ/About
+  ###########################################################################
+
+  - key: faq.data_used_react
+    t: Як ці дані будуть використані?
+  - key: faq.data_used_react.description
+    t: >
+      Усі зібрані дані будуть відкрито опубліковані для консультації всіх охочих. Розробники або компанії можуть використовувати їх для визначення пріоритетних напрямків розробки та формування своїх "дорожніх карт".
+
+  - key: faq.survey_goals_react
+    t: Яка мета цього опитування?
+  - key: faq.survey_goals_react.description
+    t: >
+      Мета опитування — вимірювання впізнаваності та популярності з-поміж API React-у, а також бібліотек в екосистемі React.
+
+  - key: faq.who_should_take_survey_react
+    t: Хто може взяти участь у цьому опитуванні?
+  - key: faq.who_should_take_survey_react.description
+    t: >
+      Це відкрите опитування для всіх, хто користується React, незалежно від того, регулярно ви це робите або час від часу, у межах своєї роботи, як студент або задля розваги!
+
+  - key: faq.how_long_will_survey_take_react
+    t: Скільки часу займе опитування?
+  - key: faq.how_long_will_survey_take_react.description
+    t: >
+      Залежно від того, на скільки питань ви відповісте (всі питання не обов'язкові), 
+      заповнення анкети повинно зайняти орієнтовно 15-20 хвилин.
+
+  ###########################################################################
   # Entities repo - https://github.com/Devographics/entities
   ###########################################################################
 

@@ -1,4 +1,87 @@
 locale: ua-UA
 translations:
-  - key: foo
-    t: bar
+  ###########################################################################
+  # General
+  ###########################################################################
+
+  - key: finish.share_message.js2025
+    t: The State of JS 2025 survey is now open! {link}
+
+  - key: general.results.description
+    t: Щорічне опитування про останні тенденції в екосистемі JavaScript за 2025 рік.
+
+  ###########################################################################
+  # Survey Intro
+  ###########################################################################
+
+  - key: general.js2025.survey_intro
+    t: >
+      JavaScript, you OK? You've barely created any new front-end frameworks this year.
+
+
+      After a decade of rapid iteration, it seems clear that the ecosystem has stabilized over the last few years. For example, did you know that “newcomer” Svelte is *9 years old*? Which, in JavaScript framework years, is basically ancient!
+
+
+      Instead, the main battle has moved to the realm of meta-frameworks, with Astro making a serious attempt at Next.js's crown – while over in build-tool land, it seems only a matter of time until Vite overtakes webpack. 
+
+
+      Or maybe something else entirely will appear out of the Rust ecosystem and suddenly take over, bringing a premature end to our well-deserved era of peace and quiet.  
+
+
+      Whatever happens, one thing's for sure: you can help us figure it all out by taking this year's State of JavaScript survey!
+
+  ###########################################################################
+  # Survey FAQ
+  ###########################################################################
+
+  - key: faq.how_long_will_survey_take_js2025
+    t: Скільки часу займе опитування?
+  - key: faq.how_long_will_survey_take_js2025.description
+    t: >
+      Залежно від того, на скільки питань ви відповісте (всі питання не обов'язкові), 
+      заповнення анкети займе орієнтовно 15-20 хвилин.
+
+  - key: faq.survey_design_js2025
+    t: Як було розроблено це опитування?
+  - key: faq.survey_design_js2025.description
+    t: >
+      Опитування було розроблено унаслідок [відкритого процесу розробки](https://github.com/Devographics/surveys/issues/307) із залученням постачальників браузерів і спільноти веброзробки.
+
+  - key: faq.results_released_js2025
+    t: Коли будуть опубліковані результати?
+  - key: faq.results_released_js2025.description
+    t: Опитування триватиме із 1 жовтня до 1 листопада 2025 року, і його результати будуть опубліковані незабаром після завершення.
+
+  ###########################################################################
+  # Overview
+  ###########################################################################
+
+  - key: overview_1_frontend_fatigue.js2025
+    t: |
+      ### 1. Front-end Frameworks
+      ## Front-end Fatigue
+
+  - key: overview_2_whats_next.js2025
+    t: |
+      ### 2. Meta Frameworks
+      ## What's Next?
+
+  - key: overview_3_back_in_business.js2025
+    t: |
+      ### 3. Back-end Frameworks
+      ## Back in Business
+
+  - key: overview_4_build_it.js2025
+    t: |
+      ### 4. Build Tools
+      ## Build it and They Will Come
+
+  - key: overview_5_static_typing.js2025
+    t: |
+      ### 5. Language
+      ## Static Shock
+
+  - key: overview_6_other_languages.js2025
+    t: |
+      ### 6. Ecosystem
+      ## Multilingual Movement
