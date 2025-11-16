@@ -208,6 +208,40 @@ translations:
       Я використовував(-ла) {usage_count} і знаю ще {awareness_count} функцій, 
       і опинився(-лась) серед {rank}% найуспішніших респондентів. 
       Зможеш краще? {shareUrl}
+
+  # survey finish page
+
+  - key: finish.copy
+    t: Copy
+  - key: finish.copied
+    t: Copied!
+
+  - key: finish.goal_heading
+    t: Thanks for taking the survey! But we still need your help…
+
+  - key: finish.goal_heading.description
+    t: This year, we'd like to get a least **{count} survey responses** to make our data even more representative and unlock new insights.
+
+  - key: finish.goal_currently
+    t: >
+      Currently:
+
+  - key: finish.goal_goal
+    t: >
+      Goal:
+
+  - key: finish.goal_responses
+    t: responses
+
+  - key: finish.share_colleagues
+    t: 1. Share with friends and colleagues
+
+  - key: finish.share_colleagues.description
+    t: Post it on Slack, Discord, Teams, or anywhere your developer friends hang out.
+
+  - key: finish.share_social
+    t: 2. Share on social media
+
   # share
   - key: general.share_subject
     t: >
@@ -271,6 +305,9 @@ translations:
   ###########################################################################
   # Sections
   ###########################################################################
+
+  - key: sections.overview.title
+    t: Overview
 
   - key: sections.user_info.title
     t: Про вас
@@ -1779,6 +1816,25 @@ translations:
   - key: user_info.how_can_we_improve.question
     t: Як ми можемо покращити це опитування?
 
+  # why_did_you_take_the_survey
+  - key: user_info.why_did_you_take_the_survey
+    t: Survey Motivation
+  - key: user_info.why_did_you_take_the_survey.question
+    t: What are the main benefits you get from taking this survey?
+
+  - key: options.why_did_you_take_the_survey.stay_informed
+    t: It helps me stay informed and keep up with the ecosystem.
+  - key: options.why_did_you_take_the_survey.interested_in_data
+    t: I'm interested in the resulting data and trends.
+  - key: options.why_did_you_take_the_survey.help_with_representation
+    t: I want to help make the dataset more representative.
+  - key: options.why_did_you_take_the_survey.for_fun
+    t: I take it out of curiosity, or just for fun.
+  - key: options.why_did_you_take_the_survey.affect_change
+    t: I want to make my voice heard and influence the developer ecosystem.
+  - key: options.why_did_you_take_the_survey.gauge_my_knowledge
+    t: I want to gauge my own current knowledge.
+
   ###########################################################################
   # Usage
   ###########################################################################
@@ -1849,7 +1905,7 @@ translations:
   - key: resources.courses
     t: Курси та навчальні матеріали
   - key: resources.courses.question
-    t: Які курси ви проходили або якими навчальними матеріалами (відео, книги тощо) користувалися?
+    t: Які курси ви проходили або якими навчальними матеріалами (відео, книги тощо) користувалися, щоб вивчати JavaScript?
   - key: options.courses.na
     t: 🚫 Нічого
   - key: resources.courses.placeholder
@@ -2008,4 +2064,4 @@ translations:
     t: Немає даних бази сумісності.
 
   - key: feature.experimental
-    t: Непідтримувана функція або пропозиція
+    t: Наразі непідтримувана функція або пропозиція

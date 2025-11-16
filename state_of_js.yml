@@ -127,12 +127,12 @@ translations:
 
   - key: tools.front_end_frameworks
     aliasFor: sections.front_end_frameworks.title
+  - key: tools.back_end_frameworks
+    aliasFor: sections.back_end_frameworks.title
   - key: tools.meta_frameworks
     aliasFor: sections.meta_frameworks.title
   - key: tools.testing
     aliasFor: sections.testing.title
-  - key: tools.mobile_desktop
-    aliasFor: sections.mobile_desktop.title
   - key: tools.build_tools
     aliasFor: sections.build_tools.title
   - key: tools.monorepo_tools
@@ -151,6 +151,10 @@ translations:
     t: >
       Наступні кілька розділів присвячені **бібліотекам** та **фреймворкам**, 
       які складають екосистему JavaScript. Розкажіть, від чого ви в захваті!
+
+  - key: tools.back_end_frameworks_intro
+    t: >
+      We're bringing back the back-end frameworks section this year!і
 
   ###########################################################################
   # Options
@@ -295,7 +299,7 @@ translations:
   - key: options.currently_missing_from_js.static_typing
     t: Статична типізація
   - key: options.currently_missing_from_js.static_typing.description
-    t: Типізація у нативному середовищі виконання; або типи-коментарі у стилі TypeScript
+    t: Будь-який вид нативної статичної типізації.
   - key: options.currently_missing_from_js.standard_library
     t: Стандартна бібліотека
   - key: options.currently_missing_from_js.standard_library.description
@@ -625,6 +629,8 @@ translations:
 
   - key: tools.front_end_frameworks_ratios
     t: Співвідношення фреймворків для клієнтської частини з часом
+    aliases:
+      - front_end_frameworks.front_end_frameworks_ratios
   - key: tools.front_end_frameworks_ratios.short
     aliasFor: tools.ratios
 
@@ -640,6 +646,8 @@ translations:
 
   - key: tools.front_end_frameworks.others
     t: Інші фреймворки для клієнтської частини
+    aliases:
+      - front_end_frameworks.front_end_frameworks_others
   - key: tools.front_end_frameworks.others.short
     aliasFor: tools.others
   - key: tools.front_end_frameworks_others
@@ -647,13 +655,17 @@ translations:
 
   - key: tools.front_end_frameworks_happiness
     t: Задоволення фреймворками для клієнтської частини
+    aliases:
+      - front_end_frameworks.front_end_frameworks_happiness
   - key: tools.front_end_frameworks_happiness.short
     aliasFor: charts.axis_legends.happiness
   - key: tools.front_end_frameworks_happiness.question
-    t: Наскільки ви задоволені поточним станом фреймворків для клієнтської частини? За шкалою від 0 (дуже незадоволені) до 4 (дуже задоволені).
+    t: Наскільки ви задоволені поточним станом фреймворків для клієнтської частини? За шкалою від 1 (дуже незадоволені) до 5 (дуже задоволені).
 
   - key: tools.front_end_frameworks_pain_points
     t: Проблеми фреймворків для клієнтської частини
+    aliases:
+      - front_end_frameworks.front_end_frameworks_pain_points
   - key: tools.front_end_frameworks_pain_points.short
     aliasFor: tools.pain_points
   - key: tools.front_end_frameworks_pain_points.question
@@ -663,6 +675,8 @@ translations:
 
   - key: tools.meta_frameworks_ratios
     t: Співвідношення метафреймворків із часом
+    aliases:
+      - meta_frameworks.meta_frameworks_ratios
   - key: tools.meta_frameworks_ratios.short
     aliasFor: tools.ratios
 
@@ -678,6 +692,8 @@ translations:
 
   - key: tools.meta_frameworks.others
     t: Інші метафреймворки
+    aliases:
+      - meta_frameworks.meta_frameworks_others
   - key: tools.meta_frameworks.others.short
     aliasFor: tools.others
   - key: tools.meta_frameworks_others
@@ -685,22 +701,74 @@ translations:
 
   - key: tools.meta_frameworks_happiness
     t: Задоволення метафреймворками
+    aliases:
+      - meta_frameworks.meta_frameworks_happiness
   - key: tools.meta_frameworks_happiness.short
     aliasFor: charts.axis_legends.happiness
   - key: tools.meta_frameworks_happiness.question
-    t: Наскільки ви задоволені поточним станом метафреймворків? За шкалою від 0 (дуже незадоволені) до 4 (дуже задоволені).
+    t: Наскільки ви задоволені поточним станом метафреймворків? За шкалою від 1 (дуже незадоволені) до 5 (дуже задоволені).
 
   - key: tools.meta_frameworks_pain_points
     t: Проблеми метафреймворків
+    aliases:
+      - meta_frameworks.meta_frameworks_pain_points
   - key: tools.meta_frameworks_pain_points.short
     aliasFor: tools.pain_points
   - key: tools.meta_frameworks_pain_points.question
     t: З якими проблемами ви стикалися під час використання метафреймворків?
 
+  # back-end frameworks
+
+  - key: tools.back_end_frameworks_ratios
+    t: Back-end Frameworks Ratios Over Time
+    aliases:
+      - back_end_frameworks.back_end_frameworks_ratios
+  - key: tools.back_end_frameworks_ratios.short
+    aliasFor: tools.ratios
+
+  - key: tools.back_end_frameworks_experience
+    t: Back-end Frameworks Experience & Sentiment
+  - key: tools.back_end_frameworks_experience.short
+    aliasFor: tools.experience
+
+  - key: toolsback_end_frameworks_work
+    aliasFor: tools.tools_work
+  - key: tools.back_end_frameworks_work.question
+    aliasFor: tools.tools_work.question
+
+  - key: tools.back_end_frameworks.others
+    t: Other Back-end Frameworks
+    aliases:
+      - back_end_frameworks.back_end_frameworks_others
+  - key: tools.back_end_frameworks.others.short
+    aliasFor: tools.others
+  - key: tools.back_end_frameworks_others
+    aliasFor: tools.meta_frameworks.others
+
+  - key: tools.back_end_frameworks_happiness
+    t: Back-end Frameworks Happiness
+    aliases:
+      - back_end_frameworks.back_end_frameworks_happiness
+  - key: tools.mback_end_frameworks_happiness.short
+    aliasFor: charts.axis_legends.happiness
+  - key: tools.back_end_frameworks_happiness.question
+    t: On a scale of 1 (very unhappy) to 5 (very happy), how happy are you with the current state of back-end frameworks?
+
+  - key: tools.back_end_frameworks_pain_points
+    t: Back-end Frameworks Pain Points
+    aliases:
+      - back_end_frameworks.back_end_frameworks_pain_points
+  - key: tools.back_end_frameworks_pain_points.short
+    aliasFor: tools.pain_points
+  - key: tools.back_end_frameworks_pain_points.question
+    t: What pain points have you encountered when using back-end frameworks?
+
   # testing
 
   - key: tools.testing_ratios
     t: Співвідношення інструментів тестування з часом
+    aliases:
+      - testing.testing_ratios
   - key: tools.testing_ratios.short
     aliasFor: tools.ratios
 
@@ -716,18 +784,24 @@ translations:
 
   - key: tools.testing_others
     t: Інші інструменти тестування
+    aliases:
+      - testing.testing_others
   - key: tools.testing_others.short
     aliasFor: tools.others
 
   - key: tools.testing_happiness
     t: Задоволення інструментами тестування
+    aliases:
+      - testing.testing_happiness
   - key: tools.testing_happiness.short
     aliasFor: charts.axis_legends.happiness
   - key: tools.testing_happiness.question
-    t: Наскільки ви задоволені поточним станом інструментів для тестування коду? За шкалою від 0 (дуже незадоволені) до 4 (дуже задоволені).
+    t: Наскільки ви задоволені поточним станом інструментів для тестування коду? За шкалою від 1 (дуже незадоволені) до 5 (дуже задоволені).
 
   - key: tools.testing_pain_points
     t: Проблеми інструментів тестування
+    aliases:
+      - testing.testing_pain_points
   - key: tools.testing_pain_points.short
     aliasFor: tools.pain_points
   - key: tools.testing_pain_points.question
@@ -760,7 +834,7 @@ translations:
   - key: tools.mobile_desktop_happiness.short
     aliasFor: charts.axis_legends.happiness
   - key: tools.mobile_desktop_happiness.question
-    t: Наскільки ви задоволені поточним станом інструментів для мобільних пристроїв і настільних комп'ютерів? За шкалою від 0 (дуже незадоволені) до 4 (дуже задоволені).
+    t: Наскільки ви задоволені поточним станом інструментів для мобільних пристроїв і настільних комп'ютерів? За шкалою від 1 (дуже незадоволені) до 5 (дуже задоволені).
 
   - key: tools.mobile_desktop_pain_points
     t: Проблеми інструментів для мобільних пристроїв і настільних комп'ютерів
@@ -773,6 +847,8 @@ translations:
 
   - key: tools.build_tools_ratios
     t: Співвідношення інструментів для збирання з часом
+    aliases:
+      - build_tools.build_tools_ratios
   - key: tools.build_tools_ratios.short
     aliasFor: tools.ratios
 
@@ -788,18 +864,24 @@ translations:
 
   - key: tools.build_tools_others
     t: Інші інструменти для збирання
+    aliases:
+      - build_tools.build_tools_others
   - key: tools.build_tools.short
     t: Збирачі
 
   - key: tools.build_tools_happiness
     t: Задоволення інструментами для збирання
+    aliases:
+      - build_tools.build_tools_happiness
   - key: tools.build_tools_happiness.short
     aliasFor: charts.axis_legends.happiness
   - key: tools.build_tools_happiness.question
-    t: Наскільки ви задоволені поточним станом інструментів для збирання коду? За шкалою від 0 (дуже незадоволені) до 4 (дуже задоволені).
+    t: Наскільки ви задоволені поточним станом інструментів для збирання коду? За шкалою від 1 (дуже незадоволені) до 5 (дуже задоволені).
 
   - key: tools.build_tools_pain_points
     t: Проблеми інструментів для збирання
+    aliases:
+      - build_tools.build_tools_pain_points
   - key: tools.build_tools_pain_points.short
     aliasFor: tools.pain_points
   - key: tools.build_tools_pain_points.question
@@ -832,7 +914,7 @@ translations:
   - key: tools.monorepo_tools_happiness.short
     aliasFor: charts.axis_legends.happiness
   - key: tools.monorepo_tools_happiness.question
-    t: Наскільки ви задоволені поточним станом інструментів для монорепозиторіїв? За шкалою від 0 (дуже незадоволені) до 4 (дуже задоволені).
+    t: Наскільки ви задоволені поточним станом інструментів для монорепозиторіїв? За шкалою від 1 (дуже незадоволені) до 5 (дуже задоволені).
 
   - key: tools.monorepo_tools_pain_points
     t: Проблеми інструментів для монорепозиторіїв
@@ -890,6 +972,8 @@ translations:
   - key: tools.build_tools.others.description
     t: Інше (поле відповіді довільної форми).
 
+  # non_js_languages
+
   - key: tools.non_js_languages
     t: Мови, окрім JavaScript
   - key: tools.non_js_languages.question
@@ -900,6 +984,28 @@ translations:
     t: Інші мови
   - key: tools.non_js_languages.others.description
     t: Інше (поле відповіді довільної форми).
+
+  # non_js_languages_features
+
+  - key: tools.non_js_languages_features
+    t: Non-JavaScript Features
+    aliases:
+      - other_tools.non_js_languages_features
+  - key: tools.non_js_languages_features.question
+    t: Which features from other programming languages do you wish JavaScript/TypeScript would adopt?
+    aliases:
+      - other_tools.non_js_languages_features.question
+  - key: tools.non_js_languages_features.prompt
+    t: >
+      When possible, specify both the language and the feature, e.g. “Rust: pattern matching”
+    aliases:
+      - other_tools.non_js_languages_features.prompt
+
+  - key: other_tools.non_js_languages_features_top_features
+    t: Non-JavaScript Features
+
+  - key: other_tools.non_js_languages_features_top_languages
+    t: Non-JavaScript Features by Language
 
   - key: tools.javascript_flavors
     t: Різновиди JavaScript
@@ -950,6 +1056,8 @@ translations:
   - key: tools.data_visualization
     t: Візуалізація даних
   - key: tools.data_visualization.question
+    t: Which data visualization libraries do you use?
+  - key: tools.data_visualization.prompt
     t: Бібліотеки, що допомагають із побудовою графіків та інших візуальних представлень даних.
   - key: tools.data_visualization.others
     t: Інші бібліотеки візуалізації даних
@@ -957,6 +1065,8 @@ translations:
   - key: tools.graphics_animation
     t: Графіка та анімація
   - key: tools.graphics_animation.question
+    t: Which graphics & animation libraries do you regularly use?
+  - key: tools.graphics_animation.prompt
     t: Бібліотеки для створення графіки та анімацій.
   - key: tools.graphics_animation.others
     t: Інші бібліотеки для графіки та анімацій
@@ -1033,6 +1143,8 @@ translations:
 
   - key: tools.backend_frameworks
     aliasFor: sections.back_end_frameworks.title
+  - key: tools.backend_frameworks.question
+    t: Which back-end frameworks do you use?
   - key: tools.backend_frameworks.description
     t: Фреймворки для генерації API та управління серверною частиною
   - key: tools.backend_frameworks.others
@@ -1121,6 +1233,24 @@ translations:
     aliases:
       - other_tools.hosting.question
 
+  - key: tools.mobile_desktop
+    aliasFor: sections.mobile_desktop.title
+  - key: other_tools.mobile_desktop
+    aliasFor: sections.mobile_desktop.title
+  - key: tools.mobile_desktop.question
+    t: Which of these mobile or desktop app frameworks do you regularly use?
+    aliases:
+      - other_tools.mobile_desktop.question
+
+  - key: tools.monorepo_tools
+    aliasFor: sections.monorepo_tools.title
+  - key: other_tools.monorepo_tools
+    aliasFor: sections.monorepo_tools.title
+  - key: tools.monorepo_tools.question
+    t: Which of these monorepo tools do you regularly use?
+    aliases:
+      - other_tools.monorepo_tools.question
+
   ###########################################################################
   # Usage
   ###########################################################################
@@ -1165,24 +1295,24 @@ translations:
   - key: options.js_ts_balance.8
     t: 100% TS
 
-  - key: options.js_ts_balance.0.description
-    aliasFor: options.slider.0.description
-  - key: options.js_ts_balance.1.description
-    aliasFor: options.slider.1.description
-  - key: options.js_ts_balance.2.description
-    aliasFor: options.slider.2.description
-  - key: options.js_ts_balance.3.description
-    aliasFor: options.slider.3.description
-  - key: options.js_ts_balance.4.description
-    aliasFor: options.slider.4.description
-  - key: options.js_ts_balance.5.description
-    aliasFor: options.slider.5.description
-  - key: options.js_ts_balance.6.description
-    aliasFor: options.slider.6.description
-  - key: options.js_ts_balance.7.description
-    aliasFor: options.slider.7.description
-  - key: options.js_ts_balance.8.description
-    aliasFor: options.slider.8.description
+  # - key: options.js_ts_balance.0.description
+  #   aliasFor: options.slider.0.description
+  # - key: options.js_ts_balance.1.description
+  #   aliasFor: options.slider.1.description
+  # - key: options.js_ts_balance.2.description
+  #   aliasFor: options.slider.2.description
+  # - key: options.js_ts_balance.3.description
+  #   aliasFor: options.slider.3.description
+  # - key: options.js_ts_balance.4.description
+  #   aliasFor: options.slider.4.description
+  # - key: options.js_ts_balance.5.description
+  #   aliasFor: options.slider.5.description
+  # - key: options.js_ts_balance.6.description
+  #   aliasFor: options.slider.6.description
+  # - key: options.js_ts_balance.7.description
+  #   aliasFor: options.slider.7.description
+  # - key: options.js_ts_balance.8.description
+  #   aliasFor: options.slider.8.description
 
   # ai_generated_code_balance
 
@@ -1242,6 +1372,67 @@ translations:
   - key: options.compiled_code_balance.8
     t: 100% компілюється
 
+  # build_step_advantages
+  - key: usage.build_step_advantages
+    t: Build Step Advantages
+  - key: usage.build_step_advantages.question
+    t: What do you feel are the main advantages resulting from using a build step?
+  - key: usage.build_step_advantages.prompt
+    t: Any code bundling, minifying, etc., as opposed to code directly executed by the browser.
+
+  - key: options.build_step_advantages.types
+    t: Static typing
+  - key: options.build_step_advantages.types.description
+    t: TypeScript, etc.
+
+  - key: options.build_step_advantages.developer_experience
+    t: Better development experience
+  - key: options.build_step_advantages.developer_experience.description
+    t: Hot Module Reloading, etc.
+
+  - key: options.build_step_advantages.transpilation
+    t: Template/component transpilation
+  - key: options.build_step_advantages.transpilation.description
+    t: JSX, Vue components, Svelte components, etc.
+
+  - key: options.build_step_advantages.bundling
+    t: Bundling
+  - key: options.build_step_advantages.bundling.description
+    t: Bundling multiple files into a single payload.
+
+  - key: options.build_step_advantages.optimization
+    t: Code optimization
+  - key: options.build_step_advantages.optimization.description
+    t: Minification, tree-shaking, code splitting, etc.
+
+  - key: options.build_step_advantages.compatibility
+    t: Browser compatibility
+  - key: options.build_step_advantages.compatibility.description
+    t: Polyfills, shims, etc.
+
+  - key: options.build_step_advantages.assets
+    t: Asset processing
+  - key: options.build_step_advantages.assets.description
+    t: Handling non-JS assets such as CSS, images, etc.
+
+  - key: options.build_step_advantages.linting
+    t: Linting
+  - key: options.build_step_advantages.linting.description
+    t: Enforcing linters, formatters, etc.
+
+  - key: options.build_step_advantages.environment_support
+    t: Environment management
+  - key: options.build_step_advantages.environment_support.description
+    t: Support for environment variables, different configurations, etc.
+
+  - key: options.build_step_advantages.all_of_the_above
+    t: All of the above
+
+  - key: options.build_step_advantages.no_advantages
+    t: No advantages
+
+  # edge_runtimes
+
   - key: tools.edge_runtimes
     t: Периферійне/безсерверне середовище виконання JavaScript
     aliases:
@@ -1292,8 +1483,12 @@ translations:
 
   - key: usage.native_types_proposal
     t: Нативні типи
+    aliases:
+      - features.native_types_proposal
   - key: usage.native_types_proposal.question
-    t: Якою ви вбачаєте імплементацію нативних типів у JavaScript?
+    t: Якою ви вбачаєте нативну імплементацію типів у JavaScript?
+    aliases:
+      - features.native_types_proposal.question
 
   - key: options.native_types_proposal.typescript_like_types
     t: Максимально схоже до TypeScript
@@ -1302,17 +1497,43 @@ translations:
   - key: options.native_types_proposal.no_types
     t: НЕ бажаю їхньої імплементації зовсім
 
+  - key: options.native_types_proposal.runtime_types
+    t: Runtime types
+  - key: options.native_types_proposal.runtime_types.description
+    t: Types that are parsed at runtime by the browser.
+  - key: options.native_types_proposal.type_annotations
+    t: Type annotations
+  - key: options.native_types_proposal.type_annotations.description
+    t: Compiler-level TypeScript-like type annotations that get stripped during bundling.
+  - key: options.native_types_proposal.jsdoc_types
+    t: JSDoc-like types
+  - key: options.native_types_proposal.jsdoc_types.description
+    t: JSDoc-like types written as code comments.
+
+  - key: options.native_types_proposal.no_opinion
+    t: No opinion
+
   - key: usage.js_new_features
     t: Нові пропозиції
+    aliases:
+      - features.js_new_features
   - key: usage.js_new_features.question
     t: Які з-поміж цих активних пропозицій змін до JavaScript цікавлять вас найбільше?
+    aliases:
+      - features.js_new_features.question
   - key: usage.js_new_features.prompt
     t: Згідно з [пропозиціями до ECMAScript від TC39](https://github.com/tc39/proposals), що наразі на етапах 2.7 та 3 процесу обговорення.
+    aliases:
+      - features.js_new_features.prompt
 
   - key: usage.js_missing_features
     t: Відсутні функції
+    aliases:
+      - features.js_missing_features
   - key: usage.js_missing_features.question
     t: На вашу думку, яких з-поміж з цих функцій наразі не вистачає у JavaScript?
+    aliases:
+      - features.js_missing_features.question
 
   ###########################################################################
   # Opinions
@@ -1334,7 +1555,22 @@ translations:
     t: Я б хотів(-ла), щоб JavaScript був моєю основною мовою програмування
 
   - key: opinions.js_ecosystem_changing_to_fast
+    t: Pace of Change
+    aliases:
+      - usage.js_ecosystem_changing_to_fast
+  - key: opinions.js_ecosystem_changing_to_fast.question
     t: Екосистема JavaScript змінюється занадто швидко
+    aliases:
+      - usage.js_ecosystem_changing_to_fast.question
+
+  - key: opinions.prefer_no_build_step
+    t: Build Step
+    aliases:
+      - usage.prefer_no_build_step
+  - key: opinions.prefer_no_build_step.question
+    t: I would prefer using JavaScript with no build step
+    aliases:
+      - usage.prefer_no_build_step.question
 
   - key: opinions_others.missing_from_js.others
     t: На вашу думку, чого наразі не вистачає у JavaScript?
@@ -1393,11 +1629,14 @@ translations:
 
   - key: usage.top_currently_missing_from_js
     t: Відсутні функції
-  - key: usage.top_currently_missing_from_js.question
-    aliasFor: opinions.currently_missing_from_js
+    aliases:
+      - features.top_currently_missing_from_js
 
   - key: opinions.currently_missing_from_js
     t: На вашу думку, чого наразі не вистачає у JavaScript?
+    aliases:
+      - usage.top_currently_missing_from_js.question
+      - features.top_currently_missing_from_js.question
   - key: opinions.currently_missing_from_js.description
     t: У кожній парі виберіть те, що, за можливості, ви найбільше хотіли б використовувати у JavaScript сьогодні.
   - key: opinions_others.currently_missing_from_js.others
@@ -1433,6 +1672,27 @@ translations:
   - key: currently_missing_from_js.currently_missing_from_js_matchups.description
     t: Яку функцію, за можливості, ви найбільше хотіли б використовувати у JavaScript сьогодні? Відсоток раундів, що виграні елементом ліворуч проти елемента зверху.
 
+  # js_pace_of_change
+  - key: usage.js_pace_of_change
+    t: Pace of Change
+    aliases:
+      - features.js_pace_of_change
+  - key: usage.js_pace_of_change.question
+    t: How well are you generally able to keep up with new JavaScript features, such as those mentioned in this survey?
+    aliases:
+      - features.js_pace_of_change.question
+
+  - key: options.js_pace_of_change.1
+    aliasFor: options.css_pace_of_change.1
+  - key: options.js_pace_of_change.2
+    aliasFor: options.css_pace_of_change.2
+  - key: options.js_pace_of_change.3
+    aliasFor: options.css_pace_of_change.3
+  - key: options.js_pace_of_change.4
+    aliasFor: options.css_pace_of_change.4
+  - key: options.js_pace_of_change.5
+    aliasFor: options.css_pace_of_change.5
+
   ###########################################################################
   # Resources
   ###########################################################################
@@ -1462,6 +1722,15 @@ translations:
     t: Як ці дані будуть використані?
   - key: faq.data_used_js.description
     t: Усі зібрані дані будуть оприлюднені. Вони будуть джерелом як для розробників, які звертаються до нього, щоб донести свій технологічний вибір, так і для постачальників браузерів, які використовують його для визначення пріоритетних напрямків розробки та формування своїх "дорожніх карт".
+
+  ###########################################################################
+  # Tabs
+  ###########################################################################
+
+  - key: tabs.top_features
+    t: Top Features
+  - key: tabs.top_languages
+    t: Top Languages
 
   ###########################################################################
   # Entities repo - https://github.com/Devographics/entities
