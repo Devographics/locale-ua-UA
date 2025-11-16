@@ -35,13 +35,13 @@ translations:
     t: Відкрито зараз
 
   - key: general.other_editions
-    t: Other Editions
+    t: Інші хвилі опитування
   - key: general.previous_editions
-    t: Previous Editions
+    t: Попередні хвилі опитування
   - key: general.other_surveys
-    t: Other Surveys
+    t: Інші опитування
   - key: general.all_editions
-    t: View more…
+    t: Детальніше…
 
   ###########################################################################
   # Tabs
@@ -714,13 +714,13 @@ translations:
   ###########################################################################
 
   - key: features.pain_points
-    t: Pain Points
+    t: Проблеми
 
   - key: features.all_features
-    t: All Features
+    t: Усі функції
 
   - key: features.features_ratios_over_time
-    t: Features Over Time
+    t: Функції з часом
 
   - key: features.learn_more
     t: Детальніше (MDN)
@@ -762,7 +762,7 @@ translations:
     t: Технології
 
   - key: tools.all_sections
-    t: All Sections
+    t: Усі секції
 
   ###########################################################################
   # Blocks
@@ -855,7 +855,7 @@ translations:
   # tools_ratios_over_time
 
   - key: tools.tools_ratios_over_time
-    t: Ratios over Time
+    t: Співвідношення з часом
     aliases:
       - libraries.tools_ratios_over_time
 
@@ -1367,10 +1367,10 @@ translations:
       -{value}% нижче, ніж в останньому опитуванні
   - key: charts.other_bucket.different_serie.percents.positive
     t: |
-      +{value}% higher compared to left-hand chart
+      +{value}% вище, ніж на діаграмі зліва
   - key: charts.other_bucket.different_serie.percents.negative
     t: |
-      -{value}% lower compared to left-hand chart
+      -{value}% нижче, ніж на діаграмі зліва
   - key: charts.other_bucket.ranks.positive
     t: |
       +{value} набуто рейтингу
@@ -1447,9 +1447,9 @@ translations:
   - key: comments.filter.by_keyword.description
     t: Фільтр за основними ключовими словами, згаданими у коментарях.
   - key: comments.filter.by_token
-    t: Other Topics
+    t: Інші теми
   - key: comments.filter.by_token.description
-    t: Filter based on other topics mentioned.
+    t: Фільтр за іншими згаданими темами.
   - key: comments.filter.by_search
     t: Пошук
   - key: comments.filter.by_search.description
@@ -1495,9 +1495,9 @@ translations:
   - key: share.twitter
     t: Поділитися у Twitter
   - key: share.bluesky
-    t: Share on Bluesky
+    t: Поділитися у Bluesky
   - key: share.mastodon
-    t: Share on Mastodon
+    t: Поділитися у Mastodon
   - key: share.facebook
     t: Поділитися у Facebook
   - key: share.linkedin
