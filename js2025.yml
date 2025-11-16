@@ -8,7 +8,7 @@ translations:
     t: The State of JS 2025 survey is now open! {link}
 
   - key: general.results.description
-    t: The 2025 edition of the annual survey about the latest trends in the JavaScript ecosystem.
+    t: Щорічне опитування про останні тенденції в екосистемі JavaScript за 2025 рік.
 
   ###########################################################################
   # Survey Intro
@@ -35,22 +35,22 @@ translations:
   ###########################################################################
 
   - key: faq.how_long_will_survey_take_js2025
-    t: How long will answering the survey take?
+    t: Скільки часу займе опитування?
   - key: faq.how_long_will_survey_take_js2025.description
     t: >
-      Depending on how many questions you answer (all questions can be skipped),
-      filling out the survey should take around 15-20 minutes.
+      Залежно від того, на скільки питань ви відповісте (всі питання не обов'язкові), 
+      заповнення анкети займе орієнтовно 15-20 хвилин.
 
   - key: faq.survey_design_js2025
-    t: How was this survey designed?
+    t: Як було розроблено це опитування?
   - key: faq.survey_design_js2025.description
     t: >
-      This survey was designed as the results of an [open design process](https://github.com/Devographics/surveys/issues/307) involving browser vendors and the web development community.
+      Опитування було розроблено унаслідок [відкритого процесу розробки](https://github.com/Devographics/surveys/issues/307) із залученням постачальників браузерів і спільноти веброзробки.
 
   - key: faq.results_released_js2025
-    t: When will the results be released?
+    t: Коли будуть опубліковані результати?
   - key: faq.results_released_js2025.description
-    t: The survey will run from October 1 to November 1, 2025, and the survey results will be released shortly after.
+    t: Опитування триватиме із 1 жовтня до 1 листопада 2025 року, і його результати будуть опубліковані незабаром після завершення.
 
   ###########################################################################
   # Overview
