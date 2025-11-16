@@ -5,7 +5,7 @@ translations:
   ###########################################################################
 
   - key: general.results.description
-    t: The 2025 edition of the annual survey about the latest trends in the React ecosystem.
+    t: Щорічне опитування про останні тенденції в екосистемі React за 2025 рік.
 
   ###########################################################################
   # Introduction
@@ -13,43 +13,43 @@ translations:
 
   - key: general.react2025.survey_intro
     t: |
-      Given that it originally came out of a company whose motto was “move fast and break things”, it's ironic that React's approach could be summarized as “slow and steady”.
+      Оскільки React народився у компанії з гаслом "рухайся швидко й ламай усе", доволі іронічно, що його підхід натомість можна підсумувати як "повільно й усталено".
 
-      The React team has done a remarkable team of evolving the framework into its current modern state, progressively introducing innovations like Server Components and then letting the community adopt them (or not!) at its own pace.
+      Все-таки команда React виконала визначну роботу з еволюціювання фреймворку до його сучасного стану, впроваджуючи інновації, як-от серверні компоненти, і даючи змогу спільноті приймати їх (або ж ні!) у власному темпі.
 
-      This year, it's time for the long-awaited Compiler to make its official debut. And things are also moving on the administrative front, with the recently-introduced [React foundation](https://react.dev/blog/2025/10/07/introducing-the-react-foundation).
+      Цього року відбувся дебют довгоочікуваного компілятора. Є зміни й на адміністративному фронті — з нещодавно створеною організацією [React Foundation](https://react.dev/blog/2025/10/07/introducing-the-react-foundation).
 
-      So whether you're on the cutting edge of new React features, or adopting innovations are a slower pace, join us once again to figure out where React is going by taking this year's State of React survey!
+      Однак, незалежно від того, чи ви на передовій нововведень, чи впроваджуєте їх дещо повільніше, долучайтеся до нас знову, щоб разом з'ясувати тенденції React, взявши участь у цьогорічному опитуванні "Стан React"!
 
   - key: features.features_intro.react2025
     t: |
-      Welcome to the survey! This first part is all about sharing your experience with various React features:
+      Ласкаво просимо до опитування! Ця перша частина присвячена тому, щоб поділитися своїм досвідом використання різноманітних функцій React:
 
 
-      - **Never heard of it**: it's your first time seeing this – or you've heard of it but have no idea what it does. 
+      - **Вперше чую**: ви це бачите вперше — або чули, але не знаєте, як це працює. 
 
-      - **Heard of it**: you've read or learned about this, but haven't actually used it yet. 
+      - **Чув(-ла) про це**: ви читали або знаєте про це, але насправді ще не користувалися. 
 
-      - **Used it**: you've used this at least once, even if it was just to play around. 
+      - **Використовував(-ла)**: ви використовували це принаймні один раз, навіть якщо лише гралися.
 
 
-      By the way, if you want to tell us more about any of your choices, just click that little "comment" icon!
+      До речі, якщо ви бажаєте розповісти нам більше про будь-який із ваших виборів, просто натисніть на маленьку іконку "коментар"!
 
   - key: tools.tools_intro.react2025
     t: |
-      This next part of the survey is all about the various libraries and frameworks that make up the React ecosystem.
+      Наступна частина опитування присвячена різноманітним бібліотекам і фреймворкам, що складають екосистему React.
 
   ###########################################################################
   # FAQ/About
   ###########################################################################
 
   - key: faq.survey_design_react2025
-    t: How was this survey designed?
+    t: Як було розроблено це опитування?
   - key: faq.survey_design_react2025.description
     t: >
-      The survey was designed with input from the community through an [open feedback thread](https://github.com/Devographics/surveys/issues/262).
+      Опитування було розроблено з урахуванням думки спільноти через [відкрите обговорення](https://github.com/Devographics/surveys/issues/262).
 
   - key: faq.results_released_react2025
-    t: When will the results be released?
+    t: Коли будуть опубліковані результати?
   - key: faq.results_released_react2025.description
-    t: The survey will run from October 25 to November 25, and the survey results will be released shortly after that.
+    t: Опитування триватиме з 19 жовтня до 19 листопада, і його результати будуть опубліковані незабаром після завершення.s
