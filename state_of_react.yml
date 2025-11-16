@@ -647,25 +647,25 @@ translations:
       - react_pain_points.usage_pain_points.question
 
   - key: usage.meta_involvement_opinion
-    t: Meta Involvement
+    t: Причетність Meta
   - key: usage.meta_involvement_opinion.question
-    t: How would you describe your feelings towards Meta's involvement with React?
+    t: Як ви ставитеся до залученості компанії Meta до React-у?
 
   - key: options.meta_involvement_opinion.0
-    t: Very negative
+    t: Дуже негативно
   - key: options.meta_involvement_opinion.1
-    t: Negative
+    t: Негативно
   - key: options.meta_involvement_opinion.2
-    t: Neutral
+    t: Нейтрально
   - key: options.meta_involvement_opinion.3
-    t: Positive
+    t: Позитивно
   - key: options.meta_involvement_opinion.4
-    t: Very positive
+    t: Дуже позитивно
 
   - key: usage.vercel_involvement_opinion
-    t: Vercel Involvement
+    t: Причетність Vercel
   - key: usage.vercel_involvement_opinion.question
-    t: How would you describe your feelings towards Vercel's involvement with React?
+    t: Як ви ставитеся до залученості компанії Vercel до React-у?
 
   - key: options.vercel_involvement_opinion.0
     aliasFor: options.meta_involvement_opinion.0
@@ -679,9 +679,9 @@ translations:
     aliasFor: options.meta_involvement_opinion.4
 
   - key: usage.react_foundation_involvement_opinion
-    t: React Foundation Involvement
+    t: Причетність React Foundation
   - key: usage.react_foundation_involvement_opinion.question
-    t: How would you describe your feelings towards the React Foundation's involvement with React?
+    t: Як ви ставитеся до залученості організації React Foundation до React-у?
 
   - key: options.react_foundation_involvement_opinion.0
     aliasFor: options.meta_involvement_opinion.0
@@ -903,29 +903,29 @@ translations:
   ###########################################################################
 
   - key: faq.data_used_react
-    t: How will this data be used?
+    t: Як ці дані будуть використані?
   - key: faq.data_used_react.description
     t: >
-      All data collected will be released openly for anybody to consult. Developers or companies may use it to prioritize focus areas and inform their roadmaps.
+      Усі зібрані дані будуть відкрито опубліковані для консультації всіх охочих. Розробники або компанії можуть використовувати їх для визначення пріоритетних напрямків розробки та формування своїх "дорожніх карт".
 
   - key: faq.survey_goals_react
-    t: What are the survey's goals?
+    t: Яка мета цього опитування?
   - key: faq.survey_goals_react.description
     t: >
-      The survey's goals are to measure awareness and popularity of React APIs, as well as libraries in the React ecosystem.
+      Мета опитування — вимірювання впізнаваності та популярності з-поміж API React-у, а також бібліотек в екосистемі React.
 
   - key: faq.who_should_take_survey_react
-    t: Who should take this survey?
+    t: Хто може взяти участь у цьому опитуванні?
   - key: faq.who_should_take_survey_react.description
     t: >
-      This is an open survey for anybody who uses React, whether regularly or occasionally, as part of their job, as a student, or just for fun!
+      Це відкрите опитування для всіх, хто користується React, незалежно від того, регулярно ви це робите або час від часу, у межах своєї роботи, як студент або задля розваги!
 
   - key: faq.how_long_will_survey_take_react
-    t: How long will answering the survey take?
+    t: Скільки часу займе опитування?
   - key: faq.how_long_will_survey_take_react.description
     t: >
-      Depending on how many questions you answer (all questions are optional),
-      filling out the survey should take around 15-20 minutes.
+      Залежно від того, на скільки питань ви відповісте (всі питання не обов'язкові), 
+      заповнення анкети повинно зайняти орієнтовно 15-20 хвилин.
 
   ###########################################################################
   # Entities repo - https://github.com/Devographics/entities
