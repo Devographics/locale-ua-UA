@@ -212,35 +212,35 @@ translations:
   # survey finish page
 
   - key: finish.copy
-    t: Copy
+    t: Копіювати
   - key: finish.copied
-    t: Copied!
+    t: Скопійовано!
 
   - key: finish.goal_heading
-    t: Thanks for taking the survey! But we still need your help…
+    t: Дякуємо, що взяли участь! Проте нам все ще потрібна ваша допомога…
 
   - key: finish.goal_heading.description
-    t: This year, we'd like to get a least **{count} survey responses** to make our data even more representative and unlock new insights.
+    t: Цього року ми хотіли б отримати щонайменше **{count} заповнень опитування**, щоб зробити наші дані більш репрезентативними та віднайти нову інформацію.
 
   - key: finish.goal_currently
     t: >
-      Currently:
+      Наразі:
 
   - key: finish.goal_goal
     t: >
-      Goal:
+      Ціль:
 
   - key: finish.goal_responses
-    t: responses
+    t: заповнень
 
   - key: finish.share_colleagues
-    t: 1. Share with friends and colleagues
+    t: 1. Поділіться з друзями та колегами
 
   - key: finish.share_colleagues.description
-    t: Post it on Slack, Discord, Teams, or anywhere your developer friends hang out.
+    t: Опублікуйте це в Slack, Discord, Teams чи будь-де для ваших друзів-розробників.
 
   - key: finish.share_social
-    t: 2. Share on social media
+    t: 2. Поділіться в соціальних мережах
 
   # share
   - key: general.share_subject
@@ -307,7 +307,7 @@ translations:
   ###########################################################################
 
   - key: sections.overview.title
-    t: Overview
+    t: Огляд
 
   - key: sections.user_info.title
     t: Про вас
@@ -1818,22 +1818,22 @@ translations:
 
   # why_did_you_take_the_survey
   - key: user_info.why_did_you_take_the_survey
-    t: Survey Motivation
+    t: Мотивація участі в опитуванні
   - key: user_info.why_did_you_take_the_survey.question
-    t: What are the main benefits you get from taking this survey?
+    t: Навіщо ви берете участь в цьому опитуванні?
 
   - key: options.why_did_you_take_the_survey.stay_informed
-    t: It helps me stay informed and keep up with the ecosystem.
+    t: Це допомагає мені залишатися обізнаним та встигати за екосистемою.
   - key: options.why_did_you_take_the_survey.interested_in_data
-    t: I'm interested in the resulting data and trends.
+    t: Мене цікавлять отримані дані та тенденції.
   - key: options.why_did_you_take_the_survey.help_with_representation
-    t: I want to help make the dataset more representative.
+    t: Я хочу допомогти зробити набір даних більш репрезентативним.
   - key: options.why_did_you_take_the_survey.for_fun
-    t: I take it out of curiosity, or just for fun.
+    t: Я беру участь через цікавість або задля розваги.
   - key: options.why_did_you_take_the_survey.affect_change
-    t: I want to make my voice heard and influence the developer ecosystem.
+    t: Я хочу, щоб мене почули, і вплинути на екосистему розробки.
   - key: options.why_did_you_take_the_survey.gauge_my_knowledge
-    t: I want to gauge my own current knowledge.
+    t: Я хочу оцінити свої поточні знання.
 
   ###########################################################################
   # Usage
