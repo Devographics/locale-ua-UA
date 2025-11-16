@@ -154,7 +154,7 @@ translations:
 
   - key: tools.back_end_frameworks_intro
     t: >
-      We're bringing back the back-end frameworks section this year!і
+      Цього року ми повертаємо секцію фреймворків для серверної частини!
 
   ###########################################################################
   # Options
@@ -720,14 +720,14 @@ translations:
   # back-end frameworks
 
   - key: tools.back_end_frameworks_ratios
-    t: Back-end Frameworks Ratios Over Time
+    t: Співвідношення фреймворків для серверної частини з часом
     aliases:
       - back_end_frameworks.back_end_frameworks_ratios
   - key: tools.back_end_frameworks_ratios.short
     aliasFor: tools.ratios
 
   - key: tools.back_end_frameworks_experience
-    t: Back-end Frameworks Experience & Sentiment
+    t: Досвід використання і ставлення до фреймворків для серверної частини
   - key: tools.back_end_frameworks_experience.short
     aliasFor: tools.experience
 
@@ -737,7 +737,7 @@ translations:
     aliasFor: tools.tools_work.question
 
   - key: tools.back_end_frameworks.others
-    t: Other Back-end Frameworks
+    t: Інші фреймворки для серверної частини
     aliases:
       - back_end_frameworks.back_end_frameworks_others
   - key: tools.back_end_frameworks.others.short
@@ -746,22 +746,22 @@ translations:
     aliasFor: tools.meta_frameworks.others
 
   - key: tools.back_end_frameworks_happiness
-    t: Back-end Frameworks Happiness
+    t: Задоволення фреймворками для серверної частини
     aliases:
       - back_end_frameworks.back_end_frameworks_happiness
   - key: tools.mback_end_frameworks_happiness.short
     aliasFor: charts.axis_legends.happiness
   - key: tools.back_end_frameworks_happiness.question
-    t: On a scale of 1 (very unhappy) to 5 (very happy), how happy are you with the current state of back-end frameworks?
+    t: Наскільки ви задоволені поточним станом фреймворків для серверної частини? За шкалою від 1 (дуже незадоволені) до 5 (дуже задоволені).
 
   - key: tools.back_end_frameworks_pain_points
-    t: Back-end Frameworks Pain Points
+    t: Проблеми фреймворків для серверної частини
     aliases:
       - back_end_frameworks.back_end_frameworks_pain_points
   - key: tools.back_end_frameworks_pain_points.short
     aliasFor: tools.pain_points
   - key: tools.back_end_frameworks_pain_points.question
-    t: What pain points have you encountered when using back-end frameworks?
+    t: З якими проблемами ви стикалися під час використання фреймворків для серверної частини?
 
   # testing
 
@@ -988,24 +988,24 @@ translations:
   # non_js_languages_features
 
   - key: tools.non_js_languages_features
-    t: Non-JavaScript Features
+    t: Функції, які не належать до JavaScript
     aliases:
       - other_tools.non_js_languages_features
   - key: tools.non_js_languages_features.question
-    t: Which features from other programming languages do you wish JavaScript/TypeScript would adopt?
+    t: Які функції чи можливості інших мов програмування ви хотіли б, щоб JavaScript/TypeScript перейняв?
     aliases:
       - other_tools.non_js_languages_features.question
   - key: tools.non_js_languages_features.prompt
     t: >
-      When possible, specify both the language and the feature, e.g. “Rust: pattern matching”
+      За можливості, вкажіть мову разом із функцією, наприклад "Rust: зіставлення із шаблоном"
     aliases:
       - other_tools.non_js_languages_features.prompt
 
   - key: other_tools.non_js_languages_features_top_features
-    t: Non-JavaScript Features
+    t: Функції, які не належать до JavaScript
 
   - key: other_tools.non_js_languages_features_top_languages
-    t: Non-JavaScript Features by Language
+    t: Функції, які не належать до JavaScript, за мовами
 
   - key: tools.javascript_flavors
     t: Різновиди JavaScript
@@ -1056,7 +1056,7 @@ translations:
   - key: tools.data_visualization
     t: Візуалізація даних
   - key: tools.data_visualization.question
-    t: Which data visualization libraries do you use?
+    t: Які бібліотеки для візуалізації даних ви використовуєте?
   - key: tools.data_visualization.prompt
     t: Бібліотеки, що допомагають із побудовою графіків та інших візуальних представлень даних.
   - key: tools.data_visualization.others
@@ -1065,7 +1065,7 @@ translations:
   - key: tools.graphics_animation
     t: Графіка та анімація
   - key: tools.graphics_animation.question
-    t: Which graphics & animation libraries do you regularly use?
+    t: Які бібліотеки для графіки та анімацій ви регулярно використовуєте?
   - key: tools.graphics_animation.prompt
     t: Бібліотеки для створення графіки та анімацій.
   - key: tools.graphics_animation.others
@@ -1144,7 +1144,7 @@ translations:
   - key: tools.backend_frameworks
     aliasFor: sections.back_end_frameworks.title
   - key: tools.backend_frameworks.question
-    t: Which back-end frameworks do you use?
+    t: Які фреймворки для серверної частини ви використовуєте?
   - key: tools.backend_frameworks.description
     t: Фреймворки для генерації API та управління серверною частиною
   - key: tools.backend_frameworks.others
@@ -1238,7 +1238,7 @@ translations:
   - key: other_tools.mobile_desktop
     aliasFor: sections.mobile_desktop.title
   - key: tools.mobile_desktop.question
-    t: Which of these mobile or desktop app frameworks do you regularly use?
+    t: Які з наведених фреймворків для мобільних пристроїв і настільних комп'ютерів ви регулярно використовуєте?
     aliases:
       - other_tools.mobile_desktop.question
 
@@ -1247,7 +1247,7 @@ translations:
   - key: other_tools.monorepo_tools
     aliasFor: sections.monorepo_tools.title
   - key: tools.monorepo_tools.question
-    t: Which of these monorepo tools do you regularly use?
+    t: Які з наведених інструментів для монорепозиторіїв ви регулярно використовуєте?
     aliases:
       - other_tools.monorepo_tools.question
 
@@ -1374,62 +1374,62 @@ translations:
 
   # build_step_advantages
   - key: usage.build_step_advantages
-    t: Build Step Advantages
+    t: Переваги етапу збирання
   - key: usage.build_step_advantages.question
-    t: What do you feel are the main advantages resulting from using a build step?
+    t: На вашу думку, які основні переваги наявності етапу збирання?
   - key: usage.build_step_advantages.prompt
-    t: Any code bundling, minifying, etc., as opposed to code directly executed by the browser.
+    t: Будь-яке об'єднання коду, мініфікація тощо, на відміну від коду, який безпосередньо виконується браузером.
 
   - key: options.build_step_advantages.types
-    t: Static typing
+    t: Статична типізація
   - key: options.build_step_advantages.types.description
-    t: TypeScript, etc.
+    t: TypeScript тощо.
 
   - key: options.build_step_advantages.developer_experience
-    t: Better development experience
+    t: Кращий досвід розробляння (DX)
   - key: options.build_step_advantages.developer_experience.description
-    t: Hot Module Reloading, etc.
+    t: Гаряче перезавантаження модулів (HMR) тощо.
 
   - key: options.build_step_advantages.transpilation
-    t: Template/component transpilation
+    t: Транспіляція шаблонів/компонентів
   - key: options.build_step_advantages.transpilation.description
-    t: JSX, Vue components, Svelte components, etc.
+    t: JSX, компоненти Vue, компоненти Svelte тощо.
 
   - key: options.build_step_advantages.bundling
-    t: Bundling
+    t: Об'єднання (bundling)
   - key: options.build_step_advantages.bundling.description
-    t: Bundling multiple files into a single payload.
+    t: Об'єднання кількох файлів в один "вантаж" (payload).
 
   - key: options.build_step_advantages.optimization
-    t: Code optimization
+    t: Оптимізація коду
   - key: options.build_step_advantages.optimization.description
-    t: Minification, tree-shaking, code splitting, etc.
+    t: Мініфікація, видалення мертвого коду, розділення коду тощо.
 
   - key: options.build_step_advantages.compatibility
-    t: Browser compatibility
+    t: Сумісність між браузерами
   - key: options.build_step_advantages.compatibility.description
-    t: Polyfills, shims, etc.
+    t: Поліфіли, підшарки (shims) тощо.
 
   - key: options.build_step_advantages.assets
-    t: Asset processing
+    t: Обробляння інших ресурсів
   - key: options.build_step_advantages.assets.description
-    t: Handling non-JS assets such as CSS, images, etc.
+    t: "Обробляння не-JS: CSS, зображення тощо."
 
   - key: options.build_step_advantages.linting
-    t: Linting
+    t: Лінтинг
   - key: options.build_step_advantages.linting.description
-    t: Enforcing linters, formatters, etc.
+    t: Застосування лінтерів, форматорів тощо.
 
   - key: options.build_step_advantages.environment_support
-    t: Environment management
+    t: Управління середовищем
   - key: options.build_step_advantages.environment_support.description
-    t: Support for environment variables, different configurations, etc.
+    t: Підтримування змінних середовища, різних конфігурацій тощо.
 
   - key: options.build_step_advantages.all_of_the_above
-    t: All of the above
+    t: Все перелічене
 
   - key: options.build_step_advantages.no_advantages
-    t: No advantages
+    t: Жодних переваг
 
   # edge_runtimes
 
@@ -1498,20 +1498,20 @@ translations:
     t: НЕ бажаю їхньої імплементації зовсім
 
   - key: options.native_types_proposal.runtime_types
-    t: Runtime types
+    t: Динамічні типи
   - key: options.native_types_proposal.runtime_types.description
-    t: Types that are parsed at runtime by the browser.
+    t: Типи, що синтаксично аналізуються браузером під час виконання.
   - key: options.native_types_proposal.type_annotations
-    t: Type annotations
+    t: Типи-анотації
   - key: options.native_types_proposal.type_annotations.description
-    t: Compiler-level TypeScript-like type annotations that get stripped during bundling.
+    t: Анотації типів на рівні компілятора подібно до TypeScript; видаляються під час збирання.
   - key: options.native_types_proposal.jsdoc_types
-    t: JSDoc-like types
+    t: Типи, схожі до JSDoc
   - key: options.native_types_proposal.jsdoc_types.description
-    t: JSDoc-like types written as code comments.
+    t: Типи, схожі до JSDoc, як коментарі до коду.
 
   - key: options.native_types_proposal.no_opinion
-    t: No opinion
+    t: Немає думки
 
   - key: usage.js_new_features
     t: Нові пропозиції
@@ -1555,7 +1555,7 @@ translations:
     t: Я б хотів(-ла), щоб JavaScript був моєю основною мовою програмування
 
   - key: opinions.js_ecosystem_changing_to_fast
-    t: Pace of Change
+    t: Темп змін
     aliases:
       - usage.js_ecosystem_changing_to_fast
   - key: opinions.js_ecosystem_changing_to_fast.question
@@ -1564,11 +1564,11 @@ translations:
       - usage.js_ecosystem_changing_to_fast.question
 
   - key: opinions.prefer_no_build_step
-    t: Build Step
+    t: Етап збирання
     aliases:
       - usage.prefer_no_build_step
   - key: opinions.prefer_no_build_step.question
-    t: I would prefer using JavaScript with no build step
+    t: Я б хотів(-ла) використовувати JavaScript без етапу збирання
     aliases:
       - usage.prefer_no_build_step.question
 
@@ -1674,11 +1674,11 @@ translations:
 
   # js_pace_of_change
   - key: usage.js_pace_of_change
-    t: Pace of Change
+    t: Темп змін
     aliases:
       - features.js_pace_of_change
   - key: usage.js_pace_of_change.question
-    t: How well are you generally able to keep up with new JavaScript features, such as those mentioned in this survey?
+    t: Як добре ви зазвичай стежите за новими функціями JavaScript, як-от ті, що згадані в цьому опитуванні?
     aliases:
       - features.js_pace_of_change.question
 
@@ -1728,9 +1728,9 @@ translations:
   ###########################################################################
 
   - key: tabs.top_features
-    t: Top Features
+    t: Топ функцій
   - key: tabs.top_languages
-    t: Top Languages
+    t: Топ мов
 
   ###########################################################################
   # Entities repo - https://github.com/Devographics/entities
