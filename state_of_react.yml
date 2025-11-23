@@ -197,6 +197,10 @@ translations:
     t: >
       `hydrateRoot` дає змогу відображати React-компоненти всередині браузерного DOM-вузла, HTML-вміст якого було раніше згенеровано за допомогою `react-dom/server`.
 
+  - key: features.react_act.description
+    t: >
+      `act` — це помічник для тестів, щоб застосовувати очікувані оновлення в React перед перевіркою тверджень.
+
   # hooks
 
   - key: features.usecallback.description
@@ -292,6 +296,39 @@ translations:
   - key: features.useformstate.description
     t: >
       `useFormState` — це хук, який дає змогу оновлювати стан залежно від результату дії форми.
+
+  - key: features.useactionstate.name
+    t: >
+      `useActionState` (попередньо `useFormState`)
+  - key: features.useactionstate.description
+    t: >
+      `useActionState` — це хук, який дає змогу оновлювати стан залежно від результату дії форми.
+
+  - key: features.useoptimistic.description
+    t: >
+      `useOptimistic` — це хук React, який дає змогу "оптимістично" оновлювати UI.
+
+  - key: features.react_form_component_actions.name
+    t: >
+      `Дії для <form>`
+  - key: features.react_form_component_actions.description
+    t: >
+      До властивості action елемента форми передавати функцію, яка виконуватиметься під час надсилання форми.
+
+  - key: features.react_view_transition.description
+    t: >
+      `<ViewTransition>` дає змогу анімувати елементи, які оновлюються всередині Transition.
+
+  - key: features.offscreen_rendering.name
+    t: >
+      `Activity` (попередньо `Offscreen`)
+  - key: features.react_activity.name
+    t: >
+      `Activity` (попередньо `Offscreen`)
+
+  - key: features.useeffecteven.description
+    t: >
+      `useEffectEvent` — це хук React, який дає змогу виокремлювати нереактивну логіку з ваших ефектів (Effects) у функцію повторного використання, яка називається подія ефекту (Effect Event).
 
   # tools
 
