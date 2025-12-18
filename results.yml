@@ -107,15 +107,15 @@ translations:
     t: та розмір компанії
 
   - key: tabs.all_pain_points
-    t: All Pain Points
+    t: Усі проблеми
   - key: tabs.limitations
-    t: Limitations
+    t: Обмеження
   - key: tabs.browser_support
-    t: Browser Support
+    t: Підтримання браузерами
   - key: tabs.features
-    t: Features
+    t: Функції
   - key: tabs.all_topics
-    t: All Topics
+    t: Усі теми
 
   ###########################################################################
   # Options
@@ -728,16 +728,16 @@ translations:
     t: Проблеми
 
   - key: features.pain_points.default
-    t: Top pain point topics overall.
+    t: Головні проблеми загалом.
 
   - key: features.pain_points.limitations
-    t: Top pain point topics related to being unable to achieve a goal due to feature or platform limitations.
+    t: Головні проблеми, пов'язані з нездійсненністю цілі через обмеження функції чи платформи.
 
   - key: features.pain_points.interop_issues
-    t: Top pain point topics related to poor browser support or other browser/platform incompatibilities.
+    t: Головні проблеми, пов'язані з недостатнім підтримуванням або іншими несумісностями між браузерами/платформами.
 
   - key: features.pain_points.features
-    t: Top pain point topics corresponding to specific web platform features.
+    t: Головні проблеми для конкретної функції вебплатформи.
 
   - key: features.all_features
     t: Усі функції
@@ -746,9 +746,9 @@ translations:
     t: Функції з часом
   - key: features.features_ratios_over_time.description
     t: |
-      This chart shows a breakdown of feature trends over the years, organized alongisde six key ratios that are themselves based on experience and sentiment data. 
+      Ця діаграма показує розподіл тенденцій функцій із часом, що організовані за шістьма ключовими показниками, які побудовані на даних про досвід використання та ставлення.
 
-      You can then isolate a sub-segment of the entire feature set, whether by restricting features to a specific section, or by highlighting top/bottom items, or even items with the largest year-over-year increase or decrease for any given metric.
+      Ви можете ізолювати підсегмент з усього набору функцій, наприклад, обмеживши функції певним розділом, вибравши найвищі/найнижчі елементи або навіть виділивши елементи з найбільшим приростом/спадом рік до року для заданого показника.
 
   - key: features.learn_more
     t: Детальніше (MDN)
@@ -1410,7 +1410,7 @@ translations:
 
   - key: charts.subsets.filters
     t: |
-      Filters:
+      Фільтри:
 
   - key: charts.subsets.presets
     t: |
@@ -1442,13 +1442,13 @@ translations:
 
   - key: charts.nested_toggle
     t: |
-      View:
+      Вигляд:
   - key: charts.nested_toggle.nested
     t: |
-      Nested
+      Вкладений
   - key: charts.nested_toggle.flat
     t: |
-      Flat
+      Вирівнений
 
   ###########################################################################
   # Comments
@@ -1476,7 +1476,7 @@ translations:
   - key: comments.filter.clear
     t: Очистити
   - key: comments.filter.no_items
-    t: No items.
+    t: Нічого.
 
   - key: comment.like.description
     t: Вподобати цей коментар
@@ -2259,13 +2259,13 @@ translations:
     t: Показати початкові (без фільтрів) ряди даних для режиму "За фільтрами"
 
   - key: filters.bucketsFilter.eq
-    t: Items that are “{value}”
+    t: Елементи, що є “{value}”
   - key: filters.bucketsFilter.in
-    t: Items that are one of “{value}”
+    t: Елементи, що є одним(-ою) із “{value}”
   - key: filters.bucketsFilter.nin
-    t: Items that are not one of “{value}”
+    t: Елементи, що не є одним(-ою) із “{value}”
   - key: filters.bucketsFilter.hasTags
-    t: Items tagged “{value}”
+    t: Елементи, позначені як “{value}”
 
   ###########################################################################
   # Chart Controls
@@ -2477,17 +2477,17 @@ translations:
 
   - key: highlight.heading.feature
     t: |
-      Feature Highlight:
+      Функція від нас:
 
   - key: highlight.heading.library
     t: |
-      Library Highlight:
+      Бібліотека від нас:
 
   - key: highlight.description
-    t: We're highlighting up-and-coming features or libraries we think you should know about.
+    t: Ми виокремлюємо нові функції або бібліотеки, про які, на нашу думку, вам варто знати.
 
   - key: highlight.resources
-    t: Useful Resources
+    t: Корисні джерела
 
   ###########################################################################
   # Sponsors
