@@ -106,6 +106,17 @@ translations:
   - key: tabs.vs_company_size
     t: та розмір компанії
 
+  - key: tabs.all_pain_points
+    t: All Pain Points
+  - key: tabs.limitations
+    t: Limitations
+  - key: tabs.browser_support
+    t: Browser Support
+  - key: tabs.features
+    t: Features
+  - key: tabs.all_topics
+    t: All Topics
+
   ###########################################################################
   # Options
   ###########################################################################
@@ -716,11 +727,28 @@ translations:
   - key: features.pain_points
     t: Проблеми
 
+  - key: features.pain_points.default
+    t: Top pain point topics overall.
+
+  - key: features.pain_points.limitations
+    t: Top pain point topics related to being unable to achieve a goal due to feature or platform limitations.
+
+  - key: features.pain_points.interop_issues
+    t: Top pain point topics related to poor browser support or other browser/platform incompatibilities.
+
+  - key: features.pain_points.features
+    t: Top pain point topics corresponding to specific web platform features.
+
   - key: features.all_features
     t: Усі функції
 
   - key: features.features_ratios_over_time
     t: Функції з часом
+  - key: features.features_ratios_over_time.description
+    t: |
+      This chart shows a breakdown of feature trends over the years, organized alongisde six key ratios that are themselves based on experience and sentiment data. 
+
+      You can then isolate a sub-segment of the entire feature set, whether by restricting features to a specific section, or by highlighting top/bottom items, or even items with the largest year-over-year increase or decrease for any given metric.
 
   - key: features.learn_more
     t: Детальніше (MDN)
@@ -1380,6 +1408,10 @@ translations:
 
   # subsets filtering
 
+  - key: charts.subsets.filters
+    t: |
+      Filters:
+
   - key: charts.subsets.presets
     t: |
       Готові фільтри:
@@ -1408,6 +1440,16 @@ translations:
     t: |
       Секції:
 
+  - key: charts.nested_toggle
+    t: |
+      View:
+  - key: charts.nested_toggle.nested
+    t: |
+      Nested
+  - key: charts.nested_toggle.flat
+    t: |
+      Flat
+
   ###########################################################################
   # Comments
   ###########################################################################
@@ -1433,6 +1475,8 @@ translations:
     t: Усі
   - key: comments.filter.clear
     t: Очистити
+  - key: comments.filter.no_items
+    t: No items.
 
   - key: comment.like.description
     t: Вподобати цей коментар
@@ -2214,6 +2258,15 @@ translations:
   - key: filters.options.showDefaultSeries.description
     t: Показати початкові (без фільтрів) ряди даних для режиму "За фільтрами"
 
+  - key: filters.bucketsFilter.eq
+    t: Items that are “{value}”
+  - key: filters.bucketsFilter.in
+    t: Items that are one of “{value}”
+  - key: filters.bucketsFilter.nin
+    t: Items that are not one of “{value}”
+  - key: filters.bucketsFilter.hasTags
+    t: Items tagged “{value}”
+
   ###########################################################################
   # Chart Controls
   ###########################################################################
@@ -2417,6 +2470,24 @@ translations:
     t: Кількість опцій
   - key: tools.cardinalities.description
     t: Скільки опцій у цій категорії респонденти використовували.
+
+  ###########################################################################
+  # Highlight (learn this next)
+  ###########################################################################
+
+  - key: highlight.heading.feature
+    t: |
+      Feature Highlight:
+
+  - key: highlight.heading.library
+    t: |
+      Library Highlight:
+
+  - key: highlight.description
+    t: We're highlighting up-and-coming features or libraries we think you should know about.
+
+  - key: highlight.resources
+    t: Useful Resources
 
   ###########################################################################
   # Sponsors
