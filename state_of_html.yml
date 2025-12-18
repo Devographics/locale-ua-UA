@@ -25,38 +25,38 @@ translations:
   ###########################################################################
 
   - key: sections.tshirt.title
-    t: T-shirt
+    t: Футболка
 
   - key: sections.tshirt.description
     t: |
-      ## Support the Survey With the State of HTML T-Shirt
+      ## Підтримайте опитування за допомогою футболки "Стан HTML"
 
-      Do you miss the the good old days of the mid-90s, when HTML was king and VHS tape covers featured futuristic, colorful artwork? 
+      Чи ви сумуєте за старими добрими часами середини 90-х, коли HTML був королем, а обкладинки VHS-касет містили футуристичні барвисті ілюстрації?
 
-      The bad news is that even with 2024's technology, you can't yet go back in time to relive those glory days. But what you *can* do is wear this awesome original retro t-shirt, designed by none other than the talented Christopher Kirk-Nielsen.
+      Прикра новина в тому, що навіть із технологіями 2024 року ви все ще не можете повернутися в минуле, щоб знову пережити ті славетні дні. Але що ви *можете* зробити, так це одягнути цю дивовижну оригінальну ретрофутболку, яку розробив не хто інший, як талановитий Christopher Kirk-Nielsen.
 
   - key: tshirt.about
-    t: About the T-shirt
+    t: Про футболку
 
   - key: tshirt.description
     t: |
-      We use a high-quality, super-soft tri-blend shirt with a slim fit printed by our partners at Cotton Bureau.
+      Ми використовуємо високоякісну, надм'яку футболку приталеного крою із тканини з трьох типів волокна (tri-blend), надруковану нашими партнерами з Cotton Bureau.
 
   - key: tshirt.getit
-    t: Get It
+    t: Отримати
 
   - key: tshirt.price
-    t: USD $32 + shipping
+    t: USD $32 + доставляння
 
   - key: tshirt.designer.heading
-    t: About the Designer
+    t: Про дизайнера
 
   - key: tshirt.designer.name
     t: Christopher Kirk-Nielsen
 
   - key: tshirt.designer.bio
     t: |
-      Originally from France but now based in the United States, Chris is not just an amazing front-end developer, but also a talented illustrator who specializes in retro visuals. In fact, we encourage you to also check out his [other t-shirt designs](https://chriskirknielsen.com/designs)!
+      Christopher родом із Франції, але тепер проживає у Сполучених Штатах; він не лише чудовий розробник клієнтської частини, а й талановитий ілюстратор, який спеціалізується на зображеннях у стилі ретро. Насправді ми радимо вам також переглянути [інші дизайни його футболок](https://chriskirknielsen.com/designs)!
 
   ###########################################################################
   # Sections
@@ -133,7 +133,7 @@ translations:
     aliases:
       - features.graphics_multimedia
   - key: sections.graphics_multimedia.title.short
-    t: Graphics
+    t: Графіка
     aliases:
       - features.graphics_multimedia.short
   - key: sections.graphics_multimedia.prompt
@@ -173,53 +173,53 @@ translations:
 
   - key: features.all_features.description
     t: |
-      This chart recaps all of the survey's feature questions. The main bars represent a respondent's experience; and they are then further subdivided according to that respondent's sentiment. You can change the grouping to alternate between both. 
+      Ця діаграма підсумовує всі основні запитання опитування. Основні стовпці або рядки відповідають певному досвіду респондента; всередині вони поділені відповідно до ставлення респодента. Ви можете змінити групування, щоб чергувати ці дві категорії.
 
 
-      Note that you can also find a more specific breakdown of the same data in each feature sub-section.
+      Зауважте, що ви також можете знайти більш деталізоване розбиття цих даних у розділі відповідної функції.
 
   - key: features.forms_features
-    t: Forms Experience & Sentiment
+    t: Досвід використання і ставлення до форм
     aliases:
       - forms.forms_features
 
   - key: features.interactivity_features
-    t: Interactivity Experience & Sentiment
+    t: Досвід використання і ставлення до методів інтерактивності
     aliases:
       - interactivity.interactivity_features
 
   - key: features.content_features
-    t: Content Experience & Sentiment
+    t: Досвід використання і ставлення до методів наповнення сайту
     aliases:
       - content.content_features
 
   - key: features.web_components_features
-    t: Web Components Experience & Sentiment
+    t: Досвід використання і ставлення до вебкомпонентів
     aliases:
       - web_components.web_components_features
 
   - key: features.accessibility_features
-    t: Accessibility Experience & Sentiment
+    t: Досвід використання і ставлення до забезпечення доступності
     aliases:
       - accessibility.accessibility_features
 
   - key: features.system_capabilities_features
-    t: System Capabilities Experience & Sentiment
+    t: Досвід використання і ставлення до системних функцій
     aliases:
       - system_capabilities.system_capabilities_features
 
   - key: features.performance_features
-    t: Performance Experience & Sentiment
+    t: Досвід використання і ставлення до забезпечення швидкодії
     aliases:
       - performance.performance_features
 
   - key: features.graphics_multimedia_features
-    t: Graphics & Multimedia Experience & Sentiment
+    t: Досвід використання і ставлення до графіки і мультимедіа
     aliases:
       - graphics_multimedia.graphics_multimedia_features
 
   - key: features.graphics_multimedia_features.short
-    t: Graphics Experience & Sentiment
+    t: Досвід використання і ставлення до графіки
     aliases:
       - graphics_multimedia.graphics_multimedia_features.short
   ###########################################################################
@@ -438,7 +438,7 @@ translations:
     aliases:
       - graphics_multimedia.graphics_pain_points
   - key: features.graphics_pain_points.short
-    t: Graphics Pain Points
+    t: Проблеми графіки
     aliases:
       - graphics_multimedia.graphics_pain_points.short
   - key: features.graphics_pain_points.question
