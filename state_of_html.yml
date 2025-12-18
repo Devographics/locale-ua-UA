@@ -21,28 +21,82 @@ translations:
     t: Щорічне опитування розробників щодо вебплатформи
 
   ###########################################################################
+  # Tshirt
+  ###########################################################################
+
+  - key: sections.tshirt.title
+    t: Футболка
+
+  - key: sections.tshirt.description
+    t: |
+      ## Підтримайте опитування за допомогою футболки "Стан HTML"
+
+      Чи ви сумуєте за старими добрими часами середини 90-х, коли HTML був королем, а обкладинки VHS-касет містили футуристичні барвисті ілюстрації?
+
+      Прикра новина в тому, що навіть із технологіями 2024 року ви все ще не можете повернутися в минуле, щоб знову пережити ті славетні дні. Але що ви *можете* зробити, так це одягнути цю дивовижну оригінальну ретрофутболку, яку розробив не хто інший, як талановитий Christopher Kirk-Nielsen.
+
+  - key: tshirt.about
+    t: Про футболку
+
+  - key: tshirt.description
+    t: |
+      Ми використовуємо високоякісну, надм'яку футболку приталеного крою із тканини з трьох типів волокна (tri-blend), надруковану нашими партнерами з Cotton Bureau.
+
+  - key: tshirt.getit
+    t: Отримати
+
+  - key: tshirt.price
+    t: USD $32 + доставляння
+
+  - key: tshirt.designer.heading
+    t: Про дизайнера
+
+  - key: tshirt.designer.name
+    t: Christopher Kirk-Nielsen
+
+  - key: tshirt.designer.bio
+    t: |
+      Christopher родом із Франції, але тепер проживає у Сполучених Штатах; він не лише чудовий розробник клієнтської частини, а й талановитий ілюстратор, який спеціалізується на зображеннях у стилі ретро. Насправді ми радимо вам також переглянути [інші дизайни його футболок](https://chriskirknielsen.com/designs)!
+
+  ###########################################################################
   # Sections
   ###########################################################################
 
   - key: sections.forms.title
     t: Форми
+    aliases:
+      - features.forms
   - key: sections.forms.prompt
     t: Елементи й атрибути, що відносяться до форм.
+    aliases:
+      - features.forms.description
 
   - key: sections.interactivity.title
     t: Інтерактивність
+    aliases:
+      - features.interactivity
   - key: sections.interactivity.prompt
     t: API, які забезпечують розширену взаємодію з користувачем.
+    aliases:
+      - features.interactivity.description
 
   - key: sections.web_components.title
     t: Вебкомпоненти
+    aliases:
+      - features.web_components
   - key: sections.web_components.prompt
     t: Створення та використання вебкомпонентів.
+    aliases:
+      - features.web_components.description
 
   - key: sections.content.title
     t: Наповнення сайту
+    aliases:
+      - features.content
   - key: sections.content.prompt
     t: Вбудовування елементів, мультимедіа, розмітка даних та інші пов'язані із наповненням функції.
+    aliases:
+      - features.content.description
 
   - key: sections.external_content.title
     t: Наповнення сайту ззовні
@@ -51,8 +105,13 @@ translations:
 
   - key: sections.accessibility.title
     t: Доступність
+    aliases:
+      - features.accessibility
   - key: sections.accessibility.prompt
     t: Як зробити сайти та застосунки доступними для всіх.
+    aliases:
+      - features.accessibility.description
+      - sections.accessibility.description
 
   - key: sections.mobile_web_apps.title
     t: Нативні вебзастосунки
@@ -73,13 +132,23 @@ translations:
     t: Графіка та мультимедіа
     aliases:
       - features.graphics_multimedia
+  - key: sections.graphics_multimedia.title.short
+    t: Графіка
+    aliases:
+      - features.graphics_multimedia.short
   - key: sections.graphics_multimedia.prompt
     t: Рендеринг графіки та анімацій.
+    aliases:
+      - features.graphics_multimedia.description
 
   - key: sections.performance.title
     t: Швидкодія
+    aliases:
+      - features.performance
   - key: sections.performance.prompt
     t: Як зробити ваш сайт ще швидшим.
+    aliases:
+      - features.performance.description
 
   - key: sections.security.title
     t: Безпека
@@ -92,10 +161,67 @@ translations:
       - features.system_capabilities
   - key: sections.system_capabilities.prompt
     t: Доступ до API пристрою та системи.
+    aliases:
+      - features.system_capabilities.description
 
   - key: sections.other_tools.prompt
     t: Інші інструменти, пов'язані з вебплатформою.
 
+  ###########################################################################
+  # Other Section Content
+  ###########################################################################
+
+  - key: features.all_features.description
+    t: |
+      Ця діаграма підсумовує всі основні запитання опитування. Основні стовпці або рядки відповідають певному досвіду респондента; всередині вони поділені відповідно до ставлення респодента. Ви можете змінити групування, щоб чергувати ці дві категорії.
+
+
+      Зауважте, що ви також можете знайти більш деталізоване розбиття цих даних у розділі відповідної функції.
+
+  - key: features.forms_features
+    t: Досвід використання і ставлення до форм
+    aliases:
+      - forms.forms_features
+
+  - key: features.interactivity_features
+    t: Досвід використання і ставлення до методів інтерактивності
+    aliases:
+      - interactivity.interactivity_features
+
+  - key: features.content_features
+    t: Досвід використання і ставлення до методів наповнення сайту
+    aliases:
+      - content.content_features
+
+  - key: features.web_components_features
+    t: Досвід використання і ставлення до вебкомпонентів
+    aliases:
+      - web_components.web_components_features
+
+  - key: features.accessibility_features
+    t: Досвід використання і ставлення до забезпечення доступності
+    aliases:
+      - accessibility.accessibility_features
+
+  - key: features.system_capabilities_features
+    t: Досвід використання і ставлення до системних функцій
+    aliases:
+      - system_capabilities.system_capabilities_features
+
+  - key: features.performance_features
+    t: Досвід використання і ставлення до забезпечення швидкодії
+    aliases:
+      - performance.performance_features
+
+  - key: features.graphics_multimedia_features
+    t: Досвід використання і ставлення до графіки і мультимедіа
+    aliases:
+      - graphics_multimedia.graphics_multimedia_features
+
+  - key: features.graphics_multimedia_features.short
+    t: Досвід використання і ставлення до графіки
+    aliases:
+      - graphics_multimedia.graphics_multimedia_features.short
   ###########################################################################
   # Features
   ###########################################################################
@@ -123,13 +249,19 @@ translations:
 
   - key: features.forms_pain_points
     t: Проблеми форм
+    aliases:
+      - forms.forms_pain_points
   - key: features.forms_pain_points.question
     t: Які проблеми HTML-форм найбільше вас розчаровують?
+    aliases:
+      - forms.forms_pain_points.question
   - key: features.forms_pain_points.prompt
     t: |
       Подумайте про різні елементи керування формами (наприклад, `<input>`, `<textarea>`, `<select>`, `<button>` тощо),
       поведінку (наприклад, валідація, автозаповнення), обробку форм за допомогою JS, API для редагування (наприклад, `contentEditable`) тощо.
       Пишіть усе, що вас турбує у формах: підтримання браузерами, відсутні функції, додавання стилів тощо.
+    aliases:
+      - forms.forms_pain_points.prompt
   - key: features.forms_pain_points.placeholder
     t: |
       Проблема #{index}…
@@ -194,12 +326,18 @@ translations:
 
   - key: features.interactivity_pain_points
     t: Проблеми інтерактивності
+    aliases:
+      - interactivity.interactivity_pain_points
   - key: features.interactivity_pain_points.question
     t: Які проблеми динамічної зміни HTML найбільше вас розчаровують?
+    aliases:
+      - interactivity.interactivity_pain_points.question
   - key: features.interactivity_pain_points.prompt
     t: |
       Несумісність між браузерами або недостатнє підтримування, відсутні функції та інші проблеми, з якими ви стикаєтеся,
       що пов'язані з інтерактивними елементами та поведінкою (крім форм), маніпулюванням DOM, подіями та суміжними API.
+    aliases:
+      - interactivity.interactivity_pain_points.prompt
 
   - key: features.interactivity_pain_points.placeholder
     aliasFor: features.forms_pain_points.placeholder
@@ -278,12 +416,18 @@ translations:
 
   - key: features.content_pain_points
     t: Проблеми наповнення сайту
+    aliases:
+      - content.content_pain_points
   - key: features.content_pain_points.question
     t: Які проблеми управління наповненням у HTML найбільше вас розчаровують?
+    aliases:
+      - content.content_pain_points.question
   - key: features.content_pain_points.prompt
     t: |
       Подумайте про елементи вмісту (елементи iframe, заголовки, таблиці, секції), машиночитні дані, інтернаціоналізацію та локалізацію тощо.
       Пишіть усе, що вас турбує: відсутні функції, несумісність між браузерами та інші проблеми.
+    aliases:
+      - content.content_pain_points.prompt
   - key: features.content_pain_points.placeholder
     aliasFor: features.forms_pain_points.placeholder
 
@@ -291,11 +435,21 @@ translations:
 
   - key: features.graphics_pain_points
     t: Проблеми графіки та мультимедіа
+    aliases:
+      - graphics_multimedia.graphics_pain_points
+  - key: features.graphics_pain_points.short
+    t: Проблеми графіки
+    aliases:
+      - graphics_multimedia.graphics_pain_points.short
   - key: features.graphics_pain_points.question
     t: Які проблеми рендерингу графіки, відео, анімацій та інших видів медіа найбільше вас розчаровують?
+    aliases:
+      - graphics_multimedia.graphics_pain_points.question
   - key: features.graphics_pain_points.prompt
     t: |
       Подумайте про проблеми використання Canvas, SVG, WebGL та інших API для рендерингу графіки, про рендеринг анімацій, про швидкодію графіки, про відсутні графічні примітиви чи API тощо.
+    aliases:
+      - graphics_multimedia.graphics_pain_points.prompt
   - key: features.graphics_pain_points.placeholder
     aliasFor: features.forms_pain_points.placeholder
 
@@ -303,11 +457,17 @@ translations:
 
   - key: features.performance_pain_points
     t: Проблеми швидкодії
+    aliases:
+      - performance.performance_pain_points
   - key: features.performance_pain_points.question
     t: Які проблеми швидкодії найбільше вас розчаровують?
+    aliases:
+      - performance.performance_pain_points.question
   - key: features.performance_pain_points.prompt
     t: |
       Проблеми з низькими показниками швидкодії, повільним завантаженням сторінок, затримкою рендерингу, нестабільною анімацією або гортанням тощо.
+    aliases:
+      - performance.performance_pain_points.prompt
   - key: features.performance_pain_points.placeholder
     aliasFor: features.forms_pain_points.placeholder
 
@@ -315,11 +475,17 @@ translations:
 
   - key: features.security_pain_points
     t: Проблеми безпеки
+    aliases:
+      - security.security_pain_points
   - key: features.security_pain_points.question
     t: Які проблеми безпеки найбільше вас розчаровують?
+    aliases:
+      - security.security_pain_points.question
   - key: features.security_pain_points.prompt
     t: |
       TODO
+    aliases:
+      - security.security_pain_points.prompt
   - key: features.security_pain_points.placeholder
     aliasFor: features.forms_pain_points.placeholder
 
@@ -401,8 +567,12 @@ translations:
 
   - key: features.web_components_common_pain_points
     t: Проблеми вебкомпонентів
+    aliases:
+      - web_components.web_components_common_pain_points
   - key: features.web_components_common_pain_points.question
     t: Які проблеми створення та використання вебкомпонентів найбільше вас розчаровують?
+    aliases:
+      - web_components.web_components_common_pain_points.question
 
   - key: options.web_components_common_pain_points.complex_apis
     t: Надмірна складність
@@ -459,7 +629,11 @@ translations:
 
   - key: features.web_components_other_pain_points
     t: Інші проблеми вебкомпонентів
+    aliases:
+      - web_components.web_components_other_pain_points
   - key: features.web_components_other_pain_points.question
+    aliases:
+      - web_components.web_components_other_pain_points.question
     t: Які ще проблеми створення та використання вебкомпонентів вас розчаровують?
   - key: features.web_components_other_pain_points.placeholder
     aliasFor: features.forms_pain_points.placeholder
@@ -537,11 +711,17 @@ translations:
       - accessibility.accessibility_tools
   - key: features.accessibility_tools.question
     t: Які інструменти ви використовуєте для тестування доступності?
+    aliases:
+      - accessibility.accessibility_tools.question
 
   - key: features.accessibility_pain_points
     t: Проблеми доступності
+    aliases:
+      - accessibility.accessibility_pain_points
   - key: features.accessibility_pain_points.question
     t: Які проблеми доступності вебплатформи найбільше вас розчаровують?
+    aliases:
+      - accessibility.accessibility_pain_points.question
   - key: features.accessibility_pain_points.placeholder
     aliasFor: features.forms_pain_points.placeholder
 
@@ -551,6 +731,8 @@ translations:
       - accessibility.accessibility_disabilities
   - key: features.accessibility_disabilities.question
     t: Які порушення здоров'я користувачів ви враховуєте під час створення вебсайтів?
+    aliases:
+      - accessibility.accessibility_disabilities.question
 
   - key: options.accessibility_disabilities.hearing_impairments
     t: Порушення слуху
@@ -737,11 +919,17 @@ translations:
 
   - key: features.system_capabilities_pain_points
     t: Проблеми системних функцій
+    aliases:
+      - system_capabilities.system_capabilities_pain_points
   - key: features.system_capabilities_pain_points.question
     t: Які проблеми доступу до нативних функцій системи чи пристрою найбільше вас розчаровують?
+    aliases:
+      - system_capabilities.system_capabilities_pain_points.question
   - key: features.system_capabilities_pain_points.prompt
     t: |
       Проблеми із доступом до функцій пристрою або ОС, взаємодією із файловою системою, створенням такого ж набору функцій, як і в нативного застосунку, тощо.
+    aliases:
+      - system_capabilities.system_capabilities_pain_points.prompt
   - key: features.system_capabilities_pain_points.placeholder
     aliasFor: features.forms_pain_points.placeholder
 
@@ -1029,7 +1217,7 @@ translations:
     t: Обмежена функціональність
   - key: usage.html_functionality_features.question
     t: Якими наявними функціями HTML або API браузера ви не можете користуватися з інших причин (і чому)?
-  - key: usage.html_functionality_features.description
+  - key: usage.html_functionality_features.prompt
     t: |
       Наявні функції HTML, які вам часто доводиться відтворювати або доповнювати за допомогою JS.
   # - key: usage.html_functionality_features.description
@@ -1307,15 +1495,15 @@ translations:
   - key: opinions.browser_interoperability_pace.question
     t: Протягом останніх кількох років нові функції вебу стають стабільними у різних браузерах набагато швидше
 
-  - key: options.browser_interoperability_is_obstacle.0
+  - key: options.browser_interoperability_pace.0
     aliasFor: options.opinions.0
-  - key: options.browser_interoperability_is_obstacle.1
+  - key: options.browser_interoperability_pace.1
     aliasFor: options.opinions.1
-  - key: options.browser_interoperability_is_obstacle.2
+  - key: options.browser_interoperability_pace.2
     aliasFor: options.opinions.2
-  - key: options.browser_interoperability_is_obstacle.3
+  - key: options.browser_interoperability_pace.3
     aliasFor: options.opinions.3
-  - key: options.browser_interoperability_is_obstacle.4
+  - key: options.browser_interoperability_pace.4
     aliasFor: options.opinions.4
 
   - key: opinions.web_platform_right_direction
@@ -1361,19 +1549,6 @@ translations:
       які **функції** (features) мови HTML і суміжні API ви знаєте.
 
       До речі, якщо ви хочете дізнатися більше про будь-яку тему в опитуванні, ви можете додати її до свого списку читання, натиснувши на маленький значок "+" біля відповідного пункту!
-
-  - key: features.forms
-    aliasFor: sections.forms.title
-  - key: features.interactivity
-    aliasFor: sections.interactivity.title
-  - key: features.content
-    aliasFor: sections.content.title
-  - key: features.web_components
-    aliasFor: sections.web_components.title
-  - key: features.accessibility
-    aliasFor: sections.accessibility.title
-  - key: features.mobile_web_apps
-    aliasFor: sections.mobile_web_apps.title
 
   ###########################################################################
   # FAQ
