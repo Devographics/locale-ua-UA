@@ -683,20 +683,20 @@ translations:
   # reasons_for_not_using_web_components
 
   - key: features.reasons_for_not_using_web_components
-    t: Reasons for Not Using
+    t: Причини невикористання
   - key: features.reasons_for_not_using_web_components.question
-    t: If you're *not* using web components currently, can you tell us why?
+    t: Якщо ви зараз *не* використовуєте вебкомпоненти, чи можете повідомити причину?
 
   - key: options.reasons_for_not_using_web_components.not_interested
-    t: Not interested, or don't see the need for them
+    t: Не цікаво або не бачу в них потреби
   - key: options.reasons_for_not_using_web_components.no_chance
-    t: Interested, but haven't had a chance to use them yet
+    t: Цікаво, але ще не було нагоди їх використати
   - key: options.reasons_for_not_using_web_components.negative_experience
-    t: Used them but had a negative experience
+    t: Використовував(-ла), але мав(-ла) негативний досвід
   - key: options.reasons_for_not_using_web_components.use_frameworks_instead
-    t: Can accomplish the same thing using JS frameworks instead
+    t: Можу зробити те саме за допомогою JS-фреймворків
   - key: options.reasons_for_not_using_web_components.compatibility_issues
-    t: Want to use them but can't because of compatibility or support issues.
+    t: Хочу використовувати, але не можу через проблеми сумісності/підтримання
 
   # Accessibility
 
@@ -1299,9 +1299,9 @@ translations:
     t: Оповіщення
 
   - key: options.html_missing_elements.callout
-    t: Callout
+    t: Вигук (Callout)
   - key: options.html_missing_elements.callout.description
-    t: Visually distinct text block for info messages, errors, warnings, etc.
+    t: Візуально відмінний текстовий блок для інформаційних повідомлень, помилок, попереджень тощо.
 
   - key: options.html_missing_elements.calendar
     t: Календар
@@ -1327,7 +1327,7 @@ translations:
     t: Каркасний UI / Заповнювач під час завантаження
 
   - key: options.html_missing_elements.sortable_list
-    t: Sortable drag-and-drop list
+    t: Список із сортуванням за допомогою перетягування
 
   - key: options.html_missing_elements.switch
     t: Перемикач (Switch / Toggle)
@@ -1350,26 +1350,26 @@ translations:
   - key: options.html_missing_elements.star_rating
     t: Оцінювання зірочками
   - key: options.html_missing_elements.html_include
-    t: HTML include
+    t: Вміщення HTML (HTML include)
   - key: options.html_missing_elements.html_include.description
-    t: An element that includes content from another page inline in the document.
+    t: Елемент, який вбудовує вміст з іншої сторінки в документ.
   - key: options.html_missing_elements.range_slider
-    t: Range slider
+    t: Ковзний елемент діапазону
   - key: options.html_missing_elements.range_slider.description
-    t: A slider with two handles, for selecting a range of numbers.
+    t: Ковзний елемент із двома бігунками для вибору діапазону чисел.
 
   - key: options.html_missing_elements.charts
-    t: Charts/graphs
+    t: Діаграми/графіки
   - key: options.html_missing_elements.rich_text_editor
-    t: Rich text editor
+    t: Редактор збагаченого тексту
   - key: options.html_missing_elements.rich_code_block
-    t: Rich code block
+    t: Блок збагаченого коду
   - key: options.html_missing_elements.rich_code_block.description
-    t: With syntax highlighting, code editing, copy button, etc.
+    t: З виділенням синтаксису, редагуванням коду, кнопкою копіювання тощо.
   - key: options.html_missing_elements.footnotes
-    t: Footnotes/sidenotes
+    t: Виноски/примітки
   - key: options.html_missing_elements.maps
-    t: Map
+    t: Мапа
 
   - key: usage.html_pain_points_freeform
     t: Інші проблеми
@@ -1389,40 +1389,40 @@ translations:
 
   # design_system_strategies
   - key: usage.design_system_strategies
-    t: Design Systems
+    t: Дизайн-системи
 
   - key: usage.design_system_strategies.question
-    t: Do you use any of the following design system strategies to maintain UI consistency?
+    t: Чи використовуєте ви якусь із наведених нижче стратегій для дизайн-систем, щоб мати консистентний та узгоджений UI?
 
   - key: options.design_system_strategies.elements_components
-    t: Elements/components
+    t: Елементи/компоненти
   - key: options.design_system_strategies.elements_components.description
     t: |
-      A library of reusable building blocks like buttons or dropdowns, implemented in any technology (e.g., React, Web Components, etc.).
+      Бібліотека багаторазово використовуваних будівельних блоків, як-от кнопки або випадні меню, реалізованих будь-якою технологією (наприклад, React, вебкомпоненти тощо).
 
   - key: options.design_system_strategies.design_tokens
-    t: Design tokens
+    t: Дизайн-токени
   - key: options.design_system_strategies.design_tokens.description
     t: |
-      Atomic variables for things like colors, spacing, and typography, e.g. `--color-accent-dark`, `--font-heading`, etc.
+      Атомарні змінні, наприклад, для кольорів, інтервалів і типографіки, як-от `--color-accent-dark`, `--font-heading` тощо.
 
   - key: options.design_system_strategies.utilities
-    t: Utilities
+    t: Допоміжні класи
   - key: options.design_system_strategies.utilities.description
     t: |
-      Low-level CSS classes that apply a single, specific style or behavior, e.g. .`visually-hidden` , `.grid-2x2`, `.text-center`, etc.
+      Низькорівневі CSS-класи, що застосовують один певний стиль або поведінку, наприклад, .`visually-hidden`, `.grid-2x2`, `.text-center` тощо.
 
   - key: options.design_system_strategies.guidelines
-    t: Guidelines
+    t: Керівні принципи
   - key: options.design_system_strategies.guidelines.description
     t: |
-      Standards and best practices to maintain consistency and ensure certain goals are met (accessibility, usability, etc.).
+      Стандарти та найкращі практики для підтримання узгодженості та забезпечення досягнення певних цілей (доступність, зручність використання тощо).
 
   - key: options.design_system_strategies.patterns
-    t: Patterns
+    t: Шаблони
   - key: options.design_system_strategies.patterns.description
     t: |
-      Copy-pastable higher-level arrangements of all of the above that solve common UI/UX problems, such as navigation bars, or even entire responsive page layouts.
+      Копіювано-вставні композиції вищого рівня всіх перерахованих вище елементів, які вирішують поширені проблеми UI/UX, як-от панелі навігації або навіть цілі адаптивні макети сторінок.
 
   # html_styling_issues
 
