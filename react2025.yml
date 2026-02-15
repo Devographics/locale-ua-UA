@@ -393,48 +393,48 @@ translations:
 
   - key: about.content.react2025
     t: |
-      The 2025 State of React survey ran from November 19, 2025 to January 13, 2026, and collected 3,760 responses. The results were published on February 15, 2025. The survey is run by [Devographics](https://devographics.com/). 
+      Опитування "Стан React 2025" тривало з 19 листопада 2025 року до 13 січня 2026 року та зібрало 3760 відповідей. Результати були опубліковані 15 лютого 2025 року. Опитування проводив [Devographics](https://devographics.com/). 
 
-      The State of React logo and t-shirt were designed by [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
+      Логотип і футболку "Стан React" розробив [Christopher Kirk-Nielsen](http://chriskirknielsen.com/). 
 
-      ### Survey Goals
+      ### Цілі опитування 
 
-      This survey was created to identify upcoming trends in the React ecosystem in order to help developers make technological choices. 
+      Це опитування було створено для визначення майбутніх тенденцій в екосистемі React, щоб допомогти розробникам здійснити вибір з-поміж наявних технологій. 
 
-      As such, the survey is focused on anticipating what's coming over the next few years rather than analyzing what's popular now, which is why features or technologies may sometimes be omitted even if they are currently widespread 
+      Так опитування зосереджено більше на передбаченні того, що станеться протягом наступних кількох років, ніж на аналізі того, що популярно саме зараз, — ось чому деякі функції чи технології іноді можуть не згадуватися попри широке впровадження. 
 
-      It should also be taken as a **snapshot of a specific subset of developers**, and is not meant to speak for the entire React ecosystem. 
+      Його також слід сприймати як **знімок певної підмножини розробників у певний момент часу**, а не промовистий опис від імені всієї екосистеми React. 
 
-      ### Survey Design
+      ### Розробка опитування
 
-      The survey was designed in part based on last year's survey, with an open feedback period where the survey outline was discussed [on GitHub](https://github.com/Devographics/surveys/issues/262). 
+      Опитування було розроблено частково на основі торішнього опитування з відкритим періодом для зворотного зв'язку, під час якого план опитування обговорювався [на платформі GitHub](https://github.com/Devographics/surveys/issues/262). 
 
-      All survey questions were optional. 
+      Усі запитання опитування були необов'язковими. 
 
-      ### Survey Audience
+      ### Аудиторія опитування 
 
-      The survey was openly accessible online and respondents were not filtered or selected in any way. Respondents were primarily a mix of respondents from past surveys (alerted through a dedicated mailing list) and social media traffic. 
+      Опитування було повністю відкрите та доступне онлайн, респонденти жодним чином не відфільтровувалися та не відбиралися. Респонденти складалися здебільшого з учасників минулих опитувань (сповіщених електронною поштою за спеціальним списком розсилання) та тих, хто прийшов через соціальні мережі. 
 
-      Note that frameworks, libraries, etc. were free to encourage their audience to participate in the survey and some of them did take advantage of this via banners, tweets, etc. A detailed breakdown of traffic sources is included in the Metadat section's "Sources" chart. 
+      Зауважте, що фреймворки, бібліотеки тощо могли вільно заохочувати свою аудиторію до участі в опитуванні, і деякі з них скористалися цим за допомогою банерів, твітів або в інший спосіб. Детальний розподіл джерел трафіку включено в діаграму "Джерела" у секції "Метадані". 
 
-      ### Project Funding
+      ### Фінансування проєкту 
 
-      Funding from this project comes from a variety of sources:
+      Цей проєкт фінансується з різних джерел: 
 
-      - **T-shirt sales**. 
+      - **Продаж футболок**. 
 
-      - **Sponsored links**: the links to recommended resources at the bottom of each page are provided by our partner [Frontend Masters](https://frontendmasters.com/).
+      - **Розміщення посилань від спонсорів**: посилання на рекомендовані джерела у нижній частині кожної сторінки надає наш партнер [Frontend Masters](https://frontendmasters.com/). 
 
-      - **Direct Funding**: this year, [Google](https://www.google.com/), [GitNation](https://gitnation.com/), [Algolia](https://www.algolia.com/), [Storyblok](https://www.storyblok.com/), [JetBrains](https://www.jetbrains.com/webstorm/) and [TokyoDev](https://www.tokyodev.com/) funded my work on the surveys. 
+      - **Пряме фінансування**: цього року [Google](https://www.google.com/), [GitNation](https://gitnation.com/), [Algolia](https://www.algolia.com/), [Storyblok](https://www.storyblok.com/), [JetBrains](https://www.jetbrains.com/webstorm/) і [TokyoDev](https://www.tokyodev.com/) профінансували мою роботу над опитуванням. 
 
-      Any contribution or sponsorship is greatly appreciated. We would especially like to work closely with more browser vendors, since they play such a central role in the web ecosystem.  
+      Будь-який внесок або спонсорство дуже цінується. Особливо ми хотіли б тісніше співпрацювати з більшою кількістю постачальників браузерів, оскільки вони відіграють центральну роль в екосистемі вебу. 
 
-      ### Technical Overview
+      ### Технічний огляд 
 
-      You can find a more in-depth technical overview of how the surveys are run [here](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2023-edition-1p6a).
+      Більш детальний технічний огляд того, як проводяться опитування, [тут](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2023-edition-1p6a). 
 
-      **Note: This is *not* an official React survey, and the survey team is not affiliated with Meta, Vercel, or the React team.**
+      **Примітка: Це *НЕ* офіційне опитування щодо React, а команда опитування ніяк не пов'язана з Meta, Vercel або командою React.** 
 
-      ### Special Thanks
+      ### Особлива подяка 
 
-      Special thanks to Paul McMahon, Marc Grabanski, and Sébastien Lorber.
+      Особлива подяка Paul McMahon, Marc Grabanski та Sébastien Lorber.
