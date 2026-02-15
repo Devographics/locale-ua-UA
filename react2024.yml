@@ -200,8 +200,6 @@ translations:
     t: |
       Ми переробили наші діаграми, щоб підкреслити не лише досвід розробників, але і *ставлення*. Обов'язково вивчіть ці нові параметри групування та сортування, щоб з'ясувати, які бібліотеки приваблюють найбільше… або найменше!
 
-  - key: tools.all_tools_experience
-    t: Досвід використання і ставлення до бібліотек
   - key: tools.all_tools_experience.takeaway.react2024
     t: >
       З-поміж бібліотек і фреймворків React **TanStack Query** і **Zustand** випередили **Next.js** і стали лідерами за загальною позитивністю.
@@ -220,14 +218,10 @@ translations:
 
   # component libraries
 
-  # - key: tools.component_libraries_experience
-  #   t: Досвід використання і ставлення до бібліотек компонентів
-  # - key: tools.component_libraries_experience.takeaway.react2024
-  #   t: >
-  #     **React Aria** and **Radix** lead the rankings in terms of positivity, proving that the headless approach to component libraries has a lot going for it.
+  - key: tools.component_libraries_experience.takeaway.react2024
+    t: >
+      **React Aria** і **Radix** — найперші у рейтингу за позитивним ставленням, доводячи, що створення бібліотек доступних, легких компонентів без стилів (headless approach) має багато переваг.
 
-  - key: tools.component_libraries_ratios
-    t: Співвідношення бібліотек компонентів із часом
   - key: tools.component_libraries_ratios.takeaway.react2024
     t: >
       Поки **MUI** зберігає перше місце за використанням, **shadcn/ui** успішно прогресує та подвоює цей показник із 20% до 42% за рік, а також очолює діаграму позитивності, маючи 80%!
@@ -267,8 +261,6 @@ translations:
   #   t: >
   #     Beyond **useState**, the state management solution with the highest positivity ratio is **Zustand**. And while **Redux** still boasts a large userbase, it isn't quite as beloved.
 
-  - key: tools.state_management_ratios
-    t: Співвідношення інструментів управління станом із часом
   - key: tools.state_management_ratios.takeaway.react2024
     t: >
       **Zustand** підтверджує своє лідерство за позитивністю, лише стандартний **useState** має вищий бал. Крім того, використання **Zustand** зросло з 28% до 41% за минулий рік!
@@ -289,8 +281,6 @@ translations:
   #   t: >
   #     **TanStack Query** has been making waves for a while now, and it turns out its reputation is reflected in the data since it's the data loading method respondents felt the most positive about, right after the native `fetch` API.
 
-  - key: tools.data_loading_ratios
-    t: Співвідношення інструментів завантаження даних із часом
   - key: tools.data_loading_ratios.takeaway.react2024
     t: >
       **TanStack Query** продовжує йти траєкторією зростання — як за використанням, так і за позитивністю. Зокрема, графік зацікавленості показує, що — разом із **tRPC** — це, вважайте, єдина бібліотека для завантаження даних, яка все ще інтригує респондентів сьогодні!
@@ -314,8 +304,6 @@ translations:
   #   t: >
   #     While you'll certainly have no trouble finding people complaining about **Next.js**, it still managed to top the positivity rankings for meta-frameworks, followed by **Remix** and **Astro**.
 
-  - key: tools.meta_frameworks_ratios
-    t: Співвідношення метафреймворків із часом
   - key: tools.meta_frameworks_ratios.takeaway.react2024
     t: >
       **Astro** — єдиний фреймворк, який демонструє значне зростання використання — з 18% до 26%. Також варто зазначити, що **TanStack Start** разюче дебютував із 81% зацікавленості та 90% утримання!

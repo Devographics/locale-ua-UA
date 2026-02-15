@@ -442,8 +442,10 @@ translations:
     t: Попередні опитування від Devographics, у яких взяли участь респонденти.
     aliases:
       - _user_metadata.past_surveys.description
-  # - key: user_metadata.past_surveys.note
-  #   t: Зауважте, що ці дані не включають респондентів, які взяли участь в опитуванні як гості.
+  - key: user_metadata.past_surveys.note
+    t: Респонденти, які взяли участь в опитуванні як гості, показані як “Без відповіді”.
+    aliases:
+      - _user_metadata.past_surveys.note
 
   - key: user_metadata.past_editions
     t: Попередні хвилі
@@ -493,8 +495,8 @@ translations:
     t: Скільки разів респонденти взяли участь у попередніх хвилях цього опитування.
     aliases:
       - _user_metadata.past_same_survey_count.description
-  # - key: user_metadata.past_same_survey_count.note
-  #   aliasFor: user_metadata.past_surveys.note
+  - key: user_metadata.past_same_survey_count.note
+    aliasFor: user_metadata.past_surveys.note
 
   - key: user_metadata.created_at_date
     t: Відповіді з часом
@@ -1662,9 +1664,9 @@ translations:
     t: Нагороджується технологія з найбільшим прогресом використання за рік.
 
   - key: award.tool_retention_award.title
-    t: Найвищий рівень утримання
+    t: Найвищий рівень вдоволення
   - key: award.tool_retention_award.description
-    t: Нагороджується технологія з найбільшим відсотком утримань/повернень користувачів.
+    t: Нагороджується технологія з найбільшим відсотком вдоволених користувачів.
 
   - key: award.tool_satisfaction_award.title
     aliasFor: award.tool_retention_award.title
@@ -2484,7 +2486,7 @@ translations:
       Бібліотека від нас:
 
   - key: highlight.description
-    t: Ми виокремлюємо нові функції або бібліотеки, про які, на нашу думку, вам варто знати.
+    t: Ми виокремлюємо цікаві функції або бібліотеки, про які, на нашу думку, вам варто знати.
 
   - key: highlight.resources
     t: Корисні джерела
