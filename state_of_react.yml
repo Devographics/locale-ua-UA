@@ -80,7 +80,7 @@ translations:
     aliases:
       - tools.back_end_infrastructure
   - key: sections.back_end_infrastructure.title.short
-    t: Back-End
+    t: Серверна частина
     aliases:
       - tools.back_end_infrastructure.short
   - key: sections.back_end_infrastructure.description

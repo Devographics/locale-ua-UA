@@ -1475,7 +1475,7 @@ translations:
     t: Ім'я функції, бібліотеки, вебсайту, особистості тощо, що ви хочете виокремити цього року.
 
   - key: picks.state_of_js.intro
-    t: We asked members of the JavaScript community to share their “pick of the year”
+    t: Ми покликали спільноту JavaScript поділитися своїм “вибором року”
 
   - key: usage.industry_sector_js
     aliasFor: usage.industry_sector

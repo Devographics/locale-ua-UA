@@ -123,7 +123,7 @@ translations:
   - key: credits.survey_review
     t: Перевірка опитування
   - key: credits.conclusion
-    t: Conclusion
+    t: Висновок
 
   # support
   - key: general.support_from

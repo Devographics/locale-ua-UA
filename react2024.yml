@@ -220,7 +220,7 @@ translations:
 
   - key: tools.component_libraries_experience.takeaway.react2024
     t: >
-      **React Aria** and **Radix** lead the rankings in terms of positivity, proving that the headless approach to component libraries has a lot going for it.
+      **React Aria** і **Radix** — найперші у рейтингу за позитивним ставленням, доводячи, що створення бібліотек доступних, легких компонентів без стилів (headless approach) має багато переваг.
 
   - key: tools.component_libraries_ratios.takeaway.react2024
     t: >
