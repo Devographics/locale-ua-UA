@@ -122,6 +122,8 @@ translations:
     t: Розробка серверної частини
   - key: credits.survey_review
     t: Перевірка опитування
+  - key: credits.conclusion
+    t: Conclusion
 
   # support
   - key: general.support_from
@@ -1819,8 +1821,12 @@ translations:
   # why_did_you_take_the_survey
   - key: user_info.why_did_you_take_the_survey
     t: Мотивація участі в опитуванні
+    aliases:
+      - _user_metadata.why_did_you_take_the_survey
   - key: user_info.why_did_you_take_the_survey.question
     t: Навіщо ви берете участь в цьому опитуванні?
+    aliases:
+      - _user_metadata.why_did_you_take_the_survey.question
 
   - key: options.why_did_you_take_the_survey.stay_informed
     t: Це допомагає мені залишатися обізнаним та встигати за екосистемою.

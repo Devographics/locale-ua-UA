@@ -50,7 +50,7 @@ translations:
     t: Нещодавно додані або експериментальні API та функції
 
   - key: sections.component_libraries.title
-    t: Бібліотеки компонентів
+    t: UI-бібліотеки
     aliases:
       - tools.component_libraries
   - key: sections.component_libraries.description
@@ -79,6 +79,10 @@ translations:
     t: Серверна частина та інфраструктура
     aliases:
       - tools.back_end_infrastructure
+  - key: sections.back_end_infrastructure.title.short
+    t: Back-End
+    aliases:
+      - tools.back_end_infrastructure.short
   - key: sections.back_end_infrastructure.description
     t: Пакування та обслуговування вашого застосунку
 
@@ -330,67 +334,127 @@ translations:
     t: >
       `useEffectEvent` — це хук React, який дає змогу виокремлювати нереактивну логіку з ваших ефектів (Effects) у функцію повторного використання, яка називається подія ефекту (Effect Event).
 
-  # tools
+  # libraries
+
+  - key: tools.all_tools_experience
+    t: Досвід використання і ставлення до бібліотек
+    aliases:
+      - libraries.all_tools_experience
+      - libraries.all_libraries
+
+  # component_libraries
 
   - key: tools.component_libraries_others
-    t: Інші бібліотеки компонентів
+    t: Інші UI-бібліотеки
+    aliases:
+      - component_libraries.component_libraries_others
   - key: tools.component_libraries_others.question
     t: Які ще бібліотеки компонентів ви використовували?
+    aliases:
+      - component_libraries.component_libraries_others.question
+
+  - key: tools.component_libraries_experience
+    t: Досвід використання і ставлення до UI-бібліотек
+    aliases:
+      - component_libraries.component_libraries_experience
+
+  - key: tools.component_libraries_ratios
+    t: Співвідношення UI-бібліотек із часом
+    aliases:
+      - component_libraries.component_libraries_ratios
 
   - key: tools.component_libraries_pain_points
     t: Проблеми у роботі з компонентами
     aliases:
       - react_pain_points.component_libraries_pain_points
+      - component_libraries.component_libraries_pain_points
   - key: tools.component_libraries_pain_points.question
     t: З якими проблемами ви стикалися під час роботи з компонентами?
     aliases:
       - react_pain_points.component_libraries_pain_points.question
+      - component_libraries.component_libraries_pain_points.question
 
   # - key: tools.ui_libraries_happiness
   #   t: Happiness
   # - key: tools.ui_libraries_happiness.description
   #   t: How happy are you with the state of UI libraries?
 
+  # state_management
+
+  - key: tools.state_management_ratios
+    t: Співвідношення інструментів управління станом із часом
+    aliases:
+      - state_management.state_management_ratios
+
   - key: tools.state_management_others
     t: Інші бібліотеки для управління станом
+    aliases:
+      - state_management.state_management_others
   - key: tools.state_management_others.question
     t: Які ще бібліотеки ви використовували для управління станом у ваших застосунках?
+    aliases:
+      - state_management.state_management_others.question
 
   - key: tools.state_management_pain_points
     t: Проблеми управління станом
     aliases:
       - react_pain_points.state_management_pain_points
+      - state_management.state_management_pain_points
   - key: tools.state_management_pain_points.question
     t: З якими проблемами ви стикалися під час управління станом?
     aliases:
       - react_pain_points.state_management_pain_points.question
+      - state_management.state_management_pain_points.question
 
   # - key: tools.state_management_happiness
   #   t: Happiness
   # - key: tools.state_management_happiness.description
   #   t: How happy are you with the available state management libraries?
 
+  # data_loading
+
+  - key: tools.data_loading_ratios
+    t: Співвідношення інструментів завантаження даних із часом
+    aliases:
+      - data_loading.data_loading_ratios
+
   - key: tools.data_loading_others
     t: Інші бібліотеки для завантаження даних
+    aliases:
+      - data_loading.data_loading_others
   - key: tools.data_loading_others.question
     t: Які ще бібліотеки ви використовували для завантаження даних?
+    aliases:
+      - data_loading.data_loading_others.question
 
   - key: tools.data_loading_pain_points
     t: Проблеми під час завантаження даних
     aliases:
       - react_pain_points.data_loading_pain_points
+      - data_loading.data_loading_pain_points
   - key: tools.data_loading_pain_points.question
     t: З якими проблемами ви стикалися під час завантаження даних?
     aliases:
       - react_pain_points.data_loading_pain_points.question
+      - data_loading.data_loading_pain_points.question
 
   # - key: tools.data_loading_happiness
   #   t: Happiness
   # - key: tools.data_loading_happiness.description
   #   t: How happy are you with the state of data loading libraries?
 
+  # back_end_infrastructure
+
+  - key: tools.meta_frameworks_ratios
+    t: Співвідношення метафреймворків із часом
+    aliases:
+      - back_end_infrastructure.meta_frameworks_ratios
+
   - key: tools.meta_frameworks_others
     t: Інші метафреймворки
+    aliases:
+      - back_end_infrastructure.meta_frameworks_others
+
   # - key: tools.meta_frameworks_happiness
   #   t: Happiness
   # - key: tools.meta_frameworks_happiness.description
@@ -406,10 +470,13 @@ translations:
     t: Проблеми серверної частини
     aliases:
       - react_pain_points.back_end_infrastructure_pain_points
+      - back_end_infrastructure.back_end_infrastructure_pain_points
+
   - key: tools.back_end_infrastructure_pain_points.question
     t: З якими проблемами ви стикалися під час роботи із серверною частиною та інфраструктурою?
     aliases:
       - react_pain_points.back_end_infrastructure_pain_points.question
+      - back_end_infrastructure.back_end_infrastructure_pain_points.question
 
   - key: tools.testing
     t: Бібліотеки для тестування
@@ -423,8 +490,13 @@ translations:
 
   - key: tools.mobile_development
     t: Розробка мобільних застосунків
+    aliases:
+      - other_tools.mobile_development
+
   - key: tools.mobile_development.question
     t: Які фреймворки чи бібліотеки ви використовували для розробки мобільних застосунків?
+    aliases:
+      - other_tools.mobile_development.question
 
   # - key: tools.mobile_development_others
   #   t: Other Mobile Development Tools
@@ -436,10 +508,14 @@ translations:
   # other tools
   - key: tools.form_libraries
     t: Бібліотеки для форм
+    aliases:
+      - component_libraries.form_libraries
   # - key: tools.form_libraries.description
   #   t: Libraries for generating and validating forms.
   - key: tools.form_libraries.question
     t: Які бібліотеки ви використовували для роботи з формами?
+    aliases:
+      - component_libraries.form_libraries.question
   - key: options.form_libraries.na
     t: Жодна
 
@@ -456,38 +532,59 @@ translations:
 
   - key: tools.build_tools
     t: Інструменти для збирання коду
+    aliases:
+      - back_end_infrastructure.build_tools
+
   # - key: tools.build_tools.description
   #   t: Build tools and bundlers.
   - key: tools.build_tools.question
     t: Які інструменти для збирання та пакетування ви використовували?
+    aliases:
+      - back_end_infrastructure.build_tools.question
 
   - key: tools.animation_libraries
     t: Анімації
+    aliases:
+      - component_libraries.animation_libraries
   # - key: tools.animation.description
   #   t: Libraries to help manage animations and transitions.
   - key: tools.animation_libraries.question
     t: Які бібліотеки ви використовували для роботи з анімаціями?
+    aliases:
+      - component_libraries.animation_libraries.question
 
   - key: tools.auth
     t: Автентифікація
+    aliases:
+      - other_tools.auth
   # - key: tools.auth.description
   #   t: Libraries and services for managing authentication and accounts.
   - key: tools.auth.question
     t: Які бібліотеки та сервіси ви використовували для автентифікації?
+    aliases:
+      - other_tools.auth.question
 
   - key: tools.data_visualization_libraries
     t: Візуалізація даних
+    aliases:
+      - component_libraries.data_visualization_libraries
   # - key: tools.data_visualization.description
   #   t: Data visualization and graphics libraries.
   - key: tools.data_visualization_libraries.question
     t: Які бібліотеки ви використовували для візуалізації даних та роботи з графікою?
+    aliases:
+      - component_libraries.data_visualization_libraries.question
 
   - key: tools.css_tools
     t: Інструменти та бібліотеки CSS 
+    aliases:
+      - component_libraries.css_tools
   # - key: tools.css_tools.description
   #   t: CSS libraries, frameworks, and utilities you use to style your React app.
   - key: tools.css_tools.question
     t: Які бібліотеки або фреймворки ви використовували для стилізації ваших React-застосунків?
+    aliases:
+      - component_libraries.css_tools.question
 
   - key: tools.other_frontend_frameworks
     t: Інші фреймворки для клієнтської частини
@@ -500,25 +597,44 @@ translations:
 
   - key: tools.hosting
     t: Сервіси хостингу
+    aliases:
+      - back_end_infrastructure.hosting
+
   # - key: tools.hosting.description
   #   t: Services you use to host your React apps.
   - key: tools.hosting.question
     t: Які з-поміж цих сервісів ви використовували для хостингу ваших React-застосунків?
+    aliases:
+      - back_end_infrastructure.hosting.question
 
   - key: tools.backend_language
     t: Мови для серверної частини
+    aliases:
+      - back_end_infrastructure.backend_language
+
   - key: tools.backend_language.question
     t: Якою мовою чи мовами написані ваші серверні застосунки?
+    aliases:
+      - back_end_infrastructure.backend_language.question
 
   - key: tools.other_services
     t: Інші сервіси
+    aliases:
+      - back_end_infrastructure.other_services
+
   - key: tools.other_services.question
     t: Які ще сервіси ви використовували разом із вашими React-застосунками?
+    aliases:
+      - back_end_infrastructure.other_services.question
 
   - key: tools.validation
     t: Бібліотеки для створення схем даних та їхньої валідації
+    aliases:
+      - other_tools.validation
   - key: tools.validation.question
     t: Які бібліотеки ви використовували для валідації даних за певною схемою?
+    aliases:
+      - other_tools.validation.question
 
   - key: tools.ai_tools
     t: ШІ-інструменти
@@ -527,8 +643,13 @@ translations:
 
   - key: tools.renderers
     t: Бібліотеки рендерингу React
+    aliases:
+      - other_tools.renderers
+
   - key: tools.renderers.question
     t: Які бібліотеки ви використовували, щоб рендерити React-застосунок для різних платформ і середовищ?
+    aliases:
+      - other_tools.renderers.question
 
   - key: tools.other_tools
     t: Інші інструменти
@@ -963,6 +1084,42 @@ translations:
     t: >
       Залежно від того, на скільки питань ви відповісте (всі питання не обов'язкові), 
       заповнення анкети повинно зайняти орієнтовно 15-20 хвилин.
+
+  ###########################################################################
+  # Tshirt
+  ###########################################################################
+
+  - key: sections.tshirt.title
+    t: Футболка
+
+  - key: sections.tshirt.description
+    t: |
+      ## Підтримайте опитування за допомогою офіційної футболки "Стан React"
+
+      Це бібліотека? Фреймворк? Невідомий елемент на межі перетворення в небезпечну, нестабільну сутність? Якими б не були ваші почуття щодо React, ви знайдете їхнє відображення в цьому дизайні, який перегукується з аніме та науковою фантастикою.
+
+  - key: tshirt.about
+    t: Про футболку
+
+  - key: tshirt.description
+    t: |
+      Ми використовуємо високоякісну футболку, надруковану нашими партнерами з Cotton Bureau.
+
+  - key: tshirt.getit
+    t: Отримати
+
+  - key: tshirt.price
+    t: USD $32 + доставляння
+
+  - key: tshirt.designer.heading
+    t: Про дизайнера
+
+  - key: tshirt.designer.name
+    t: Christopher Kirk-Nielsen
+
+  - key: tshirt.designer.bio
+    t: |
+      Chris родом із Франції, але тепер проживає у Сполучених Штатах; він не лише чудовий розробник клієнтської частини, а й талановитий ілюстратор, який спеціалізується на зображеннях у стилі ретро. Ми радимо вам переглянути [інші дизайни його футболок](https://chriskirknielsen.com/designs)!і
 
   ###########################################################################
   # Entities repo - https://github.com/Devographics/entities

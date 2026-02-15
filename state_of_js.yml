@@ -672,6 +672,8 @@ translations:
     aliasFor: tools.pain_points
   - key: tools.front_end_frameworks_pain_points.question
     t: З якими проблемами ви стикалися під час використання фреймворків для клієнтської частини?
+    aliases:
+      - front_end_frameworks.front_end_frameworks_pain_points.question
 
   # meta-frameworks
 
@@ -718,6 +720,8 @@ translations:
     aliasFor: tools.pain_points
   - key: tools.meta_frameworks_pain_points.question
     t: З якими проблемами ви стикалися під час використання метафреймворків?
+    aliases:
+      - meta_frameworks.meta_frameworks_pain_points.question
 
   # back-end frameworks
 
@@ -751,7 +755,7 @@ translations:
     t: Задоволення фреймворками для серверної частини
     aliases:
       - back_end_frameworks.back_end_frameworks_happiness
-  - key: tools.mback_end_frameworks_happiness.short
+  - key: tools.back_end_frameworks_happiness.short
     aliasFor: charts.axis_legends.happiness
   - key: tools.back_end_frameworks_happiness.question
     t: Наскільки ви задоволені поточним станом фреймворків для серверної частини? За шкалою від 1 (дуже незадоволені) до 5 (дуже задоволені).
@@ -760,10 +764,14 @@ translations:
     t: Проблеми фреймворків для серверної частини
     aliases:
       - back_end_frameworks.back_end_frameworks_pain_points
+
   - key: tools.back_end_frameworks_pain_points.short
     aliasFor: tools.pain_points
+
   - key: tools.back_end_frameworks_pain_points.question
     t: З якими проблемами ви стикалися під час використання фреймворків для серверної частини?
+    aliases:
+      - back_end_frameworks.back_end_frameworks_pain_points.question
 
   # testing
 
@@ -808,6 +816,8 @@ translations:
     aliasFor: tools.pain_points
   - key: tools.testing_pain_points.question
     t: З якими проблемами ви стикалися під час використання інструментів для тестування коду?
+    aliases:
+      - testing.testing_pain_points.question
 
   # mobile & desktop
 
@@ -844,6 +854,8 @@ translations:
     aliasFor: tools.pain_points
   - key: tools.mobile_desktop_pain_points.question
     t: З якими проблемами ви стикалися, коли використовували JavaScript, щоб побудувати застосунки для мобільних пристроїв і настільних комп'ютерів?
+    aliases:
+      - mobile_desktop.mobile_desktop_pain_points.question
 
   # build tools
 
@@ -888,6 +900,8 @@ translations:
     aliasFor: tools.pain_points
   - key: tools.build_tools_pain_points.question
     t: З якими проблемами ви стикалися під час використання інструментів для збирання коду?
+    aliases:
+      - build_tools.build_tools_pain_points.question
 
   # monorepo tools
 
@@ -924,6 +938,8 @@ translations:
     aliasFor: tools.pain_points
   - key: tools.monorepo_tools_pain_points.question
     t: З якими проблемами ви стикалися під час використання інструментів для монорепозиторіїв?
+    aliases:
+      - monorepo_tools.monorepo_tools_pain_points.question
 
   ###########################################################################
   # Other Tools
@@ -1458,6 +1474,9 @@ translations:
   - key: opinions.pick_of_the_year.description
     t: Ім'я функції, бібліотеки, вебсайту, особистості тощо, що ви хочете виокремити цього року.
 
+  - key: picks.state_of_js.intro
+    t: We asked members of the JavaScript community to share their “pick of the year”
+
   - key: usage.industry_sector_js
     aliasFor: usage.industry_sector
   - key: usage.industry_sector_js.question
@@ -1733,6 +1752,44 @@ translations:
     t: Топ функцій
   - key: tabs.top_languages
     t: Топ мов
+
+  ###########################################################################
+  # Tshirt
+  ###########################################################################
+
+  - key: sections.tshirt.title
+    t: Футболка
+
+  - key: sections.tshirt.description
+    t: |
+      ## Підтримайте опитування за допомогою футболки "Стан JS"
+
+      Погана якість відео, громіздкі касети та необхідність перемотування назад — здається, ніхто не сумує за чимось з епохи VHS. Але нам *все-таки* не вистачає одного — дивовижних зображень 90-х, які раніше прикрашали порожні VHS-касети.
+
+      І тепер завдяки талановитому Christopher Kirk-Nielsen ви можете насолоджуватися добірним ретро, водночас відзначаючи свою любов до JavaScript!
+
+  - key: tshirt.about
+    t: Про футболку
+
+  - key: tshirt.description
+    t: |
+      Ми використовуємо високоякісну, надм'яку футболку приталеного крою із тканини з трьох типів волокна (tri-blend), надруковану нашими партнерами з Cotton Bureau.
+
+  - key: tshirt.getit
+    t: Отримати
+
+  - key: tshirt.price
+    t: USD $32 + доставляння
+
+  - key: tshirt.designer.heading
+    t: Про дизайнера
+
+  - key: tshirt.designer.name
+    t: Christopher Kirk-Nielsen
+
+  - key: tshirt.designer.bio
+    t: |
+      Chris родом із Франції, але тепер проживає у Сполучених Штатах; він не лише чудовий розробник клієнтської частини, а й талановитий ілюстратор, який спеціалізується на зображеннях у стилі ретро. Ми радимо вам переглянути [інші дизайни його футболок](https://chriskirknielsen.com/designs)!
 
   ###########################################################################
   # Entities repo - https://github.com/Devographics/entities
