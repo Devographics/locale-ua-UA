@@ -236,13 +236,13 @@ translations:
     t: заповнень
 
   - key: finish.share_colleagues
-    t: 1. Поділіться з друзями та колегами
+    t: Поділіться з друзями та колегами
 
   - key: finish.share_colleagues.description
     t: Опублікуйте це в Slack, Discord, Teams чи будь-де для ваших друзів-розробників.
 
   - key: finish.share_social
-    t: 2. Поділіться в соціальних мережах
+    t: Поділіться в соціальних мережах
 
   # share
   - key: general.share_subject
@@ -1038,7 +1038,7 @@ translations:
   - id: options.job_status.employed_full_time
     t: Працюю, повний день
   - id: options.job_status.freelance
-    t: Фриланс, самозайнятість, незалежно за договором 
+    t: Фриланс, самозайнятість, незалежно за договором
   - id: options.job_status.employed_part_time
     t: Працюю, неповний день
   - id: options.job_status.student_full_time
