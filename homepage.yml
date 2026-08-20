@@ -85,30 +85,26 @@ translations:
 
   # creators
   - key: creators.heading
-    t: Creators We Support
+    t: Творці, яких ми підтримуємо
 
   - key: creators.description
-    t: |
-      Our surveys are only possible because of the developer community's ongoing support, and it's only natural that we also give back when we can. 
+    t: >
+      Наші опитування можливі лише завдяки постійній підтримці спільноти розробників, тож цілком природно, що ми й самі віддаємо щось навзаєм, коли можемо.
 
 
-      These are some of the awesome content creators and organizations we support financially, in exchange for raising awareness around the surveys.
+      Ось деякі з чудових творців контенту та організацій, яких ми підтримуємо фінансово в обмін на поширення інформації про опитування.
 
   - key: creators.stephanie_walter.description
-    t: |
-      Stéphanie Walter is an accomplished UX Researcher, Designer, and Writer living in Luxembourg with a knack for making otherwise complex topics clear and easy to understand.
+    t: Stéphanie Walter — досвідчена UX-дослідниця, дизайнерка й авторка, яка живе в Люксембурзі та має хист робити складні теми зрозумілими й доступними.
 
   - key: creators.afor_digital.description
-    t: |
-      Afor is a key figure in the Spanish-language web development streaming community, and her talent for making programming content compelling have led to her well-deserved success.
+    t: Afor — ключова постать в іспаномовній спільноті стримерів веброзробки, а її талант робити контент про програмування захопливим приніс їй заслужений успіх.
 
   - key: creators.shruti_kapoor.description
-    t: |
-      Between blogging, producing YouTube videos, speaking at conferences, and generally being an all-around great person, Shruti has been a mainstay of the React ecosystem for a while now.
+    t: "Ведення блогу, створення відео на YouTube, виступи на конференціях — і загалом чудова людина: Shruti вже чималий час є однією з опор екосистеми React."
 
   - key: creators.codebar.description
-    t: |
-      Codebar is an amazing organization that puts together workshops that would usually cost thousands of dollars, and makes them available for free online in order to build a more inclusive developer community.
+    t: Codebar — дивовижна організація, яка проводить воркшопи, що зазвичай коштували б тисячі доларів, і робить їх безкоштовно доступними онлайн, щоб будувати більш інклюзивну спільноту розробників.
 
   # calendar
 
