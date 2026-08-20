@@ -1179,6 +1179,8 @@ translations:
     t: Проблеми CSS
   - key: opinions.css_pain_points.description
     t: У кожній парі виберіть аспект CSS, з яким вам найтяжче працювати.
+  - key: pain_points.css_general_pain_points.short
+    t: Загальні проблеми
 
   - key: usage.other_pain_points_freeform
     t: Ще якісь проблеми, пов'язані з написанням CSS?
@@ -1233,6 +1235,8 @@ translations:
 
   - key: options.css_missing_features.na
     t: Нічого
+  - key: features.missing_features.default
+    t: Головні відсутні функції загалом.
 
   # - key: opinions_others.css_missing_features.others.note
   #   t: >
@@ -1376,6 +1380,30 @@ translations:
     t: Функція, яка змінила все
   - key: usage.gamechanger_feature.question
     t: Протягом останніх 5 років, яка функція мала найбільший вплив на те, як ви пишете CSS?
+  - key: usage.css_ai_generated_code_balance
+    t: Генерація CSS-коду за допомогою ШІ
+  - key: usage.css_ai_generated_code_balance.question
+    t: Яку частку CSS-коду, який ви створюєте, згенеровано за допомогою ШІ?
+  - key: usage.css_ai_generated_code_balance.prompt
+    aliasFor: usage.ai_generated_code_balance.prompt
+  - key: options.css_ai_generated_code_balance.0
+    aliasFor: options.ai_generated_code_balance.0
+  - key: options.css_ai_generated_code_balance.1
+    aliasFor: options.ai_generated_code_balance.1
+  - key: options.css_ai_generated_code_balance.2
+    aliasFor: options.ai_generated_code_balance.2
+  - key: options.css_ai_generated_code_balance.3
+    aliasFor: options.ai_generated_code_balance.3
+  - key: options.css_ai_generated_code_balance.4
+    aliasFor: options.ai_generated_code_balance.4
+  - key: options.css_ai_generated_code_balance.5
+    aliasFor: options.ai_generated_code_balance.5
+  - key: options.css_ai_generated_code_balance.6
+    aliasFor: options.ai_generated_code_balance.6
+  - key: options.css_ai_generated_code_balance.7
+    aliasFor: options.ai_generated_code_balance.7
+  - key: options.css_ai_generated_code_balance.8
+    aliasFor: options.ai_generated_code_balance.8
 
   ###########################################################################
   # Resources
@@ -1454,6 +1482,8 @@ translations:
     aliasFor: sections.selectors.title
   - key: options.features_categories.math_features
     aliasFor: sections.math_features.title
+  - key: sections.pain_points.title
+    t: Проблеми
 
   - key: features.layout
     aliasFor: sections.layout.title
