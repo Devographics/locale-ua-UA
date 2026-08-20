@@ -2547,9 +2547,9 @@ translations:
   - key: tokyodev.relocation
     t: Знайдіть роботу в Японії
   - key: tokyodev.relocation.description
-    t: Переїзд до Японії не мусить лишатися лише мрією. Експрес-курс TokyoDev «Developer's Crash Course in Coming to Japan» розповідає, як воно — працювати в японській компанії, скільки можна заробляти, які візи доступні та наскільки складно їх отримати.
+    t: Переїзд до Японії не обов'язково має лишатися мрією. Експрес-курс TokyoDev «Developer's Crash Course in Coming to Japan» розповідає, як воно — працювати в японській компанії, скільки можна заробляти, які візи доступні та наскільки складно їх отримати.
   - key: frontendmasters.learning_path
-    t: Ваш шлях до рівня Senior веброзробника
+    t: Ваш шлях до рівня senior-веброзробника
   - key: frontendmasters.learning_path.description
     t: Хочете просунутися в кар'єрі? Пориньте в JavaScript, React, вебпродуктивність, CSS, розгортання сайтів, TypeScript і функційне програмування, щоб уже сьогодні вирости з junior до senior.
   - key: storyblok.technologies

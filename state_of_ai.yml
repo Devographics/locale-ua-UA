@@ -86,7 +86,7 @@ translations:
   - key: options.ai_pain_points.hallucinations_inaccuracies
     t: Галюцинації та неточності
   - key: options.ai_pain_points.hallucinations_inaccuracies.description
-    t: Впевнена генерація некоректного коду
+    t: Генерація некоректного коду з повною впевненістю
   - key: options.ai_pain_points.code_generation_issues
     t: Низька якість згенерованого коду
   - key: options.ai_pain_points.lack_of_understanding
@@ -493,7 +493,7 @@ translations:
   - key: options.ai_code_refactoring_reasons.architectural_issues
     t: Архітектурні проблеми
   - key: options.ai_code_refactoring_reasons.not_following_conventions
-    t: Недотримання домовленостей
+    t: Недотримання конвенцій коду
   - key: options.ai_code_refactoring_reasons.css_styling_issues
     t: Проблеми з CSS і стилями
   - key: options.ai_code_refactoring_reasons.understanding_and_learning

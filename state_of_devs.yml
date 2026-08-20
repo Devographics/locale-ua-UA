@@ -44,7 +44,7 @@ translations:
   - key: sections.ai_usage.title
     t: ШІ
   - key: sections.ai_usage.prompt
-    t: Використання ШІ та пов'язані занепокоєння.
+    t: Використання ШІ та пов'язані з ним побоювання.
 
   - key: sections.worldview.title
     t: Світогляд
@@ -332,7 +332,7 @@ translations:
   - key: options.job_security.1
     t: Швидше малоймовірно
   - key: options.job_security.2
-    t: Однаково ймовірно й малоймовірно
+    t: Приблизно однакова ймовірність
   - key: options.job_security.3
     t: Швидше ймовірно
   - key: options.job_security.4
@@ -557,7 +557,7 @@ translations:
   - key: workplace.workplace_burnout.question
     t: Що з наведеного ви відчували останнім часом?
   - key: workplace.workplace_burnout.prompt
-    t: Протягом приблизно останнього року
+    t: Приблизно за останній рік
   - key: options.workplace_burnout.emotionally_drained
     t: Емоційне виснаження наприкінці робочого дня
   - key: options.workplace_burnout.trouble_focusing
@@ -686,7 +686,7 @@ translations:
   - key: ai_usage.ai_sentiment.question
     t: За шкалою від 100% негативного до 100% позитивного — яка ваша загальна думка про ШІ?
   - key: options.ai_sentiment.0
-    t: 100% негативне
+    t: 100% негативна
   - key: options.ai_sentiment.1
     aliasFor: options.ai_generated_code_balance.1
   - key: options.ai_sentiment.2
@@ -694,7 +694,7 @@ translations:
   - key: options.ai_sentiment.3
     aliasFor: options.ai_generated_code_balance.3
   - key: options.ai_sentiment.4
-    t: Нейтральне
+    t: Нейтральна
   - key: options.ai_sentiment.5
     aliasFor: options.ai_generated_code_balance.5
   - key: options.ai_sentiment.6
@@ -702,7 +702,7 @@ translations:
   - key: options.ai_sentiment.7
     aliasFor: options.ai_generated_code_balance.7
   - key: options.ai_sentiment.8
-    t: 100% позитивне
+    t: 100% позитивна
   - key: ai_usage.ai_mental_state
     t: Психічний стан і ШІ
   - key: ai_usage.ai_mental_state.question
@@ -1227,9 +1227,9 @@ translations:
   - key: worldview.workers_union
     t: Профспілка
   - key: worldview.workers_union.question
-    t: Чи є ви наразі членом профспілки?
+    t: Чи перебуваєте ви наразі у профспілці?
   - key: options.workers_union.no_no_interest
-    t: Ні, і я не зацікавлений(-а) вступати
+    t: Ні, і не маю наміру вступати
   - key: options.workers_union.no_but_interested
     t: Ні, але хотів(-ла) би вступити
   - key: options.workers_union.yes
@@ -1529,7 +1529,7 @@ translations:
   - key: options.favorite_beverages.sports_energy_drinks
     t: Спортивні або енергетичні напої
   - key: options.favorite_beverages.soda
-    t: Содова чи інші солодкі напої
+    t: Лимонад чи інші солодкі напої
   - key: options.favorite_beverages.sparkling_water
     t: Газована вода
   - key: options.favorite_beverages.fruit_juice

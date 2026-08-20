@@ -700,7 +700,7 @@ translations:
   - key: features.accessibility_ai_impact
     t: Вплив ШІ
   - key: features.accessibility_ai_impact.question
-    t: Як, за вашим досвідом, програмування за допомогою ШІ впливає на вебдоступність?
+    t: Який вплив, за вашим досвідом, має програмування за допомогою ШІ на вебдоступність?
   - key: options.accessibility_ai_impact.0
     t: Дуже негативний
   - key: options.accessibility_ai_impact.1
@@ -1458,7 +1458,7 @@ translations:
   - key: options.progressive_enhancement_priority.not_a_concern
     t: Не має значення
   - key: options.progressive_enhancement_priority.not_a_concern.description
-    t: Припускається, що JavaScript увімкнено в усіх користувачів завжди
+    t: Вважається, що JavaScript увімкнено для всіх користувачів і завжди
   - key: options.progressive_enhancement_priority.low_priority
     t: Низький пріоритет
   - key: options.progressive_enhancement_priority.low_priority.description
@@ -1470,7 +1470,7 @@ translations:
   - key: options.progressive_enhancement_priority.required
     t: Обов'язково
   - key: options.progressive_enhancement_priority.required.description
-    t: Сайти/застосунки зобов'язані працювати з вимкненим JavaScript.
+    t: Сайти/застосунки мають працювати з вимкненим JavaScript.
 
   ###########################################################################
   # Opinions

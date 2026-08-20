@@ -1667,7 +1667,7 @@ translations:
     aliases:
       - options.ai_browser_apis.summarization
   - key: options.ai_uses.summarization.description
-    t: Стислий виклад тексту або набору даних до головних тем.
+    t: Зведення тексту або набору даних до основних тем.
     aliases:
       - options.ai_browser_apis.summarization.description
   - key: options.ai_uses.text_generation
@@ -1699,7 +1699,7 @@ translations:
     aliases:
       - options.ai_browser_apis.speech_recognition
   - key: options.ai_uses.speech_recognition.description
-    t: Транскрибування записаного мовлення або мовлення в реальному часі в текст.
+    t: Перетворення записаного або живого мовлення на текст.
     aliases:
       - options.ai_browser_apis.speech_recognition.description
   - key: options.ai_uses.computer_vision
@@ -1828,13 +1828,13 @@ translations:
   - key: options.work_areas.other
     t: Інші сфери
   - key: options.work_areas.front_end
-    t: Front-end розробка
+    t: Розробка клієнтської частини
   - key: options.work_areas.front_end_js
-    t: Front-end розробка (JS/TS)
+    t: Розробка клієнтської частини (JS/TS)
   - key: options.work_areas.front_end_css
-    t: Front-end розробка (CSS)
+    t: Розробка клієнтської частини (CSS)
   - key: options.work_areas.back_end
-    t: Back-end розробка
+    t: Розробка серверної частини
   - key: options.work_areas.mobile
     t: Мобільна розробка
   - key: options.work_areas.desktop
@@ -1981,7 +1981,7 @@ translations:
   - key: user_info.migration_experience.question
     t: Чи народилися ви в країні, де зараз проживаєте?
   - key: options.migration_experience.same_country
-    t: Так
+    t: Так, у цій самій країні
   - key: options.migration_experience.same_country_immigrant_parents
     t: Так, у батьків-іммігрантів
   - key: options.migration_experience.different_country
@@ -2009,11 +2009,11 @@ translations:
   - key: options.sexual_orientation.heterosexual
     t: Гетеросексуальна
   - key: options.sexual_orientation.gay_or_lesbian
-    t: Гей або лесбійка
+    t: Гомосексуальна (гей або лесбійка)
   - key: options.sexual_orientation.bisexual
     t: Бісексуальна
   - key: options.sexual_orientation.questioning
-    t: Не визначився(-лася)
+    t: Ще визначаюся
 
   - key: user_info.github_username
     t: Ваш нікнейм у GitHub
@@ -2086,9 +2086,9 @@ translations:
   - key: options.survey_length.2
     t: Саме те, що треба
   - key: options.survey_length.3
-    t: Трохи задовге
+    t: Трохи задовга
   - key: options.survey_length.4
-    t: Занадто довге
+    t: Занадто довга
 
   # missing questions
   - key: user_info.missing_questions
@@ -2157,11 +2157,11 @@ translations:
   - key: options.ai_risks.rising_costs.description
     t: Зростання вартості ШІ, поки ШІ-компанії намагаються повернути свої інвестиції
   - key: options.ai_risks.entranched_stack_bias
-    t: Закріплення упередженості стеку
+    t: Усталена упередженість щодо стеку
   - key: options.ai_risks.entranched_stack_bias.description
     t: Схильність ШІ генерувати код на основі популярних технологій
   - key: options.ai_risks.open_source_disruption
-    t: Руйнування опенсорсу
+    t: Руйнування відкритого коду
   - key: options.ai_risks.open_source_disruption.description
     t: Спамні пул-реквести від ШІ, неякісний код, загроза фінансуванню тощо
   - key: options.ai_risks.ai_overuse
