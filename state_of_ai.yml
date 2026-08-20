@@ -22,6 +22,10 @@ translations:
   - key: tools.tools_intro.ai2025
     t: |
       Ця перша частина опитування про те, якими ШІ-інструментами ви користуєтеся та про які з них чули.
+  - key: sections.risks_pain_points.title
+    t: Ризики та проблеми
+  - key: sections.risks_pain_points.prompt
+    t: Проблеми або ризики, пов'язані з використанням ШІ.
 
   # models
 
@@ -32,6 +36,18 @@ translations:
 
   - key: tools.models_experience
     t: Досвід використання і ставлення до моделей
+  - key: tools.models_experience.short
+    t: Досвід використання і ставлення
+    aliases:
+      - models.models_experience.short
+  - key: tools.models_ratios
+    t: Співвідношення моделей з часом
+    aliases:
+      - models.models_ratios
+  - key: tools.models_ratios.short
+    t: Співвідношення з часом
+    aliases:
+      - models.models_ratios.short
 
   - key: tools.models_others
     t: Інші моделі
@@ -69,6 +85,8 @@ translations:
     t: Надмірна впевненість
   - key: options.ai_pain_points.hallucinations_inaccuracies
     t: Галюцинації та неточності
+  - key: options.ai_pain_points.hallucinations_inaccuracies.description
+    t: Впевнена генерація некоректного коду
   - key: options.ai_pain_points.code_generation_issues
     t: Низька якість згенерованого коду
   - key: options.ai_pain_points.lack_of_understanding
@@ -109,11 +127,21 @@ translations:
     t: Обмеження безкоштовних планів
   - key: options.ai_pain_points.ethical_concerns
     t: Етичні проблеми
+  - key: options.ai_pain_points.ethical_concerns.description
+    t: Занепокоєння щодо авторського права, атрибуції, несанкціонованого навчання моделей тощо
   - key: options.ai_pain_points.slow_performance
     t: Низька швидкодія
 
   - key: options.ai_pain_points.cursor_pain_points
     t: Проблеми Cursor
+  - key: tools.models_paid_for
+    t: Платне використання моделей
+    aliases:
+      - models.models_paid_for
+  - key: tools.models_paid_for.question
+    t: За яку з наведених тут моделей ви або ваша компанія справді платите?
+    aliases:
+      - models.models_paid_for.question
 
   # coding_assistants
 
@@ -140,6 +168,56 @@ translations:
     aliases:
       - coding_assistants.coding_assistants_pain_points.question
       - ai_pain_points.coding_assistants_pain_points.question
+  - key: sections.coding_agents_assistants.title
+    t: Агенти та асистенти
+  - key: sections.coding_agents_assistants.prompt
+    t: ШІ-інструменти, які допомагають протягом процесу розробки.
+  - key: tools.coding_agents_assistants_experience
+    t: Досвід використання і ставлення до агентів/асистентів для програмування
+    aliases:
+      - coding_agents_assistants.coding_agents_assistants_experience
+  - key: tools.coding_agents_assistants_experience.short
+    t: Досвід використання і ставлення
+    aliases:
+      - coding_agents_assistants.coding_agents_assistants_experience.short
+  - key: tools.coding_agents_assistants_ratios
+    t: Співвідношення агентів та асистентів для програмування з часом
+    aliases:
+      - coding_agents_assistants.coding_agents_assistants_ratios
+  - key: tools.coding_agents_assistants_ratios.short
+    t: Співвідношення з часом
+    aliases:
+      - coding_agents_assistants.coding_agents_assistants_ratios.short
+  - key: tools.coding_agents_assistants_others
+    t: Інші агенти/асистенти для програмування
+    aliases:
+      - coding_agents_assistants.coding_agents_assistants_others
+  - key: tools.coding_agents_assistants_others.question
+    t: Які ще агенти чи асистенти для програмування ви наразі використовуєте?
+    aliases:
+      - coding_agents_assistants.coding_agents_assistants_others.question
+  - key: tools.coding_agents_assistants_others.short
+    t: Інші агенти/асистенти
+    aliases:
+      - coding_agents_assistants.coding_agents_assistants_others.short
+  - key: tools.coding_agents_assistants_pain_points
+    t: Проблеми агентів/асистентів для програмування
+    aliases:
+      - coding_agents_assistants.coding_agents_assistants_pain_points
+      - ai_pain_points.coding_agents_assistants_pain_points
+  - key: tools.coding_agents_assistants_pain_points.question
+    t: З якими проблемами ви стикалися під час використання агентів чи асистентів для програмування?
+    aliases:
+      - coding_agents_assistants.coding_agents_assistants_pain_points.question
+      - ai_pain_points.coding_agents_assistants_pain_points.question
+  - key: tools.coding_agents_assistants_paid_for
+    t: Платне використання агентів
+    aliases:
+      - coding_agents_assistants.coding_agents_assistants_paid_for
+  - key: tools.coding_agents_assistants_paid_for.question
+    t: За якого з наведених тут агентів чи асистентів ви або ваша компанія справді платите?
+    aliases:
+      - coding_agents_assistants.coding_agents_assistants_paid_for.question
 
   # code_generation
 
@@ -227,6 +305,24 @@ translations:
     t: Які ШІ-інструменти або -моделі ви використовуєте для генерації зображень?
     aliases:
       - tools.image_generation.question
+  - key: other_tools.video_generation
+    t: Генерація відео
+  - key: other_tools.video_generation.question
+    t: Які ШІ-інструменти ви використовуєте для генерації відео?
+  - key: other_tools.app_generation
+    t: Генерація застосунків
+  - key: other_tools.app_generation.question
+    t: Які ШІ-інструменти ви використовуєте для створення застосунків або вебсайтів?
+  - key: other_tools.code_review
+    t: Рев'ю коду
+  - key: other_tools.code_review.question
+    t: Які ШІ-інструменти ви використовуєте для рев'ю коду або пул-реквестів?
+  - key: other_tools.text_editors
+    t: Текстові редактори
+  - key: other_tools.text_editors.question
+    t: Які текстові редактори ви регулярно використовуєте?
+  - key: other_tools.text_editors.prompt
+    t: Зокрема й текстові редактори без ШІ.
 
   # chatgpt
 
@@ -394,6 +490,20 @@ translations:
     t: Погана прочитність
   - key: options.ai_code_refactoring_reasons.phantom_api_usage
     t: Використання вигаданих API
+  - key: options.ai_code_refactoring_reasons.architectural_issues
+    t: Архітектурні проблеми
+  - key: options.ai_code_refactoring_reasons.not_following_conventions
+    t: Недотримання домовленостей
+  - key: options.ai_code_refactoring_reasons.css_styling_issues
+    t: Проблеми з CSS і стилями
+  - key: options.ai_code_refactoring_reasons.understanding_and_learning
+    t: Поліпшення власного розуміння
+  - key: options.ai_code_refactoring_reasons.manual_speed_advantage
+    t: Швидше зробити вручну
+  - key: options.ai_code_refactoring_reasons.logic_and_edge_cases
+    t: Логіка граничних випадків
+  - key: options.ai_code_refactoring_reasons.personal_preference_and_taste
+    t: Особисті вподобання чи смак
 
   # ai_personal_expenses
 
@@ -583,6 +693,12 @@ translations:
     t: Шаблонний код
   - key: options.ai_generated_code_type.database_queries
     t: Запити до бази даних
+  - key: options.ai_generated_code_type.scripting
+    t: Скрипти
+  - key: options.ai_generated_code_type.all_of_the_above
+    t: Усе перелічене
+    aliases:
+      - options.ai_risks.all_of_the_above
 
     # ai_uses
 
@@ -726,6 +842,22 @@ translations:
     t: Не використовую зараз
   - key: options.ai_uses.data_manipulation_processing
     t: Обробка даних
+  - key: options.ai_uses.brainstorming
+    t: Мозковий штурм
+  - key: options.ai_uses.project_planning
+    t: Планування проєктів
+  - key: options.ai_uses.personal_assistant_duties
+    t: Обов'язки особистого асистента
+  - key: options.ai_uses.workflow_automation
+    t: Автоматизація робочих процесів
+  - key: options.ai_uses.entertainment_and_gaming
+    t: Розваги та ігри
+  - key: options.ai_uses.generating_documentation
+    t: Генерація документації
+  - key: options.ai_uses.ai_content_detection
+    t: Виявлення контенту, згенерованого ШІ
+    aliases:
+      - options.ai_browser_apis.ai_content_detection
 
   # ai_pain_points
   - key: usage.ai_pain_points
@@ -806,24 +938,60 @@ translations:
 
   - key: options.ai_missing_features.larger_context_window
     t: Більше контекстне вікно
+  - key: options.ai_missing_features.larger_context_window.description
+    t: Можливість тримати більше даних у пам'яті
   - key: options.ai_missing_features.large_codebase_support
     t: Підтримування великих кодових баз
+  - key: options.ai_missing_features.large_codebase_support.description
+    t: Здатність працювати зі складними кодовими базами, монорепозиторіями тощо
   - key: options.ai_missing_features.up_to_date_knowledge
     t: Актуальні знання
+  - key: options.ai_missing_features.up_to_date_knowledge.description
+    t: Доступ до найновіших версій бібліотек, документації тощо
   - key: options.ai_missing_features.better_accuracy
     t: Краща точність
   - key: options.ai_missing_features.self_evaluation
     t: Самооцінювання/самоаналіз
   - key: options.ai_missing_features.higher_intelligence
     t: Вищий рівень інтелекту
+  - key: options.ai_missing_features.ui_visual_understanding
+    t: Візуальне розуміння інтерфейсів
+  - key: options.ai_missing_features.ethics
+    t: Етика
+  - key: options.ai_missing_features.trust_transparency_accountability
+    t: Довіра та прозорість
   - key: options.ai_missing_features.system_integration
     t: Краща інтеграція інструментів
+  - key: options.ai_missing_features.system_integration.description
+    t: Краща інтеграція із системами, IDE, середовищами тощо
   - key: options.ai_missing_features.truthfulness
     t: Правдивість
+  - key: options.ai_missing_features.truthfulness.description
+    t: Можливість довіряти достовірності результатів ШІ
   - key: options.ai_missing_features.user_interaction
     t: Кращі UI/UX
+  - key: options.ai_missing_features.user_interaction.description
+    t: Кращий UI/UX в інтерфейсах, згенерованих ШІ
   - key: options.ai_missing_features.customization
     t: Більше налаштувань для себе
+  - key: options.ai_missing_features.customization.description
+    t: Можливість підлаштовувати поведінку ШІ під свої потреби
+  - key: options.ai_missing_features.long_term_memory
+    t: Довготривала пам'ять
+  - key: options.ai_missing_features.long_term_memory.description
+    t: Відстеження патернів і рішень із часом
+  - key: options.ai_missing_features.high_level_planning
+    t: Планування високого рівня
+  - key: options.ai_missing_features.high_level_planning.description
+    t: Здатність проєктувати системи та обирати правильні абстракції
+  - key: options.ai_missing_features.runtime_behavior_awareness
+    t: Розуміння поведінки під час виконання
+  - key: options.ai_missing_features.runtime_behavior_awareness.description
+    t: Моделювання того, що станеться, коли код справді виконається
+  - key: options.ai_missing_features.ai_accountability
+    t: Відповідальність
+  - key: options.ai_missing_features.ai_accountability.description
+    t: Навчання на помилках і відстеження їхніх наслідків
 
   # ai_happiness
 
@@ -884,6 +1052,14 @@ translations:
     t: СШІ досягнуто
   - key: opinions.reach_agi.question
     t: Ми досягнемо СШІ (AGI, ”справжній” штучний інтелект із мисленням) за наступні 10 років
+  - key: opinions.ai_bubble_currently
+    t: Бульбашка ШІ
+  - key: opinions.ai_bubble_currently.question
+    t: Ми зараз перебуваємо у «бульбашці ШІ»
+  - key: opinions.ai_quality_improving
+    t: Покращення ШІ
+  - key: opinions.ai_quality_improving.question
+    t: Загальна якість ШІ-інструментів значно покращилася за рік
 
   # courses
 
@@ -956,6 +1132,8 @@ translations:
     t: Хто проводить це опитування?
   - key: faq.team.description
     t: Це опитування проводить команда [Devographics](https://devographics.com/) із допомогою від спільноти та волонтерів.
+  - key: tabs.by_claude_code_usage
+    t: За використанням Claude Code
 
 
   ###########################################################################
