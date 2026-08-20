@@ -275,6 +275,8 @@ translations:
 
   - key: finish.share_social
     t: Поділіться в соціальних мережах
+  - key: finish.review_reading_list
+    t: Перегляньте свій список читання
 
   # share
   - key: general.share_subject
