@@ -411,7 +411,7 @@ translations:
   - key: picks.ana_tudor.name
     t: Поєднання функцій
   - key: picks.ana_tudor.bio
-    t: CSS Mad Scientist
+    t: Божевільна науковиця CSS
   - key: picks.ana_tudor.description
     t: |
       Мій вибір — це не одна функція, що змінює все, а спосіб комбінувати кілька функцій разом. 
