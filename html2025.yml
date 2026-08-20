@@ -5,7 +5,7 @@ translations:
   ###########################################################################
 
   - key: general.results.description
-    t: The 2025 edition of the annual survey about the latest trends in the HTML ecosystem.
+    t: Видання 2025 року щорічного опитування про найновіші тенденції в екосистемі HTML.
 
   - key: general.html2025.survey_intro
     t: |
@@ -25,18 +25,24 @@ translations:
     aliasFor: features.features_intro_html2024
 
   - key: introduction.html2025
-    t: |
-      If you want to get an idea of how capable the web platform has gotten over the past few years, look no further than the list of categories covered in this survey. 
+    t: >
+      Якщо ви хочете уявити, наскільки потужною стала вебплатформа за останні кілька років, достатньо поглянути на перелік категорій, охоплених цим опитуванням.
 
-      Forms, graphics, performance features, methods of interacting with various system and device APIs, accessibility… It's a wonder anybody is able to keep track of it all!
 
-      Thankfully at least one person is: [Lea Verou](https://lea.verou.me/), who after designing the original version of the survey in 2023, joined us again this year to give it an update. 
+      Форми, графіка, функції продуктивності, способи взаємодії з різними системними та апаратними API, доступність… Дивно, що комусь узагалі вдається за всім цим стежити!
 
-      And together, one of the areas we focused on this year was analyzing the vast quantity of freeform answers collected around various pain point areas. 
 
-      You'll now be able to dig deeper into categorized data, as well as access (and search through) respondents' original answers.
+      На щастя, принаймні одна людина встигає: [Lea Verou](https://lea.verou.me/), яка після розробки первинної версії опитування у 2023 році знову долучилася до нас цього року, щоб її оновити.
 
-      If nothing else, this should help us realize that we're all in this together, sharing the same frustrations- but also the same hopes!
+
+      І разом ми цього року зосередилися, зокрема, на аналізі величезної кількості відповідей у вільній формі, зібраних щодо різних проблемних сфер.
+
+
+      Тепер ви зможете глибше зануритися в категоризовані дані, а також отримати доступ до оригінальних відповідей респондентів (і шукати в них).
+
+
+      Якщо це нічого більше не дасть, то принаймні допоможе усвідомити, що ми всі в одному човні — з однаковими розчаруваннями, але й з однаковими сподіваннями!
+
 
       <span class="conclusion__byline">– Sacha Greif</span>
 
@@ -56,234 +62,217 @@ translations:
   ###########################################################################
 
   - key: figure.figure_lazy_loading_usage.html2025
-    t: Proportion of respondents having used **lazy loading**, the most-used feature among those with the “Newly Available” Baseline status.
+    t: Частка респондентів, які використовували **відкладене завантаження** — найуживанішу функцію серед тих, що мають статус Baseline «Newly Available».
 
   - key: figure.figure_content_security_usage.html2025
-    t: Largest year-over-year usage increase, for **Content-Security Policy**.
+    t: Найбільше річне зростання використання — у **Content-Security Policy**.
 
   - key: figure.figure_forms_features.html2025
-    t: Number of comments on the most-commented feature, **datalist**.
+    t: Кількість коментарів до функції, яку коментували найбільше, — **datalist**.
 
   ###########################################################################
   # Highlights
   ###########################################################################
 
   - key: highlight.customizable_select.html2025
-    t: |
-      **Customizable Select** may not currently be widely supported, yet it's a feature worth knowing about. While only used by **7.1%** of respondents, **89%** of developers who *have* used it report a positive experience. 
+    t: >
+      **Customizable Select** наразі, можливо, не має широкої підтримки, але про цю функцію варто знати. Хоча її використовують лише **7.1%** респондентів, **89%** розробників, які *справді* з нею працювали, повідомляють про позитивний досвід.
 
-      And given that the `<select/>` element has always been a challenge to style, being able to finally customize it to your needs without resorting to JavaScript-based hacks is a welcome improvement!
+
+      А з огляду на те, що елемент `<select/>` завжди був складним для стилізації, можливість нарешті підлаштувати його під свої потреби без JavaScript-хаків — приємне покращення!
 
   - key: highlight.jpeg_xl.html2025
-    t: |
-      After the "JIF/GIF" pronunciation fiasco and the confusingly-named "PNG" ("pee-en-gee"? "ping"?), whoever's in charge of image format nomenclature decided to keep things simple this time: take the already-popular JPEG and add an “XL” to it to make it cooler. 
+    t: >
+      Після фіаско з вимовою «JIF/GIF» і заплутано названого «PNG» («пі-ен-джі»? «пінг»?) той, хто відповідає за назви форматів зображень, цього разу вирішив не мудрувати: узяти вже популярний JPEG і додати до нього «XL», щоб звучало крутіше.
 
-      But not bigger though, as contrary to their name JPEG XL images are actually *smaller* than boring old JPEG–while somehow also being backwards-compatible with it. Don't ask me how that works.
+
+      Але не більше за розміром: усупереч назві, зображення JPEG XL насправді *менші* за нудний старий JPEG — і при цьому якимось чином лишаються сумісними з ним. Не питайте мене, як це працює.
 
   - key: highlight.hidden_until_found.html2025
-    t: |
-      Did you know that browsers can now play hide-and-seek? The `hidden="until-found"` attribute lets you hide an element until the user triggers it, by (for example) clicking an anchor link pointing to it.
+    t: >
+      А ви знали, що браузери тепер уміють гратися в хованки? Атрибут `hidden="until-found"` дає змогу приховати елемент, доки користувач його не викличе — наприклад, клацнувши якірне посилання, що вказує на нього.
 
-      Right now the feature is definitely in its “hidden” state, with **79.4%** of respondents having never even heard about it before. And browser support is still sparse (looking at you, Safari!). But once interoperability improves, it might just turn out to be worth adding to your toolbelt.
+
+      Наразі ця функція точно перебуває у «прихованому» стані: **79.4%** респондентів навіть не чули про неї раніше. А підтримування в браузерах усе ще обмежене (це про тебе, Safari!). Але щойно сумісність покращиться, вона цілком може стати вартою місця у вашому арсеналі.
 
   - key: highlight.popover_api.html2025
-    t: |
-      The **Popover API** is “Newly Available” as of this year, meaning it's now supported in all four major browsers. Which makes this the perfect time to learn how it can help you get rid of hacky JavaScript code, and replace it with a nice declarative API!
+    t: "**Popover API** цього року отримав статус «Newly Available», тобто тепер він підтримується в усіх чотирьох основних браузерах. А отже, це ідеальний час дізнатися, як він допоможе позбутися костильного JavaScript-коду й замінити його приємним декларативним API!"
 
   - key: highlight.blocking_render.html2025
-    t: |
-      Those of us who give a FOUC (Flash of Unstyled Content) about controlling how websites load will be happy to learn about `blocking="render"`. As it name implies, this attribute can make a `<link>`, `<script>` or `<style>` tag block the page's rendering until they're fully loaded.
+    t: >
+      Тим із нас, кому не байдужий FOUC (Flash of Unstyled Content) і контроль над тим, як завантажуються сайти, буде приємно дізнатися про `blocking="render"`. Як випливає з назви, цей атрибут змушує теги `<link>`, `<script>` чи `<style>` блокувати рендеринг сторінки, доки вони повністю не завантажаться.
 
-      Browser support isn't quite there yet–but it's definitely something that will make web loading UX much smoother once it becomes widely supported.
+
+      Підтримування в браузерах іще не на висоті, але це точно те, що зробить UX завантаження вебу значно плавнішим, щойно стане широко доступним.
 
   - key: highlight.element_internals.html2025
-    t: |
-      If you write web components, you must have often needed to specify custom pseudo-classes, default ARIA parameters, or to make a component behave like a regular form element?
+    t: >
+      Якщо ви пишете вебкомпоненти, вам напевно часто потрібно було задати власні псевдокласи, типові параметри ARIA або змусити компонент поводитися як звичайний елемент форми?
 
-      **ElementInternals** does all that, and more! The best part? It’s Widely Available, supported by all browsers since 2023!
+
+      **ElementInternals** робить усе це — і навіть більше! А найкраще те, що він Widely Available й підтримується всіма браузерами з 2023 року!
 
   - key: highlight.payment_request_api.html2025
-    t: |
-      “My favorite carrot cake recipe? Sure, I'll tell you! But first, can I interest you in a new mattress? Or maybe some shoes?”. 
+    t: >
+      «Мій улюблений рецепт морквяного торта? Звісно, розкажу! Але спершу — чи можу я зацікавити вас новим матрацом? А може, взуттям?»
 
-      Ads can seem like an inescapable part of the web, especially when you're trying to bake a new pastry. But the **PaymentRequest API** could be the first step towards making browser-integrated micro-payments a reality. And that fact alone makes it worth keeping an eye on.
+
+      Реклама може здаватися невіддільною частиною вебу, надто коли ви намагаєтеся спекти щось нове. Але **PaymentRequest API** може стати першим кроком до того, щоб вбудовані в браузер мікроплатежі стали реальністю. І вже самого цього досить, щоб за ним стежити.
 
   - key: highlight.search_element.html2025
-    t: |
-      The `<search>` element is one of those easy wins that take very little effort to add to your list of best practices. Step 1: use it to denote any search field in your apps. Step 2: well that's it really!
+    t: >
+      Елемент `<search>` — одна з тих легких перемог, які майже нічого не варті, щоб додати їх до свого списку найкращих практик. Крок 1: використовуйте його, щоб позначити будь-яке поле пошуку у ваших застосунках. Крок 2: власне, це й усе!
 
-      And now that it's supported in all four major browsers, there's really no reason not to be using it.
+
+      А тепер, коли він підтримується в усіх чотирьох основних браузерах, немає жодних причин ним не користуватися.
 
   ###########################################################################
   # Takeaways
   ###########################################################################
 
   - key: forms.forms_features.takeaway.html2025
-    t: |
-      Surprisingly, `<input type="color"/>` was the most used form-related feature this year, with **41.8%** of respondents reporting having used it. 
+    t: >
+      Несподівано, але `<input type="color"/>` став найуживанішою функцією, пов'язаною з формами, цього року: про її використання повідомили **41.8%** респондентів.
 
-      But when looking at positive sentiment, basic UI building blocks like autocomplete (`<datalist>`) and dropdowns (Customizable Select) top the rankings, showing that developers value features that are customizable and can be tailored to their needs.
+
+      А от якщо дивитися на позитивне ставлення, рейтинг очолюють базові будівельні блоки інтерфейсу — автозаповнення (`<datalist>`) і випадні списки (Customizable Select), — що показує: розробники цінують функції, які можна кастомізувати й підлаштувати під свої потреби.
 
   - key: forms.forms_pain_points.takeaway.html2025
-    t: |
-      **Styling & customization** of default form control UI elements remains a big stumbling block, with nearly **half** of pain points being about it.
+    t: >
+      **Стилізація та кастомізація** типових елементів керування формами лишається великим каменем спотикання: майже **половина** проблем стосується саме цього.
 
-      **Form validation** is also a problem, especially when it comes to more advanced use cases like validating one field's value based on another.
+
+      **Валідація форм** також є проблемою, особливо коли йдеться про складніші сценарії — як-от перевірка значення одного поля на основі іншого.
 
   - key: graphics_multimedia.graphics_multimedia_features.takeaway.html2025
-    t: |
-      **JPEG XL** and **ctx.drawElement()** were the two new features that garnered the most positive sentiment, whereas more complex areas like augmented or extended reality APIs didn't score as high–showing once more that devs are first and foremost interested in primitives that make their daily lives easier.
+    t: "**JPEG XL** і **ctx.drawElement()** — дві нові функції, що зібрали найбільше позитивних відгуків, тоді як складніші сфери на кшталт API доповненої чи розширеної реальності набрали менше — що вкотре показує: розробників передусім цікавлять примітиви, які полегшують їхню щоденну роботу."
 
   - key: graphics_multimedia.graphics_pain_points.takeaway.html2025
-    t: |
-      SVG has always been the the dark horse of the Web, chronically neglected by browser vendors, yet being used on nearly every website. It is therefore no surprise that it dominates here, with a quarter of pain points being about it.
+    t: "SVG завжди був темною конячкою вебу: хронічно занедбаний виробниками браузерів, але використовуваний майже на кожному сайті. Тож не дивно, що він домінує тут — на нього припадає чверть усіх проблем."
 
   - key: content.content_features.takeaway.html2025
-    t: |
-      Both the most liked and most disliked features were security-related: the **Sanitizer API** drew the most positive opinions, while **Content-Security Policy** topped the frustration list. 
+    t: >
+      І найбільш, і найменш улюблені функції виявилися пов'язаними з безпекою: **Sanitizer API** зібрав найбільше позитивних відгуків, тоді як **Content-Security Policy** очолила список розчарувань.
 
-      This contrast highlights how security mechanisms that reduce friction and integrate cleanly with existing workflows are welcomed, while those that impose rigid policies, demand meticulous configuration, or break previously working code can generate resentment.
+
+      Цей контраст показує, що механізми безпеки, які зменшують тертя й чисто вбудовуються в наявні робочі процеси, сприймаються прихильно, тоді як ті, що нав'язують жорсткі політики, вимагають прискіпливого налаштування або ламають раніше робочий код, здатні викликати спротив.
 
   - key: content.content_pain_points.takeaway.html2025
-    t: |
-      The data paints a very clear picture: By far the most pressing content point is **HTML reuse**, both across pages, and within the same page. Even though this is already possible through build tools and component-based front-end frameworks, it appears there is large demand for a platform-native feature.
+    t: "Дані малюють дуже чітку картину: найгостріша проблема вмісту — це **повторне використання HTML**, як між сторінками, так і в межах однієї сторінки. Хоча це вже можливо через інструменти збірки та компонентні front-end фреймворки, схоже, існує великий попит на нативну функцію платформи."
 
   - key: interactivity.interactivity_features.takeaway.html2025
-    t: |
-      There is huge demand for simple but customizable, declarative primitives for common things, as evidenced by the large proportion of positive sentiment for every single HTML feature in this category.
+    t: Існує величезний попит на прості, але кастомізовані декларативні примітиви для типових речей — про що свідчить велика частка позитивного ставлення до кожної функції HTML у цій категорії.
 
   - key: interactivity.interactivity_pain_points.takeaway.html2025
-    t: |
-      The large proportion of browser support issues mentioned here sends a clear message: “we love all these new features you've given us–now make them work everywhere so we can actually use them!”.
+    t: "Велика частка згаданих тут проблем із підтримуванням у браузерах надсилає чіткий сигнал: «ми любимо всі ці нові функції, які ви нам дали, — а тепер зробіть, щоб вони працювали всюди, щоб ми справді могли ними користуватися!»."
 
   - key: performance.performance_features.takeaway.html2025
-    t: |
-      It's loud and clear: the DX of `srcset` and `sizes` could use improvement! Both ends of the spectrum are around it, with `srcset`/`sizes` itself topping the frustration list, and `sizes="auto` being the most liked feature—because it alleviates some of this pain.
+    t: "Сигнал гучний і чіткий: DX у `srcset` і `sizes` варто покращити! Обидва краї спектра крутяться навколо них: сам `srcset`/`sizes` очолює список розчарувань, а `sizes=\"auto`  — найулюбленіша функція, бо саме вона полегшує частину цього болю."
 
   - key: performance.performance_pain_points.takeaway.html2025
-    t: |
-      The whole point of the web is to give people access to faraway content. Given that, it does feel a bit strange that **loading** that data is so often an afterthought, with little progress made in the last 30 years apart from slightly nicer spinner animations.
+    t: Увесь сенс вебу — дати людям доступ до віддаленого вмісту. З огляду на це трохи дивно, що **завантаження** цих даних так часто лишається другорядним, і за останні 30 років прогресу майже немає — хіба що анімації спінерів стали трохи приємнішими.
 
   - key: web_components.web_components_features.takeaway.html2025
-    t: |
-      Once again we see declarative solutions prevailing, with **declarative custom elements** topping the sentiment chart.
+    t: "Ми знову бачимо перевагу декларативних рішень: **декларативні власні елементи** очолюють діаграму ставлення."
 
   - key: web_components.web_components_pain_points.takeaway.html2025
-    t: |
-      We know that **extending built-in elements** is a long requested feature, and these results validate it, as it is the top concrete pain point topic here (after the more abstract ones around complexity, reliance on JS, and accessibility).
+    t: "Ми знаємо, що **розширення вбудованих елементів** — давно очікувана функція, і ці результати це підтверджують: це головна конкретна проблема тут (після абстрактніших — складності, залежності від JS і доступності)."
 
   - key: web_components.web_components_other_pain_points.takeaway.html2025
-    t: |
-      Compared with previous years the same themes are still present: high cognitive overhread, falling short when compared to framework components, and Shadow DOM being more of a problem than a solution.
+    t: "Порівняно з попередніми роками теми лишаються ті самі: високе когнітивне навантаження, програш у порівнянні з компонентами фреймворків і Shadow DOM, який радше проблема, ніж рішення."
 
   - key: system_capabilities.system_capabilities_features.takeaway.html2025
-    t: |
-      Opening and saving a file is one of the most basic app capabilities, and yet until recently was unattainable for web apps — until the **File System Access API**. It is therefore no surprise that it topped the chart of positive sentiment.
+    t: >
+      Відкриття та збереження файлу — одна з найбазовіших можливостей застосунку, і все ж донедавна вона була недосяжною для вебзастосунків — доки не з'явився **File System Access API**. Тож не дивно, що саме він очолив діаграму позитивного ставлення.
 
-      On the other hand, device APIs such as **WebUSB**, **Web Bluetooth**, or **WebNFC** collected the least interest, verifying once more that the features that gather the most interest are those that solve basic, common problems.
+
+      З іншого боку, апаратні API на кшталт **WebUSB**, **Web Bluetooth** чи **WebNFC** зібрали найменше зацікавлення, вкотре підтверджуючи: найбільше цікавлять ті функції, які розв'язують базові, поширені проблеми.
 
   - key: system_capabilities.system_capabilities_pain_points.takeaway.html2025
-    t: |
-      The data paints a very vivid picture: the top pain point here is neither ergonomics, nor limitations, but **browser support**, and more specifically, a specific vendor that many developers see as obstructing the web platform's progress.
+    t: "Дані малюють дуже яскраву картину: головна проблема тут — не ергономіка й не обмеження, а **підтримування в браузерах**, а конкретніше — певний виробник, якого багато розробників вважають таким, що гальмує розвиток вебплатформи."
 
   # a11y
 
   - key: accessibility.accessibility_features.takeaway.html2025
-    t: |
-      **Landmark elements** (`<main>`, `<nav>`, etc.) aren't very new or exciting but they remain a foundation of web accessibility.
+    t: "**Елементи-орієнтири** (`<main>`, `<nav>` тощо) не надто нові чи захопливі, але вони лишаються основою вебдоступності."
 
   - key: accessibility.accessibility_pain_points.takeaway.html2025
-    t: |
-      While there are technical gaps when it comes to accessibility (e.g. cross-root ARIA), a recurring theme whenever we ask about it is that the main pain points are around the *humans* involved with issues around workplace priorities, education, and cognitive overhead topping the list.
+    t: "Хоча в доступності є технічні прогалини (наприклад, ARIA між кореневими вузлами), щоразу, коли ми про це запитуємо, повторюється одна тема: головні проблеми пов'язані з *людьми* — список очолюють пріоритети на робочому місці, освіта та когнітивне навантаження."
 
   - key: accessibility.accessibility_techniques.takeaway.html2025
-    t: |
-      While things like alt text or proper heading hierarchy have become second nature to most front-end developers, newer tools like the `prefers-` set of media queries have yet to truly become mainstream.
+    t: Хоча альтернативний текст чи правильна ієрархія заголовків стали другою натурою для більшості front-end розробників, новіші засоби на кшталт набору медіазапитів `prefers-` ще не стали по-справжньому загальновживаними.
 
   - key: accessibility.accessibility_disabilities.takeaway.html2025
-    t: |
-      It's nice to see that beyond accounting for users with vision impairments, more developers are also taking atypical color vision and mobility impairments into account compared to last year.
+    t: Приємно бачити, що окрім користувачів із порушеннями зору, порівняно з минулим роком більше розробників враховують також нетипове сприйняття кольору та порушення рухливості.
 
   - key: accessibility.accessibility_screenreaders.takeaway.html2025
-    t: |
-      Once again, easily accessible tools like VoiceOver or the Chrome DevTools win over more specialized options. Although many developers still don't use screen readers of any kind (also note that 39% of survey respondents skipped the question altogether).
+    t: Знову ж таки, легкодоступні інструменти на кшталт VoiceOver чи Chrome DevTools перемагають спеціалізованіші варіанти. Хоча багато розробників досі не користуються жодними програмами читання з екрана (зауважте також, що 39% респондентів зовсім пропустили це запитання).
 
   - key: accessibility.accessibility_tools.takeaway.html2025
-    t: |
-      Browser devtools have seen a huge jump in usage compared to last year's results, seeing them overtake Lighthouse to become the lead accessibility testing tool.
+    t: Порівняно з торішніми результатами використання браузерних devtools різко зросло, і вони обійшли Lighthouse, ставши головним інструментом тестування доступності.
 
   # usage
   - key: usage.html_interoperability_features.takeaway.html2025
-    t: |
-      There's always a bit of lag between the state of the web platform and actual real-world adoption, so it shouldn't come as a surprise that the **Popover API** still tops the rankings. But make no mistake, this feature now officially has the "Newly Available" Baseline status, meaning using it across browser should be much less of an issue going forward.
+    t: "Між станом вебплатформи та її реальним впровадженням завжди є певна затримка, тож не дивно, що **Popover API** досі очолює рейтинг. Але не помиліться: ця функція тепер офіційно має статус Baseline «Newly Available», а отже, користуватися нею в різних браузерах надалі буде значно простіше."
 
   - key: usage.html_functionality_features.takeaway.html2025
-    t: |
-      Form controls and other interactive elements are once again those perceived as most limiting. With customizable select out of the way, it looks like perhaps date pickers should be the next target.
+    t: Елементи керування формами та інші інтерактивні елементи знову сприймаються як найбільш обмежувальні. Тепер, коли питання кастомізованого select закрито, схоже, наступною метою мають стати засоби вибору дати.
 
   - key: usage.html_missing_elements.takeaway.html2025
-    t: |
-      This year again **datatable** is the most requested new element. While it would certainly be nice to have built-in filtering, sorting, searching, etc. capabilities, it doesn't seem like something that will become a reality anytime soon. 
+    t: >
+      Цього року **datatable** знову є найбільш затребуваним новим елементом. Хоча вбудовані фільтрування, сортування, пошук тощо були б, безумовно, до речі, не схоже, що це стане реальністю найближчим часом.
 
-      On the other hand, progress is being made on other long-awaited features such as a native **switch** element, which explains its drop in the rankings.
+
+      З іншого боку, є поступ в інших давно очікуваних функціях — як-от нативний елемент **switch**, що й пояснює його падіння в рейтингу.
 
   - key: usage.html_styling_issues.takeaway.html2025
-    t: |
-      It will be no surprise that form inputs top the list of hardest elements to style. Thankfully, [customizable select elements](https://developer.chrome.com/blog/a-customizable-select) are in the works, even though [browser support](https://web-platform-dx.github.io/web-features-explorer/features/customizable-select/) is still lagging.
+    t: Не дивно, що поля форм очолюють список найважчих для стилізації елементів. На щастя, [кастомізовані елементи select](https://developer.chrome.com/blog/a-customizable-select) уже в розробці, хоча [підтримування браузерами](https://web-platform-dx.github.io/web-features-explorer/features/customizable-select/) усе ще відстає.
 
   - key: usage.component_strategies.takeaway.html2025
-    t: |
-      It's hard to dispute that JavaScript components have become the dominant paradigm of building UIs on the web. And yes, dealing with all these competing front-end frameworks can be messy–but it's a mess we know (and maybe even love?), a fact that makes it tough for web components to gain ground beyond fourth place.
+    t: Важко заперечити, що JavaScript-компоненти стали домінантною парадигмою побудови інтерфейсів у вебі. І так, мати справу з усіма цими конкурентними front-end фреймворками буває безладно — але це знайомий нам безлад (а може, навіть улюблений?), і саме тому вебкомпонентам важко піднятися вище четвертого місця.
 
   - key: usage.design_system_strategies.takeaway.html2025
-    t: |
-      Design systems have become a requirement for most large-scale projects, and that fact is reflected in the popularity of all these various approaches.
+    t: Дизайн-системи стали вимогою для більшості великих проєктів, і це відображено в популярності всіх цих різних підходів.
 
   - key: usage.html_css_js_balance.takeaway.html2025
-    t: |
-      As shown in the “Component Strategies” chart above, JavaScript is the de facto vessel for a lot of the HTML code we produce. Which explains why we spend so much time writing it!
+    t: Як показано на діаграмі «Стратегії компонентів» вище, JavaScript є фактичним носієм для великої частини HTML-коду, який ми створюємо. Це й пояснює, чому ми витрачаємо стільки часу на його написання!
 
   - key: usage.what_do_you_use_html_for.takeaway.html2025
-    t: |
-      While the average survey respondents mainly works on dynamic web apps, many of us also spend time creating blogs or other text-heavy sites, harkening back to HTML's roots as a document-oriented language.
+    t: Хоча пересічний респондент опитування працює переважно над динамічними вебзастосунками, багато з нас також витрачають час на створення блогів чи інших насичених текстом сайтів — що повертає нас до коренів HTML як мови, орієнтованої на документи.
 
   - key: usage.html_pain_points_freeform.takeaway.html2025
-    t: |
-      When looking at web platform pain points more generally, browser support stands out–especially when it comes to the Apple ecosystem. 
+    t: >
+      Якщо дивитися на проблеми вебплатформи загалом, вирізняється підтримування в браузерах — особливо коли йдеться про екосистему Apple.
 
-      As a result, community initiatives such as the [#AppleBrowserBan](https://open-web-advocacy.org/apple-browser-ban/) hashtag have been gaining steam, while on the vendor front [Interop](https://web.dev/blog/interop-2025) moves the needle in the right direction each year.
+
+      Як наслідок, спільнотні ініціативи на кшталт хештегу [#AppleBrowserBan](https://open-web-advocacy.org/apple-browser-ban/) набирають обертів, а з боку виробників [Interop](https://web.dev/blog/interop-2025) щороку зрушує справу в правильному напрямі.
 
   # opinions
 
   - key: opinions.accessibility_is_valued.takeaway.html2025
-    t: |
-      Given that lack of workplace buy-in is often cited as an obstacle to proper accessibility practices, it's nice to see that among survey respondents at least, things seem to be getting better, with both “agree” bars increasing compared to last year.
+    t: "З огляду на те, що брак підтримки з боку роботодавця часто називають перешкодою для належних практик доступності, приємно бачити, що принаймні серед респондентів опитування справи, схоже, покращуються: обидва стовпчики «погоджуюсь» зросли порівняно з минулим роком."
 
   - key: opinions.validation_is_important.takeaway.html2025
-    t: |
-      It's easy to forget about HTML validation when dealing with the chaos of modern web development. But respondents agree that it remains an important part of the process.
+    t: Про валідацію HTML легко забути в хаосі сучасної веброзробки. Але респонденти погоджуються, що вона лишається важливою частиною процесу.
 
   - key: opinions.keeping_informed_is_challenging.takeaway.html2025
-    t: |
-      Despite great initiatives like [Baseline](https://web-platform-dx.github.io/web-features/), [keeping up with the web platform](https://css-tricks.com/how-to-keep-up-with-new-css-features/) remains a challenge. Hopefully this survey helps at least a little!
+    t: Попри чудові ініціативи на кшталт [Baseline](https://web-platform-dx.github.io/web-features/), [встигати за вебплатформою](https://css-tricks.com/how-to-keep-up-with-new-css-features/) лишається непросто. Сподіваємось, це опитування хоч трохи допоможе!
 
   - key: opinions.keeping_informed_is_challenging.takeaway.html2025
-    t: |
-      Despite great initiatives like [Baseline](https://web-platform-dx.github.io/web-features/), [keeping up with the web platform](https://css-tricks.com/how-to-keep-up-with-new-css-features/) remains a challenge. Hopefully this survey helps at least a little!
+    t: Попри чудові ініціативи на кшталт [Baseline](https://web-platform-dx.github.io/web-features/), [встигати за вебплатформою](https://css-tricks.com/how-to-keep-up-with-new-css-features/) лишається непросто. Сподіваємось, це опитування хоч трохи допоможе!
 
   - key: opinions.browser_interoperability_is_obstacle.takeaway.html2025
-    t: |
-      It's not easy being a browser vendor in 2025. Developers complain about platform stagnation, so you introduce new features and APIs… only for developers to now complain about the lack of cross-browser support!
+    t: >
+      Бути виробником браузера у 2025 році нелегко. Розробники скаржаться на застій платформи — тож ви впроваджуєте нові функції та API… і тепер розробники скаржаться на брак підтримування в різних браузерах!
 
-      This is why [Interop](https://web.dev/blog/interop-2025) has become a key part of the process over the past couple years. It gives browser vendors a chance to coordinate on feature compatibility, and avoid having all their hard work ruined by poor interoperability.
+
+      Саме тому [Interop](https://web.dev/blog/interop-2025) за останні кілька років став ключовою частиною процесу. Він дає виробникам браузерів змогу узгоджувати сумісність функцій і не допускати, щоб уся їхня важка праця марнувалася через погану сумісність.
 
   - key: opinions.browser_interoperability_pace.takeaway.html2025
-    t: |
-      The results of those interoperability efforts are reflected in this chart, with **75%** of respondents agreeing that things are moving at a faster pace than before.
+    t: "Результати цих зусиль щодо сумісності відображені на цій діаграмі: **75%** респондентів погоджуються, що справи рухаються швидше, ніж раніше."
 
   - key: opinions.web_platform_right_direction.takeaway.html2025
-    t: |
-      Similarly, **77%** of respondents have a positive opinion of the web platform's overall direction.
+    t: Так само **77%** респондентів позитивно оцінюють загальний напрям розвитку вебплатформи.
 
   ###########################################################################
   # Conclusion
@@ -292,47 +281,47 @@ translations:
   - key: conclusion.html2025.lea_verou.name
     t: Dr Lea Verou
   - key: conclusion.html2025.lea_verou.bio
-    t: Speaker, Author, Award-Winning Web Architecture Consultant
+    t: Спікерка, авторка, відзначена нагородами консультантка з вебархітектури
   - key: conclusion.html2025.lea_verou
     t: >
-      We often expect that the flashiest features would attract the most developer interest. Things like AI-powered APIs, 3D/XR/AR, or device APIs. Yet year after year, what rises to the top is anything but fancy. Almost… mundane: Dropdowns. Comboboxes. Popovers. Dialogs. Form validation. Loading and saving files. Templating. Safely displaying user-generated content. Icons.
+      Ми часто очікуємо, що найяскравіші функції привертатимуть найбільше уваги розробників. Щось на кшталт API на базі ШІ, 3D/XR/AR чи апаратних API. Та рік за роком нагору підіймається щось геть не ефектне. Майже… буденне: випадні списки. Комбобокси. Попапи. Діалоги. Валідація форм. Завантаження та збереження файлів. Шаблонізація. Безпечне відображення створеного користувачами вмісту. Іконки.
 
-      ### Making APIs Usable
+      ### Зробити API придатними до використання
 
-      “But — many of these already exist!” you might object. They do — but when built-in UI can’t be customized or styled, it is effectively unusable. Developers are forced to recreate it anyway.
-
-
-      Once that penny drops, it explains most of the survey results. It explains why **Customizable Select** topped the charts. Why low-level primitives like popovers and invokers are so well-received. Why **SVG** and **drawing HTML on canvas** ranked far above AR/VR. Even why **extending built-in elements** emerged as such a major Web Components pain point.
+      «Але ж багато з цього вже існує!» — заперечите ви. Так, існує — але коли вбудований інтерфейс не можна кастомізувати чи стилізувати, він фактично непридатний. Розробники все одно змушені створювати його заново.
 
 
-      After all: how many times can you rebuild a button or dropdown before losing your mind? And how confident are you that you got it right?
+      Щойно це усвідомлюєш, стає зрозумілою більшість результатів опитування. Стає зрозуміло, чому **Customizable Select** очолив рейтинги. Чому низькорівневі примітиви на кшталт попапів та інвокерів сприймаються так добре. Чому **SVG** і **малювання HTML на canvas** посіли місця значно вище за AR/VR. І навіть чому **розширення вбудованих елементів** постало такою серйозною проблемою вебкомпонентів.
 
 
-      As a result, building professional interactive UIs still requires cobbling together numerous third-party solutions, even for things that are routine in proprietary platforms.
-
-      ### Lagging Change
-
-      This finding is not new. In [the first State of HTML](https://2023.stateofhtml.com/), we already saw how critical styling and customization were, especially around forms. This year’s deeper analysis confirms it hasn’t changed — in fact, the signal is louder.
+      Зрештою: скільки разів можна перебудовувати кнопку чи випадний список, поки не збожеволієш? І наскільки ви впевнені, що зробили це правильно?
 
 
-      But things *have* changed for the better! Features that were being discussed in 2023 have now shipped in major browsers. Others that were impractical back then—like the **Popover API**—are now universally supported.
+      Як наслідок, побудова професійних інтерактивних інтерфейсів досі потребує зшивання докупи численних сторонніх рішень — навіть для того, що на пропрієтарних платформах є рутиною.
+
+      ### Зміни, що відстають
+
+      Це відкриття не нове. Ще в [першому «Стані HTML»](https://2023.stateofhtml.com/) ми бачили, наскільки критичними є стилізація й кастомізація, особливо навколо форм. Цьогорічний глибший аналіз підтверджує, що нічого не змінилося — ба більше, сигнал став гучнішим.
 
 
-      And yet, Popover still tops browser support complaints. Why? While the pace of implementation has accelerated, collective perception lags behind. It now takes longer for developers to trust support than for browsers to ship it!
-
-      ### The Impact of LLMs
-
-      The rise of AI-generated code is a contributing factor. LLMs are surprisingly well-versed in modern web platform features, and *could* have helped move the community forwards, but are overly conservative in what they recommend. In practice, this may even be *slowing* adoption! How to fix this at scale remains an open question. Meanwhile, explicit browser support instructions do help, and who knows, if enough devs do this, the problem may even fix itself.
-
-      ### Looking Ahead
-
-      Looking ahead, the future looks bright. Many of the pain points highlighted are actively being worked on, and in some cases already shipping. Even extensible built-ins, previously considered a dead end, is seeing potential progress through the early stage work around custom attributes. 
+      Але дещо *таки* змінилося на краще! Функції, які обговорювалися у 2023 році, тепер випущені в основних браузерах. Інші, що тоді були непрактичними — як-от **Popover API**, — тепер підтримуються повсюдно.
 
 
-      All these primitives point in the same direction: a web platform that is steadily becoming more flexible, more expressive, and more aligned with how developers actually build UIs.
+      І все ж Popover досі очолює скарги на підтримування в браузерах. Чому? Хоча темп реалізації пришвидшився, колективне сприйняття відстає. Розробникам тепер потрібно більше часу, щоб повірити в підтримку, ніж браузерам — щоб її випустити!
+
+      ### Вплив LLM
+
+      Зростання обсягу коду, згенерованого ШІ, є одним із чинників. LLM напрочуд добре обізнані із сучасними функціями вебплатформи й *могли* б допомогти спільноті рухатися вперед, але надто консервативні в тому, що радять. На практиці це може навіть *гальмувати* впровадження! Як розв'язати це в масштабі — відкрите питання. Тим часом явні вказівки щодо підтримування браузерами таки допомагають; і хтозна, якщо так робитиме досить розробників, проблема може навіть розв'язатися сама.
+
+      ### Погляд у майбутнє
+
+      Якщо дивитися вперед, майбутнє видається світлим. Над багатьма з окреслених проблем активно працюють, а подекуди вони вже виходять у релізи. Навіть розширювані вбудовані елементи, які раніше вважали глухим кутом, мають потенційний поступ завдяки ранній роботі над власними атрибутами.
 
 
-      Progress on the Web is rarely dramatic, but it is cumulative. Each new primitive reduces the need for workarounds, libraries, and fragile hacks. And when those fundamentals fall into place, the impact will be felt everywhere.
+      Усі ці примітиви вказують в одному напрямі: вебплатформа неухильно стає гнучкішою, виразнішою й ближчою до того, як розробники насправді будують інтерфейси.
+
+
+      Поступ у вебі рідко буває драматичним, але він накопичувальний. Кожен новий примітив зменшує потребу в обхідних шляхах, бібліотеках і крихких хаках. А коли ці основи стануть на місце, вплив відчують усюди.
 
   - key: about.content.html2025
     t: |
