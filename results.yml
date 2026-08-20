@@ -42,6 +42,8 @@ translations:
     t: Інші опитування
   - key: general.all_editions
     t: Детальніше…
+  - key: general.view_full_results
+    t: Переглянути повні результати »
 
   ###########################################################################
   # Tabs
@@ -105,6 +107,8 @@ translations:
     t: За операційною системою
   - key: tabs.vs_company_size
     t: та розмір компанії
+  - key: tabs.browsers_not_big_4
+    t: Неосновні браузери
 
   - key: tabs.all_pain_points
     t: Усі проблеми
@@ -2490,6 +2494,10 @@ translations:
 
   - key: highlight.resources
     t: Корисні джерела
+  - key: sections.download.title
+    t: Завантажити набір даних
+  - key: sections.download.description
+    t: Ви можете безкоштовно отримати повний набір даних у форматі CSV — [приєднайтеся до нашої групи в Discord](https://discord.gg/2E7bbgnrJJ) і напишіть у каналі **#general**.
 
   ###########################################################################
   # Sponsors
@@ -2530,6 +2538,24 @@ translations:
 
   - key: sponsors.webstorm.description
     t: Насолоджуйтеся більш продуктивним програмуванням за допомогою IDE для JavaScript з усім необхідним.
+  - key: sponsors.sentry.description
+    t: Платформа моніторингу застосунків, яку люблять розробники в усьому світі.
+  - key: sponsors.clerk.description
+    t: Повноцінна автентифікація та керування користувачами, що дає змогу запускатися швидше й легше масштабуватися.
+  - key: sponsors.certificates_dev.description
+    t: Сертифікації для розробників, створені разом із самими авторами фреймворків.
+  - key: tokyodev.relocation
+    t: Знайдіть роботу в Японії
+  - key: tokyodev.relocation.description
+    t: Переїзд до Японії не мусить лишатися лише мрією. Експрес-курс TokyoDev «Developer's Crash Course in Coming to Japan» розповідає, як воно — працювати в японській компанії, скільки можна заробляти, які візи доступні та наскільки складно їх отримати.
+  - key: frontendmasters.learning_path
+    t: Ваш шлях до рівня Senior веброзробника
+  - key: frontendmasters.learning_path.description
+    t: Хочете просунутися в кар'єрі? Пориньте в JavaScript, React, вебпродуктивність, CSS, розгортання сайтів, TypeScript і функційне програмування, щоб уже сьогодні вирости з junior до senior.
+  - key: storyblok.technologies
+    t: React? Vue? Astro? JS?
+  - key: storyblok.technologies.description
+    t: Байдуже — ми говоримо мовою JSON. Storyblok — це headless CMS, яка працює з усіма сучасними фреймворками та платформами, тож ви цілком вільні обрати найкращий варіант для свого проєкту. Почніть за лічені хвилини!
 
   ###########################################################################
   # Entities repo - https://github.com/Devographics/entities
