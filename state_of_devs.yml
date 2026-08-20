@@ -41,6 +41,10 @@ translations:
     t: Здоров'я
   - key: sections.health.prompt
     t: Здоров'я та фізична форма.
+  - key: sections.ai_usage.title
+    t: ШІ
+  - key: sections.ai_usage.prompt
+    t: Використання ШІ та пов'язані занепокоєння.
 
   - key: sections.worldview.title
     t: Світогляд
@@ -158,6 +162,8 @@ translations:
 
   - key: options.career_issues.boredom
     t: Нудьга
+  - key: options.career_issues.boredom.description
+    t: Брак мотивації через зміст вашої роботи.
 
   # discrimination_issues
 
@@ -315,6 +321,38 @@ translations:
     t: Так, понад рік тому
   - key: options.laid_off.no
     t: Ні, ніколи
+  - key: career.job_security
+    t: Стабільність роботи
+  - key: career.job_security.question
+    t: Наскільки ймовірно, на вашу думку, що протягом найближчих 5 років вам доведеться змінити роботу з причин, які від вас не залежать?
+  - key: career.job_security.prompt
+    t: Наприклад, звільнення. Якщо це вас не стосується, розгляньте будь-яку подібну суттєву зміну вашої діяльності за умови, що ви залишаєтеся розробником.
+  - key: options.job_security.0
+    t: Дуже малоймовірно
+  - key: options.job_security.1
+    t: Швидше малоймовірно
+  - key: options.job_security.2
+    t: Однаково ймовірно й малоймовірно
+  - key: options.job_security.3
+    t: Швидше ймовірно
+  - key: options.job_security.4
+    t: Дуже ймовірно
+  - key: career.career_security
+    t: Стабільність кар'єри
+  - key: career.career_security.question
+    t: Наскільки ймовірно, на вашу думку, що протягом найближчих 5 років вам доведеться змінити кар'єру з причин, які від вас не залежать?
+  - key: career.career_security.prompt
+    t: Наприклад, неможливість надалі працювати розробником.
+  - key: options.career_security.0
+    aliasFor: options.job_security.0
+  - key: options.career_security.1
+    aliasFor: options.job_security.1
+  - key: options.career_security.2
+    aliasFor: options.job_security.2
+  - key: options.career_security.3
+    aliasFor: options.job_security.3
+  - key: options.career_security.4
+    aliasFor: options.job_security.4
 
   # WORKPLACE
 
@@ -456,6 +494,8 @@ translations:
 
   - key: options.workplace_difficulties.bad_management
     t: Поганий менеджмент
+  - key: options.workplace_difficulties.bad_management.description
+    t: Погані управлінські практики, некомпетентне керівництво тощо.
   - key: options.workplace_difficulties.in_person_work
     t: Вимоги відвідування робочого місця
   - key: options.workplace_difficulties.lack_of_human_contact
@@ -512,6 +552,30 @@ translations:
 
   - key: options.workplace_perks.remote_work_benefit
     t: Переваги віддаленої роботи
+  - key: workplace.workplace_burnout
+    t: Психічний стан
+  - key: workplace.workplace_burnout.question
+    t: Що з наведеного ви відчували останнім часом?
+  - key: workplace.workplace_burnout.prompt
+    t: Протягом приблизно останнього року
+  - key: options.workplace_burnout.emotionally_drained
+    t: Емоційне виснаження наприкінці робочого дня
+  - key: options.workplace_burnout.trouble_focusing
+    t: Труднощі з концентрацією на завданнях, які раніше подобалися
+  - key: options.workplace_burnout.reduced_motivation
+    t: Знижена мотивація або інтерес до роботи
+  - key: options.workplace_burnout.increased_cynicism
+    t: Дедалі більший цинізм щодо своєї роботи чи галузі
+  - key: options.workplace_burnout.increased_procrastination
+    t: Дедалі частіша прокрастинація
+  - key: options.workplace_burnout.sleep_difficulties
+    t: Проблеми зі сном або нерегулярний режим сну
+  - key: options.workplace_burnout.trouble_disconnecting
+    t: Труднощі з тим, щоб відволіктися від роботи в неробочий час
+  - key: options.workplace_burnout.feel_less_effective
+    t: Відчуття меншої ефективності в роботі
+  - key: options.workplace_burnout.reduced_sense_of_accomplishment
+    t: Знижене відчуття досягнень у роботі
 
   # job_finding_application_count
 
@@ -573,6 +637,104 @@ translations:
     t: Злиття або придбання компаній (Acquisition)
   - key: options.job_finding_methods.career_fair
     t: Ярмарок вакансій
+  - key: ai_usage.ai_generated_code_balance
+    aliasFor: usage.ai_generated_code_balance
+  - key: ai_usage.ai_generated_code_balance.question
+    aliasFor: usage.ai_generated_code_balance.question
+  - key: ai_usage.ai_generated_code_balance.prompt
+    aliasFor: usage.ai_generated_code_balance.prompt
+  - key: options.ai_generated_code_balance.0
+    aliasFor: options.ai_generated_code_balance.0
+  - key: options.ai_generated_code_balance.1
+    aliasFor: options.ai_generated_code_balance.1
+  - key: options.ai_generated_code_balance.2
+    aliasFor: options.ai_generated_code_balance.2
+  - key: options.ai_generated_code_balance.3
+    aliasFor: options.ai_generated_code_balance.3
+  - key: options.ai_generated_code_balance.4
+    aliasFor: options.ai_generated_code_balance.4
+  - key: options.ai_generated_code_balance.5
+    aliasFor: options.ai_generated_code_balance.5
+  - key: options.ai_generated_code_balance.6
+    aliasFor: options.ai_generated_code_balance.6
+  - key: options.ai_generated_code_balance.7
+    aliasFor: options.ai_generated_code_balance.7
+  - key: options.ai_generated_code_balance.8
+    aliasFor: options.ai_generated_code_balance.8
+  - key: ai_usage.ai_management_pressure
+    t: Позиція щодо ШІ
+  - key: ai_usage.ai_management_pressure.question
+    t: Яка позиція вашої компанії щодо використання ШІ?
+  - key: ai_usage.ai_management_pressure.prompt
+    t: Якщо ви не працюєте в компанії, можете пропустити.
+  - key: options.ai_management_pressure.0
+    t: Моя компанія не заохочує використання ШІ
+  - key: options.ai_management_pressure.1
+    t: Моя компанія нейтральна щодо ШІ
+  - key: options.ai_management_pressure.2
+    t: Моя компанія заохочує використання ШІ, але це не впливає на мою поведінку
+  - key: options.ai_management_pressure.3
+    t: Моя компанія заохочує використання ШІ, і через це я використовую його більше, ніж використовував(-ла) би
+  - key: options.ai_management_pressure.3.description
+    t: "Наприклад: мінімальні квоти на використання ШІ, рейтинг використання токенів тощо."
+  - key: ai_usage.job_security_threat
+    aliasFor: opinions.job_security_threat
+  - key: ai_usage.job_security_threat.question
+    aliasFor: opinions.job_security_threat.question
+  - key: ai_usage.ai_sentiment
+    t: Сприйняття ШІ
+  - key: ai_usage.ai_sentiment.question
+    t: За шкалою від 100% негативного до 100% позитивного — яка ваша загальна думка про ШІ?
+  - key: options.ai_sentiment.0
+    t: 100% негативне
+  - key: options.ai_sentiment.1
+    aliasFor: options.ai_generated_code_balance.1
+  - key: options.ai_sentiment.2
+    aliasFor: options.ai_generated_code_balance.2
+  - key: options.ai_sentiment.3
+    aliasFor: options.ai_generated_code_balance.3
+  - key: options.ai_sentiment.4
+    t: Нейтральне
+  - key: options.ai_sentiment.5
+    aliasFor: options.ai_generated_code_balance.5
+  - key: options.ai_sentiment.6
+    aliasFor: options.ai_generated_code_balance.6
+  - key: options.ai_sentiment.7
+    aliasFor: options.ai_generated_code_balance.7
+  - key: options.ai_sentiment.8
+    t: 100% позитивне
+  - key: ai_usage.ai_mental_state
+    t: Психічний стан і ШІ
+  - key: ai_usage.ai_mental_state.question
+    t: ШІ-інструменти загалом позитивно вплинули на мій психічний стан
+  - key: ai_usage.ai_risks
+    aliasFor: usage.ai_risks
+  - key: ai_usage.ai_risks.question
+    aliasFor: usage.ai_risks.question
+  - key: ai_usage.ai_outlook
+    t: Погляди на ШІ
+  - key: ai_usage.ai_outlook.question
+    t: Що ще ви хотіли б додати щодо свого загального погляду на ШІ?
+  - key: workplace.keyboard
+    t: Клавіатура
+  - key: workplace.keyboard.question
+    t: Якою клавіатурою ви зазвичай користуєтеся для роботи?
+  - key: workplace.keyboard.prompt
+    t: Це може бути тип, бренд, модель клавіатури тощо.
+  - key: workplace.monitors
+    t: Монітори
+  - key: workplace.monitors.question
+    t: Скільки моніторів ви зазвичай використовуєте під час роботи?
+  - key: options.monitors.0
+    t: Жодного
+  - key: options.monitors.1
+    t: "1"
+  - key: options.monitors.2
+    t: "2"
+  - key: options.monitors.3
+    t: "3"
+  - key: options.monitors.4
+    t: 4 або більше
 
   # - key: workplace.how_much_can_you_be_yourself_at_work
   #   t:
@@ -1015,16 +1177,22 @@ translations:
     t: Криза біженців і міграції
   - key: options.global_issues.economic_inequality
     t: Економічна нерівність
+  - key: options.global_issues.economic_inequality.description
+    t: Зокрема доступ до житла.
   - key: options.global_issues.healthcare_access
     t: Доступ до охорони здоров'я
   - key: options.global_issues.geopolitical_tensions
     t: Геополітична напруженість
+  - key: options.global_issues.geopolitical_tensions.description
+    t: Зокрема війни та збройні конфлікти.
   - key: options.global_issues.ai_threats
     t: Загрози від ШІ
   - key: options.global_issues.rising_authoritarianism
     t: Зростання авторитаризму
   - key: options.global_issues.rising_intolerance
     t: Зростання нетерпимості
+  - key: options.global_issues.rising_intolerance.description
+    t: Зокрема питання ЛГБТК і трансгендерних людей.
   - key: options.global_issues.erosion_traditional_values
     t: Руйнування традиційних цінностей
   - key: options.global_issues.globalization
@@ -1040,6 +1208,44 @@ translations:
     t: Трамп
   - key: options.global_issues.lgbtq_rights
     t: Права LGBTQ
+  - key: worldview.political_expression_at_work
+    t: Вираження політичних поглядів
+  - key: worldview.political_expression_at_work.question
+    t: Наскільки комфортно вам висловлювати політичні погляди в професійному контексті?
+  - key: worldview.political_expression_at_work.prompt
+    t: Чи то на робочому місці, чи публічно в робочих соцмережах тощо.
+  - key: options.political_expression_at_work.0
+    t: Зовсім не комфортно
+  - key: options.political_expression_at_work.1
+    t: Трохи некомфортно
+  - key: options.political_expression_at_work.2
+    t: Нейтрально
+  - key: options.political_expression_at_work.3
+    t: Здебільшого комфортно
+  - key: options.political_expression_at_work.4
+    t: Цілком комфортно
+  - key: worldview.workers_union
+    t: Профспілка
+  - key: worldview.workers_union.question
+    t: Чи є ви наразі членом профспілки?
+  - key: options.workers_union.no_no_interest
+    t: Ні, і я не зацікавлений(-а) вступати
+  - key: options.workers_union.no_but_interested
+    t: Ні, але хотів(-ла) би вступити
+  - key: options.workers_union.yes
+    t: Так
+  - key: options.workers_union.na
+    t: Не стосується
+  - key: worldview.political_spectrum
+    t: Політичний спектр
+  - key: worldview.political_spectrum.question
+    t: Де ви розміщуєте себе на політичному спектрі «ліві — праві»?
+  - key: options.political_spectrum.0
+    t: Крайні ліві
+  - key: options.political_spectrum.4
+    t: Центр
+  - key: options.political_spectrum.8
+    t: Крайні праві
 
   # # companies_opinion
 
@@ -1081,6 +1287,30 @@ translations:
     t: Вправи
   - key: options.happiness_factors.freedom
     t: Свобода
+  - key: worldview.tech_industry_emotion
+    t: Емоції щодо галузі
+  - key: worldview.tech_industry_emotion.question
+    t: Які емоції найкраще описують ваше нинішнє ставлення до технологічної галузі?
+  - key: options.tech_industry_emotion.overwhelmed
+    t: Перевантаженість
+  - key: options.tech_industry_emotion.disillusioned
+    t: Розчарування
+  - key: options.tech_industry_emotion.angry
+    t: Злість
+  - key: options.tech_industry_emotion.exhausted
+    t: Виснаження
+  - key: options.tech_industry_emotion.anxious
+    t: Тривога
+  - key: options.tech_industry_emotion.excited
+    t: Захоплення
+  - key: options.tech_industry_emotion.curious
+    t: Цікавість
+  - key: options.tech_industry_emotion.hopeful
+    t: Надія
+  - key: options.tech_industry_emotion.engaged
+    t: Залученість
+  - key: options.tech_industry_emotion.motivated
+    t: Мотивація
 
   # overall_happiness
 
@@ -1159,6 +1389,8 @@ translations:
 
   - key: options.physical_activity.dancing
     t: Танці
+  - key: options.physical_activity.basketball
+    t: Баскетбол
   - key: options.physical_activity.basket_ball
     t: Баскетбол
   - key: options.physical_activity.badminton
@@ -1237,7 +1469,7 @@ translations:
   - key: options.hobbies.travel
     t: Подорожі
   - key: options.hobbies.dancing
-    t: Dancing
+    t: Танці
   - key: options.hobbies.3d_printing
     t: 3D-друк
   - key: options.hobbies.language_learning
@@ -1286,6 +1518,34 @@ translations:
     t: Steamdeck
   - key: options.video_game_platforms.retro_emulation_console
     t: Емулятор гральної ретроконсолі
+  - key: hobbies.favorite_beverages
+    t: Улюблені напої
+  - key: hobbies.favorite_beverages.question
+    t: Що з переліченого ви п'єте регулярно (раз на тиждень або частіше)?
+  - key: options.favorite_beverages.tea
+    t: Чай
+  - key: options.favorite_beverages.coffee
+    t: Кава
+  - key: options.favorite_beverages.sports_energy_drinks
+    t: Спортивні або енергетичні напої
+  - key: options.favorite_beverages.soda
+    t: Содова чи інші солодкі напої
+  - key: options.favorite_beverages.sparkling_water
+    t: Газована вода
+  - key: options.favorite_beverages.fruit_juice
+    t: Соки або смузі
+  - key: options.favorite_beverages.beer
+    t: Пиво
+  - key: options.favorite_beverages.other_alcoholic_beverages
+    t: Інші алкогольні напої
+  - key: options.favorite_beverages.na
+    t: Жодного (лише вода)
+  - key: hobbies.favorite_books
+    t: Улюблені книжки
+  - key: hobbies.favorite_books.question
+    t: Які книжки останнім часом стали для вас улюбленими?
+  - key: hobbies.favorite_books.prompt
+    t: Книжки, які ви прочитали за останні 12 місяців.
 
   # favorite_video_games
 
@@ -1422,13 +1682,13 @@ translations:
 
   # tabs
   - key: tabs.vs_sleep_quantity
-    t: vs. Sleep Quantity
+    t: та тривалість сну
   - key: tabs.vs_income_evolution
-    t: vs. Income Evolution
+    t: та зміна доходу
   - key: tabs.vs_relationship_status
-    t: vs. Relationship Status
+    t: та сімейний стан
   - key: tabs.vs_number_of_kids
-    t: vs. Number of Kids
+    t: та кількість дітей
 
   # relocation countries
 
