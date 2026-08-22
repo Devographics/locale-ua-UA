@@ -44,7 +44,7 @@ translations:
     t: Детальніше…
 
   - key: general.view_full_results
-    t: View Full Results »
+    t: Переглянути детальні результати »
 
   ###########################################################################
   # Tabs
@@ -109,7 +109,7 @@ translations:
   - key: tabs.vs_company_size
     t: та розмір компанії
   - key: tabs.browsers_not_big_4
-    t: Non-Major Browsers
+    t: Неосновні браузери
 
   - key: tabs.all_pain_points
     t: Усі проблеми
@@ -170,7 +170,7 @@ translations:
       Частка респондентів із **позитивним ставленням** з-поміж тих, хто висловив ставлення, незалежно від досвіду.
   - key: ratios.appreciation.description
     t: >
-      Різниця між **зацікавленістю** (**позитивне ставлення** з-поміж респондентів, які "чули про це") і **вдоволенням** (**позитивне ставлення** з-поміж респондентів, які "використовували це"), у відсоткових пунктах. In other words, how much more respondents enjoy an item after using it, compared to when they had only heard about it.
+      Різниця між **зацікавленістю** (**позитивне ставлення** з-поміж респондентів, які "чули про це") і **вдоволенням** (**позитивне ставлення** з-поміж респондентів, які "використовували це"), у відсоткових пунктах. Тобто наскільки більше респондентам подобається щось після користування, як порівняти з тим, коли вони лише чули про це.
 
   - key: modes.rank
     t: Ранг
@@ -2419,11 +2419,11 @@ translations:
 
   - key: sections.download.title
     t: |
-      Download Dataset
+      Завантажити набір даних
 
   - key: sections.download.description
     t: |
-      You can apply to receive the full CSV dataset for free by [joining our Discord group](https://discord.gg/2E7bbgnrJJ) and asking in the **#general** channel.
+      Ви можете отримати повний набір даних у форматі CSV безкоштовно — [приєднайтеся до нашої групи в Discord](https://discord.gg/2E7bbgnrJJ) та надішліть запит у каналі **#general**.
 
   ###########################################################################
   # Sponsors
@@ -2466,38 +2466,38 @@ translations:
     t: Насолоджуйтеся більш продуктивним програмуванням за допомогою IDE для JavaScript з усім необхідним.
 
   - key: sponsors.sentry.description
-    t: The application monitoring platform loved by developers worldwide.
+    t: Платформа моніторингу застосунків, яка до вподоби розробникам з усього світу.
 
   - key: sponsors.clerk.description
-    t: Full stack auth and user management that lets you launch faster and scale easier.
+    t: Повностекове управління автентифікацією та користувачами для швидшого запуску та простішого масштабування.
 
   - key: sponsors.certificates_dev.description
-    t: Developer certifications built with the framework creators themselves.
+    t: Розробницькі сертифікації, створені авторами фреймворків.
 
   # midpage sponsors blocks
 
   - key: tokyodev.relocation
     t: |
-      Find Work in Japan
+      Знайдіть роботу в Японії
 
   - key: tokyodev.relocation.description
     t: |
-      Relocating to Japan doesn't just have to be a dream. TokyoDev's Developer’s Crash Course in Coming to Japan covers things like what it is like to work for a Japanese company, how much you can expect to make, what visas are available and how hard they are to obtain.
+      Релокація до Японії не має залишатися мрією. Вичерпний курс приїзду розробника в Японію від TokyoDev охоплює такі теми, як робота в японській компанії, очікуваний заробіток, доступні візи та складність їх отримання.
 
   - key: frontendmasters.learning_path
     t: |
-      Your Path to Becoming a Senior Web Developer
+      Ваш шлях до того, щоб стати старшим веброзробником
 
   - key: frontendmasters.learning_path.description
     t: |
-      Want to upgrade your career? Deep-dive into JavaScript, React, Web performance, CSS, deploying websites, TypeScript, and functional programming to go from junior to senior today.
+      Хочете покращити свою кар'єру? Заглибтеся у JavaScript, React, швидкодію у вебі, CSS, розгортання вебсайтів, TypeScript та функціональне програмування, щоб перейти від молодшого до старшого рівня вже сьогодні.
 
   - key: storyblok.technologies
     t: React? Vue? Astro? JS?
 
   - key: storyblok.technologies.description
     t: |
-      Doesn't matter, we speak JSON. Storyblok is a Headless CMS that works with all modern frameworks and platforms so you are completely free to choose the best option for your project. Get started in a matter of minutes!
+      Неважливо, ми спілкуємося у форматі JSON. Storyblok — це Headless CMS, яка працює з усіма сучасними фреймворками та платформами, тож ви можете вільно вибрати найкращий варіант для свого проєкту. Почніть за лічені хвилини!
 
   ###########################################################################
   # Entities repo - https://github.com/Devographics/entities
