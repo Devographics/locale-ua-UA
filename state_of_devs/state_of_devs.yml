@@ -42,6 +42,11 @@ translations:
   - key: sections.health.prompt
     t: Здоров'я та фізична форма.
 
+  - key: sections.ai_usage.title
+    t: AI
+  - key: sections.ai_usage.prompt
+    t: AI usage and concerns.
+
   - key: sections.worldview.title
     t: Світогляд
   - key: sections.worldview.prompt
@@ -158,6 +163,8 @@ translations:
 
   - key: options.career_issues.boredom
     t: Нудьга
+  - key: options.career_issues.boredom.description
+    t: Lack of motivation due to the contents of your work.
 
   # discrimination_issues
 
@@ -316,6 +323,46 @@ translations:
   - key: options.laid_off.no
     t: Ні, ніколи
 
+  # job_security
+
+  - key: career.job_security
+    t: Job Security
+  - key: career.job_security.question
+    t: Within the next 5 years, how likely do you think it is that you will have to change jobs due to reasons beyond your control?
+  - key: career.job_security.prompt
+    t: Such as being let go. If not applicable, consider any similarly major change to your activity while remaining a developer.
+
+  - key: options.job_security.0
+    t: Very unlikely
+  - key: options.job_security.1
+    t: Somewhat unlikely
+  - key: options.job_security.2
+    t: Equally likely/unlikely
+  - key: options.job_security.3
+    t: Somewhat likely
+  - key: options.job_security.4
+    t: Very likely
+
+  # career_security
+
+  - key: career.career_security
+    t: Career Security
+  - key: career.career_security.question
+    t: Within the next 5 years, how likely do you think it is that you will have to change careers due to reasons beyond your control?
+  - key: career.career_security.prompt
+    t: Such as being unable to continue working as a developer.
+
+  - key: options.career_security.0
+    aliasFor: options.job_security.0
+  - key: options.career_security.1
+    aliasFor: options.job_security.1
+  - key: options.career_security.2
+    aliasFor: options.job_security.2
+  - key: options.career_security.3
+    aliasFor: options.job_security.3
+  - key: options.career_security.4
+    aliasFor: options.job_security.4
+
   # WORKPLACE
 
   - key: workplace.company_size
@@ -456,6 +503,9 @@ translations:
 
   - key: options.workplace_difficulties.bad_management
     t: Поганий менеджмент
+  - key: options.workplace_difficulties.bad_management.description
+    t: Bad management practices, incompetent management, etc.
+
   - key: options.workplace_difficulties.in_person_work
     t: Вимоги відвідування робочого місця
   - key: options.workplace_difficulties.lack_of_human_contact
@@ -513,6 +563,33 @@ translations:
   - key: options.workplace_perks.remote_work_benefit
     t: Переваги віддаленої роботи
 
+  # workplace_burnout
+  - key: workplace.workplace_burnout
+    t: Mental State
+  - key: workplace.workplace_burnout.question
+    t: Which of the following have you experienced recently?
+  - key: workplace.workplace_burnout.prompt
+    t: Within the past year or so
+
+  - key: options.workplace_burnout.emotionally_drained
+    t: Feeling emotionally drained at the end of the workday
+  - key: options.workplace_burnout.trouble_focusing
+    t: Having trouble focusing on tasks I used to enjoy
+  - key: options.workplace_burnout.reduced_motivation
+    t: Having reduced motivation or interest for work
+  - key: options.workplace_burnout.increased_cynicism
+    t: Feeling increasingly cynical about my work or industry
+  - key: options.workplace_burnout.increased_procrastination
+    t: Finding myself procrastinating more
+  - key: options.workplace_burnout.sleep_difficulties
+    t: Having trouble sleeping or irregular sleep patterns
+  - key: options.workplace_burnout.trouble_disconnecting
+    t: Having trouble disconnecting from work outside of work hours
+  - key: options.workplace_burnout.feel_less_effective
+    t: Feeling less effective at work
+  - key: options.workplace_burnout.reduced_sense_of_accomplishment
+    t: Having a reduced sense of accomplishment at work
+
   # job_finding_application_count
 
   - key: workplace.job_finding_application_count
@@ -564,7 +641,7 @@ translations:
     t: Заснування власної компанії, самозайнятість
 
   - key: options.job_finding_methods.contacted_by_company
-    t: Власна компанія/самозайнятість
+    t: За контрактом із компанієюі
   - key: options.job_finding_methods.internship
     t: Інтернатура
   - key: options.job_finding_methods.through_university
@@ -577,7 +654,159 @@ translations:
   # - key: workplace.how_much_can_you_be_yourself_at_work
   #   t:
 
-  # technology
+  ###########################################################################
+  # AI
+  ###########################################################################
+
+  # ai_generated_code_balance
+
+  - key: ai_usage.ai_generated_code_balance
+    aliasFor: usage.ai_generated_code_balance
+  - key: ai_usage.ai_generated_code_balance.question
+    aliasFor: usage.ai_generated_code_balance.question
+  - key: ai_usage.ai_generated_code_balance.prompt
+    aliasFor: usage.ai_generated_code_balance.prompt
+
+  - key: options.ai_generated_code_balance.0
+    aliasFor: options.ai_generated_code_balance.0
+  - key: options.ai_generated_code_balance.1
+    aliasFor: options.ai_generated_code_balance.1
+  - key: options.ai_generated_code_balance.2
+    aliasFor: options.ai_generated_code_balance.2
+  - key: options.ai_generated_code_balance.3
+    aliasFor: options.ai_generated_code_balance.3
+  - key: options.ai_generated_code_balance.4
+    aliasFor: options.ai_generated_code_balance.4
+  - key: options.ai_generated_code_balance.5
+    aliasFor: options.ai_generated_code_balance.5
+  - key: options.ai_generated_code_balance.6
+    aliasFor: options.ai_generated_code_balance.6
+  - key: options.ai_generated_code_balance.7
+    aliasFor: options.ai_generated_code_balance.7
+  - key: options.ai_generated_code_balance.8
+    aliasFor: options.ai_generated_code_balance.8
+
+  # ai_management_pressure
+
+  - key: ai_usage.ai_management_pressure
+    t: AI Stance
+  - key: ai_usage.ai_management_pressure.question
+    t: What's your company's stance regarding AI usage?
+  - key: ai_usage.ai_management_pressure.prompt
+    t: If you do not work for a company, feel free to skip.
+
+  - key: options.ai_management_pressure.0
+    t: My company discourages AI use
+
+  - key: options.ai_management_pressure.1
+    t: My company is neutral towards AI
+
+  - key: options.ai_management_pressure.2
+    t: My company encourages AI use, but it does not affect my behavior
+
+  - key: options.ai_management_pressure.3
+    t: My company encourages AI use, and I use AI more than I otherwise would as a result
+  - key: options.ai_management_pressure.3.description
+    t: |
+      Example: minimum AI usage quotas, token use leaderboard, etc.
+
+  # job_security_threat
+
+  - key: ai_usage.job_security_threat
+    aliasFor: opinions.job_security_threat
+  - key: ai_usage.job_security_threat.question
+    aliasFor: opinions.job_security_threat.question
+
+  # ai_sentiment
+
+  - key: ai_usage.ai_sentiment
+    t: AI Sentiment
+  - key: ai_usage.ai_sentiment.question
+    t: On a scale going from 100% negative to 100% positive, what is your overall opinion regarding AI?
+
+  - key: options.ai_sentiment.0
+    t: 100% negative
+  - key: options.ai_sentiment.1
+    aliasFor: options.ai_generated_code_balance.1
+  - key: options.ai_sentiment.2
+    aliasFor: options.ai_generated_code_balance.2
+  - key: options.ai_sentiment.3
+    aliasFor: options.ai_generated_code_balance.3
+  - key: options.ai_sentiment.4
+    t: Neutral
+  - key: options.ai_sentiment.5
+    aliasFor: options.ai_generated_code_balance.5
+  - key: options.ai_sentiment.6
+    aliasFor: options.ai_generated_code_balance.6
+  - key: options.ai_sentiment.7
+    aliasFor: options.ai_generated_code_balance.7
+  - key: options.ai_sentiment.8
+    t: 100% positive
+
+  # ai_mental_state (not used)
+  # - key: ai_usage.ai_mental_state
+  #   t: AI Mental State
+  # - key: ai_usage.ai_mental_state.question
+  #   t: How would you describe AI's overall impact on your mental state?
+
+  # - key: options.ai_mental_state.0
+  #   t: Very negative
+  # - key: options.ai_mental_state.1
+  #   t: Slightly negative
+  # - key: options.ai_mental_state.2
+  #   t: No impact
+  # - key: options.ai_mental_state.3
+  #   t: Slightly positive
+  # - key: options.ai_mental_state.4
+  #   t: Very positive
+
+  # ai_mental_state
+  - key: ai_usage.ai_mental_state
+    t: AI Mental State
+  - key: ai_usage.ai_mental_state.question
+    t: AI tools have had a positive impact overall on my mental state
+
+  # ai_risks
+
+  - key: ai_usage.ai_risks
+    aliasFor: usage.ai_risks
+  - key: ai_usage.ai_risks.question
+    aliasFor: usage.ai_risks.question
+
+  # ai_outlook
+  - key: ai_usage.ai_outlook
+    t: AI Outlook
+  - key: ai_usage.ai_outlook.question
+    t: What else would you like to to add regarding your general outlook about AI?
+
+  # what_kind_keyboard
+  - key: workplace.keyboard
+    t: Keyboard
+  - key: workplace.keyboard.question
+    t: What kind of keyboard do typically use for work?
+  - key: workplace.keyboard.prompt
+    t: Could be keyboard type, brand, model, etc.
+
+  # monitors
+  - key: workplace.monitors
+    t: Monitors
+  - key: workplace.monitors.question
+    t: How many monitors do you typically use when working?
+
+  - key: options.monitors.0
+    t: None
+  - key: options.monitors.1
+    t: 1
+  - key: options.monitors.2
+    t: 2
+  - key: options.monitors.3
+    t: 3
+  - key: options.monitors.4
+    t: 4 or more
+
+  ###########################################################################
+  # Technology
+  ###########################################################################
 
   # mobile_os
   - key: technology.mobile_os
@@ -1015,16 +1244,22 @@ translations:
     t: Криза біженців і міграції
   - key: options.global_issues.economic_inequality
     t: Економічна нерівність
+  - key: options.global_issues.economic_inequality.description
+    t: Including housing access.
   - key: options.global_issues.healthcare_access
     t: Доступ до охорони здоров'я
   - key: options.global_issues.geopolitical_tensions
     t: Геополітична напруженість
+  - key: options.global_issues.geopolitical_tensions.description
+    t: Including wars and armed conflicts.
   - key: options.global_issues.ai_threats
     t: Загрози від ШІ
   - key: options.global_issues.rising_authoritarianism
     t: Зростання авторитаризму
   - key: options.global_issues.rising_intolerance
     t: Зростання нетерпимості
+  - key: options.global_issues.rising_intolerance.description
+    t: Including LGBTQ and trans issues.
   - key: options.global_issues.erosion_traditional_values
     t: Руйнування традиційних цінностей
   - key: options.global_issues.globalization
@@ -1040,6 +1275,56 @@ translations:
     t: Трамп
   - key: options.global_issues.lgbtq_rights
     t: Права LGBTQ
+
+  # political_expression_at_work
+
+  - key: worldview.political_expression_at_work
+    t: Political Expression
+  - key: worldview.political_expression_at_work.question
+    t: How comfortable do you feel expressing political opinions in a professional context?
+  - key: worldview.political_expression_at_work.prompt
+    t: Either in the workplace, or publicly on work-related social media, etc.
+
+  - key: options.political_expression_at_work.0
+    t: Not comfortable at all
+  - key: options.political_expression_at_work.1
+    t: Slightly uncomfortable
+  - key: options.political_expression_at_work.2
+    t: Neutral
+  - key: options.political_expression_at_work.3
+    t: Mostly comfortable
+  - key: options.political_expression_at_work.4
+    t: Completely comfortable
+
+  # workers_union
+
+  - key: worldview.workers_union
+    t: Worker's Union
+  - key: worldview.workers_union.question
+    t: Are you currently a member of a worker's union or syndicate?
+
+  - key: options.workers_union.no_no_interest
+    t: No, and I have not interest in joining one
+  - key: options.workers_union.no_but_interested
+    t: No, but I'd like to join one
+  - key: options.workers_union.yes
+    t: "Yes"
+  - key: options.workers_union.na
+    t: Not applicable
+
+  # political_spectrum
+
+  - key: worldview.political_spectrum
+    t: Political Spectrum
+  - key: worldview.political_spectrum.question
+    t: Where do you place yourself on the left-wing/right-wing political spectrum?
+
+  - key: options.political_spectrum.0
+    t: Far-left
+  - key: options.political_spectrum.4
+    t: Center
+  - key: options.political_spectrum.8
+    t: Far-right
 
   # # companies_opinion
 
@@ -1081,6 +1366,33 @@ translations:
     t: Вправи
   - key: options.happiness_factors.freedom
     t: Свобода
+
+  - key: worldview.tech_industry_emotion
+    t: Tech Emotion
+  - key: worldview.tech_industry_emotion.question
+    t: Which emotions best describes how you currently feel about the tech industry?
+
+  - key: options.tech_industry_emotion.overwhelmed
+    t: Overwhelmed
+  - key: options.tech_industry_emotion.disillusioned
+    t: Disillusioned
+  - key: options.tech_industry_emotion.angry
+    t: Angry
+  - key: options.tech_industry_emotion.exhausted
+    t: Exhausted
+  - key: options.tech_industry_emotion.anxious
+    t: Anxious
+
+  - key: options.tech_industry_emotion.excited
+    t: Excited
+  - key: options.tech_industry_emotion.curious
+    t: Curious
+  - key: options.tech_industry_emotion.hopeful
+    t: Hopeful
+  - key: options.tech_industry_emotion.engaged
+    t: Engaged
+  - key: options.tech_industry_emotion.motivated
+    t: Motivated
 
   # overall_happiness
 
@@ -1159,7 +1471,7 @@ translations:
 
   - key: options.physical_activity.dancing
     t: Танці
-  - key: options.physical_activity.basket_ball
+  - key: options.physical_activity.basketball
     t: Баскетбол
   - key: options.physical_activity.badminton
     t: Бадмінтон
@@ -1287,6 +1599,41 @@ translations:
   - key: options.video_game_platforms.retro_emulation_console
     t: Емулятор гральної ретроконсолі
 
+  # favorite_beverages
+
+  - key: hobbies.favorite_beverages
+    t: Favorite Beverages
+  - key: hobbies.favorite_beverages.question
+    t: Which of these do you drink regularly (once a week or more)?
+
+  - key: options.favorite_beverages.tea
+    t: Tea
+  - key: options.favorite_beverages.coffee
+    t: Coffee
+  - key: options.favorite_beverages.sports_energy_drinks
+    t: Sports or energy drinks
+  - key: options.favorite_beverages.soda
+    t: Soda or other soft drinks
+  - key: options.favorite_beverages.sparkling_water
+    t: Sparkling water
+  - key: options.favorite_beverages.fruit_juice
+    t: Juice or smoothies
+  - key: options.favorite_beverages.beer
+    t: Beer
+  - key: options.favorite_beverages.other_alcoholic_beverages
+    t: Other alcoholic beverages
+  - key: options.favorite_beverages.na
+    t: None (only water)
+
+  # favorite_books
+
+  - key: hobbies.favorite_books
+    t: Favorite Books
+  - key: hobbies.favorite_books.question
+    t: What have been some of your favorite books recently?
+  - key: hobbies.favorite_books.prompt
+    t: Books you've read during the past 12 months.
+
   # favorite_video_games
 
   - key: hobbies.favorite_video_games
@@ -1387,7 +1734,7 @@ translations:
   - key: options.relationship_status.single
     t: НЕ в стосунках
   - key: options.relationship_status.in_a_relationship
-    t: У стосунках
+    t: Одружені/у стосунках
   - key: options.relationship_status.its_complicated
     t: Складно
 

@@ -95,6 +95,21 @@ translations:
   - key: general.devographics_banner
     t: <a href="https://www.devographics.com/" target="_blank">Devographics</a> — це нова назва колективу, який проводить опитування щодо стану JavaScript, CSS і GraphQL.
 
+  - key: general.start_date
+    t: Start Date
+  - key: general.end_date
+    t: End Date
+  - key: general.number_of_respondents
+    t: Respondents
+  - key: general.survey_archive
+    t: Survey Archive
+  - key: general.review_questions
+    t: Review Questions
+  - key: general.get_data
+    t: Get Data
+  - key: general.download_data
+    t: Download
+
   # credits
   - key: credits.thanks
     t: Особлива подяка
@@ -211,38 +226,24 @@ translations:
       і опинився(-лась) серед {rank}% найуспішніших респондентів. 
       Зможеш краще? {shareUrl}
 
-  # survey finish page
-
-  - key: finish.copy
-    t: Копіювати
-  - key: finish.copied
-    t: Скопійовано!
-
-  - key: finish.goal_heading
-    t: Дякуємо, що взяли участь! Проте нам все ще потрібна ваша допомога…
-
-  - key: finish.goal_heading.description
-    t: Цього року ми хотіли б отримати щонайменше **{count} заповнень опитування**, щоб зробити наші дані більш репрезентативними та віднайти нову інформацію.
-
-  - key: finish.goal_currently
-    t: >
-      Наразі:
-
-  - key: finish.goal_goal
-    t: >
-      Ціль:
-
-  - key: finish.goal_responses
-    t: заповнень
-
-  - key: finish.share_colleagues
-    t: Поділіться з друзями та колегами
-
-  - key: finish.share_colleagues.description
-    t: Опублікуйте це в Slack, Discord, Teams чи будь-де для ваших друзів-розробників.
-
-  - key: finish.share_social
-    t: Поділіться в соціальних мережах
+  - key: share.twitter
+    t: Поділитися у Twitter
+  - key: share.bluesky
+    t: Поділитися у Bluesky
+  - key: share.mastodon
+    t: Поділитися у Mastodon
+  - key: share.facebook
+    t: Поділитися у Facebook
+  - key: share.linkedin
+    t: Поділитися в LinkedIn
+  - key: share.email
+    t: Поділитися на електронну адресу
+  - key: share.image
+    t: Завантажити зображення
+  - key: share.link
+    t: Посилання на секцію
+  - key: share.url
+    t: Скопіювати посилання
 
   # share
   - key: general.share_subject
@@ -350,6 +351,11 @@ translations:
 
   - key: sections.finish.description
     t: Завершити опитування
+
+  - key: sections._external_data.title
+    t: External Data
+  - key: sections._external_data.description
+    t: Data from external sources
 
   ###########################################################################
   # Options
@@ -1591,6 +1597,151 @@ translations:
   - key: tools.happiness.question
     t: Наскільки ви задоволені нинішнім станом справ відносно варіантів, перелічених вище?
 
+  # ai_browser_apis
+
+  - key: other_tools.ai_browser_apis
+    t: API браузера
+    aliases:
+      - tools.ai_browser_apis
+      - usage.ai_browser_apis
+  - key: other_tools.ai_browser_apis.question
+    t: Які API штучного інтелекту, на вашу думку, найбільше потребують нативного підтримування браузерами?
+    aliases:
+      - tools.ai_browser_apis.question
+      - usage.ai_browser_apis.question
+
+  - key: options.ai_uses.code_generation
+    t: Генерація коду
+    aliases:
+      - options.ai_browser_apis.code_generation
+
+  - key: options.ai_uses.code_generation.description
+    t: Генерація або рефакторинг коду залежно від підказок (prompts).
+    aliases:
+      - options.ai_browser_apis.code_generation.description
+
+  - key: options.ai_uses.translation
+    t: Переклад
+    aliases:
+      - options.ai_browser_apis.translation
+
+  - key: options.ai_uses.translation.description
+    t: Переклад вмісту з однієї мови на іншу.
+    aliases:
+      - options.ai_browser_apis.translation.description
+
+  - key: options.ai_uses.language_detection
+    t: Визначення мови
+    aliases:
+      - options.ai_browser_apis.language_detection
+
+  - key: options.ai_uses.language_detection.description
+    t: Визначення мови, якою написаний текст.
+    aliases:
+      - options.ai_browser_apis.language_detection.description
+
+  - key: options.ai_uses.summarization
+    t: Підсумовування
+    aliases:
+      - options.ai_browser_apis.summarization
+
+  - key: options.ai_uses.summarization.description
+    t: Резюмування основних тем тексту або набору даних.
+    aliases:
+      - options.ai_browser_apis.summarization.description
+
+  - key: options.ai_uses.text_generation
+    t: Генерація тексту
+    aliases:
+      - options.ai_browser_apis.text_generation
+
+  - key: options.ai_uses.text_generation.description
+    t: Генерація тексту залежно від підказок (prompts).
+    aliases:
+      - options.ai_browser_apis.text_generation.description
+
+  - key: options.ai_uses.image_generation
+    t: Генерація зображень
+    aliases:
+      - options.ai_browser_apis.image_generation
+
+  - key: options.ai_uses.image_generation.description
+    t: Генерація зображень залежно від підказок (prompts).
+    aliases:
+      - options.ai_browser_apis.image_generation.description
+
+  - key: options.ai_uses.speech_generation
+    t: Синтез мовлення
+    aliases:
+      - options.ai_browser_apis.speech_generation
+
+  - key: options.ai_uses.speech_generation.description
+    t: Синтез мовлення залежно від підказки (prompt) або для тексту.
+    aliases:
+      - options.ai_browser_apis.speech_generation.description
+
+  - key: options.ai_uses.speech_recognition
+    t: Розпізнавання мовлення
+    aliases:
+      - options.ai_browser_apis.speech_recognition
+
+  - key: options.ai_uses.speech_recognition.description
+    t: Перетворення записаного мовлення або мовлення в реальному часі в текст.
+    aliases:
+      - options.ai_browser_apis.speech_recognition.description
+
+  - key: options.ai_uses.computer_vision
+    t: Комп'ютерне бачення
+    aliases:
+      - options.ai_browser_apis.computer_vision
+
+  - key: options.ai_uses.computer_vision.description
+    t: Виявлення та визначення елементів у фото- чи відеоданих.
+    aliases:
+      - options.ai_browser_apis.computer_vision.description
+
+  - key: options.ai_uses.sentiment_analysis
+    t: Аналіз тональності
+    aliases:
+      - options.ai_browser_apis.sentiment_analysis
+
+  - key: options.ai_uses.sentiment_analysis.description
+    t: Класифікація текстових даних залежно від тональності (емоційного ставлення).
+    aliases:
+      - options.ai_browser_apis.sentiment_analysis.description
+
+  - key: options.ai_uses.caption_generation
+    t: Генерація підписів чи субтитрів
+    aliases:
+      - options.ai_browser_apis.caption_generation
+
+  - key: options.ai_uses.caption_generation.description
+    t: Генерація підписів (captions) чи субтитрів для зображень або відео.
+    aliases:
+      - options.ai_browser_apis.caption_generation.description
+
+  - key: options.ai_uses.learning_research
+    t: Навчання та дослідження
+    aliases:
+      - options.ai_browser_apis.learning_research
+
+  - key: options.ai_uses.learning_research.description
+    t: Здобуття нових навичок або дослідження певної теми.
+    aliases:
+      - options.ai_browser_apis.learning_research.description
+
+  - key: options.ai_uses.no_browser_ai_apis
+    t: 🚫 Нічого
+    aliases:
+      - options.ai_browser_apis.no_browser_ai_apis
+      - options.ai_uses.na
+      - options.ai_browser_apis.na
+
+  - key: options.ai_uses.debugging
+    t: Налагодження
+    aliases:
+      - options.ai_browser_apis.debugging
+
   ###########################################################################
   # Demographics (About You/User Info)
   ###########################################################################
@@ -1653,6 +1804,85 @@ translations:
     t: Посада/професія
   - key: user_info.job_title.question
     t: Яка назва вашої посади/професії?
+
+  # work_areas
+  - key: user_info.work_areas
+    t: Work Areas
+    aliases:
+      - workplace.work_areas
+  - key: user_info.work_areas.question
+    t: Which of these areas of software development are part of your day-to-day work?
+    aliases:
+      - workplace.work_areas.question
+
+  - key: options.work_areas.web_dev
+    t: Web Development
+  - key: options.work_areas.native_dev
+    t: Native Development
+  - key: options.work_areas.infrastructure
+    t: Infrastructure
+  - key: options.work_areas.data_ai
+    t: Data/AI
+  - key: options.work_areas.management
+    t: Management
+  - key: options.work_areas.other
+    t: Other Areas
+
+  - key: options.work_areas.front_end
+    t: Front-end development
+  - key: options.work_areas.front_end_js
+    t: Front-end development (JS/TS)
+  - key: options.work_areas.front_end_css
+    t: Front-end development (CSS)
+  - key: options.work_areas.back_end
+    t: Back-end development
+  - key: options.work_areas.mobile
+    t: Mobile development
+  - key: options.work_areas.desktop
+    t: Desktop development
+  - key: options.work_areas.devops
+    t: DevOps
+  - key: options.work_areas.qa_testing
+    t: Quality assurance
+  - key: options.work_areas.sre
+    t: Site reliability engineering (SRE)
+  - key: options.work_areas.platform_engineering
+    t: Platform engineering
+  - key: options.work_areas.data_engineering
+    t: Data engineering & processing
+  - key: options.work_areas.ai_llm
+    t: AI/LLM application engineering
+  - key: options.work_areas.machine_learning
+    t: Machine learning
+  - key: options.work_areas.security
+    t: Security
+  - key: options.work_areas.performance
+    t: Performance optimization
+  - key: options.work_areas.embedded_software
+    t: Embedded software
+  - key: options.work_areas.game_development
+    t: Game development
+  - key: options.work_areas.systems_design
+    t: Systems design & architecture
+  - key: options.work_areas.devrel
+    t: Developer relations
+  - key: options.work_areas.tooling
+    t: Developer tools/tooling
+  - key: options.work_areas.cloud
+    t: Cloud infrastructure
+  - key: options.work_areas.accessibility
+    t: Accessibility testing
+
+  - key: options.work_areas.people_management
+    t: People Management
+  - key: options.work_areas.technical_leadership
+    t: Technical Leadership
+  - key: options.work_areas.project_management
+    t: Project Management
+  - key: options.work_areas.product_management
+    t: Product Management
+  - key: options.work_areas.hiring_interviewing
+    t: Hiring/Interviewing
 
   # javascript proficiency
   - key: user_info.javascript_proficiency
@@ -1743,7 +1973,60 @@ translations:
   - key: user_info.country
     t: Країна чи регіон
   - key: user_info.country.question
-    t: Де ви наразі проживаєте?
+    t: Де ви наразі проживаєте?і
+
+  - key: user_info.country_of_origin
+    t: Country of Origin
+  - key: user_info.country_of_origin.question
+    t: Where were you born?
+
+  # migration_experience
+  - key: user_info.migration_experience
+    t: Migration Experience
+  - key: user_info.migration_experience.question
+    t: Were you born in your current country of residence?
+
+  - key: options.migration_experience.same_country
+    t: Yes
+  - key: options.migration_experience.same_country_immigrant_parents
+    t: Yes, to one or more immigrant parents
+  - key: options.migration_experience.different_country
+    t: No, in a different country
+  - key: options.migration_experience.different_country_immigrant_parents
+    t: No, in a different country to one or more immigrant parents
+
+  # native_languages
+  - key: user_info.native_languages
+    t: Native Languages
+  - key: user_info.native_languages.question
+    t: What are your native languages?
+  - key: user_info.native_languages.prompt
+    t: Languages you grew up speaking.
+
+  # other_languages
+  - key: user_info.other_languages
+    t: Other Languages
+  - key: user_info.other_languages.question
+    t: What other languages do you speak?
+  - key: user_info.other_languages.prompt
+    t: Languages you learned to speak at a conversational level or higher.
+
+  # sexual_orientation
+  - key: user_info.sexual_orientation
+    t: Sexual Orientation
+  - key: user_info.sexual_orientation.question
+    t: What is your sexual orientation?
+  - key: user_info.sexual_orientation.prompt
+    t: Note that while this survey is completely anonymous, we would still recommend skipping this question if sharing this information could put you at risk.
+
+  - key: options.sexual_orientation.heterosexual
+    t: Straight/heterosexual
+  - key: options.sexual_orientation.gay_or_lesbian
+    t: Gay or lesbian
+  - key: options.sexual_orientation.bisexual
+    t: Bisexual
+  - key: options.sexual_orientation.questioning
+    t: Questioning/unsure
 
   - key: user_info.github_username
     t: Ваш нікнейм у GitHub
@@ -1797,14 +2080,30 @@ translations:
     t: Бажаєте отримати сповіщення, коли будуть опубліковані результати опитування?
   - key: user_info.receive_notifications.note
     t: >
-      Ми не зберігаємо жодних персональних даних, тому після того, як ви додасте свою електронну адресу, 
-      ми надішлемо її нашому постачальнику послуг розсилки і одразу видалимо.
+      You email address will be added to our mailing list, but it will not be connected to your survey answers in any way.
 
   # how can we improve the survey?
   - key: user_info.did_you_run_into_technical_issues
     t: Технічні проблеми
   - key: user_info.did_you_run_into_technical_issues.question
     t: Чи виникли у вас якісь технічні проблеми під час проходження цього опитування?
+
+  # survey_length
+  - key: user_info.survey_length
+    t: Survey Length
+  - key: user_info.survey_length.question
+    t: How do you feel about this survey's length?
+
+  - key: options.survey_length.0
+    t: I would've answered a lot more questions
+  - key: options.survey_length.1
+    t: I would've answered a few more questions
+  - key: options.survey_length.2
+    t: It was just right
+  - key: options.survey_length.3
+    t: It was slightly too long
+  - key: options.survey_length.4
+    t: It was way too long
 
   # missing questions
   - key: user_info.missing_questions
@@ -1844,6 +2143,80 @@ translations:
   ###########################################################################
   # Usage
   ###########################################################################
+
+  # RISKS & PAIN POINTS
+
+  - key: usage.ai_risks
+    t: AI Risks
+    aliases:
+      - risks_pain_points.ai_risks
+  - key: usage.ai_risks.question
+    t: Which of these general AI risks and issues are you most concerned about?
+    aliases:
+      - risks_pain_points.ai_risks.question
+
+  - key: options.ai_risks.militaristic_uses
+    t: Military use of AI
+  - key: options.ai_risks.militaristic_uses.description
+    t: Autonomous drones, AI decision-making, etc.
+
+  - key: options.ai_risks.environmental_impact
+    t: Environmental impact
+  - key: options.ai_risks.environmental_impact.description
+    t: Rising energy costs, impact on global warming, etc.
+
+  - key: options.ai_risks.reaching_agi
+    t: AGI being reached
+  - key: options.ai_risks.reaching_agi.description
+    t: AI becoming self-aware and proving hostile to humans
+
+  - key: options.ai_risks.job_displacement
+    t: Job displacement
+  - key: options.ai_risks.job_displacement.description
+    t: Economic and social impacts of AI-related job loss
+
+  - key: options.ai_risks.security_issues
+    t: Security issues
+  - key: options.ai_risks.security_issues.description
+    t: Security issues and exploits in AI-generated code
+
+  - key: options.ai_risks.rising_costs
+    t: Rising AI costs
+  - key: options.ai_risks.rising_costs.description
+    t: Rising AI costs as AI companies try to recoup their investments
+
+  - key: options.ai_risks.entranched_stack_bias
+    t: Entrenched stack bias
+  - key: options.ai_risks.entranched_stack_bias.description
+    t: AI bias towards generating code based on popular technologies
+
+  - key: options.ai_risks.open_source_disruption
+    t: Open-source disruption
+  - key: options.ai_risks.open_source_disruption.description
+    t: AI spam pull requests, slop code, funding being jeopardized, etc.
+
+  - key: options.ai_risks.ai_overuse
+    t: AI overuse
+  - key: options.ai_risks.ai_overuse.description
+    t: AI being overused even in products that don't need it
+
+  - key: options.ai_risks.copyright_ethics_issues
+    t: Copyright and ethics issues
+  - key: options.ai_risks.copyright_ethics_issues.description
+    t: Plagiarism, unauthorized copying, unauthorized training, etc.
+
+  - key: options.ai_risks.slop_takeover
+    t: AI slop takeover
+  - key: options.ai_risks.slop_takeover.description
+    t: Bots and slop leading to lower-quality internet content
+
+  - key: options.ai_risks.cognitive_impact
+    t: Negative cognitive impacts
+  - key: options.ai_risks.cognitive_impact.description
+    t: Excessive AI use making users helpless without it
+
+  - key: options.ai_risks.high_cost
+    t: High costs
 
   ###########################################################################
   # Resources
@@ -2071,3 +2444,157 @@ translations:
 
   - key: feature.experimental
     t: Наразі непідтримувана функція або пропозиція
+
+  ###########################################################################
+  # Locales
+  ###########################################################################
+
+  - key: options.locale.en-US
+    t: Англійська
+    aliases:
+      - options.native_languages.english
+      - options.other_languages.english
+  - key: options.locale.ca-ES
+    t: Каталонська
+    aliases:
+      - options.native_languages.catalan
+      - options.other_languages.catalan
+  - key: options.locale.es-ES
+    t: Іспанська
+    aliases:
+      - options.native_languages.spanish
+      - options.other_languages.spanish
+  - key: options.locale.ru-RU
+    t: Російська
+    aliases:
+      - options.native_languages.russian
+      - options.other_languages.russian
+  - key: options.locale.fr-FR
+    t: Французька
+    aliases:
+      - options.native_languages.french
+      - options.other_languages.french
+  - key: options.locale.zh-Hant
+    t: Китайська (традиційна)
+  - key: options.locale.de-DE
+    t: Німецька
+    aliases:
+      - options.native_languages.german
+      - options.other_languages.german
+  - key: options.locale.cs-CZ
+    t: Чеська
+    aliases:
+      - options.native_languages.czech
+      - options.other_languages.czech
+  - key: options.locale.pt-PT
+    t: Португальська
+    aliases:
+      - options.native_languages.portuguese
+      - options.other_languages.portuguese
+  - key: options.locale.pt-BR
+    t: Бразильська португальська
+    aliases:
+      - options.native_languages.portuguese_brazil
+      - options.other_languages.portuguese_brazil
+  - key: options.locale.it-IT
+    t: Італійська
+    aliases:
+      - options.native_languages.italian
+      - options.other_languages.italian
+  - key: options.locale.sv-SE
+    t: Шведська
+    aliases:
+      - options.native_languages.swedish
+      - options.other_languages.swedish
+  - key: options.locale.tr-TR
+    t: Турецька
+    aliases:
+      - options.native_languages.turkish
+      - options.other_languages.turkish
+  - key: options.locale.id-ID
+    t: Індонезійська
+    aliases:
+      - options.native_languages.indonesian
+      - options.other_languages.indonesian
+  - key: options.locale.hi-IN
+    t: Хінді
+    aliases:
+      - options.native_languages.hindi
+      - options.other_languages.hindi
+  - key: options.locale.zh-Hans
+    t: Китайська (спрощена)
+  - key: options.locale.ja-JP
+    t: Японська
+    aliases:
+      - options.native_languages.japanese
+      - options.other_languages.japanese
+  - key: options.locale.ua-UA
+    t: Українська
+    aliases:
+      - options.native_languages.ukrainian
+      - options.other_languages.ukrainian
+  - key: options.locale.pl-PL
+    t: Польська
+    aliases:
+      - options.native_languages.polish
+      - options.other_languages.polish
+  - key: options.locale.fa-IR
+    t: Фарсі
+    aliases:
+      - options.native_languages.farsi
+      - options.other_languages.farsi
+  - key: options.locale.nl-NL
+    t: Нідерландська
+    aliases:
+      - options.native_languages.dutch
+      - options.other_languages.dutch
+  - key: options.locale.ko-KR
+    t: Корейська
+    aliases:
+      - options.native_languages.korean
+      - options.other_languages.korean
+  - key: options.locale.ro-RO
+    t: Румунська
+    aliases:
+      - options.native_languages.romanian
+      - options.other_languages.romanian
+  - key: options.locale.am-ET
+    t: Амхарська
+    aliases:
+      - options.native_languages.amharic
+      - options.other_languages.amharic
+  - key: options.locale.ar-EG
+    t: Арабська
+    aliases:
+      - options.native_languages.arabic
+      - options.other_languages.arabic
+  - key: options.locale.el-GR
+    t: Грецька
+    aliases:
+      - options.native_languages.greek
+      - options.other_languages.greek
+  - key: options.locale.gl-ES
+    t: Галісійська
+    aliases:
+      - options.native_languages.galician
+      - options.other_languages.galician
+  - key: options.locale.hr-HR
+    t: Хорватська
+    aliases:
+      - options.native_languages.croatian
+      - options.other_languages.croatian
+  - key: options.locale.hu-HU
+    t: Угорська
+    aliases:
+      - options.native_languages.hungarian
+      - options.other_languages.hungarian
+  - key: options.locale.sk-SK
+    t: Словацька
+    aliases:
+      - options.native_languages.slovak
+      - options.other_languages.slovak
+  - key: options.locale.vi-VN
+    t: В'єтнамська
+    aliases:
+      - options.native_languages.vietnamese
+      - options.other_languages.vietnamese

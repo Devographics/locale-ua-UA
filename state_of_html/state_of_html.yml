@@ -705,6 +705,24 @@ translations:
   # - key: features.accessibility_features.question
   #   t: Які з наведених функцій доступності ви використовували?
 
+  # accessibility_ai_impact
+  - key: features.accessibility_ai_impact
+    t: AI Impact
+  - key: features.accessibility_ai_impact.question
+    t: In your experience, what kind of impact is AI-assisted coding having on web accessibility?
+
+  - key: options.accessibility_ai_impact.0
+    t: Strongly negative
+  - key: options.accessibility_ai_impact.1
+    t: Somewhat negative
+  - key: options.accessibility_ai_impact.2
+    t: Neutral/no impact
+  - key: options.accessibility_ai_impact.3
+    t: Somewhat positive
+  - key: options.accessibility_ai_impact.4
+    t: Strongly positive
+
+  # accessibility_tools
   - key: features.accessibility_tools
     t: Інструменти доступності
     aliases:
@@ -1376,6 +1394,7 @@ translations:
   - key: usage.html_pain_points_freeform.question
     t: Які ще проблеми HTML та суміжних технологій найбільше вас розчаровують?
 
+  # html_css_js_balance
   - key: usage.html_css_js_balance
     t: Співвідношення HTML/CSS і JS/TS
   - key: usage.html_css_js_balance.question
@@ -1437,6 +1456,33 @@ translations:
   - key: options.html_styling_issues.fieldset_and_legend
     t: |
       `<fieldset>` та `<legend>`
+
+  # progressive_enhancement_priority
+
+  - key: usage.progressive_enhancement_priority
+    t: Progressive Enhancement
+  - key: usage.progressive_enhancement_priority.question
+    t: In your typical work context, how important is it that the websites or web apps you build be able to function without JavaScript?
+
+  - key: options.progressive_enhancement_priority.not_a_concern
+    t: Not a concern
+  - key: options.progressive_enhancement_priority.not_a_concern.description
+    t: JavaScript is assumed enabled for all users at all times
+
+  - key: options.progressive_enhancement_priority.low_priority
+    t: Low priority
+  - key: options.progressive_enhancement_priority.low_priority.description
+    t: Best practices are followed, but no extra time is spent on no-JS functionality
+
+  - key: options.progressive_enhancement_priority.high_priority
+    t: High priority
+  - key: options.progressive_enhancement_priority.high_priority.description
+    t: Dedicated time is set aside for no-JS testing, refactoring, etc.
+
+  - key: options.progressive_enhancement_priority.required
+    t: Required
+  - key: options.progressive_enhancement_priority.required.description
+    t: Sites/apps are required to work without JavaScript enabled.
 
   ###########################################################################
   # Opinions

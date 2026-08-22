@@ -60,108 +60,87 @@ translations:
 
   - key: sections.layout.title
     t: Компонування
+    aliases:
+      - pain_points.layout_pain_points.short
   - key: sections.layout.description
     t: Як ви розміщуєте елементи на екрані?
 
-  - key: features.layout_pain_points
-    t: Проблеми компонування
-  - key: features.layout_pain_points.question
-    t: Які CSS-проблеми компонування найбільше вас розчаровують?
-
   - key: sections.shapes_graphics.title
     t: Форма та графіка
+    aliases:
+      - pain_points.shapes_graphics_pain_points.short
   - key: sections.shapes_graphics.description
     t: Управління формою і відображенням елементів.
 
-  - key: features.shapes_graphics_pain_points
-    t: Проблеми форми та графіки
-  - key: features.shapes_graphics_pain_points.question
-    t: Які CSS-проблеми форми та графіки найбільше вас розчаровують?
-
   - key: sections.interactions.title
     t: Взаємодія
+    aliases:
+      - pain_points.interactions_pain_points.short
   - key: sections.interactions.description
     t: Контроль взаємодії користувача зі сторінкою.
 
-  - key: features.interactions_pain_points
-    t: Проблеми взаємодії
-  - key: features.interactions_pain_points.question
-    t: Які CSS-проблеми взаємодії найбільше вас розчаровують?
-
   - key: sections.typography.title
     t: Типографія
+    aliases:
+      - pain_points.typography_pain_points.short
   - key: sections.typography.description
     t: Параметри та компонування тексту.
 
-  - key: features.typography_pain_points
-    t: Проблеми типографії
-  - key: features.typography_pain_points.question
-    t: Які CSS-проблеми типографії найбільше вас розчаровують?
-
   - key: sections.animations_transforms.title
     t: Анімація та перетворення
+    aliases:
+      - pain_points.animations_transforms_pain_points.short
   - key: sections.animations_transforms.description
     t: Анімування та перетворення елементів.
 
-  - key: features.animations_transforms_pain_points
-    t: Проблеми анімації та перетворення
-  - key: features.animations_transforms_pain_points.question
-    t: Які CSS-проблеми анімування та перетворення найбільше вас розчаровують?
-
   - key: sections.accessibility.title
     t: Доступність
+    aliases:
+      - pain_points.accessibility_pain_points.short
   - key: sections.accessibility.description
     t: Функції і техніки доступності.
 
-  - key: features.accessibility_pain_points
-    t: Проблеми доступності
-  - key: features.accessibility_pain_points.question
-    t: Які CSS-проблеми доступності найбільше вас розчаровують?
-
   - key: sections.media_queries.title
     t: Медіазапити
+    aliases:
+      - pain_points.media_queries_pain_points.short
   - key: sections.media_queries.description
     t: Способи адаптації сайту до пристрою користувача або його налаштувань.
 
   - key: sections.selectors.title
     t: Селектори
+    aliases:
+      - pain_points.selectors_pain_points.short
   - key: sections.selectors.description
     t: Селектори CSS.
 
   - key: sections.colors.title
     t: Кольори
+    aliases:
+      - pain_points.colors_pain_points.short
   - key: sections.colors.description
     t: Функції, пов'язані з кольором.
 
-  - key: features.colors_pain_points
-    t: Проблеми кольорів
-  - key: features.colors_pain_points.question
-    t: Які CSS-проблеми кольорів найбільше вас розчаровують?
-
   - key: sections.javascript_apis.title
     t: API у JavaScript
+    aliases:
+      - pain_points.javascript_apis_pain_points.short
   - key: sections.javascript_apis.description
     t: API у JavaScript для маніпуляцій із чи доповнення CSS.
 
   - key: sections.other_features.title
     t: Інші функції
+    aliases:
+      - pain_points.other_features_pain_points.short
   - key: sections.other_features.description
     t: Інші функції CSS.
 
-  - key: features.other_features_pain_points
-    t: Проблеми інших функцій
-  - key: features.other_features_pain_points.question
-    t: Які CSS-проблеми наведених вище функцій найбільше вас розчаровують?
-
   - key: sections.math_features.title
     t: Математика
+    aliases:
+      - pain_points.math_features_pain_points.short
   - key: sections.math_features.description
     t: Математичні функції.
-
-  - key: features.math_features_pain_points
-    t: Проблеми математики
-  - key: features.math_features_pain_points.question
-    t: Які CSS-проблеми математичних функцій найбільше вас розчаровують?
 
   - key: sections.units_selectors.title
     t: Одиниці виміру та селектори
@@ -233,6 +212,88 @@ translations:
   # Pain Points
   ###########################################################################
 
+  - key: features.layout_pain_points
+    t: Layout Pain Points
+    aliases:
+      - pain_points.layout_pain_points
+  - key: features.layout_pain_points.question
+    t: What are your top CSS pain points related to layout?
+    aliases:
+      - pain_points.layout_pain_points.question
+
+  - key: features.shapes_graphics_pain_points
+    t: Shapes & Graphics Pain Points
+    aliases:
+      - pain_points.shapes_graphics_pain_points
+  - key: features.shapes_graphics_pain_points.question
+    t: What are your top CSS pain points related to shapes & graphics?
+    aliases:
+      - pain_points.shapes_graphics_pain_points.question
+
+  - key: features.interactions_pain_points
+    t: Interactions Pain Points
+    aliases:
+      - pain_points.interactions_pain_points
+  - key: features.interactions_pain_points.question
+    t: What are your top CSS pain points related to interactions?
+    aliases:
+      - pain_points.interactions_pain_points.question
+
+  - key: features.typography_pain_points
+    t: Typography Pain Points
+    aliases:
+      - pain_points.typography_pain_points
+  - key: features.typography_pain_points.question
+    t: What are your top CSS pain points related to typography?
+    aliases:
+      - pain_points.typography_pain_points.question
+
+  - key: features.animations_transforms_pain_points
+    t: Animations & Transforms Pain Points
+    aliases:
+      - pain_points.animations_transforms_pain_points
+  - key: features.animations_transforms_pain_points.question
+    t: What are your top CSS pain points related to animations & transforms?
+    aliases:
+      - pain_points.animations_transforms_pain_points.question
+
+  - key: features.colors_pain_points
+    t: Colors Pain Points
+    aliases:
+      - pain_points.colors_pain_points
+
+  - key: features.colors_pain_points.question
+    t: What are your top CSS pain points related to handling colors?
+    aliases:
+      - pain_points.colors_pain_points.question
+
+  - key: features.other_features_pain_points
+    t: Other Features Pain Points
+    aliases:
+      - pain_points.other_features_pain_points
+  - key: features.other_features_pain_points.question
+    t: What are your top CSS pain points related to the features mentioned above?
+    aliases:
+      - pain_points.other_features_pain_points.question
+
+  - key: features.accessibility_pain_points
+    t: Accessibility Pain Points
+    aliases:
+      - pain_points.accessibility_pain_points
+  - key: features.accessibility_pain_points.question
+    t: What are your top CSS pain points related to accessibility?
+    aliases:
+      - pain_points.accessibility_pain_points.question
+
+  - key: features.math_features_pain_points
+    t: Math Features Pain Points
+    aliases:
+      - pain_points.math_features_pain_points
+  - key: features.math_features_pain_points.question
+    t: What are your top CSS pain points related to math features?
+    aliases:
+      - pain_points.math_features_pain_points.question
+
   # layout
   - key: features.flexbox_issues
     t: Проблеми гнучкої рамки (Flexbox)
@@ -246,8 +307,6 @@ translations:
     t: Проблеми вирівнювання
   - key: features.centering_issues
     t: Проблеми центрування
-  - key: features.hard_to_memorize
-    t: Запам'ятовування правильного синтаксису
   - key: features.z_index_issues
     t: Проблеми z-index
   - key: features.scrolling_issues
@@ -543,10 +602,10 @@ translations:
   - key: features.flexbox_gap
     t: "Властивість `gap` для гнучкої рамки (Flexbox)"
 
-  - key: features.viewport_percentage_length_units
-    t: Одиниці вимірювання на основі малої, великої та динамічної області перегляду
-  - key: features.viewport_percentage_length_units.question
-    aliasFor: features.viewport_percentage_length_units
+  #- key: features.viewport_percentage_length_units
+  #  t: Одиниці вимірювання на основі малої, великої та динамічної області перегляду
+  #- key: features.viewport_percentage_length_units.question
+  #  aliasFor: features.viewport_percentage_length_units
   - key: features.at_container
     t: "Запити `@container`"
   - key: features.at_container.description
@@ -886,12 +945,27 @@ translations:
   # Other Tools
   ###########################################################################
 
+  - key: tools.pre_post_processors
+    t: Pre-/Post-processors
+    aliases:
+      - other_tools.pre_post_processors
+  - key: tools.pre_post_processors.question
+    t: Which CSS pre-/post-processors do you use?
+    aliases:
+      - other_tools.pre_post_processors.question
+
   - key: tools.css_frameworks
     t: Фреймворки CSS
+    aliases:
+      - other_tools.css_frameworks
   - key: tools.css_frameworks.question
     t: Які фреймворки CSS ви використовуєте?
+    aliases:
+      - other_tools.css_frameworks.question
   - key: tools.css_frameworks.prompt
     t: Фреймворки або бібліотеки з заготованими компонентами чи стилями.
+    aliases:
+      - other_tools.css_frameworks.prompt
 
   - key: options.css_frameworks.custom_framework
     t: Власний/внутрішній фреймворк
@@ -900,81 +974,30 @@ translations:
 
   - key: tools.css_in_js
     t: CSS-in-JS
+    aliases:
+      - other_tools.css_in_js
   - key: tools.css_in_js.question
     t: Які бібліотеки CSS-in-JS ви використовуєте?
-
-  - key: tools_others.pre_post_processors
-    aliasFor: sections.pre_post_processors.title
-  - key: other_tools.pre_post_processors
-    aliasFor: sections.pre_post_processors.title
-  - key: tools_others.pre_post_processors.question
-    t: Які пре-/постпроцесори ви регулярно використовуєте?
-  - key: other_tools.pre_post_processors.description
-    aliasFor: tools_others.pre_post_processors.question
-  - key: tools_others.pre_post_processors.others
-    aliasFor: sections.pre_post_processors_others.title
-  - key: other_tools.pre_post_processors.others
-    aliasFor: sections.pre_post_processors_others.title
-  - key: other_tools.pre_post_processors_freeform
-    aliasFor: sections.pre_post_processors_others.title
-
-  - key: tools.pre_post_processors
-    aliasFor: sections.pre_post_processors.title
-  - key: tools.pre_post_processors.question
-    aliasFor: tools_others.pre_post_processors.question
+    aliases:
+      - other_tools.css_in_js.question
 
   - key: tools_others.utilities
     t: Інструменти
+    aliases:
+      - other_tools.utilities
   - key: tools_others.utilities.question
     t: Які допоміжні програми чи інструменти ви часто використовуєте?
-  - key: tools_others.utilities.others
-    t: Інші інструменти
-  - key: tools_others.utilities.others.description
-    t: Інше (поле відповіді довільної форми).
-
-  - key: tools.utilities
-    aliasFor: tools_others.utilities
-  - key: tools.utilities.question
-    aliasFor: tools_others.utilities.question
-
-  - key: other_tools.utilities
-    aliasFor: tools_others.utilities
-  - key: other_tools.utilities.description
-    aliasFor: tools_others.utilities.question
-  - key: other_tools.utilities.others
-    aliasFor: tools_others.utilities.others
-  - key: other_tools.utilities.others.description
-    aliasFor: tools_others.utilities.others.description
-  - key: other_tools.utilities_freeform
-    aliasFor: tools_others.utilities.others
-
-  - key: tools.utilities
-    aliasFor: tools_others.utilities
-  - key: tools.utilities.question
-    aliasFor: tools_others.utilities.question
+    aliases:
+      - other_tools.utilities.question
 
   - key: tools_others.browsers
     t: Браузери
+    aliases:
+      - other_tools.browsers
   - key: tools_others.browsers.question
     t: У якому браузері ви переважно працюєте під час початку розробки?
-  - key: tools_others.browsers.others
-    t: Інші браузери
-  - key: tools_others.browsers.others.description
-    t: Інше (поле відповіді довільної форми).
-
-  - key: tools.browsers
-    aliasFor: tools_others.browsers
-  - key: tools.browsers.question
-    aliasFor: tools_others.browsers.question
-
-  - key: other_tools.browsers
-    aliasFor: tools_others.browsers
-  - key: other_tools.browsers.description
-    aliasFor: tools_others.browsers.question
-  - key: other_tools.browsers.others
-    aliasFor: tools_others.browsers.others
-  - key: other_tools.browsers.others.description
-    aliasFor: tools_others.browsers.others.description
+    aliases:
+      - other_tools.browsers.question
 
   ###########################################################################
   # Environments
@@ -1170,6 +1193,8 @@ translations:
 
   - key: options.css_interoperability_features.safari_unsupported_features
     t: Проблеми Safari
+    aliases:
+      - options.css_missing_features.safari_unsupported_features
 
   - key: options.css_interoperability_features.na
     t: Нічого
@@ -1180,25 +1205,24 @@ translations:
   - key: opinions.css_pain_points.description
     t: У кожній парі виберіть аспект CSS, з яким вам найтяжче працювати.
 
-  - key: usage.other_pain_points_freeform
-    t: Ще якісь проблеми, пов'язані з написанням CSS?
-  - key: usage.other_pain_points_freeform.others
-    aliasFor: usage.other_pain_points_freeform
+  - key: pain_points.css_general_pain_points.short
+    t: Загальні проблеми
 
   - key: opinions_others.css_pain_points.others
-    t: Інші проблеми CSS
+    t: Загальні проблеми CSS
+    aliases:
+      - usage.css_pain_points
+      - usage.css_general_pain_points
+      - pain_points.css_general_pain_points
 
-  - key: usage.css_pain_points
-    aliasFor: opinions_others.css_pain_points.others
-  - key: usage.css_pain_points.question
-    aliasFor: usage.other_pain_points_freeform
-  - key: usage.css_pain_points_freeform
-    aliasFor: usage.other_pain_points_freeform
-
-  - key: usage.css_general_pain_points
-    aliasFor: opinions_others.css_pain_points.others
-  - key: usage.css_general_pain_points.question
-    aliasFor: usage.other_pain_points_freeform
+  - key: usage.other_pain_points_freeform
+    t: Ще якісь проблеми, пов'язані з написанням CSS?
+    aliases:
+      - usage.other_pain_points_freeform.others
+      - usage.css_pain_points.question
+      - usage.css_pain_points_freeform
+      - usage.css_general_pain_points.question
+      - pain_points.css_general_pain_points.question
 
   - key: options.css_pain_points.na
     t: Нічого
@@ -1225,6 +1249,8 @@ translations:
 
   - key: usage.css_missing_features
     t: Відсутні функції
+    aliases:
+      - usage.css_missing_features.short
   - key: usage.css_missing_features.question
     aliasFor: usage.missing_features_freeform
 
@@ -1233,6 +1259,9 @@ translations:
 
   - key: options.css_missing_features.na
     t: Нічого
+
+  - key: features.missing_features.default
+    t: Top missing features overall.
 
   # - key: opinions_others.css_missing_features.others.note
   #   t: >
@@ -1316,7 +1345,10 @@ translations:
   - key: css_missing_features.css_missing_features_matchups.description
     t: Яку функцію, за можливості, ви найбільше хотіли б використовувати у CSS сьогодні? Відсоток раундів, що виграні елементом ліворуч проти елемента зверху.
 
-  # usage
+  ###########################################################################
+  # Usage
+  ###########################################################################
+
   - key: usage.css_js_balance
     t: Співвідношення CSS і JavaScript
   - key: usage.css_js_balance.question
@@ -1376,6 +1408,34 @@ translations:
     t: Функція, яка змінила все
   - key: usage.gamechanger_feature.question
     t: Протягом останніх 5 років, яка функція мала найбільший вплив на те, як ви пишете CSS?
+
+  # ai_generated_code_balance
+
+  - key: usage.css_ai_generated_code_balance
+    t: CSS AI Code Generation
+  - key: usage.css_ai_generated_code_balance.question
+    t: What proportion of the CSS code you produce is AI-generated?
+  - key: usage.css_ai_generated_code_balance.prompt
+    aliasFor: usage.ai_generated_code_balance.prompt
+
+  - key: options.css_ai_generated_code_balance.0
+    aliasFor: options.ai_generated_code_balance.0
+  - key: options.css_ai_generated_code_balance.1
+    aliasFor: options.ai_generated_code_balance.1
+  - key: options.css_ai_generated_code_balance.2
+    aliasFor: options.ai_generated_code_balance.2
+  - key: options.css_ai_generated_code_balance.3
+    aliasFor: options.ai_generated_code_balance.3
+  - key: options.css_ai_generated_code_balance.4
+    aliasFor: options.ai_generated_code_balance.4
+  - key: options.css_ai_generated_code_balance.5
+    aliasFor: options.ai_generated_code_balance.5
+  - key: options.css_ai_generated_code_balance.6
+    aliasFor: options.ai_generated_code_balance.6
+  - key: options.css_ai_generated_code_balance.7
+    aliasFor: options.ai_generated_code_balance.7
+  - key: options.css_ai_generated_code_balance.8
+    aliasFor: options.ai_generated_code_balance.8
 
   ###########################################################################
   # Resources
@@ -1454,6 +1514,9 @@ translations:
     aliasFor: sections.selectors.title
   - key: options.features_categories.math_features
     aliasFor: sections.math_features.title
+
+  - key: sections.pain_points.title
+    t: Pain Points
 
   - key: features.layout
     aliasFor: sections.layout.title

@@ -480,8 +480,12 @@ translations:
 
   - key: tools.testing
     t: Бібліотеки для тестування
+    aliases:
+      - other_tools.testing
   - key: tools.testing.question
     t: Які бібліотеки ви використовуєте для тестування ваших React-застосунків?
+    aliases:
+      - other_tools.testing.question
 
   # - key: tools.testing_happiness
   #   t: Happiness
