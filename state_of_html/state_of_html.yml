@@ -707,20 +707,20 @@ translations:
 
   # accessibility_ai_impact
   - key: features.accessibility_ai_impact
-    t: AI Impact
+    t: Вплив ШІ
   - key: features.accessibility_ai_impact.question
-    t: In your experience, what kind of impact is AI-assisted coding having on web accessibility?
+    t: Як, за вашим досвідом, програмування за допомогою ШІ впливає на доступність у вебі?
 
   - key: options.accessibility_ai_impact.0
-    t: Strongly negative
+    t: Дуже негативно
   - key: options.accessibility_ai_impact.1
-    t: Somewhat negative
+    t: Негативно
   - key: options.accessibility_ai_impact.2
-    t: Neutral/no impact
+    t: Нейтрально/не впливає
   - key: options.accessibility_ai_impact.3
-    t: Somewhat positive
+    t: Позитивно
   - key: options.accessibility_ai_impact.4
-    t: Strongly positive
+    t: Дуже позитивно
 
   # accessibility_tools
   - key: features.accessibility_tools
@@ -1460,29 +1460,29 @@ translations:
   # progressive_enhancement_priority
 
   - key: usage.progressive_enhancement_priority
-    t: Progressive Enhancement
+    t: Поступове покращення (Progressive Enhancement)
   - key: usage.progressive_enhancement_priority.question
-    t: In your typical work context, how important is it that the websites or web apps you build be able to function without JavaScript?
+    t: Чи важливо у вашій роботі, щоб вебсайти або вебзастосунки, які ви створюєте, могли працювати без JavaScript?
 
   - key: options.progressive_enhancement_priority.not_a_concern
-    t: Not a concern
+    t: Неважливо
   - key: options.progressive_enhancement_priority.not_a_concern.description
-    t: JavaScript is assumed enabled for all users at all times
+    t: Вважають, що JavaScript завжди увімкнений для всіх користувачів
 
   - key: options.progressive_enhancement_priority.low_priority
-    t: Low priority
+    t: Низький пріоритет
   - key: options.progressive_enhancement_priority.low_priority.description
-    t: Best practices are followed, but no extra time is spent on no-JS functionality
+    t: Дотримуються найкращих практик, але не витрачають додатковий час на функціональність без JavaScript 
 
   - key: options.progressive_enhancement_priority.high_priority
-    t: High priority
+    t: Високий пріоритет
   - key: options.progressive_enhancement_priority.high_priority.description
-    t: Dedicated time is set aside for no-JS testing, refactoring, etc.
+    t: Окремо приділяють час на тестування, рефакторинг тощо без JS
 
   - key: options.progressive_enhancement_priority.required
-    t: Required
+    t: Обов'язково
   - key: options.progressive_enhancement_priority.required.description
-    t: Sites/apps are required to work without JavaScript enabled.
+    t: Сайти та застосунки повинні працювати без увімкненого JavaScript.
 
   ###########################################################################
   # Opinions
