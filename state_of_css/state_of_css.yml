@@ -213,84 +213,84 @@ translations:
   ###########################################################################
 
   - key: features.layout_pain_points
-    t: Layout Pain Points
+    t: Проблеми компонування
     aliases:
       - pain_points.layout_pain_points
   - key: features.layout_pain_points.question
-    t: What are your top CSS pain points related to layout?
+    t: Які CSS-проблеми компонування найбільше вас розчаровують?
     aliases:
       - pain_points.layout_pain_points.question
 
   - key: features.shapes_graphics_pain_points
-    t: Shapes & Graphics Pain Points
+    t: Проблеми форми та графіки
     aliases:
       - pain_points.shapes_graphics_pain_points
   - key: features.shapes_graphics_pain_points.question
-    t: What are your top CSS pain points related to shapes & graphics?
+    t: Які CSS-проблеми форми та графіки найбільше вас розчаровують?
     aliases:
       - pain_points.shapes_graphics_pain_points.question
 
   - key: features.interactions_pain_points
-    t: Interactions Pain Points
+    t: Проблеми взаємодії
     aliases:
       - pain_points.interactions_pain_points
   - key: features.interactions_pain_points.question
-    t: What are your top CSS pain points related to interactions?
+    t: Які CSS-проблеми взаємодії найбільше вас розчаровують?
     aliases:
       - pain_points.interactions_pain_points.question
 
   - key: features.typography_pain_points
-    t: Typography Pain Points
+    t: Проблеми типографії
     aliases:
       - pain_points.typography_pain_points
   - key: features.typography_pain_points.question
-    t: What are your top CSS pain points related to typography?
+    t: Які CSS-проблеми типографії найбільше вас розчаровують?
     aliases:
       - pain_points.typography_pain_points.question
 
   - key: features.animations_transforms_pain_points
-    t: Animations & Transforms Pain Points
+    t: Проблеми анімації та перетворення
     aliases:
       - pain_points.animations_transforms_pain_points
   - key: features.animations_transforms_pain_points.question
-    t: What are your top CSS pain points related to animations & transforms?
+    t: Які CSS-проблеми анімування та перетворення найбільше вас розчаровують?
     aliases:
       - pain_points.animations_transforms_pain_points.question
 
   - key: features.colors_pain_points
-    t: Colors Pain Points
+    t: Проблеми кольорів
     aliases:
       - pain_points.colors_pain_points
 
   - key: features.colors_pain_points.question
-    t: What are your top CSS pain points related to handling colors?
+    t: Які CSS-проблеми кольорів найбільше вас розчаровують?
     aliases:
       - pain_points.colors_pain_points.question
 
   - key: features.other_features_pain_points
-    t: Other Features Pain Points
+    t: Проблеми інших функцій
     aliases:
       - pain_points.other_features_pain_points
   - key: features.other_features_pain_points.question
-    t: What are your top CSS pain points related to the features mentioned above?
+    t: Які CSS-проблеми наведених вище функцій найбільше вас розчаровують?
     aliases:
       - pain_points.other_features_pain_points.question
 
   - key: features.accessibility_pain_points
-    t: Accessibility Pain Points
+    t: Проблеми доступності
     aliases:
       - pain_points.accessibility_pain_points
   - key: features.accessibility_pain_points.question
-    t: What are your top CSS pain points related to accessibility?
+    t: Які CSS-проблеми доступності найбільше вас розчаровують?
     aliases:
       - pain_points.accessibility_pain_points.question
 
   - key: features.math_features_pain_points
-    t: Math Features Pain Points
+    t: Проблеми математики
     aliases:
       - pain_points.math_features_pain_points
   - key: features.math_features_pain_points.question
-    t: What are your top CSS pain points related to math features?
+    t: Які CSS-проблеми математичних функцій найбільше вас розчаровують?
     aliases:
       - pain_points.math_features_pain_points.question
 
@@ -946,11 +946,11 @@ translations:
   ###########################################################################
 
   - key: tools.pre_post_processors
-    t: Pre-/Post-processors
+    t: Пре-/постпроцесори
     aliases:
       - other_tools.pre_post_processors
   - key: tools.pre_post_processors.question
-    t: Which CSS pre-/post-processors do you use?
+    t: Які пре-/постпроцесори CSS ви використовуєте?
     aliases:
       - other_tools.pre_post_processors.question
 
@@ -1261,7 +1261,7 @@ translations:
     t: Нічого
 
   - key: features.missing_features.default
-    t: Top missing features overall.
+    t: Головні відсутні функції загалом.
 
   # - key: opinions_others.css_missing_features.others.note
   #   t: >
@@ -1412,9 +1412,9 @@ translations:
   # ai_generated_code_balance
 
   - key: usage.css_ai_generated_code_balance
-    t: CSS AI Code Generation
+    t: Генерація CSS-коду за допомогою ШІ
   - key: usage.css_ai_generated_code_balance.question
-    t: What proportion of the CSS code you produce is AI-generated?
+    t: Яку частку CSS-коду, який ви створюєте, згенеровано за допомогою ШІ?
   - key: usage.css_ai_generated_code_balance.prompt
     aliasFor: usage.ai_generated_code_balance.prompt
 
@@ -1516,7 +1516,7 @@ translations:
     aliasFor: sections.math_features.title
 
   - key: sections.pain_points.title
-    t: Pain Points
+    t: Проблеми
 
   - key: features.layout
     aliasFor: sections.layout.title
