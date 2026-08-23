@@ -96,19 +96,19 @@ translations:
     t: <a href="https://www.devographics.com/" target="_blank">Devographics</a> — це нова назва колективу, який проводить опитування щодо стану JavaScript, CSS і GraphQL.
 
   - key: general.start_date
-    t: Start Date
+    t: Початок
   - key: general.end_date
-    t: End Date
+    t: Завершення
   - key: general.number_of_respondents
-    t: Respondents
+    t: Респонденти
   - key: general.survey_archive
-    t: Survey Archive
+    t: Архів опитування
   - key: general.review_questions
-    t: Review Questions
+    t: Перевірити питання
   - key: general.get_data
-    t: Get Data
+    t: Отримати дані
   - key: general.download_data
-    t: Download
+    t: Завантажити
 
   # credits
   - key: credits.thanks
@@ -353,9 +353,9 @@ translations:
     t: Завершити опитування
 
   - key: sections._external_data.title
-    t: External Data
+    t: Зовнішні дані
   - key: sections._external_data.description
-    t: Data from external sources
+    t: Дані із зовнішніх джерел
 
   ###########################################################################
   # Options
@@ -1807,82 +1807,82 @@ translations:
 
   # work_areas
   - key: user_info.work_areas
-    t: Work Areas
+    t: Сфери роботи
     aliases:
       - workplace.work_areas
   - key: user_info.work_areas.question
-    t: Which of these areas of software development are part of your day-to-day work?
+    t: Які з цих частин розробки програмного забезпечення стосуються ваших щоденних обов'язків?
     aliases:
       - workplace.work_areas.question
 
   - key: options.work_areas.web_dev
-    t: Web Development
+    t: Веброзробка
   - key: options.work_areas.native_dev
-    t: Native Development
+    t: Розробка для нативних платформ
   - key: options.work_areas.infrastructure
-    t: Infrastructure
+    t: Інфраструктура
   - key: options.work_areas.data_ai
-    t: Data/AI
+    t: Дані/ШІ
   - key: options.work_areas.management
-    t: Management
+    t: Менеджмент
   - key: options.work_areas.other
-    t: Other Areas
+    t: Інше
 
   - key: options.work_areas.front_end
-    t: Front-end development
+    t: Розробка клієнтської частини
   - key: options.work_areas.front_end_js
-    t: Front-end development (JS/TS)
+    t: Розробка клієнтської частини (JS/TS)
   - key: options.work_areas.front_end_css
-    t: Front-end development (CSS)
+    t: Розробка клієнтської частини (CSS)
   - key: options.work_areas.back_end
-    t: Back-end development
+    t: Розробка серверної частини
   - key: options.work_areas.mobile
-    t: Mobile development
+    t: Розробка для мобільних пристроїв
   - key: options.work_areas.desktop
-    t: Desktop development
+    t: Розробка для настільних комп'ютерів
   - key: options.work_areas.devops
     t: DevOps
   - key: options.work_areas.qa_testing
-    t: Quality assurance
+    t: Забезпечення якості
   - key: options.work_areas.sre
-    t: Site reliability engineering (SRE)
+    t: Інженерія надійності (SRE)
   - key: options.work_areas.platform_engineering
-    t: Platform engineering
+    t: Інженерія платформ
   - key: options.work_areas.data_engineering
-    t: Data engineering & processing
+    t: Інженерія та оброблення даних
   - key: options.work_areas.ai_llm
-    t: AI/LLM application engineering
+    t: Інженерія застосунків на основі ШІ/ВММ
   - key: options.work_areas.machine_learning
-    t: Machine learning
+    t: Машинне навчання
   - key: options.work_areas.security
-    t: Security
+    t: Безпека
   - key: options.work_areas.performance
-    t: Performance optimization
+    t: Оптимізація швидкодії
   - key: options.work_areas.embedded_software
-    t: Embedded software
+    t: Вбудовані (Embedded) застосунки
   - key: options.work_areas.game_development
-    t: Game development
+    t: Розробка відеоігор
   - key: options.work_areas.systems_design
-    t: Systems design & architecture
+    t: Проєктування та архітектура систем
   - key: options.work_areas.devrel
-    t: Developer relations
+    t: Зв'язки з розробниками (DevRel)
   - key: options.work_areas.tooling
-    t: Developer tools/tooling
+    t: Інструменти для розробників
   - key: options.work_areas.cloud
-    t: Cloud infrastructure
+    t: Хмарна інфраструктура
   - key: options.work_areas.accessibility
-    t: Accessibility testing
+    t: Тестування доступності
 
   - key: options.work_areas.people_management
-    t: People Management
+    t: Управління людьми
   - key: options.work_areas.technical_leadership
-    t: Technical Leadership
+    t: Технічне керівництво
   - key: options.work_areas.project_management
-    t: Project Management
+    t: Проєктний менеджмент
   - key: options.work_areas.product_management
-    t: Product Management
+    t: Продуктовий менеджмент
   - key: options.work_areas.hiring_interviewing
-    t: Hiring/Interviewing
+    t: Найм/співбесідування
 
   # javascript proficiency
   - key: user_info.javascript_proficiency
@@ -1973,60 +1973,60 @@ translations:
   - key: user_info.country
     t: Країна чи регіон
   - key: user_info.country.question
-    t: Де ви наразі проживаєте?і
+    t: Де ви наразі проживаєте?
 
   - key: user_info.country_of_origin
-    t: Country of Origin
+    t: Країна походження
   - key: user_info.country_of_origin.question
-    t: Where were you born?
+    t: Де ви народилися?
 
   # migration_experience
   - key: user_info.migration_experience
-    t: Migration Experience
+    t: Досвід міграції
   - key: user_info.migration_experience.question
-    t: Were you born in your current country of residence?
+    t: Чи ви народилися в країні, де наразі проживаєте?
 
   - key: options.migration_experience.same_country
-    t: Yes
+    t: Так
   - key: options.migration_experience.same_country_immigrant_parents
-    t: Yes, to one or more immigrant parents
+    t: Так, в одного чи більше батьків-іммігрантів
   - key: options.migration_experience.different_country
-    t: No, in a different country
+    t: Ні, в іншій країні
   - key: options.migration_experience.different_country_immigrant_parents
-    t: No, in a different country to one or more immigrant parents
+    t: Ні, в іншій країні, в одного чи більше батьків-іммігрантів
 
   # native_languages
   - key: user_info.native_languages
-    t: Native Languages
+    t: Рідні мови
   - key: user_info.native_languages.question
-    t: What are your native languages?
+    t: Які ваші рідні мови?
   - key: user_info.native_languages.prompt
-    t: Languages you grew up speaking.
+    t: Мови, якими ви розмовляли змалку.
 
   # other_languages
   - key: user_info.other_languages
-    t: Other Languages
+    t: Інші мови
   - key: user_info.other_languages.question
-    t: What other languages do you speak?
+    t: Якими ще мовами ви розмовляєте?
   - key: user_info.other_languages.prompt
-    t: Languages you learned to speak at a conversational level or higher.
+    t: Мови, якими ви володієте на розмовному рівні або вище.
 
   # sexual_orientation
   - key: user_info.sexual_orientation
-    t: Sexual Orientation
+    t: Сексуальна орієнтація
   - key: user_info.sexual_orientation.question
-    t: What is your sexual orientation?
+    t: Яка ваша сексуальна орієнтація?
   - key: user_info.sexual_orientation.prompt
-    t: Note that while this survey is completely anonymous, we would still recommend skipping this question if sharing this information could put you at risk.
+    t: "Зауважте: хоча це опитування є цілковито анонімним, ми все ж рекомендуємо пропустити це питання, якщо поширення цієї інформації може наразити вас на небезпеку."
 
   - key: options.sexual_orientation.heterosexual
-    t: Straight/heterosexual
+    t: Гетеросексуальна
   - key: options.sexual_orientation.gay_or_lesbian
-    t: Gay or lesbian
+    t: Гомосексуальна
   - key: options.sexual_orientation.bisexual
-    t: Bisexual
+    t: Бісексуальна
   - key: options.sexual_orientation.questioning
-    t: Questioning/unsure
+    t: Не визначилися
 
   - key: user_info.github_username
     t: Ваш нікнейм у GitHub
@@ -2090,20 +2090,20 @@ translations:
 
   # survey_length
   - key: user_info.survey_length
-    t: Survey Length
+    t: Тривалість опитування
   - key: user_info.survey_length.question
-    t: How do you feel about this survey's length?
+    t: Що ви думаєте про час, який зайняло це опитування?
 
   - key: options.survey_length.0
-    t: I would've answered a lot more questions
+    t: Я б відповів(-ла) ще на багато питань
   - key: options.survey_length.1
-    t: I would've answered a few more questions
+    t: Я б відповів(-ла) ще на кілька питань
   - key: options.survey_length.2
-    t: It was just right
+    t: Достатньо
   - key: options.survey_length.3
-    t: It was slightly too long
+    t: Довго
   - key: options.survey_length.4
-    t: It was way too long
+    t: Дуже довго
 
   # missing questions
   - key: user_info.missing_questions
@@ -2147,76 +2147,76 @@ translations:
   # RISKS & PAIN POINTS
 
   - key: usage.ai_risks
-    t: AI Risks
+    t: Ризики ШІ
     aliases:
       - risks_pain_points.ai_risks
   - key: usage.ai_risks.question
-    t: Which of these general AI risks and issues are you most concerned about?
+    t: Які з цих ризиків і проблем ШІ турбують вас найбільше?
     aliases:
       - risks_pain_points.ai_risks.question
 
   - key: options.ai_risks.militaristic_uses
-    t: Military use of AI
+    t: Військове застосування ШІ
   - key: options.ai_risks.militaristic_uses.description
-    t: Autonomous drones, AI decision-making, etc.
+    t: Автономні дрони, ухвалення рішень штучним інтелектом тощо
 
   - key: options.ai_risks.environmental_impact
-    t: Environmental impact
+    t: Вплив на довкілля
   - key: options.ai_risks.environmental_impact.description
-    t: Rising energy costs, impact on global warming, etc.
+    t: Зростання енергоспоживання, вплив на глобальне потепління тощо
 
   - key: options.ai_risks.reaching_agi
-    t: AGI being reached
+    t: Досягнення СШІ (AGI)
   - key: options.ai_risks.reaching_agi.description
-    t: AI becoming self-aware and proving hostile to humans
+    t: ШІ усвідомить себе і стане ворожим до людей
 
   - key: options.ai_risks.job_displacement
-    t: Job displacement
+    t: Витіснення робочих місць
   - key: options.ai_risks.job_displacement.description
-    t: Economic and social impacts of AI-related job loss
+    t: Економічні та соціальні наслідки втрати роботи через ШІ
 
   - key: options.ai_risks.security_issues
-    t: Security issues
+    t: Проблеми безпеки
   - key: options.ai_risks.security_issues.description
-    t: Security issues and exploits in AI-generated code
+    t: Вразливості та експлойти в коді, згенерованому ШІ
 
   - key: options.ai_risks.rising_costs
-    t: Rising AI costs
+    t: Зростання вартості ШІ
   - key: options.ai_risks.rising_costs.description
-    t: Rising AI costs as AI companies try to recoup their investments
+    t: Зростання вартості ШІ, поки ШІ-компанії намагаються повернути свої інвестиції
 
   - key: options.ai_risks.entranched_stack_bias
-    t: Entrenched stack bias
+    t: Упередженість щодо стеку
   - key: options.ai_risks.entranched_stack_bias.description
-    t: AI bias towards generating code based on popular technologies
+    t: Схильність ШІ генерувати код на основі популярних технологій
 
   - key: options.ai_risks.open_source_disruption
-    t: Open-source disruption
+    t: Руйнування відкритого коду
   - key: options.ai_risks.open_source_disruption.description
-    t: AI spam pull requests, slop code, funding being jeopardized, etc.
+    t: Спам запитів на злиття від ШІ, неякісний код, загроза фінансуванню тощо
 
   - key: options.ai_risks.ai_overuse
-    t: AI overuse
+    t: Надмірне використання ШІ
   - key: options.ai_risks.ai_overuse.description
-    t: AI being overused even in products that don't need it
+    t: ШІ впроваджують навіть у продукти, яким він не потрібен
 
   - key: options.ai_risks.copyright_ethics_issues
-    t: Copyright and ethics issues
+    t: Проблеми авторського права та етики
   - key: options.ai_risks.copyright_ethics_issues.description
-    t: Plagiarism, unauthorized copying, unauthorized training, etc.
+    t: Плагіат, несанкціоноване копіювання, несанкціоноване навчання моделей тощо
 
   - key: options.ai_risks.slop_takeover
-    t: AI slop takeover
+    t: Засилля ШІ-мотлоху
   - key: options.ai_risks.slop_takeover.description
-    t: Bots and slop leading to lower-quality internet content
+    t: Боти та неякісний контент знижують якість інтернету
 
   - key: options.ai_risks.cognitive_impact
-    t: Negative cognitive impacts
+    t: Негативний вплив на мислення
   - key: options.ai_risks.cognitive_impact.description
-    t: Excessive AI use making users helpless without it
+    t: Надмірне використання ШІ робить користувачів безпорадними без нього
 
   - key: options.ai_risks.high_cost
-    t: High costs
+    t: Висока вартість
 
   ###########################################################################
   # Resources
