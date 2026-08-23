@@ -368,20 +368,20 @@ translations:
     aliasFor: faq.how_long_will_survey_take_css2024.description
 
   - key: faq.learn_more_css2026
-    t: Where can I learn more?
+    t: Де я можу дізнатися більше?
   - key: faq.learn_more_css2026.description
-    t: You can learn more about this survey in [our announcement post](https://dev.to/sachagreif/the-2024-state-of-css-survey-is-now-open-4o5h).
+    t: Ви можете дізнатися більше про це опитування у [нашому анонсі](https://dev.to/sachagreif/the-2024-state-of-css-survey-is-now-open-4o5h). 
 
   - key: faq.survey_design_css2026
-    t: How was this survey designed?
+    t: Як було розроблено це опитування?
   - key: faq.survey_design_css2026.description
     t: >
-      This survey was designed as the results of an [open design process](https://github.com/Devographics/surveys/issues/289) involving browser vendors and the web development community.
+      Опитування було розроблено унаслідок [відкритого процесу розробки](https://github.com/Devographics/surveys/issues/289) із залученням постачальників браузерів і спільноти веброзробки.
 
   - key: faq.results_released_css2026
-    t: When will the results be released?
+    t: Коли будуть опубліковані результати?
   - key: faq.results_released_css2026.description
-    t: The survey will run from June 1 to July 1, 2025, and the survey results will be released shortly after.
+    t: Опитування триватиме з 1 червня до 1 липня 2026 року, і його результати будуть опубліковані незабаром після завершення.
 
   - key: about.content.css2026
     t: >

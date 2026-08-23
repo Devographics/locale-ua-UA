@@ -44,21 +44,21 @@ translations:
   # FAQ
 
   - key: faq.how_long_will_survey_take_devs2026
-    t: How long will this survey take me?
+    t: Скільки часу займе опитування?
   - key: faq.how_long_will_survey_take_devs2026.description
     t: >
-      This survey should take about 15 minutes to complete. Note that all questions are optional.
+      Заповнення всієї анкети займе орієнтовно 15 хвилин. Зауважте, що всі питання не обов'язкові.
 
   - key: faq.results_released_devs2026
-    t: When will the results be released?
+    t: Коли будуть опубліковані результати?
   - key: faq.results_released_devs2026.description
-    t: The survey will run from July 5 to September 5, 2026, and the survey results will be released shortly after.
+    t: Опитування триватиме з 5 липня до 5 вересня 2026 року, і його результати будуть опубліковані незабаром після завершення.
 
   - key: faq.survey_design_devs2026
-    t: How was this survey designed?
+    t: Як було розроблено це опитування?
   - key: faq.survey_design_devs2026.description
     t: >
-      This survey was designed as the results of an [open design process](https://github.com/Devographics/surveys/issues/288) involving the web development community.
+      Опитування було розроблено унаслідок [відкритого процесу розробки](https://github.com/Devographics/surveys/issues/288) із залученням спільноти веброзробки.
 
   ###########################################################################
   # Takeaways

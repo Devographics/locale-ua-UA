@@ -88,15 +88,15 @@ translations:
   # FAQ
 
   - key: faq.results_released_ai2026
-    t: When will the results be released?
+    t: Коли будуть опубліковані результати?
   - key: faq.results_released_ai2026.description
-    t: The survey will run from April 10 to May 10, 2026, and the survey results will be released shortly after.
+    t: Опитування триватиме з 10 квітня до 10 травня 2026 року, і його результати будуть опубліковані незабаром після завершення.
 
   - key: faq.survey_design_ai2026
-    t: How was this survey designed?
+    t: Як було розроблено це опитування?
   - key: faq.survey_design_ai2026.description
     t: >
-      This survey was designed as the results of an [open design process](https://github.com/Devographics/surveys/issues/285) involving AI companies, browser vendors and the web development community.
+      Опитування було розроблено унаслідок [відкритого процесу розробки](https://github.com/Devographics/surveys/issues/285) із залученням компаній, які займаються ШІ, постачальників браузерів і спільноти веброзробки.
 
   ###########################################################################
   # Figures
