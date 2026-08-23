@@ -1339,7 +1339,7 @@ translations:
   - key: usage.ai_generated_code_balance.question
     t: Яку частку коду, який ви створюєте, згенеровано за допомогою ШІ?
   - key: usage.ai_generated_code_balance.prompt
-    t: Включно з кодом, скопійованим із ChatGPT або інших чат-ботів.
+    t: Включно з кодом, скопійованим із ChatGPT та інших чат-ботів або написаним разом із ШІ-інструментами.
 
   # ai_generated_code_balance
   - key: options.ai_generated_code_balance.0
@@ -1615,13 +1615,21 @@ translations:
 
   - key: happiness.state_of_the_web
     t: Задоволення вебтехнологіями
+    aliases:
+      - usage.state_of_the_web_happiness
   - key: happiness.state_of_the_web.question
     t: Наскільки ви задоволені станом вебтехнологій загалом?
+    aliases:
+      - usage.state_of_the_web_happiness.question
 
   - key: happiness.state_of_js
-    t: Задоволення JavaScript?
+    t: Задоволення JavaScript
+    aliases:
+      - usage.state_of_js_happiness
   - key: happiness.state_of_js.question
     t: Наскільки ви задоволені станом JavaScript загалом?
+    aliases:
+      - usage.state_of_js_happiness.question
 
   # Pain Points
 

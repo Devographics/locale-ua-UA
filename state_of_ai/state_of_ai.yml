@@ -23,6 +23,13 @@ translations:
     t: |
       Ця перша частина опитування про те, якими ШІ-інструментами ви користуєтеся та про які з них чули.
 
+  # risks_pain_points
+
+  - key: sections.risks_pain_points.title
+    t: Ризики та проблеми
+  - key: sections.risks_pain_points.prompt
+    t: Проблеми або ризики, пов'язані з використанням ШІ.
+
   # models
 
   - key: sections.models.title
@@ -32,11 +39,31 @@ translations:
 
   - key: tools.models_experience
     t: Досвід використання і ставлення до моделей
+    aliases:
+      - models.models_experience
+  - key: tools.models_experience.short
+    t: Досвід використання і ставлення
+    aliases:
+      - models.models_experience.short
+
+  - key: tools.models_ratios
+    t: Співвідношення моделей із часом
+    aliases:
+      - models.models_ratios
+  - key: tools.models_ratios.short
+    t: Співвідношення з часом
+    aliases:
+      - models.models_ratios.short
 
   - key: tools.models_others
     t: Інші моделі
+    aliases:
+      - models.models_others
+
   - key: tools.models_others.question
     t: Які ще моделі ви наразі використовуєте?
+    aliases:
+      - models.models_others.question
 
   - key: tools.models_pain_points
     t: Проблеми постачальників моделей
@@ -67,8 +94,12 @@ translations:
     t: Занадто узагальнені відповіді
   - key: options.ai_pain_points.overconfidence
     t: Надмірна впевненість
+
   - key: options.ai_pain_points.hallucinations_inaccuracies
     t: Галюцинації та неточності
+  - key: options.ai_pain_points.hallucinations_inaccuracies.description
+    t: Генерування некоректного коду з впевненістю
+
   - key: options.ai_pain_points.code_generation_issues
     t: Низька якість згенерованого коду
   - key: options.ai_pain_points.lack_of_understanding
@@ -107,13 +138,28 @@ translations:
     t: Обмежена корисність
   - key: options.ai_pain_points.free_plan_limitations
     t: Обмеження безкоштовних планів
+
   - key: options.ai_pain_points.ethical_concerns
     t: Етичні проблеми
+  - key: options.ai_pain_points.ethical_concerns.description
+    t: Занепокоєння щодо авторського права, атрибуції, несанкціонованого навчання тощо
+
   - key: options.ai_pain_points.slow_performance
     t: Низька швидкодія
 
   - key: options.ai_pain_points.cursor_pain_points
     t: Проблеми Cursor
+
+  # tools.models_paid_for
+  - key: tools.models_paid_for
+    t: Досвід використання і ставлення
+    aliases:
+      - models.models_paid_for
+
+  - key: tools.models_paid_for.question
+    t: За яку з наведених моделей ви або ваша компанія справді платите?
+    aliases:
+      - models.models_paid_for.question
 
   # coding_assistants
 
@@ -136,10 +182,73 @@ translations:
       - coding_assistants.coding_assistants_pain_points
       - ai_pain_points.coding_assistants_pain_points
   - key: tools.coding_assistants_pain_points.question
-    t: З якими проблемами ви стикалися під час використання асистентів/помічників для програмування?
+    t: З якими проблемами ви стикалися під час використання агентів/помічників для програмування?
     aliases:
       - coding_assistants.coding_assistants_pain_points.question
       - ai_pain_points.coding_assistants_pain_points.question
+
+  # coding_agents_assistants
+
+  - key: sections.coding_agents_assistants.title
+    t: Агенти та асистенти
+  - key: sections.coding_agents_assistants.prompt
+    t: ШІ-інструменти, які допомагають під час розробляння.
+
+  # coding_agents_assistants
+
+  - key: tools.coding_agents_assistants_experience
+    t: Досвід використання і ставлення до агентів/асистентів для програмування
+    aliases:
+      - coding_agents_assistants.coding_agents_assistants_experience
+
+  - key: tools.coding_agents_assistants_experience.short
+    t: Досвід використання і ставлення
+    aliases:
+      - coding_agents_assistants.coding_agents_assistants_experience.short
+
+  - key: tools.coding_agents_assistants_ratios
+    t: Співвідношення агентів та асистентів для програмування з часом
+    aliases:
+      - coding_agents_assistants.coding_agents_assistants_ratios
+
+  - key: tools.coding_agents_assistants_ratios.short
+    t: Співвідношення з часом
+    aliases:
+      - coding_agents_assistants.coding_agents_assistants_ratios.short
+
+  - key: tools.coding_agents_assistants_others
+    t: Інші агенти/асистенти для програмування
+    aliases:
+      - coding_agents_assistants.coding_agents_assistants_others
+  - key: tools.coding_agents_assistants_others.question
+    t: Які ще агенти чи асистенти для програмування ви наразі використовуєте?
+    aliases:
+      - coding_agents_assistants.coding_agents_assistants_others.question
+  - key: tools.coding_agents_assistants_others.short
+    t: Інші агенти/асистенти
+    aliases:
+      - coding_agents_assistants.coding_agents_assistants_others.short
+
+  - key: tools.coding_agents_assistants_pain_points
+    t: Проблеми агентів/асистентів для програмування
+    aliases:
+      - coding_agents_assistants.coding_agents_assistants_pain_points
+      - ai_pain_points.coding_agents_assistants_pain_points
+  - key: tools.coding_agents_assistants_pain_points.question
+    t: З якими проблемами ви стикалися під час використання агентів чи асистентів для програмування?
+    aliases:
+      - coding_agents_assistants.coding_agents_assistants_pain_points.question
+      - ai_pain_points.coding_agents_assistants_pain_points.question
+
+  # tools.coding_agents_assistants_paid_for
+  - key: tools.coding_agents_assistants_paid_for
+    t: Платне використання агентів
+    aliases:
+      - coding_agents_assistants.coding_agents_assistants_paid_for
+  - key: tools.coding_agents_assistants_paid_for.question
+    t: За якого з наведених агентів чи асистентів ви або ваша компанія справді платите?
+    aliases:
+      - coding_agents_assistants.coding_agents_assistants_paid_for.question
 
   # code_generation
 
@@ -191,6 +300,18 @@ translations:
     t: З якими проблемами ви стикалися під час використання інтегрованих середовищ розробки та редакторів коду, зосереджених на інтеграції ШІ?
     aliases:
       - ides.ides_pain_points.question
+
+  # ai_programming_languages
+
+  - key: other_tools.ai_programming_languages
+    t: Мови програмування
+    aliases:
+      - tools.ai_programming_languages
+  - key: other_tools.ai_programming_languages.question
+    t: З якими мовами програмування ви використовуєте ШІ-інструменти?
+    aliases:
+      - tools.ai_programming_languages.question
+
       - ai_pain_points.ides_pain_points.question
 
   # image_generation
@@ -208,25 +329,44 @@ translations:
   - key: tools.image_generation_others.question
     t: Які ще інструменти генерації зображень ви наразі використовуєте?
 
-  # ai_programming_languages
-
-  - key: other_tools.ai_programming_languages
-    t: Мови програмування
-    aliases:
-      - tools.ai_programming_languages
-  - key: other_tools.ai_programming_languages.question
-    t: З якими мовами програмування ви використовуєте ШІ-інструменти?
-    aliases:
-      - tools.ai_programming_languages.question
-
   - key: other_tools.image_generation
     t: Генерація зображень
     aliases:
       - tools.image_generation
   - key: other_tools.image_generation.question
-    t: Які ШІ-інструменти або -моделі ви використовуєте для генерації зображень?
+    t: Які ШІ-інструменти ви використовуєте для генерації зображень?
     aliases:
       - tools.image_generation.question
+
+  # video_generation
+
+  - key: other_tools.video_generation
+    t: Генерація відео
+  - key: other_tools.video_generation.question
+    t: Які ШІ-інструменти ви використовуєте для генерації відео?
+
+  # app_generation
+
+  - key: other_tools.app_generation
+    t: Генерація застосунків
+  - key: other_tools.app_generation.question
+    t: Які ШІ-інструменти ви використовуєте для генерації застосунків або вебсайтів?
+
+  # app_generation
+
+  - key: other_tools.code_review
+    t: Перевірка коду
+  - key: other_tools.code_review.question
+    t: Які ШІ-інструменти ви використовуєте для перевірки коду (Code Review) чи запитів на злиття (PR)?
+
+  # text_editors
+
+  - key: other_tools.text_editors
+    t: Редактори коду
+  - key: other_tools.text_editors.question
+    t: Які редактори коду ви регулярно використовуєте?
+  - key: other_tools.text_editors.prompt
+    t: Включно з редакторами без ШІ.
 
   # chatgpt
 
@@ -243,17 +383,6 @@ translations:
     t: Які ШІ-бібліотеки або -набори для розробки програмного забезпечення ви використовуєте?
     aliases:
       - tools.ai_libraries_sdks.question
-
-  # ai_browser_apis 
-
-  - key: other_tools.ai_browser_apis
-    t: API браузера
-    aliases:
-      - tools.ai_browser_apis
-  - key: other_tools.ai_browser_apis.question
-    t: Які API штучного інтелекту, на вашу думку, найбільше потребують нативного підтримування браузерами?
-    aliases:
-      - tools.ai_browser_apis.question
 
   # ai_tools_others
 
@@ -273,26 +402,44 @@ translations:
   - key: usage.ai_generated_code_balance.question
     t: Яку частку коду, який ви створюєте, згенеровано за допомогою ШІ?
   - key: usage.ai_generated_code_balance.prompt
-    t: Включно з кодом, скопійованим із ChatGPT або інших чат-ботів.
+    t: Включно з кодом, скопійованим із ChatGPT та інших чат-ботів або написаним разом із ШІ-інструментами.
 
   - key: options.ai_generated_code_balance.0
     t: 0% ШІ
+    aliases:
+      - options.css_ai_generated_code_balance.0
   - key: options.ai_generated_code_balance.1
     t: "|"
+    aliases:
+      - options.css_ai_generated_code_balance.1
   - key: options.ai_generated_code_balance.2
     t: "|"
+    aliases:
+      - options.css_ai_generated_code_balance.2
   - key: options.ai_generated_code_balance.3
     t: "|"
+    aliases:
+      - options.css_ai_generated_code_balance.3
   - key: options.ai_generated_code_balance.4
     t: "50%"
+    aliases:
+      - options.css_ai_generated_code_balance.4
   - key: options.ai_generated_code_balance.5
     t: "|"
+    aliases:
+      - options.css_ai_generated_code_balance.5
   - key: options.ai_generated_code_balance.6
     t: "|"
+    aliases:
+      - options.css_ai_generated_code_balance.6
   - key: options.ai_generated_code_balance.7
     t: "|"
+    aliases:
+      - options.css_ai_generated_code_balance.7
   - key: options.ai_generated_code_balance.8
     t: 100% ШІ
+    aliases:
+      - options.css_ai_generated_code_balance.8
 
   # - key: options.ai_generated_code_balance.1.short
   #   t: 12.5%
@@ -395,14 +542,38 @@ translations:
   - key: options.ai_code_refactoring_reasons.phantom_api_usage
     t: Використання вигаданих API
 
+  - key: options.ai_code_refactoring_reasons.architectural_issues
+    t: Проблеми архітектури
+  - key: options.ai_code_refactoring_reasons.not_following_conventions
+    t: Недотримання конвенцій коду
+  - key: options.ai_code_refactoring_reasons.css_styling_issues
+    t: Проблеми CSS і стилів
+  - key: options.ai_code_refactoring_reasons.understanding_and_learning
+    t: Покращення власного розуміння
+  - key: options.ai_code_refactoring_reasons.manual_speed_advantage
+    t: Швидше зробити вручну
+  - key: options.ai_code_refactoring_reasons.logic_and_edge_cases
+    t: Логіка граничних випадків
+  - key: options.ai_code_refactoring_reasons.personal_preference_and_taste
+    t: Особисті вподобання чи смаки
+
   # ai_personal_expenses
 
   - key: usage.ai_personal_expenses
     t: Особисті витрати
   - key: usage.ai_personal_expenses.question
-    t: Скільки ви самі витрачаєте на ШІ-інструменти на місяць (у доларах США)?
+    t: Скільки ви витрачаєте на ШІ-інструменти на місяць (у доларах США)?
   - key: usage.ai_personal_expenses.prompt
     t: Якщо ви працюєте на себе, то включно з приватними і професійними витратами.
+
+  # ai_personal_expenses BETTER VERSION, use that in 2026
+
+  # - key: usage.ai_personal_expenses
+  #   t: AI Expenses
+  # - key: usage.ai_personal_expenses.question
+  #   t: How much do the AI tools you use cost per month (in USD)?
+  # - key: usage.ai_personal_expenses.prompt
+  #   t: Either paid by yourself or by your company.
 
   - key: options.ai_personal_expenses.range_0
     t: $0
@@ -444,7 +615,7 @@ translations:
   - key: usage.ai_company_expenses.question
     t: Скільки ваша компанія витрачає на ШІ-інструменти на місяць (у доларах США)?
   - key: usage.ai_company_expenses.prompt
-    t: Якщо ви працюєте на себе, пропускайте це запитання.
+    t: Aбо якщо ви працюєте на себе, то та сама відповідь як на попереднє запитання.
 
   # ai_code_generation_frequency
 
@@ -583,6 +754,12 @@ translations:
     t: Шаблонний код
   - key: options.ai_generated_code_type.database_queries
     t: Запити до бази даних
+  - key: options.ai_generated_code_type.scripting
+    t: Скрипти
+  - key: options.ai_generated_code_type.all_of_the_above
+    t: Все перелічене
+    aliases:
+      - options.ai_risks.all_of_the_above
 
     # ai_uses
 
@@ -590,131 +767,6 @@ translations:
     t: Варіанти використання
   - key: usage.ai_uses.question
     t: Для чого ви використовуєте ШІ-інструменти?
-
-  - key: options.ai_uses.code_generation
-    t: Генерація коду
-    aliases:
-      - options.ai_browser_apis.code_generation
-
-  - key: options.ai_uses.code_generation.description
-    t: Генерація або рефакторинг коду залежно від підказок (prompts).
-    aliases:
-      - options.ai_browser_apis.code_generation.description
-
-  - key: options.ai_uses.translation
-    t: Переклад
-    aliases:
-      - options.ai_browser_apis.translation
-
-  - key: options.ai_uses.translation.description
-    t: Переклад вмісту з однієї мови на іншу.
-    aliases:
-      - options.ai_browser_apis.translation.description
-
-  - key: options.ai_uses.language_detection
-    t: Визначення мови
-    aliases:
-      - options.ai_browser_apis.language_detection
-
-  - key: options.ai_uses.language_detection.description
-    t: Визначення мови, якою написаний текст.
-    aliases:
-      - options.ai_browser_apis.language_detection.description
-
-  - key: options.ai_uses.summarization
-    t: Підсумовування
-    aliases:
-      - options.ai_browser_apis.summarization
-
-  - key: options.ai_uses.summarization.description
-    t: Резюмування основних тем тексту або набору даних.
-    aliases:
-      - options.ai_browser_apis.summarization.description
-
-  - key: options.ai_uses.text_generation
-    t: Генерація тексту
-    aliases:
-      - options.ai_browser_apis.text_generation
-
-  - key: options.ai_uses.text_generation.description
-    t: Генерація тексту залежно від підказок (prompts).
-    aliases:
-      - options.ai_browser_apis.text_generation.description
-
-  - key: options.ai_uses.image_generation
-    t: Генерація зображень
-    aliases:
-      - options.ai_browser_apis.image_generation
-
-  - key: options.ai_uses.image_generation.description
-    t: Генерація зображень залежно від підказок (prompts).
-    aliases:
-      - options.ai_browser_apis.image_generation.description
-
-  - key: options.ai_uses.speech_generation
-    t: Синтез мовлення
-    aliases:
-      - options.ai_browser_apis.speech_generation
-
-  - key: options.ai_uses.speech_generation.description
-    t: Синтез мовлення залежно від підказки (prompt) або для тексту.
-    aliases:
-      - options.ai_browser_apis.speech_generation.description
-
-  - key: options.ai_uses.speech_recognition
-    t: Розпізнавання мовлення
-    aliases:
-      - options.ai_browser_apis.speech_recognition
-
-  - key: options.ai_uses.speech_recognition.description
-    t: Перетворення записаного мовлення або мовлення в реальному часі в текст.
-    aliases:
-      - options.ai_browser_apis.speech_recognition.description
-
-  - key: options.ai_uses.computer_vision
-    t: Комп'ютерне бачення
-    aliases:
-      - options.ai_browser_apis.computer_vision
-
-  - key: options.ai_uses.computer_vision.description
-    t: Виявлення та визначення елементів у фото- чи відеоданих.
-    aliases:
-      - options.ai_browser_apis.computer_vision.description
-
-  - key: options.ai_uses.sentiment_analysis
-    t: Аналіз тональності
-    aliases:
-      - options.ai_browser_apis.sentiment_analysis
-
-  - key: options.ai_uses.sentiment_analysis.description
-    t: Класифікація текстових даних залежно від тональності (емоційного ставлення).
-    aliases:
-      - options.ai_browser_apis.sentiment_analysis.description
-
-  - key: options.ai_uses.caption_generation
-    t: Генерація підписів чи субтитрів
-    aliases:
-      - options.ai_browser_apis.caption_generation
-
-  - key: options.ai_uses.caption_generation.description
-    t: Генерація підписів (captions) чи субтитрів для зображень або відео.
-    aliases:
-      - options.ai_browser_apis.caption_generation.description
-
-  - key: options.ai_uses.learning_research
-    t: Навчання та дослідження
-    aliases:
-      - options.ai_browser_apis.learning_research
-
-  - key: options.ai_uses.learning_research.description
-    t: Здобуття нових навичок або дослідження певної теми.
-    aliases:
-      - options.ai_browser_apis.learning_research.description
-
-  - key: options.ai_uses.no_browser_ai_apis
-    t: Нічого
-    aliases:
-      - options.ai_browser_apis.no_browser_ai_apis
 
   - key: options.ai_uses.code_assistance
     t: Перегляд коду та асистування
@@ -727,11 +779,33 @@ translations:
   - key: options.ai_uses.data_manipulation_processing
     t: Обробка даних
 
+  - key: options.ai_uses.brainstorming
+    t: Мозковий штурм
+  - key: options.ai_uses.project_planning
+    t: Планування проєктів
+  - key: options.ai_uses.personal_assistant_duties
+    t: Обов'язки персонального асистента
+  - key: options.ai_uses.workflow_automation
+    t: Автоматизація робочих процесів
+  - key: options.ai_uses.entertainment_and_gaming
+    t: Розваги та ігри
+  - key: options.ai_uses.generating_documentation
+    t: Генерування документації
+
+  - key: options.ai_uses.ai_content_detection
+    t: Виявлення контенту, згенерованого за допомогою ШІ
+    aliases:
+      - options.ai_browser_apis.ai_content_detection
+
   # ai_pain_points
   - key: usage.ai_pain_points
     t: Проблеми
+    aliases:
+      - risks_pain_points.ai_pain_points
   - key: usage.ai_pain_points.question
-    t: На вашу думку, що є найголовнішими проблемами ШІ-інструментів?
+    t: На вашу думку, що є справді найголовнішими проблемами ШІ-інструментів?
+    aliases:
+      - risks_pain_points.ai_pain_points.question
 
   - key: options.ai_pain_points.misunderstood_prompt
     t: Розуміння підказок
@@ -801,29 +875,85 @@ translations:
 
   - key: usage.ai_missing_features
     t: Відсутні функції
+    aliases:
+      - risks_pain_points.ai_missing_features
   - key: usage.ai_missing_features.question
     t: Яких можливостей, на вашу думку, не вистачає в ШІ-інструментах?
+    aliases:
+      - risks_pain_points.ai_missing_features.question
 
   - key: options.ai_missing_features.larger_context_window
     t: Більше контекстне вікно
+  - key: options.ai_missing_features.larger_context_window.description
+    t: Здатність тримати більше даних у пам'яті
+
   - key: options.ai_missing_features.large_codebase_support
     t: Підтримування великих кодових баз
+  - key: options.ai_missing_features.large_codebase_support.description
+    t: Здатність працювати зі складними кодовими базами, монорепозиторіями тощо
+
   - key: options.ai_missing_features.up_to_date_knowledge
     t: Актуальні знання
-  - key: options.ai_missing_features.better_accuracy
-    t: Краща точність
-  - key: options.ai_missing_features.self_evaluation
-    t: Самооцінювання/самоаналіз
-  - key: options.ai_missing_features.higher_intelligence
-    t: Вищий рівень інтелекту
+  - key: options.ai_missing_features.up_to_date_knowledge.description
+    t: Доступ до найновіших версій бібліотек, документації тощо
+
   - key: options.ai_missing_features.system_integration
     t: Краща інтеграція інструментів
+  - key: options.ai_missing_features.system_integration.description
+    t: Краща інтеграція із системами, IDE, середовищами тощо
+
   - key: options.ai_missing_features.truthfulness
     t: Правдивість
+  - key: options.ai_missing_features.truthfulness.description
+    t: Змога довіряти коректності результатів ШІ
+
   - key: options.ai_missing_features.user_interaction
-    t: Кращі UI/UX
+    t: Гарні UI/UX
+  - key: options.ai_missing_features.user_interaction.description
+    t: Кращий UI/UX в інтерфейсах, згенерованих за допомогою ШІ
+
   - key: options.ai_missing_features.customization
     t: Більше налаштувань для себе
+  - key: options.ai_missing_features.customization.description
+    t: Змога налаштовувати поведінку ШІ для себе
+
+  - key: options.ai_missing_features.long_term_memory
+    t: Довготривала пам'ять
+  - key: options.ai_missing_features.long_term_memory.description
+    t: Відстеження патернів і рішень із часом
+
+  - key: options.ai_missing_features.high_level_planning
+    t: Високорівневе планування
+  - key: options.ai_missing_features.high_level_planning.description
+    t: Здатність проєктувати системи та обирати правильні абстракції
+
+  - key: options.ai_missing_features.runtime_behavior_awareness
+    t: Розуміння поведінки часу виконання
+  - key: options.ai_missing_features.runtime_behavior_awareness.description
+    t: Моделювання того, що станеться, коли код справді виконається
+
+  - key: options.ai_missing_features.ai_accountability
+    t: Підзвітність
+  - key: options.ai_missing_features.ai_accountability.description
+    t: Навчання на помилках і відстеження їхніх наслідків
+
+  - key: options.ai_missing_features.better_accuracy
+    t: Краща точність
+
+  - key: options.ai_missing_features.self_evaluation
+    t: Самооцінювання/самоаналіз
+
+  - key: options.ai_missing_features.higher_intelligence
+    t: Вищий рівень інтелекту
+
+  - key: options.ai_missing_features.ui_visual_understanding
+    t: Візуальне розуміння UI
+
+  - key: options.ai_missing_features.ethics
+    t: Етика
+
+  - key: options.ai_missing_features.trust_transparency_accountability
+    t: Довіра та прозорість
 
   # ai_happiness
 
@@ -831,10 +961,14 @@ translations:
     t: Задоволення
     aliases:
       - happiness.ai_happiness
+      - risks_pain_points.ai_happiness
   - key: usage.ai_happiness.question
     t: Наскільки ви задоволені поточним станом ШІ-інструментів для веброзробки?
     aliases:
       - happiness.ai_happiness.question
+      - risks_pain_points.ai_happiness.question
+
+  # OPINIONS
 
   # existential_risk
 
@@ -885,6 +1019,18 @@ translations:
   - key: opinions.reach_agi.question
     t: Ми досягнемо СШІ (AGI, ”справжній” штучний інтелект із мисленням) за наступні 10 років
 
+  # ai_bubble_currently
+  - key: opinions.ai_bubble_currently
+    t: Бульбашка ШІ
+  - key: opinions.ai_bubble_currently.question
+    t: Ми наразі в “ШІ-бульбашці”
+
+  - key: opinions.ai_quality_improving
+    t: Покращення ШІ
+  - key: opinions.ai_quality_improving.question
+    t: Якість ШІ-інструментів значно покращилася загалом за рік
+
+  # RESOURCES
   # courses
 
   - key: resources.ai_courses
@@ -957,6 +1103,12 @@ translations:
   - key: faq.team.description
     t: Це опитування проводить команда [Devographics](https://devographics.com/) із допомогою від спільноти та волонтерів.
 
+  ###########################################################################
+  # Variant Tabs
+  ###########################################################################
+
+  - key: tabs.by_claude_code_usage
+    t: Використання Claude Code
 
   ###########################################################################
   # Entities found only in surveys repo - https://github.com/Devographics/surveys

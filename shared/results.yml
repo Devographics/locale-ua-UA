@@ -43,6 +43,9 @@ translations:
   - key: general.all_editions
     t: Детальніше…
 
+  - key: general.view_full_results
+    t: Переглянути детальні результати »
+
   ###########################################################################
   # Tabs
   ###########################################################################
@@ -105,6 +108,8 @@ translations:
     t: За операційною системою
   - key: tabs.vs_company_size
     t: та розмір компанії
+  - key: tabs.browsers_not_big_4
+    t: Неосновні браузери
 
   - key: tabs.all_pain_points
     t: Усі проблеми
@@ -162,10 +167,10 @@ translations:
       Частка респондентів із **позитивним ставленням** з-поміж усіх
   - key: ratios.positivityRelative.description
     t: >
-      Частка респондентів із **позитивним ставленням** з-поміж тих, хто висловив ставлення.
+      Частка респондентів із **позитивним ставленням** з-поміж тих, хто висловив ставлення, незалежно від досвіду.
   - key: ratios.appreciation.description
     t: >
-      Різниця між **зацікавленістю** (**позитивне ставлення** з-поміж респондентів, які "чули про це") і **вдоволенням** (**позитивне ставлення** з-поміж респондентів, які "використовували це"), у відсоткових пунктах.
+      Різниця між **зацікавленістю** (**позитивне ставлення** з-поміж респондентів, які "чули про це") і **вдоволенням** (**позитивне ставлення** з-поміж респондентів, які "використовували це"), у відсоткових пунктах. Тобто наскільки більше респондентам подобається щось після користування, як порівняти з тим, коли вони лише чули про це.
 
   - key: modes.rank
     t: Ранг
@@ -656,73 +661,6 @@ translations:
     t: Керівники технологічного напряму
 
   ###########################################################################
-  # Locales
-  ###########################################################################
-
-  - key: options.locale.en-US
-    t: Англійська
-  - key: options.locale.ca-ES
-    t: Каталонська
-  - key: options.locale.es-ES
-    t: Іспанська
-  - key: options.locale.ru-RU
-    t: Російська
-  - key: options.locale.fr-FR
-    t: Французька
-  - key: options.locale.zh-Hant
-    t: Китайська (традиційна)
-  - key: options.locale.de-DE
-    t: Німецька
-  - key: options.locale.cs-CZ
-    t: Чеська
-  - key: options.locale.pt-PT
-    t: Португальська
-  - key: options.locale.pt-BR
-    t: Бразильська португальська
-  - key: options.locale.it-IT
-    t: Італійська
-  - key: options.locale.sv-SE
-    t: Шведська
-  - key: options.locale.tr-TR
-    t: Турецька
-  - key: options.locale.id-ID
-    t: Індонезійська
-  - key: options.locale.hi-IN
-    t: Хінді
-  - key: options.locale.zh-Hans
-    t: Китайська (спрощена)
-  - key: options.locale.ja-JP
-    t: Японська
-  - key: options.locale.ua-UA
-    t: Українська
-  - key: options.locale.pl-PL
-    t: Польська
-  - key: options.locale.fa-IR
-    t: Фарсі
-  - key: options.locale.nl-NL
-    t: Нідерландська
-  - key: options.locale.ko-KR
-    t: Корейська
-  - key: options.locale.ro-RO
-    t: Румунська
-  - key: options.locale.am-ET
-    t: Амхарська
-  - key: options.locale.ar-EG
-    t: Арабська
-  - key: options.locale.el-GR
-    t: Грецька
-  - key: options.locale.gl-ES
-    t: Галісійська
-  - key: options.locale.hr-HR
-    t: Хорватська
-  - key: options.locale.hu-HU
-    t: Угорська
-  - key: options.locale.sk-SK
-    t: Словацька
-  - key: options.locale.vi-VN
-    t: В'єтнамська
-
-  ###########################################################################
   # Features
   ###########################################################################
 
@@ -773,6 +711,8 @@ translations:
 
   - key: tools.all_items.experience
     t: Досвід використання і ставлення до бібліотек
+    aliases:
+      - libraries.all_tools_experience
 
   - key: tools.all_items.experience.short
     aliasFor: tools.experience
@@ -891,7 +831,7 @@ translations:
 
   # tools quadrant
   - key: blocks.tools_quadrant
-    t: Порівняння утримання і використання
+    t: Порівняння вдоволення і використання
     aliases:
       - tools.scatterplot_overview
       - libraries.scatterplot_overview
@@ -1538,24 +1478,6 @@ translations:
     t: 'Результати опитування "{siteTitle}"'
   - key: share.block.body
     t: "Ось деякі цікаві результати опитування ({title}): {link}"
-  - key: share.twitter
-    t: Поділитися у Twitter
-  - key: share.bluesky
-    t: Поділитися у Bluesky
-  - key: share.mastodon
-    t: Поділитися у Mastodon
-  - key: share.facebook
-    t: Поділитися у Facebook
-  - key: share.linkedin
-    t: Поділитися в LinkedIn
-  - key: share.email
-    t: Поділитися на електронну адресу
-  - key: share.image
-    t: Завантажити зображення
-  - key: share.link
-    t: Посилання на секцію
-  - key: share.url
-    t: Скопіювати посилання
   - key: share.close
     t: Закрити
 
@@ -2492,6 +2414,18 @@ translations:
     t: Корисні джерела
 
   ###########################################################################
+  # Download
+  ###########################################################################
+
+  - key: sections.download.title
+    t: |
+      Завантажити набір даних
+
+  - key: sections.download.description
+    t: |
+      Ви можете отримати повний набір даних у форматі CSV безкоштовно — [приєднайтеся до нашої групи в Discord](https://discord.gg/2E7bbgnrJJ) та надішліть запит у каналі **#general**.
+
+  ###########################################################################
   # Sponsors
   ###########################################################################
 
@@ -2530,6 +2464,40 @@ translations:
 
   - key: sponsors.webstorm.description
     t: Насолоджуйтеся більш продуктивним програмуванням за допомогою IDE для JavaScript з усім необхідним.
+
+  - key: sponsors.sentry.description
+    t: Платформа моніторингу застосунків, яка до вподоби розробникам з усього світу.
+
+  - key: sponsors.clerk.description
+    t: Повностекове управління автентифікацією та користувачами для швидшого запуску та простішого масштабування.
+
+  - key: sponsors.certificates_dev.description
+    t: Розробницькі сертифікації, створені авторами фреймворків.
+
+  # midpage sponsors blocks
+
+  - key: tokyodev.relocation
+    t: |
+      Знайдіть роботу в Японії
+
+  - key: tokyodev.relocation.description
+    t: |
+      Релокація до Японії не має залишатися мрією. Вичерпний курс приїзду розробника в Японію від TokyoDev охоплює такі теми, як робота в японській компанії, очікуваний заробіток, доступні візи та складність їх отримання.
+
+  - key: frontendmasters.learning_path
+    t: |
+      Ваш шлях до того, щоб стати старшим веброзробником
+
+  - key: frontendmasters.learning_path.description
+    t: |
+      Хочете покращити свою кар'єру? Заглибтеся у JavaScript, React, швидкодію у вебі, CSS, розгортання вебсайтів, TypeScript та функціональне програмування, щоб перейти від молодшого до старшого рівня вже сьогодні.
+
+  - key: storyblok.technologies
+    t: React? Vue? Astro? JS?
+
+  - key: storyblok.technologies.description
+    t: |
+      Неважливо, ми спілкуємося у форматі JSON. Storyblok — це Headless CMS, яка працює з усіма сучасними фреймворками та платформами, тож ви можете вільно вибрати найкращий варіант для свого проєкту. Почніть за лічені хвилини!
 
   ###########################################################################
   # Entities repo - https://github.com/Devographics/entities

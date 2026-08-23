@@ -705,6 +705,24 @@ translations:
   # - key: features.accessibility_features.question
   #   t: Які з наведених функцій доступності ви використовували?
 
+  # accessibility_ai_impact
+  - key: features.accessibility_ai_impact
+    t: Вплив ШІ
+  - key: features.accessibility_ai_impact.question
+    t: Як, за вашим досвідом, програмування за допомогою ШІ впливає на доступність у вебі?
+
+  - key: options.accessibility_ai_impact.0
+    t: Дуже негативно
+  - key: options.accessibility_ai_impact.1
+    t: Негативно
+  - key: options.accessibility_ai_impact.2
+    t: Нейтрально/не впливає
+  - key: options.accessibility_ai_impact.3
+    t: Позитивно
+  - key: options.accessibility_ai_impact.4
+    t: Дуже позитивно
+
+  # accessibility_tools
   - key: features.accessibility_tools
     t: Інструменти доступності
     aliases:
@@ -1376,6 +1394,7 @@ translations:
   - key: usage.html_pain_points_freeform.question
     t: Які ще проблеми HTML та суміжних технологій найбільше вас розчаровують?
 
+  # html_css_js_balance
   - key: usage.html_css_js_balance
     t: Співвідношення HTML/CSS і JS/TS
   - key: usage.html_css_js_balance.question
@@ -1437,6 +1456,33 @@ translations:
   - key: options.html_styling_issues.fieldset_and_legend
     t: |
       `<fieldset>` та `<legend>`
+
+  # progressive_enhancement_priority
+
+  - key: usage.progressive_enhancement_priority
+    t: Поступове покращення (Progressive Enhancement)
+  - key: usage.progressive_enhancement_priority.question
+    t: Чи важливо у вашій роботі, щоб вебсайти або вебзастосунки, які ви створюєте, могли працювати без JavaScript?
+
+  - key: options.progressive_enhancement_priority.not_a_concern
+    t: Неважливо
+  - key: options.progressive_enhancement_priority.not_a_concern.description
+    t: Вважають, що JavaScript завжди увімкнений для всіх користувачів
+
+  - key: options.progressive_enhancement_priority.low_priority
+    t: Низький пріоритет
+  - key: options.progressive_enhancement_priority.low_priority.description
+    t: Дотримуються найкращих практик, але не витрачають додатковий час на функціональність без JavaScript 
+
+  - key: options.progressive_enhancement_priority.high_priority
+    t: Високий пріоритет
+  - key: options.progressive_enhancement_priority.high_priority.description
+    t: Окремо приділяють час на тестування, рефакторинг тощо без JS
+
+  - key: options.progressive_enhancement_priority.required
+    t: Обов'язково
+  - key: options.progressive_enhancement_priority.required.description
+    t: Сайти та застосунки повинні працювати без увімкненого JavaScript.
 
   ###########################################################################
   # Opinions
