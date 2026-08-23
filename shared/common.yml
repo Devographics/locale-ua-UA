@@ -2080,7 +2080,7 @@ translations:
     t: Бажаєте отримати сповіщення, коли будуть опубліковані результати опитування?
   - key: user_info.receive_notifications.note
     t: >
-      You email address will be added to our mailing list, but it will not be connected to your survey answers in any way.
+      Вашу адресу електронної пошти буде додано до нашого списку розсилання, але вона жодним чином не буде пов'язана з вашими відповідями в опитуванні.
 
   # how can we improve the survey?
   - key: user_info.did_you_run_into_technical_issues
